@@ -93,21 +93,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\..\ImageTest\ImageTest\data\background.png">
-      <Link>Data\background.png</Link>
-    </Content>
-    <Content Include="..\..\ImageTest\ImageTest\data\habitat.png">
-      <Link>Data\habitat.png</Link>
-    </Content>
-    <Content Include="..\..\ImageTest\ImageTest\data\image.png">
-      <Link>Data\image.png</Link>
-    </Content>
-    <Content Include="..\..\ImageTest\ImageTest\data\platforms.png">
-      <Link>Data\platforms.png</Link>
-    </Content>
-    <Content Include="..\..\ImageTest\ImageTest\data\thruster.png">
-      <Link>Data\thruster.png</Link>
-    </Content>
     <Content Include="App\blue-box.html" />
     <Content Include="App\card-image.html" />
     <Content Include="App\card-formatter.html" />
@@ -316,6 +301,12 @@
     <Content Include="bower_components\webcomponentsjs\webcomponents-lite.min.js" />
     <Content Include="bower_components\webcomponentsjs\webcomponents.js" />
     <Content Include="bower_components\webcomponentsjs\webcomponents.min.js" />
+    <Content Include="Data\background.png" />
+    <Content Include="Data\habitat.png" />
+    <Content Include="Data\image.png" />
+    <Content Include="Data\image.real.png" />
+    <Content Include="Data\platforms.png" />
+    <Content Include="Data\thruster.png" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\opentype.js" />
     <Content Include="Scripts\underscore.js" />
@@ -386,21 +377,11 @@
     <Content Include="bower_components\iron-iconset-svg\README.md" />
     <Content Include="bower_components\iron-icons\bower.json" />
     <Content Include="bower_components\iron-icons\README.md" />
-    <Content Include="..\..\ImageTest\ImageTest\data\Aharoni-True.ttf">
-      <Link>Data\Aharoni-True.ttf</Link>
-    </Content>
-    <Content Include="..\..\ImageTest\ImageTest\data\cards.json">
-      <Link>Data\cards.json</Link>
-    </Content>
-    <Content Include="..\..\ImageTest\ImageTest\data\fewCards.json">
-      <Link>Data\fewCards.json</Link>
-    </Content>
-    <Content Include="..\..\ImageTest\ImageTest\data\newTemplate.json">
-      <Link>Data\newTemplate.json</Link>
-    </Content>
-    <Content Include="..\..\ImageTest\ImageTest\data\templates.json">
-      <Link>Data\templates.json</Link>
-    </Content>
+    <Content Include="Data\Aharoni-True.ttf" />
+    <Content Include="Data\cards.json" />
+    <Content Include="Data\fewCards.json" />
+    <Content Include="Data\newTemplate.json" />
+    <Content Include="Data\templates.json" />
     <None Include="Properties\PublishProfiles\CardFormatter.pubxml" />
     <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">

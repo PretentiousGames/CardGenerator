@@ -46,11 +46,13 @@
             _.each(elements, function (element) {
                 if (element.type === 'image') {
                     var imageNode = card[element.name];
-                    var constant = element.constant || imageNode.constant;
-                    var imageName = (constant ? template.constants[constant] : imageNode.name).toLocaleLowerCase();
-                    var imageObj = _.where(imageFiles, { name: imageName })[0];
-                    if (imageObj) {
-                        images[element.name] = imageObj.image;
+                    if (imageNode) {
+                        var constant = element.constant || imageNode.constant;
+                        var imageName = (constant ? template.constants[constant] : imageNode.name).toLocaleLowerCase();
+                        var imageObj = _.where(imageFiles, { name: imageName })[0];
+                        if (imageObj) {
+                            images[element.name] = imageObj.image;
+                        }
                     }
                 }
             });
