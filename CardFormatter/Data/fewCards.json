@@ -1,0 +1,9 @@
+﻿[
+    {
+        "name": "2.1",
+        "orientation": "vertical",
+        "type": { "constant": "shieldingType" },
+        "title": "Level I",
+        "rules": [ "+1", { "constant": "hardinessSymbol" } ]
+    }
+]
