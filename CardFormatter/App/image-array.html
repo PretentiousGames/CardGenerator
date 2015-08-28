@@ -1,0 +1,28 @@
+﻿<dom-module id="image-array">
+    <style>
+    </style>
+
+    <template>
+        <div>
+            <template is="dom-repeat" items="{{files.data}}">
+                <div>
+                    <card-image item="{{item}}" options="{{options}}" files="{{files}}"></card-image>
+                </div>
+            </template>
+        </div>
+    </template>
+
+    <script>
+        Polymer({
+            is: "image-array",
+            properties: {
+                files: {
+                    type: Object,
+                },
+                options: {
+                    type: Object,
+                }
+            },
+        });
+    </script>
+</dom-module>

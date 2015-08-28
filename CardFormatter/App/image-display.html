@@ -1,0 +1,26 @@
+﻿<dom-module id="image-display">
+    <style>
+    </style>
+
+    <template>
+        <div>
+            <image-display-options options="{{options}}"></image-display-options>
+
+            <image-array files="{{files}}" options="{{options}}"></image-array>
+        </div>
+    </template>
+
+    <script>
+        Polymer({
+            is: "image-display",
+            properties: {
+                files: {
+                    type: Object,
+                },
+                options: {
+                    type: Object,
+                }
+            },
+        });
+    </script>
+</dom-module>

@@ -1,0 +1,68 @@
+﻿<dom-module id="card-image">
+    <style>
+    </style>
+
+    <template>
+        <div>
+            <!--<span>{{_getJson(item)}}</span>-->
+            <a id="anchor" download="{{fileName}}"><canvas height="{{displayHeight}}" width="{{displayWidth}}" id="canvas" /></a>
+        </div>
+    </template>
+
+    <script>
+        Polymer({
+            is: "card-image",
+            properties: {
+                item: {
+                    type: Object//,
+                    //observer: '_somethingChanged'
+                },
+                files: {
+                    type: Object//,
+                    //observer: '_somethingChanged'
+                },
+                options: {
+                    type: Object//,
+                    //observer: '_somethingChanged'
+                },
+                displayHeight: { type: Number, value: 10 },
+                displayWidth: { type: Number, value: 10 },
+                fileName: { type: String, value: "image.png" },
+            },
+            observers: [
+              '_somethingChanged(item.*)',
+              '_somethingChanged(files.*)',
+              '_somethingChanged(options.*)'
+            ],
+            _getJson: function (obj) {
+                return JSON.stringify(obj);
+            },
+            _somethingChanged: function() {
+                this._updateImage();
+            },
+            _updateImage: function () {
+                var poly = this;
+                if (!poly.files || !poly.options || !poly.files.template) {
+                    return;
+                }
+                var fullWidth = poly.files.template.fullWidth;
+                var fullHeight = poly.files.template.fullHeight;
+                var sizePercent = poly.options.zoom;
+                var displayWidth = fullWidth / (100.0 / sizePercent);
+                var displayHeight = fullHeight / (100.0 / sizePercent);
+                var canvas = poly.$.canvas;
+                if (poly.item.orientation === 'vertical') {
+                    poly.set('displayWidth', displayWidth);
+                    poly.set('displayHeight', displayHeight);
+                } else {
+                    poly.set('displayWidth', displayHeight);
+                    poly.set('displayHeight', displayWidth);
+                }
+                poly.item.canvas = canvas;
+                poly.set('fileName', poly.item.name + '.png');
+
+                cardFormatter.cardDrawer.drawCard(poly.files.template, poly.item, poly.files.images, poly.files.fonts, function () { });
+            },
+        });
+    </script>
+</dom-module>

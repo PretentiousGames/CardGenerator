@@ -1,0 +1,173 @@
+﻿<dom-module id="file-uploader">
+    <style>
+        .error {
+            color: darkred;
+        }
+
+        .ok {
+            color: green;
+        }
+    </style>
+
+    <template>
+        <div>
+            <blue-box unclosable>
+                <div>
+                    Template: <input type="file" id="templateInput" />
+                    <span class="error" hidden$="[[_isFinished(files.template.complete, files.template.count)]]"><iron-icon icon="icons:error" title="Select a template!"></iron-icon></span>
+                    <span class="ok" hidden$="[[!_isFinished(files.template.complete, files.template.count)]]"><iron-icon icon="icons:check" title="template loaded!"></iron-icon></span>
+                </div>
+                <div>
+                    Datafile: <input type="file" id="cardsInput" />
+                    <span class="error" hidden$="[[_isFinished(files.data.complete, files.data.count)]]"><iron-icon icon="icons:error" title="Select a datafile!"></iron-icon></span>
+                    <span class="ok" hidden$="[[!_isFinished(files.data.complete, files.data.count)]]"><iron-icon icon="icons:check" title="datafile loaded!"></iron-icon></span>
+                </div>
+                <div>
+                    Images: <input type="file" id="imagesInput" multiple />
+                    <span class="error" hidden$="[[_isFinished(files.images.complete,files.images.count)]]"><iron-icon icon="icons:error" title="Select images!"></iron-icon></span>
+                    <span class="ok" hidden$="[[!_isFinished(files.images.complete,files.images.count)]]"><iron-icon icon="icons:check" title="images loaded!"></iron-icon></span>
+                </div>
+                <div>
+                    Fonts: <input type="file" id="fontsInput" multiple/>
+                    <span class="error" hidden$="[[_isFinished(files.fonts.complete,files.fonts.count)]]"><iron-icon icon="icons:error" title="Select a fonts!"></iron-icon></span>
+                    <span class="ok" hidden$="[[!_isFinished(files.fonts.complete,files.fonts.count)]]"><iron-icon icon="icons:check" title="fonts loaded!"></iron-icon></span>
+                </div>
+            </blue-box>
+        </div>
+    </template>
+
+    <!--/*
+    <div>Template:<span>{{files.template}}</span></div>
+    <div>Data:<span>{{files.data}}</span></div>
+    <div>Images:<span>{{files.images.complete}}</span> of <span>{{files.images.count}}</span></div>
+    <div>Fonts:<span>{{files.fonts.complete}}</span> of <span>{{files.fonts.count}}</span></div>
+    */-->
+
+    <script>
+        Polymer({
+            is: "file-uploader",
+            properties: {
+                files: {
+                    type: Object,
+                    value: { isReady: function () { return false; }, template: { complete: 0, count: 0 }, data: [], images: [], fonts: [] },
+                    notify: true
+                },
+            },
+            _isExistent: function (thing) {
+                return thing !== null;
+            },
+            _isFinished: function (complete, count) {
+                if (complete && count) {
+                    return complete === count;
+                }
+                return false;
+            },
+            ready: function () {
+                var poly = this;
+                poly.set('files.images.count', 0);
+                poly.set('files.images.complete', 0);
+                poly.set('files.fonts.count', 0);
+                poly.set('files.fonts.complete', 0);
+            },
+            attached: function () {
+                var poly = this;
+                var templateLoader = poly.$.templateInput;
+                var dataLoader = poly.$.cardsInput;
+                var imageLoader = poly.$.imagesInput;
+                var fontLoader = poly.$.fontsInput;
+                var files = poly.files;
+                
+                poly.set('files.data.count', 0);
+                poly.set('files.data.complete', 0);
+
+                var handleFiles = function (setup, callback, readFunctionName) {
+                    readFunctionName = readFunctionName || 'readAsText';
+                    return function (e) {
+                        setup(e);
+                        if (typeof (e.target.files[0]) === "undefined") { return; }
+                        _.each(e.target.files, function (file, index) {
+                            var reader = new FileReader();
+                            reader.onload = function (event) {
+                                callback(event, file, index);
+                            }
+                            reader[readFunctionName](file);
+                        });
+                    };
+                };
+
+                templateLoader.addEventListener('change', handleFiles(
+                    function() {
+                        poly.set('files.template', null); 
+                        poly.set('files.template.count', 1);
+                        poly.set('files.template.complete', 0);
+                    },
+                    function (event) {
+                        try {
+                            poly.set('files.template', JSON.parse(event.target.result));
+                            poly.set('files.template.count', 1);
+                            poly.set('files.template.complete', 1);
+                        } catch (e) {
+                            if (e.name === 'SyntaxError') {
+
+                            } else {
+                                throw e;
+                            }
+                        }
+                    }), false);
+                dataLoader.addEventListener('change', handleFiles(
+                    function() {
+                        poly.set('files.data', []); 
+                        poly.set('files.data.count', 1);
+                        poly.set('files.data.complete', 0);
+                    },
+                    function(event) {
+                        try {
+                        poly.set('files.data', JSON.parse(event.target.result));
+                        poly.set('files.data.count', 1);
+                        poly.set('files.data.complete', 1);
+                    } catch (e) {
+                        if (e.name === 'SyntaxError') {
+
+                        } else {
+                            throw e;
+                        }
+                    }
+                    }), false);
+
+                imageLoader.addEventListener('change', handleFiles(
+                    function (event) {
+                        poly.set('files.images', []);
+                        poly.set('files.images.count', event.target.files.length);
+                        poly.set('files.images.complete', 0);
+                    },
+                    function (event, file) {
+                        var img = new Image();
+                        img.onload = function () {
+                            poly.push('files.images', { name: file.name.toLocaleLowerCase(), image: img });
+                            poly.set('files.images.complete', files.images.complete + 1);
+                            poly.notifyPath('files.images', files.images);
+                        }
+                        img.src = event.target.result;
+                    },
+                    'readAsDataURL'), false);
+                fontLoader.addEventListener('change', handleFiles(
+                    function (event) {
+                        poly.set('files.fonts', []);
+                        poly.set('files.fonts.count', event.target.files.length);
+                        poly.set('files.fonts.complete', 0);
+                    },
+                    function (event, file) {
+                        try {
+                            var font = opentype.parse(event.target.result);
+                            poly.push('files.fonts', { name: file.name.toLocaleLowerCase(), font: font});
+                            poly.set('files.fonts.complete', files.fonts.complete + 1);
+                            poly.notifyPath('files.fonts', files.fonts);
+                        } catch (err) {
+                            console.log(err);
+                        }
+                    },
+                    'readAsArrayBuffer'), false);
+            },
+        });
+    </script>
+</dom-module>

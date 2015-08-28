@@ -1,0 +1,42 @@
+﻿<dom-module id="blue-box">
+    <style>
+        div {
+            border: 1px solid #ccc;
+            background: azure;
+            padding: .5em;
+            margin: .5em 0;
+            display: inline-block;
+        }
+
+            div[hidden] {
+                display: none;
+            }
+    </style>
+
+    <template>
+        <div hidden$="{{closed}}">
+            <close-button hidden$="{{unclosable}}" on-click="closeRequested"></close-button>
+            <content></content>
+        </div>
+    </template>
+
+    <script>
+        Polymer({
+            is: "blue-box",
+            properties: {
+                unclosable: {
+                    type: Boolean,
+                    value: false
+                },
+                closed: {
+                    type: Boolean,
+                    value: false
+                },
+            },
+            closeRequested: function () {
+                this.closed = true;
+            },
+        });
+    </script>
+
+</dom-module>

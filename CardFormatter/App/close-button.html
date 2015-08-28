@@ -1,0 +1,22 @@
+﻿<dom-module id="close-button">
+    <style>
+        div {
+            float: right;
+        }
+    </style>
+
+    <template>
+        <div>
+            <paper-button raised on-click="onClickX">X</paper-button>
+        </div>
+    </template>
+
+    <script>
+        Polymer({
+            is: "close-button",
+            onClickX: function() {
+                this.fire('click-x');
+            }
+        });
+    </script>
+</dom-module>
