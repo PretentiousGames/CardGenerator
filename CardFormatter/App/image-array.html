@@ -1,11 +1,15 @@
 ﻿<dom-module id="image-array">
     <style>
+        .imageDiv {
+            display: inline-block;
+        }
+         
     </style>
 
     <template>
         <div>
             <template is="dom-repeat" items="{{files.data}}">
-                <div>
+                <div class="imageDiv">
                     <card-image item="{{item}}" options="{{options}}" files="{{files}}"></card-image>
                 </div>
             </template>

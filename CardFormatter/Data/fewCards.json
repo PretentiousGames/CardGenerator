@@ -1,5 +1,21 @@
 ﻿[
-    {
+  {
+    "name": "3.1",
+    "orientation": "vertical",
+    "type": { "constant": "plantType" },
+    "imageIcon": { "constant": "plant" },
+    "title": "Alfalfa",
+    "hardiness": "2",
+    "support": "1",
+    "rules": [
+      "Needs 1:",
+      { "constant": "sun" },
+      "\nGives:",
+      { "constant": "leaves" },
+      "x2"
+    ]
+  },
+  {
         "name": "2.1",
         "orientation": "vertical",
         "type": { "constant": "shieldingType" },

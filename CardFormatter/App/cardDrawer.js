@@ -46,7 +46,7 @@
             _.each(elements, function (element) {
                 if (element.type === 'image') {
                     var imageNode = card[element.name];
-                    if (imageNode) {
+                    if (imageNode || element.constant) {
                         var constant = element.constant || imageNode.constant;
                         var imageName = (constant ? template.constants[constant] : imageNode.name).toLocaleLowerCase();
                         var imageObj = _.where(imageFiles, { name: imageName })[0];
@@ -144,23 +144,45 @@
     //The textDrawer member of the namespace
     (function () {
         var getRuns = function (obj) {
-            var copyBaseStyles = function (val) {
-                val.styles = _.extend({}, obj.styles, val.styles);
+            var addFixes = function (val) {
+                var prefix;
+                var suffix;
+                if (obj.prefix) {
+                    prefix = obj.prefix.constant ? template.constants[obj.prefix.constant] :
+                      obj.prefix.text ? obj.prefix.text : obj.prefix;
+                }
+                if (obj.suffix) {
+                    suffix = obj.suffix.constant ? template.constants[obj.suffix.constant] :
+                      obj.suffix.text ? obj.suffix.text : obj.suffix;
+                }
+                if (prefix) {
+                    val.unshift({ text: prefix, styles: obj.styles });
+                }
+                if (suffix) {
+                    val.push({ text: suffix, styles: obj.styles });
+                }
                 return val;
             };
+            var findText = function (val) {
+                var copyBaseStyles = function (val) {
+                    val.styles = _.extend({}, obj.styles, val.styles);
+                    return val;
+                };
 
-            if (obj.text) {
-                return [{ text: obj.text, styles: obj.styles }];
-            } else if (obj.constant) {
-                return _.map(getRuns(template.constants[obj.constant]), copyBaseStyles);
-            } else if (obj.name && obj.card[obj.name]) {
-                return _.map(getRuns(obj.card[obj.name]), copyBaseStyles);
-            } else if (_.isArray(obj)) {
-                return _.flatten(_.map(obj, getRuns));
-            } else if (_.isString(obj)) {
-                return [{ text: obj }];
-            }
-            return [];
+                if (val.text) {
+                    return [{ text: val.text, styles: val.styles }];
+                } else if (val.constant) {
+                    return _.map(getRuns(template.constants[val.constant]), copyBaseStyles);
+                } else if (val.name && val.card[val.name]) {
+                    return _.map(getRuns(val.card[val.name]), copyBaseStyles);
+                } else if (_.isArray(val)) {
+                    return _.flatten(_.map(val, getRuns));
+                } else if (_.isString(val)) {
+                    return [{ text: val }];
+                }
+                return [];
+            };
+            return addFixes(findText(obj));
         };
         var reduceRuns = function (memo, item) {
             var lines = item.text.split('\n');
@@ -394,227 +416,7 @@
             context.font = oldFont;
         };
 
-        var buildStyles = function () {
-            var styleObj = {};
-            for (var i = 0; i < arguments.length; i++) {
-                _.each(arguments[i], function (style, name) {
-                    if (typeof styleObj[name] === 'undefined') {
-                        styleObj[name] = style;
-                    }
-                });
-            }
-            return styleObj;
-        };
-
-        var drawNText = function (canvas, context, fonts, runs, object) {
-            var justification = object.style.justification || template.justification || 'left';
-            var alignment = object.style.alignment || template.alignment || 'top';
-            var maxFontSize = object.style.maxFontSize || template.maxFontSize || 100.0;
-            var minFontSize = object.style.minFontSize || template.minFontSize || 15.0;
-            var font = object.style.font || template.font || 'Arial';
-            var lineHeight = object.style.lineHeight || template.lineHeight || 1.0;
-            var offset = object.style.offset || template.offset || 0.0;
-            var noWrap = object.style.noWrap || template.noWrap || false;
-            var shadowStrength = object.style.outerShadowStrength || template.shadowStrength || 1;
-            var rotate = object.style.rotate || template.rotate || 0;
-            var lastLineHeight = object.style.lastLineHeight || template.lastLineHeight || lineHeight;
-            var ySize = object.ySize;
-            var xSize = object.xSize;
-            var x = object.x;
-            var y = object.y;
-
-            var fontObj = fonts[font.toLocaleLowerCase()];
-
-            var items = _.reduce(runs, reduceRuns, []);
-            var oldFont = context.font;
-            var fontSize = maxFontSize;
-            var line;
-            var lines;
-
-            var oldStyles = {};
-            var setStyles = function (styles) {
-                oldStyles = {};
-                oldStyles.font = context.font;
-                _.each(styles, function (style, name) {
-                    if (!oldStyles[name]) {
-                        oldStyles[name] = context[name];
-                    }
-                    context[name] = style;
-                });
-                if (!context.fillStyle) {
-                    context.fillStyle = '#000';
-                }
-            };
-            var resetStyles = function () {
-                _.each(oldStyles, function (style, name) {
-                    context[name] = style;
-                });
-            };
-
-            do {
-                line = {
-                    words: []
-                };
-                lines = [];
-                var cy = lastLineHeight * fontSize;
-
-                var currentLineWords = 0;
-                var currentLineWidth = 0;
-                var beginNewLine = function (nextLine) {
-
-                    var lastWord = line.words[line.words.length - 1];
-                    while (lastWord.text === ' ') {
-                        line.words.pop();
-                        currentLineWidth -= lastWord.width;
-                        lastWord = line.words[line.words.length - 1];
-                    }
-
-                    line.length = currentLineWidth;
-                    lines.push(line);
-                    cy += lineHeight * fontSize;
-                    currentLineWords = 0;
-                    currentLineWidth = 0;
-                    line = nextLine;
-                };
-
-                for (var n = 0; n < items.length; n++) {
-                    if (items[n].text === '\n') {
-                        if (line.words) {
-                            beginNewLine({ words: [] });
-                        }
-                        continue;
-                    }
-                    if (cy > ySize) {
-                        break;
-                    }
-                    var testWord = items[n];
-                    currentLineWords++;
-                    setStyles(buildStyles(testWord.style, object.style, template.style));
-
-                    var measure = cardFormatter.drawer.measureText(fontObj, fontSize * (testWord.relativeFontSize || 1), testWord.text);
-                    var testWordWidth = measure.width;
-                    testWord.width = testWordWidth;
-                    testWord.xLeadIn = measure.xLeadIn;
-
-                    resetStyles();
-                    var testLineWidth = currentLineWidth + testWordWidth;
-                    if (testWordWidth > xSize || (testLineWidth > xSize && (currentLineWords === 1 || noWrap))) {
-                        //We are too wide, need to shrink the font.
-                        cy = ySize + 1;
-                        break;
-                    } else if (testLineWidth > xSize && n > 0) {
-                        if (testWord.text === ' ') {
-                            beginNewLine({ words: [] });
-                        } else {
-                            beginNewLine({ words: [testWord] });
-                            currentLineWidth = testWordWidth;
-                        }
-                    } else {
-                        line.words.push(testWord);
-                        currentLineWidth = testLineWidth;
-                    }
-                }
-                if (cy > ySize) {
-                    fontSize--;
-                    if (fontSize < minFontSize) {
-                        fontSize++;
-                        break;
-                    }
-                }
-            } while (cy > ySize)
-            line.length = currentLineWidth;
-            lines.push(line);
-
-            var countSpaces = function (l) {
-                return _.countBy(l.words, function (word) {
-                    return word.text === ' ' ? 'space' : 'other';
-                });
-            };
-
-            var getWordX = function (sizeOffset) {
-                return justification === 'right' ? x + sizeOffset : justification === 'center' ? x + (sizeOffset / 2) : x;
-            };
-
-            var getYPositioning = function (w, cy) {
-                return cy + (fontSize * (1 - (w.relativeFontSize || 1)));
-            };
-
-            var drawShadowLines = function (ls) {
-                var drawLine = function (l) {
-                    var spacesCount = countSpaces(l);
-                    var sizeOffset = xSize - l.length;
-                    var extraXOffset = sizeOffset / spacesCount.space;
-                    var wx = getWordX(sizeOffset);
-                    l.words.forEach(function (w) {
-                        setStyles(w.style);
-                        wx += w.text === ' ' && justification === 'full' ? extraXOffset : 0;
-                        for (var ssi = 0; ssi < shadowStrength; ssi++) {
-                            var styleObj = { fontSize: fontSize * (w.relativeFontSize || 1), fillStyle: w.style.fillStyle };
-                            cardFormatter.drawer.fillText(context, fontObj, w.text, wx - w.xLeadIn, getYPositioning(w, wy), styleObj);
-                        }
-                        var wordWidth = w.width;
-                        //context.strokeRect(wx, wy + (fontSize / 3), wordWidth, lineHeight * fontSize);
-                        wx += wordWidth;
-                        resetStyles();
-                    });
-                    wy += lineHeight * fontSize;
-                };
-
-                ls.forEach(drawLine);
-            };
-
-            var drawRealLines = function (ls) {
-                ls.forEach(function (l) {
-                    var spacesCount = countSpaces(l);
-                    var sizeOffset = xSize - l.length;
-                    var extraXOffset = sizeOffset / spacesCount.space;
-                    var wx = getWordX(sizeOffset);
-                    l.words.forEach(function (w) {
-                        setStyles(w.style);
-                        context.shadowColor = undefined;
-                        wx += w.text === ' ' && justification === 'full' ? extraXOffset : 0;
-                        var styleObj = { fontSize: fontSize * (w.relativeFontSize || 1), fillStyle: w.style.fillStyle };
-                        cardFormatter.drawer.fillText(context, fontObj, w.text, wx - w.xLeadIn, getYPositioning(w, wy), styleObj);
-                        if (w.style.innerShadow) {
-                            var obj = w.style.innerShadow.style;
-                            obj.fontSize = fontSize * (w.relativeFontSize || 1);
-                            obj.font = font;
-                            cardFormatter.drawer.drawInnerShadow(context, fontObj, w.text, wx - w.xLeadIn, getYPositioning(w, wy), obj);
-                        }
-
-                        wx += w.width;
-                        resetStyles();
-                    });
-                    wy += lineHeight * fontSize;
-                });
-            };
-
-            context.save();
-            if (rotate) {
-                context.translate(x + (xSize / 2), y + (ySize / 2));
-                context.rotate(rotate * Math.PI / 180);
-                x = -(xSize / 2);
-                y = -(ySize / 2);
-            }
-
-            y += offset * fontSize;
-
-            var yStart = alignment === 'bottom' ? y + ySize - (lineHeight * fontSize * lines.length) + ((lastLineHeight - lineHeight) * fontSize) :
-                alignment === 'middle' ? y + (ySize - (lineHeight * fontSize * lines.length) + ((lastLineHeight - lineHeight) * fontSize)) / 2 :
-                /*alignment === 'top' ? */ y;
-
-            var wy = yStart;
-            drawShadowLines(lines);
-            wy = yStart;
-            drawRealLines(lines);
-
-            context.restore();
-
-            context.font = oldFont;
-        };
-
         cardFormatter.textDrawer = {
-            drawNText: drawNText,
             drawText: drawText
         };
     })();
