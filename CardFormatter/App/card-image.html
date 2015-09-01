@@ -42,7 +42,11 @@
             },
             _updateImage: function () {
                 var poly = this;
-                if (!poly.files || !poly.options || !poly.files.template) {
+                if (!poly.files || !poly.options ||
+                    !poly.files.data || poly.files.data.length === 0 ||
+                    !poly.files.fonts || poly.files.fonts.length === 0 ||
+                    !poly.files.images || poly.files.images.length === 0 ||
+                    !poly.files.template) {
                     return;
                 }
                 var fullWidth = poly.files.template.fullWidth;
