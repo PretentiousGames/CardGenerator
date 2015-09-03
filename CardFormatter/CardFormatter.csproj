@@ -303,8 +303,6 @@
     <Content Include="bower_components\webcomponentsjs\webcomponents.min.js" />
     <Content Include="Data\background.png" />
     <Content Include="Data\habitat.png" />
-    <Content Include="Data\image.png" />
-    <Content Include="Data\image.real.png" />
     <Content Include="Data\platforms.png" />
     <Content Include="Data\thruster.png" />
     <Content Include="Global.asax" />
