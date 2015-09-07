@@ -1,105 +1,10 @@
 ﻿[
   {
+    "art": "habitat.png",
     "name": "0.1",
     "orientation": "vertical",
-    "type": { "constant": "habitatType" },
-    "art": { "constant": "habitatArt" },
+    "support": "2",
     "title": "Class A",
-    "support": "2"
-  },
-  {
-    "name": "0.2",
-    "orientation": "vertical",
-    "type": { "constant": "habitatType" },
-    "art": { "constant": "habitatArt" },
-    "title": "Class B",
-    "support": "4"
-  },
-  {
-    "name": "0.3",
-    "orientation": "vertical",
-    "type": { "constant": "habitatType" },
-    "art": { "constant": "habitatArt" },
-    "title": "Class C",
-    "support": "8"
-  },
-  {
-    "name": "0.4",
-    "orientation": "vertical",
-    "type": { "constant": "habitatType" },
-    "art": { "constant": "habitatArt" },
-    "title": "Class D",
-    "support": "16",
-    "shielding": "1"
-  },
-  {
-    "name": "0.5",
-    "orientation": "vertical",
-    "type": { "constant": "habitatType" },
-    "art": { "constant": "habitatArt" },
-    "title": "Class E",
-    "support": "32",
-    "shielding": "1"
-  },
-  {
-    "name": "1.1",
-    "orientation": "vertical",
-    "type": { "constant": "thrusterType" },
-    "art": { "constant": "thrusterArt" },
-    "title": "Type 1",
-    "speed": "1"
-  },
-  {
-    "name": "1.2",
-    "orientation": "vertical",
-    "type": { "constant": "thrusterType" },
-    "art": { "constant": "thrusterArt" },
-    "title": "Type 2",
-    "speed": "2"
-  },
-  {
-    "name": "1.3",
-    "orientation": "vertical",
-    "type": { "constant": "thrusterType" },
-    "art": { "constant": "thrusterArt" },
-    "title": "Type 3",
-    "speed": "3"
-  },
-  {
-    "name": "1.4",
-    "orientation": "vertical",
-    "type": { "constant": "thrusterType" },
-    "art": { "constant": "thrusterArt" },
-    "title": "Type 4",
-    "speed": "4"
-  },
-  {
-    "name": "1.5",
-    "orientation": "vertical",
-    "type": { "constant": "thrusterType" },
-    "art": { "constant": "thrusterArt" },
-    "title": "Type 5",
-    "speed": "5"
-  },
-  {
-    "name": "2.1",
-    "orientation": "vertical",
-    "type": { "constant": "shieldingType" },
-    "title": "Level I",
-    "shielding": "1"
-  },
-  {
-    "name": "2.2",
-    "orientation": "vertical",
-    "type": { "constant": "shieldingType" },
-    "title": "Level II",
-    "shielding": "2"
-  },
-  {
-    "name": "2.3",
-    "orientation": "vertical",
-    "type": { "constant": "shieldingType" },
-    "title": "Level III",
-    "shielding": "3"
+    "type": { "constant": "habitatType" }
   }
 ]

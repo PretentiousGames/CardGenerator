@@ -5,7 +5,7 @@
     <template>
         <div>
             <image-display-options options="{{options}}"></image-display-options>
-
+            <paper-button raised on-click="clickAction">Download</paper-button>
             <image-array files="{{files}}" options="{{options}}"></image-array>
         </div>
     </template>
@@ -20,6 +20,27 @@
                 options: {
                     type: Object,
                 }
+            },
+            clickAction: function (e) {
+                var zip = new JSZip();
+                var cards = [];
+
+                var anchors = document.getElementsByClassName("imageAnchor");
+                var cards = _.map(anchors, function (anchor) {
+                    return { canvas: anchor.children[0], name: anchor.attributes["download"].value };
+                });
+
+                _.each(cards, function (e) {
+                    var savable = new Image();
+                    var data = e.canvas.toDataURL();
+                    savable.src = data;
+                    zip.file(e.name + ".png", savable.src.substr(savable.src.indexOf(',') + 1), { base64: true });
+                    e.canvas.parentNode.href = data;
+                });
+
+                var blob = zip.generate({ type: "blob" });
+                saveAs(blob, "images.zip");
+                return false;
             },
         });
     </script>

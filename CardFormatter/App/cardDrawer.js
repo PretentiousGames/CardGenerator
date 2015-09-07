@@ -6,7 +6,7 @@
 
     //The cardDrawer member of the namespace
     (function () {
-        var debug = true;
+        var debug = false;
 
         //Discovers the elements in a template that are applicable to the card in question.
         var findElements = function (localTemptlate, card) {
@@ -48,7 +48,7 @@
                     var imageNode = card[element.name];
                     if (imageNode || element.constant) {
                         var constant = element.constant || imageNode.constant;
-                        var imageName = (constant ? template.constants[constant] : imageNode.name).toLocaleLowerCase();
+                        var imageName = (constant ? template.constants[constant] : imageNode.name || imageNode).toLocaleLowerCase();
                         var imageObj = _.where(imageFiles, { name: imageName })[0];
                         if (imageObj) {
                             images[element.name] = imageObj.image;
