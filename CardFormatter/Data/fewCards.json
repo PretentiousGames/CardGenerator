@@ -1,10 +1,12 @@
 ﻿[
+
   {
-    "art": "habitat.png",
-    "name": "0.1",
+    "name": "0.4",
     "orientation": "vertical",
-    "support": "2",
-    "title": "Class A",
-    "type": { "constant": "habitatType" }
+    "art": "habitat.4.png",
+    "type": { "constant": "habitatType" },
+    "title": "Class D",
+    "support": "16",
+    "shielding": "1"
   }
 ]

@@ -20,13 +20,24 @@
                 return val;
             };
             var isApplicable = function (t) {
-                return _.every(t.requirements, function (requirement) {
+                var checkSingleRequirement = function (requirement) {
                     var exists = requirement.exists !== false;
                     var includes = _.map(requirement.values, function (value) { return getValue(value); });
                     var excludes = _.map(requirement.excludes, function (value) { return getValue(value); });
-                    return ((exists === true && (!!card[requirement.name])) || (exists === false && (!card[requirement.name]))) ||
-                        (includes.length > 0 && _.contains(includes, getValue(card[requirement.name]))) ||
-                        (excludes.length > 0 && !_.contains(excludes, getValue(card[requirement.name])));
+                    return ((exists === true && (!!card[requirement.name]))
+                            || (exists === false && (!card[requirement.name])))
+                        || (includes.length > 0
+                            && _.contains(includes, getValue(card[requirement.name])))
+                        || (excludes.length > 0
+                            && !_.contains(excludes, getValue(card[requirement.name])));
+                };
+
+                return _.every(t.requirements, function (requirement) {
+                    if (_.isArray(requirement)) {
+                        _.any(requirement, checkSingleRequirement);
+                    } else {
+                        checkSingleRequirement(requirement);
+                    }
                 });
             };
 
@@ -86,6 +97,15 @@
                     context.drawImage(image, element.x, element.y);
                 }
             };
+            var applyArray = function (element) {
+                if (element.styles.array) {
+                    _.chain(elements)
+                     .filter(function (e) { return e.name === element.style.array })
+                     .each(function (e) {
+                         element.styles = _.extend({}, e.styles, element.styles);
+                     });
+                }
+            };
 
             //loop through all elements, drawing them all
             _.chain(elements)
@@ -98,7 +118,7 @@
                             context[key] = value;
                         });
                     } else if (element.type === 'text') {
-                        drawText(element);
+                        drawText(applyArray(element));
                     }
                 });
 
