@@ -34,9 +34,9 @@
 
                 return _.every(t.requirements, function (requirement) {
                     if (_.isArray(requirement)) {
-                        _.any(requirement, checkSingleRequirement);
+                        return _.any(requirement, checkSingleRequirement);
                     } else {
-                        checkSingleRequirement(requirement);
+                        return checkSingleRequirement(requirement);
                     }
                 });
             };
@@ -67,6 +67,13 @@
                     }
                 }
             });
+
+            //set offsets
+            _.chain(elements)
+             .filter(function (e) { return e.type === "array" })
+             .each(function (e) {
+                 e.count = 0;
+             });
 
             //scale image
             var scale = card.orientation === 'vertical' ?
@@ -100,11 +107,17 @@
             var applyArray = function (element) {
                 if (element.styles.array) {
                     _.chain(elements)
-                     .filter(function (e) { return e.name === element.style.array })
+                     .filter(function (e) { return e.name === element.styles.array })
                      .each(function (e) {
                          element.styles = _.extend({}, e.styles, element.styles);
+                         element.styles.x = e.styles.x + (e.styles.orientation === "horizontal" ? (e.count * e.styles.itemWidth) : 0);
+                         element.styles.y = e.styles.y + (e.styles.orientation === "vertical" ? (e.count * e.styles.itemHeight) : 0);
+                         element.styles.xSize = e.styles.orientation === "horizontal" ? e.styles.itemWidth : e.styles.xSize;
+                         element.styles.ySize = e.styles.orientation === "vertical" ? e.styles.itemHeight : e.styles.ySize;
+                         e.count++;
                      });
                 }
+                return element;
             };
 
             //loop through all elements, drawing them all
