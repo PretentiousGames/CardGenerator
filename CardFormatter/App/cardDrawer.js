@@ -144,8 +144,7 @@
                 massageTemplate(subtype, templateMergedStyles);
             });
             _.each(currentTemplate.elements, function (element) {
-                var elementMergedStyles = _.extend({}, templateMergedStyles, element.styles);
-                element.getMergedStyles = function () { return elementMergedStyles; };
+                element.getMergedStyles = function () { return _.extend({}, templateMergedStyles, element.styles); };
             });
         };
 

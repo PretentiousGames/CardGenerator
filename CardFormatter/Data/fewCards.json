@@ -1,12 +1,29 @@
 ﻿[
-
   {
-    "name": "0.4",
+    "name": "3.2",
     "orientation": "vertical",
-    "art": "habitat.4.png",
-    "type": { "constant": "habitatType" },
-    "title": "Class D",
-    "support": "16",
-    "shielding": "1"
+    "type": { "constant": "plantType" },
+    "art": "wheat.png",
+    "title": "Wheat",
+    "size": "5",
+    "sunNeeds": "2",
+    "foodPlant": "4"
+  },
+  {
+    "name": "4.3",
+    "orientation": "vertical",
+    "type": { "constant": "herbivoreType" },
+    "imageIcon": { "constant": "meat" },
+    "title": "Goat",
+    "hardiness": "0",
+    "size": "5",
+    "eat": [
+      "2",
+      { "constant": "foodPlant" }
+    ],
+    "meat": "2",
+    "multiply": "+2/3ԏ",
+    "points": "2"
   }
+
 ]
