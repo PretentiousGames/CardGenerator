@@ -24,7 +24,7 @@
                     var exists = requirement.exists !== false;
                     var includes = _.map(requirement.values, function (value) { return getValue(value); });
                     var excludes = _.map(requirement.excludes, function (value) { return getValue(value); });
-                    return ((exists === true && (!!card[requirement.name]))
+                    return ((exists === true && (!!card[requirement.name]) && includes.length === 0 && excludes.length === 0)
                             || (exists === false && (!card[requirement.name])))
                         || (includes.length > 0
                             && _.contains(includes, getValue(card[requirement.name])))
