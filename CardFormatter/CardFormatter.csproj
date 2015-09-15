@@ -378,6 +378,11 @@
     <Content Include="Data\planet.8.png" />
     <Content Include="Data\planet.9.png" />
     <Content Include="Data\planet.png" />
+    <Content Include="Data\platform.1.png" />
+    <Content Include="Data\platform.2.png" />
+    <Content Include="Data\platform.3.png" />
+    <Content Include="Data\platform.4.png" />
+    <Content Include="Data\platform.5.png" />
     <Content Include="Data\platforms.png" />
     <Content Include="Data\potato.png" />
     <Content Include="Data\puffball.png" />
@@ -511,7 +516,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>54097</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
