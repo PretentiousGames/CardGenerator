@@ -1,22 +1,21 @@
 ﻿[
   {
-    "name": "3.1.4",
+    "name": "4.1",
     "orientation": "vertical",
-    "type": { "constant": "plantType" },
-    "art": "lupine.png",
-    "title": "Lupine",
-    "suit": { "constant": "nitrogenFixer" },
-    "number": "4",
-    "color": "blue"
-  },
-  {
-    "name": "3.1.5",
-    "orientation": "vertical",
-    "type": { "constant": "plantType" },
-    "art": "lespedeza.png",
-    "title": "Lespedeza",
-    "suit": { "constant": "nitrogenFixer" },
-    "number": "1",
-    "color": "red"
+    "type": { "constant": "herbivoreType" },
+    "imageIcon": { "constant": "meat" },
+    "title": "Cattle",
+    "hardiness": "0",
+    "size": "6",
+    "1.eat": [ "4", { "constant": "foodPlant" } ],
+    "1.meat": "2",
+    "1.points": "2",
+    "2.eat": [ "5", { "constant": "foodPlant" } ],
+    "2.meat": "3",
+    "2.points": "2",
+    "3.eat": [ "7", { "constant": "foodPlant" } ],
+    "3.meat": "3",
+    "3.points": "3",
+    "4.message": "2x"
   }
 ]
