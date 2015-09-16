@@ -379,10 +379,17 @@
     <Content Include="Data\planet.9.png" />
     <Content Include="Data\planet.png" />
     <Content Include="Data\platform.1.png" />
+    <Content Include="Data\platform.10.png" />
+    <Content Include="Data\platform.11.png" />
+    <Content Include="Data\platform.12.png" />
     <Content Include="Data\platform.2.png" />
     <Content Include="Data\platform.3.png" />
     <Content Include="Data\platform.4.png" />
     <Content Include="Data\platform.5.png" />
+    <Content Include="Data\platform.6.png" />
+    <Content Include="Data\platform.7.png" />
+    <Content Include="Data\platform.8.png" />
+    <Content Include="Data\platform.9.png" />
     <Content Include="Data\platforms.png" />
     <Content Include="Data\potato.png" />
     <Content Include="Data\puffball.png" />
