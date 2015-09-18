@@ -179,6 +179,9 @@
             var addFixes = function (val) {
                 var prefix;
                 var suffix;
+                if (val.length === 0) {
+                    return val;
+                }
                 if (obj.prefix) {
                     prefix = obj.prefix.constant ? template.constants[obj.prefix.constant] :
                       obj.prefix.text ? obj.prefix.text : obj.prefix;
@@ -201,7 +204,8 @@
                     return val;
                 };
 
-                if (val.text) {
+                if (!val) {
+                } else if (val.text) {
                     return [{ text: val.text, styles: val.styles }];
                 } else if (val.constant) {
                     return _.map(getRuns(template.constants[val.constant]), copyBaseStyles);

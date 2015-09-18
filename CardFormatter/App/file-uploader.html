@@ -7,6 +7,10 @@
         .ok {
             color: green;
         }
+
+        .working {
+            color: goldenrod;
+        }
     </style>
 
     <template>
@@ -14,22 +18,26 @@
             <blue-box unclosable>
                 <div>
                     Template: <input type="file" id="templateInput" />
-                    <span class="error" hidden$="[[_isFinished(files.template.complete, files.template.count)]]"><iron-icon icon="icons:error" title="Select a template!"></iron-icon></span>
+                    <span class="error" hidden$="[[!_isError(files.template.complete, files.template.count)]]"><iron-icon icon="icons:error" title="Select a template!"></iron-icon></span>
+                    <span class="working" hidden$="[[!_isWorking(files.template.working)]]"><iron-icon icon="icons:hourglass-empty" title="working!"></iron-icon></span>
                     <span class="ok" hidden$="[[!_isFinished(files.template.complete, files.template.count)]]"><iron-icon icon="icons:check" title="template loaded!"></iron-icon></span>
                 </div>
                 <div>
                     Datafile: <input type="file" id="cardsInput" />
-                    <span class="error" hidden$="[[_isFinished(files.data.complete, files.data.count)]]"><iron-icon icon="icons:error" title="Select a datafile!"></iron-icon></span>
+                    <span class="error" hidden$="[[!_isError(files.data.complete, files.data.count)]]"><iron-icon icon="icons:error" title="Select a datafile!"></iron-icon></span>
+                    <span class="working" hidden$="[[!_isWorking(files.data.working)]]"><iron-icon icon="icons:hourglass-empty" title="working!"></iron-icon></span>
                     <span class="ok" hidden$="[[!_isFinished(files.data.complete, files.data.count)]]"><iron-icon icon="icons:check" title="datafile loaded!"></iron-icon></span>
                 </div>
                 <div>
                     Images: <input type="file" id="imagesInput" multiple />
-                    <span class="error" hidden$="[[_isFinished(files.images.complete,files.images.count)]]"><iron-icon icon="icons:error" title="Select images!"></iron-icon></span>
+                    <span class="error" hidden$="[[!_isError(files.images.complete,files.images.count)]]"><iron-icon icon="icons:error" title="Select images!"></iron-icon></span>
+                    <span class="working" hidden$="[[!_isWorking(files.images.working)]]"><iron-icon icon="icons:hourglass-empty" title="working!"></iron-icon></span>
                     <span class="ok" hidden$="[[!_isFinished(files.images.complete,files.images.count)]]"><iron-icon icon="icons:check" title="images loaded!"></iron-icon></span>
                 </div>
                 <div>
-                    Fonts: <input type="file" id="fontsInput" multiple/>
-                    <span class="error" hidden$="[[_isFinished(files.fonts.complete,files.fonts.count)]]"><iron-icon icon="icons:error" title="Select a fonts!"></iron-icon></span>
+                    Fonts: <input type="file" id="fontsInput" multiple />
+                    <span class="error" hidden$="[[!_isError(files.fonts.complete,files.fonts.count)]]"><iron-icon icon="icons:error" title="Select a fonts!"></iron-icon></span>
+                    <span class="working" hidden$="[[!_isWorking(files.fonts.working)]]"><iron-icon icon="icons:hourglass-empty" title="working!"></iron-icon></span>
                     <span class="ok" hidden$="[[!_isFinished(files.fonts.complete,files.fonts.count)]]"><iron-icon icon="icons:check" title="fonts loaded!"></iron-icon></span>
                 </div>
             </blue-box>
@@ -49,7 +57,7 @@
             properties: {
                 files: {
                     type: Object,
-                    value: { isReady: function () { return false; }, template: { complete: 0, count: 0 }, data: [], images: [], fonts: [] },
+                    value: { isReady: function () { return false; }, template: { complete: 0, count: 0, working: false }, data: [], images: [], fonts: [] },
                     notify: true
                 },
             },
@@ -62,12 +70,20 @@
                 }
                 return false;
             },
+            _isWorking: function (working) {
+                return working;
+            },
+            _isError: function (complete, count) {
+                return complete === 0 || count === 0;
+            },
             ready: function () {
                 var poly = this;
                 poly.set('files.images.count', 0);
                 poly.set('files.images.complete', 0);
+                poly.set('files.images.working', false);
                 poly.set('files.fonts.count', 0);
                 poly.set('files.fonts.complete', 0);
+                poly.set('files.fonts.working', false);
             },
             attached: function () {
                 var poly = this;
@@ -76,9 +92,10 @@
                 var imageLoader = poly.$.imagesInput;
                 var fontLoader = poly.$.fontsInput;
                 var files = poly.files;
-                
+
                 poly.set('files.data.count', 0);
                 poly.set('files.data.complete', 0);
+                poly.set('files.data.working', false);
 
                 var handleFiles = function (setup, callback, readFunctionName) {
                     readFunctionName = readFunctionName || 'readAsText';
@@ -96,16 +113,18 @@
                 };
 
                 templateLoader.addEventListener('change', handleFiles(
-                    function() {
-                        poly.set('files.template', null); 
+                    function () {
+                        poly.set('files.template', null);
                         poly.set('files.template.count', 1);
                         poly.set('files.template.complete', 0);
+                        poly.set('files.template.working', true);
                     },
                     function (event) {
                         try {
                             poly.set('files.template', JSON.parse(event.target.result));
                             poly.set('files.template.count', 1);
                             poly.set('files.template.complete', 1);
+                            poly.set('files.template.working', false);
                         } catch (e) {
                             if (e.name === 'SyntaxError') {
 
@@ -114,24 +133,27 @@
                             }
                         }
                     }), false);
+
                 dataLoader.addEventListener('change', handleFiles(
-                    function() {
-                        poly.set('files.data', []); 
+                    function () {
+                        poly.set('files.data', []);
                         poly.set('files.data.count', 1);
                         poly.set('files.data.complete', 0);
+                        poly.set('files.data.working', true);
                     },
-                    function(event) {
+                    function (event) {
                         try {
-                        poly.set('files.data', JSON.parse(event.target.result));
-                        poly.set('files.data.count', 1);
-                        poly.set('files.data.complete', 1);
-                    } catch (e) {
-                        if (e.name === 'SyntaxError') {
+                            poly.set('files.data', JSON.parse(event.target.result));
+                            poly.set('files.data.count', 1);
+                            poly.set('files.data.complete', 1);
+                            poly.set('files.data.working', false);
+                        } catch (e) {
+                            if (e.name === 'SyntaxError') {
 
-                        } else {
-                            throw e;
+                            } else {
+                                throw e;
+                            }
                         }
-                    }
                     }), false);
 
                 imageLoader.addEventListener('change', handleFiles(
@@ -139,28 +161,37 @@
                         poly.set('files.images', []);
                         poly.set('files.images.count', event.target.files.length);
                         poly.set('files.images.complete', 0);
+                        poly.set('files.images.working', true);
                     },
                     function (event, file) {
                         var img = new Image();
                         img.onload = function () {
                             poly.push('files.images', { name: file.name.toLocaleLowerCase(), image: img });
                             poly.set('files.images.complete', files.images.complete + 1);
+                            if (files.images.count === files.images.complete) {
+                                poly.set('files.images.working', false);
+                            }
                             poly.notifyPath('files.images', files.images);
                         }
                         img.src = event.target.result;
                     },
                     'readAsDataURL'), false);
+
                 fontLoader.addEventListener('change', handleFiles(
                     function (event) {
                         poly.set('files.fonts', []);
                         poly.set('files.fonts.count', event.target.files.length);
                         poly.set('files.fonts.complete', 0);
+                        poly.set('files.fonts.working', true);
                     },
                     function (event, file) {
                         try {
                             var font = opentype.parse(event.target.result);
-                            poly.push('files.fonts', { name: file.name.toLocaleLowerCase(), font: font});
+                            poly.push('files.fonts', { name: file.name.toLocaleLowerCase(), font: font });
                             poly.set('files.fonts.complete', files.fonts.complete + 1);
+                            if (files.fonts.count === files.fonts.complete) {
+                                poly.set('files.fonts.working', false);
+                            }
                             poly.notifyPath('files.fonts', files.fonts);
                         } catch (err) {
                             console.log(err);
