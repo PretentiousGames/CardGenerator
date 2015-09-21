@@ -1,0 +1,24 @@
+﻿<dom-module id="image-stitcher">
+    <style>
+    </style>
+
+    <template>
+        <div>
+            <h1>Image Stitcher</h1>
+
+            <images-file-uploader files="{{files}}"></images-file-uploader>
+            <images-image-display files="{{files}}"></images-image-display>
+        </div>
+    </template>
+
+    <script>
+        Polymer({
+            is: "image-stitcher",
+            properties: {
+                files: {
+                    type: Object,
+                },
+            },
+        });
+    </script>
+</dom-module>

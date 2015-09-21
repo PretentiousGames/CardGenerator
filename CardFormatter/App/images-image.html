@@ -1,0 +1,50 @@
+﻿<dom-module id="images-image">
+    <style>
+    </style>
+
+    <template>
+        <div>
+            <a class="imageAnchor" download="{{fileName}}"><canvas height="{{displayHeight}}" width="{{displayWidth}}" id="canvas" /></a>
+        </div>
+    </template>
+
+    <script>
+        Polymer({
+            is: "images-image",
+            properties: {
+                item: {
+                    type: Object
+                },
+                displayHeight: { type: Number, value: 10 },
+                displayWidth: { type: Number, value: 10 },
+                fileName: { type: String, value: "image.png" },
+            },
+            observers: [
+              '_somethingChanged(item.*)'
+            ],
+            _getJson: function (obj) {
+                return JSON.stringify(obj);
+            },
+            _somethingChanged: function () {
+                this._updateImage();
+            },
+            _updateImage: function () {
+                var poly = this;
+                if (!poly.item) {
+                    return;
+                }
+                var width = poly.item.rows[0][0].image.width * poly.item.x;
+                var height = poly.item.rows[0][0].image.height * poly.item.y;
+                var canvas = poly.$.canvas;
+
+                poly.set('displayWidth', width * poly.item.zoom / 100);
+                poly.set('displayHeight', height * poly.item.zoom / 100);
+
+                poly.item.canvas = canvas;
+                poly.set('fileName', poly.item.name + '.png');
+
+                cardFormatter.stitcher.draw(poly.item);
+            }
+        });
+    </script>
+</dom-module>

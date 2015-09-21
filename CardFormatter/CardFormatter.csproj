@@ -94,6 +94,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App\blue-box.html" />
+    <Content Include="App\images-image.html" />
+    <Content Include="App\images-image-array.html" />
+    <Content Include="App\images-image-display-options.html" />
+    <Content Include="App\images-image-display.html" />
+    <Content Include="App\images-file-uploader.html" />
+    <Content Include="App\stitcher.js" />
+    <Content Include="App\image-stitcher.html" />
     <Content Include="App\card-image.html" />
     <Content Include="App\card-formatter.html" />
     <Content Include="App\cardDrawer.js" />
@@ -102,6 +109,7 @@
     <Content Include="App\image-display-options.html" />
     <Content Include="App\image-array.html" />
     <Content Include="App\image-display.html" />
+    <Content Include="App\stitcherImports.html" />
     <Content Include="App\imports.html" />
     <Content Include="bower_components\file-upload\file-upload.html" />
     <Content Include="bower_components\font-roboto\roboto.html" />
@@ -527,6 +535,7 @@
     <Content Include="Data\template.json" />
     <None Include="Properties\PublishProfiles\CardFormatter.pubxml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Stitcher.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

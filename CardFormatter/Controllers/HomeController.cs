@@ -13,5 +13,12 @@ namespace CardFormatter.Controllers
         {
             return View();
         }
+
+        public ActionResult Stitcher()
+        {
+            return View();
+        }
+
+
     }
 }

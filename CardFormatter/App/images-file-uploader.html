@@ -1,0 +1,103 @@
+﻿<dom-module id="images-file-uploader">
+    <style>
+        .error {
+            color: darkred;
+        }
+
+        .ok {
+            color: green;
+        }
+
+        .working {
+            color: goldenrod;
+        }
+    </style>
+
+    <template>
+        <div>
+            <blue-box unclosable>
+                <div>
+                    Images: <input type="file" id="imagesInput" multiple />
+                    <span class="error" hidden$="[[!_isError(files.images.complete,files.images.count)]]"><iron-icon icon="icons:error" title="Select images!"></iron-icon></span>
+                    <span class="working" hidden$="[[!_isWorking(files.images.working)]]"><iron-icon icon="icons:hourglass-empty" title="working!"></iron-icon></span>
+                    <span class="ok" hidden$="[[!_isFinished(files.images.complete,files.images.count)]]"><iron-icon icon="icons:check" title="images loaded!"></iron-icon></span>
+                </div>
+            </blue-box>
+        </div>
+    </template>
+
+    <script>
+        Polymer({
+            is: "images-file-uploader",
+            properties: {
+                files: {
+                    type: Object,
+                    value: { isReady: function () { return false; }, images: [] },
+                    notify: true
+                },
+            },
+            _isExistent: function (thing) {
+                return thing !== null;
+            },
+            _isFinished: function (complete, count) {
+                if (complete && count) {
+                    return complete === count;
+                }
+                return false;
+            },
+            _isWorking: function (working) {
+                return working;
+            },
+            _isError: function (complete, count) {
+                return complete === 0 || count === 0;
+            },
+            ready: function () {
+                var poly = this;
+                poly.set('files.images.count', 0);
+                poly.set('files.images.complete', 0);
+                poly.set('files.images.working', false);
+            },
+            attached: function () {
+                var poly = this;
+                var imageLoader = poly.$.imagesInput;
+                var files = poly.files;
+
+                var handleFiles = function (setup, callback, readFunctionName) {
+                    readFunctionName = readFunctionName || 'readAsText';
+                    return function (e) {
+                        setup(e);
+                        if (typeof (e.target.files[0]) === "undefined") { return; }
+                        _.each(e.target.files, function (file, index) {
+                            var reader = new FileReader();
+                            reader.onload = function (event) {
+                                callback(event, file, index);
+                            }
+                            reader[readFunctionName](file);
+                        });
+                    };
+                };
+
+                imageLoader.addEventListener('change', handleFiles(
+                    function (event) {
+                        poly.set('files.images', []);
+                        poly.set('files.images.count', event.target.files.length);
+                        poly.set('files.images.complete', 0);
+                        poly.set('files.images.working', true);
+                    },
+                    function (event, file) {
+                        var img = new Image();
+                        img.onload = function () {
+                            poly.push('files.images', { name: file.name.toLocaleLowerCase(), image: img });
+                            poly.set('files.images.complete', files.images.complete + 1);
+                            if (files.images.count === files.images.complete) {
+                                poly.set('files.images.working', false);
+                                poly.notifyPath('files.images', files.images);
+                            }
+                        }
+                        img.src = event.target.result;
+                    },
+                    'readAsDataURL'), false);
+            },
+        });
+    </script>
+</dom-module>

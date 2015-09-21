@@ -1,0 +1,61 @@
+﻿<dom-module id="images-image-array">
+    <style>
+        .imageDiv {
+            display: inline-block;
+        }
+    </style>
+
+    <template>
+        <div>
+            <template is="dom-repeat" items="{{generateGroupings(files.images, options.x, options.y, options.zoom)}}">
+                <div class="imageDiv">
+                    <images-image item="{{item}}"></images-image>
+                </div>
+            </template>
+        </div>
+    </template>
+
+    <script>
+        Polymer({
+            is: "images-image-array",
+            properties: {
+                files: {
+                    type: Object,
+                },
+                options: {
+                    type: Object,
+                }
+            },
+            generateGroupings: function (images, x, y, zoom) {
+                x = parseInt(x);
+                y = parseInt(y);
+                var newGrouping = function() { return { x: x, y: y, zoom: zoom, rows: [] }; };
+                var groupings = [];
+                var grouping = newGrouping();
+                var row = [];
+                _.each(images, function(image) {
+                    row.push(image);
+                    if (row.length === x) {
+                        grouping.rows.push(row);
+                        row = [];
+                    }
+                    if (grouping.rows.length === y) {
+                        groupings.push(grouping);
+                        grouping = newGrouping();
+                    }
+                });
+
+                if (row.length > 0) {
+                    grouping.rows.push(row);
+                    row = [];
+                }
+                if (grouping.rows.length > 0) {
+                    groupings.push(grouping);
+                    grouping = newGrouping();
+                }
+
+                return groupings;
+            }
+        });
+    </script>
+</dom-module>

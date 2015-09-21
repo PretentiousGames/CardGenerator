@@ -1,0 +1,25 @@
+﻿<dom-module id="images-image-display-options">
+    <style>
+    </style>
+
+    <template>
+        <div>Zoom:</div>
+        <paper-slider aria-label="Completed" min="1" max="100" editable="true" value="{{options.zoom}}"></paper-slider>
+        <div>Images per page:</div>
+        <div>Wide: <paper-input value="{{options.x}}"></paper-input></div>
+        <div>Tall: <paper-input value="{{options.y}}"></paper-input></div>
+    </template>
+
+    <script>
+        Polymer({
+            is: "images-image-display-options",
+            properties: {
+                options: {
+                    type: Object,
+                    notify: true,
+                    value: { "zoom": 20, x: 4, y: 4 }
+                },
+            },
+        });
+    </script>
+</dom-module>

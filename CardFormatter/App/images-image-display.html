@@ -26,11 +26,11 @@
                 var cards = [];
 
                 var anchors = document.getElementsByClassName("imageAnchor");
-                var pages = _.map(anchors, function (anchor) {
+                var cards = _.map(anchors, function (anchor) {
                     return { canvas: anchor.children[0], name: anchor.attributes["download"].value };
                 });
 
-                _.each(pages, function (e) {
+                _.each(cards, function (e) {
                     var savable = new Image();
                     var data = e.canvas.toDataURL();
                     savable.src = data;
@@ -39,7 +39,7 @@
                 });
 
                 var blob = zip.generate({ type: "blob" });
-                saveAs(blob, "pages.zip");
+                saveAs(blob, "images.zip");
                 return false;
             },
         });
