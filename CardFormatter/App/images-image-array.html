@@ -29,11 +29,15 @@
             generateGroupings: function (images, x, y, zoom) {
                 x = parseInt(x);
                 y = parseInt(y);
-                var newGrouping = function() { return { x: x, y: y, zoom: zoom, rows: [] }; };
+                var i = 0;
+                var newGrouping = function (name) {
+                    i++;
+                    return { x: x, y: y, zoom: zoom, rows: [], name: String(i) };
+                };
                 var groupings = [];
                 var grouping = newGrouping();
                 var row = [];
-                _.each(images, function(image) {
+                _.each(images, function(image, i) {
                     row.push(image);
                     if (row.length === x) {
                         grouping.rows.push(row);
@@ -51,7 +55,6 @@
                 }
                 if (grouping.rows.length > 0) {
                     groupings.push(grouping);
-                    grouping = newGrouping();
                 }
 
                 return groupings;

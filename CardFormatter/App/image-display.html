@@ -1,18 +1,18 @@
-﻿<dom-module id="images-image-display">
+﻿<dom-module id="image-display">
     <style>
     </style>
 
     <template>
         <div>
-            <images-image-display-options options="{{options}}"></images-image-display-options>
+            <image-display-options options="{{options}}"></image-display-options>
             <paper-button raised on-click="clickAction">Download</paper-button>
-            <images-image-array files="{{files}}" options="{{options}}"></images-image-array>
+            <image-array files="{{files}}" options="{{options}}"></image-array>
         </div>
     </template>
 
     <script>
         Polymer({
-            is: "images-image-display",
+            is: "image-display",
             properties: {
                 files: {
                     type: Object,
