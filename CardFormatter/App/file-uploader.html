@@ -23,12 +23,6 @@
                     <span class="ok" hidden$="[[!_isFinished(files.template.complete, files.template.count)]]"><iron-icon icon="icons:check" title="template loaded!"></iron-icon></span>
                 </div>
                 <div>
-                    Datafile: <input type="file" id="cardsInput" />
-                    <span class="error" hidden$="[[!_isError(files.data.complete, files.data.count)]]"><iron-icon icon="icons:error" title="Select a datafile!"></iron-icon></span>
-                    <span class="working" hidden$="[[!_isWorking(files.data.working)]]"><iron-icon icon="icons:hourglass-empty" title="working!"></iron-icon></span>
-                    <span class="ok" hidden$="[[!_isFinished(files.data.complete, files.data.count)]]"><iron-icon icon="icons:check" title="datafile loaded!"></iron-icon></span>
-                </div>
-                <div>
                     Images: <input type="file" id="imagesInput" multiple />
                     <span class="error" hidden$="[[!_isError(files.images.complete,files.images.count)]]"><iron-icon icon="icons:error" title="Select images!"></iron-icon></span>
                     <span class="working" hidden$="[[!_isWorking(files.images.working)]]"><iron-icon icon="icons:hourglass-empty" title="working!"></iron-icon></span>
@@ -39,6 +33,12 @@
                     <span class="error" hidden$="[[!_isError(files.fonts.complete,files.fonts.count)]]"><iron-icon icon="icons:error" title="Select a fonts!"></iron-icon></span>
                     <span class="working" hidden$="[[!_isWorking(files.fonts.working)]]"><iron-icon icon="icons:hourglass-empty" title="working!"></iron-icon></span>
                     <span class="ok" hidden$="[[!_isFinished(files.fonts.complete,files.fonts.count)]]"><iron-icon icon="icons:check" title="fonts loaded!"></iron-icon></span>
+                </div>
+                <div>
+                    Datafile: <input type="file" id="cardsInput" />
+                    <span class="error" hidden$="[[!_isError(files.data.complete, files.data.count)]]"><iron-icon icon="icons:error" title="Select a datafile!"></iron-icon></span>
+                    <span class="working" hidden$="[[!_isWorking(files.data.working)]]"><iron-icon icon="icons:hourglass-empty" title="working!"></iron-icon></span>
+                    <span class="ok" hidden$="[[!_isFinished(files.data.complete, files.data.count)]]"><iron-icon icon="icons:check" title="datafile loaded!"></iron-icon></span>
                 </div>
             </blue-box>
         </div>

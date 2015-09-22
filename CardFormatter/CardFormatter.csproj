@@ -433,6 +433,7 @@
     <Content Include="Data\sage.png" />
     <Content Include="Data\shaggyMane.png" />
     <Content Include="Data\snappingturtle.png" />
+    <Content Include="Data\spaceShip.png" />
     <Content Include="Data\squirrel.png" />
     <Content Include="Data\strawberry.png" />
     <Content Include="Data\swallow.png" />
