@@ -5,16 +5,16 @@
     <template>
         <div>
             <h1>Card Formatter</h1>
-            <!--<blue-box>
+            <blue-box>
                 <h4>Instructions:</h4>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />
-                Mauris eu elit eu arcu maximus volutpat et et lectus.<br />
-                Integer ipsum nisi, aliquam eget lectus sed, consequat finibus nisl.<br />
-                Nam quis tortor dictum, congue nunc vitae, dapibus neque.<br />
-                Vivamus at efficitur nulla. Aenean a nibh lectus.<br />
-                Sed in elit a ipsum sagittis vestibulum.<br />
-                Suspendisse at congue risus, porta facilisis elit.
-            </blue-box>-->
+                This site allows you to put together cards from different parts (background artwork, foreground artwork,<br />
+                text, stats, etc). The data that is used to generate the cards and the template that is used needs to be<br />
+                in json format. An examaple set of input files can be found <a href="/Data/Data.zip">here</a>.<br />
+                <br />
+                To use the generator, upload the json template, the fonts, the images, and then the data file. The cards<br/>
+                should then be generated. You can download the resulting files as a zip by clicking 'download'.<br/>
+                If you want to format the resulting cards for printing, you can do that <a href="/home/stitcher">here</a>.
+            </blue-box>
 
             <file-uploader files="{{files}}"></file-uploader>
             <image-display files="{{files}}"></image-display>

@@ -533,6 +533,7 @@
     <Content Include="Data\cards.json" />
     <Content Include="Data\fewCards.json" />
     <Content Include="Data\template.json" />
+    <Content Include="Data\Data.zip" />
     <None Include="Properties\PublishProfiles\CardFormatter.pubxml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Stitcher.cshtml" />

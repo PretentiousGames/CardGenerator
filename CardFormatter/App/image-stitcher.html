@@ -5,6 +5,18 @@
     <template>
         <div>
             <h1>Image Stitcher</h1>
+            <blue-box>
+                <h4>Instructions:</h4>
+                This site allows you to stitch together multiple similarly sized image files<br />
+                into a series of arrays. I wrote it to allow me to easily print cards for a<br/>
+                game 4x4 on a page. It may be useful for other things as well.<br/>
+                <br/>
+                To use: upload the images, set the number of images wide and tall that you want,<br/>
+                and then set the zoom level. Click download to download the generated images.<br/>
+                <br/>
+                If this website is slow you might want to get a faster computer, because I <br/>
+                made your computer do all the work.
+            </blue-box>
 
             <images-file-uploader files="{{files}}"></images-file-uploader>
             <images-image-display files="{{files}}"></images-image-display>
