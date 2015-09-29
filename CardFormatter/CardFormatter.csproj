@@ -431,6 +431,9 @@
     <Content Include="Data\rulesPlatform.png" />
     <Content Include="Data\rupturewort.png" />
     <Content Include="Data\sage.png" />
+    <Content Include="Data\Scotts\background.png" />
+    <Content Include="Data\Scotts\rulesPlatform.png" />
+    <Content Include="Data\Scotts\titlePlatform.png" />
     <Content Include="Data\shaggyMane.png" />
     <Content Include="Data\snappingturtle.png" />
     <Content Include="Data\spaceShip.png" />
@@ -535,6 +538,9 @@
     <Content Include="Data\fewCards.json" />
     <Content Include="Data\template.json" />
     <Content Include="Data\Data.zip" />
+    <Content Include="Data\Scotts\Aharoni-True.ttf" />
+    <Content Include="Data\Scotts\cards.json" />
+    <Content Include="Data\Scotts\template.json" />
     <None Include="Properties\PublishProfiles\CardFormatter.pubxml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Stitcher.cshtml" />

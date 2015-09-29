@@ -76,9 +76,9 @@
              });
 
             //scale image
-            var scale = card.orientation === 'vertical' ?
-                Math.min(card.canvas.height / template.fullHeight, card.canvas.width / template.fullWidth) :
-                Math.min(card.canvas.width / template.fullHeight, card.canvas.height / template.fullWidth);
+            var scale = card.orientation === 'horizontal' ?
+                Math.min(card.canvas.width / template.fullHeight, card.canvas.height / template.fullWidth) :
+                Math.min(card.canvas.height / template.fullHeight, card.canvas.width / template.fullWidth);
             context.scale(scale, scale);
 
             //helper methods
@@ -111,9 +111,9 @@
                      .each(function (e) {
                          element.styles = _.extend({}, e.styles, element.styles);
                          element.styles.x = e.styles.x + (e.styles.orientation === "horizontal" ? (e.count * e.styles.itemWidth) : 0);
-                         element.styles.y = e.styles.y + (e.styles.orientation === "vertical" ? (e.count * e.styles.itemHeight) : 0);
+                         element.styles.y = e.styles.y + (e.styles.orientation !== "horizontal" ? (e.count * e.styles.itemHeight) : 0);
                          element.styles.xSize = e.styles.orientation === "horizontal" ? e.styles.itemWidth : e.styles.xSize;
-                         element.styles.ySize = e.styles.orientation === "vertical" ? e.styles.itemHeight : e.styles.ySize;
+                         element.styles.ySize = e.styles.orientation !== "horizontal" ? e.styles.itemHeight : e.styles.ySize;
                          e.count++;
                      });
                 }

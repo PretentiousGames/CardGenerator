@@ -52,12 +52,12 @@
                 var displayWidth = fullWidth / (100.0 / sizePercent);
                 var displayHeight = fullHeight / (100.0 / sizePercent);
                 var canvas = poly.$.canvas;
-                if (poly.item.orientation === 'vertical') {
-                    poly.set('displayWidth', displayWidth);
-                    poly.set('displayHeight', displayHeight);
-                } else {
+                if (poly.item.orientation === 'horizontal') {
                     poly.set('displayWidth', displayHeight);
                     poly.set('displayHeight', displayWidth);
+                } else {
+                    poly.set('displayWidth', displayWidth);
+                    poly.set('displayHeight', displayHeight);
                 }
                 poly.item.canvas = canvas;
                 poly.set('fileName', poly.item.name + '.png');
