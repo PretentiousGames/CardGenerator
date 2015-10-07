@@ -1,0 +1,16 @@
+[
+  {
+    "name": "1t",
+    "orientation": "vertical",
+    "type": "part",
+    "icon": { "constant": "Time" },
+    "value": "1",
+    "title": "Time",
+    "rules": [
+      "So much ",
+      { "constant": "PrestigeInline" },
+      "!"
+    ],
+    "circle": "time.png"
+  }
+]

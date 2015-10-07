@@ -414,8 +414,8 @@
                         wx += w.text === ' ' && justification === 'full' ? extraXOffset : 0;
                         var styleObj = { fontSize: fontSize * (w.relativeFontSize || 1), fillStyle: w.styles.fillStyle };
                         cardFormatter.drawer.fillText(context, fontObj, w.text, wx - w.xLeadIn, getYPositioning(w, wy), styleObj);
-                        if (w.innerShadow) {
-                            var obj = w.innerShadow.styles;
+                        if (w.styles.innerShadow) {
+                            var obj = w.styles.innerShadow.styles;
                             obj.fontSize = fontSize * (w.relativeFontSize || 1);
                             obj.font = font;
                             cardFormatter.drawer.drawInnerShadow(context, fontObj, w.text, wx - w.xLeadIn, getYPositioning(w, wy), obj);
