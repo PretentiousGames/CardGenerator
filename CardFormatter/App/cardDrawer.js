@@ -326,7 +326,9 @@
                         currentLineWords++;
                         setStyles(testWord.styles);
 
-                        var measure = cardFormatter.drawer.measureText(fontObj, fontSize * (testWord.relativeFontSize || 1), testWord.text);
+                        var wordFontObj = testWord.styles.font ? _.where(fonts, { name: testWord.styles.font.toLocaleLowerCase() })[0].font : fontObj;
+                        
+                        var measure = cardFormatter.drawer.measureText(wordFontObj, fontSize * (testWord.relativeFontSize || 1), testWord.text);
                         var testWordWidth = measure.width + (fontSize * .1);
                         testWord.width = testWordWidth;
                         testWord.xLeadIn = measure.xLeadIn;
@@ -389,7 +391,9 @@
                         wx += w.text === ' ' && justification === 'full' ? extraXOffset : 0;
                         for (var ssi = 0; ssi < shadowStrength; ssi++) {
                             var styleObj = { fontSize: fontSize * (w.relativeFontSize || 1), fillStyle: w.styles.fillStyle };
-                            cardFormatter.drawer.fillText(context, fontObj, w.text, wx - w.xLeadIn, getYPositioning(w, wy), styleObj);
+                            var wordFontObj = w.styles.font ? _.where(fonts, { name: w.styles.font.toLocaleLowerCase() })[0].font : fontObj;
+
+                            cardFormatter.drawer.fillText(context, wordFontObj, w.text, wx - w.xLeadIn, getYPositioning(w, wy), styleObj);
                         }
                         var wordWidth = w.width;
                         //context.strokeRect(wx, wy + (fontSize / 3), wordWidth, lineHeight * fontSize);
@@ -413,12 +417,13 @@
                         context.shadowColor = undefined;
                         wx += w.text === ' ' && justification === 'full' ? extraXOffset : 0;
                         var styleObj = { fontSize: fontSize * (w.relativeFontSize || 1), fillStyle: w.styles.fillStyle };
-                        cardFormatter.drawer.fillText(context, fontObj, w.text, wx - w.xLeadIn, getYPositioning(w, wy), styleObj);
+                        var wordFontObj = w.styles.font ? _.where(fonts, { name: w.styles.font.toLocaleLowerCase() })[0].font : fontObj;
+                        cardFormatter.drawer.fillText(context, wordFontObj, w.text, wx - w.xLeadIn, getYPositioning(w, wy), styleObj);
                         if (w.styles.innerShadow) {
                             var obj = w.styles.innerShadow.styles;
                             obj.fontSize = fontSize * (w.relativeFontSize || 1);
                             obj.font = font;
-                            cardFormatter.drawer.drawInnerShadow(context, fontObj, w.text, wx - w.xLeadIn, getYPositioning(w, wy), obj);
+                            cardFormatter.drawer.drawInnerShadow(context, wordFontObj, w.text, wx - w.xLeadIn, getYPositioning(w, wy), obj);
                         }
 
                         wx += w.width;
