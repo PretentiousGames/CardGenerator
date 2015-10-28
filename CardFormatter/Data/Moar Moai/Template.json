@@ -1,0 +1,66 @@
+{
+  "fullWidth": 825,
+  "fullHeight": 1125,
+  "styles": {
+    "font": "TIKITB__.TTF",
+    "maxFontSize": 200,
+    "minFontSize": 42,
+    "lineHeight": 0.86,
+    "offset": -0.270,
+    "justification": "center",
+    "alignment": "middle"
+  },
+  "requirements": [ ],
+  "elements": [
+    {
+      "type": "image",
+      "name": "art",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "image",
+      "name": "color",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "text",
+      "name": "type",
+      "styles": {
+        "x": 175.5,
+        "y": 56.5,
+        "xSize": 474,
+        "ySize": 144
+      }
+    },
+    {
+      "type": "text",
+      "name": "rules",
+      "styles": {
+        "x": 86.5,
+        "y": 802.5,
+        "xSize": 652,
+        "ySize": 251
+      }
+    }
+  ],
+  "constants": {
+    "green": "green.png",
+    "yellow": "yellow.png",
+    "red": "red.png",
+    "gray": "gray.png",
+    "stone": {
+      "text": "օ",
+      "styles": { "font": "Aharoni-True.ttf" }
+    },
+    "fish": {
+      "text": "ք",
+      "styles": { "font": "Aharoni-True.ttf" }
+    },
+    "trees": {
+      "text": "ԣ",
+      "styles": { "font": "Aharoni-True.ttf" }
+    }
+  }
+}
