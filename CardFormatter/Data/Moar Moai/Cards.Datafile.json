@@ -1,0 +1,170 @@
+﻿[
+  {
+    "name": "1.1",
+    "orientation": "vertical",
+    "type": "Event",
+    "color": { "constant": "green" },
+    "rules": ["-2 ", { "constant": "stone" }, "\n+3 ", { "constant": "fish" }],
+    "image": "bg.png"
+  },
+  {
+    "name": "1.2",
+    "orientation": "vertical",
+    "type": "Event",
+    "color": { "constant": "green" },
+    "rules": ["-1 ", {"constant":"stone"}, "\n+2 ", {"constant":"fish"}],
+    "image": "bg.png"
+  },
+  {
+    "name": "1.3",
+    "orientation": "vertical",
+    "type": "Event",
+    "color": { "constant": "green" },
+    "rules": ["+1 ", {"constant":"fish"}],
+    "image": "bg.png"
+  },
+  {
+    "name": "1.4",
+    "orientation": "vertical",
+    "type": "Event",
+    "color": { "constant": "green" },
+    "rules": ["-2 ", {"constant":"stone"}, "\n+3 ", {"constant":"trees"}],
+    "image": "bg.png"
+  },
+  {
+    "name": "1.5",
+    "orientation": "vertical",
+    "type": "Event",
+    "color": { "constant": "green" },
+    "rules": ["-1 ", {"constant":"stone"}, "\n+2 ", {"constant":"trees"}],
+    "image": "bg.png"
+  },
+  {
+    "name": "1.6",
+    "orientation": "vertical",
+    "type": "Event",
+    "color": { "constant": "green" },
+    "rules": ["+1 ", {"constant":"trees"}],
+    "image": "bg.png"
+  },
+  {
+    "name": "1.7",
+    "orientation": "vertical",
+    "type": "Event",
+    "color": { "constant": "green" },
+    "rules": ["-1 ", {"constant":"stone"}, "\n+1 ", {"constant":"trees"}, ",", {"constant":"fish"}],
+    "image": "bg.png"
+  },
+  {
+    "name": "2.1",
+    "orientation": "vertical",
+    "type": "Event",
+    "color": { "constant": "yellow" },
+    "rules": ["+2 ", {"constant":"stone"}, "\n-1 ", {"constant":"trees"}, ",", {"constant":"fish"}],
+    "image": "bg.png"
+  },
+  {
+    "name": "2.2",
+    "orientation": "vertical",
+    "type": "Event",
+    "color": { "constant": "yellow" },
+    "rules": ["+1 ", {"constant":"fish"}, "\n-1 ", {"constant":"trees"}],
+    "image": "bg.png"
+  },
+  {
+    "name": "2.3",
+    "orientation": "vertical",
+    "type": "Event",
+    "color": { "constant": "yellow" },
+    "rules": ["-1 ", {"constant":"fish"}, "\n+1 ", {"constant":"trees"}],
+    "image": "bg.png"
+  },
+  {
+    "name": "2.4",
+    "orientation": "vertical",
+    "type": "Event",
+    "color": { "constant": "yellow" },
+    "rules": ["+1 ", {"constant":"stone"}, "\n-1 ", {"constant":"trees"}],
+    "image": "bg.png"
+  },
+  {
+    "name": "2.5",
+    "orientation": "vertical",
+    "type": "Event",
+    "color": { "constant": "yellow" },
+    "rules": ["-1 ", {"constant":"stone"}, "\n+1 ", {"constant":"trees"}],
+    "image": "bg.png"
+  },
+  {
+    "name": "2.6",
+    "orientation": "vertical",
+    "type": "Event",
+    "color": { "constant": "yellow" },
+    "rules": ["+1 ", {"constant":"stone"}, "\n-1 ", {"constant":"fish"}],
+    "image": "bg.png"
+  },
+  {
+    "name": "2.7",
+    "orientation": "vertical",
+    "type": "Event",
+    "color": { "constant": "yellow" },
+    "rules": ["-1 ", {"constant":"stone"}, "\n+1 ", {"constant":"fish"}],
+    "image": "bg.png"
+  },
+  {
+    "name": "3.1",
+    "orientation": "vertical",
+    "type": "Event",
+    "color": { "constant": "gray" },
+    "rules": ["Game Over!"],
+    "image": "bg.png"
+  },
+  {
+    "name": "3.2",
+    "orientation": "vertical",
+    "type": "Event",
+    "color": { "constant": "red" },
+    "rules": ["+1 ", {"constant":"stone"}, "\n-1 ", {"constant":"trees"}, ",", {"constant":"fish"}],
+    "image": "bg.png"
+  },
+  {
+    "name": "3.3",
+    "orientation": "vertical",
+    "type": "Event",
+    "color": { "constant": "red" },
+    "rules": ["+3 ", {"constant":"stone"}, "\n-2 ", {"constant":"trees"}, ",", {"constant":"fish"}],
+    "image": "bg.png"
+  },
+  {
+    "name": "3.4",
+    "orientation": "vertical",
+    "type": "Event",
+    "color": { "constant": "red" },
+    "rules": ["+1 ", {"constant":"stone"}, "\n-2 ", {"constant":"trees"}],
+    "image": "bg.png"
+  },
+  {
+    "name": "3.5",
+    "orientation": "vertical",
+    "type": "Event",
+    "color": { "constant": "red" },
+    "rules": ["+2 ", {"constant":"stone"}, "\n-3 ", {"constant":"trees"}],
+    "image": "bg.png"
+  },
+  {
+    "name": "3.6",
+    "orientation": "vertical",
+    "type": "Event",
+    "color": { "constant": "red" },
+    "rules": ["+1 ", {"constant":"stone"}, "\n-2 ", {"constant":"fish"}],
+    "image": "bg.png"
+  },
+  {
+    "name": "3.7",
+    "orientation": "vertical",
+    "type": "Event",
+    "color": { "constant": "red" },
+    "rules": ["+2 ", {"constant":"stone"}, "\n-3 ", {"constant":"fish"}],
+    "image": "bg.png"
+  }
+]
