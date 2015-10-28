@@ -2,7 +2,7 @@
   "fullWidth": 825,
   "fullHeight": 1125,
   "styles": {
-    "font": "TIKITB__.TTF",
+    "font": "TikiTookaBV.ttf",
     "maxFontSize": 200,
     "minFontSize": 42,
     "lineHeight": 0.86,
@@ -14,7 +14,7 @@
   "elements": [
     {
       "type": "image",
-      "name": "art",
+      "name": "image",
       "x": 0,
       "y": 0
     },
@@ -59,7 +59,7 @@
       "styles": { "font": "Aharoni-True.ttf" }
     },
     "trees": {
-      "text": "ԣ",
+      "text": "֌",
       "styles": { "font": "Aharoni-True.ttf" }
     }
   }

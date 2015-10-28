@@ -6,7 +6,7 @@
 
     //The cardDrawer member of the namespace
     (function () {
-        var debug = true;
+        var debug = false;
 
         //Discovers the elements in a template that are applicable to the card in question.
         var findElements = function (localTemptlate, card) {
