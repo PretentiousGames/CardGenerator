@@ -34,7 +34,7 @@
                     var savable = new Image();
                     var data = e.canvas.toDataURL();
                     savable.src = data;
-                    zip.file(e.name + ".png", savable.src.substr(savable.src.indexOf(',') + 1), { base64: true });
+                    zip.file(e.name, savable.src.substr(savable.src.indexOf(',') + 1), { base64: true });
                     e.canvas.parentNode.href = data;
                 });
 
