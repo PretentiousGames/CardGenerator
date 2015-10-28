@@ -5,7 +5,7 @@
     "type": "Event",
     "color": { "constant": "green" },
     "rules": ["-2 ", { "constant": "stone" }, "\n+3 ", { "constant": "fish" }],
-    "image": "bg.png"
+    "image": "14.png"
   },
   {
     "name": "1.2",
@@ -13,7 +13,7 @@
     "type": "Event",
     "color": { "constant": "green" },
     "rules": ["-1 ", {"constant":"stone"}, "\n+2 ", {"constant":"fish"}],
-    "image": "bg.png"
+    "image": "15.png"
   },
   {
     "name": "1.3",
@@ -21,7 +21,7 @@
     "type": "Event",
     "color": { "constant": "green" },
     "rules": ["+1 ", {"constant":"fish"}],
-    "image": "bg.png"
+    "image": "16.png"
   },
   {
     "name": "1.4",
@@ -29,7 +29,7 @@
     "type": "Event",
     "color": { "constant": "green" },
     "rules": ["-2 ", {"constant":"stone"}, "\n+3 ", {"constant":"trees"}],
-    "image": "bg.png"
+    "image": "17.png"
   },
   {
     "name": "1.5",
@@ -37,7 +37,7 @@
     "type": "Event",
     "color": { "constant": "green" },
     "rules": ["-1 ", {"constant":"stone"}, "\n+2 ", {"constant":"trees"}],
-    "image": "bg.png"
+    "image": "18.png"
   },
   {
     "name": "1.6",
@@ -45,7 +45,7 @@
     "type": "Event",
     "color": { "constant": "green" },
     "rules": ["+1 ", {"constant":"trees"}],
-    "image": "bg.png"
+    "image": "19.png"
   },
   {
     "name": "1.7",
@@ -53,7 +53,7 @@
     "type": "Event",
     "color": { "constant": "green" },
     "rules": ["-1 ", {"constant":"stone"}, "\n+1 ", {"constant":"trees"}, ",", {"constant":"fish"}],
-    "image": "bg.png"
+    "image": "20.png"
   },
   {
     "name": "2.1",
@@ -61,7 +61,7 @@
     "type": "Event",
     "color": { "constant": "yellow" },
     "rules": ["+2 ", {"constant":"stone"}, "\n-1 ", {"constant":"trees"}, ",", {"constant":"fish"}],
-    "image": "bg.png"
+    "image": "21.png"
   },
   {
     "name": "2.2",
@@ -69,7 +69,7 @@
     "type": "Event",
     "color": { "constant": "yellow" },
     "rules": ["+1 ", {"constant":"fish"}, "\n-1 ", {"constant":"trees"}],
-    "image": "bg.png"
+    "image": "22.png"
   },
   {
     "name": "2.3",
@@ -77,7 +77,7 @@
     "type": "Event",
     "color": { "constant": "yellow" },
     "rules": ["-1 ", {"constant":"fish"}, "\n+1 ", {"constant":"trees"}],
-    "image": "bg.png"
+    "image": "23.png"
   },
   {
     "name": "2.4",
@@ -85,7 +85,7 @@
     "type": "Event",
     "color": { "constant": "yellow" },
     "rules": ["+1 ", {"constant":"stone"}, "\n-1 ", {"constant":"trees"}],
-    "image": "bg.png"
+    "image": "24.png"
   },
   {
     "name": "2.5",
@@ -93,7 +93,7 @@
     "type": "Event",
     "color": { "constant": "yellow" },
     "rules": ["-1 ", {"constant":"stone"}, "\n+1 ", {"constant":"trees"}],
-    "image": "bg.png"
+    "image": "25.png"
   },
   {
     "name": "2.6",
@@ -101,7 +101,7 @@
     "type": "Event",
     "color": { "constant": "yellow" },
     "rules": ["+1 ", {"constant":"stone"}, "\n-1 ", {"constant":"fish"}],
-    "image": "bg.png"
+    "image": "26.png"
   },
   {
     "name": "2.7",
@@ -109,7 +109,7 @@
     "type": "Event",
     "color": { "constant": "yellow" },
     "rules": ["-1 ", {"constant":"stone"}, "\n+1 ", {"constant":"fish"}],
-    "image": "bg.png"
+    "image": "6.png"
   },
   {
     "name": "3.1",
@@ -117,7 +117,7 @@
     "type": "Event",
     "color": { "constant": "gray" },
     "rules": ["Game Over!"],
-    "image": "bg.png"
+    "image": "9.png"
   },
   {
     "name": "3.2",
@@ -125,7 +125,7 @@
     "type": "Event",
     "color": { "constant": "red" },
     "rules": ["+1 ", {"constant":"stone"}, "\n-1 ", {"constant":"trees"}, ",", {"constant":"fish"}],
-    "image": "bg.png"
+    "image": "1.png"
   },
   {
     "name": "3.3",
@@ -133,7 +133,7 @@
     "type": "Event",
     "color": { "constant": "red" },
     "rules": ["+3 ", {"constant":"stone"}, "\n-2 ", {"constant":"trees"}, ",", {"constant":"fish"}],
-    "image": "bg.png"
+    "image": "2.png"
   },
   {
     "name": "3.4",
@@ -141,7 +141,7 @@
     "type": "Event",
     "color": { "constant": "red" },
     "rules": ["+1 ", {"constant":"stone"}, "\n-2 ", {"constant":"trees"}],
-    "image": "bg.png"
+    "image": "3.png"
   },
   {
     "name": "3.5",
@@ -149,7 +149,7 @@
     "type": "Event",
     "color": { "constant": "red" },
     "rules": ["+2 ", {"constant":"stone"}, "\n-3 ", {"constant":"trees"}],
-    "image": "bg.png"
+    "image": "4.png"
   },
   {
     "name": "3.6",
@@ -157,7 +157,7 @@
     "type": "Event",
     "color": { "constant": "red" },
     "rules": ["+1 ", {"constant":"stone"}, "\n-2 ", {"constant":"fish"}],
-    "image": "bg.png"
+    "image": "8.png"
   },
   {
     "name": "3.7",
@@ -165,6 +165,6 @@
     "type": "Event",
     "color": { "constant": "red" },
     "rules": ["+2 ", {"constant":"stone"}, "\n-3 ", {"constant":"fish"}],
-    "image": "bg.png"
+    "image": "13.png"
   }
 ]
