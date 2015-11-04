@@ -1,0 +1,74 @@
+﻿{
+  "fullWidth": 825,
+  "fullHeight": 1125,
+  "styles": {
+    "font": "Aharoni-True.ttf",
+    "maxFontSize": 200,
+    "minFontSize": 42,
+    "lineHeight": 0.86,
+    "offset": -0.270,
+    "justification": "center",
+    "alignment": "middle"
+  },
+  "requirements": [ ],
+  "elements": [
+    {
+      "type": "image",
+      "name": "background",
+      "x": 0,
+      "y": 0,
+      "constant": "Background"
+    },
+    {
+      "type": "style",
+      "value": {
+        "fillStyle": "#410",
+        "textBaseline": "hanging"
+      }
+    },
+    {
+      "type": "text",
+      "name": "rules",
+      "styles": {
+        "x": 59.5,
+        "y": 902.5,
+        "xSize": 703,
+        "ySize": 180
+      }
+    }
+  ],
+  "subTypes": [ ],
+  "constants": {
+    "Background": "backgroundCircle.png",
+    "draw": {
+      "text": "փ",
+      "styles": { },
+      "description": "draw an extra card"
+    },
+    "play": {
+      "text": "ԫ",
+      "styles": { },
+      "description": "play an extra card"
+    },
+    "down": {
+      "text": "Ռ",
+      "styles": { },
+      "description": "you may play cards splayed down on this card"
+    },
+    "up": {
+      "text": "Ջ",
+      "styles": { },
+      "description": "you may play cards splayed up on this card"
+    },
+    "right": {
+      "text": "Պ",
+      "styles": { },
+      "description": "you may play cards splayed right on this card"
+    },
+    "points": {
+      "text": "Ԙ",
+      "styles": { },
+      "description": "+1 Point"
+    }
+  }
+}
