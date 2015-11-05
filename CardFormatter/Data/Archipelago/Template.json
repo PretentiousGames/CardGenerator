@@ -8,7 +8,9 @@
     "lineHeight": 0.86,
     "offset": -0.270,
     "justification": "center",
-    "alignment": "middle"
+    "alignment": "middle",  
+    "fillStyle": "#410",
+    "textBaseline": "hanging"
   },
   "requirements": [ ],
   "elements": [
@@ -20,20 +22,53 @@
       "constant": "Background"
     },
     {
-      "type": "style",
-      "value": {
-        "fillStyle": "#410",
-        "textBaseline": "hanging"
+      "type": "text",
+      "name": "rules",
+      "styles": {
+        "x": 84.5,
+        "y": 84.5,
+        "xSize": 570.7,
+        "ySize": 303
       }
     },
     {
       "type": "text",
-      "name": "rules",
+      "name": "bl",
       "styles": {
-        "x": 59.5,
-        "y": 902.5,
-        "xSize": 703,
-        "ySize": 180
+        "x": 84.5,
+        "y": 437.5,
+        "xSize": 285.3,
+        "ySize": 303
+      }
+    },
+    {
+      "type": "text",
+      "name": "bm",
+      "styles": {
+        "x": 369.8,
+        "y": 437.5,
+        "xSize": 285.3,
+        "ySize": 303
+      }
+    },
+    {
+      "type": "text",
+      "name": "br",
+      "styles": {
+        "x": 655.2,
+        "y": 437.5,
+        "xSize": 285.3,
+        "ySize": 303
+      }
+    },
+    {
+      "type": "text",
+      "name": "tr",
+      "styles": {
+        "x": 655.2,
+        "y": 84.5,
+        "xSize": 285.3,
+        "ySize": 303
       }
     }
   ],
