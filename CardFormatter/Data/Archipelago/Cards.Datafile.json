@@ -11,12 +11,7 @@
   {
     "name": "1",
     "orientation": "horizontal",
-    "rules": [
-      { "constant": "draw" },
-      "=",
-      { "constant": "draw" },
-      "+1"
-    ],
+    "rules": [ "Each ", { "constant": "draw" }, " on this island gives +1", { "constant": "draw" }],
     "bl": { "constant": "right" },
     "bm": { "constant": "down" },
     "br": { "constant": "play" },
@@ -25,12 +20,7 @@
   {
     "name": "2",
     "orientation": "horizontal",
-    "rules": [
-      { "constant": "play" },
-      "=",
-      { "constant": "play" },
-      "+1"
-    ],
+    "rules": [ "Each ", { "constant": "play" }, " on this island gives +1", { "constant": "play" }],
     "bl": { "constant": "right" },
     "bm": { "constant": "down" },
     "br": { "constant": "draw" },
@@ -48,12 +38,7 @@
   {
     "name": "4",
     "orientation": "horizontal",
-    "rules": [
-      { "constant": "points" },
-      "=",
-      { "constant": "points" },
-      "+1"
-    ],
+    "rules": [ "Each ", { "constant": "points" }, " on this island gives +1", { "constant": "points" }],
     "bl": { "constant": "down" },
     "bm": { "constant": "play" },
     "br": { "constant": "play" },
@@ -80,7 +65,7 @@
   {
     "name": "7",
     "orientation": "horizontal",
-    "rules": [ "+1", { "constant": "points" } ],
+    "rules": [ "+2", { "constant": "points" } ],
     "bl": { "constant": "points" },
     "bm": { "constant": "points" },
     "br": { "constant": "points" },
@@ -107,12 +92,7 @@
   {
     "name": "10",
     "orientation": "horizontal",
-    "rules": [
-      { "constant": "play" },
-      "=",
-      { "constant": "play" },
-      "+1"
-    ],
+    "rules": [ "Each ", { "constant": "play" }, " on this island gives +1", { "constant": "play" }],
     "bl": { "constant": "draw" },
     "bm": { "constant": "up" },
     "br": { "constant": "down" },
@@ -121,12 +101,7 @@
   {
     "name": "11",
     "orientation": "horizontal",
-    "rules": [
-      { "constant": "draw" },
-      "=",
-      { "constant": "draw" },
-      "+1"
-    ],
+    "rules": [ "Each ", { "constant": "draw" }, " on this island gives +1", { "constant": "draw" }],
     "bl": { "constant": "draw" },
     "bm": { "constant": "play" },
     "br": { "constant": "right" },
@@ -135,12 +110,7 @@
   {
     "name": "12",
     "orientation": "horizontal",
-    "rules": [
-      { "constant": "points" },
-      "=",
-      { "constant": "points" },
-      "+1"
-    ],
+    "rules": [ "Each ", { "constant": "points" }, " on this island gives +1", { "constant": "points" }],
     "bl": { "constant": "points" },
     "bm": { "constant": "points" },
     "br": "",
@@ -156,12 +126,21 @@
     "tr": { "constant": "points" }
   },
   {
-    "name": "13",
+    "name": "14",
     "orientation": "horizontal",
-    "rules": "Ignore one requirement for this island",
-    "bl": { "constant": "up" },
-    "bm": { "constant": "down" },
-    "br": { "constant": "right" },
+    "rules": "You may use the products of this island to support two islands.",
+    "bl": { "constant": "down" },
+    "bm": { "constant": "play" },
+    "br": { "constant": "play" },
+    "tr": { "constant": "up" }
+  },
+  {
+    "name": "15",
+    "orientation": "horizontal",
+    "rules": "This card may splay one card in any direction, ignoring requirements.",
+    "bl": { "constant": "points" },
+    "bm": { "constant": "play" },
+    "br": { "constant": "draw" },
     "tr": { "constant": "points" }
   }
 ]
