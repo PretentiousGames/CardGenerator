@@ -747,9 +747,9 @@
     <Content Include="Data\SpaceGame\template.json" />
     <Content Include="Data\Sorcery\Cards.Datafile.json" />
     <Content Include="Data\Sorcery\Template.json" />
-    <Content Include="Data\Island\Aharoni-True.ttf" />
-    <Content Include="Data\Island\Cards.Datafile.json" />
-    <Content Include="Data\Island\Template.json" />
+    <Content Include="Data\Archipelago\Aharoni-True.ttf" />
+    <Content Include="Data\Archipelago\Cards.Datafile.json" />
+    <Content Include="Data\Archipelago\Template.json" />
     <None Include="Properties\PublishProfiles\CardFormatter.pubxml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Stitcher.cshtml" />
