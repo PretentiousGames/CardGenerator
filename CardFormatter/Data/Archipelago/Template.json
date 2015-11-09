@@ -27,8 +27,8 @@
       "styles": {
         "x": 84.5,
         "y": 84.5,
-        "xSize": 570.7,
-        "ySize": 303
+        "xSize": 638,
+        "ySize": 328
       }
     },
     {
@@ -36,45 +36,45 @@
       "name": "bl",
       "styles": {
         "x": 84.5,
-        "y": 437.5,
-        "xSize": 285.3,
-        "ySize": 303
+        "y": 412.5,
+        "xSize": 319,
+        "ySize": 328
       }
     },
     {
       "type": "text",
       "name": "bm",
       "styles": {
-        "x": 369.8,
-        "y": 437.5,
-        "xSize": 285.3,
-        "ySize": 303
+        "x": 403.5,
+        "y": 412.5,
+        "xSize": 319,
+        "ySize": 328
       }
     },
     {
       "type": "text",
       "name": "br",
       "styles": {
-        "x": 655.2,
-        "y": 437.5,
-        "xSize": 285.3,
-        "ySize": 303
+        "x": 722.5,
+        "y": 412.5,
+        "xSize": 319,
+        "ySize": 328
       }
     },
     {
       "type": "text",
       "name": "tr",
       "styles": {
-        "x": 655.2,
+        "x": 722.5,
         "y": 84.5,
-        "xSize": 285.3,
-        "ySize": 303
+        "xSize": 319,
+        "ySize": 328
       }
     }
   ],
   "subTypes": [ ],
   "constants": {
-    "Background": "backgroundCircle.png",
+    "Background": "bg.png",
     "draw": {
       "text": "փ",
       "styles": { },

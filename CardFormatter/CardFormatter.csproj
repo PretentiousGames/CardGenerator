@@ -309,6 +309,7 @@
     <Content Include="bower_components\webcomponentsjs\webcomponents-lite.min.js" />
     <Content Include="bower_components\webcomponentsjs\webcomponents.js" />
     <Content Include="bower_components\webcomponentsjs\webcomponents.min.js" />
+    <Content Include="Data\Archipelago\bg.png" />
     <Content Include="Data\DR\backgroundPart.png" />
     <Content Include="Data\DR\battery.png" />
     <Content Include="Data\DR\ex\AddOnBattery.png" />
