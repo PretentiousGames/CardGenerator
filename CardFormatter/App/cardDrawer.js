@@ -191,10 +191,18 @@
                       obj.suffix.text ? obj.suffix.text : obj.suffix;
                 }
                 if (prefix) {
-                    val.unshift({ text: prefix, styles: obj.styles });
+                    if (prefix.text) {
+                        val.unshift({ text: prefix.text, styles: _.extend({}, obj.styles, prefix.styles) });
+                    } else {
+                        val.unshift({ text: prefix, styles: obj.styles });
+                    }
                 }
                 if (suffix) {
-                    val.push({ text: suffix, styles: obj.styles });
+                    if (suffix.text) {
+                        val.unshift({ text: suffix.text, styles: _.extend({}, obj.styles, suffix.styles) });
+                    } else {
+                        val.unshift({ text: suffix, styles: obj.styles });
+                    }
                 }
                 return val;
             };
