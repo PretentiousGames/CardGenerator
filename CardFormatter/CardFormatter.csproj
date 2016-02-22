@@ -332,6 +332,9 @@
     <Content Include="Data\Archipelago\9.png" />
     <Content Include="Data\Archipelago\bg.png" />
     <Content Include="Data\Archipelago\platform.png" />
+    <Content Include="Data\DogeCity\background.png" />
+    <Content Include="Data\DogeCity\rulesPlatform.png" />
+    <Content Include="Data\DogeCity\titlePlatform.png" />
     <Content Include="Data\DR\backgroundPart.png" />
     <Content Include="Data\DR\battery.png" />
     <Content Include="Data\DR\ex\AddOnBattery.png" />
@@ -461,6 +464,7 @@
     <Content Include="Data\Polynesia\images\defensableIsland.png" />
     <Content Include="Data\Polynesia\images\defenseNetwork.png" />
     <Content Include="Data\Polynesia\images\diplomat.png" />
+    <Content Include="Data\Polynesia\images\elder.png" />
     <Content Include="Data\Polynesia\images\ExclusiveContract.png" />
     <Content Include="Data\Polynesia\images\expansiveIsland.png" />
     <Content Include="Data\Polynesia\images\expert.png" />
@@ -469,12 +473,14 @@
     <Content Include="Data\Polynesia\images\farmer.png" />
     <Content Include="Data\Polynesia\images\fertileIsland.png" />
     <Content Include="Data\Polynesia\images\fortify.png" />
+    <Content Include="Data\Polynesia\images\gatherer.png" />
     <Content Include="Data\Polynesia\images\guerillatactics.png" />
     <Content Include="Data\Polynesia\images\Haumia.png" />
     <Content Include="Data\Polynesia\images\hero.png" />
     <Content Include="Data\Polynesia\images\Hina.png" />
     <Content Include="Data\Polynesia\images\holySite.png" />
     <Content Include="Data\Polynesia\images\HomeIsland.png" />
+    <Content Include="Data\Polynesia\images\hunter.png" />
     <Content Include="Data\Polynesia\images\hurumanu.png" />
     <Content Include="Data\Polynesia\images\Ikatere.png" />
     <Content Include="Data\Polynesia\images\instructor.png" />
@@ -532,6 +538,7 @@
     <Content Include="Data\Polynesia\images\trader.png" />
     <Content Include="Data\Polynesia\images\tradingPost.png" />
     <Content Include="Data\Polynesia\images\trap.png" />
+    <Content Include="Data\Polynesia\images\traveler.png" />
     <Content Include="Data\Polynesia\images\tumunui.png" />
     <Content Include="Data\Polynesia\images\tutewehiwehi.png" />
     <Content Include="Data\Polynesia\images\Uenuku.png" />
@@ -807,6 +814,8 @@
     <Content Include="Data\Archipelago\Template.json" />
     <Content Include="Data\MoarMoai\Aharoni-True.ttf" />
     <Content Include="Data\MoarMoai\TikiTookaBV.ttf" />
+    <Content Include="Data\DogeCity\template.json" />
+    <Content Include="Data\DogeCity\fewCards.json" />
     <None Include="Properties\PublishProfiles\CardFormatter.pubxml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Stitcher.cshtml" />

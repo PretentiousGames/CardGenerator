@@ -3,7 +3,7 @@
   "fullHeight": 1125,
   "styles": {
     "font": "TikiTookaBV.ttf",
-    "maxFontSize": 200,
+    "maxFontSize": 150,
     "minFontSize": 42,
     "lineHeight": 0.86,
     "offset": -0.270,
@@ -50,6 +50,22 @@
     "yellow": "yellow.png",
     "red": "red.png",
     "gray": "gray.png",
+    "largeStatue": {
+      "text": "ԉ",
+      "styles": { "font": "Aharoni-True.ttf" }
+    },
+    "statue": {
+      "text": "ր",
+      "styles": { "font": "Aharoni-True.ttf" }
+    },
+    "worker": {
+      "text": "ց",
+      "styles": { "font": "Aharoni-True.ttf" }
+    },
+    "canoe": {
+      "text": "տ",
+      "styles": { "font": "Aharoni-True.ttf" }
+    },
     "stone": {
       "text": "օ",
       "styles": { "font": "Aharoni-True.ttf" }

@@ -4,49 +4,8 @@
     "orientation": "vertical",
     "type": "part",
     "icon": { "constant": "Time" },
-    "value": "1",
     "title": "Time",
-    "rules": "Operate a private engine that you have access to.",
-    "circle": "time.png"
-  },
-  {
-    "name": "2tt",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Time" },
-    "value": "2",
-    "title": "Time",
-    "rules": "Operate a private engine that you have access to.",
-    "circle": "time.png"
-  },
-  {
-    "name": "3t",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Time" },
-    "value": "3",
-    "title": "Time",
-    "rules": "Operate a private engine that you have access to.",
-    "circle": "time.png"
-  },
-  {
-    "name": "4t",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Time" },
-    "value": "4",
-    "title": "Time",
-    "rules": "Operate a private engine that you have access to.",
-    "circle": "time.png"
-  },
-  {
-    "name": "5t",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Time" },
-    "value": "5",
-    "title": "Time",
-    "rules": "Operate a private engine that you have access to.",
+    "rules": "Operate an engine you have access to.",
     "circle": "time.png"
   },
   {
@@ -54,49 +13,8 @@
     "orientation": "vertical",
     "type": "part",
     "icon": { "constant": "Growth" },
-    "value": "1",
     "title": "Growth",
-    "rules": "Either look at 2 cards and keep 1, take an engine core, or discard a card to dig for a described card.",
-    "circle": "growth.png"
-  },
-  {
-    "name": "2g",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Growth" },
-    "value": "2",
-    "title": "Growth",
-    "rules": "Either look at 2 cards and keep 1, take an engine core, or discard a card to dig for a described card.",
-    "circle": "growth.png"
-  },
-  {
-    "name": "3g",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Growth" },
-    "value": "3",
-    "title": "Growth",
-    "rules": "Either look at 2 cards and keep 1, take an engine core, or discard a card to dig for a described card.",
-    "circle": "growth.png"
-  },
-  {
-    "name": "4g",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Growth" },
-    "value": "4",
-    "title": "Growth",
-    "rules": "Either look at 2 cards and keep 1, take an engine core, or discard a card to dig for a described card.",
-    "circle": "growth.png"
-  },
-  {
-    "name": "5g",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Growth" },
-    "value": "5",
-    "title": "Growth",
-    "rules": "Either look at 2 cards and keep 1, take an engine core, or discard a card to dig for a described card.",
+    "rules": "Either take one of the cards available to draft or an engine core.",
     "circle": "growth.png"
   },
   {
@@ -104,47 +22,6 @@
     "orientation": "vertical",
     "type": "part",
     "icon": { "constant": "Permanence" },
-    "value": "1",
-    "title": "Duration",
-    "rules": "Store one resource.",
-    "circle": "duration.png"
-  },
-  {
-    "name": "2p",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Permanence" },
-    "value": "2",
-    "title": "Duration",
-    "rules": "Store one resource.",
-    "circle": "duration.png"
-  },
-  {
-    "name": "3p",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Permanence" },
-    "value": "3",
-    "title": "Duration",
-    "rules": "Store one resource.",
-    "circle": "duration.png"
-  },
-  {
-    "name": "4p",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Permanence" },
-    "value": "4",
-    "title": "Duration",
-    "rules": "Store one resource.",
-    "circle": "duration.png"
-  },
-  {
-    "name": "5p",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Permanence" },
-    "value": "5",
     "title": "Duration",
     "rules": "Store one resource.",
     "circle": "duration.png"
@@ -154,69 +31,8 @@
     "orientation": "vertical",
     "type": "part",
     "icon": { "constant": "Love" },
-    "value": "1",
     "title": "Love",
-    "rules": [
-      "Gain access to an engine that you do not own this turn. The owner gets +1",
-      { "constant": "TimeInline" },
-      " each time you use it. Use this ability no more than once a turn on each other player."
-    ],
-    "circle": "love.png"
-  },
-  {
-    "name": "2l",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Love" },
-    "value": "2",
-    "title": "Love",
-    "rules": [
-      "Gain access to an engine that you do not own this turn. The owner gets +1",
-      { "constant": "TimeInline" },
-      " each time you use it. Use this ability no more than once a turn on each other player."
-    ],
-    "circle": "love.png"
-  },
-  {
-    "name": "3l",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Love" },
-    "value": "3",
-    "title": "Love",
-    "rules": [
-      "Gain access to an engine that you do not own this turn. The owner gets +1",
-      { "constant": "TimeInline" },
-      " each time you use it. Use this ability no more than once a turn on each other player."
-    ],
-    "circle": "love.png"
-  },
-  {
-    "name": "4l",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Love" },
-    "value": "4",
-    "title": "Love",
-    "rules": [
-      "Gain access to an engine that you do not own this turn. The owner gets +1",
-      { "constant": "TimeInline" },
-      " each time you use it. Use this ability no more than once a turn on each other player."
-    ],
-    "circle": "love.png"
-  },
-  {
-    "name": "5l",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Love" },
-    "value": "5",
-    "title": "Love",
-    "rules": [
-      "Gain access to an engine that you do not own this turn. The owner gets +1",
-      { "constant": "TimeInline" },
-      " each time you use it. Use this ability no more than once a turn on each other player."
-    ],
+    "rules": "You can use another players engine\nthis turn.",
     "circle": "love.png"
   },
   {
@@ -224,49 +40,8 @@
     "orientation": "vertical",
     "type": "part",
     "icon": { "constant": "Change" },
-    "value": "1",
     "title": "Change",
-    "rules": "Either discard a part from or add a part to an engine. You may no longer operate any private engines this turn.",
-    "circle": "change.png"
-  },
-  {
-    "name": "2c",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Change" },
-    "value": "2",
-    "title": "Change",
-    "rules": "Either discard a part from or add a part to an engine. You may no longer operate any private engines this turn.",
-    "circle": "change.png"
-  },
-  {
-    "name": "3c",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Change" },
-    "value": "3",
-    "title": "Change",
-    "rules": "Either discard a part from or add a part to an engine. You may no longer operate any private engines this turn.",
-    "circle": "change.png"
-  },
-  {
-    "name": "4c",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Change" },
-    "value": "4",
-    "title": "Change",
-    "rules": "Either discard a part from or add a part to an engine. You may no longer operate any private engines this turn.",
-    "circle": "change.png"
-  },
-  {
-    "name": "5c",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Change" },
-    "value": "5",
-    "title": "Change",
-    "rules": "Either discard a part from or add a part to an engine. You may no longer operate any private engines this turn.",
+    "rules": "Modify an engine you own or add a card to the Universal Machine.",
     "circle": "change.png"
   },
   {
@@ -274,49 +49,8 @@
     "orientation": "vertical",
     "type": "part",
     "icon": { "constant": "Justice" },
-    "value": "1",
     "title": "Justice",
-    "rules": "Keep an unbalanced engine from losing parts.",
-    "circle": "justice.png"
-  },
-  {
-    "name": "2j",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Justice" },
-    "value": "2",
-    "title": "Justice",
-    "rules": "Keep an unbalanced engine from losing parts.",
-    "circle": "justice.png"
-  },
-  {
-    "name": "3j",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Justice" },
-    "value": "3",
-    "title": "Justice",
-    "rules": "Keep an unbalanced engine from losing parts.",
-    "circle": "justice.png"
-  },
-  {
-    "name": "4j",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Justice" },
-    "value": "4",
-    "title": "Justice",
-    "rules": "Keep an unbalanced engine from losing parts.",
-    "circle": "justice.png"
-  },
-  {
-    "name": "5j",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Justice" },
-    "value": "5",
-    "title": "Justice",
-    "rules": "Keep an unbalanced engine from losing parts.",
+    "rules": "Keep an unbalanced engine from losing\na part.",
     "circle": "justice.png"
   },
   {
@@ -324,63 +58,6 @@
     "orientation": "vertical",
     "type": "part",
     "icon": { "constant": "Prestige" },
-    "value": "1",
-    "title": "Prestige",
-    "rules": [
-      "If you gain 20",
-      { "constant": "PrestigeInline" },
-      " in one turn you win."
-    ],
-    "circle": "prestige.png"
-  },
-  {
-    "name": "2v",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Prestige" },
-    "value": "2",
-    "title": "Prestige",
-    "rules": [
-      "If you gain 20",
-      { "constant": "PrestigeInline" },
-      " in one turn you win."
-    ],
-    "circle": "prestige.png"
-  },
-  {
-    "name": "3v",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Prestige" },
-    "value": "3",
-    "title": "Prestige",
-    "rules": [
-      "If you gain 20",
-      { "constant": "PrestigeInline" },
-      " in one turn you win."
-    ],
-    "circle": "prestige.png"
-  },
-  {
-    "name": "4v",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Prestige" },
-    "value": "4",
-    "title": "Prestige",
-    "rules": [
-      "If you gain 20",
-      { "constant": "PrestigeInline" },
-      " in one turn you win."
-    ],
-    "circle": "prestige.png"
-  },
-  {
-    "name": "5v",
-    "orientation": "vertical",
-    "type": "part",
-    "icon": { "constant": "Prestige" },
-    "value": "5",
     "title": "Prestige",
     "rules": [
       "If you gain 20",
@@ -394,7 +71,7 @@
     "orientation": "vertical",
     "type": "engine",
     "title": "Engine Core",
-    "rules": "Place inputs to the left of this card and outputs to the right. If there are no inputs then this is an automatic engine.",
+    "rules": "Place inputs left of this card and outputs to the right.",
     "circle": "core.png"
   }
 ]

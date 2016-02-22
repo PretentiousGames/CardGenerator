@@ -4,7 +4,7 @@
     "orientation": "vertical",
     "type": "Event",
     "color": { "constant": "green" },
-    "rules": ["-2 ", { "constant": "stone" }, "\n+3 ", { "constant": "fish" }],
+    "rules": ["-3 ", { "constant": "stone" }, "\n+5 ", { "constant": "fish" }],
     "image": "14.png"
   },
   {
@@ -12,7 +12,7 @@
     "orientation": "vertical",
     "type": "Event",
     "color": { "constant": "green" },
-    "rules": ["-1 ", {"constant":"stone"}, "\n+2 ", {"constant":"fish"}],
+    "rules": ["-2 ", {"constant":"stone"}, "\n+4 ", {"constant":"fish"}],
     "image": "15.png"
   },
   {
@@ -20,7 +20,7 @@
     "orientation": "vertical",
     "type": "Event",
     "color": { "constant": "green" },
-    "rules": ["+1 ", {"constant":"fish"}],
+    "rules": ["Each player gains +1", {"constant":"worker"}],
     "image": "16.png"
   },
   {
@@ -28,7 +28,7 @@
     "orientation": "vertical",
     "type": "Event",
     "color": { "constant": "green" },
-    "rules": ["-2 ", {"constant":"stone"}, "\n+3 ", {"constant":"trees"}],
+    "rules": ["-3 ", {"constant":"stone"}, "\n+5 ", {"constant":"trees"}],
     "image": "17.png"
   },
   {
@@ -36,7 +36,7 @@
     "orientation": "vertical",
     "type": "Event",
     "color": { "constant": "green" },
-    "rules": ["-1 ", {"constant":"stone"}, "\n+2 ", {"constant":"trees"}],
+    "rules": ["-2 ", {"constant":"stone"}, "\n+4 ", {"constant":"trees"}],
     "image": "18.png"
   },
   {
@@ -44,7 +44,7 @@
     "orientation": "vertical",
     "type": "Event",
     "color": { "constant": "green" },
-    "rules": ["+1 ", {"constant":"trees"}],
+    "rules": ["Each player gains +1", {"constant":"canoe"}],
     "image": "19.png"
   },
   {
@@ -52,7 +52,7 @@
     "orientation": "vertical",
     "type": "Event",
     "color": { "constant": "green" },
-    "rules": ["-1 ", {"constant":"stone"}, "\n+1 ", {"constant":"trees"}, ",", {"constant":"fish"}],
+    "rules": ["Replace this with the top event card."],
     "image": "20.png"
   },
   {
@@ -60,7 +60,7 @@
     "orientation": "vertical",
     "type": "Event",
     "color": { "constant": "yellow" },
-    "rules": ["+2 ", {"constant":"stone"}, "\n-1 ", {"constant":"trees"}, ",", {"constant":"fish"}],
+    "rules": ["Randomly re-assign turn order tokens."],
     "image": "21.png"
   },
   {
@@ -68,7 +68,7 @@
     "orientation": "vertical",
     "type": "Event",
     "color": { "constant": "yellow" },
-    "rules": ["+1 ", {"constant":"fish"}, "\n-1 ", {"constant":"trees"}],
+    "rules": ["-3 ", {"constant":"trees"}, "\n+3 ", {"constant":"fish"}],
     "image": "22.png"
   },
   {
@@ -76,7 +76,7 @@
     "orientation": "vertical",
     "type": "Event",
     "color": { "constant": "yellow" },
-    "rules": ["-1 ", {"constant":"fish"}, "\n+1 ", {"constant":"trees"}],
+    "rules": ["-3 ", {"constant":"fish"}, "\n+3 ", {"constant":"trees"}],
     "image": "23.png"
   },
   {
@@ -84,7 +84,7 @@
     "orientation": "vertical",
     "type": "Event",
     "color": { "constant": "yellow" },
-    "rules": ["+1 ", {"constant":"stone"}, "\n-1 ", {"constant":"trees"}],
+    "rules": [{"constant":"statue"}, " may not be built or moved this turn."],
     "image": "24.png"
   },
   {
@@ -92,7 +92,7 @@
     "orientation": "vertical",
     "type": "Event",
     "color": { "constant": "yellow" },
-    "rules": ["-1 ", {"constant":"stone"}, "\n+1 ", {"constant":"trees"}],
+    "rules": ["-3 ", {"constant":"stone"}, "\n+3 ", {"constant":"trees"}],
     "image": "25.png"
   },
   {
@@ -100,7 +100,7 @@
     "orientation": "vertical",
     "type": "Event",
     "color": { "constant": "yellow" },
-    "rules": ["+1 ", {"constant":"stone"}, "\n-1 ", {"constant":"fish"}],
+    "rules": [{"constant":"largeStatue"}, " may not be built or moved this turn."],
     "image": "26.png"
   },
   {
@@ -108,9 +108,10 @@
     "orientation": "vertical",
     "type": "Event",
     "color": { "constant": "yellow" },
-    "rules": ["-1 ", {"constant":"stone"}, "\n+1 ", {"constant":"fish"}],
+    "rules": ["-3 ", {"constant":"stone"}, "\n+3 ", {"constant":"fish"}],
     "image": "6.png"
   },
+
   {
     "name": "3.1",
     "orientation": "vertical",
@@ -124,7 +125,7 @@
     "orientation": "vertical",
     "type": "Event",
     "color": { "constant": "red" },
-    "rules": ["+1 ", {"constant":"stone"}, "\n-1 ", {"constant":"trees"}, ",", {"constant":"fish"}],
+    "rules": ["-3 ", {"constant":"trees"}, ",", {"constant":"fish"}, "\n+3 ", {"constant":"stone"}],
     "image": "1.png"
   },
   {
@@ -132,7 +133,7 @@
     "orientation": "vertical",
     "type": "Event",
     "color": { "constant": "red" },
-    "rules": ["+3 ", {"constant":"stone"}, "\n-2 ", {"constant":"trees"}, ",", {"constant":"fish"}],
+    "rules": ["-4 ", {"constant":"trees"}, ",", {"constant":"fish"}, "\n+5 ", {"constant":"stone"}],
     "image": "2.png"
   },
   {
@@ -140,7 +141,7 @@
     "orientation": "vertical",
     "type": "Event",
     "color": { "constant": "red" },
-    "rules": ["+1 ", {"constant":"stone"}, "\n-2 ", {"constant":"trees"}],
+    "rules": ["Each player loses 1", {"constant":"worker"}],
     "image": "3.png"
   },
   {
@@ -148,7 +149,7 @@
     "orientation": "vertical",
     "type": "Event",
     "color": { "constant": "red" },
-    "rules": ["+2 ", {"constant":"stone"}, "\n-3 ", {"constant":"trees"}],
+    "rules": ["-4 ", {"constant":"trees"}, "\n+3 ", {"constant":"stone"}],
     "image": "4.png"
   },
   {
@@ -156,7 +157,7 @@
     "orientation": "vertical",
     "type": "Event",
     "color": { "constant": "red" },
-    "rules": ["+1 ", {"constant":"stone"}, "\n-2 ", {"constant":"fish"}],
+    "rules": ["Each player loses 1", {"constant":"canoe"}],
     "image": "8.png"
   },
   {
@@ -164,7 +165,7 @@
     "orientation": "vertical",
     "type": "Event",
     "color": { "constant": "red" },
-    "rules": ["+2 ", {"constant":"stone"}, "\n-3 ", {"constant":"fish"}],
+    "rules": ["-4 ", {"constant":"fish"}, "\n+3 ", {"constant":"stone"}],
     "image": "13.png"
   }
 ]

@@ -1,0 +1,47 @@
+﻿[
+  {
+    "name": "food",
+    "orientation": "vertical",
+    "art": "dogeFood.png",
+    "title": "Doge Food",
+    "type": "Action",
+    "rules": "+1 size per cell.",
+    "flavor": "Much food. So Amaze. Wow!"
+  },
+  {
+    "name": "split",
+    "orientation": "vertical",
+    "art": "splitDoge.png",
+    "title": "Split",
+    "type": "Action/Reaction",
+    "rules": "Split yourself.",
+    "flavor": "Wow! Many possible. So fear."
+  },
+  {
+    "name": "merge",
+    "orientation": "vertical",
+    "art": "mergeDoge.png",
+    "title": "Merge",
+    "type": "Action",
+    "rules": "Merge half your cells.",
+    "flavor": "Much large. Very bigger. Such safe."
+  },
+  {
+    "name": "eat",
+    "orientation": "vertical",
+    "art": "gunslingerDoge.png",
+    "title": "Eat",
+    "type": "Action",
+    "rules": "Eat someone who is the right size or +1 size.",
+    "flavor": "Such good. So eat. Do want."
+  },
+  {
+    "name": "virus",
+    "orientation": "vertical",
+    "art": "virus.png",
+    "title": "Virus",
+    "type": "Reaction",
+    "rules": "Play to split an attacker twice.",
+    "flavor": "Plz no. So scare. Why this happened?"
+  }
+]
