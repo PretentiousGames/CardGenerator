@@ -333,8 +333,15 @@
     <Content Include="Data\Archipelago\bg.png" />
     <Content Include="Data\Archipelago\platform.png" />
     <Content Include="Data\DogeCity\background.png" />
+    <Content Include="Data\DogeCity\doge.png" />
+    <Content Include="Data\DogeCity\dogeFood.png" />
+    <Content Include="Data\DogeCity\gunslingerDoge.png" />
+    <Content Include="Data\DogeCity\hotdoge.png" />
+    <Content Include="Data\DogeCity\mergeDoge.png" />
     <Content Include="Data\DogeCity\rulesPlatform.png" />
+    <Content Include="Data\DogeCity\splitDoge.png" />
     <Content Include="Data\DogeCity\titlePlatform.png" />
+    <Content Include="Data\DogeCity\virus.png" />
     <Content Include="Data\DR\backgroundPart.png" />
     <Content Include="Data\DR\battery.png" />
     <Content Include="Data\DR\ex\AddOnBattery.png" />
@@ -816,6 +823,7 @@
     <Content Include="Data\MoarMoai\TikiTookaBV.ttf" />
     <Content Include="Data\DogeCity\template.json" />
     <Content Include="Data\DogeCity\fewCards.json" />
+    <Content Include="Data\DogeCity\Aharoni-True.ttf" />
     <None Include="Properties\PublishProfiles\CardFormatter.pubxml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Stitcher.cshtml" />
