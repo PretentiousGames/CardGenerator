@@ -823,6 +823,7 @@
     <Content Include="Data\MoarMoai\TikiTookaBV.ttf" />
     <Content Include="Data\DogeCity\template.json" />
     <Content Include="Data\DogeCity\fewCards.json" />
+    <Content Include="Data\DogeCity\eventCards.json" />
     <Content Include="Data\DogeCity\Aharoni-True.ttf" />
     <None Include="Properties\PublishProfiles\CardFormatter.pubxml" />
     <Content Include="Views\Home\Index.cshtml" />

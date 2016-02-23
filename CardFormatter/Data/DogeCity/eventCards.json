@@ -1,0 +1,155 @@
+﻿[
+  {
+    "name": "oneFood",
+    "orientation": "vertical",
+    "art": "dogeFood.png",
+    "title": "Doge Food",
+    "type": "Event",
+    "rules": "+1 size.",
+    "flavor": "Much food. So Amaze. Wow!"
+  },
+  {
+    "name": "twoFood",
+    "orientation": "vertical",
+    "art": "dogeFood.png",
+    "title": "Doge Food",
+    "type": "Event",
+    "rules": "+2 size.",
+    "flavor": "Much food. So Amaze. Wow!"
+  },
+  {
+    "name": "oneAppearance",
+    "orientation": "vertical",
+    "art": "gunslingerDoge.png",
+    "title": "A Wild Doge Appears!",
+    "type": "Event",
+    "rules": "A size 1 Doge wants to eat you!",
+    "flavor": "Wow! Many possible. So fear."
+  },
+  {
+    "name": "twoAppearance",
+    "orientation": "vertical",
+    "art": "gunslingerDoge.png",
+    "title": "A Wild Doge Appears!",
+    "type": "Event",
+    "rules": "A size 2 Doge wants to eat you!",
+    "flavor": "Wow! Many possible. So fear."
+  },
+  {
+    "name": "threeAppearance",
+    "orientation": "vertical",
+    "art": "gunslingerDoge.png",
+    "title": "A Wild Doge Appears!",
+    "type": "Event",
+    "rules": "A size 3 Doge wants to eat you!",
+    "flavor": "Wow! Many possible. So fear."
+  },
+  {
+    "name": "fourAppearance",
+    "orientation": "vertical",
+    "art": "gunslingerDoge.png",
+    "title": "A Wild Doge Appears!",
+    "type": "Event",
+    "rules": "A size 4 Doge wants to eat you!",
+    "flavor": "Wow! Many possible. So fear."
+  },
+  {
+    "name": "fiveAppearance",
+    "orientation": "vertical",
+    "art": "gunslingerDoge.png",
+    "title": "A Wild Doge Appears!",
+    "type": "Event",
+    "rules": "A size 5 Doge wants to eat you!",
+    "flavor": "Wow! Many possible. So fear."
+  },
+  {
+    "name": "fiftyAppearance",
+    "orientation": "vertical",
+    "art": "gunslingerDoge.png",
+    "title": "A Wild Doge Appears!",
+    "type": "Event",
+    "rules": "A size 50 Doge wants to eat you! Wait, what?",
+    "flavor": "Wow! Many possible. So fear."
+  },
+  {
+    "name": "playerAppearanceLeft",
+    "orientation": "vertical",
+    "art": "gunslingerDoge.png",
+    "title": "A Player Doge Appears!",
+    "type": "Event",
+    "rules": "The player to your left appears. Eat them!",
+    "flavor": "Wow! Many possible. So fear."
+  },
+  {
+    "name": "playerAppearanceRight",
+    "orientation": "vertical",
+    "art": "gunslingerDoge.png",
+    "title": "A Player Doge Appears!",
+    "type": "Event",
+    "rules": "The player to your right appears. Eat them!",
+    "flavor": "Wow! Many possible. So fear."
+  },
+  {
+    "name": "nothing",
+    "orientation": "vertical",
+    "art": "sadDoge.png",
+    "title": "Nothing",
+    "type": "Event",
+    "rules": "Nothing happens.",
+    "flavor": "Much empty. Such sad."
+  },
+  {
+    "name": "fourVirus",
+    "orientation": "vertical",
+    "art": "virus0.png",
+    "title": "A Wild Virus Appears!",
+    "type": "Event",
+    "rules": "You run into a size 4 virus! Much explode!",
+    "flavor": "Plz no. So scare. Why this happened?"
+  },
+  {
+    "name": "sixVirus",
+    "orientation": "vertical",
+    "art": "virus0.png",
+    "title": "A Wild Virus Appears!",
+    "type": "Event",
+    "rules": "You run into a size 6 virus! Much explode!",
+    "flavor": "Plz no. So scare. Why this happened?"
+  },
+  {
+    "name": "eightVirus",
+    "orientation": "vertical",
+    "art": "virus0.png",
+    "title": "A Wild Virus Appears!",
+    "type": "Event",
+    "rules": "You run into a size 8 virus! Much explode!",
+    "flavor": "Plz no. So scare. Why this happened?"
+  },
+  {
+    "name": "tenVirus",
+    "orientation": "vertical",
+    "art": "virus0.png",
+    "title": "A Wild Virus Appears!",
+    "type": "Event",
+    "rules": "You run into a size 10 virus! Much explode!",
+    "flavor": "Plz no. So scare. Why this happened?"
+  },
+  {
+    "name": "fifteenVirus",
+    "orientation": "vertical",
+    "art": "virus0.png",
+    "title": "A Wild Virus Appears!",
+    "type": "Event",
+    "rules": "You run into a size 15 virus! Much explode!",
+    "flavor": "Plz no. So scare. Why this happened?"
+  },
+  {
+    "name": "twentyVirus",
+    "orientation": "vertical",
+    "art": "virus0.png",
+    "title": "A Wild Virus Appears!",
+    "type": "Event",
+    "rules": "You run into a size 20 virus! Much explode!",
+    "flavor": "Plz no. So scare. Why this happened?"
+  }
+]
