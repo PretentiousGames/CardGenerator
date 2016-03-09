@@ -1,0 +1,82 @@
+{
+  "fullWidth": 825,
+  "fullHeight": 1125,
+  "styles": {
+    "font": "TikiTookaBV.ttf",
+    "maxFontSize": 150,
+    "minFontSize": 42,
+    "lineHeight": 0.86,
+    "offset": -0.270,
+    "justification": "center",
+    "alignment": "middle"
+  },
+  "requirements": [ ],
+  "elements": [
+    {
+      "type": "image",
+      "name": "image",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "image",
+      "name": "color",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "text",
+      "name": "type",
+      "styles": {
+        "x": 175.5,
+        "y": 56.5,
+        "xSize": 474,
+        "ySize": 144
+      }
+    },
+    {
+      "type": "text",
+      "name": "rules",
+      "styles": {
+        "x": 86.5,
+        "y": 802.5,
+        "xSize": 652,
+        "ySize": 251
+      }
+    }
+  ],
+  "constants": {
+    "green": "pnp-green.png",
+    "yellow": "pnp-yellow.png",
+    "red": "pnp-red.png",
+    "gray": "pnp-gray.png",
+    "largeStatue": {
+      "text": "ԉ",
+      "styles": { "font": "Aharoni-True.ttf" }
+    },
+    "statue": {
+      "text": "ր",
+      "styles": { "font": "Aharoni-True.ttf" }
+    },
+    "worker": {
+      "text": "ց",
+      "styles": { "font": "Aharoni-True.ttf" }
+    },
+    "canoe": {
+      "text": "տ",
+      "styles": { "font": "Aharoni-True.ttf" }
+    },
+    "stone": {
+      "text": "օ",
+      "styles": { "font": "Aharoni-True.ttf" }
+    },
+    "fish": {
+      "text": "ք",
+      "styles": { "font": "Aharoni-True.ttf" }
+    },
+    "trees": {
+      "text": "֌",
+      "styles": { "font": "Aharoni-True.ttf" }
+    }
+  }
+}

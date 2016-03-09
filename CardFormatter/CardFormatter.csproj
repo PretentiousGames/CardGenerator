@@ -825,6 +825,10 @@
     <Content Include="Data\DogeCity\fewCards.json" />
     <Content Include="Data\DogeCity\eventCards.json" />
     <Content Include="Data\DogeCity\Aharoni-True.ttf" />
+    <Content Include="Data\EdsArmy\Aharoni-True.ttf" />
+    <Content Include="Data\EdsArmy\Cards.EdsArmy.json" />
+    <Content Include="Data\EdsArmy\Template.EdsArmy.json" />
+    <Content Include="Data\MoarMoai\Template.bnw.json" />
     <None Include="Properties\PublishProfiles\CardFormatter.pubxml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Stitcher.cshtml" />
