@@ -521,6 +521,10 @@
     <Content Include="Data\Polynesia\images\kanaloa.png" />
     <Content Include="Data\Polynesia\images\kane.png" />
     <Content Include="Data\Polynesia\images\king.png" />
+    <Content Include="Data\Polynesia\images\leader.m.2.png" />
+    <Content Include="Data\Polynesia\images\leader.m.3.png" />
+    <Content Include="Data\Polynesia\images\leader.m.4.png" />
+    <Content Include="Data\Polynesia\images\leader.m.png" />
     <Content Include="Data\Polynesia\images\leader.png" />
     <Content Include="Data\Polynesia\images\Lono.png" />
     <Content Include="Data\Polynesia\images\magistrate.png" />
@@ -529,7 +533,13 @@
     <Content Include="Data\Polynesia\images\maui.png" />
     <Content Include="Data\Polynesia\images\mercenary.png" />
     <Content Include="Data\Polynesia\images\merchants.png" />
+    <Content Include="Data\Polynesia\images\Micronesia.Island.platform.0.png" />
+    <Content Include="Data\Polynesia\images\Micronesia.Island.platform.1.png" />
+    <Content Include="Data\Polynesia\images\Micronesia.IslandBottom.png" />
+    <Content Include="Data\Polynesia\images\Micronesia.IslandLabel.png" />
+    <Content Include="Data\Polynesia\images\micronesiaIsland.png" />
     <Content Include="Data\Polynesia\images\minorTradingPost.png" />
+    <Content Include="Data\Polynesia\images\moki.png" />
     <Content Include="Data\Polynesia\images\nafauna.png" />
     <Content Include="Data\Polynesia\images\navigator.png" />
     <Content Include="Data\Polynesia\images\noble.png" />

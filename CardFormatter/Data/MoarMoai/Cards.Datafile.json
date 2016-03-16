@@ -20,8 +20,8 @@
     "orientation": "vertical",
     "type": "Event",
     "color": { "constant": "green" },
-    "rules": ["Each player gains +1", {"constant":"worker"}],
-    "image": "16.png"
+    "rules": ["-2 ", {"constant":"stone"}, "\nEach player gains +2", {"constant":"worker"}],
+    "image": "19.png"
   },
   {
     "name": "1.4",
@@ -44,24 +44,8 @@
     "orientation": "vertical",
     "type": "Event",
     "color": { "constant": "green" },
-    "rules": ["Each player gains +1", {"constant":"canoe"}],
-    "image": "19.png"
-  },
-  {
-    "name": "1.7",
-    "orientation": "vertical",
-    "type": "Event",
-    "color": { "constant": "green" },
-    "rules": ["Replace this with the top event card."],
-    "image": "20.png"
-  },
-  {
-    "name": "2.1",
-    "orientation": "vertical",
-    "type": "Event",
-    "color": { "constant": "yellow" },
-    "rules": ["Randomly re-assign turn order tokens."],
-    "image": "21.png"
+    "rules": ["-2 ", {"constant":"stone"}, "\nEach player gains +2", {"constant":"canoe"}],
+    "image": "16.png"
   },
   {
     "name": "2.2",
@@ -84,7 +68,7 @@
     "orientation": "vertical",
     "type": "Event",
     "color": { "constant": "yellow" },
-    "rules": [{"constant":"statue"}, " may not be built or moved this turn."],
+    "rules": ["-2 ", {"constant":"fish"}, ", +2 ", {"constant":"trees"}, "\n", {"constant":"statue"}, " may not be built or moved this turn."],
     "image": "24.png"
   },
   {
@@ -100,7 +84,7 @@
     "orientation": "vertical",
     "type": "Event",
     "color": { "constant": "yellow" },
-    "rules": [{"constant":"largeStatue"}, " may not be built or moved this turn."],
+    "rules": ["-2 ", {"constant":"trees"}, ", +2 ", {"constant":"fish"}, "\n", {"constant":"largeStatue"}, " may not be built or moved this turn."],
     "image": "26.png"
   },
   {
@@ -137,14 +121,6 @@
     "image": "2.png"
   },
   {
-    "name": "3.4",
-    "orientation": "vertical",
-    "type": "Event",
-    "color": { "constant": "red" },
-    "rules": ["Each player loses 1", {"constant":"worker"}],
-    "image": "3.png"
-  },
-  {
     "name": "3.5",
     "orientation": "vertical",
     "type": "Event",
@@ -157,7 +133,7 @@
     "orientation": "vertical",
     "type": "Event",
     "color": { "constant": "red" },
-    "rules": ["Each player loses 1", {"constant":"canoe"}],
+    "rules": ["-2 ", {"constant":"fish"}, ", -2 ", {"constant":"trees"}, "\nEach player loses 1", {"constant":"canoe"}],
     "image": "8.png"
   },
   {
