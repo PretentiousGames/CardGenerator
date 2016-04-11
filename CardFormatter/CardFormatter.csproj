@@ -892,8 +892,10 @@
     <Content Include="Data\EdsArmy\Template.EdsArmy.json" />
     <Content Include="Data\MoarMoai\Template.bnw.json" />
     <Content Include="Data\Micronesia\cards.json" />
-    <Content Include="Data\Micronesia\templates.json" />
+    <Content Include="Data\Micronesia\cardTemplate.json" />
     <Content Include="Data\Micronesia\Aharoni-True.ttf" />
+    <Content Include="Data\Micronesia\tiles.json" />
+    <Content Include="Data\Micronesia\tileTemplate.json" />
     <None Include="Properties\PublishProfiles\CardFormatter.pubxml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Stitcher.cshtml" />

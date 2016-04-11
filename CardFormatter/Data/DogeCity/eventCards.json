@@ -74,7 +74,7 @@
   {
     "name": "playerAppearanceLeft",
     "orientation": "vertical",
-    "art": "gunslingerDoge.png",
+    "art": "hotdoge.png",
     "title": "A Player Doge Appears!",
     "type": "Event",
     "rules": "The player to your left appears. Eat them!",
@@ -83,7 +83,7 @@
   {
     "name": "playerAppearanceRight",
     "orientation": "vertical",
-    "art": "gunslingerDoge.png",
+    "art": "hotdoge.png",
     "title": "A Player Doge Appears!",
     "type": "Event",
     "rules": "The player to your right appears. Eat them!",
@@ -101,7 +101,7 @@
   {
     "name": "fourVirus",
     "orientation": "vertical",
-    "art": "virus0.png",
+    "art": "virus.png",
     "title": "A Wild Virus Appears!",
     "type": "Event",
     "rules": "You run into a size 4 virus! Much explode!",
@@ -110,7 +110,7 @@
   {
     "name": "sixVirus",
     "orientation": "vertical",
-    "art": "virus0.png",
+    "art": "virus.png",
     "title": "A Wild Virus Appears!",
     "type": "Event",
     "rules": "You run into a size 6 virus! Much explode!",
@@ -119,7 +119,7 @@
   {
     "name": "eightVirus",
     "orientation": "vertical",
-    "art": "virus0.png",
+    "art": "virus.png",
     "title": "A Wild Virus Appears!",
     "type": "Event",
     "rules": "You run into a size 8 virus! Much explode!",
@@ -128,7 +128,7 @@
   {
     "name": "tenVirus",
     "orientation": "vertical",
-    "art": "virus0.png",
+    "art": "virus.png",
     "title": "A Wild Virus Appears!",
     "type": "Event",
     "rules": "You run into a size 10 virus! Much explode!",
@@ -137,7 +137,7 @@
   {
     "name": "fifteenVirus",
     "orientation": "vertical",
-    "art": "virus0.png",
+    "art": "virus.png",
     "title": "A Wild Virus Appears!",
     "type": "Event",
     "rules": "You run into a size 15 virus! Much explode!",
@@ -146,7 +146,7 @@
   {
     "name": "twentyVirus",
     "orientation": "vertical",
-    "art": "virus0.png",
+    "art": "virus.png",
     "title": "A Wild Virus Appears!",
     "type": "Event",
     "rules": "You run into a size 20 virus! Much explode!",
