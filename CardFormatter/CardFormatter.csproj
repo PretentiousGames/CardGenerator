@@ -453,7 +453,12 @@
     <Content Include="Data\Micronesia\Tiles\13.png" />
     <Content Include="Data\Micronesia\Tiles\14.png" />
     <Content Include="Data\Micronesia\Tiles\15.png" />
+    <Content Include="Data\Micronesia\Tiles\16.png" />
+    <Content Include="Data\Micronesia\Tiles\17.png" />
+    <Content Include="Data\Micronesia\Tiles\18.png" />
+    <Content Include="Data\Micronesia\Tiles\19.png" />
     <Content Include="Data\Micronesia\Tiles\2.png" />
+    <Content Include="Data\Micronesia\Tiles\20.png" />
     <Content Include="Data\Micronesia\Tiles\3.png" />
     <Content Include="Data\Micronesia\Tiles\4.png" />
     <Content Include="Data\Micronesia\Tiles\5.png" />
