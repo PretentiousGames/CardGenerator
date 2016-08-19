@@ -199,9 +199,9 @@
                 }
                 if (suffix) {
                     if (suffix.text) {
-                        val.unshift({ text: suffix.text, styles: _.extend({}, obj.styles, suffix.styles) });
+                        val.push({ text: suffix.text, styles: _.extend({}, obj.styles, suffix.styles) });
                     } else {
-                        val.unshift({ text: suffix, styles: obj.styles });
+                        val.push({ text: suffix, styles: obj.styles });
                     }
                 }
                 return val;
