@@ -1,0 +1,72 @@
+﻿[
+  {
+    "name": "Plead",
+    "orientation": "vertical",
+    "art": "plead.png",
+    "title": "Plead",
+    "type": "Action"
+  },
+  {
+    "name": "Grovel",
+    "orientation": "vertical",
+    "art": "grovel.png",
+    "title": "Grovel",
+    "type": "Action"
+  },
+  {
+    "name": "Whine",
+    "orientation": "vertical",
+    "art": "whine.png",
+    "title": "Whine",
+    "type": "Action"
+  },
+  {
+    "name": "Brag",
+    "orientation": "vertical",
+    "art": "brag.png",
+    "title": "Brag",
+    "type": "Action"
+  },
+  {
+    "name": "Flatter",
+    "orientation": "vertical",
+    "art": "flatter.png",
+    "title": "Flatter",
+    "type": "Action"
+  },
+  {
+    "name": "Riddle",
+    "orientation": "vertical",
+    "art": "riddle.png",
+    "title": "Riddle",
+    "type": "Action"
+  },
+  {
+    "name": "Weapons",
+    "orientation": "vertical",
+    "art": "weapon.png",
+    "title": "Weapon",
+    "type": "Treasure"
+  },
+  {
+    "name": "Art",
+    "orientation": "vertical",
+    "art": "art.png",
+    "title": "Art",
+    "type": "Treasure"
+  },
+  {
+    "name": "Armor",
+    "orientation": "vertical",
+    "art": "armor.png",
+    "title": "Armor",
+    "type": "Treasure"
+  },
+  {
+    "name": "Jewels",
+    "orientation": "vertical",
+    "art": "jewel.png",
+    "title": "Jewel",
+    "type": "Treasure"
+  }
+]
