@@ -1,47 +1,5 @@
 ﻿[
-  {
-    "name": "PleadValue",
-    "orientation": "vertical",
-    "art": "pleadLarge.png",
-    "title": "Plead",
-    "type": "ValueTrack"
-  },
-  {
-    "name": "GrovelValue",
-    "orientation": "vertical",
-    "art": "grovelLarge.png",
-    "title": "Grovel",
-    "type": "ValueTrack"
-  },
-  {
-    "name": "WhineValue",
-    "orientation": "vertical",
-    "art": "whineLarge.png",
-    "title": "Whine",
-    "type": "ValueTrack"
-  },
-  {
-    "name": "BragValue",
-    "orientation": "vertical",
-    "art": "bragLarge.png",
-    "title": "Brag",
-    "type": "ValueTrack"
-  },
-  {
-    "name": "FlatterValue",
-    "orientation": "vertical",
-    "art": "flatterLarge.png",
-    "title": "Flatter",
-    "type": "ValueTrack"
-  },
-  {
-    "name": "RiddleValue",
-    "orientation": "vertical",
-    "art": "riddleLarge.png",
-    "title": "Riddle",
-    "type": "ValueTrack"
-  },
-  {
+ {
     "name": "DragonKih",
     "orientation": "vertical",
     "art": "kih.png",
@@ -78,7 +36,7 @@
     "orientation": "vertical",
     "art": "tayr.png",
     "title": "Tayr",
-    "rules": "ԍTreasure\nԍGrovel",
+    "rules": "ԍItems\nԍGrovel",
     "type": "Dragon"
   },
   {
@@ -86,7 +44,7 @@
     "orientation": "vertical",
     "art": "anec.png",
     "title": "Anec",
-    "rules": "բTreasure\nԍWhine",
+    "rules": "ԍCoins\nԍWhine",
     "type": "Dragon"
   }
 ]

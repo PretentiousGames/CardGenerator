@@ -68,5 +68,145 @@
     "art": "jewel.png",
     "title": "Jewel",
     "type": "Treasure"
+  },
+  {
+    "name": "c1",
+    "orientation": "vertical",
+    "rules": "When you take a treasure, you may pay a player 2 coins to take it from that player instead of the dragons.",
+    "title": "Trevyn",
+    "type": "Character"
+  },
+  {
+    "name": "c2",
+    "orientation": "vertical",
+    "rules": "When you take coins, take an extra coin.",
+    "title": "Sophia",
+    "type": "Character"
+  },
+  {
+    "name": "c3",
+    "orientation": "vertical",
+    "rules": "When the game ends, take an extra treasure from the dragon's hoard.",
+    "title": "Andrew",
+    "type": "Character"
+  },
+  {
+    "name": "c4",
+    "orientation": "vertical",
+    "rules": "Once during your turn you may pay 1 coin to the dragon to increase the value of an action by 1.",
+    "title": "Mike",
+    "type": "Character"
+  },
+  {
+    "name": "c5",
+    "orientation": "vertical",
+    "rules": "When you swap treasures you may swap 2 instead of 1.",
+    "title": "Erin",
+    "type": "Character"
+  },
+  {
+    "name": "c6",
+    "orientation": "vertical",
+    "rules": "You may look at dragons in the dragon deck, you pay 1 less coin.",
+    "title": "Dwayne",
+    "type": "Character"
+  },
+  {
+    "name": "c7",
+    "orientation": "vertical",
+    "rules": "During your turn you may swap 1 of your actions with the top card of the action deck.",
+    "title": "Lee",
+    "type": "Character"
+  },
+  {
+    "name": "c8",
+    "orientation": "vertical",
+    "rules": "You may pay 1 coin to a player to look at his hand of action cards.",
+    "title": "Emma",
+    "type": "Character"
+  },
+  {
+    "name": "c9",
+    "orientation": "vertical",
+    "rules": "You may pay 3 coins to change which of the revealed dragons are the active dragon.",
+    "title": "Dan",
+    "type": "Character"
+  },
+  {
+    "name": "Xc10",
+    "orientation": "vertical",
+    "rules": "X",
+    "title": "Jesse",
+    "type": "Character"
+  },
+  {
+    "name": "c11",
+    "orientation": "vertical",
+    "rules": "If you have the most coins at the end of the game, gain 5 extra points.",
+    "title": "James",
+    "type": "Character"
+  },
+  {
+    "name": "c12",
+    "orientation": "vertical",
+    "rules": "When you swap a treasure, you may pay a player 1 coin to swap a treasure with that player instead of the dragons.",
+    "title": "Taylor",
+    "type": "Character"
+  },
+  {
+    "name": "c13",
+    "orientation": "vertical",
+    "rules": "When you play an action that is valued at hate, only lose 1 treasure.",
+    "title": "Scott",
+    "type": "Character"
+  },
+  {
+    "name": "c14",
+    "orientation": "vertical",
+    "rules": "When you play a whine, the value of brag goes up by 1.",
+    "title": "Chris",
+    "type": "Character"
+  },
+  {
+    "name": "c15",
+    "orientation": "vertical",
+    "rules": "If you have no coins, you may take a coin as part of any action.",
+    "title": "Berrett",
+    "type": "Character"
+  },
+  {
+    "name": "c16",
+    "orientation": "vertical",
+    "rules": "You may reveal the next dragon as part of a Meh action.",
+    "title": "Chad",
+    "type": "Character"
+  },
+  {
+    "name": "c17",
+    "orientation": "vertical",
+    "rules": "When you count treasures for the purpose of determining who gets eaten, you are treated as having 2 fewer treasures.",
+    "title": "Dustin",
+    "type": "Character"
+  },
+  {
+    "name": "c18",
+    "orientation": "vertical",
+    "rules": "Before you draw you may swap the discarded card with 1 of the cards that are removed from the game.",
+    "title": "Olivia",
+    "type": "Character"
+  },
+  {
+    "name": "c19",
+    "orientation": "vertical",
+    "rules": "Your gold coins are worth 3 points each at the end of the game.",
+    "title": "Isabella",
+    "type": "Character"
+  },
+  {
+    "name": "c20",
+    "orientation": "vertical",
+    "rules": "When a new dragon is revealed, you may increase the value of an action by 1.",
+    "title": "Lily",
+    "type": "Character"
   }
 ]
