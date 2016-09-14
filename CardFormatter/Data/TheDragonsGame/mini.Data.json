@@ -107,7 +107,7 @@
   {
     "name": "c6",
     "orientation": "vertical",
-    "rules": "You may look at dragons in the dragon deck, you pay 1 less coin.",
+    "rules": "When you look at dragons in the dragon deck, you pay 1 less coin.",
     "title": "Dwayne",
     "type": "Character"
   },
@@ -156,7 +156,7 @@
   {
     "name": "c13",
     "orientation": "vertical",
-    "rules": "When you play an action that is valued at hate, only lose 1 treasure.",
+    "rules": "When you play an action that is valued at hate, lose either 1 or 3 treasures.",
     "title": "Scott",
     "type": "Character"
   },
