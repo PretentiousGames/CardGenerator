@@ -101,7 +101,19 @@
                         drawErrorText('image was not found: ' + (img.name || img.constant));
                     }
                 } else {
-                    context.drawImage(image, element.x, element.y);
+
+                    var TO_RADIANS = Math.PI / 180;
+                    var drawRotatedImage = function(image, x, y, angle) {
+                        context.save();
+                        context.translate(x + (image.width / 2), y + (image.height / 2));//x, y);
+                        context.rotate(angle * TO_RADIANS);
+                        context.drawImage(image, -(image.width / 2), -(image.height / 2));
+                        context.restore();
+                    }
+
+                    var angle = element.rotate || 0;
+                    drawRotatedImage(image, element.x, element.y, angle);
+                    //context.drawImage(image, element.x, element.y);
                 }
             };
             var applyArray = function (element) {
