@@ -56,10 +56,10 @@
             //load images
             _.each(elements, function (element) {
                 if (element.type === 'image') {
-                    var imageNode = card[element.name];
-                    if (imageNode || element.constant) {
+                    var imageNode = card[element.name] || "";
+                    if (imageNode || element.constant || element.name) {
                         var constant = element.constant || imageNode.constant;
-                        var imageName = (constant ? template.constants[constant] : imageNode.name || imageNode).toLocaleLowerCase();
+                        var imageName = (constant ? template.constants[constant] : imageNode.name || imageNode || element.name).toLocaleLowerCase();
                         var imageObj = _.where(imageFiles, { name: imageName })[0];
                         if (imageObj) {
                             images[element.name] = imageObj.image;
@@ -103,7 +103,7 @@
                 } else {
 
                     var TO_RADIANS = Math.PI / 180;
-                    var drawRotatedImage = function(image, x, y, angle) {
+                    var drawRotatedImage = function (image, x, y, angle) {
                         context.save();
                         context.translate(x + (image.width / 2), y + (image.height / 2));//x, y);
                         context.rotate(angle * TO_RADIANS);
@@ -268,6 +268,7 @@
             var font = styles.font || 'Arial';
             var lineHeight = styles.lineHeight || 1.0;
             var offset = styles.offset || 0.0;
+            var xOffset = styles.xOffset || 0.0;
             var noWrap = styles.noWrap || false;
             var shadowStrength = styles.shadowStrength || 1;
             var rotate = styles.rotate || 0;
@@ -347,7 +348,7 @@
                         setStyles(testWord.styles);
 
                         var wordFontObj = testWord.styles.font ? _.where(fonts, { name: testWord.styles.font.toLocaleLowerCase() })[0].font : fontObj;
-                        
+
                         var measure = cardFormatter.drawer.measureText(wordFontObj, fontSize * (testWord.relativeFontSize || 1), testWord.text);
                         var testWordWidth = measure.width + (fontSize * .1);
                         testWord.width = testWordWidth;
@@ -457,7 +458,7 @@
             if (rotate) {
                 context.translate(x + (xSize / 2), y + (ySize / 2));
                 context.rotate(rotate * Math.PI / 180);
-                x = -(xSize / 2);
+                x = -(xSize / 2) + xOffset * fontSize;
                 y = -(ySize / 2);
             }
 
