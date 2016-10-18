@@ -59,10 +59,15 @@
                     var imageNode = card[element.name] || "";
                     if (imageNode || element.constant || element.name) {
                         var constant = element.constant || imageNode.constant;
-                        var imageName = (constant ? template.constants[constant] : imageNode.name || imageNode || element.name).toLocaleLowerCase();
-                        var imageObj = _.where(imageFiles, { name: imageName })[0];
-                        if (imageObj) {
-                            images[element.name] = imageObj.image;
+                        var imageTempObj = (constant ? template.constants[constant] : imageNode.name || imageNode || element.name);
+                        if (imageTempObj) {
+                            var imageName = imageTempObj.toLocaleLowerCase();
+                            var imageObj = _.where(imageFiles, { name: imageName })[0];
+                            if (imageObj) {
+                                images[element.name] = imageObj.image;
+                            }
+                        } else {
+                            window.console.log("Image not found! " + JSON.stringify(element));
                         }
                     }
                 }
