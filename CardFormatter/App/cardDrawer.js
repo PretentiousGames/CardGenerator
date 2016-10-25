@@ -55,7 +55,7 @@
 
             //load images
             _.each(elements, function (element) {
-                if (element.type === 'image') {
+                if (element && element.type === 'image') {
                     var imageNode = card[element.name] || "";
                     if (imageNode || element.constant || element.name) {
                         var constant = element.constant || imageNode.constant;

@@ -332,6 +332,7 @@
     <Content Include="Data\Archipelago\9.png" />
     <Content Include="Data\Archipelago\bg.png" />
     <Content Include="Data\Archipelago\platform.png" />
+    <Content Include="Data\ExtinctionEvents\backgroundPart.png" />
     <Content Include="Data\JurassicUniverse\acrocanthosaurus.png" />
     <Content Include="Data\JurassicUniverse\africanElephant.png" />
     <Content Include="Data\JurassicUniverse\ankylosaurus.png" />
@@ -1176,6 +1177,10 @@
     <Content Include="Data\JurassicUniverse\SpaceGame.tiles.data.json" />
     <Content Include="Data\JurassicUniverse\SpaceGame.tiles.template.json" />
     <Content Include="Data\JurassicUniverse\RexliaRg-Regular.ttf" />
+    <Content Include="Data\ExtinctionEvents\Aharoni-True.ttf" />
+    <Content Include="Data\ExtinctionEvents\EE.Cards.Data.json" />
+    <Content Include="Data\ExtinctionEvents\EE.Cards.Template.json" />
+    <Content Include="Data\ExtinctionEvents\rexlia rg.ttf" />
     <None Include="Properties\PublishProfiles\CardFormatter.pubxml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Stitcher.cshtml" />
