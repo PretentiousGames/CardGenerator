@@ -332,6 +332,7 @@
     <Content Include="Data\Archipelago\9.png" />
     <Content Include="Data\Archipelago\bg.png" />
     <Content Include="Data\Archipelago\platform.png" />
+    <Content Include="Data\TheMadnessPlace\backgroundPart.png" />
     <Content Include="Data\ExtinctionEvents\backgroundPart.png" />
     <Content Include="Data\JurassicUniverse\acrocanthosaurus.png" />
     <Content Include="Data\JurassicUniverse\africanElephant.png" />
@@ -1181,6 +1182,10 @@
     <Content Include="Data\ExtinctionEvents\EE.Cards.Data.json" />
     <Content Include="Data\ExtinctionEvents\EE.Cards.Template.json" />
     <Content Include="Data\ExtinctionEvents\rexlia rg.ttf" />
+    <Content Include="Data\TheMadnessPlace\Aharoni-True.ttf" />
+    <Content Include="Data\TheMadnessPlace\MP.Cards.Data.json" />
+    <Content Include="Data\TheMadnessPlace\MP.Cards.Template.json" />
+    <Content Include="Data\TheMadnessPlace\rexlia rg.ttf" />
     <None Include="Properties\PublishProfiles\CardFormatter.pubxml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Stitcher.cshtml" />
