@@ -332,7 +332,7 @@
     <Content Include="Data\Archipelago\9.png" />
     <Content Include="Data\Archipelago\bg.png" />
     <Content Include="Data\Archipelago\platform.png" />
-    <Content Include="Data\TheMadnessPlace\backgroundPart.png" />
+    <Content Include="Data\TheMadnessPlace\backgroundHorizontal.png" />
     <Content Include="Data\ExtinctionEvents\backgroundPart.png" />
     <Content Include="Data\JurassicUniverse\acrocanthosaurus.png" />
     <Content Include="Data\JurassicUniverse\africanElephant.png" />
@@ -417,6 +417,7 @@
     <Content Include="Data\JurassicUniverse\whiteRhinoceros.png" />
     <Content Include="Data\JurassicUniverse\woollyMammoth.png" />
     <Content Include="Data\JurassicUniverse\woollyRhinoceros.png" />
+    <Content Include="Data\TheMadnessPlace\backgroundVertical.png" />
     <Content Include="Data\TLDR\Abductor.png" />
     <Content Include="Data\TLDR\AbstractWeapon.png" />
     <Content Include="Data\TLDR\Akkorokaumi.png" />
