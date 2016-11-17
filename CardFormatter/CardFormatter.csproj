@@ -1187,6 +1187,7 @@
     <Content Include="Data\TheMadnessPlace\MP.Cards.Data.json" />
     <Content Include="Data\TheMadnessPlace\MP.Cards.Template.json" />
     <Content Include="Data\TheMadnessPlace\rexlia rg.ttf" />
+    <Content Include="Data\TheMadnessPlace\MP.Cards.few.Data.json" />
     <None Include="Properties\PublishProfiles\CardFormatter.pubxml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Stitcher.cshtml" />

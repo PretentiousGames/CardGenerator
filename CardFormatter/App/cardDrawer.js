@@ -231,7 +231,11 @@
 
                 if (!val) {
                 } else if (val.text) {
-                    return [{ text: val.text, styles: val.styles }];
+                    if (val.text.constant) {
+                        return _.map(getRuns(template.constants[val.text.constant]), copyBaseStyles);
+                    } else {
+                        return [{ text: val.text, styles: val.styles }];
+                    }
                 } else if (val.constant) {
                     return _.map(getRuns(template.constants[val.constant]), copyBaseStyles);
                 } else if (val.name && val.card[val.name]) {
