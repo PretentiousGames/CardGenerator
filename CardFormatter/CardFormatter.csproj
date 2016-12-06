@@ -417,6 +417,7 @@
     <Content Include="Data\JurassicUniverse\whiteRhinoceros.png" />
     <Content Include="Data\JurassicUniverse\woollyMammoth.png" />
     <Content Include="Data\JurassicUniverse\woollyRhinoceros.png" />
+    <Content Include="Data\TheMadnessPlace\backgroundTile.png" />
     <Content Include="Data\TheMadnessPlace\backgroundVertical.png" />
     <Content Include="Data\TLDR\Abductor.png" />
     <Content Include="Data\TLDR\AbstractWeapon.png" />
@@ -437,6 +438,7 @@
     <Content Include="Data\TLDR\Biollante.png" />
     <Content Include="Data\TLDR\BirgusGiganticus.png" />
     <Content Include="Data\TLDR\Bomber.png" />
+    <Content Include="Data\TLDR\bonusAbilities.png" />
     <Content Include="Data\TLDR\BrainSucker.png" />
     <Content Include="Data\TLDR\Canid.png" />
     <Content Include="Data\TLDR\Cards.TLDR.json" />
@@ -1188,6 +1190,8 @@
     <Content Include="Data\TheMadnessPlace\MP.Cards.Template.json" />
     <Content Include="Data\TheMadnessPlace\rexlia rg.ttf" />
     <Content Include="Data\TheMadnessPlace\MP.Cards.few.Data.json" />
+    <Content Include="Data\TheMadnessPlace\KelmscottRoman.ttf" />
+    <Content Include="Data\TheMadnessPlace\spookytooth.ttf" />
     <None Include="Properties\PublishProfiles\CardFormatter.pubxml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Stitcher.cshtml" />
