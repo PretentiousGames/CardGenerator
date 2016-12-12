@@ -489,6 +489,11 @@
     <Content Include="Data\TLDR\Killbot.png" />
     <Content Include="Data\TLDR\Kumonga.png" />
     <Content Include="Data\TLDR\LandKraken.png" />
+    <Content Include="Data\TLDR\left.1.png" />
+    <Content Include="Data\TLDR\left.2.png" />
+    <Content Include="Data\TLDR\left.3.png" />
+    <Content Include="Data\TLDR\left.4.png" />
+    <Content Include="Data\TLDR\left.5.png" />
     <Content Include="Data\TLDR\Leviathan.png" />
     <Content Include="Data\TLDR\Lurker.png" />
     <Content Include="Data\TLDR\Maladroit.png" />
@@ -516,6 +521,11 @@
     <Content Include="Data\TLDR\RepairPack.png" />
     <Content Include="Data\TLDR\RepairUnit.png" />
     <Content Include="Data\TLDR\Researcher.png" />
+    <Content Include="Data\TLDR\right.1.png" />
+    <Content Include="Data\TLDR\right.2.png" />
+    <Content Include="Data\TLDR\right.3.png" />
+    <Content Include="Data\TLDR\right.4.png" />
+    <Content Include="Data\TLDR\right.5.png" />
     <Content Include="Data\TLDR\Scout.png" />
     <Content Include="Data\TLDR\SelfDestruct.png" />
     <Content Include="Data\TLDR\SelfHealing.png" />
