@@ -520,6 +520,7 @@
     <Content Include="Data\TLDR\Rakshasa.png" />
     <Content Include="Data\TLDR\RepairPack.png" />
     <Content Include="Data\TLDR\RepairUnit.png" />
+    <Content Include="Data\TLDR\Replicator.png" />
     <Content Include="Data\TLDR\Researcher.png" />
     <Content Include="Data\TLDR\right.1.png" />
     <Content Include="Data\TLDR\right.2.png" />
