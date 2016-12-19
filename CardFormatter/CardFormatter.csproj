@@ -1204,6 +1204,7 @@
     <Content Include="Data\TheMadnessPlace\MP.Cards.few.Data.json" />
     <Content Include="Data\TheMadnessPlace\KelmscottRoman.ttf" />
     <Content Include="Data\TheMadnessPlace\spookytooth.ttf" />
+    <Content Include="Data\TLDR\Cards.TLDR.money.json" />
     <None Include="Properties\PublishProfiles\CardFormatter.pubxml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Stitcher.cshtml" />
