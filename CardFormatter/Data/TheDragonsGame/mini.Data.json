@@ -93,7 +93,7 @@
   {
     "name": "c4",
     "orientation": "vertical",
-    "rules": "Once during your turn you may pay 1 coin to the dragon to increase the value of an action by 1.",
+    "rules": "Once during your turn you may pay 1 coin to the dragon to increase the value of a behavior by 1.",
     "title": "Mike",
     "type": "Character"
   },
@@ -114,14 +114,14 @@
   {
     "name": "c7",
     "orientation": "vertical",
-    "rules": "During your turn you may swap 1 of your actions with the top card of the action deck.",
+    "rules": "During your turn you may swap 1 of your behaviors with the top card of the behavior deck.",
     "title": "Lee",
     "type": "Character"
   },
   {
     "name": "c8",
     "orientation": "vertical",
-    "rules": "You may pay 1 coin to a player to look at his hand of action cards.",
+    "rules": "You may pay 1 coin to a player to look at his hand of behavior cards.",
     "title": "Emma",
     "type": "Character"
   },
@@ -156,7 +156,7 @@
   {
     "name": "c13",
     "orientation": "vertical",
-    "rules": "When you play an action that is valued at hate, lose either 1 or 3 treasures.",
+    "rules": "When you play a behavior that is valued at hate, lose either 1 or 3 treasures.",
     "title": "Scott",
     "type": "Character"
   },
@@ -170,14 +170,14 @@
   {
     "name": "c15",
     "orientation": "vertical",
-    "rules": "If you have no coins, you may take a coin as part of any action.",
+    "rules": "If you have no coins, you may take a coin as part of any behavior.",
     "title": "Berrett",
     "type": "Character"
   },
   {
     "name": "c16",
     "orientation": "vertical",
-    "rules": "You may reveal the next dragon as part of a Meh action.",
+    "rules": "You may reveal the next dragon as part of a Meh behavior.",
     "title": "Chad",
     "type": "Character"
   },
@@ -205,7 +205,7 @@
   {
     "name": "c20",
     "orientation": "vertical",
-    "rules": "When a new dragon is revealed, you may increase the value of an action by 1.",
+    "rules": "When a new dragon is revealed, you may increase the value of a behavior by 1.",
     "title": "Lily",
     "type": "Character"
   }

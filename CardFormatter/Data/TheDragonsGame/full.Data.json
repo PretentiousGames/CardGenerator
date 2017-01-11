@@ -46,5 +46,50 @@
     "title": "Anec",
     "rules": "ԍCoins\nԍWhine",
     "type": "Dragon"
+  },
+  {
+    "name": "Hate",
+    "orientation": "vertical",
+    "art": "background.ExplainCard.png",
+    "title": "Hate",
+    "artText": "բ",
+    "rules": "Lose 2 treasures.\nEvery other behavior gains 1 value.\nOffend the active dragon twice.",
+    "type": "Explain"
+  },
+  {
+    "name": "Dislike",
+    "orientation": "vertical",
+    "art": "background.ExplainCard.png",
+    "title": "Dislike",
+    "artText": "-",
+    "rules": "Lose a treasure.\nThis behavior loses 1 value.\nPick a behavior to gain 2 value (but not this one).\nOffend the active dragon once.",
+    "type": "Explain"
+  },
+  {
+    "name": "Meh",
+    "orientation": "vertical",
+    "art": "background.ExplainCard.png",
+    "title": "Meh",
+    "artText": "0",
+    "rules": "Swap a treasure with one of the dragon's.\nThis behavior loses 1 value.\nThe dragon's favorite behavior gains 1 value.",
+    "type": "Explain"
+  },
+  {
+    "name": "Like",
+    "orientation": "vertical",
+    "art": "background.ExplainCard.png",
+    "title": "Like",
+    "artText": "+",
+    "rules": "Gain a treasure.\nThis behavior loses 1 value.",
+    "type": "Explain"
+  },
+  {
+    "name": "Love",
+    "orientation": "vertical",
+    "art": "background.ExplainCard.png",
+    "title": "Love",
+    "artText": "ԍ",
+    "rules": "Gain 2 treasures.\nThis behavior loses 4 value.",
+    "type": "Explain"
   }
 ]
