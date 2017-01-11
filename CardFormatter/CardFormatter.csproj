@@ -430,6 +430,7 @@
     <Content Include="Data\TLDR\AureliaOptirapax.png" />
     <Content Include="Data\TLDR\AutoRepairing.png" />
     <Content Include="Data\TLDR\backgroundPart.png" />
+    <Content Include="Data\TLDR\Banker.png" />
     <Content Include="Data\TLDR\BasicChassis.png" />
     <Content Include="Data\TLDR\BasicOverlay.png" />
     <Content Include="Data\TLDR\Battery.png" />
@@ -520,6 +521,7 @@
     <Content Include="Data\TLDR\Rakshasa.png" />
     <Content Include="Data\TLDR\RepairPack.png" />
     <Content Include="Data\TLDR\RepairUnit.png" />
+    <Content Include="Data\TLDR\Replicator.png" />
     <Content Include="Data\TLDR\Researcher.png" />
     <Content Include="Data\TLDR\right.1.png" />
     <Content Include="Data\TLDR\right.2.png" />
@@ -1202,6 +1204,7 @@
     <Content Include="Data\TheMadnessPlace\MP.Cards.few.Data.json" />
     <Content Include="Data\TheMadnessPlace\KelmscottRoman.ttf" />
     <Content Include="Data\TheMadnessPlace\spookytooth.ttf" />
+    <Content Include="Data\TLDR\Cards.TLDR.money.json" />
     <None Include="Properties\PublishProfiles\CardFormatter.pubxml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Stitcher.cshtml" />
