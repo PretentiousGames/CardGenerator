@@ -1,0 +1,204 @@
+﻿[
+  {
+    "name": "0.1",
+    "orientation": "vertical",
+    "color": "Blue.png",
+    "title1": "Flowers",
+    "rules1": "Swap up to 2 of your face up cards with cards from your hand.",
+    "art1": "Flowers.png",
+    "title2": "Poetry",
+    "rules2": "Draw 2 cards. Return 2 cards.",
+    "art2": "Poetry.png"
+  },
+  {
+    "name": "0.2",
+    "orientation": "vertical",
+    "color": "Blue.png",
+    "title1": "Flowers",
+    "rules1": "Swap up to 2 of your face up cards with cards from your hand.",
+    "art1": "Flowers.png",
+    "title2": "Candy",
+    "rules2": "Look at the top 4 cards from the deck, Return them in any order.",
+    "art2": "Candy.png"
+  },
+  {
+    "name": "0.3",
+    "orientation": "vertical",
+    "color": "Blue.png",
+    "title1": "Flowers",
+    "rules1": "Swap up to 2 of your face up cards with cards from your hand.",
+    "art1": "Flowers.png",
+    "title2": "Ring",
+    "rules2": "Return a card to your hand, Play a card.",
+    "art2": "Ring.png"
+  },
+  {
+    "name": "0.4",
+    "orientation": "vertical",
+    "color": "Blue.png",
+    "title1": "Poetry",
+    "rules1": "Draw 2 cards. Return 2 cards.",
+    "art1": "Poetry.png",
+    "title2": "Candy",
+    "rules2": "Look at the top 4 cards from the deck, Return them in any order.",
+    "art2": "Candy.png"
+  },
+  {
+    "name": "0.5",
+    "orientation": "vertical",
+    "color": "Blue.png",
+    "title1": "Poetry",
+    "rules1": "Draw 2 cards. Return 2 cards.",
+    "art1": "Poetry.png",
+    "title2": "Ring",
+    "rules2": "Return a card to your hand, Play a card.",
+    "art2": "Ring.png"
+  },
+  {
+    "name": "0.6",
+    "orientation": "vertical",
+    "color": "Blue.png",
+    "title1": "Candy",
+    "rules1": "Look at the top 4 cards from the deck, Return them in any order.",
+    "art1": "Candy.png",
+    "title2": "Ring",
+    "rules2": "Return a card to your hand, Play a card.",
+    "art2": "Ring.png"
+  },
+
+
+  {
+    "name": "1.1",
+    "orientation": "vertical",
+    "color": "Red.png",
+    "title1": "Map",
+    "rules1": "Rotate one or two cards that you own.",
+    "art1": "Map.png",
+    "title2": "Disguise",
+    "rules2": "Draw a card. Discard a card.",
+    "art2": "Disguise.png"
+  },
+  {
+    "name": "1.2",
+    "orientation": "vertical",
+    "color": "Red.png",
+    "title1": "Map",
+    "rules1": "Rotate one or two cards that you own.",
+    "art1": "Map.png",
+    "title2": "Gun",
+    "rules2": "Look at 2 cards. Return or Discard them.",
+    "art2": "Gun.png"
+  },
+  {
+    "name": "1.3",
+    "orientation": "vertical",
+    "color": "Red.png",
+    "title1": "Map",
+    "rules1": "Rotate one or two cards that you own.",
+    "art1": "Map.png",
+    "title2": "Armor",
+    "rules2": "Use an ability facing away from you. Discards this card, its owner draws a card.",
+    "art2": "Armor.png"
+  },
+  {
+    "name": "1.4",
+    "orientation": "vertical",
+    "color": "Red.png",
+    "title1": "Disguise",
+    "rules1": "Draw a card. Discard a card.",
+    "art1": "Disguise.png",
+    "title2": "Gun",
+    "rules2": "Look at 2 cards. Return or Discard them.",
+    "art2": "Gun.png"
+  },
+  {
+    "name": "1.5",
+    "orientation": "vertical",
+    "color": "Red.png",
+    "title1": "Disguise",
+    "rules1": "Draw a card. Discard a card.",
+    "art1": "Disguise.png",
+    "title2": "Armor",
+    "rules2": "Use an ability facing away from you. Discards this card, its owner draws a card.",
+    "art2": "Armor.png"
+  },
+  {
+    "name": "1.6",
+    "orientation": "vertical",
+    "color": "Red.png",
+    "title1": "Gun",
+    "rules1": "Look at 2 cards. Return or Discard them.",
+    "art1": "Gun.png",
+    "title2": "Armor",
+    "rules2": "Use an ability facing away from you. Discards this card, its owner draws a card.",
+    "art2": "Armor.png"
+  },
+
+
+  {
+    "name": "2.1",
+    "orientation": "vertical",
+    "color": "Yellow.png",
+    "title1": "Keys",
+    "rules1": "Return a card from play. Play a card and use its ability. Draw a card.",
+    "art1": "Keys.png",
+    "title2": "Phone",
+    "rules2": "Discard 2 cards. Draw 2 cards.",
+    "art2": "Phone.png"
+  },
+  {
+    "name": "2.2",
+    "orientation": "vertical",
+    "color": "Yellow.png",
+    "title1": "Keys",
+    "rules1": "Return a card from play. Play a card and use its ability. Draw a card.",
+    "art1": "Keys.png",
+    "title2": "Wallet",
+    "rules2": "Rotate one of another player's cards.",
+    "art2": "Wallet.png"
+  },
+  {
+    "name": "2.3",
+    "orientation": "vertical",
+    "color": "Yellow.png",
+    "title1": "Keys",
+    "rules1": "Return a card from play. Play a card and use its ability. Draw a card.",
+    "art1": "Keys.png",
+    "title2": "Tickets",
+    "rules2": "Draw 2 cards: Play one, discard the other. Return a card from play.",
+    "art2": "Tickets.png"
+  },
+  {
+    "name": "2.4",
+    "orientation": "vertical",
+    "color": "Yellow.png",
+    "title1": "Phone",
+    "rules1": "Discard 2 cards. Draw 2 cards.",
+    "art1": "Phone.png",
+    "title2": "Wallet",
+    "rules2": "Rotate one of another player's cards.",
+    "art2": "Wallet.png"
+  },
+  {
+    "name": "2.5",
+    "orientation": "vertical",
+    "color": "Yellow.png",
+    "title1": "Phone",
+    "rules1": "Discard 2 cards. Draw 2 cards.",
+    "art1": "Phone.png",
+    "title2": "Tickets",
+    "rules2": "Draw 2 cards: Play one, discard the other. Return a card from play.",
+    "art2": "Tickets.png"
+  },
+  {
+    "name": "2.6",
+    "orientation": "vertical",
+    "color": "Yellow.png",
+    "title1": "Wallet",
+    "rules1": "Rotate one of another player's cards.",
+    "art1": "Wallet.png",
+    "title2": "Tickets",
+    "rules2": "Draw 2 cards: Play one, discard the other. Return a card from play.",
+    "art2": "Tickets.png"
+  }
+]

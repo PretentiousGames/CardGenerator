@@ -1,0 +1,129 @@
+﻿[
+  {
+    "image": "city1.png",
+    "name": "1",
+    "orientation": "vertical",
+    "defense": "8",
+    "rules": "During a Buy action, keep +1 card."
+  },
+  {
+    "name": "2",
+    "image": "city2.png",
+    "orientation": "vertical",
+    "defense": "7",
+    "rules": "During a Research action, look at +1 card."
+  },
+  {
+    "name": "3",
+    "image": "city3.png",
+    "orientation": "vertical",
+    "defense": "8",
+    "rules": "During a Trade action, trade +1 card with any player."
+  },
+  {
+    "name": "4",
+    "image": "city4.png",
+    "orientation": "vertical",
+    "defense": "7",
+    "rules": [
+      "During an Attack, this district provides 1",
+      { "constant": "attackSymbol" },
+      "."
+    ]
+  },
+  {
+    "name": "5",
+    "image": "city5.png",
+    "orientation": "vertical",
+    "defense": "8",
+    "rules": "During a Trade action, trade +1 card with any player."
+  },
+  {
+    "name": "6",
+    "image": "city6.png",
+    "orientation": "vertical",
+    "defense": "8",
+    "rules": [
+      "Robots in this district gain +1",
+      { "constant": "repairSymbol" }, "."
+    ]
+  },
+  {
+    "name": "7",
+    "image": "city7.png",
+    "orientation": "vertical",
+    "defense": "7",
+    "rules": [
+      "During an Attack, this district provides 1",
+      { "constant": "attackSymbol" },
+      "."
+    ]
+  },
+  {
+    "name": "8",
+    "image": "city8.png",
+    "orientation": "vertical",
+    "defense": "6",
+    "rules": "During a Develop action, develop +1 card."
+  },
+  {
+    "name": "9",
+    "image": "city9.png",
+    "orientation": "vertical",
+    "defense": "8",
+    "rules": [
+      "Robots in this district gain +1",
+      { "constant": "repairSymbol" },
+      "."
+    ]
+  },
+  {
+    "name": "10",
+    "image": "city10.png",
+    "orientation": "vertical",
+    "defense": "8",
+    "rules": "During a Buy action, look at +2 cards."
+  },
+  {
+    "name": "11",
+    "image": "city11.png",
+    "orientation": "vertical",
+    "defense": "6",
+    "rules": "During a Research action, keep +1 cards."
+  },
+  {
+    "name": "12",
+    "image": "city12.png",
+    "orientation": "vertical",
+    "defense": "7",
+    "rules": "During a Research action, look at +1 cards."
+  },
+  {
+    "name": "13",
+    "image": "city13.png",
+    "orientation": "vertical",
+    "defense": "8",
+    "rules": "During a Buy action, keep +1 cards."
+  },
+  {
+    "name": "14",
+    "image": "city4.png",
+    "orientation": "vertical",
+    "defense": "6",
+    "rules": "During a Develop action, develop +1 card."
+  },
+  {
+    "name": "15",
+    "image": "city15.png",
+    "orientation": "vertical",
+    "defense": "8",
+    "rules": "During a Buy action, look at +2 cards."
+  },
+  {
+    "name": "16",
+    "image": "city16.png",
+    "orientation": "vertical",
+    "defense": "6",
+    "rules": "During a Research action, keep +1 card."
+  }
+]
