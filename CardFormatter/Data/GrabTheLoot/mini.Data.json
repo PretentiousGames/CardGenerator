@@ -1,0 +1,213 @@
+﻿[
+  {
+    "name": "MoodLike",
+    "orientation": "vertical",
+    "art": "like.png",
+    "title": "Like",
+    "rules": "Gain a treasure",
+    "type": "Mood"
+  },
+  {
+    "name": "MoodApathy",
+    "orientation": "vertical",
+    "art": "apathy.png",
+    "title": "Apathy",
+    "rules": "Swap a treasure",
+    "type": "Mood"
+  },
+  {
+    "name": "MoodHate",
+    "orientation": "vertical",
+    "art": "hate.png",
+    "title": "Hate",
+    "rules": "Lose a treasure",
+    "type": "Mood"
+  },
+  {
+    "name": "GreedGems",
+    "orientation": "vertical",
+    "art": "gem.png",
+    "title": "Greed",
+    "rules": "ԍGems",
+    "type": "Greed"
+  },
+  {
+    "name": "GreedJewelry",
+    "orientation": "vertical",
+    "art": "jewelry.png",
+    "title": "Greed",
+    "rules": "ԍJewelry",
+    "type": "Greed"
+  },
+  {
+    "name": "GreedPearls",
+    "orientation": "vertical",
+    "art": "pearl.png",
+    "title": "Greed",
+    "rules": "ԍPearls",
+    "type": "Greed"
+  },
+  {
+    "name": "GreedTrinkets",
+    "orientation": "vertical",
+    "art": "trinket.png",
+    "title": "Greed",
+    "rules": "ԍTrinkets",
+    "type": "Greed"
+  },
+  {
+    "name": "GreedCoins",
+    "orientation": "vertical",
+    "art": "coins.png",
+    "title": "Greed",
+    "rules": "ԍCoins",
+    "type": "Greed"
+  },
+  {
+    "name": "Plead",
+    "orientation": "vertical",
+    "art": "plead.png",
+    "title": "Plead",
+    "type": "Action"
+  },
+  {
+    "name": "Grovel",
+    "orientation": "vertical",
+    "art": "grovel.png",
+    "title": "Grovel",
+    "type": "Action"
+  },
+  {
+    "name": "Brag",
+    "orientation": "vertical",
+    "art": "brag.png",
+    "title": "Brag",
+    "type": "Action"
+  },
+  {
+    "name": "Flatter",
+    "orientation": "vertical",
+    "art": "flatter.png",
+    "title": "Flatter",
+    "type": "Action"
+  },
+  {
+    "name": "Gem",
+    "orientation": "vertical",
+    "art": "gem.png",
+    "title": "Gem",
+    "type": "Treasure"
+  },
+  {
+    "name": "Jewelry",
+    "orientation": "vertical",
+    "art": "jewelry.png",
+    "title": "Jewelry",
+    "type": "Treasure"
+  },
+  {
+    "name": "Pearl",
+    "orientation": "vertical",
+    "art": "pearl.png",
+    "title": "Pearl",
+    "type": "Treasure"
+  },
+  {
+    "name": "Trinket",
+    "orientation": "vertical",
+    "art": "trinket.png",
+    "title": "Trinket",
+    "type": "Treasure"
+  },
+  {
+    "name": "c1",
+    "orientation": "vertical",
+    "rules": "When you take a treasure, you may pay a player 2 coins to take it from that player instead of the Captain.",
+    "title": "Trevyn",
+    "type": "Character"
+  },
+  {
+    "name": "c2",
+    "orientation": "vertical",
+    "rules": "When you take coins, take an extra coin.",
+    "title": "Sophia",
+    "type": "Character"
+  },
+  {
+    "name": "c3",
+    "orientation": "vertical",
+    "rules": "When the game ends, take an extra treasure from the Captain's hoard.",
+    "title": "Andrew",
+    "type": "Character"
+  },
+  {
+    "name": "c4",
+    "orientation": "vertical",
+    "rules": "Once during your turn you may pay 1 coin to the Captain to increase the value of an action by 1.",
+    "title": "Mike",
+    "type": "Character"
+  },
+  {
+    "name": "c5",
+    "orientation": "vertical",
+    "rules": "When you swap treasures you may swap 2 instead of 1.",
+    "title": "Erin",
+    "type": "Character"
+  },
+  {
+    "name": "c9",
+    "orientation": "vertical",
+    "rules": "You may pay 3 coins to change which of the revealed Greeds are the active Greed.",
+    "title": "Dan",
+    "type": "Character"
+  },
+  {
+    "name": "c11",
+    "orientation": "vertical",
+    "rules": "If you have the most coins at the end of the game, gain 5 extra points.",
+    "title": "James",
+    "type": "Character"
+  },
+  {
+    "name": "c12",
+    "orientation": "vertical",
+    "rules": "When you swap a treasure, you may pay a player 1 coin to swap a treasure with that player instead of the Captain.",
+    "title": "Taylor",
+    "type": "Character"
+  },
+  {
+    "name": "c15",
+    "orientation": "vertical",
+    "rules": "If you have no coins, you may take a coin as part of any action.",
+    "title": "Berrett",
+    "type": "Character"
+  },
+  {
+    "name": "c16",
+    "orientation": "vertical",
+    "rules": "You may reveal the next Greed as part of a Meh action.",
+    "title": "Chad",
+    "type": "Character"
+  },
+  {
+    "name": "c17",
+    "orientation": "vertical",
+    "rules": "When you count treasures for the purpose of determining who gets shot, you are treated as having 2 fewer treasures.",
+    "title": "Dustin",
+    "type": "Character"
+  },
+  {
+    "name": "c19",
+    "orientation": "vertical",
+    "rules": "Your gold coins are worth 3 points each at the end of the game.",
+    "title": "Isabella",
+    "type": "Character"
+  },
+  {
+    "name": "c20",
+    "orientation": "vertical",
+    "rules": "When a new Greed is revealed, you may increase the value of an action by 1.",
+    "title": "Lily",
+    "type": "Character"
+  }
+]

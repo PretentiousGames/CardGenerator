@@ -29,7 +29,7 @@
     "rules1": "Swap up to 2 of your face up cards with cards from your hand.",
     "art1": "Flowers.png",
     "title2": "Ring",
-    "rules2": "Return a card to your hand, Play a card.",
+    "rules2": "You and a player each pick one of your cards. Trade the chosen cards.",
     "art2": "Ring.png"
   },
   {
@@ -51,7 +51,7 @@
     "rules1": "Draw 2 cards. Return 2 cards.",
     "art1": "Poetry.png",
     "title2": "Ring",
-    "rules2": "Return a card to your hand, Play a card.",
+    "rules2": "You and a player each pick one of your cards. Trade the chosen cards.",
     "art2": "Ring.png"
   },
   {
@@ -62,7 +62,7 @@
     "rules1": "Look at the top 4 cards from the deck, Return them in any order.",
     "art1": "Candy.png",
     "title2": "Ring",
-    "rules2": "Return a card to your hand, Play a card.",
+    "rules2": "You and a player each pick one of your cards. Trade the chosen cards.",
     "art2": "Ring.png"
   },
 
