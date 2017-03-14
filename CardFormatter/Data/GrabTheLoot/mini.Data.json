@@ -1,29 +1,5 @@
 ﻿[
   {
-    "name": "MoodLike",
-    "orientation": "vertical",
-    "art": "like.png",
-    "title": "Like",
-    "rules": "Gain a treasure",
-    "type": "Mood"
-  },
-  {
-    "name": "MoodApathy",
-    "orientation": "vertical",
-    "art": "apathy.png",
-    "title": "Apathy",
-    "rules": "Swap a treasure",
-    "type": "Mood"
-  },
-  {
-    "name": "MoodHate",
-    "orientation": "vertical",
-    "art": "hate.png",
-    "title": "Hate",
-    "rules": "Lose a treasure",
-    "type": "Mood"
-  },
-  {
     "name": "GreedGems",
     "orientation": "vertical",
     "art": "gem.png",
@@ -63,34 +39,238 @@
     "rules": "ԍCoins",
     "type": "Greed"
   },
+
   {
-    "name": "Plead",
+    "name": "Admire",
     "orientation": "vertical",
-    "art": "plead.png",
-    "title": "Plead",
-    "type": "Action"
+    "art": "Admire.png",
+    "title": "Admire",
+    "type": "Action",
+    "rule1": "If there is only 1 worker on this card, Gain 2 treasures",
+    "rule2": "If there is only 1 worker on this card, Swap 2 treasures",
+    "rule3": "If there is only 1 worker on this card, Lose 2 treasures"
   },
   {
-    "name": "Grovel",
+    "name": "Bribe",
     "orientation": "vertical",
-    "art": "grovel.png",
-    "title": "Grovel",
-    "type": "Action"
+    "art": "Bribe.png",
+    "title": "Bribe",
+    "type": "Action",
+    "rule1": "Lose a coin, Gain 2 treasures",
+    "rule2": "Lose a coin, Gain a treasure",
+    "rule3": "Lose a coin"
   },
   {
-    "name": "Brag",
+    "name": "Cajole",
     "orientation": "vertical",
-    "art": "brag.png",
-    "title": "Brag",
-    "type": "Action"
+    "art": "Cajole.png",
+    "title": "Cajole",
+    "type": "ActionSingle",
+    "rules": "Gain a treasure"
   },
   {
-    "name": "Flatter",
+    "name": "Decieve",
     "orientation": "vertical",
-    "art": "flatter.png",
-    "title": "Flatter",
-    "type": "Action"
+    "art": "Decieve.png",
+    "title": "Decieve",
+    "type": "Action",
+    "rule1": "Gain 2 treasures",
+    "rule2": "Gain a Treasure, Swap a treasure",
+    "rule3": "Swap a treasure"
   },
+  {
+    "name": "Entertain",
+    "orientation": "vertical",
+    "art": "Entertain.png",
+    "title": "Entertain",
+    "type": "Action",
+    "rule1": "Gain 1 treasure per worker already on this card",
+    "rule2": "Swap 1 treasure per worker already on this card",
+    "rule3": "Lose 1 treasure per worker already on this card"
+  },
+  {
+    "name": "Flirt",
+    "orientation": "vertical",
+    "art": "Flirt.png",
+    "title": "Flirt",
+    "type": "Action",
+    "rule1": "If there is only 1 worker on this card, Gain 2 treasures",
+    "rule2": "Swap a treasure",
+    "rule3": "If this card is full of workers, Lose 2 treasures"
+  },
+  {
+    "name": "Gripe",
+    "orientation": "vertical",
+    "art": "Gripe.png",
+    "title": "Gripe",
+    "type": "Action",
+    "rule1": "Lose a coin, Gain a treasure",
+    "rule2": "Lose a coin, Swap a treasure",
+    "rule3": "Lose a coin, Lose a treasure"
+  },
+  {
+    "name": "Hoodwink",
+    "orientation": "vertical",
+    "art": "Hoodwink.png",
+    "title": "Hoodwink",
+    "type": "Action",
+    "rule1": "Gain 2 coins",
+    "rule2": "Swap a treasure for a coin",
+    "rule3": "Lose 2 coins"
+  },
+  {
+    "name": "Implore",
+    "orientation": "vertical",
+    "art": "Implore.png",
+    "title": "Implore",
+    "type": "Action",
+    "rule1": "Gain a treasure",
+    "rule2": "-",
+    "rule3": "Lose a treasure"
+  },
+  {
+    "name": "Jeer",
+    "orientation": "vertical",
+    "art": "Jeer.png",
+    "title": "Jeer",
+    "type": "ActionSingle",
+    "rules": "If there is only one worker on this card, Lose a treasure, otherwise Gain a treasure."
+  },
+  {
+    "name": "Kowtow",
+    "orientation": "vertical",
+    "art": "Kowtow.png",
+    "title": "Kowtow",
+    "type": "ActionSingle",
+    "rules": "Lose a treasure"
+  },
+  {
+    "name": "Lie",
+    "orientation": "vertical",
+    "art": "Lie.png",
+    "title": "Lie",
+    "type": "Action",
+    "rule1": "Gain 2 treasures",
+    "rule2": "-",
+    "rule3": "Lose 2 treasures"
+  },
+  {
+    "name": "Menace",
+    "orientation": "vertical",
+    "art": "Menace.png",
+    "title": "Menace",
+    "type": "Action",
+    "rule1": "Take a treasure from another player",
+    "rule2": "Swap a treasure with another player",
+    "rule3": "Lose 3 treasures"
+  },
+  {
+    "name": "Negotiate",
+    "orientation": "vertical",
+    "art": "Negotiate.png",
+    "title": "Negotiate",
+    "type": "ActionSingle",
+    "rules": "Trade a treasure with another player"
+  },
+  {
+    "name": "Orate",
+    "orientation": "vertical",
+    "art": "Orate.png",
+    "title": "Orate",
+    "type": "Action",
+    "rule1": "Gain 1 treasure per empty slot on this card",
+    "rule2": "Swap 1 treasure per empty slot on this card",
+    "rule3": "Lose 1 treasure per empty slot on this card"
+  },
+  {
+    "name": "Pout.png",
+    "orientation": "vertical",
+    "art": "Pout.png",
+    "title": "Pout",
+    "type": "Action",
+    "rule1": "Gain a treasure",
+    "rule2": "Lose a treasure",
+    "rule3": "Lose 3 treasures"
+  },
+  {
+    "name": "Quibble",
+    "orientation": "vertical",
+    "art": "Quibble.png",
+    "title": "Quibble",
+    "type": "ActionSingle",
+    "rules": "Swap a treasure"
+  },
+  {
+    "name": "Rage",
+    "orientation": "vertical",
+    "art": "Rage.png",
+    "title": "Rage",
+    "type": "Action",
+    "rule1": "Gain 1 coin per worker on this card",
+    "rule2": "Gain 1 coin per worker already on this card",
+    "rule3": "Lose 1 coin per worker on this card"
+  },
+  {
+    "name": "Steal",
+    "orientation": "vertical",
+    "art": "Steal.png",
+    "title": "Steal",
+    "type": "Action",
+    "rule1": "Gain 2 treasures",
+    "rule2": "Swap 2 treasures",
+    "rule3": "Lose 2 treasures"
+  },
+  {
+    "name": "Trick",
+    "orientation": "vertical",
+    "art": "Trick.png",
+    "title": "Trick",
+    "type": "Action",
+    "rule1": "Gain a coin, Gain a treasure",
+    "rule2": "Gain a coin, Swap a treasure",
+    "rule3": "Gain a coin, Lose a treasure"
+  },
+  {
+    "name": "Urge",
+    "orientation": "vertical",
+    "art": "Urge.png",
+    "title": "Urge",
+    "type": "Action",
+    "rule1": "Gain a treasure",
+    "rule2": "Swap a treasure",
+    "rule3": "-"
+  },
+  {
+    "name": "Vomit",
+    "orientation": "vertical",
+    "art": "Vomit.png",
+    "title": "Vomit",
+    "type": "Action",
+    "rule1": "-",
+    "rule2": "-",
+    "rule3": "Lose a treasure"
+  },
+  {
+    "name": "Whine",
+    "orientation": "vertical",
+    "art": "Whine.png",
+    "title": "Whine",
+    "type": "Action",
+    "rule1": "-",
+    "rule2": "Lose a treasure",
+    "rule3": "Lose 2 treasures"
+  },
+  {
+    "name": "Yell",
+    "orientation": "vertical",
+    "art": "Yell.png",
+    "title": "Yell",
+    "type": "Action",
+    "rule1": "Lose a coin, Gain a treasure",
+    "rule2": "Lose a coin, Swap a treasure",
+    "rule3": "Lose a coin, Lose a treasure"
+  },
+
   {
     "name": "Gem",
     "orientation": "vertical",
@@ -122,29 +302,22 @@
   {
     "name": "c1",
     "orientation": "vertical",
-    "rules": "When you take a treasure, you may pay a player 2 coins to take it from that player instead of the Captain.",
+    "rules": "When you Gain a treasure, you may pay a player 2 coins to Gain it from that player instead of the Captain.",
     "title": "Trevyn",
     "type": "Character"
   },
   {
     "name": "c2",
     "orientation": "vertical",
-    "rules": "When you take coins, take an extra coin.",
+    "rules": "When you Gain coins, Gain an extra coin.",
     "title": "Sophia",
     "type": "Character"
   },
   {
     "name": "c3",
     "orientation": "vertical",
-    "rules": "When the game ends, take an extra treasure from the Captain's hoard.",
+    "rules": "When the game ends, Gain an extra treasure from the Captain's hoard.",
     "title": "Andrew",
-    "type": "Character"
-  },
-  {
-    "name": "c4",
-    "orientation": "vertical",
-    "rules": "Once during your turn you may pay 1 coin to the Captain to increase the value of an action by 1.",
-    "title": "Mike",
     "type": "Character"
   },
   {
@@ -178,15 +351,8 @@
   {
     "name": "c15",
     "orientation": "vertical",
-    "rules": "If you have no coins, you may take a coin as part of any action.",
+    "rules": "If you have no coins, you may Gain a coin as part of any action.",
     "title": "Berrett",
-    "type": "Character"
-  },
-  {
-    "name": "c16",
-    "orientation": "vertical",
-    "rules": "You may reveal the next Greed as part of a Meh action.",
-    "title": "Chad",
     "type": "Character"
   },
   {
@@ -201,13 +367,6 @@
     "orientation": "vertical",
     "rules": "Your gold coins are worth 3 points each at the end of the game.",
     "title": "Isabella",
-    "type": "Character"
-  },
-  {
-    "name": "c20",
-    "orientation": "vertical",
-    "rules": "When a new Greed is revealed, you may increase the value of an action by 1.",
-    "title": "Lily",
     "type": "Character"
   }
 ]
