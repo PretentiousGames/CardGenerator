@@ -97,7 +97,7 @@
     "rules1": "Rotate one or two cards that you own.",
     "art1": "Map.png",
     "title2": "Armor",
-    "rules2": "Use an ability facing away from you. Discards this card, its owner draws a card.",
+    "rules2": "Use an ability facing away from you. Its owner returns a card then draws a card.",
     "art2": "Armor.png"
   },
   {
@@ -119,7 +119,7 @@
     "rules1": "Draw a card. Discard a card.",
     "art1": "Disguise.png",
     "title2": "Armor",
-    "rules2": "Use an ability facing away from you. Discards this card, its owner draws a card.",
+    "rules2": "Use an ability facing away from you. Its owner returns a card then draws a card.",
     "art2": "Armor.png"
   },
   {
@@ -130,7 +130,7 @@
     "rules1": "Look at 2 cards. Return or Discard them.",
     "art1": "Gun.png",
     "title2": "Armor",
-    "rules2": "Use an ability facing away from you. Discards this card, its owner draws a card.",
+    "rules2": "Use an ability facing away from you. Its owner returns a card then draws a card.",
     "art2": "Armor.png"
   },
 

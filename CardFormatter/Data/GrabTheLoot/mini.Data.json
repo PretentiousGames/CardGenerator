@@ -119,16 +119,6 @@
     "rule3": "Lose 2 coins"
   },
   {
-    "name": "Implore",
-    "orientation": "vertical",
-    "art": "Implore.png",
-    "title": "Implore",
-    "type": "Action",
-    "rule1": "Gain a treasure",
-    "rule2": "-",
-    "rule3": "Lose a treasure"
-  },
-  {
     "name": "Jeer",
     "orientation": "vertical",
     "art": "Jeer.png",
@@ -150,9 +140,9 @@
     "art": "Lie.png",
     "title": "Lie",
     "type": "Action",
-    "rule1": "Gain 2 treasures",
-    "rule2": "-",
-    "rule3": "Lose 2 treasures"
+    "rule1": "Remove a Captain meeple",
+    "rule2": "Move a Captain meeple",
+    "rule3": "Add a Captain meeple"
   },
   {
     "name": "Menace",
@@ -231,34 +221,14 @@
     "rule3": "Gain a coin, Lose a treasure"
   },
   {
-    "name": "Urge",
-    "orientation": "vertical",
-    "art": "Urge.png",
-    "title": "Urge",
-    "type": "Action",
-    "rule1": "Gain a treasure",
-    "rule2": "Swap a treasure",
-    "rule3": "-"
-  },
-  {
-    "name": "Vomit",
-    "orientation": "vertical",
-    "art": "Vomit.png",
-    "title": "Vomit",
-    "type": "Action",
-    "rule1": "-",
-    "rule2": "-",
-    "rule3": "Lose a treasure"
-  },
-  {
     "name": "Whine",
     "orientation": "vertical",
     "art": "Whine.png",
     "title": "Whine",
     "type": "Action",
-    "rule1": "-",
-    "rule2": "Lose a treasure",
-    "rule3": "Lose 2 treasures"
+    "rule1": "Add a Captain meeple",
+    "rule2": "Add a Captain meeple, Lose a treasure",
+    "rule3": "Add a Captain meeple, Lose 2 treasures"
   },
   {
     "name": "Yell",
@@ -266,9 +236,9 @@
     "art": "Yell.png",
     "title": "Yell",
     "type": "Action",
-    "rule1": "Lose a coin, Gain a treasure",
-    "rule2": "Lose a coin, Swap a treasure",
-    "rule3": "Lose a coin, Lose a treasure"
+    "rule1": "Add a Captain meeple, Gain a treasure",
+    "rule2": "Add a Captain meeple, Swap a treasure",
+    "rule3": "Add a Captain meeple, Lose a treasure"
   },
 
   {
