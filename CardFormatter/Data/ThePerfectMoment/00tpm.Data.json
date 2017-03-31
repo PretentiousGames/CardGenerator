@@ -18,7 +18,7 @@
     "rules1": "Up to 2 times: Swap a face up card with a card from your hand.",
     "art1": "Flowers.png",
     "title2": "Candy",
-    "rules2": "Look at the top 4 cards from the deck, Return them in any order.",
+    "rules2": "Look at the top 4 cards of the deck, Return them in any order.",
     "art2": "Candy.png"
   },
   {
@@ -40,7 +40,7 @@
     "rules1": "Draw 2 cards. Return 2 cards.",
     "art1": "Poetry.png",
     "title2": "Candy",
-    "rules2": "Look at the top 4 cards from the deck, Return them in any order.",
+    "rules2": "Look at the top 4 cards of the deck, Return them in any order.",
     "art2": "Candy.png"
   },
   {
@@ -59,7 +59,7 @@
     "orientation": "vertical",
     "color": "Blue.png",
     "title1": "Candy",
-    "rules1": "Look at the top 4 cards from the deck, Return them in any order.",
+    "rules1": "Look at the top 4 cards of the deck, Return them in any order.",
     "art1": "Candy.png",
     "title2": "Ring",
     "rules2": "You and a player each pick one of your cards. Trade the chosen cards.",
@@ -86,7 +86,7 @@
     "rules1": "Rotate one or two cards that you own.",
     "art1": "Map.png",
     "title2": "Gun",
-    "rules2": "Look at 2 cards. Return or Discard them.",
+    "rules2": "Look at the top 2 cards of the deck. Return or Discard them.",
     "art2": "Gun.png"
   },
   {
@@ -108,7 +108,7 @@
     "rules1": "Draw a card. Discard a card.",
     "art1": "Disguise.png",
     "title2": "Gun",
-    "rules2": "Look at 2 cards. Return or Discard them.",
+    "rules2": "Look at the top 2 cards of the deck. Return or Discard them.",
     "art2": "Gun.png"
   },
   {
@@ -127,7 +127,7 @@
     "orientation": "vertical",
     "color": "Red.png",
     "title1": "Gun",
-    "rules1": "Look at 2 cards. Return or Discard them.",
+    "rules1": "Look at the top 2 cards of the deck. Return or Discard them.",
     "art1": "Gun.png",
     "title2": "Armor",
     "rules2": "Use an ability facing away from you. Its owner returns a card then draws a card.",

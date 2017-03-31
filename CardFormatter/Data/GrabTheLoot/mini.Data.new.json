@@ -39,6 +39,30 @@
     "rules": "ԍCoins",
     "type": "Greed"
   },
+  {
+    "name": "GreedHate",
+    "orientation": "vertical",
+    "art": "Hate.png",
+    "title": "Get Shot!",
+    "rules": "The game ends now",
+    "type": "Greed"
+  },
+  {
+    "name": "GreedApathy",
+    "orientation": "vertical",
+    "art": "Apathy.png",
+    "title": "Get Shot!",
+    "rules": "The game ends after this round",
+    "type": "Greed"
+  },
+  {
+    "name": "GreedLike",
+    "orientation": "vertical",
+    "art": "Like.png",
+    "title": "Don't get shot?",
+    "rules": "The game ends now",
+    "type": "Greed"
+  },
 
   {
     "name": "Admire",
@@ -55,48 +79,43 @@
     "orientation": "vertical",
     "art": "Bribe.png",
     "title": "Bribe",
-    "type": "Action",
-    "rule1of3": "Lose a coin, Gain 2 treasures",
-    "rule2of3": "Lose a coin, Gain a treasure",
-    "rule3of3": "Lose a coin"
+    "type": "ActionSingle",
+    "rules": "Lose a coin, Gain a treasure"
   },
   {
     "name": "Cajole",
     "orientation": "vertical",
     "art": "Cajole.png",
     "title": "Cajole",
-    "type": "ActionSingle",
-    "rules": "Gain a treasure"
+    "type": "Action",
+    "rule1of3": "Swap a treasure for a coin",
+    "rule2of3": "Lose 2 coins",
+    "rule3of3": "Gain 2 coins"
   },
   {
     "name": "Decieve",
     "orientation": "vertical",
     "art": "Decieve.png",
     "title": "Decieve",
-    "type": "Action",
-    "rule1of3": "Gain 2 treasures",
-    "rule2of3": "Gain a Treasure, Swap a treasure",
-    "rule3of3": "Swap a treasure"
+    "type": "ActionSingle",
+    "rules": "Take a treasure from a player. Give them a treasure."
   },
   {
     "name": "Entertain",
     "orientation": "vertical",
     "art": "Entertain.png",
     "title": "Entertain",
-    "type": "Action",
-    "rule1of3": "Gain 1 treasure per worker already on this card",
-    "rule2of3": "Swap 1 treasure per worker already on this card",
-    "rule3of3": "Lose 1 treasure per worker already on this card"
+    "type": "ActionSingle",
+    "rules": "Gain 1 treasure per worker already on this card"
   },
   {
     "name": "Flirt",
     "orientation": "vertical",
     "art": "Flirt.png",
     "title": "Flirt",
-    "type": "Action",
-    "rule1of3": "If there is only 1 worker on this card, Gain 2 treasures",
-    "rule2of3": "Swap a treasure",
-    "rule3of3": "If this card is full of workers, Lose 2 treasures"
+    "type": "Action2",
+    "rule1of2": "Gain a treasure.",
+    "rule2of2": "Trade a treasure with another player."
   },
   {
     "name": "Gripe",
@@ -114,17 +133,18 @@
     "art": "Hoodwink.png",
     "title": "Hoodwink",
     "type": "Action",
-    "rule1of3": "Gain 2 coins",
-    "rule2of3": "Swap a treasure for a coin",
-    "rule3of3": "Lose 2 coins"
+    "rule1of3": "Gain a coin, Gain a treasure",
+    "rule2of3": "Gain a coin, Swap a treasure",
+    "rule3of3": "Gain a coin, Lose a treasure"
   },
   {
     "name": "Jeer",
     "orientation": "vertical",
     "art": "Jeer.png",
     "title": "Jeer",
-    "type": "ActionSingle",
-    "rules": "If there is only one worker on this card, Lose a treasure, otherwise Gain a treasure."
+    "type": "Action2",
+    "rule1of2": "Lose 2 treasures.",
+    "rule2of2": "Gain a treasure."
   },
   {
     "name": "Kowtow",
@@ -132,27 +152,23 @@
     "art": "Kowtow.png",
     "title": "Kowtow",
     "type": "ActionSingle",
-    "rules": "Lose a treasure"
+    "rules": "Lose 1 or 3 treasures"
   },
   {
     "name": "Lie",
     "orientation": "vertical",
     "art": "Lie.png",
     "title": "Lie",
-    "type": "Action",
-    "rule1of3": "Remove a Captain meeple",
-    "rule2of3": "Move a Captain meeple",
-    "rule3of3": "Add a Captain meeple"
+    "type": "ActionSingle",
+    "rules": "Add or Remove a Captain meeple then take another turn"
   },
   {
     "name": "Menace",
     "orientation": "vertical",
     "art": "Menace.png",
     "title": "Menace",
-    "type": "Action",
-    "rule1of3": "Take a treasure from another player",
-    "rule2of3": "Swap a treasure with another player",
-    "rule3of3": "Lose 3 treasures"
+    "type": "ActionSingle",
+    "rules": "Take a treasure from another player"
   },
   {
     "name": "Negotiate",
@@ -168,9 +184,9 @@
     "art": "Orate.png",
     "title": "Orate",
     "type": "Action",
-    "rule1of3": "Gain 1 treasure per empty slot on this card",
-    "rule2of3": "Swap 1 treasure per empty slot on this card",
-    "rule3of3": "Lose 1 treasure per empty slot on this card"
+    "rule1of3": "Gain 2 treasures.",
+    "rule2of3": "Lose a treasure.",
+    "rule3of3": "Lose a treasure."
   },
   {
     "name": "Pout.png",
@@ -178,8 +194,8 @@
     "art": "Pout.png",
     "title": "Pout",
     "type": "Action",
-    "rule1of3": "Gain a treasure",
-    "rule2of3": "Lose a treasure",
+    "rule1of3": "Lose a treasure",
+    "rule2of3": "Gain a treasure",
     "rule3of3": "Lose 3 treasures"
   },
   {
@@ -188,37 +204,31 @@
     "art": "Quibble.png",
     "title": "Quibble",
     "type": "ActionSingle",
-    "rules": "Swap a treasure"
+    "rules": "Swap a treasure with the Captain"
   },
   {
     "name": "Rage",
     "orientation": "vertical",
     "art": "Rage.png",
     "title": "Rage",
-    "type": "Action",
-    "rule1of3": "Gain 1 coin per worker on this card",
-    "rule2of3": "Gain 1 coin per worker already on this card",
-    "rule3of3": "Lose 1 coin per worker on this card"
+    "type": "ActionSingle",
+    "rules": "Lose 2 coins per empty slot on this card"
   },
   {
     "name": "Steal",
     "orientation": "vertical",
     "art": "Steal.png",
     "title": "Steal",
-    "type": "Action",
-    "rule1of3": "Gain 2 treasures",
-    "rule2of3": "Swap 2 treasures",
-    "rule3of3": "Lose 2 treasures"
+    "type": "ActionSingle",
+    "rules": "Take a coin from another player"
   },
   {
     "name": "Trick",
     "orientation": "vertical",
     "art": "Trick.png",
     "title": "Trick",
-    "type": "Action",
-    "rule1of3": "Gain a coin, Gain a treasure",
-    "rule2of3": "Gain a coin, Swap a treasure",
-    "rule3of3": "Gain a coin, Lose a treasure"
+    "type": "ActionSingle",
+    "rules": "Take a treasure from another player. Give that player a coin"
   },
   {
     "name": "Whine",
@@ -226,19 +236,20 @@
     "art": "Whine.png",
     "title": "Whine",
     "type": "Action",
-    "rule1of3": "Add a Captain meeple",
-    "rule2of3": "Add a Captain meeple, Lose a treasure",
-    "rule3of3": "Add a Captain meeple, Lose 2 treasures"
+    "rule1of3": "Move a Captain meeple, Lose a treasure",
+    "rule2of3": "Move a Captain meeple",
+    "rule3of3": "Move a Captain meeple, Lose 2 treasures"
   },
   {
     "name": "Yell",
     "orientation": "vertical",
     "art": "Yell.png",
     "title": "Yell",
+    "type": "ActionSingle",
     "type": "Action",
-    "rule1of3": "Add a Captain meeple, Gain a treasure",
+    "rule1of3": "Add a Captain meeple, Lose a treasure",
     "rule2of3": "Add a Captain meeple, Swap a treasure",
-    "rule3of3": "Add a Captain meeple, Lose a treasure"
+    "rule3of3": "Add a Captain meeple, Gain a treasure"
   },
 
   {
@@ -329,13 +340,13 @@
     "name": "c17",
     "orientation": "vertical",
     "rules": "When you count treasures for the purpose of determining who gets shot, you are treated as having 2 fewer treasures.",
-    "title": "Dustin",
+    "title": "Dwayne",
     "type": "Character"
   },
   {
     "name": "c19",
     "orientation": "vertical",
-    "rules": "Your gold coins are worth 3 points each at the end of the game.",
+    "rules": "Your gold coins are worth 1 extra point each at the end of the game.",
     "title": "Isabella",
     "type": "Character"
   }

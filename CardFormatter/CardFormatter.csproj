@@ -335,6 +335,7 @@
     <Content Include="Data\GrabTheLoot\admire.png" />
     <Content Include="Data\GrabTheLoot\Apathy.png" />
     <Content Include="Data\GrabTheLoot\background.action.png" />
+    <Content Include="Data\GrabTheLoot\background.action2.png" />
     <Content Include="Data\GrabTheLoot\background.character.png" />
     <Content Include="Data\GrabTheLoot\background.greed.png" />
     <Content Include="Data\GrabTheLoot\background.mood.png" />
@@ -1253,7 +1254,6 @@
     <Content Include="Data\TheMadnessPlace\Aharoni-True.ttf" />
     <Content Include="Data\TheMadnessPlace\MP.Cards.Data.json" />
     <Content Include="Data\TheMadnessPlace\MP.Cards.Template.json" />
-    <Content Include="Data\TheMadnessPlace\rexlia rg.ttf" />
     <Content Include="Data\TheMadnessPlace\MP.Cards.few.Data.json" />
     <Content Include="Data\TheMadnessPlace\KelmscottRoman.ttf" />
     <Content Include="Data\TheMadnessPlace\spookytooth.ttf" />
@@ -1271,6 +1271,8 @@
     <Content Include="Data\GrabTheLoot\Aharoni-True.ttf" />
     <Content Include="Data\GrabTheLoot\mini.Data.json" />
     <Content Include="Data\GrabTheLoot\mini.Template.json" />
+    <Content Include="Data\GrabTheLoot\mini.Data.new.json" />
+    <Content Include="Data\TheMadnessPlace\Montserrat-Light.otf" />
     <None Include="Properties\PublishProfiles\CardFormatter.pubxml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Stitcher.cshtml" />
