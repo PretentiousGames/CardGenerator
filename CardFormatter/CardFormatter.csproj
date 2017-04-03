@@ -1111,6 +1111,13 @@
     <Content Include="Data\TheDragonsGame\vollys.png" />
     <Content Include="Data\TheDragonsGame\weapon.png" />
     <Content Include="Data\TheDragonsGame\whine.png" />
+    <Content Include="Data\TheMadnessPlace\Chemical.png" />
+    <Content Include="Data\TheMadnessPlace\Electricity.png" />
+    <Content Include="Data\TheMadnessPlace\Mechanical.png" />
+    <Content Include="Data\TheMadnessPlace\Repair.png" />
+    <Content Include="Data\TheMadnessPlace\Steam.png" />
+    <Content Include="Data\TheMadnessPlace\Time.png" />
+    <Content Include="Data\TheMadnessPlace\Waves.png" />
     <Content Include="Data\ThePerfectMoment\Armor.png" />
     <Content Include="Data\ThePerfectMoment\Blue.png" />
     <Content Include="Data\ThePerfectMoment\Candy.png" />
@@ -1254,7 +1261,6 @@
     <Content Include="Data\TheMadnessPlace\Aharoni-True.ttf" />
     <Content Include="Data\TheMadnessPlace\MP.Cards.Data.json" />
     <Content Include="Data\TheMadnessPlace\MP.Cards.Template.json" />
-    <Content Include="Data\TheMadnessPlace\MP.Cards.few.Data.json" />
     <Content Include="Data\TheMadnessPlace\KelmscottRoman.ttf" />
     <Content Include="Data\TheMadnessPlace\spookytooth.ttf" />
     <Content Include="Data\TerranLeagueOfDefenseRobots\Aharoni-True.ttf" />

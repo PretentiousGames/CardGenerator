@@ -117,6 +117,7 @@
             var drawErrorText = function (text) {
                 cardFormatter.textDrawer.drawText(card.canvas, context, fonts, [{ text: text }], 0, 0, template.fullWidth, template.fullHeight);
             };
+
             cardFormatter.drawer.drawImage = function (element) {
                 var image = images[element.name];
                 if (!image) {
@@ -129,9 +130,9 @@
                     var TO_RADIANS = Math.PI / 180;
                     var drawRotatedImage = function (image, x, y, angle, xSize, ySize) {
                         context.save();
-                        context.translate(x + (image.width / 2), y + (image.height / 2));//x, y);
+                        context.translate(x + (image.width / 2), y + (image.height / 2));
                         context.rotate(angle * TO_RADIANS);
-                        context.drawImage(image, -(image.width / 2), -(image.height / 2), xSize, ySize);
+                        context.drawImage(image, -(image.width / 2), -(image.height / 2), xSize || image.width, ySize || image.height);
                         context.restore();
                     }
 
