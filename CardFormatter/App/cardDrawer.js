@@ -1,12 +1,13 @@
 ﻿//The cardformatter namespace
 (function () {
+    var debug = false;
     var cardFormatter = window.cardFormatter || {};
     window.cardFormatter = cardFormatter;
     var template = {};
+    var images = {};
 
     //The cardDrawer member of the namespace
     (function () {
-        var debug = false;
 
         //Discovers the elements in a template that are applicable to the card in question.
         var findElements = function (localTemptlate, card) {
@@ -25,7 +26,7 @@
                     var includes = _.map(requirement.values, function (value) { return getValue(value); });
                     var excludes = _.map(requirement.excludes, function (value) { return getValue(value); });
                     return ((exists === true && (!!card[requirement.name]) && includes.length === 0 && excludes.length === 0)
-                            || (exists === false && (!card[requirement.name])))
+                        || (exists === false && (!card[requirement.name])))
                         || (includes.length > 0
                             && _.contains(includes, getValue(card[requirement.name])))
                         || (excludes.length > 0
@@ -51,7 +52,7 @@
 
         //Draws a list of elements on the card
         var drawElements = function (card, elements, imageFiles, context, fonts, callback) {
-            var images = {};
+            images = {};
 
             //load images
             _.each(elements, function (element) {
@@ -61,6 +62,9 @@
                         var constant = element.constant || imageNode.constant;
                         var imageTempObj = (constant ? template.constants[constant] : imageNode.name || imageNode || element.name);
                         if (imageTempObj) {
+                            if (!imageTempObj.toLocaleLowerCase) {
+                                debugger;
+                            }
                             var imageName = imageTempObj.toLocaleLowerCase();
                             var imageObj = _.where(imageFiles, { name: imageName })[0];
                             if (imageObj) {
@@ -73,12 +77,27 @@
                 }
             });
 
+            _.each(template.constants, function (constant) {
+                if (constant && constant.imageFile) {
+                    var imageTempObj = constant.imageFile;
+                    if (imageTempObj) {
+                        var imageName = imageTempObj.toLocaleLowerCase();
+                        var imageObj = _.where(imageFiles, { name: imageName })[0];
+                        if (imageObj) {
+                            images[constant.imageFile] = imageObj.image;
+                        }
+                    } else {
+                        window.console.log("Image constant not found! " + JSON.stringify(element));
+                    }
+                }
+            });
+
             //set offsets
             _.chain(elements)
-             .filter(function (e) { return e.type === "array" })
-             .each(function (e) {
-                 e.count = 0;
-             });
+                .filter(function (e) { return e.type === "array" })
+                .each(function (e) {
+                    e.count = 0;
+                });
 
             //scale image
             var scale = card.orientation === 'horizontal' ?
@@ -98,7 +117,7 @@
             var drawErrorText = function (text) {
                 cardFormatter.textDrawer.drawText(card.canvas, context, fonts, [{ text: text }], 0, 0, template.fullWidth, template.fullHeight);
             };
-            var drawImage = function (element) {
+            cardFormatter.drawer.drawImage = function (element) {
                 var image = images[element.name];
                 if (!image) {
                     var img = card[element.name];
@@ -108,31 +127,31 @@
                 } else {
 
                     var TO_RADIANS = Math.PI / 180;
-                    var drawRotatedImage = function (image, x, y, angle) {
+                    var drawRotatedImage = function (image, x, y, angle, xSize, ySize) {
                         context.save();
                         context.translate(x + (image.width / 2), y + (image.height / 2));//x, y);
                         context.rotate(angle * TO_RADIANS);
-                        context.drawImage(image, -(image.width / 2), -(image.height / 2));
+                        context.drawImage(image, -(image.width / 2), -(image.height / 2), xSize, ySize);
                         context.restore();
                     }
 
                     var angle = element.rotate || 0;
-                    drawRotatedImage(image, element.x, element.y, angle);
+                    drawRotatedImage(image, element.x, element.y, angle, element.xSize, element.ySize);
                     //context.drawImage(image, element.x, element.y);
                 }
             };
             var applyArray = function (element) {
-                if (element.styles.array) {
+                if (element.styles && element.styles.array) {
                     _.chain(elements)
-                     .filter(function (e) { return e.name === element.styles.array })
-                     .each(function (e) {
-                         element.styles = _.extend({}, e.styles, element.styles);
-                         element.styles.x = e.styles.x + (e.styles.orientation === "horizontal" ? (e.count * e.styles.itemWidth) : 0);
-                         element.styles.y = e.styles.y + (e.styles.orientation !== "horizontal" ? (e.count * e.styles.itemHeight) : 0);
-                         element.styles.xSize = e.styles.orientation === "horizontal" ? e.styles.itemWidth : e.styles.xSize;
-                         element.styles.ySize = e.styles.orientation !== "horizontal" ? e.styles.itemHeight : e.styles.ySize;
-                         e.count++;
-                     });
+                        .filter(function (e) { return e.name === element.styles.array })
+                        .each(function (e) {
+                            element.styles = _.extend({}, e.styles, element.styles);
+                            element.styles.x = e.styles.x + (e.styles.orientation === "horizontal" ? (e.count * e.styles.itemWidth) : 0);
+                            element.styles.y = e.styles.y + (e.styles.orientation !== "horizontal" ? (e.count * e.styles.itemHeight) : 0);
+                            element.styles.xSize = e.styles.orientation === "horizontal" ? e.styles.itemWidth : e.styles.xSize;
+                            element.styles.ySize = e.styles.orientation !== "horizontal" ? e.styles.itemHeight : e.styles.ySize;
+                            e.count++;
+                        });
                 }
                 return element;
             };
@@ -142,7 +161,7 @@
                 .filter(function (element) { return element.draw !== false; })
                 .each(function (element) {
                     if (element.type === 'image') {
-                        drawImage(element);
+                        cardFormatter.drawer.drawImage(element);
                     } else if (element.type === 'style') {
                         _.each(element.values, function (value, key) {
                             context[key] = value;
@@ -201,11 +220,11 @@
                 }
                 if (obj.prefix) {
                     prefix = obj.prefix.constant ? template.constants[obj.prefix.constant] :
-                      obj.prefix.text ? obj.prefix.text : obj.prefix;
+                        obj.prefix.text ? obj.prefix.text : obj.prefix;
                 }
                 if (obj.suffix) {
                     suffix = obj.suffix.constant ? template.constants[obj.suffix.constant] :
-                      obj.suffix.text ? obj.suffix.text : obj.suffix;
+                        obj.suffix.text ? obj.suffix.text : obj.suffix;
                 }
                 if (prefix) {
                     if (prefix.text) {
@@ -230,11 +249,18 @@
                 };
 
                 if (!val) {
+                }
+                else if (val.imageFile) {
+                    return [{ text: "", imageFile: val.imageFile, "yPadding": val.yPadding }];
                 } else if (val.text) {
                     if (val.text.constant) {
                         return _.map(getRuns(template.constants[val.text.constant]), copyBaseStyles);
                     } else {
-                        return [{ text: val.text, styles: val.styles }];
+                        return [{
+                            text: val.text,
+                            relativeFontSize: val.relativeFontSize,
+                            styles: val.styles
+                        }];
                     }
                 } else if (val.constant) {
                     return _.map(getRuns(template.constants[val.constant]), copyBaseStyles);
@@ -250,12 +276,23 @@
             return addFixes(findText(obj));
         };
         var reduceRuns = function (memo, item) {
+            if (item.imageFile) {
+                memo.push({ text: '', imageFile: item.imageFile, styles: item.styles, yPadding: item.yPadding });
+                return memo;
+            }
+            if (!item.text.split) {
+                debugger;
+            }
             var lines = item.text.split('\n');
             _.each(lines, function (l, i, ls) {
                 var words = l.split(' ');
                 _.each(words, function (w, j, ws) {
                     if (w !== '') {
-                        memo.push({ text: w, styles: item.styles });
+                        memo.push({
+                            text: w,
+                            relativeFontSize: item.relativeFontSize,
+                            styles: item.styles
+                        });
                     }
                     if (j + 1 < ws.length) {
                         memo.push({ text: ' ', styles: item.styles });
@@ -357,8 +394,17 @@
                         setStyles(testWord.styles);
 
                         var wordFontObj = testWord.styles.font ? _.where(fonts, { name: testWord.styles.font.toLocaleLowerCase() })[0].font : fontObj;
-
-                        var measure = cardFormatter.drawer.measureText(wordFontObj, fontSize * (testWord.relativeFontSize || 1), testWord.text);
+                        
+                        var measure;
+                        if (testWord.imageFile) {
+                            var allottedHeight = fontSize * (testWord.relativeFontSize || 1) * (1 - testWord.yPadding);
+                            measure = cardFormatter.drawer.measureImage(allottedHeight, testWord.imageFile);
+                            testWord.xSize = measure.width;
+                            testWord.ySize = measure.height;
+                        }
+                        else {
+                            measure = cardFormatter.drawer.measureText(wordFontObj, fontSize * (testWord.relativeFontSize || 1), testWord.text);
+                        }
                         var testWordWidth = measure.width + (fontSize * .1);
                         testWord.width = testWordWidth;
                         testWord.xLeadIn = measure.xLeadIn;
@@ -443,12 +489,32 @@
                     var extraXOffset = sizeOffset / spacesCount.space;
                     var wx = getWordX(sizeOffset);
                     l.words.forEach(function (w) {
+                        if (w.imageFile) {
+                            wx += w.text === ' ' && justification === 'full' ? extraXOffset : 0;                        
+                            cardFormatter.drawer.drawImage({
+                                name: w.imageFile,
+                                rotate: w.styles.rotate,
+                                x: wx - (w.xLeadIn | 0),
+                                y: getYPositioning(w, wy) + (w.yPadding * fontSize * (w.relativeFontSize || 1)),
+                                xSize: w.xSize,
+                                ySize: w.ySize
+                            });
+                            wx += w.width;
+                            return;
+                        }
+                        //{"text":"","imageFile":"Time.png","styles":{"x":112,"y":112,"xSize":600,"ySize":150},"width":110}
                         setStyles(w.styles);
                         context.shadowColor = undefined;
                         wx += w.text === ' ' && justification === 'full' ? extraXOffset : 0;
                         var styleObj = { fontSize: fontSize * (w.relativeFontSize || 1), fillStyle: w.styles.fillStyle };
                         var wordFontObj = w.styles.font ? _.where(fonts, { name: w.styles.font.toLocaleLowerCase() })[0].font : fontObj;
                         cardFormatter.drawer.fillText(context, wordFontObj, w.text, wx - w.xLeadIn, getYPositioning(w, wy), styleObj);
+
+                        if (debug) {
+                            context.rect(wx - w.xLeadIn, getYPositioning(w, wy), w.width, styleObj.fontSize);
+                            context.stroke();
+                        }
+
                         if (w.styles.innerShadow) {
                             var obj = w.styles.innerShadow.styles;
                             obj.fontSize = fontSize * (w.relativeFontSize || 1);
@@ -494,6 +560,14 @@
 
     //The drawer member of the namespace
     (function () {
+        var measureImage = function (fontSize, imageName) {
+            var image = images[imageName];
+            var height = image.height;
+            var width = image.width;
+            var scaledWidth = width * fontSize / height;
+            return { width: scaledWidth, height: fontSize };
+        };
+
         var measureText = function (font, fontSize, text) {
             if (font) {
                 if (text === ' ') {
@@ -560,6 +634,7 @@
 
         cardFormatter.drawer = {
             measureText: measureText,
+            measureImage: measureImage,
             fillText: fillText,
             drawInnerShadow: drawInnerShadow,
         };
@@ -1000,9 +1075,9 @@
                     for (i = 0; i <= 1; i++) {
                         var f = function (t) {
                             return Math.pow(1 - t, 3) * p0[i]
-                            + 3 * Math.pow(1 - t, 2) * t * p1[i]
-                            + 3 * (1 - t) * Math.pow(t, 2) * p2[i]
-                            + Math.pow(t, 3) * p3[i];
+                                + 3 * Math.pow(1 - t, 2) * t * p1[i]
+                                + 3 * (1 - t) * Math.pow(t, 2) * p2[i]
+                                + Math.pow(t, 3) * p3[i];
                         }
 
                         var b = 6 * p0[i] - 12 * p1[i] + 6 * p2[i];

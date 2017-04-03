@@ -1,0 +1,675 @@
+﻿{
+  "fullWidth": 825,
+  "fullHeight": 1125,
+  "styles": {
+    "font": "Montserrat-Light.otf",
+    "maxFontSize": 100,
+    "minFontSize": 12,
+    "lineHeight": 1,
+    "offset": -0.156,
+    "justification": "center",
+    "alignment": "middle",
+    "fillStyle": "#000"
+  },
+  "requirements": [],
+  "elements": [
+    {
+      "type": "image",
+      "name": "image",
+      "x": 0,
+      "y": 0
+    }
+  ],
+  "subTypes": [
+    {
+      "requirements": [],
+      "elements": [],
+      "subTypes": [
+        {
+          "requirements": [
+            {
+              "name": "type",
+              "values": [ "Back" ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "templateImage",
+              "x": 0,
+              "y": 0,
+              "constant": "BackBG"
+            },
+            {
+              "type": "text",
+              "name": "test",
+              "styles": {
+                "x": 112,
+                "y": 112,
+                "xSize": 600,
+                "ySize": 150
+              }
+            }
+          ],
+          "subtypes": []
+        }
+      ]
+    }
+  ],
+  "constants": {
+    "DeviceBG": "backgroundHorizontal.png",
+    "RoomBG": "backgroundVertical.png",
+    "BackBG": "backgroundVertical.png",
+
+    "chemicalImage": "Chemical.png",
+    "electricityImage": "Electricity.png",
+    "mechanicalImage": "Mechanical.png",
+    "repairImage": "Repair.png",
+    "steamImage": "Steam.png",
+    "timeImage": { "imageFile": "Time.png", "yPadding": 0.29 },
+    "wavesImage": "Waves.png",
+
+    "half": "½",
+    "nothing": "",
+    "discard": {
+      "text": "Թ",
+      "styles": {
+        "font": "Aharoni-True.ttf"
+      }
+    },
+
+    "machineCardType": {
+      "text": "һ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#444",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#444",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#111",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "sparkCardType": {
+      "text": "Ҽ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#ff0",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#ff0",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#440",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "minionCardType": {
+      "text": "ҽ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#f80",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#f80",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#420",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "constructCardType": {
+      "text": "Ҿ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#0f0",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#0f0",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#040",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "clankCardType": {
+      "text": "ҿ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#fff",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#fff",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#444",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "deviceCardType": {
+      "text": "Ӏ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#888",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#888",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#222",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+
+    "the": {
+      "text": "ӂ",
+      "styles": {
+        "font": "Aharoni-True.ttf"
+      }
+    },
+    "device": {
+      "text": "Ӏ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#080",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#080",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#040",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+
+    "waves": {
+      "text": "Մ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#00f",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#00f",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#004",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "electric": {
+      "text": "ԧ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#ff0",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#ff0",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#440",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "mechanical": {
+      "text": "Ӌ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#777",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#777",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#aaa",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "steam": {
+      "text": "ӊ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#b73",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#b73",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#aaa",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "chemical": {
+      "text": "ӳ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#0f0",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#0f0",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#ff0",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "damage": {
+      "text": "ӯ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#f00",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#f00",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#ff0",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "strength": {
+      "text": "Ӊ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#080",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#080",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#040",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "charisma": {
+      "text": "Ӆ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#ff0",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#ff0",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#880",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "defense": {
+      "text": "Ԡ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#800",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#800",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#200",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "spark": {
+      "text": "ӄ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#777",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#777",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#aaa",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "build": {
+      "text": "Ӄ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#777",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#777",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#aaa",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "prestige": {
+      "text": "Ԓ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#8f8",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#8f8",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#080",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "time": {
+      "text": "ԏ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#0ff",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#0ff",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#044",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "moving": {
+      "text": "Ӂ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#000"
+      }
+    },
+    "heavy": {
+      "text": "Ӝ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#000"
+      }
+    },
+    "yields": {
+      "text": "Է",
+      "styles": {
+        "font": "Aharoni-True.ttf"
+      }
+    },
+    "science": {
+      "text": "Science!",
+      "styles": {
+        "font": "spookytooth.ttf"
+      }
+    },
+
+    "mass": {
+      "text": "Ӝ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#000"
+      }
+    },
+    "speed": {
+      "text": "ӛ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#ff0",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#ff0",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#440",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "attack": {
+      "text": "Ӱ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#f80",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#f80",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#420",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "armor": {
+      "text": "Ӛ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#00f",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#00f",
+            "initialLineWidth": 1,
+            "strokeStyle": "#008",
+            "shadowColor": "#004",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "height": {
+      "text": "ӽ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#fff",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#fff",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#444",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "herbivore": {
+      "text": "Ӥ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#080",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#080",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#040",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "carnivore": {
+      "text": "Ӣ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#f00",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#f00",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#400",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "photosynthesis": {
+      "text": "ԃ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#0f0",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#0f0",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#040",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "cold": {
+      "text": "է",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#0ff",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#0ff",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#fff",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "heat": {
+      "text": "ӿ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#ff0",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#ff0",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#f80",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "acid": {
+      "text": "ӳ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#0f0",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#0f0",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#ff0",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "water": {
+      "text": "ә",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#00f",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#00f",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#0ff",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "meteor": {
+      "text": "ӗ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#400",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#400",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#f00",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "air": {
+      "text": "Ӗ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#000"
+      }
+    },
+    "biohazard": {
+      "text": "ӕ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#f00",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#f00",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#ff0",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    },
+    "radiation": {
+      "text": "Փ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#ff0",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#ff0",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#aa0",
+            "secondLineWidth": 1
+          }
+        }
+      }
+    }
+  }
+}
