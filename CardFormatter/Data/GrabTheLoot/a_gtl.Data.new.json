@@ -39,6 +39,30 @@
     "rules": "ԍCoins",
     "type": "Greed"
   },
+  {
+    "name": "GreedHate",
+    "orientation": "vertical",
+    "art": "Hate.png",
+    "title": "Captain Freaks Out!",
+    "rules": "The game ends now. Someone gets shot.",
+    "type": "Greed"
+  },
+  {
+    "name": "GreedApathy",
+    "orientation": "vertical",
+    "art": "Apathy.png",
+    "title": "Loading the Gun!",
+    "rules": "The game ends after one more round. Someone gets shot.",
+    "type": "Greed"
+  },
+  {
+    "name": "GreedLike",
+    "orientation": "vertical",
+    "art": "Like.png",
+    "title": "Captain fell asleep?!",
+    "rules": "The game ends now. No-one gets shot.",
+    "type": "Greed"
+  },
 
   {
     "name": "Admire",
@@ -46,57 +70,52 @@
     "art": "Admire.png",
     "title": "Admire",
     "type": "Action",
-    "rule1of3": "If there is only 1 worker on this card, Gain 2 treasures",
-    "rule2of3": "If there is only 1 worker on this card, Swap 2 treasures",
-    "rule3of3": "If there is only 1 worker on this card, Lose 2 treasures"
+    "rule1of3": "If yours is the only worker on this card, Gain 2 treasures.",
+    "rule2of3": "If yours is the only worker on this card, Swap 2 treasures.",
+    "rule3of3": "If yours is the only worker on this card, Lose 2 treasures."
   },
   {
     "name": "Bribe",
     "orientation": "vertical",
     "art": "Bribe.png",
     "title": "Bribe",
-    "type": "Action",
-    "rule1of3": "Lose a coin, Gain 2 treasures",
-    "rule2of3": "Lose a coin, Gain a treasure",
-    "rule3of3": "Lose a coin"
+    "type": "ActionSingle",
+    "rules": "Lose a coin, Gain a treasure."
   },
   {
     "name": "Cajole",
     "orientation": "vertical",
     "art": "Cajole.png",
     "title": "Cajole",
-    "type": "ActionSingle",
-    "rules": "Gain a treasure"
+    "type": "Action",
+    "rule1of3": "Lose a treasure, gain a coin.",
+    "rule2of3": "Lose 2 coins.",
+    "rule3of3": "Gain 2 coins."
   },
   {
     "name": "Decieve",
     "orientation": "vertical",
     "art": "Decieve.png",
     "title": "Decieve",
-    "type": "Action",
-    "rule1of3": "Gain 2 treasures",
-    "rule2of3": "Gain a Treasure, Swap a treasure",
-    "rule3of3": "Swap a treasure"
+    "type": "ActionSingle",
+    "rules": "Take a treasure from a player. Give them a treasure."
   },
   {
     "name": "Entertain",
     "orientation": "vertical",
     "art": "Entertain.png",
     "title": "Entertain",
-    "type": "Action",
-    "rule1of3": "Gain 1 treasure per worker already on this card",
-    "rule2of3": "Swap 1 treasure per worker already on this card",
-    "rule3of3": "Lose 1 treasure per worker already on this card"
+    "type": "ActionSingle",
+    "rules": "Gain 1 treasure per worker already on this card."
   },
   {
     "name": "Flirt",
     "orientation": "vertical",
     "art": "Flirt.png",
     "title": "Flirt",
-    "type": "Action",
-    "rule1of3": "If there is only 1 worker on this card, Gain 2 treasures",
-    "rule2of3": "Swap a treasure",
-    "rule3of3": "If this card is full of workers, Lose 2 treasures"
+    "type": "Action2",
+    "rule1of2": "Gain a treasure or 2 coins.",
+    "rule2of2": "Swap a treasure with one in the Captain's Greed."
   },
   {
     "name": "Gripe",
@@ -104,9 +123,9 @@
     "art": "Gripe.png",
     "title": "Gripe",
     "type": "Action",
-    "rule1of3": "Lose a coin, Gain a treasure",
-    "rule2of3": "Lose a coin, Swap a treasure",
-    "rule3of3": "Lose a coin, Lose a treasure"
+    "rule1of3": "Lose a coin, Gain a treasure.",
+    "rule2of3": "Gain a coin, Swap a treasure with one in the Captain's Greed.",
+    "rule3of3": "Add a treasure from your loot to the Captain's Greed."
   },
   {
     "name": "Hoodwink",
@@ -114,17 +133,18 @@
     "art": "Hoodwink.png",
     "title": "Hoodwink",
     "type": "Action",
-    "rule1of3": "Gain 2 coins",
-    "rule2of3": "Swap a treasure for a coin",
-    "rule3of3": "Lose 2 coins"
+    "rule1of3": "Gain a coin, Gain a treasure.",
+    "rule2of3": "Lose a coin, Gain a treasure from the Captain's Greed.",
+    "rule3of3": "Gain a coin, Add a treasure from your loot to the Captain's Greed."
   },
   {
     "name": "Jeer",
     "orientation": "vertical",
     "art": "Jeer.png",
     "title": "Jeer",
-    "type": "ActionSingle",
-    "rules": "If there is only one worker on this card, Lose a treasure, otherwise Gain a treasure."
+    "type": "Action2",
+    "rule1of2": "Lose 2 treasures.",
+    "rule2of2": "Gain a treasure."
   },
   {
     "name": "Kowtow",
@@ -132,35 +152,32 @@
     "art": "Kowtow.png",
     "title": "Kowtow",
     "type": "ActionSingle",
-    "rules": "Lose a treasure"
+    "rules": "Lose 1 or 3 treasures."
   },
   {
     "name": "Lie",
     "orientation": "vertical",
     "art": "Lie.png",
     "title": "Lie",
-    "type": "Action",
-    "rule1of3": "Remove a Captain meeple",
-    "rule2of3": "Move a Captain meeple",
-    "rule3of3": "Add a Captain meeple"
+    "type": "ActionSingle",
+    "rules": "Add or Remove a Captain meeple then take another turn."
   },
   {
     "name": "Menace",
     "orientation": "vertical",
     "art": "Menace.png",
     "title": "Menace",
-    "type": "Action",
-    "rule1of3": "Take a treasure from another player",
-    "rule2of3": "Swap a treasure with another player",
-    "rule3of3": "Lose 3 treasures"
+    "type": "ActionSingle",
+    "rules": "Take a treasure from another player."
   },
   {
     "name": "Negotiate",
     "orientation": "vertical",
     "art": "Negotiate.png",
     "title": "Negotiate",
-    "type": "ActionSingle",
-    "rules": "Trade a treasure with another player"
+    "type": "Action2",
+    "rule1of2": "Choose a player. Trade a treasure with that player.",
+    "rule2of2": "Give a player a coin. Move that player's worker. Take another turn."
   },
   {
     "name": "Orate",
@@ -168,9 +185,9 @@
     "art": "Orate.png",
     "title": "Orate",
     "type": "Action",
-    "rule1of3": "Gain 1 treasure per empty slot on this card",
-    "rule2of3": "Swap 1 treasure per empty slot on this card",
-    "rule3of3": "Lose 1 treasure per empty slot on this card"
+    "rule1of3": "Gain 2 treasures.",
+    "rule2of3": "Add a treasure from the Captain's loot to the Captain's Greed.",
+    "rule3of3": "Lose a treasure."
   },
   {
     "name": "Pout.png",
@@ -178,9 +195,9 @@
     "art": "Pout.png",
     "title": "Pout",
     "type": "Action",
-    "rule1of3": "Gain a treasure",
-    "rule2of3": "Lose a treasure",
-    "rule3of3": "Lose 3 treasures"
+    "rule1of3": "Lose a treasure.",
+    "rule2of3": "Gain a treasure.",
+    "rule3of3": "Lose 3 treasures."
   },
   {
     "name": "Quibble",
@@ -188,37 +205,31 @@
     "art": "Quibble.png",
     "title": "Quibble",
     "type": "ActionSingle",
-    "rules": "Swap a treasure"
+    "rules": "Swap a treasure with the Captain."
   },
   {
     "name": "Rage",
     "orientation": "vertical",
     "art": "Rage.png",
     "title": "Rage",
-    "type": "Action",
-    "rule1of3": "Gain 1 coin per worker on this card",
-    "rule2of3": "Gain 1 coin per worker already on this card",
-    "rule3of3": "Lose 1 coin per worker on this card"
+    "type": "ActionSingle",
+    "rules": "Lose 2 treasures per empty slot on this card."
   },
   {
     "name": "Steal",
     "orientation": "vertical",
     "art": "Steal.png",
     "title": "Steal",
-    "type": "Action",
-    "rule1of3": "Gain 2 treasures",
-    "rule2of3": "Swap 2 treasures",
-    "rule3of3": "Lose 2 treasures"
+    "type": "ActionSingle",
+    "rules": "Take two coins from another player."
   },
   {
     "name": "Trick",
     "orientation": "vertical",
     "art": "Trick.png",
     "title": "Trick",
-    "type": "Action",
-    "rule1of3": "Gain a coin, Gain a treasure",
-    "rule2of3": "Gain a coin, Swap a treasure",
-    "rule3of3": "Gain a coin, Lose a treasure"
+    "type": "ActionSingle",
+    "rules": "Take a treasure from another player. Give that player a coin."
   },
   {
     "name": "Whine",
@@ -226,19 +237,20 @@
     "art": "Whine.png",
     "title": "Whine",
     "type": "Action",
-    "rule1of3": "Add a Captain meeple",
-    "rule2of3": "Add a Captain meeple, Lose a treasure",
-    "rule3of3": "Add a Captain meeple, Lose 2 treasures"
+    "rule1of3": "Add a treasure from your loot to the Captain's Greed.",
+    "rule2of3": "Add 3 Captain meeples.",
+    "rule3of3": "Lose 2 treasures."
   },
   {
     "name": "Yell",
     "orientation": "vertical",
     "art": "Yell.png",
     "title": "Yell",
+    "type": "ActionSingle",
     "type": "Action",
-    "rule1of3": "Add a Captain meeple, Gain a treasure",
-    "rule2of3": "Add a Captain meeple, Swap a treasure",
-    "rule3of3": "Add a Captain meeple, Lose a treasure"
+    "rule1of3": "Add a treasure from your loot to the Captain's Greed.",
+    "rule2of3": "Add a treasure from a player's loot to the Captain's Greed.",
+    "rule3of3": "Add a treasure from the Captain's loot to the Captain's Greed."
   },
 
   {
@@ -272,7 +284,7 @@
   {
     "name": "c1",
     "orientation": "vertical",
-    "rules": "When you Gain a treasure, you may pay a player 2 coins to Gain it from that player instead of the Captain.",
+    "rules": "When you Lose a treasure, you may place it into the Captain's greed.",
     "title": "Trevyn",
     "type": "Character"
   },
@@ -286,21 +298,21 @@
   {
     "name": "c3",
     "orientation": "vertical",
-    "rules": "When the game ends, Gain an extra treasure from the Captain's hoard.",
+    "rules": "You are treated as having one more treasure of your choice for scoring purposes (but not getting shot).",
     "title": "Andrew",
     "type": "Character"
   },
   {
     "name": "c5",
     "orientation": "vertical",
-    "rules": "When you swap treasures you may swap 2 instead of 1.",
+    "rules": "When you swap treasures with the captain you may swap 1 additional treasure.",
     "title": "Erin",
     "type": "Character"
   },
   {
     "name": "c9",
     "orientation": "vertical",
-    "rules": "You may pay 3 coins to change which of the revealed Greeds are the active Greed.",
+    "rules": "Instead of taking a treasure, you may swap a treasure with the Captain's greed.",
     "title": "Dan",
     "type": "Character"
   },
@@ -321,7 +333,7 @@
   {
     "name": "c15",
     "orientation": "vertical",
-    "rules": "If you have no coins, you may Gain a coin as part of any action.",
+    "rules": "When you gain and lose a treasure in the same round, you may also add a treasure from the Captain's loot to the Captain's Greed.",
     "title": "Berrett",
     "type": "Character"
   },
@@ -329,14 +341,14 @@
     "name": "c17",
     "orientation": "vertical",
     "rules": "When you count treasures for the purpose of determining who gets shot, you are treated as having 2 fewer treasures.",
-    "title": "Dustin",
+    "title": "Dwayne",
     "type": "Character"
   },
   {
     "name": "c19",
     "orientation": "vertical",
-    "rules": "Your gold coins are worth 3 points each at the end of the game.",
-    "title": "Isabella",
+    "rules": "Your gold coins are worth 1 extra point each at the end of the game.",
+    "title": "Alison",
     "type": "Character"
   }
 ]

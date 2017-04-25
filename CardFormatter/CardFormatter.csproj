@@ -1275,10 +1275,11 @@
     <Content Include="Data\TerranLeagueOfDefenseRobots\00map.Data.json" />
     <Content Include="Data\TerranLeagueOfDefenseRobots\00map.Template.json" />
     <Content Include="Data\GrabTheLoot\Aharoni-True.ttf" />
-    <Content Include="Data\GrabTheLoot\mini.Data.json" />
-    <Content Include="Data\GrabTheLoot\mini.Template.json" />
-    <Content Include="Data\GrabTheLoot\mini.Data.new.json" />
+    <Content Include="Data\GrabTheLoot\a_gtl.Template.json" />
+    <Content Include="Data\GrabTheLoot\a_gtl.Data.new.json" />
     <Content Include="Data\TheMadnessPlace\Montserrat-Light.otf" />
+    <Content Include="Data\TheMadnessPlace\MP.Mats.Template.json" />
+    <Content Include="Data\TheMadnessPlace\MP.Mats.Data.json" />
     <None Include="Properties\PublishProfiles\CardFormatter.pubxml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Stitcher.cshtml" />
