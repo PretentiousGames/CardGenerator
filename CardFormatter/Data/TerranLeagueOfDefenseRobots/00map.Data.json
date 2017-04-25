@@ -11,14 +11,14 @@
     "image": "city2.png",
     "orientation": "vertical",
     "defense": "7",
-    "rules": "During a Research action, look at +1 card."
+    "rules": "When you draw tech cards, Look at an extra one."
   },
   {
     "name": "3",
     "image": "city3.png",
     "orientation": "vertical",
     "defense": "8",
-    "rules": "During a Trade action, trade +1 card with any player."
+    "rules": "When you give cards to other players, you may give one extra time."
   },
   {
     "name": "4",
@@ -36,7 +36,7 @@
     "image": "city5.png",
     "orientation": "vertical",
     "defense": "8",
-    "rules": "During a Trade action, trade +1 card with any player."
+    "rules": "When you give cards to other players, you may give one extra time."
   },
   {
     "name": "6",
@@ -45,7 +45,8 @@
     "defense": "8",
     "rules": [
       "Robots in this district gain +1",
-      { "constant": "repairSymbol" }, "."
+      { "constant": "repairSymbol" },
+      "."
     ]
   },
   {
@@ -64,7 +65,7 @@
     "image": "city8.png",
     "orientation": "vertical",
     "defense": "6",
-    "rules": "During a Develop action, develop +1 card."
+    "rules": "When you Develop, lose one less scientist."
   },
   {
     "name": "9",
@@ -89,28 +90,28 @@
     "image": "city11.png",
     "orientation": "vertical",
     "defense": "6",
-    "rules": "During a Research action, keep +1 cards."
+    "rules": "You may research an extra time."
   },
   {
     "name": "12",
     "image": "city12.png",
     "orientation": "vertical",
     "defense": "7",
-    "rules": "During a Research action, look at +1 cards."
+    "rules": "When you draw tech cards, Look at an extra one."
   },
   {
     "name": "13",
     "image": "city13.png",
     "orientation": "vertical",
     "defense": "8",
-    "rules": "During a Buy action, keep +1 cards."
+    "rules": "During a Buy action, keep +1 card."
   },
   {
     "name": "14",
     "image": "city4.png",
     "orientation": "vertical",
     "defense": "6",
-    "rules": "During a Develop action, develop +1 card."
+    "rules": "When you Develop, lose one less scientist."
   },
   {
     "name": "15",
@@ -124,6 +125,6 @@
     "image": "city16.png",
     "orientation": "vertical",
     "defense": "6",
-    "rules": "During a Research action, keep +1 card."
+    "rules": "You may research an extra time."
   }
 ]
