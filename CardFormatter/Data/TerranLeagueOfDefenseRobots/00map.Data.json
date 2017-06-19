@@ -1,5 +1,6 @@
 ﻿[
   {
+    "type": "front",
     "image": "city1.png",
     "name": "1",
     "orientation": "vertical",
@@ -7,6 +8,7 @@
     "rules": "During a Buy action, keep +1 card."
   },
   {
+    "type": "front",
     "name": "2",
     "image": "city2.png",
     "orientation": "vertical",
@@ -14,6 +16,7 @@
     "rules": "When you draw tech cards, Look at an extra one."
   },
   {
+    "type": "front",
     "name": "3",
     "image": "city3.png",
     "orientation": "vertical",
@@ -21,17 +24,19 @@
     "rules": "When you give cards to other players, you may give one extra time."
   },
   {
+    "type": "front",
     "name": "4",
     "image": "city4.png",
     "orientation": "vertical",
     "defense": "7",
     "rules": [
-      "During an Attack, this district provides 1",
+      "During an Attack, this city provides 1",
       { "constant": "attackSymbol" },
       "."
     ]
   },
   {
+    "type": "front",
     "name": "5",
     "image": "city5.png",
     "orientation": "vertical",
@@ -39,28 +44,31 @@
     "rules": "When you give cards to other players, you may give one extra time."
   },
   {
+    "type": "front",
     "name": "6",
     "image": "city6.png",
     "orientation": "vertical",
     "defense": "8",
     "rules": [
-      "Robots in this district gain +1",
+      "Robots in this city gain +1",
       { "constant": "repairSymbol" },
       "."
     ]
   },
   {
+    "type": "front",
     "name": "7",
     "image": "city7.png",
     "orientation": "vertical",
     "defense": "7",
     "rules": [
-      "During an Attack, this district provides 1",
+      "During an Attack, this city provides 1",
       { "constant": "attackSymbol" },
       "."
     ]
   },
   {
+    "type": "front",
     "name": "8",
     "image": "city8.png",
     "orientation": "vertical",
@@ -68,17 +76,19 @@
     "rules": "When you Develop, lose one less scientist."
   },
   {
+    "type": "front",
     "name": "9",
     "image": "city9.png",
     "orientation": "vertical",
     "defense": "8",
     "rules": [
-      "Robots in this district gain +1",
+      "Robots in this city gain +1",
       { "constant": "repairSymbol" },
       "."
     ]
   },
   {
+    "type": "front",
     "name": "10",
     "image": "city10.png",
     "orientation": "vertical",
@@ -86,13 +96,15 @@
     "rules": "During a Buy action, look at +2 cards."
   },
   {
+    "type": "front",
     "name": "11",
     "image": "city11.png",
     "orientation": "vertical",
     "defense": "6",
-    "rules": "You may research an extra time."
+    "rules": "Research an extra time each turn."
   },
   {
+    "type": "front",
     "name": "12",
     "image": "city12.png",
     "orientation": "vertical",
@@ -100,6 +112,7 @@
     "rules": "When you draw tech cards, Look at an extra one."
   },
   {
+    "type": "front",
     "name": "13",
     "image": "city13.png",
     "orientation": "vertical",
@@ -107,6 +120,7 @@
     "rules": "During a Buy action, keep +1 card."
   },
   {
+    "type": "front",
     "name": "14",
     "image": "city4.png",
     "orientation": "vertical",
@@ -114,6 +128,7 @@
     "rules": "When you Develop, lose one less scientist."
   },
   {
+    "type": "front",
     "name": "15",
     "image": "city15.png",
     "orientation": "vertical",
@@ -121,10 +136,124 @@
     "rules": "During a Buy action, look at +2 cards."
   },
   {
+    "type": "front",
     "name": "16",
     "image": "city16.png",
     "orientation": "vertical",
     "defense": "6",
-    "rules": "You may research an extra time."
+    "rules": "Research an extra time each turn."
+  },
+
+  {
+    "type": "back",
+    "image": "cityb.png",
+    "name": "1b",
+    "text": "1",
+    "orientation": "vertical"
+  },
+  {
+    "type": "back",
+    "name": "2b",
+    "text": "2",
+    "image": "cityb.png",
+    "orientation": "vertical"
+  },
+  {
+    "type": "back",
+    "name": "3b",
+    "text": "3",
+    "image": "cityb.png",
+    "orientation": "vertical"
+  },
+  {
+    "type": "back",
+    "name": "4b",
+    "text": "4",
+    "image": "cityb.png",
+    "orientation": "vertical"
+  },
+  {
+    "type": "back",
+    "name": "5b",
+    "text": "5",
+    "image": "cityb.png",
+    "orientation": "vertical"
+  },
+  {
+    "type": "back",
+    "name": "6b",
+    "text": "6",
+    "image": "cityb.png",
+    "orientation": "vertical"
+  },
+  {
+    "type": "back",
+    "name": "7b",
+    "text": "7",
+    "image": "cityb.png",
+    "orientation": "vertical"
+  },
+  {
+    "type": "back",
+    "name": "8b",
+    "text": "8",
+    "image": "cityb.png",
+    "orientation": "vertical"
+  },
+  {
+    "type": "back",
+    "name": "9b",
+    "text": "9",
+    "image": "cityb.png",
+    "orientation": "vertical"
+  },
+  {
+    "type": "back",
+    "name": "10b",
+    "text": "10",
+    "image": "cityb.png",
+    "orientation": "vertical"
+  },
+  {
+    "type": "back",
+    "name": "11b",
+    "text": "11",
+    "image": "cityb.png",
+    "orientation": "vertical"
+  },
+  {
+    "type": "back",
+    "name": "12b",
+    "text": "12",
+    "image": "cityb.png",
+    "orientation": "vertical"
+  },
+  {
+    "type": "back",
+    "name": "13b",
+    "text": "13",
+    "image": "cityb.png",
+    "orientation": "vertical"
+  },
+  {
+    "type": "back",
+    "name": "14b",
+    "text": "14",
+    "image": "cityb.png",
+    "orientation": "vertical"
+  },
+  {
+    "type": "back",
+    "name": "15b",
+    "text": "15",
+    "image": "cityb.png",
+    "orientation": "vertical"
+  },
+  {
+    "type": "back",
+    "name": "16b",
+    "text": "16",
+    "image": "cityb.png",
+    "orientation": "vertical"
   }
 ]
