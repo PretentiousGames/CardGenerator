@@ -60,7 +60,12 @@
                     poly.set('displayHeight', displayHeight);
                 }
                 poly.item.canvas = canvas;
-                poly.set('fileName', poly.item.name + '.png');
+
+                var name = poly.item.fileName || poly.item.name;
+                if (poly.item.fileNamePrefix) {
+                    name = poly.item.fileNamePrefix + name;
+                }
+                poly.set('fileName', name + '.png');
 
                 cardFormatter.cardDrawer.drawCard(poly.files.template, poly.item, poly.files.images, poly.files.fonts, function () { });
             },

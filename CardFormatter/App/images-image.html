@@ -41,7 +41,13 @@
                 poly.set('displayHeight', height * poly.item.zoom / 100);
 
                 poly.item.canvas = canvas;
-                poly.set('fileName', poly.item.name + '.png');
+
+                var name = poly.item.fileName || poly.item.name;
+                if (poly.item.fileNamePrefix) {
+                    name = poly.item.fileNamePrefix + name;
+                }
+
+                poly.set('fileName', name + '.png');
 
                 cardFormatter.stitcher.draw(poly.item);
             }
