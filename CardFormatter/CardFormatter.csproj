@@ -343,6 +343,7 @@
     <Content Include="Data\GrabTheLoot\background.treasure.png" />
     <Content Include="Data\GrabTheLoot\bribe.png" />
     <Content Include="Data\GrabTheLoot\cajole.png" />
+    <Content Include="Data\GrabTheLoot\CharacterAbility.png" />
     <Content Include="Data\GrabTheLoot\coins.png" />
     <Content Include="Data\GrabTheLoot\decieve.png" />
     <Content Include="Data\GrabTheLoot\entertain.png" />
@@ -353,6 +354,7 @@
     <Content Include="Data\GrabTheLoot\Hate.png" />
     <Content Include="Data\GrabTheLoot\hoodwink.png" />
     <Content Include="Data\GrabTheLoot\implore.png" />
+    <Content Include="Data\GrabTheLoot\investigate.png" />
     <Content Include="Data\GrabTheLoot\jeer.png" />
     <Content Include="Data\GrabTheLoot\jewelry.png" />
     <Content Include="Data\GrabTheLoot\kowtow.png" />
