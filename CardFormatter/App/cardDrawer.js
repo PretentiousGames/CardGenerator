@@ -539,6 +539,7 @@
             }
 
             y += offset * fontSize;
+            x += xOffset * fontSize;
 
             var yStart = alignment === 'bottom' ? y + ySize - (lineHeight * fontSize * lines.length) + ((lastLineHeight - lineHeight) * fontSize) :
                 alignment === 'middle' ? y + (ySize - (lineHeight * fontSize * lines.length) + ((lastLineHeight - lineHeight) * fontSize)) / 2 :

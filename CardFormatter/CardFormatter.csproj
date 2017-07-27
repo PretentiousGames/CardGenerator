@@ -372,6 +372,7 @@
     <Content Include="Data\GrabTheLoot\vomit.png" />
     <Content Include="Data\GrabTheLoot\whine.png" />
     <Content Include="Data\GrabTheLoot\yell.png" />
+    <Content Include="Data\Micronesia\cardFrontBackground.png" />
     <Content Include="Data\TerranLeagueOfDefenseRobots\Abductor.png" />
     <Content Include="Data\TerranLeagueOfDefenseRobots\AbstractWeapon.png" />
     <Content Include="Data\TerranLeagueOfDefenseRobots\AccelerationInducer.png" />
@@ -1315,6 +1316,11 @@
     <Content Include="Data\TheMadnessPlace\MP.Mats.Data.json" />
     <Content Include="Data\TheMadnessPlace\MP.Cards.foo.Data.json" />
     <Content Include="Data\ThePerfectMoment\00both.Data.json" />
+    <Content Include="Data\ThePerfectMoment\00.sm.data.json" />
+    <Content Include="Data\TheMadnessPlace\CCSpookytooth Regular.ttf" />
+    <Content Include="Data\Micronesia\Template.json" />
+    <Content Include="Data\Micronesia\Cards.Datafile.json" />
+    <Content Include="Data\Micronesia\Aharoni-True.ttf" />
     <None Include="Properties\PublishProfiles\CardFormatter.pubxml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Stitcher.cshtml" />

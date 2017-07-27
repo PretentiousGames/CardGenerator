@@ -1,0 +1,165 @@
+﻿{
+  "fullWidth": 825,
+  "fullHeight": 1125,
+  "styles": {
+    "font": "Montserrat-Light.otf",
+    "maxFontSize": 100,
+    "minFontSize": 42,
+    "lineHeight": 1,
+    "offset": -0.1,
+    "xOffset": 0.052,
+    "justification": "center",
+    "alignment": "middle",
+    "textBaseline": "hanging"
+  },
+  "requirements": [ ],
+  "elements": [
+    {
+      "type": "image",
+      "name": "background",
+      "x": 0,
+      "y": 0,
+      "constant": "Background"
+    },
+    {
+      "type": "image",
+      "name": "image",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "text",
+      "name": "tl",
+      "styles": {
+        "x": 85,
+        "y": 85,
+        "xSize": 130,
+        "ySize": 130,
+        "fillStyle": "#9CDEDE"
+      }
+    },
+    {
+      "type": "text",
+      "name": "tr",
+      "styles": {
+        "x": 910,
+        "y": 85,
+        "xSize": 130,
+        "ySize": 130,
+        "fillStyle": "#9CDEDE"
+      }
+    },
+    {
+      "type": "text",
+      "name": "bl",
+      "styles": {
+        "x": 85,
+        "y": 610,
+        "xSize": 130,
+        "ySize": 130,
+        "fillStyle": "#9CDEDE"
+      }
+    },
+    {
+      "type": "text",
+      "name": "br",
+      "styles": {
+        "x": 910,
+        "y": 610,
+        "xSize": 130,
+        "ySize": 130,
+        "fillStyle": "#9CDEDE"
+      }
+    },
+    {
+      "type": "text",
+      "name": "tc",
+      "styles": {
+        "x": 235,
+        "y": 85,
+        "xSize": 655,
+        "ySize": 130,
+        "fillStyle": "#154040"
+      }
+    },
+    {
+      "type": "text",
+      "name": "bc",
+      "styles": {
+        "x": 235,
+        "y": 610,
+        "xSize": 655,
+        "ySize": 130,
+        "fillStyle": "#154040"
+      }
+    },
+    {
+      "type": "text",
+      "name": "cl",
+      "styles": {
+        "x": 85,
+        "y": 235, 
+        "xSize": 130,
+        "ySize": 355,
+        "fillStyle": "#154040"
+      }
+    },
+    {
+      "type": "text",
+      "name": "cr",
+      "styles": {
+        "x": 910,
+        "y": 235,
+        "xSize": 130,
+        "ySize": 355,
+        "fillStyle": "#154040"
+      }
+    }
+  ],
+  "subTypes": [ ],
+  "constants": {
+    "Background": "cardFrontBackground.png",
+    "points": {
+      "text": "Ԗ",
+      "styles": {
+        "font": "Aharoni-True.ttf"
+      },
+      "description": "+1 Point"
+    },
+    "income": {
+      "text": "ԙ",
+      "styles": {
+        "font": "Aharoni-True.ttf"
+      },
+      "description": "Income"
+    },
+    "goods": {
+      "text": "Ԙ",
+      "styles": {
+        "font": "Aharoni-True.ttf"
+      },
+      "description": "Goods"
+    },
+    "worker": {
+      "text": "ӝ",
+      "styles": {
+        "font": "Aharoni-True.ttf"
+      },
+      "description": "Worker"
+    },
+    "support": {
+      "text": "ԫ",
+      "styles": {
+        "font": "Aharoni-True.ttf"
+      },
+      "description": "Support"
+    },
+    "homes": {
+      "text": "ԥ",
+      "styles": {
+        "font": "Aharoni-True.ttf"
+      },
+      "description": "Homes"
+    }
+  }
+}

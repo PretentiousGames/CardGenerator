@@ -356,7 +356,7 @@
     "rules1": "Discard an Equipped card. Equip a card and activate it. Draw a card.",
     "art1": "Tent.png",
     "title2": "Matches",
-    "rules2": "Score the Paradox for 2. All other players Draw a card then Discard a card.",
+    "rules2": "Score the Paradox for 2. This replaces it (face Matches out). Draw a card.",
     "art2": "Matches.png"
   },
   {
@@ -367,7 +367,7 @@
     "rules1": "Discard an Equipped card. Equip a card and activate it. Draw a card.",
     "art1": "Tent.png",
     "title2": "Rope",
-    "rules2": "Look at the entire deck. Return it in the same order.",
+    "rules2": "Look at an entire deck. Return it in the same order.",
     "art2": "Rope.png"
   },
   {
@@ -378,7 +378,7 @@
     "rules1": "Rotate all Equipment. Discard a card. Draw a card.",
     "art1": "Hatchet.png",
     "title2": "Matches",
-    "rules2": "Score the Paradox for 2. All other players Draw a card then Discard a card.",
+    "rules2": "Score the Paradox for 2. This replaces it (face Matches out). Draw a card.",
     "art2": "Matches.png"
   },
   {
@@ -389,7 +389,7 @@
     "rules1": "Rotate all Equipment. Discard a card. Draw a card.",
     "art1": "Hatchet.png",
     "title2": "Rope",
-    "rules2": "Look at the entire deck. Return it in the same order.",
+    "rules2": "Look at an entire deck. Return it in the same order.",
     "art2": "Rope.png"
   },
   {
@@ -397,10 +397,10 @@
     "orientation": "vertical",
     "color": "Green.png",
     "title1": "Matches",
-    "rules1": "Score the Paradox for 2. All other players Draw a card then Discard a card.",
+    "rules1": "Score the Paradox for 2. This replaces it (face Matches out). Draw a card.",
     "art1": "Matches.png",
     "title2": "Rope",
-    "rules2": "Look at the entire deck. Return it in the same order.",
+    "rules2": "Look at an entire deck. Return it in the same order.",
     "art2": "Rope.png"
   }
 ]

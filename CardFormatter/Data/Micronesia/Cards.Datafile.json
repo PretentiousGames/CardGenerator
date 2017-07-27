@@ -1,0 +1,38 @@
+﻿[
+  {
+    "name": "0.Shields",
+    "orientation": "horizontal",
+    "tl": ["1", { "constant": "points" }],
+    "tc": ["Discard: 4", { "constant": "goods" }, "."],
+    "tr": ["2", { "constant": "income" }],
+    "cl": ["1", { "constant": "income" }],
+    "cr": ["2", { "constant": "income" }],
+    "bl": ["1", { "constant": "points" }],
+    "bc": [{ "constant": "worker" }, ": ignore one attack."],
+    "br": ["1", { "constant": "homes" }]
+  },
+  {
+    "name": "1.Architecture",
+    "orientation": "horizontal",
+    "tl": ["1", { "constant": "homes" }],
+    "tc": ["Discard: ignore one attack."],
+    "tr": ["1", { "constant": "income" }],
+    "cl": ["1", { "constant": "income" }],
+    "cr": ["2", { "constant": "income" }],
+    "bl": ["1", { "constant": "points" }],
+    "bc": ["All your islands\ngain +1", { "constant": "support" }, "."],
+    "br": ["1", { "constant": "points" }]
+  },
+  {
+    "name": "2.ResourceManagement",
+    "orientation": "horizontal",
+    "tl": ["1", { "constant": "income" }],
+    "tc": ["Discard: +1", { "constant": "points" }, "."],
+    "tr": ["1", { "constant": "income" }],
+    "cl": ["1", { "constant": "income" }],
+    "cr": ["2", { "constant": "income" }],
+    "bl": ["1", { "constant": "points" }],
+    "bc": ["All your islands\ngain +1", { "constant": "support" }, "."],
+    "br": ["1", { "constant": "points" }]
+  }
+]

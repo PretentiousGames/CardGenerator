@@ -1,0 +1,13 @@
+﻿[
+  {
+    "name": "x2.2",
+    "orientation": "vertical",
+    "color": "Green.png",
+    "title1": "Tent",
+    "rules1": "Discard an Equipped card. Equip a card and activate it. Draw a card.",
+    "art1": "Tent.png",
+    "title2": "Matches",
+    "rules2": "Score the Paradox for 2. This replaces it (face Matches out). Draw a card.",
+    "art2": "Matches.png"
+  }
+]
