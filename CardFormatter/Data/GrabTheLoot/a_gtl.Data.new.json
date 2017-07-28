@@ -401,7 +401,7 @@
     "name": "capt1",
     "orientation": "vertical",
     "rulesNotAbility": "When play reaches the Captain, reveal another greed card.",
-    "rule3of3": "Swap a treasure with the Captain's loot.",
+    "rule3of3": "Swap a treasure with the Captain's loot then take your meeple off this card.",
     "title": "The Captain",
     "type": "CharacterAbility"
   }
