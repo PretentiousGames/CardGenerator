@@ -86,7 +86,7 @@
     "rules1": "Rotate one or two of your Equipment cards.",
     "art1": "Map.png",
     "title2": "Gun",
-    "rules2": "Look at the top 2 cards of the deck. Return or Discard them.",
+    "rules2": "Look at the top 2 cards of a deck. Return or Discard them.",
     "art2": "Gun.png"
   },
   {
@@ -108,7 +108,7 @@
     "rules1": "Draw a card. Discard a card.",
     "art1": "Disguise.png",
     "title2": "Gun",
-    "rules2": "Look at the top 2 cards of the deck. Return or Discard them.",
+    "rules2": "Look at the top 2 cards of a deck. Return or Discard them.",
     "art2": "Gun.png"
   },
   {
@@ -127,7 +127,7 @@
     "orientation": "vertical",
     "color": "Blue.png",
     "title1": "Gun",
-    "rules1": "Look at the top 2 cards of the deck. Return or Discard them.",
+    "rules1": "Look at the top 2 cards of a deck. Return or Discard them.",
     "art1": "Gun.png",
     "title2": "Armor",
     "rules2": "Use an Item facing away from you. Its owner Returns and then draws a card.",
@@ -165,7 +165,7 @@
     "rules1": "Draw a card. Equip a card and activate it. Return an Equipped card.",
     "art1": "Keys.png",
     "title2": "Tickets",
-    "rules2": "Look at the top 4 cards of the deck, Return them in any order.",
+    "rules2": "Look at the top 4 cards of a deck, Return them in any order.",
     "art2": "Tickets.png"
   },
   {
@@ -187,7 +187,7 @@
     "rules1": "Discard 2 cards. Draw 2 cards.",
     "art1": "Phone.png",
     "title2": "Tickets",
-    "rules2": "Look at the top 4 cards of the deck, Return them in any order.",
+    "rules2": "Look at the top 4 cards of a deck, Return them in any order.",
     "art2": "Tickets.png"
   },
   {
@@ -198,7 +198,7 @@
     "rules1": "Rotate one of another player's cards.",
     "art1": "Wallet.png",
     "title2": "Tickets",
-    "rules2": "Look at the top 4 cards of the deck, Return them in any order.",
+    "rules2": "Look at the top 4 cards of a deck, Return them in any order.",
     "art2": "Tickets.png"
   },
   {
@@ -209,7 +209,7 @@
     "rules1": "Swap this card with the Paradox. Rotate a card that you own.",
     "art1": "Tie.png",
     "title2": "Resume",
-    "rules2": "Look at 3 cards from the deck, Draw 1, Discard the rest, then Return 1 card.",
+    "rules2": "Look at 3 cards from a deck, Draw 1, Discard the rest, then Return 1 card.",
     "art2": "Resume.png"
   },
   {
@@ -239,7 +239,7 @@
     "orientation": "vertical",
     "color": "Purple.png",
     "title1": "Resume",
-    "rules1": "Look at 3 cards from the deck, Draw 1, Discard the rest, then Return 1 card.",
+    "rules1": "Look at 3 cards from a deck, Draw 1, Discard the rest, then Return 1 card.",
     "art1": "Resume.png",
     "title2": "Shoes",
     "rules2": "Score your revision for 1 point.",
@@ -250,7 +250,7 @@
     "orientation": "vertical",
     "color": "Purple.png",
     "title1": "Resume",
-    "rules1": "Look at 3 cards from the deck, Draw 1, Discard the rest, then Return 1 card.",
+    "rules1": "Look at 3 cards from a deck, Draw 1, Discard the rest, then Return 1 card.",
     "art1": "Resume.png",
     "title2": "Pen",
     "rules2": "Take a card from a player. That player takes a card from you.",
@@ -274,7 +274,7 @@
     "orientation": "vertical",
     "color": "Orange.png",
     "title1": "Cutters",
-    "rules1": "Swap the top card of the deck with the Paradox. Rotate an Equipment.",
+    "rules1": "Swap the top card of a deck with the Paradox. Rotate an Equipment.",
     "art1": "Cutters.png",
     "title2": "Paint",
     "rules2": "For each card in your Equipment: either Discard it and Draw a card, or Rotate it.",
@@ -285,7 +285,7 @@
     "orientation": "vertical",
     "color": "Orange.png",
     "title1": "Cutters",
-    "rules1": "Swap the top card of the deck with the Paradox. Rotate an Equipment.",
+    "rules1": "Swap the top card of a deck with the Paradox. Rotate an Equipment.",
     "art1": "Cutters.png",
     "title2": "Syringe",
     "rules2": "Return this card. its owner Draws 1 card. Swap a card with a player's Revision.",
@@ -296,7 +296,7 @@
     "orientation": "vertical",
     "color": "Orange.png",
     "title1": "Cutters",
-    "rules1": "Swap the top card of the deck with the Paradox. Rotate an Equipment.",
+    "rules1": "Swap the top card of a deck with the Paradox. Rotate an Equipment.",
     "art1": "Cutters.png",
     "title2": "Handcuffs",
     "rules2": "Use an Item facing you. Return and then Draw a card.",
