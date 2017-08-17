@@ -87,7 +87,7 @@
     "name": "7.Craftsman",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "Gain +1 point every turn you buy points." ],
+    "tc": [ "Gain +1", { "constant": "points" }, " every turn you buy ", { "constant": "points" }, "s." ],
     "tr": [],
     "cl": [],
     "cr": [],
