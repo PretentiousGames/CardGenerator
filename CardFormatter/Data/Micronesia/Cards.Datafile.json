@@ -171,7 +171,7 @@
     "name": "14.Ambassador",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you trade, gain +1 point for every 2", { "constant": "goods" }, " you trade." ],
+    "tc": [ "When you trade, gain +1 ", { "constant": "points" }, " for every 2", { "constant": "goods" }, " you trade." ],
     "tr": [],
     "cl": [],
     "cr": [],
