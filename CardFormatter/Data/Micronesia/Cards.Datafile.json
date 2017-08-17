@@ -20,7 +20,7 @@
     "cl": [],
     "cr": [],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "worker" }, "." ],
+    "bc": [ "1", { "constant": "goods" }, ", ", { "constant": "worker" }, ": +1", { "constant": "worker" }, "." ],
     "br": []
   },
   {
@@ -68,7 +68,7 @@
     "cl": [],
     "cr": [],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "points" }, "." ],
+    "bc": [ "1", { "constant": "goods" }, ", ", { "constant": "worker" }, ": +1", { "constant": "points" }, "." ],
     "br": []
   },
   {
@@ -92,7 +92,7 @@
     "cl": [],
     "cr": [],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "points" }, "." ],
+    "bc": [ "1", { "constant": "goods" }, ", ", { "constant": "worker" }, ": +1", { "constant": "points" }, "." ],
     "br": []
   },
   {
@@ -104,7 +104,7 @@
     "cl": [],
     "cr": [],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "worker" }, "." ],
+    "bc": [ "2", { "constant": "worker" }, ": +1", { "constant": "worker" }, "." ],
     "br": []
   },
   {
@@ -176,7 +176,7 @@
     "cl": [],
     "cr": [],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "points" }, "." ],
+    "bc": [ "1", { "constant": "goods" }, ", ", { "constant": "worker" }, ": +1", { "constant": "points" }, "." ],
     "br": []
   },
   {
@@ -188,7 +188,7 @@
     "cl": [],
     "cr": [],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": worship an extra god card this turn." ],
+    "bc": [ { "constant": "worker" }, ": worship an extra god card, other players may change their god selection." ],
     "br": []
   },
   {
@@ -200,7 +200,7 @@
     "cl": [],
     "cr": [],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "points" }, "." ],
+    "bc": [ "1", { "constant": "goods" }, ", ", { "constant": "worker" }, ": +1", { "constant": "points" }, "." ],
     "br": []
   },
   {
@@ -248,7 +248,7 @@
     "cl": [],
     "cr": [],
     "bl": [],
-    "bc": [ "4", { "constant": "goods" }, ", ", { "constant": "worker" }, ": worship an extra god card." ],
+    "bc": [ "2", { "constant": "goods" }, ", ", { "constant": "worker" }, ": worship an extra god card." ],
     "br": []
   },
   {
