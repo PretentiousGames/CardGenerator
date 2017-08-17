@@ -3,7 +3,7 @@
     "name": "0.Farming",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [],
+    "tc": [ "Each harvest gain +1 ", { "constant": "goods" }, " per island you have in play." ],
     "tr": [],
     "cl": [],
     "cr": [],
@@ -20,19 +20,19 @@
     "cl": [],
     "cr": [],
     "bl": [],
-    "bc": [],
+    "bc": [ { "constant": "worker" }, ": +1", { "constant": "worker" }, "." ],
     "br": []
   },
   {
     "name": "2.ResourceManagement",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "You may have +1 worker per ", { "constant": "homes" }, "." ],
+    "tc": [ "Your ", { "constant": "homes" }, " each hold +1 worker." ],
     "tr": [],
     "cl": [],
     "cr": [],
     "bl": [],
-    "bc": [],
+    "bc": [ { "constant": "worker" }, ": +3", { "constant": "goods" }, "." ],
     "br": []
   },
   {
@@ -44,7 +44,7 @@
     "cl": [],
     "cr": [],
     "bl": [],
-    "bc": [],
+    "bc": [ { "constant": "worker" }, ": Attempt to settle the top card of the island deck." ],
     "br": []
   },
   {
@@ -56,7 +56,7 @@
     "cl": [],
     "cr": [],
     "bl": [],
-    "bc": [],
+    "bc": [ { "constant": "worker" }, ": +3", { "constant": "goods" }, "." ],
     "br": []
   },
   {
@@ -68,7 +68,7 @@
     "cl": [],
     "cr": [],
     "bl": [],
-    "bc": [],
+    "bc": [ { "constant": "worker" }, ": +1", { "constant": "points" }, "." ],
     "br": []
   },
   {
@@ -96,7 +96,7 @@
     "br": []
   },
   {
-    "name": "8.InfantCare",
+    "name": "8.Education",
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "New workers cost you -1", { "constant": "goods" }, "." ],
@@ -108,7 +108,7 @@
     "br": []
   },
   {
-    "name": "9.Organization",
+    "name": "9.Planning",
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "Any card you play costs -2", { "constant": "goods" }, "." ],
@@ -116,7 +116,7 @@
     "cl": [],
     "cr": [],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +4", { "constant": "goods" }, "." ],
+    "bc": [ { "constant": "worker" }, ": +3", { "constant": "goods" }, "." ],
     "br": []
   },
   {
@@ -152,7 +152,7 @@
     "cl": [],
     "cr": [],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "points" }, "." ],
+    "bc": [ { "constant": "worker" }, ": +4", { "constant": "goods" }, "." ],
     "br": []
   },
   {
@@ -164,7 +164,7 @@
     "cl": [],
     "cr": [],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "points" }, "." ],
+    "bc": [ { "constant": "worker" }, ": Draw a card." ],
     "br": []
   },
   {
@@ -183,7 +183,7 @@
     "name": "15.Shaman",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [],
+    "tc": [ "You may worship an extra god each turn." ],
     "tr": [],
     "cl": [],
     "cr": [],
@@ -219,7 +219,7 @@
     "name": "18.Shrine",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [],
+    "tc": [ "5", { "constant": "points" }, "." ],
     "tr": [],
     "cl": [],
     "cr": [],
@@ -231,7 +231,7 @@
     "name": "19.Vision",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [],
+    "tc": [ "When you draw, look at +3 cards." ],
     "tr": [],
     "cl": [],
     "cr": [],
@@ -243,12 +243,12 @@
     "name": "20.Priests",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [],
+    "tc": [ "You may worship the same god multiple times in a row." ],
     "tr": [],
     "cl": [],
     "cr": [],
     "bl": [],
-    "bc": [ "4", { "constant": "goods" }, ", ", { "constant": "worker" }, ": worship an extra god card this turn." ],
+    "bc": [ "4", { "constant": "goods" }, ", ", { "constant": "worker" }, ": worship an extra god card." ],
     "br": []
   },
   {
@@ -267,7 +267,7 @@
     "name": "22.Summoning",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [],
+    "tc": [  "Any card you play costs -1", { "constant": "goods" }, "."  ],
     "tr": [],
     "cl": [],
     "cr": [],
@@ -279,12 +279,12 @@
     "name": "23.TradingPosts",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [],
+    "tc": [ "When you trade, gain +1", { "constant": "points" }, "." ],
     "tr": [],
     "cl": [],
     "cr": [],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "points" }, "." ],
+    "bc": [ { "constant": "worker" }, ": +2", { "constant": "points" }, ", all other players gain +2", { "constant": "goods" }, "." ],
     "br": []
   }
 ]
