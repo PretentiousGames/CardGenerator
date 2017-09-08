@@ -375,6 +375,7 @@
     <Content Include="Data\GrabTheLoot\whine.png" />
     <Content Include="Data\GrabTheLoot\yell.png" />
     <Content Include="Data\Micronesia\cardFrontBackground.png" />
+    <None Include="Data\Micronesia\dump.json" />
     <Content Include="Data\TerranLeagueOfDefenseRobots\Abductor.png" />
     <Content Include="Data\TerranLeagueOfDefenseRobots\AbstractWeapon.png" />
     <Content Include="Data\TerranLeagueOfDefenseRobots\AccelerationInducer.png" />
