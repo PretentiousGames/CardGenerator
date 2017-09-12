@@ -1,854 +1,2076 @@
 ﻿[
   {
-    "name": "0",
+    "name": "island.0",
+    "orientation": "horizontal",
+    "tl": [ { "constant": "homes" } ],
+    "tc": [ { "constant": "up" } ],
+    "tr": [],
+    "cl": [ { "constant": "left" } ],
+    "cr": [ { "constant": "right" } ],
+    "bl": [],
+    "bc": [ { "constant": "down" } ],
+    "br": []
+  },
+  {
+    "name": "island.1",
+    "orientation": "horizontal",
+    "tl": [ { "constant": "homes" } ],
+    "tc": [
+      { "constant": "up" },
+      { "constant": "up" }
+    ],
+    "tr": [],
+    "cl": [ { "constant": "left" } ],
+    "cr": [ { "constant": "right" } ],
+    "bl": [],
+    "bc": [ { "constant": "down" } ],
+    "br": []
+  },
+  {
+    "name": "island.2",
+    "orientation": "horizontal",
+    "tl": [ { "constant": "homes" } ],
+    "tc": [ { "constant": "up" } ],
+    "tr": [ { "constant": "homes" } ],
+    "cl": [ { "constant": "left" } ],
+    "cr": [ { "constant": "right" } ],
+    "bl": [],
+    "bc": [ { "constant": "down" } ],
+    "br": []
+  },
+  {
+    "name": "island.3",
+    "orientation": "horizontal",
+    "tl": [ { "constant": "homes" } ],
+    "tc": [ { "constant": "up" } ],
+    "tr": [],
+    "cl": [
+      { "constant": "left" },
+      { "constant": "left" }
+    ],
+    "cr": [ { "constant": "right" } ],
+    "bl": [],
+    "bc": [ { "constant": "down" } ],
+    "br": []
+  },
+  {
+    "name": "island.4",
+    "orientation": "horizontal",
+    "tl": [ { "constant": "homes" } ],
+    "tc": [ { "constant": "up" } ],
+    "tr": [],
+    "cl": [ { "constant": "left" } ],
+    "cr": [
+      { "constant": "right" },
+      { "constant": "right" }
+    ],
+    "bl": [],
+    "bc": [ { "constant": "down" } ],
+    "br": []
+  },
+  {
+    "name": "island.5",
+    "orientation": "horizontal",
+    "tl": [ { "constant": "homes" } ],
+    "tc": [ { "constant": "up" } ],
+    "tr": [],
+    "cl": [ { "constant": "left" } ],
+    "cr": [ { "constant": "right" } ],
+    "bl": [],
+    "bc": [
+      { "constant": "down" },
+      { "constant": "down" }
+    ],
+    "br": []
+  },
+  {
+    "name": "island.6",
+    "orientation": "horizontal",
+    "tl": [ { "constant": "homes" } ],
+    "tc": [
+      { "constant": "up" },
+      { "constant": "up" }
+    ],
+    "tr": [ { "constant": "homes" } ],
+    "cl": [ { "constant": "left" } ],
+    "cr": [ { "constant": "right" } ],
+    "bl": [],
+    "bc": [ { "constant": "down" } ],
+    "br": []
+  },
+  {
+    "name": "island.7",
+    "orientation": "horizontal",
+    "tl": [ { "constant": "homes" } ],
+    "tc": [
+      { "constant": "up" },
+      { "constant": "up" }
+    ],
+    "tr": [],
+    "cl": [
+      { "constant": "left" },
+      { "constant": "left" }
+    ],
+    "cr": [ { "constant": "right" } ],
+    "bl": [],
+    "bc": [ { "constant": "down" } ],
+    "br": []
+  },
+  {
+    "name": "island.8",
+    "orientation": "horizontal",
+    "tl": [ { "constant": "homes" } ],
+    "tc": [
+      { "constant": "up" },
+      { "constant": "up" }
+    ],
+    "tr": [],
+    "cl": [ { "constant": "left" } ],
+    "cr": [
+      { "constant": "right" },
+      { "constant": "right" }
+    ],
+    "bl": [],
+    "bc": [ { "constant": "down" } ],
+    "br": []
+  },
+  {
+    "name": "island.9",
+    "orientation": "horizontal",
+    "tl": [ { "constant": "homes" } ],
+    "tc": [
+      { "constant": "up" },
+      { "constant": "up" }
+    ],
+    "tr": [],
+    "cl": [ { "constant": "left" } ],
+    "cr": [ { "constant": "right" } ],
+    "bl": [],
+    "bc": [
+      { "constant": "down" },
+      { "constant": "down" }
+    ],
+    "br": []
+  },
+  {
+    "name": "island.10",
+    "orientation": "horizontal",
+    "tl": [ { "constant": "homes" } ],
+    "tc": [ { "constant": "up" } ],
+    "tr": [ { "constant": "homes" } ],
+    "cl": [
+      { "constant": "left" },
+      { "constant": "left" }
+    ],
+    "cr": [ { "constant": "right" } ],
+    "bl": [],
+    "bc": [ { "constant": "down" } ],
+    "br": []
+  },
+  {
+    "name": "island.11",
+    "orientation": "horizontal",
+    "tl": [ { "constant": "homes" } ],
+    "tc": [ { "constant": "up" } ],
+    "tr": [ { "constant": "homes" } ],
+    "cl": [ { "constant": "left" } ],
+    "cr": [
+      { "constant": "right" },
+      { "constant": "right" }
+    ],
+    "bl": [],
+    "bc": [ { "constant": "down" } ],
+    "br": []
+  },
+  {
+    "name": "island.12",
+    "orientation": "horizontal",
+    "tl": [ { "constant": "homes" } ],
+    "tc": [ { "constant": "up" } ],
+    "tr": [ { "constant": "homes" } ],
+    "cl": [ { "constant": "left" } ],
+    "cr": [ { "constant": "right" } ],
+    "bl": [],
+    "bc": [
+      { "constant": "down" },
+      { "constant": "down" }
+    ],
+    "br": []
+  },
+  {
+    "name": "island.13",
+    "orientation": "horizontal",
+    "tl": [ { "constant": "homes" } ],
+    "tc": [ { "constant": "up" } ],
+    "tr": [],
+    "cl": [
+      { "constant": "left" },
+      { "constant": "left" }
+    ],
+    "cr": [
+      { "constant": "right" },
+      { "constant": "right" }
+    ],
+    "bl": [],
+    "bc": [ { "constant": "down" } ],
+    "br": []
+  },
+  {
+    "name": "island.14",
+    "orientation": "horizontal",
+    "tl": [ { "constant": "homes" } ],
+    "tc": [ { "constant": "up" } ],
+    "tr": [],
+    "cl": [
+      { "constant": "left" },
+      { "constant": "left" }
+    ],
+    "cr": [ { "constant": "right" } ],
+    "bl": [],
+    "bc": [
+      { "constant": "down" },
+      { "constant": "down" }
+    ],
+    "br": []
+  },
+  {
+    "name": "island.15",
+    "orientation": "horizontal",
+    "tl": [ { "constant": "homes" } ],
+    "tc": [ { "constant": "up" } ],
+    "tr": [],
+    "cl": [ { "constant": "left" } ],
+    "cr": [
+      { "constant": "right" },
+      { "constant": "right" }
+    ],
+    "bl": [],
+    "bc": [
+      { "constant": "down" },
+      { "constant": "down" }
+    ],
+    "br": []
+  },
+
+
+
+
+
+  {
+    "name": "card.0",
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "Gain double the effect of your selected god." ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Change your worship." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Change your worship."
+    ],
     "br": []
   },
   {
-    "name": "1",
+    "name": "card.1",
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "You may worship one extra god each turn." ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Change your worship." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Change your worship."
+    ],
     "br": []
   },
   {
-    "name": "2",
+    "name": "card.2",
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "When you draw cards, look at +1 card." ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "3", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "3",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Attempt to settle the top card of the island deck." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Attempt to settle the top card of the island deck."
+    ],
     "br": []
   },
   {
-    "name": "3",
+    "name": "card.3",
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "When you draw cards, look at +2 cards." ],
     "tr": [],
-    "cl": [ "2", { "constant": "points" } ],
-    "cr": [ "2", { "constant": "goods" } ],
+    "cl": [
+      "2",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "2",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Attempt to settle the top card of the island deck." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Attempt to settle the top card of the island deck."
+    ],
     "br": []
   },
   {
-    "name": "4",
+    "name": "card.4",
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "When you draw cards, look at +1 card per island you have." ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Attempt to settle the top card of the island deck." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Attempt to settle the top card of the island deck."
+    ],
     "br": []
   },
   {
-    "name": "5",
+    "name": "card.5",
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "When you draw cards, look at and keep +1 card." ],
     "tr": [],
-    "cl": [ "2", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "2",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Attempt to settle the top card of the island deck." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Attempt to settle the top card of the island deck."
+    ],
     "br": []
   },
   {
-    "name": "6",
+    "name": "card.6",
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "When you draw cards, look at +2 and keep +1 cards." ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Attempt to settle the top card of the island deck." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Attempt to settle the top card of the island deck."
+    ],
     "br": []
   },
   {
-    "name": "7",
+    "name": "card.7",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you gain new ", { "constant": "worker" }, ", gain 1 extra ", { "constant": "worker" }, " for each ", { "constant": "worker" }, " you gain." ],
+    "tc": [
+      "When you gain new ",
+      { "constant": "worker" },
+      ", gain 1 extra ",
+      { "constant": "worker" },
+      " for each ",
+      { "constant": "worker" },
+      " you gain."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "worker" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +1",
+      { "constant": "worker" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "8",
+    "name": "card.8",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you gain new ", { "constant": "worker" }, ", gain 1", { "constant": "points" }, "." ],
+    "tc": [
+      "When you gain new ",
+      { "constant": "worker" },
+      ", gain 1",
+      { "constant": "points" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "2", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "2",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "points" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +1",
+      { "constant": "points" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "9",
+    "name": "card.9",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you gain new ", { "constant": "worker" }, ", gain 2", { "constant": "goods" }, "." ],
+    "tc": [
+      "When you gain new ",
+      { "constant": "worker" },
+      ", gain 2",
+      { "constant": "goods" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "2", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "2",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +2", { "constant": "goods" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +2",
+      { "constant": "goods" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "10",
+    "name": "card.10",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you gain new ", { "constant": "worker" }, ", gain 1 extra ", { "constant": "worker" }, "." ],
+    "tc": [
+      "When you gain new ",
+      { "constant": "worker" },
+      ", gain 1 extra ",
+      { "constant": "worker" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "2", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "2",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "worker" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +1",
+      { "constant": "worker" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "11",
+    "name": "card.11",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you gain new ", { "constant": "worker" }, ", gain 1 extra ", { "constant": "worker" }, " per island you have." ],
+    "tc": [
+      "When you gain new ",
+      { "constant": "worker" },
+      ", gain 1 extra ",
+      { "constant": "worker" },
+      " per island you have."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "worker" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +1",
+      { "constant": "worker" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "12",
+    "name": "card.12",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you gain new ", { "constant": "worker" }, ", draw 1 card." ],
+    "tc": [
+      "When you gain new ",
+      { "constant": "worker" },
+      ", draw 1 card."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "2", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "2",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Attempt to settle the top card of the island deck." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Attempt to settle the top card of the island deck."
+    ],
     "br": []
   },
   {
-    "name": "13",
+    "name": "card.13",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you explore, gain 2", { "constant": "goods" }, "." ],
+    "tc": [
+      "When you explore, gain 2",
+      { "constant": "goods" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "2", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "2",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +2", { "constant": "goods" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +2",
+      { "constant": "goods" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "14",
+    "name": "card.14",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you explore, look at +1 card for each ", { "constant": "goods" }, " you spend." ],
+    "tc": [
+      "When you explore, look at +1 card for each ",
+      { "constant": "goods" },
+      " you spend."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Attempt to settle the top card of the island deck." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Attempt to settle the top card of the island deck."
+    ],
     "br": []
   },
   {
-    "name": "15",
+    "name": "card.15",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "You may discard ", { "constant": "worker" }, " as if they were ", { "constant": "goods" }, "." ],
+    "tc": [
+      "You may discard ",
+      { "constant": "worker" },
+      " as if they were ",
+      { "constant": "goods" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "2", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "2",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Attempt to settle the top card of the island deck." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Attempt to settle the top card of the island deck."
+    ],
     "br": []
   },
   {
-    "name": "16",
+    "name": "card.16",
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "When you settle an island, you may change your worship." ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Change your worship." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Change your worship."
+    ],
     "br": []
   },
   {
-    "name": "17",
+    "name": "card.17",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you settle an island, gain 1", { "constant": "points" }, "." ],
+    "tc": [
+      "When you settle an island, gain 1",
+      { "constant": "points" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "2", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "2",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Change your worship." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Change your worship."
+    ],
     "br": []
   },
   {
-    "name": "18",
+    "name": "card.18",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you settle an island, gain 1", { "constant": "worker" }, "." ],
+    "tc": [
+      "When you settle an island, gain 1",
+      { "constant": "worker" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "2", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "2",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "worker" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +1",
+      { "constant": "worker" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "19",
+    "name": "card.19",
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "When you settle an island, draw 1 card." ],
     "tr": [],
-    "cl": [ "2", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "2",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Draw a card." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Draw a card."
+    ],
     "br": []
   },
   {
-    "name": "20",
+    "name": "card.20",
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "When you settle an island, tuck a card left for free" ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "2", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "2",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Pay for and tuck a card." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Pay for and tuck a card."
+    ],
     "br": []
   },
   {
-    "name": "21",
+    "name": "card.21",
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "When you settle an island, tuck a card right for free" ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "3", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "3",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Pay for and tuck a card." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Pay for and tuck a card."
+    ],
     "br": []
   },
   {
-    "name": "22",
+    "name": "card.22",
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "When you settle an island, tuck a card up for free" ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Pay for and tuck a card." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Pay for and tuck a card."
+    ],
     "br": []
   },
   {
-    "name": "23",
+    "name": "card.23",
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "When you settle an island, tuck a card down for free" ],
     "tr": [],
-    "cl": [ "2", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "2",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Pay for and tuck a card." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Pay for and tuck a card."
+    ],
     "br": []
   },
   {
-    "name": "24",
+    "name": "card.24",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you trade ", { "constant": "goods" }, ", gain 1", { "constant": "points" }, " per 4", { "constant": "goods" }, " you trade." ],
+    "tc": [
+      "When you trade ",
+      { "constant": "goods" },
+      ", gain 1",
+      { "constant": "points" },
+      " per 4",
+      { "constant": "goods" },
+      " you trade."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Change your worship." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Change your worship."
+    ],
     "br": []
   },
   {
-    "name": "25",
+    "name": "card.25",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you trade ", { "constant": "goods" }, ", gain 1", { "constant": "goods" }, " per 2", { "constant": "goods" }, " you trade." ],
+    "tc": [
+      "When you trade ",
+      { "constant": "goods" },
+      ", gain 1",
+      { "constant": "goods" },
+      " per 2",
+      { "constant": "goods" },
+      " you trade."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Change your worship." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Change your worship."
+    ],
     "br": []
   },
   {
-    "name": "26",
+    "name": "card.26",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you trade ", { "constant": "goods" }, ", gain 1", { "constant": "worker" }, "  per 4", { "constant": "goods" }, " you trade." ],
+    "tc": [
+      "When you trade ",
+      { "constant": "goods" },
+      ", gain 1",
+      { "constant": "worker" },
+      "  per 4",
+      { "constant": "goods" },
+      " you trade."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "worker" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +1",
+      { "constant": "worker" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "27",
+    "name": "card.27",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you trade ", { "constant": "goods" }, ", draw 1 card per 4", { "constant": "goods" }, " you trade." ],
+    "tc": [
+      "When you trade ",
+      { "constant": "goods" },
+      ", draw 1 card per 4",
+      { "constant": "goods" },
+      " you trade."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Draw a card." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Draw a card."
+    ],
     "br": []
   },
   {
-    "name": "28",
+    "name": "card.28",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you trade ", { "constant": "goods" }, ", gain 1", { "constant": "points" }, "." ],
+    "tc": [
+      "When you trade ",
+      { "constant": "goods" },
+      ", gain 1",
+      { "constant": "points" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "2", { "constant": "points" } ],
-    "cr": [ "2", { "constant": "goods" } ],
+    "cl": [
+      "2",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "2",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "points" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +1",
+      { "constant": "points" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "29",
+    "name": "card.29",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you trade ", { "constant": "goods" }, ", gain 2", { "constant": "goods" }, "." ],
+    "tc": [
+      "When you trade ",
+      { "constant": "goods" },
+      ", gain 2",
+      { "constant": "goods" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "3", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "3",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +2", { "constant": "goods" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +2",
+      { "constant": "goods" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "30",
+    "name": "card.30",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you trade ", { "constant": "goods" }, ", gain 1", { "constant": "worker" }, "." ],
+    "tc": [
+      "When you trade ",
+      { "constant": "goods" },
+      ", gain 1",
+      { "constant": "worker" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "2", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "2",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "worker" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +1",
+      { "constant": "worker" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "31",
+    "name": "card.31",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you trade ", { "constant": "goods" }, ", draw 1 card." ],
+    "tc": [
+      "When you trade ",
+      { "constant": "goods" },
+      ", draw 1 card."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Draw a card." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Draw a card."
+    ],
     "br": []
   },
   {
-    "name": "32",
+    "name": "card.32",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you harvest ", { "constant": "goods" }, ", gain 1", { "constant": "points" }, " per 4", { "constant": "goods" }, " you harvest." ],
+    "tc": [
+      "When you harvest ",
+      { "constant": "goods" },
+      ", gain 1",
+      { "constant": "points" },
+      " per 4",
+      { "constant": "goods" },
+      " you harvest."
+    ],
     "tr": [],
-    "cl": [ "2", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "2",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "points" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +1",
+      { "constant": "points" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "33",
+    "name": "card.33",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you harvest ", { "constant": "goods" }, ", gain 1", { "constant": "goods" }, " per 2", { "constant": "goods" }, " you harvest." ],
+    "tc": [
+      "When you harvest ",
+      { "constant": "goods" },
+      ", gain 1",
+      { "constant": "goods" },
+      " per 2",
+      { "constant": "goods" },
+      " you harvest."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +2", { "constant": "goods" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +2",
+      { "constant": "goods" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "34",
+    "name": "card.34",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you harvest ", { "constant": "goods" }, ", gain 1", { "constant": "worker" }, " per 4", { "constant": "goods" }, " you harvest." ],
+    "tc": [
+      "When you harvest ",
+      { "constant": "goods" },
+      ", gain 1",
+      { "constant": "worker" },
+      " per 4",
+      { "constant": "goods" },
+      " you harvest."
+    ],
     "tr": [],
-    "cl": [ "3", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "3",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "worker" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +1",
+      { "constant": "worker" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "35",
+    "name": "card.35",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you harvest ", { "constant": "goods" }, ", draw 1 card per 4", { "constant": "goods" }, " you trade." ],
+    "tc": [
+      "When you harvest ",
+      { "constant": "goods" },
+      ", draw 1 card per 4",
+      { "constant": "goods" },
+      " you trade."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Draw a card." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Draw a card."
+    ],
     "br": []
   },
   {
-    "name": "36",
+    "name": "card.36",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you harvest ", { "constant": "goods" }, ", gain 1", { "constant": "points" }, "." ],
+    "tc": [
+      "When you harvest ",
+      { "constant": "goods" },
+      ", gain 1",
+      { "constant": "points" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "2", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "2",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "points" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +1",
+      { "constant": "points" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "37",
+    "name": "card.37",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you harvest ", { "constant": "goods" }, ", gain 2", { "constant": "goods" }, "." ],
+    "tc": [
+      "When you harvest ",
+      { "constant": "goods" },
+      ", gain 2",
+      { "constant": "goods" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "2", { "constant": "points" } ],
-    "cr": [ "2", { "constant": "goods" } ],
+    "cl": [
+      "2",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "2",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +2", { "constant": "goods" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +2",
+      { "constant": "goods" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "38",
+    "name": "card.38",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you harvest ", { "constant": "goods" }, ", gain 1", { "constant": "goods" }, " per each island you have." ],
+    "tc": [
+      "When you harvest ",
+      { "constant": "goods" },
+      ", gain 1",
+      { "constant": "goods" },
+      " per each island you have."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +2", { "constant": "goods" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +2",
+      { "constant": "goods" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "39",
+    "name": "card.39",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you harvest ", { "constant": "goods" }, ", gain 1", { "constant": "worker" }, "." ],
+    "tc": [
+      "When you harvest ",
+      { "constant": "goods" },
+      ", gain 1",
+      { "constant": "worker" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "2", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "2",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "worker" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +1",
+      { "constant": "worker" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "40",
+    "name": "card.40",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you harvest ", { "constant": "goods" }, ", draw 1 card." ],
+    "tc": [
+      "When you harvest ",
+      { "constant": "goods" },
+      ", draw 1 card."
+    ],
     "tr": [],
-    "cl": [ "2", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "2",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Draw a card." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Draw a card."
+    ],
     "br": []
   },
   {
-    "name": "41",
+    "name": "card.41",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you draft a leader, gain 1", { "constant": "points" }, "." ],
+    "tc": [
+      "When you draft a leader, gain 1",
+      { "constant": "points" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "2", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "2",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "points" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +1",
+      { "constant": "points" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "42",
+    "name": "card.42",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you draft a leader, gain 2", { "constant": "goods" }, "." ],
+    "tc": [
+      "When you draft a leader, gain 2",
+      { "constant": "goods" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "3", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "3",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +2", { "constant": "goods" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +2",
+      { "constant": "goods" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "43",
+    "name": "card.43",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you draft a leader, gain 1", { "constant": "worker" }, "." ],
+    "tc": [
+      "When you draft a leader, gain 1",
+      { "constant": "worker" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "2", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "2",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "worker" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +1",
+      { "constant": "worker" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "44",
+    "name": "card.44",
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "When you draft a leader, draw 1 card." ],
     "tr": [],
-    "cl": [ "3", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "3",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Draw a card." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Draw a card."
+    ],
     "br": []
   },
   {
-    "name": "45",
+    "name": "card.45",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you buy ", { "constant": "points" }, ", gain 1", { "constant": "points" }, "." ],
+    "tc": [
+      "When you buy ",
+      { "constant": "points" },
+      ", gain 1",
+      { "constant": "points" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "3", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "3",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "points" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +1",
+      { "constant": "points" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "46",
+    "name": "card.46",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "For each ", { "constant": "points" }, " you buy, gain 1", { "constant": "points" }, "." ],
+    "tc": [
+      "For each ",
+      { "constant": "points" },
+      " you buy, gain 1",
+      { "constant": "points" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "points" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +1",
+      { "constant": "points" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "47",
+    "name": "card.47",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "Buying ", { "constant": "points" }, " cost you -1", { "constant": "goods" }, "." ],
+    "tc": [
+      "Buying ",
+      { "constant": "points" },
+      " cost you -1",
+      { "constant": "goods" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +2", { "constant": "goods" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +2",
+      { "constant": "goods" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "48",
+    "name": "card.48",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you buy ", { "constant": "points" }, ", gain 1", { "constant": "worker" }, "." ],
+    "tc": [
+      "When you buy ",
+      { "constant": "points" },
+      ", gain 1",
+      { "constant": "worker" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "3", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "3",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "worker" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +1",
+      { "constant": "worker" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "49",
+    "name": "card.49",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you buy ", { "constant": "points" }, ", draw 1 card." ],
+    "tc": [
+      "When you buy ",
+      { "constant": "points" },
+      ", draw 1 card."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "2", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "2",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Draw a card." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Draw a card."
+    ],
     "br": []
   },
   {
-    "name": "50",
+    "name": "card.50",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you buy ", { "constant": "points" }, ", you may change your worship." ],
+    "tc": [
+      "When you buy ",
+      { "constant": "points" },
+      ", you may change your worship."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Change your worship." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Change your worship."
+    ],
     "br": []
   },
   {
-    "name": "51",
+    "name": "card.51",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you buy ", { "constant": "points" }, ", gain 2", { "constant": "goods" }, "." ],
+    "tc": [
+      "When you buy ",
+      { "constant": "points" },
+      ", gain 2",
+      { "constant": "goods" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "2", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "2",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Pay for and tuck a card." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Pay for and tuck a card."
+    ],
     "br": []
   },
   {
-    "name": "52",
+    "name": "card.52",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "For each card you have tucked in a direction on an island, additional cards cost -1", { "constant": "goods" }, " to tuck in that direction." ],
+    "tc": [
+      "For each card you have tucked on an island, cards cost -1",
+      { "constant": "goods" },
+      " to tuck in that island."
+    ],
     "tr": [],
-    "cl": [ "3", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "2",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Pay for and tuck a card." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Pay for and tuck a card."
+    ],
     "br": []
   },
   {
-    "name": "53",
+    "name": "card.53",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "Tucking cards cost -1", { "constant": "goods" }, "." ],
+    "tc": [
+      "Tucking cards cost -1",
+      { "constant": "goods" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +2", { "constant": "goods" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +2",
+      { "constant": "goods" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "54",
+    "name": "card.54",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you tuck a card, gain 1", { "constant": "worker" }, "." ],
+    "tc": [
+      "When you tuck a card, gain 1",
+      { "constant": "worker" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "2", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "2",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Attempt to settle the top card of the island deck." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Attempt to settle the top card of the island deck."
+    ],
     "br": []
   },
   {
-    "name": "55",
+    "name": "card.55",
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "When you tuck a card up, Draw 1 card." ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "3", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "3",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Pay for and tuck a card." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Pay for and tuck a card."
+    ],
     "br": []
   },
   {
-    "name": "56",
+    "name": "card.56",
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "When you tuck a card down, Draw 1 card." ],
     "tr": [],
-    "cl": [ "2", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "2",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Draw a card." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Draw a card."
+    ],
     "br": []
   },
   {
-    "name": "57",
+    "name": "card.57",
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "When you tuck a card right, Draw 1 card." ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Draw a card." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Draw a card."
+    ],
     "br": []
   },
   {
-    "name": "58",
+    "name": "card.58",
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "When you tuck a card left, Draw 1 card." ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "3", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "3",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Draw a card." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Draw a card."
+    ],
     "br": []
   },
   {
-    "name": "59",
+    "name": "card.59",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you tuck a card, gain 1", { "constant": "goods" }, "." ],
+    "tc": [
+      "When you tuck a card, gain 1",
+      { "constant": "goods" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +2", { "constant": "goods" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +2",
+      { "constant": "goods" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "60",
+    "name": "card.60",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you tuck a card up, gain 1", { "constant": "points" }, "." ],
+    "tc": [
+      "When you tuck a card up, gain 1",
+      { "constant": "points" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "3", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "3",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "points" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +1",
+      { "constant": "points" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "61",
+    "name": "card.61",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you tuck a card down, gain 1", { "constant": "points" }, "." ],
+    "tc": [
+      "When you tuck a card down, gain 1",
+      { "constant": "points" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "3", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "3",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "points" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +1",
+      { "constant": "points" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "62",
+    "name": "card.62",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you tuck a card right, gain 1", { "constant": "points" }, "." ],
+    "tc": [
+      "When you tuck a card right, gain 1",
+      { "constant": "points" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "points" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +1",
+      { "constant": "points" },
+      "."
+    ],
     "br": []
   },
   {
-    "name": "63",
+    "name": "card.63",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "When you tuck a card left, gain 1", { "constant": "points" }, "." ],
+    "tc": [
+      "When you tuck a card left, gain 1",
+      { "constant": "points" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "2", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "2",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Attempt to settle the top card of the island deck." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Attempt to settle the top card of the island deck."
+    ],
     "br": []
   },
   {
-    "name": "64",
+    "name": "card.64",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "Gain +1", { "constant": "homes" }, " on this island for each card tucked up on this island." ],
+    "tc": [
+      "Each card tucked up on this island provides +1",
+      { "constant": "homes" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "2", { "constant": "points" } ],
-    "cr": [ "2", { "constant": "goods" } ],
+    "cl": [
+      "2",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "2",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Pay for and tuck a card." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Pay for and tuck a card."
+    ],
     "br": []
   },
   {
-    "name": "65",
+    "name": "card.65",
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "When you tuck a card, you may change your worship." ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Change your worship." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Change your worship."
+    ],
     "br": []
   },
   {
-    "name": "66",
+    "name": "card.66",
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "All your islands can tuck one more card in each direction." ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "2", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "2",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Change your worship." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Change your worship."
+    ],
     "br": []
   },
   {
-    "name": "67",
+    "name": "card.67",
     "orientation": "horizontal",
     "tl": [],
-    "tc": [ "Your ", { "constant": "homes" }, " each hold +1", { "constant": "worker" }, "." ],
+    "tc": [
+      "Your ",
+      { "constant": "homes" },
+      " each hold +1",
+      { "constant": "worker" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "2", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "2",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Change your worship." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Change your worship."
+    ],
     "br": []
   },
   {
-    "name": "68",
+    "name": "card.68",
     "orientation": "horizontal",
     "tl": [],
-	  "tc": [ "You may draw from either the discard pile or the deck." ],
+    "tc": [ "You may draw from either the discard pile or the deck." ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Pay for and tuck a card." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Pay for and tuck a card."
+    ],
     "br": []
   },
   {
-    "name": "69",
+    "name": "card.69",
     "orientation": "horizontal",
     "tl": [],
-	  "tc": [ "When you explore, look at +3 cards." ],
+    "tc": [ "When you explore, look at +3 cards." ],
     "tr": [],
-    "cl": [ "2", { "constant": "points" } ],
-    "cr": [ "1", { "constant": "goods" } ],
+    "cl": [
+      "2",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "1",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": Pay for and tuck a card." ],
+    "bc": [
+      { "constant": "worker" },
+      ": Pay for and tuck a card."
+    ],
     "br": []
   },
   {
-    "name": "70",
+    "name": "card.70",
     "orientation": "horizontal",
     "tl": [],
-	  "tc": [ "5", { "constant": "points" }, "." ],
+    "tc": [
+      "5",
+      { "constant": "points" },
+      "."
+    ],
     "tr": [],
-    "cl": [ "1", { "constant": "points" } ],
-    "cr": [ "2", { "constant": "goods" } ],
+    "cl": [
+      "1",
+      { "constant": "points" }
+    ],
+    "cr": [
+      "2",
+      { "constant": "goods" }
+    ],
     "bl": [],
-    "bc": [ { "constant": "worker" }, ": +1", { "constant": "points" }, "." ],
+    "bc": [
+      { "constant": "worker" },
+      ": +1",
+      { "constant": "points" },
+      "."
+    ],
     "br": []
   }
 ]

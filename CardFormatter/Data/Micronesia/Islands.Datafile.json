@@ -1,0 +1,14 @@
+﻿[
+  {
+    "name": "island.0",
+    "orientation": "vertical",
+    "tl": [],
+    "tc": [ { "constant": "up" } ],
+    "tr": [],
+    "cl": [ { "constant": "left" } ],
+    "cr": [ { "constant": "right" } ],
+    "bl": [],
+    "bc": [ { "constant": "down" } ],
+    "br": []
+  }
+]

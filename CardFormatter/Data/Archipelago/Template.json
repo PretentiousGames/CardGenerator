@@ -91,32 +91,37 @@
     "Platforms": "platform.png",
     "draw": {
       "text": "փ",
-      "styles": { },
+      "styles": {},
       "description": "draw an extra card"
     },
     "play": {
       "text": "ԫ",
-      "styles": { },
+      "styles": {},
       "description": "play an extra card"
     },
     "down": {
       "text": "Ռ",
-      "styles": { },
+      "styles": {},
       "description": "you may play cards splayed down on this card"
     },
     "up": {
       "text": "Ջ",
-      "styles": { },
+      "styles": {},
       "description": "you may play cards splayed up on this card"
     },
     "right": {
       "text": "Պ",
-      "styles": { },
+      "styles": {},
       "description": "you may play cards splayed right on this card"
+    },
+    "left": {
+      "text": "Չ",
+      "styles": {},
+      "description": "you may play cards splayed left on this card"
     },
     "points": {
       "text": "Ԙ",
-      "styles": { },
+      "styles": {},
       "description": "+1 Point"
     }
   }

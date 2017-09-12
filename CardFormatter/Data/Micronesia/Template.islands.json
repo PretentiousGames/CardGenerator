@@ -40,10 +40,10 @@
     },
     {
       "type": "text",
-      "name": "tr",
+      "name": "bl",
       "styles": {
-        "x": 910,
-        "y": 85,
+        "x": 85,
+        "y": 910,
         "xSize": 130,
         "ySize": 130,
         "fillStylex": "#9CDEDE"
@@ -51,10 +51,10 @@
     },
     {
       "type": "text",
-      "name": "bl",
+      "name": "tr",
       "styles": {
-        "x": 85,
-        "y": 610,
+        "x": 610,
+        "y": 85,
         "xSize": 130,
         "ySize": 130,
         "fillStylex": "#9CDEDE"
@@ -64,11 +64,33 @@
       "type": "text",
       "name": "br",
       "styles": {
-        "x": 910,
-        "y": 610,
+        "x": 610,
+        "y": 910,
         "xSize": 130,
         "ySize": 130,
         "fillStylex": "#9CDEDE"
+      }
+    },
+    {
+      "type": "text",
+      "name": "cl",
+      "styles": {
+        "x": 85,
+        "y": 235,
+        "xSize": 130,
+        "ySize": 655,
+        "fillStylex": "#154040"
+      }
+    },
+    {
+      "type": "text",
+      "name": "cr",
+      "styles": {
+        "x": 610,
+        "y": 235,
+        "xSize": 130,
+        "ySize": 655,
+        "fillStylex": "#154040"
       }
     },
     {
@@ -77,7 +99,7 @@
       "styles": {
         "x": 235,
         "y": 85,
-        "xSize": 655,
+        "xSize": 355,
         "ySize": 130,
         "fillStylex": "#154040"
       }
@@ -87,39 +109,30 @@
       "name": "bc",
       "styles": {
         "x": 235,
-        "y": 610,
-        "xSize": 655,
+        "y": 910,
+        "xSize": 355,
         "ySize": 130,
-        "fillStylex": "#154040"
-      }
-    },
-    {
-      "type": "text",
-      "name": "cl",
-      "styles": {
-        "x": 85,
-        "y": 235, 
-        "xSize": 130,
-        "ySize": 355,
-        "fillStylex": "#154040"
-      }
-    },
-    {
-      "type": "text",
-      "name": "cr",
-      "styles": {
-        "x": 910,
-        "y": 235,
-        "xSize": 130,
-        "ySize": 355,
         "fillStylex": "#154040"
       }
     }
   ],
   "subTypes": [ ],
   "constants": {
-    "Background": "cardFrontBackground.png",
-
+    "Background": "islandBackground.png",
+    "points": {
+      "text": "Ԗ",
+      "styles": {
+        "font": "Aharoni-True.ttf"
+      },
+      "description": "+1 Point"
+    },
+    "income": {
+      "text": "ԙ",
+      "styles": {
+        "font": "Aharoni-True.ttf"
+      },
+      "description": "Income"
+    },
     "down": {
       "text": "Ռ",
       "styles": {
@@ -147,20 +160,6 @@
         "font": "Aharoni-True.ttf"
       },
       "description": "you may play cards splayed left on this card"
-    },
-    "points": {
-      "text": "Ԗ",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      },
-      "description": "+1 Point"
-    },
-    "income": {
-      "text": "ԙ",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      },
-      "description": "Income"
     },
     "goods": {
       "text": "Ԙ",

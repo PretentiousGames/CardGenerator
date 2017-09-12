@@ -375,6 +375,7 @@
     <Content Include="Data\GrabTheLoot\whine.png" />
     <Content Include="Data\GrabTheLoot\yell.png" />
     <Content Include="Data\Micronesia\cardFrontBackground.png" />
+    <Content Include="Data\Micronesia\Islands.Datafile.json" />
     <None Include="Data\Micronesia\dump.json" />
     <Content Include="Data\TerranLeagueOfDefenseRobots\Abductor.png" />
     <Content Include="Data\TerranLeagueOfDefenseRobots\AbstractWeapon.png" />
@@ -1325,6 +1326,7 @@
     <Content Include="Data\Micronesia\Cards.Datafile.json" />
     <Content Include="Data\Micronesia\Aharoni-True.ttf" />
     <Content Include="Data\Micronesia\Montserrat-Light.otf" />
+    <Content Include="Data\Micronesia\Template.islands.json" />
     <None Include="Properties\PublishProfiles\CardFormatter.pubxml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Stitcher.cshtml" />
