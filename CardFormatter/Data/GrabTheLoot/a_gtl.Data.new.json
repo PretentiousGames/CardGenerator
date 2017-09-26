@@ -114,9 +114,9 @@
     "art": "Cajole.png",
     "title": "Cajole",
     "type": "Action",
-    "rule3of3": ["Lose an item: +2", { "constant": "coin" }, "."],
-    "rule1of3": ["Lose 2 items: +4", { "constant": "coin" }, "."],
-    "rule2of3": ["Lose 3 items: +6", { "constant": "coin" }, "."]
+    "rule1of3": ["Lose an item: +2", { "constant": "coin" }, "."],
+    "rule2of3": ["Lose 2 items: +4", { "constant": "coin" }, "."],
+    "rule3of3": ["Lose 3 items: +6", { "constant": "coin" }, "."]
   },
   {
     "name": "behavior.Deceive",
@@ -144,9 +144,9 @@
     "art": "Gripe.png",
     "title": "Gripe",
     "type": "Action",
-    "rule1of3": ["Pay a player 1", { "constant": "coin" }, ": Swap an item with them."],
-    "rule2of3": ["Pay a player 2", { "constant": "coin" }, ": Swap 2 items with them."],
-    "rule3of3": ["Pay a player 4", { "constant": "coin" }, ": Swap 3 items with them."]
+    "rule1of3": ["Give a player 1", { "constant": "coin" }, ": Swap an item with them."],
+    "rule2of3": ["Give a player 2", { "constant": "coin" }, ": Swap 2 items with them."],
+    "rule3of3": ["Give a player 4", { "constant": "coin" }, ": Swap 3 items with them."]
   },
   {
     "name": "behavior.Hoodwink",
@@ -254,9 +254,9 @@
     "art": "Steal.png",
     "title": "Steal",
     "type": "Action",
-    "rule1of3": [": Take 2 coins from another player."],
-    "rule2of3": [": Take 3 coins from another player."],
-    "rule3of3": [": Take 4 coins from another player."]
+    "rule1of3": ["Give a player an item: Take 2", { "constant": "coin" }, " from them."],
+    "rule2of3": ["Give a player 2 items: Take 4", { "constant": "coin" }, " from them."],
+    "rule3of3": ["Give a player 3 items: Take 7", { "constant": "coin" }, " from them."]
   },
   {
     "name": "behavior.Trick",
@@ -264,9 +264,9 @@
     "art": "Trick.png",
     "title": "Trick",
     "type": "Action",
-    "rule1of3": ["Pay a player 2", { "constant": "coin" }, ": take an item from them."],
-    "rule2of3": ["Pay a player 4", { "constant": "coin" }, ": take 2 items from them."],
-    "rule3of3": ["Pay a player 7", { "constant": "coin" }, ": take 3 items from them."]
+    "rule1of3": ["Give a player 2", { "constant": "coin" }, ": take an item from them."],
+    "rule2of3": ["Give a player 4", { "constant": "coin" }, ": take 2 items from them."],
+    "rule3of3": ["Give a player 7", { "constant": "coin" }, ": take 3 items from them."]
   },
   {
     "name": "behavior.Vomit",
