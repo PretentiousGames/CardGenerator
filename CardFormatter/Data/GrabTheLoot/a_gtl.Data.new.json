@@ -4,7 +4,7 @@
     "orientation": "vertical",
     "artz": "captain.png",
     "rulesNotAbility": "When play reaches the Captain, reveal another greed card.",
-    "rule3of3": "    Swap 1 treasure or Gain a coin.",
+    "rule3of3": ["     Swap 1 treasure or +2", { "constant": "coin" }, "."],
     "title": "The Captain",
     "type": "Captain"
   },
@@ -104,9 +104,9 @@
     "art": "Bribe.png",
     "title": "Bribe",
     "type": "Action",
-    "rule1of3": ["-1", { "constant": "coin" }, ": Gain an item."],
-    "rule2of3": ["-2", { "constant": "coin" }, ": Gain 2 items."],
-    "rule3of3": ["-3", { "constant": "coin" }, ": Gain 3 items."]
+    "rule1of3": [": Gain an item."],
+    "rule2of3": ["-1", { "constant": "coin" }, ": Gain 2 items."],
+    "rule3of3": ["-2", { "constant": "coin" }, ": Gain 3 items."]
   },
   {
     "name": "behavior.Cajole",
@@ -114,9 +114,9 @@
     "art": "Cajole.png",
     "title": "Cajole",
     "type": "Action",
-    "rule1of3": ["Lose an item: +2", { "constant": "coin" }, "."],
-    "rule2of3": ["Lose 2 items: +4", { "constant": "coin" }, "."],
-    "rule3of3": ["Lose 3 items: +6", { "constant": "coin" }, "."]
+    "rule1of3": [": +2", { "constant": "coin" }, "."],
+    "rule2of3": ["Lose 1 item: +5", { "constant": "coin" }, "."],
+    "rule3of3": ["Lose 2 items: +7", { "constant": "coin" }, "."]
   },
   {
     "name": "behavior.Deceive",
@@ -134,9 +134,9 @@
     "art": "Flirt.png",
     "title": "Flirt",
     "type": "Action",
-    "rule1of3": [": +2", { "constant": "coin" }, "."],
+    "rule1of3": [": +3", { "constant": "coin" }, "."],
     "rule2of3": [": +3", { "constant": "coin" }, "."],
-    "rule3of3": [": +4", { "constant": "coin" }, "."]
+    "rule3of3": [": +3", { "constant": "coin" }, "."]
   },
   {
     "name": "behavior.Gripe",
@@ -144,9 +144,9 @@
     "art": "Gripe.png",
     "title": "Gripe",
     "type": "Action",
-    "rule1of3": ["Give a player 1", { "constant": "coin" }, ": Swap an item with them."],
-    "rule2of3": ["Give a player 2", { "constant": "coin" }, ": Swap 2 items with them."],
-    "rule3of3": ["Give a player 4", { "constant": "coin" }, ": Swap 3 items with them."]
+    "rule1of3": [": Swap an item with a player."],
+    "rule2of3": ["Give a player 1", { "constant": "coin" }, ": Swap 2 items with them."],
+    "rule3of3": ["Give a player 3", { "constant": "coin" }, ": Swap 3 items with them."]
   },
   {
     "name": "behavior.Hoodwink",
@@ -154,9 +154,9 @@
     "art": "Hoodwink.png",
     "title": "Hoodwink",
     "type": "Action",
-    "rule1of3": ["-2", { "constant": "coin" }, ": Gain a treasure from the Captain's Greed."],
-    "rule2of3": ["-4", { "constant": "coin" }, ": Gain 2 treasures from the Captain's Greed."],
-    "rule3of3": ["-6", { "constant": "coin" }, ": Gain 3 treasures from the Captain's Greed."]
+    "rule1of3": ["-1", { "constant": "coin" }, ": Gain a treasure from the Captain's Greed."],
+    "rule2of3": ["-2", { "constant": "coin" }, ": Gain 2 treasures from the Captain's Greed."],
+    "rule3of3": ["-3", { "constant": "coin" }, ": Gain 3 treasures from the Captain's Greed."]
   },
   {
     "name": "behavior.Investigate",
@@ -164,9 +164,9 @@
     "art": "Investigate.png",
     "title": "Investigate",
     "type": "Action",
-    "rule1of3": ["-1", { "constant": "coin" }, ": look at the bottom card of the Greed deck."],
-    "rule2of3": ["-2", { "constant": "coin" }, ": look at the bottom 2 cards of the Greed deck."],
-    "rule3of3": ["-4", { "constant": "coin" }, ": look at the bottom 3 cards of the Greed deck."]
+    "rule1of3": [": look at the bottom card of the Greed deck."],
+    "rule2of3": ["-1", { "constant": "coin" }, ": look at the bottom 2 cards of the Greed deck."],
+    "rule3of3": ["-3", { "constant": "coin" }, ": look at the bottom 3 cards of the Greed deck."]
   },
   {
     "name": "behavior.Jeer",
@@ -194,9 +194,9 @@
     "art": "Lie.png",
     "title": "Lie",
     "type": "Action",
-    "rule1of3": [": Add or Remove a Captain meeple then take another turn."],
-    "rule2of3": ["-1", { "constant": "coin" }, ": Add or remove 2 Captain meeples then take another turn."],
-    "rule3of3": ["-2", { "constant": "coin" }, ": Add or remove 3 Captain meeples then take another turn."]
+    "rule1of3": [": Add or Remove a Captain cube then take another turn."],
+    "rule2of3": ["-1", { "constant": "coin" }, ": Add or remove 2 Captain cubes then take another turn."],
+    "rule3of3": ["-2", { "constant": "coin" }, ": Add or remove 3 Captain cubes then take another turn."]
   },
   {
     "name": "behavior.Menace",
@@ -204,9 +204,9 @@
     "art": "Menace.png",
     "title": "Menace",
     "type": "Action",
-    "rule1of3": ["-3", { "constant": "coin" }, ": Take an item from a player."],
-    "rule2of3": ["-6", { "constant": "coin" }, ": Take 2 items from a player."],
-    "rule3of3": ["-9", { "constant": "coin" }, ": Take 3 items from a player."]
+    "rule1of3": ["-2", { "constant": "coin" }, ": Take an item from a player."],
+    "rule2of3": ["-5", { "constant": "coin" }, ": Take 2 items from a player."],
+    "rule3of3": ["-8", { "constant": "coin" }, ": Take 3 items from a player."]
   },
   {
     "name": "behavior.Negotiate",
@@ -214,9 +214,9 @@
     "art": "Negotiate.png",
     "title": "Negotiate",
     "type": "Action",
-    "rule1of3": ["-1", { "constant": "coin" }, ": Choose a player. Trade a treasure with that player."],
-    "rule2of3": ["-2", { "constant": "coin" }, ": Choose a player. Trade 2 treasures with that player."],
-    "rule3of3": ["-3", { "constant": "coin" }, ": Choose a player. Trade 3 treasures with that player."]
+    "rule1of3": [": Choose a player. Trade a treasure with that player."],
+    "rule2of3": ["-1", { "constant": "coin" }, ": Choose a player. Trade 2 treasures with that player."],
+    "rule3of3": ["-2", { "constant": "coin" }, ": Choose a player. Trade 3 treasures with that player."]
   },
   {
     "name": "behavior.Orate",
@@ -224,9 +224,9 @@
     "art": "Orate.png",
     "title": "Orate",
     "type": "Action",
-    "rule1of3": ["-2", { "constant": "coin" }, ": Add a treasure from the Captain's Greed to the Captain's loot."],
-    "rule2of3": ["-3", { "constant": "coin" }, ": Add 2 treasures from the Captain's Greed to the Captain's loot."],
-    "rule3of3": ["-5", { "constant": "coin" }, ": Add 3 treasures from the Captain's Greed to the Captain's loot."]
+    "rule1of3": ["-1", { "constant": "coin" }, ": Add a treasure from the Captain's Greed to the Captain's loot."],
+    "rule2of3": ["-2", { "constant": "coin" }, ": Add 2 treasures from the Captain's Greed to the Captain's loot."],
+    "rule3of3": ["-4", { "constant": "coin" }, ": Add 3 treasures from the Captain's Greed to the Captain's loot."]
   },
   {
     "name": "behavior.Pout.png",
@@ -234,9 +234,9 @@
     "art": "Pout.png",
     "title": "Pout",
     "type": "Action",
-    "rule1of3": ["Lose a treasure: Bury a treasure."],
-    "rule2of3": ["-1", { "constant": "coin" }, ", Lose a treasure: Bury 2 treasures."],
-    "rule3of3": ["-2", { "constant": "coin" }, ", Lose a treasure: Bury 3 treasures."]
+    "rule1of3": [": Bury a treasure."],
+    "rule2of3": ["Lose a treasure: Bury 2 treasures."],
+    "rule3of3": ["-1", { "constant": "coin" }, ", Lose a treasure: Bury 3 treasures."]
   },
   {
     "name": "behavior.Quibble",
@@ -244,9 +244,9 @@
     "art": "Quibble.png",
     "title": "Quibble",
     "type": "Action",
-    "rule1of3": ["-2", { "constant": "coin" }, ": Swap a treasure with one in the Captain's Greed."],
-    "rule2of3": ["-5", { "constant": "coin" }, ": Swap 2 treasures with 2 in the Captain's Greed."],
-    "rule3of3": ["-8", { "constant": "coin" }, ": Swap 3 treasures with 3 in the Captain's Greed."]
+    "rule1of3": ["-1", { "constant": "coin" }, ": Swap a treasure with 1 in the Captain's Greed."],
+    "rule2of3": ["-4", { "constant": "coin" }, ": Swap 2 treasures with 2 in the Captain's Greed."],
+    "rule3of3": ["-7", { "constant": "coin" }, ": Swap 3 treasures with 3 in the Captain's Greed."]
   },
   {
     "name": "behavior.Steal",
@@ -254,9 +254,9 @@
     "art": "Steal.png",
     "title": "Steal",
     "type": "Action",
-    "rule1of3": ["Give a player an item: Take 2", { "constant": "coin" }, " from them."],
-    "rule2of3": ["Give a player 2 items: Take 4", { "constant": "coin" }, " from them."],
-    "rule3of3": ["Give a player 3 items: Take 7", { "constant": "coin" }, " from them."]
+    "rule1of3": ["Take 2", { "constant": "coin" }, " from a player."],
+    "rule2of3": ["Give a player 1 item: Take 4", { "constant": "coin" }, " from them."],
+    "rule3of3": ["Give a player 2 items: Take 7", { "constant": "coin" }, " from them."]
   },
   {
     "name": "behavior.Trick",
@@ -264,9 +264,9 @@
     "art": "Trick.png",
     "title": "Trick",
     "type": "Action",
-    "rule1of3": ["Give a player 2", { "constant": "coin" }, ": take an item from them."],
-    "rule2of3": ["Give a player 4", { "constant": "coin" }, ": take 2 items from them."],
-    "rule3of3": ["Give a player 7", { "constant": "coin" }, ": take 3 items from them."]
+    "rule1of3": ["Give a player 1", { "constant": "coin" }, ": take an item from them."],
+    "rule2of3": ["Give a player 3", { "constant": "coin" }, ": take 2 items from them."],
+    "rule3of3": ["Give a player 6", { "constant": "coin" }, ": take 3 items from them."]
   },
   {
     "name": "behavior.Vomit",
@@ -274,9 +274,9 @@
     "art": "Vomit.png",
     "title": "Vomit",
     "type": "Action",
-    "rule1of3": ["-2", { "constant": "coin" }, ": Bury a treasure."],
-    "rule2of3": ["-4", { "constant": "coin" }, ": Bury 2 treasures."],
-    "rule3of3": ["-6", { "constant": "coin" }, ": Bury 3 treasures."]
+    "rule1of3": [": Bury a treasure."],
+    "rule2of3": ["-2", { "constant": "coin" }, ": Bury 2 treasures."],
+    "rule3of3": ["-4", { "constant": "coin" }, ": Bury 3 treasures."]
   },
   {
     "name": "behavior.Whine",
@@ -284,9 +284,9 @@
     "art": "Whine.png",
     "title": "Whine",
     "type": "Action",
-    "rule1of3": [": +1", { "constant": "coin" }, ", Add a treasure from your loot to the Captain's Greed."],
-    "rule2of3": [": +2", { "constant": "coin" }, ", Add 2 treasures from your loot to the Captain's Greed."],
-    "rule3of3": [": +3", { "constant": "coin" }, ", Add 3 treasures from your loot to the Captain's Greed."]
+    "rule1of3": [": +2", { "constant": "coin" }, ", Add a treasure from your loot to the Captain's Greed."],
+    "rule2of3": [": +4", { "constant": "coin" }, ", Add 2 treasures from your loot to the Captain's Greed."],
+    "rule3of3": [": +6", { "constant": "coin" }, ", Add 3 treasures from your loot to the Captain's Greed."]
   },
   {
     "name": "behavior.Yell",
@@ -294,9 +294,9 @@
     "art": "Yell.png",
     "title": "Yell",
     "type": "Action",
-    "rule1of3": ["-1", { "constant": "coin" }, ": reveal the next behavior card. Take another turn."],
-    "rule2of3": ["-2", { "constant": "coin" }, ": reveal the next 2 behavior cards. Take another turn."],
-    "rule3of3": ["-3", { "constant": "coin" }, ": reveal the next 3 behavior cards. Take another turn."]
+    "rule1of3": [": reveal the next behavior card. Take another turn."],
+    "rule2of3": ["-1", { "constant": "coin" }, ": reveal the next 2 behavior cards. Take another turn."],
+    "rule3of3": ["-2", { "constant": "coin" }, ": reveal the next 3 behavior cards. Take another turn."]
   },
 
   {
@@ -330,92 +330,5 @@
     "title": "Item",
     "rules": "Trinket",
     "type": "Treasure"
-  },
-  {
-    "name": "c1",
-    "orientation": "vertical",
-    "rules": "When you Lose a treasure to the captain, you may place it into the Captain's Greed.",
-    "title": "Trevyn",
-    "type": "Character"
-  },
-  {
-    "name": "c2",
-    "orientation": "vertical",
-    "rules": "When you Gain coins from the captain, Gain an extra coin.",
-    "title": "Sophia",
-    "type": "Character"
-  },
-  {
-    "name": "c3",
-    "orientation": "vertical",
-    "rules": "You are treated as having one more Buried treasure of your choice for scoring purposes.",
-    "title": "Andrew",
-    "type": "Character"
-  },
-  {
-    "name": "c5",
-    "orientation": "vertical",
-    "rules": "When you swap treasures with the captain's loot you may swap 1 additional treasure.",
-    "title": "Erin",
-    "type": "Character"
-  },
-  {
-    "name": "c9",
-    "orientation": "vertical",
-    "rules": "Instead of Gaining a treadure, you may Swap a treasure with the Captain's Greed.",
-    "title": "Dan",
-    "type": "Character"
-  },
-  {
-    "name": "c11",
-    "orientation": "vertical",
-    "title": "James",
-    "type": "CharacterAbility",
-    "rulesNotAbility": "If you have the most coins at the end of the game, gain 10 extra points.",
-    "rule3of3": "Gain a coin."
-  },
-  {
-    "name": "c12",
-    "orientation": "vertical",
-    "rules": "When you Swap a treasure, you may Swap a treasure with a player instead of the Captain.",
-    "title": "Taylor",
-    "type": "Character"
-  },
-  {
-    "name": "c15",
-    "orientation": "vertical",
-    "rules": "When you gain and lose a treasure in the same round, you may also add a treasure from the Captain's loot to the Captain's Greed.",
-    "title": "Berrett",
-    "type": "Character"
-  },
-  {
-    "name": "c17",
-    "orientation": "vertical",
-    "rules": "At the end of the game before anyone gets shot; Bury two of your treasures.",
-    "title": "Dwayne",
-    "type": "Character"
-  },
-  {
-    "name": "c19",
-    "orientation": "vertical",
-    "rules": "Whenever you lose an item without gaining a treasure, you main Gain a coin from the captain.",
-    "title": "Alison",
-    "type": "Character"
-  },
-  {
-    "name": "c20",
-    "orientation": "vertical",
-    "rulesNotAbility": "When any other player activates this card, take a coin from them. You may not activate it.",
-    "rule3of3": "Gain 2 treasures.",
-    "title": "Bryson",
-    "type": "CharacterAbility"
-  },
-  {
-    "name": "c21",
-    "orientation": "vertical",
-    "title": "Jacob",
-    "type": "CharacterAbility",
-    "rulesNotAbility": "When any other player activates this card, take a coin from them.",
-    "rule3of3": "Gain a coin. Swap a treasure with the Captain's Greed."
   }
 ]
