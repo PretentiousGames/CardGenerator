@@ -4,7 +4,7 @@
     "orientation": "vertical",
     "artz": "captain.png",
     "rulesNotAbility": "When play reaches the Captain, reveal another greed card.",
-    "rule3of3": ["     Swap 1 treasure or +2", { "constant": "coin" }, "."],
+    "rule3of3": ["     Swap 1 treasure or +1", { "constant": "coin" }, "."],
     "title": "The Captain",
     "type": "Captain"
   },
