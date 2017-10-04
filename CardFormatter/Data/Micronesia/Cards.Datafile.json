@@ -1,5 +1,10 @@
 ﻿[
   {
+    "name": "god.1",
+    "orientation": "vertical",
+    "tl": [ { "constant": "homes" } ]
+  },
+  {
     "name": "island.0",
     "orientation": "horizontal",
     "tl": [ { "constant": "homes" } ],

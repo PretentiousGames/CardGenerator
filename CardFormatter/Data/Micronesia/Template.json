@@ -18,8 +18,7 @@
       "type": "image",
       "name": "background",
       "x": 0,
-      "y": 0,
-      "constant": "Background"
+      "y": 0
     },
     {
       "type": "image",
@@ -116,9 +115,49 @@
       }
     }
   ],
-  "subTypes": [ ],
+  "subTypes": [
+    {
+      "requirements": [
+        {
+          "name": "orientation",
+          "values": [ "horizontal" ]
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "name": "background",
+          "x": 0,
+          "y": 0,
+          "constant": "Background",
+          "draw": false
+        }
+      ],
+      "subTypes": []
+    },
+    {
+      "requirements": [
+        {
+          "name": "orientation",
+          "values": [ "vertical" ]
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "name": "background",
+          "x": 0,
+          "y": 0,
+          "constant": "verticalBackground",
+          "draw": false
+        }
+      ],
+      "subTypes": []
+    }
+  ],
   "constants": {
     "Background": "cardFrontBackground.png",
+    "verticalBackground": "verticalBackground.png",
 
     "down": {
       "text": "Ռ",

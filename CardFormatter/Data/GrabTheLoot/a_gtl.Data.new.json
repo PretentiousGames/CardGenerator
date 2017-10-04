@@ -62,7 +62,7 @@
     "orientation": "vertical",
     "art": "CrazyMad.png",
     "title": "Captain Shoots wildly!",
-    "rules": "The game ends. The top 2 in each category Get Shot!",
+    "rules": "The game ends. All but the lowest Gets Shot!",
     "type": "Greed"
   },
   {
@@ -264,9 +264,9 @@
     "art": "Trick.png",
     "title": "Trick",
     "type": "Action",
-    "rule1of3": ["Give a player 1", { "constant": "coin" }, ": take an item from them."],
-    "rule2of3": ["Give a player 3", { "constant": "coin" }, ": take 2 items from them."],
-    "rule3of3": ["Give a player 6", { "constant": "coin" }, ": take 3 items from them."]
+    "rule1of3": ["Give a player 1", { "constant": "coin" }, ": they give you an item."],
+    "rule2of3": ["Give a player 3", { "constant": "coin" }, ": they give you 2 items."],
+    "rule3of3": ["Give a player 6", { "constant": "coin" }, ": they give you 3 items."]
   },
   {
     "name": "behavior.Vomit",
