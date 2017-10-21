@@ -1145,11 +1145,13 @@
     <Content Include="Data\TheMadnessPlace\mat.png" />
     <Content Include="Data\TheMadnessPlace\Mechanical.png" />
     <Content Include="Data\TheMadnessPlace\Minion.png" />
+    <Content Include="Data\TheMadnessPlace\playermatBg.png" />
     <Content Include="Data\TheMadnessPlace\Repair.png" />
     <Content Include="Data\TheMadnessPlace\Spark.png" />
     <Content Include="Data\TheMadnessPlace\Steam.png" />
     <Content Include="Data\TheMadnessPlace\Time.png" />
     <Content Include="Data\TheMadnessPlace\Waves.png" />
+    <Content Include="Data\TheMadnessPlace\WildEnergy.png" />
     <Content Include="Data\ThePerfectMoment\Armor.png" />
     <Content Include="Data\ThePerfectMoment\Blue.png" />
     <Content Include="Data\ThePerfectMoment\Candy.png" />
