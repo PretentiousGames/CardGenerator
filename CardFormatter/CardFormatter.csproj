@@ -624,7 +624,6 @@
     <Content Include="Data\JurassicUniverse\whiteRhinoceros.png" />
     <Content Include="Data\JurassicUniverse\woollyMammoth.png" />
     <Content Include="Data\JurassicUniverse\woollyRhinoceros.png" />
-    <Content Include="Data\TheMadnessPlace\backgroundTile.png" />
     <Content Include="Data\TheMadnessPlace\backgroundVertical.png" />
     <Content Include="Data\AgeOfVikings\Images\Archer.png" />
     <Content Include="Data\AgeOfVikings\Images\Bragi.png" />
@@ -1142,7 +1141,6 @@
     <Content Include="Data\TheDragonsGame\whine.png" />
     <Content Include="Data\TheMadnessPlace\Chemical.png" />
     <Content Include="Data\TheMadnessPlace\Electricity.png" />
-    <Content Include="Data\TheMadnessPlace\mat.png" />
     <Content Include="Data\TheMadnessPlace\Mechanical.png" />
     <Content Include="Data\TheMadnessPlace\Minion.png" />
     <Content Include="Data\TheMadnessPlace\playermatBg.png" />
@@ -1325,8 +1323,6 @@
     <Content Include="Data\GrabTheLoot\a_gtl.Template.json" />
     <Content Include="Data\GrabTheLoot\a_gtl.Data.new.json" />
     <Content Include="Data\TheMadnessPlace\Montserrat-Light.otf" />
-    <Content Include="Data\TheMadnessPlace\MP.Mats.Template.json" />
-    <Content Include="Data\TheMadnessPlace\MP.Mats.Data.json" />
     <Content Include="Data\TheMadnessPlace\MP.Cards.foo.Data.json" />
     <Content Include="Data\ThePerfectMoment\00both.Data.json" />
     <Content Include="Data\ThePerfectMoment\00.sm.data.json" />
