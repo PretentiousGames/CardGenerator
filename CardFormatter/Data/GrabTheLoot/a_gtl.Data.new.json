@@ -86,7 +86,7 @@
     "orientation": "vertical",
     "art": "feeling1.png",
     "title": "Captain gives gifts.",
-    "rules": "Coins are worth double points.",
+    "rules": "Coins are worth double points, and are awarded bonus points as if they were items.",
     "type": "Greed"
   },
   {
@@ -134,9 +134,9 @@
     "art": "Flirt.png",
     "title": "Flirt",
     "type": "Action",
-    "rule1of3": [": +3", { "constant": "coin" }, "."],
+    "rule1of3": [": +2", { "constant": "coin" }, "."],
     "rule2of3": [": +3", { "constant": "coin" }, "."],
-    "rule3of3": [": +3", { "constant": "coin" }, "."]
+    "rule3of3": [": +4", { "constant": "coin" }, "."]
   },
   {
     "name": "behavior.Gripe",
@@ -154,9 +154,9 @@
     "art": "Hoodwink.png",
     "title": "Hoodwink",
     "type": "Action",
-    "rule1of3": ["-1", { "constant": "coin" }, ": Gain a treasure from the Captain's Greed."],
-    "rule2of3": ["-2", { "constant": "coin" }, ": Gain 2 treasures from the Captain's Greed."],
-    "rule3of3": ["-3", { "constant": "coin" }, ": Gain 3 treasures from the Captain's Greed."]
+    "rule1of3": ["Put 1", { "constant": "coin" }, " in the Captain's Greed: Gain a treasure from the Captain's Greed."],
+    "rule2of3": ["Put 3", { "constant": "coin" }, " in the Captain's Greed: Gain 2 treasures from the Captain's Greed."],
+    "rule3of3": ["Put 5", { "constant": "coin" }, " in the Captain's Greed: Gain 3 treasures from the Captain's Greed."]
   },
   {
     "name": "behavior.Investigate",
@@ -224,9 +224,9 @@
     "art": "Orate.png",
     "title": "Orate",
     "type": "Action",
-    "rule1of3": ["-1", { "constant": "coin" }, ": Add a treasure from the Captain's Greed to the Captain's loot."],
-    "rule2of3": ["-2", { "constant": "coin" }, ": Add 2 treasures from the Captain's Greed to the Captain's loot."],
-    "rule3of3": ["-4", { "constant": "coin" }, ": Add 3 treasures from the Captain's Greed to the Captain's loot."]
+    "rule1of3": ["-1", { "constant": "coin" }, ": Gain an item, Swap an item."],
+    "rule2of3": ["-2", { "constant": "coin" }, ": Gain an item, Swap 2 items."],
+    "rule3of3": ["-3", { "constant": "coin" }, ": Gain an item, Swap 3 items."]
   },
   {
     "name": "behavior.Pout.png",
@@ -234,9 +234,10 @@
     "art": "Pout.png",
     "title": "Pout",
     "type": "Action",
+    "todo":  "change this",
     "rule1of3": [": Bury a treasure."],
-    "rule2of3": ["Lose a treasure: Bury 2 treasures."],
-    "rule3of3": ["-1", { "constant": "coin" }, ", Lose a treasure: Bury 3 treasures."]
+    "rule2of3": [ "Add a treasure to the Captain's Greed: Bury 2 treasures." ],
+    "rule3of3": [ "Add 2 treasures to the Captain's Greed: Bury 4 treasures." ]
   },
   {
     "name": "behavior.Quibble",

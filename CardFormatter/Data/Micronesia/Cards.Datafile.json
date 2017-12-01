@@ -4,266 +4,64 @@
     "orientation": "vertical",
     "tl": [ { "constant": "homes" } ]
   },
-  {
-    "name": "island.0",
-    "orientation": "horizontal",
-    "tl": [ { "constant": "homes" } ],
-    "tc": [ { "constant": "up" } ],
-    "tr": [],
-    "cl": [ { "constant": "left" } ],
-    "cr": [ { "constant": "right" } ],
-    "bl": [],
-    "bc": [ { "constant": "down" } ],
-    "br": []
-  },
-  {
-    "name": "island.1",
-    "orientation": "horizontal",
-    "tl": [ { "constant": "homes" } ],
-    "tc": [
-      { "constant": "up" },
-      { "constant": "up" }
-    ],
-    "tr": [],
-    "cl": [ { "constant": "left" } ],
-    "cr": [ { "constant": "right" } ],
-    "bl": [],
-    "bc": [ { "constant": "down" } ],
-    "br": []
-  },
-  {
-    "name": "island.2",
-    "orientation": "horizontal",
-    "tl": [ { "constant": "homes" } ],
-    "tc": [ { "constant": "up" } ],
-    "tr": [ { "constant": "homes" } ],
-    "cl": [ { "constant": "left" } ],
-    "cr": [ { "constant": "right" } ],
-    "bl": [],
-    "bc": [ { "constant": "down" } ],
-    "br": []
-  },
-  {
-    "name": "island.3",
-    "orientation": "horizontal",
-    "tl": [ { "constant": "homes" } ],
-    "tc": [ { "constant": "up" } ],
-    "tr": [],
-    "cl": [
-      { "constant": "left" },
-      { "constant": "left" }
-    ],
-    "cr": [ { "constant": "right" } ],
-    "bl": [],
-    "bc": [ { "constant": "down" } ],
-    "br": []
-  },
-  {
-    "name": "island.4",
-    "orientation": "horizontal",
-    "tl": [ { "constant": "homes" } ],
-    "tc": [ { "constant": "up" } ],
-    "tr": [],
-    "cl": [ { "constant": "left" } ],
-    "cr": [
-      { "constant": "right" },
-      { "constant": "right" }
-    ],
-    "bl": [],
-    "bc": [ { "constant": "down" } ],
-    "br": []
-  },
-  {
-    "name": "island.5",
-    "orientation": "horizontal",
-    "tl": [ { "constant": "homes" } ],
-    "tc": [ { "constant": "up" } ],
-    "tr": [],
-    "cl": [ { "constant": "left" } ],
-    "cr": [ { "constant": "right" } ],
-    "bl": [],
-    "bc": [
-      { "constant": "down" },
-      { "constant": "down" }
-    ],
-    "br": []
-  },
-  {
-    "name": "island.6",
-    "orientation": "horizontal",
-    "tl": [ { "constant": "homes" } ],
-    "tc": [
-      { "constant": "up" },
-      { "constant": "up" }
-    ],
-    "tr": [ { "constant": "homes" } ],
-    "cl": [ { "constant": "left" } ],
-    "cr": [ { "constant": "right" } ],
-    "bl": [],
-    "bc": [ { "constant": "down" } ],
-    "br": []
-  },
-  {
-    "name": "island.7",
-    "orientation": "horizontal",
-    "tl": [ { "constant": "homes" } ],
-    "tc": [
-      { "constant": "up" },
-      { "constant": "up" }
-    ],
-    "tr": [],
-    "cl": [
-      { "constant": "left" },
-      { "constant": "left" }
-    ],
-    "cr": [ { "constant": "right" } ],
-    "bl": [],
-    "bc": [ { "constant": "down" } ],
-    "br": []
-  },
-  {
-    "name": "island.8",
-    "orientation": "horizontal",
-    "tl": [ { "constant": "homes" } ],
-    "tc": [
-      { "constant": "up" },
-      { "constant": "up" }
-    ],
-    "tr": [],
-    "cl": [ { "constant": "left" } ],
-    "cr": [
-      { "constant": "right" },
-      { "constant": "right" }
-    ],
-    "bl": [],
-    "bc": [ { "constant": "down" } ],
-    "br": []
-  },
-  {
-    "name": "island.9",
-    "orientation": "horizontal",
-    "tl": [ { "constant": "homes" } ],
-    "tc": [
-      { "constant": "up" },
-      { "constant": "up" }
-    ],
-    "tr": [],
-    "cl": [ { "constant": "left" } ],
-    "cr": [ { "constant": "right" } ],
-    "bl": [],
-    "bc": [
-      { "constant": "down" },
-      { "constant": "down" }
-    ],
-    "br": []
-  },
-  {
-    "name": "island.10",
-    "orientation": "horizontal",
-    "tl": [ { "constant": "homes" } ],
-    "tc": [ { "constant": "up" } ],
-    "tr": [ { "constant": "homes" } ],
-    "cl": [
-      { "constant": "left" },
-      { "constant": "left" }
-    ],
-    "cr": [ { "constant": "right" } ],
-    "bl": [],
-    "bc": [ { "constant": "down" } ],
-    "br": []
-  },
-  {
-    "name": "island.11",
-    "orientation": "horizontal",
-    "tl": [ { "constant": "homes" } ],
-    "tc": [ { "constant": "up" } ],
-    "tr": [ { "constant": "homes" } ],
-    "cl": [ { "constant": "left" } ],
-    "cr": [
-      { "constant": "right" },
-      { "constant": "right" }
-    ],
-    "bl": [],
-    "bc": [ { "constant": "down" } ],
-    "br": []
-  },
-  {
-    "name": "island.12",
-    "orientation": "horizontal",
-    "tl": [ { "constant": "homes" } ],
-    "tc": [ { "constant": "up" } ],
-    "tr": [ { "constant": "homes" } ],
-    "cl": [ { "constant": "left" } ],
-    "cr": [ { "constant": "right" } ],
-    "bl": [],
-    "bc": [
-      { "constant": "down" },
-      { "constant": "down" }
-    ],
-    "br": []
-  },
-  {
-    "name": "island.13",
-    "orientation": "horizontal",
-    "tl": [ { "constant": "homes" } ],
-    "tc": [ { "constant": "up" } ],
-    "tr": [],
-    "cl": [
-      { "constant": "left" },
-      { "constant": "left" }
-    ],
-    "cr": [
-      { "constant": "right" },
-      { "constant": "right" }
-    ],
-    "bl": [],
-    "bc": [ { "constant": "down" } ],
-    "br": []
-  },
-  {
-    "name": "island.14",
-    "orientation": "horizontal",
-    "tl": [ { "constant": "homes" } ],
-    "tc": [ { "constant": "up" } ],
-    "tr": [],
-    "cl": [
-      { "constant": "left" },
-      { "constant": "left" }
-    ],
-    "cr": [ { "constant": "right" } ],
-    "bl": [],
-    "bc": [
-      { "constant": "down" },
-      { "constant": "down" }
-    ],
-    "br": []
-  },
+  { "name": "island.00", "orientation": "horizontal", "tl": [], "tc": [], "tr": [], "cl": [{ "constant": "left" }, "\n", { "constant": "left" }], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }, { "constant": "homes" }, { "constant": "homes" }] },
+  { "name": "island.01", "orientation": "horizontal", "tl": [], "tc": [], "tr": [], "cl": [{ "constant": "left" }], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }, { "constant": "homes" }, { "constant": "homes" }] },
+  { "name": "island.02", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }, { "constant": "homes" }, { "constant": "homes" }] },
+  { "name": "island.03", "orientation": "horizontal", "tl": [], "tc": [], "tr": [], "cl": [{ "constant": "left" }, "\n", { "constant": "left" }], "cr": [{ "constant": "right" }, "\n", { "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }, { "constant": "homes" }] },
+  { "name": "island.04", "orientation": "horizontal", "tl": [], "tc": [], "tr": [], "cl": [{ "constant": "left" }], "cr": [{ "constant": "right" }, "\n", { "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }, { "constant": "homes" }] },
+  { "name": "island.05", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }], "cr": [{ "constant": "right" }, "\n", { "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }, { "constant": "homes" }] },
+  { "name": "island.06", "orientation": "horizontal", "tl": [], "tc": [], "tr": [], "cl": [{ "constant": "left" }, "\n", { "constant": "left" }, "\n", { "constant": "left" }], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }, { "constant": "homes" }] },
+  { "name": "island.07", "orientation": "horizontal", "tl": [], "tc": [], "tr": [], "cl": [{ "constant": "left" }, "\n", { "constant": "left" }], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }, { "constant": "homes" }] },
+  { "name": "island.08", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }, "\n", { "constant": "left" }], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }, { "constant": "homes" }] },
+  { "name": "island.09", "orientation": "horizontal", "tl": [], "tc": [], "tr": [], "cl": [{ "constant": "left" }], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }, { "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }, { "constant": "homes" }] },
+  { "name": "island.10", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }, { "constant": "homes" }] },
+  { "name": "island.11", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }, { "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }, { "constant": "homes" }] },
+  { "name": "island.12", "orientation": "horizontal", "tl": [], "tc": [], "tr": [], "cl": [{ "constant": "left" }, "\n", { "constant": "left" }], "cr": [{ "constant": "right" }, "\n", { "constant": "right" }, "\n", { "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.13", "orientation": "horizontal", "tl": [], "tc": [], "tr": [], "cl": [{ "constant": "left" }], "cr": [{ "constant": "right" }, "\n", { "constant": "right" }, "\n", { "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.14", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }], "cr": [{ "constant": "right" }, "\n", { "constant": "right" }, "\n", { "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.15", "orientation": "horizontal", "tl": [], "tc": [], "tr": [], "cl": [{ "constant": "left" }, "\n", { "constant": "left" }, "\n", { "constant": "left" }], "cr": [{ "constant": "right" }, "\n", { "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.16", "orientation": "horizontal", "tl": [], "tc": [], "tr": [], "cl": [{ "constant": "left" }, "\n", { "constant": "left" }], "cr": [{ "constant": "right" }, "\n", { "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.17", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }, "\n", { "constant": "left" }], "cr": [{ "constant": "right" }, "\n", { "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.18", "orientation": "horizontal", "tl": [], "tc": [], "tr": [], "cl": [{ "constant": "left" }], "cr": [{ "constant": "right" }, "\n", { "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }, { "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.19", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }], "cr": [{ "constant": "right" }, "\n", { "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.20", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }, { "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }], "cr": [{ "constant": "right" }, "\n", { "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.21", "orientation": "horizontal", "tl": [], "tc": [], "tr": [], "cl": [{ "constant": "left" }, "\n", { "constant": "left" }, "\n", { "constant": "left" }], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.22", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }, "\n", { "constant": "left" }, "\n", { "constant": "left" }], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.23", "orientation": "horizontal", "tl": [], "tc": [], "tr": [], "cl": [{ "constant": "left" }, "\n", { "constant": "left" }], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }, { "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.24", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }, "\n", { "constant": "left" }], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.25", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }, { "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }, "\n", { "constant": "left" }], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.26", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }, { "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.27", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }, { "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.28", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }], "tr": [], "cl": [], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }, { "constant": "homes" }, { "constant": "homes" }] },
+  { "name": "island.29", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }], "cr": [{ "constant": "right" }, "\n", { "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }, { "constant": "homes" }] },
+  { "name": "island.30", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }], "tr": [], "cl": [], "cr": [{ "constant": "right" }, "\n", { "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }, { "constant": "homes" }] },
+  { "name": "island.31", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }, { "constant": "up" }], "tr": [], "cl": [], "cr": [{ "constant": "right" }, "\n", { "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }, { "constant": "homes" }] },
+  { "name": "island.32", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }, "\n", { "constant": "left" }], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }, { "constant": "homes" }] },
+  { "name": "island.33", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }, { "constant": "homes" }] },
+  { "name": "island.34", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }, { "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }, { "constant": "homes" }] },
+  { "name": "island.35", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }], "tr": [], "cl": [], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }, { "constant": "homes" }] },
+  { "name": "island.36", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }, { "constant": "up" }], "tr": [], "cl": [], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }, { "constant": "homes" }] },
+  { "name": "island.37", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }, { "constant": "up" }, { "constant": "up" }], "tr": [], "cl": [], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }, { "constant": "homes" }] },
+  { "name": "island.38", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }], "cr": [{ "constant": "right" }, "\n", { "constant": "right" }, "\n", { "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.39", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }], "tr": [], "cl": [], "cr": [{ "constant": "right" }, "\n", { "constant": "right" }, "\n", { "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.40", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }, { "constant": "up" }], "tr": [], "cl": [], "cr": [{ "constant": "right" }, "\n", { "constant": "right" }, "\n", { "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.41", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }, "\n", { "constant": "left" }], "cr": [{ "constant": "right" }, "\n", { "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.42", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }], "cr": [{ "constant": "right" }, "\n", { "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.43", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }, { "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }], "cr": [{ "constant": "right" }, "\n", { "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.44", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }], "tr": [], "cl": [], "cr": [{ "constant": "right" }, "\n", { "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.45", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }, { "constant": "up" }], "tr": [], "cl": [], "cr": [{ "constant": "right" }, "\n", { "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.46", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }, { "constant": "up" }, { "constant": "up" }], "tr": [], "cl": [], "cr": [{ "constant": "right" }, "\n", { "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.47", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }, "\n", { "constant": "left" }], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.48", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }, { "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }, "\n", { "constant": "left" }], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.49", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.50", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }, { "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.51", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }, { "constant": "up" }, { "constant": "up" }], "tr": [], "cl": [{ "constant": "left" }], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.52", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }, { "constant": "up" }], "tr": [], "cl": [], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
+  { "name": "island.53", "orientation": "horizontal", "tl": [], "tc": [{ "constant": "up" }, { "constant": "up" }, { "constant": "up" }], "tr": [], "cl": [], "cr": [{ "constant": "right" }], "bl": [], "bc": [{ "constant": "down" }, { "constant": "down" }], "br": [], "cc": [{ "constant": "homes" }] },
 
   {
-    "name": "island.15",
-    "orientation": "horizontal",
-    "tl": [ { "constant": "homes" } ],
-    "tc": [ { "constant": "up" } ],
-    "tr": [],
-    "cl": [ { "constant": "left" } ],
-    "cr": [
-      { "constant": "right" },
-      { "constant": "right" }
-    ],
-    "bl": [],
-    "bc": [
-      { "constant": "down" },
-      { "constant": "down" }
-    ],
-    "br": []
-  },
-
-
-
-
-
-  {
-    "name": "card.0",
+    "name": "xcard.0",
+    "cc": [ "X" ],
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "Gain double the effect of your selected god." ],
@@ -284,7 +82,8 @@
     "br": []
   },
   {
-    "name": "card.1",
+    "name": "xcard.1",
+    "cc": [ "X" ],
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "You may worship one extra god each turn." ],
@@ -661,7 +460,8 @@
     "br": []
   },
   {
-    "name": "card.16",
+    "name": "xcard.16",
+    "cc": [ "X" ],
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "When you settle an island, you may change your worship." ],
@@ -682,7 +482,8 @@
     "br": []
   },
   {
-    "name": "card.17",
+    "name": "xcard.17",
+    "cc": [ "X" ],
     "orientation": "horizontal",
     "tl": [],
     "tc": [
@@ -839,7 +640,8 @@
     "br": []
   },
   {
-    "name": "card.24",
+    "name": "xcard.24",
+    "cc": [ "X" ],
     "orientation": "horizontal",
     "tl": [],
     "tc": [
@@ -868,7 +670,8 @@
     "br": []
   },
   {
-    "name": "card.25",
+    "name": "xcard.25",
+    "cc": [ "X" ],
     "orientation": "horizontal",
     "tl": [],
     "tc": [
@@ -1328,7 +1131,8 @@
     "br": []
   },
   {
-    "name": "card.41",
+    "name": "xcard.41",
+    "cc": [ "X" ],
     "orientation": "horizontal",
     "tl": [],
     "tc": [
@@ -1355,7 +1159,8 @@
     "br": []
   },
   {
-    "name": "card.42",
+    "name": "xcard.42",
+    "cc": [ "X" ],
     "orientation": "horizontal",
     "tl": [],
     "tc": [
@@ -1382,7 +1187,8 @@
     "br": []
   },
   {
-    "name": "card.43",
+    "name": "xcard.43",
+    "cc": [ "X" ],
     "orientation": "horizontal",
     "tl": [],
     "tc": [
@@ -1409,7 +1215,8 @@
     "br": []
   },
   {
-    "name": "card.44",
+    "name": "xcard.44",
+    "cc": [ "X" ],
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "When you draft a leader, draw 1 card." ],
@@ -1571,7 +1378,8 @@
     "br": []
   },
   {
-    "name": "card.50",
+    "name": "xcard.50",
+    "cc": [ "X" ],
     "orientation": "horizontal",
     "tl": [],
     "tc": [
@@ -1623,7 +1431,8 @@
     "br": []
   },
   {
-    "name": "card.52",
+    "name": "xcard.52",
+    "cc": [ "X" ],
     "orientation": "horizontal",
     "tl": [],
     "tc": [
@@ -1917,7 +1726,8 @@
     "br": []
   },
   {
-    "name": "card.64",
+    "name": "xcard.64",
+    "cc": [ "X" ],
     "orientation": "horizontal",
     "tl": [],
     "tc": [
@@ -1942,7 +1752,8 @@
     "br": []
   },
   {
-    "name": "card.65",
+    "name": "xcard.65",
+    "cc": [ "X" ],
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "When you tuck a card, you may change your worship." ],
@@ -1963,7 +1774,8 @@
     "br": []
   },
   {
-    "name": "card.66",
+    "name": "xcard.66",
+    "cc": [ "X" ],
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "All your islands can tuck one more card in each direction." ],
@@ -1984,7 +1796,8 @@
     "br": []
   },
   {
-    "name": "card.67",
+    "name": "xcard.67",
+    "cc": [ "X" ],
     "orientation": "horizontal",
     "tl": [],
     "tc": [
@@ -2011,7 +1824,8 @@
     "br": []
   },
   {
-    "name": "card.68",
+    "name": "xcard.68",
+    "cc": [ "X" ],
     "orientation": "horizontal",
     "tl": [],
     "tc": [ "You may draw from either the discard pile or the deck." ],

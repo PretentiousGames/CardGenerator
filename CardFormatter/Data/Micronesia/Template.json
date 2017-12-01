@@ -6,7 +6,7 @@
     "maxFontSize": 100,
     "minFontSize": 42,
     "lineHeight": 1,
-    "offset": -0.1,
+    "offset": 0,
     "xOffset": 0.052,
     "justification": "center",
     "alignment": "middle",
@@ -97,7 +97,7 @@
       "name": "cl",
       "styles": {
         "x": 85,
-        "y": 235, 
+        "y": 235,
         "xSize": 130,
         "ySize": 355,
         "fillStylex": "#154040"
@@ -110,6 +110,17 @@
         "x": 910,
         "y": 235,
         "xSize": 130,
+        "ySize": 355,
+        "fillStylex": "#154040"
+      }
+    },
+    {
+      "type": "text",
+      "name": "cc",
+      "styles": {
+        "x": 235,
+        "y": 235,
+        "xSize": 655,
         "ySize": 355,
         "fillStylex": "#154040"
       }
