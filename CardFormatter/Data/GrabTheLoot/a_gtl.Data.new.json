@@ -1,11 +1,11 @@
 ﻿[
   {
-    "name": "Captain",
+    "name": "GenericActions",
     "orientation": "vertical",
     "artz": "captain.png",
-    "rulesNotAbility": "When play reaches the Captain, reveal another greed card.",
+    "rulesNotAbility": "Any number of workers may be placed here. The oldest worker is removed each turn.",
     "rule3of3": ["     Swap 1 treasure or +1", { "constant": "coin" }, "."],
-    "title": "The Captain",
+    "title": "Generic Actions",
     "type": "Captain"
   },
 
@@ -52,49 +52,49 @@
   {
     "name": "GreedHate",
     "orientation": "vertical",
-    "art": "Hate.png",
+    "art": "feeling5.png",
     "title": "Captain Freaks Out!",
-    "rules": "The game ends. Someone Gets Shot!",
+    "rules": "The player with the most Obsessions Gets Shot!",
     "type": "Greed"
   },
   {
     "name": "GreedKill",
     "orientation": "vertical",
-    "art": "CrazyMad.png",
+    "art": "feeling6.png",
     "title": "Captain Shoots wildly!",
-    "rules": "The game ends. All but the lowest Gets Shot!",
+    "rules": "The players who don't have the least Obsessions Get Shot!",
     "type": "Greed"
   },
   {
     "name": "GreedApathy",
     "orientation": "vertical",
-    "art": "Apathy.png",
+    "art": "feeling4.png",
     "title": "Loading the Gun!",
-    "rules": "The game ends after one more round. Someone Gets Shot!",
+    "rules": "Play one more round. The player with the most Obsessions Gets Shot!",
     "type": "Greed"
   },
   {
     "name": "GreedSleep",
     "orientation": "vertical",
-    "art": "Like.png",
-    "title": "Captain fell asleep?!",
-    "rules": "The game ends. Normal scoring.",
+    "art": "feeling2.png",
+    "title": "Captain Brags",
+    "rules": "Obsessions are worth +1 point each.",
     "type": "Greed"
   },
   {
     "name": "GreedGifts",
     "orientation": "vertical",
-    "art": "Derp.png",
+    "art": "feeling1.png",
     "title": "Captain gives gifts.",
-    "rules": "The game ends. Coins are worth double.",
+    "rules": "Coins are worth double points.",
     "type": "Greed"
   },
   {
     "name": "GreedCranky",
     "orientation": "vertical",
-    "art": "Mad.png",
+    "art": "feeling3.png",
     "title": "Captain gets cranky!",
-    "rules": "The game ends. The player(s) with the most treasure lose 2 treasure each.",
+    "rules": "The player(s) with the most treasure lose 2 items each.",
     "type": "Greed"
   },
 
