@@ -6,7 +6,7 @@
     "maxFontSize": 100,
     "minFontSize": 42,
     "lineHeight": 1,
-    "offset": 0,
+    "offset": -0.147,
     "xOffset": 0.052,
     "justification": "center",
     "alignment": "middle",
@@ -26,6 +26,77 @@
       "x": 0,
       "y": 0
     },
+
+    {
+      "type": "text",
+      "name": "gtitle",
+      "styles": {
+        "x": 85,
+        "y": 85,
+        "xSize": 505,
+        "ySize": 130,
+        "justification": "left",
+        "fillStyle": "#404015"
+      }
+    },
+    {
+      "type": "text",
+      "name": "grank",
+      "styles": {
+        "x": 610,
+        "y": 85,
+        "xSize": 130,
+        "ySize": 130,
+        "fillStyle": "#DEDE9B"
+      }
+    },
+    {
+      "type": "text",
+      "name": "grules",
+      "styles": {
+        "x": 85,
+        "y": 830,
+        "xSize": 655,
+        "ySize": 210,
+        "fillStyle": "#404015"
+      }
+    },
+
+    {
+      "type": "text",
+      "name": "ltitle",
+      "styles": {
+        "x": 85,
+        "y": 85,
+        "xSize": 505,
+        "ySize": 130,
+        "justification": "left",
+        "fillStyle": "#DE9B9B"
+      }
+    },
+    {
+      "type": "text",
+      "name": "lrank",
+      "styles": {
+        "x": 610,
+        "y": 85,
+        "xSize": 130,
+        "ySize": 130,
+        "fillStyle": "#401515"
+      }
+    },
+    {
+      "type": "text",
+      "name": "lrules",
+      "styles": {
+        "x": 85,
+        "y": 830,
+        "xSize": 655,
+        "ySize": 210,
+        "fillStyle": "#401515"
+      }
+    },
+    
     {
       "type": "text",
       "name": "tl",
@@ -34,7 +105,7 @@
         "y": 85,
         "xSize": 130,
         "ySize": 130,
-        "fillStylex": "#9CDEDE"
+        "fillStyle": "#9BDE9B"
       }
     },
     {
@@ -45,7 +116,7 @@
         "y": 85,
         "xSize": 130,
         "ySize": 130,
-        "fillStylex": "#9CDEDE"
+        "fillStyle": "#9BDE9B"
       }
     },
     {
@@ -56,7 +127,7 @@
         "y": 610,
         "xSize": 130,
         "ySize": 130,
-        "fillStylex": "#9CDEDE"
+        "fillStyle": "#9BDE9B"
       }
     },
     {
@@ -67,7 +138,7 @@
         "y": 610,
         "xSize": 130,
         "ySize": 130,
-        "fillStylex": "#9CDEDE"
+        "fillStyle": "#9BDE9B"
       }
     },
     {
@@ -78,7 +149,7 @@
         "y": 85,
         "xSize": 655,
         "ySize": 130,
-        "fillStylex": "#154040"
+        "fillStyle": "#154015"
       }
     },
     {
@@ -89,7 +160,7 @@
         "y": 610,
         "xSize": 655,
         "ySize": 130,
-        "fillStylex": "#154040"
+        "fillStyle": "#154015"
       }
     },
     {
@@ -100,7 +171,7 @@
         "y": 235,
         "xSize": 130,
         "ySize": 355,
-        "fillStylex": "#154040"
+        "fillStyle": "#154015"
       }
     },
     {
@@ -111,7 +182,7 @@
         "y": 235,
         "xSize": 130,
         "ySize": 355,
-        "fillStylex": "#154040"
+        "fillStyle": "#154015"
       }
     },
     {
@@ -122,7 +193,107 @@
         "y": 235,
         "xSize": 655,
         "ySize": 355,
-        "fillStylex": "#154040"
+        "fillStyle": "#154015"
+      }
+    },
+    
+    {
+      "type": "text",
+      "name": "itl",
+      "styles": {
+        "x": 85,
+        "y": 85,
+        "xSize": 130,
+        "ySize": 130,
+        "fillStyle": "#151540"
+      }
+    },
+    {
+      "type": "text",
+      "name": "itr",
+      "styles": {
+        "x": 910,
+        "y": 85,
+        "xSize": 130,
+        "ySize": 130,
+        "fillStyle": "#151540"
+      }
+    },
+    {
+      "type": "text",
+      "name": "ibl",
+      "styles": {
+        "x": 85,
+        "y": 610,
+        "xSize": 130,
+        "ySize": 130,
+        "fillStyle": "#151540"
+      }
+    },
+    {
+      "type": "text",
+      "name": "ibr",
+      "styles": {
+        "x": 910,
+        "y": 610,
+        "xSize": 130,
+        "ySize": 130,
+        "fillStyle": "#151540"
+      }
+    },
+    {
+      "type": "text",
+      "name": "itc",
+      "styles": {
+        "x": 235,
+        "y": 70,
+        "xSize": 655,
+        "ySize": 130,
+        "fillStyle": "#9B9BDE"
+      }
+    },
+    {
+      "type": "text",
+      "name": "ibc",
+      "styles": {
+        "x": 235,
+        "y": 610,
+        "xSize": 655,
+        "ySize": 130,
+        "fillStyle": "#9B9BDE"
+      }
+    },
+    {
+      "type": "text",
+      "name": "icl",
+      "styles": {
+        "x": 85,
+        "y": 235,
+        "xSize": 130,
+        "ySize": 355,
+        "fillStyle": "#9B9BDE"
+      }
+    },
+    {
+      "type": "text",
+      "name": "icr",
+      "styles": {
+        "x": 910,
+        "y": 235,
+        "xSize": 130,
+        "ySize": 355,
+        "fillStyle": "#9B9BDE"
+      }
+    },
+    {
+      "type": "text",
+      "name": "icc",
+      "styles": {
+        "x": 235,
+        "y": 235,
+        "xSize": 655,
+        "ySize": 355,
+        "fillStyle": "#000"
       }
     }
   ],
@@ -130,8 +301,8 @@
     {
       "requirements": [
         {
-          "name": "orientation",
-          "values": [ "horizontal" ]
+          "name": "type",
+          "values": [ "island" ]
         }
       ],
       "elements": [
@@ -140,7 +311,7 @@
           "name": "background",
           "x": 0,
           "y": 0,
-          "constant": "Background",
+          "constant": "islandBG",
           "draw": false
         }
       ],
@@ -149,8 +320,8 @@
     {
       "requirements": [
         {
-          "name": "orientation",
-          "values": [ "vertical" ]
+          "name": "type",
+          "values": [ "card" ]
         }
       ],
       "elements": [
@@ -159,7 +330,45 @@
           "name": "background",
           "x": 0,
           "y": 0,
-          "constant": "verticalBackground",
+          "constant": "cardBG",
+          "draw": false
+        }
+      ],
+      "subTypes": []
+    },
+    {
+      "requirements": [
+        {
+          "name": "type",
+          "values": [ "god" ]
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "name": "background",
+          "x": 0,
+          "y": 0,
+          "constant": "godBG",
+          "draw": false
+        }
+      ],
+      "subTypes": []
+    },
+    {
+      "requirements": [
+        {
+          "name": "type",
+          "values": [ "leader" ]
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "name": "background",
+          "x": 0,
+          "y": 0,
+          "constant": "leaderBG",
           "draw": false
         }
       ],
@@ -169,6 +378,10 @@
   "constants": {
     "Background": "cardFrontBackground.png",
     "verticalBackground": "verticalBackground.png",
+    "godBG": "godBG.png",
+    "leaderBG": "leaderBG.png",
+    "islandBG": "islandBG.png",
+    "cardBG": "cardBG.png",
 
     "down": {
       "text": "Ռ",
