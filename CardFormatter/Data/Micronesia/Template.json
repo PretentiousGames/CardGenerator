@@ -383,75 +383,21 @@
     "islandBG": "islandBG.png",
     "cardBG": "cardBG.png",
 
-    "down": {
-      "text": "Ռ",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      },
-      "description": "you may play cards splayed down on this card"
-    },
-    "up": {
-      "text": "Ջ",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      },
-      "description": "you may play cards splayed up on this card"
-    },
-    "right": {
-      "text": "Պ",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      },
-      "description": "you may play cards splayed right on this card"
-    },
-    "left": {
-      "text": "Չ",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      },
-      "description": "you may play cards splayed left on this card"
-    },
-    "points": {
-      "text": "Ԗ",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      },
-      "description": "+1 Point"
-    },
-    "income": {
-      "text": "ԙ",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      },
-      "description": "Income"
-    },
-    "goods": {
-      "text": "Ԙ",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      },
-      "description": "Goods"
-    },
-    "worker": {
-      "text": "ӝ",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      },
-      "description": "Worker"
-    },
-    "support": {
-      "text": "ԫ",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      },
-      "description": "Support"
-    },
-    "homes": {
-      "text": "ԥ",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      },
-      "description": "Homes"
-    }
+    "down": { "text": "Ռ", "styles": { "font": "Aharoni-True.ttf" }, "description": "you may play cards splayed down on this card" },
+    "up": { "text": "Ջ", "styles": { "font": "Aharoni-True.ttf" }, "description": "you may play cards splayed up on this card" },
+    "right": { "text": "Պ", "styles": { "font": "Aharoni-True.ttf" }, "description": "you may play cards splayed right on this card" },
+    "left": { "text": "Չ", "styles": { "font": "Aharoni-True.ttf" }, "description": "you may play cards splayed left on this card" },
+    "points": { "text": "Ԗ", "styles": { "font": "Aharoni-True.ttf" }, "description": "+1 Point" },
+
+    "island": { "text": "Ԛ", "styles": { "font": "Aharoni-True.ttf" }, "description": "island symbol" },
+    "resource": { "text": "ԉ", "styles": { "font": "Aharoni-True.ttf" }, "description": "resource symbol" },
+    "god": { "text": "ԟ", "styles": { "font": "Aharoni-True.ttf" }, "description": "god symbol" },
+    "leader": { "text": "Ԉ", "styles": { "font": "Aharoni-True.ttf" }, "description": "leader symbol" },
+    
+    "income": { "text": "ԙ", "styles": { "font": "Aharoni-True.ttf" }, "description": "Income" },
+    "goods": { "text": "Ԙ", "styles": { "font": "Aharoni-True.ttf" }, "description": "Goods" },
+    "worker": { "text": "ӝ", "styles": { "font": "Aharoni-True.ttf" }, "description": "Worker" },
+    "support": { "text": "ԫ", "styles": { "font": "Aharoni-True.ttf" }, "description": "Support" }, 
+    "homes": { "text": "ԥ", "styles": { "font": "Aharoni-True.ttf" }, "description": "Homes" }
   }
 }
