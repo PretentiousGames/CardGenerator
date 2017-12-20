@@ -170,7 +170,8 @@
         "x": 85,
         "y": 235,
         "xSize": 130,
-        "ySize": 355,
+        "ySize": 355,   
+        "maxFontSize": 99,  
         "fillStyle": "#154015"
       }
     },
