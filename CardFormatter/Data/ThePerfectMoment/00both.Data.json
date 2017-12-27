@@ -1,6 +1,6 @@
 ﻿[
   {
-    "name": "0.1",
+    "number": "1", "name": "0.1",
     "orientation": "vertical",
     "color": "Red.png",
     "title1": "Flowers",
@@ -11,97 +11,95 @@
     "art2": "Poetry.png"
   },
   {
-    "name": "0.2",
+    "number": "2", "name": "0.2",
     "orientation": "vertical",
     "color": "Red.png",
     "title1": "Flowers",
     "rules1": "Up to 2 times: Swap an Equipped card with your Revision.",
     "art1": "Flowers.png",
     "title2": "Candy",
-    "rules2": "Draw 2 cards: Equip one, Discard the other. Return an Equipped card.",
+    "rules2": "Draw 2 cards: Equip 1, Discard the other. Return an Equipped card.",
     "art2": "Candy.png"
   },
   {
-    "name": "0.3",
+    "number": "3", "name": "0.3",
     "orientation": "vertical",
     "color": "Red.png",
     "title1": "Flowers",
     "rules1": "Up to 2 times: Swap an Equipped card with your Revision.",
     "art1": "Flowers.png",
     "title2": "Ring",
-    "rules2": "You and a player each pick one of your cards. Trade the chosen cards.",
+    "rules2": "You and a player each select and trade a card.",
     "art2": "Ring.png"
   },
   {
-    "name": "0.4",
+    "number": "4", "name": "0.4",
     "orientation": "vertical",
     "color": "Red.png",
     "title1": "Poetry",
     "rules1": "Draw 2 cards. Return 2 cards.",
     "art1": "Poetry.png",
     "title2": "Candy",
-    "rules2": "Draw 2 cards: Equip one, Discard the other. Return an Equipped card.",
+    "rules2": "Draw 2 cards: Equip 1, Discard the other. Return an Equipped card.",
     "art2": "Candy.png"
   },
   {
-    "name": "0.5",
+    "number": "5", "name": "0.5",
     "orientation": "vertical",
     "color": "Red.png",
     "title1": "Poetry",
     "rules1": "Draw 2 cards. Return 2 cards.",
     "art1": "Poetry.png",
     "title2": "Ring",
-    "rules2": "You and a player each pick one of your cards. Trade the chosen cards.",
+    "rules2": "You and a player each select and trade a card.",
     "art2": "Ring.png"
   },
   {
-    "name": "0.6",
+    "number": "6", "name": "0.6",
     "orientation": "vertical",
     "color": "Red.png",
     "title1": "Candy",
-    "rules1": "Draw 2 cards: Equip one, Discard the other. Return an Equipped card.",
+    "rules1": "Draw 2 cards: Equip 1, Discard the other. Return an Equipped card.",
     "art1": "Candy.png",
     "title2": "Ring",
-    "rules2": "You and a player each pick one of your cards. Trade the chosen cards.",
+    "rules2": "You and a player each select and trade a card.",
     "art2": "Ring.png"
   },
-
-
   {
-    "name": "1.1",
+    "number": "7", "name": "1.1",
     "orientation": "vertical",
     "color": "Blue.png",
     "title1": "Map",
-    "rules1": "Rotate one or two of your Equipment cards.",
+    "rules1": "Rotate 1 or 2 of your Equipment cards.",
     "art1": "Map.png",
     "title2": "Disguise",
     "rules2": "Draw a card. Discard a card.",
     "art2": "Disguise.png"
   },
   {
-    "name": "1.2",
+    "number": "8", "name": "1.2",
     "orientation": "vertical",
     "color": "Blue.png",
     "title1": "Map",
-    "rules1": "Rotate one or two of your Equipment cards.",
+    "rules1": "Rotate 1 or 2 of your Equipment cards.",
     "art1": "Map.png",
     "title2": "Gun",
     "rules2": "Look at the top 2 cards of a deck. Return or Discard them.",
     "art2": "Gun.png"
   },
   {
-    "name": "1.3",
+    "number": "9", "name": "1.3",
     "orientation": "vertical",
     "color": "Blue.png",
     "title1": "Map",
-    "rules1": "Rotate one or two of your Equipment cards.",
+    "rules1": "Rotate 1 or 2 of your Equipment cards.",
     "art1": "Map.png",
     "title2": "Armor",
-    "rules2": "Use an Item facing away from you. Its owner Returns and then draws a card.",
+    "rules2": "An opponent may score their revision for 1 point. Activate 1 of their Items facing them 2x.",
     "art2": "Armor.png"
   },
   {
-    "name": "1.4",
+    "number": "10", "name": "1.4",
     "orientation": "vertical",
     "color": "Blue.png",
     "title1": "Disguise",
@@ -112,75 +110,73 @@
     "art2": "Gun.png"
   },
   {
-    "name": "1.5",
+    "number": "11", "name": "1.5",
     "orientation": "vertical",
     "color": "Blue.png",
     "title1": "Disguise",
     "rules1": "Draw a card. Discard a card.",
     "art1": "Disguise.png",
     "title2": "Armor",
-    "rules2": "Use an Item facing away from you. Its owner Returns and then draws a card.",
+    "rules2": "An opponent may score their revision for 1 point. Activate 1 of their Items facing them 2x.",
     "art2": "Armor.png"
   },
   {
-    "name": "1.6",
+    "number": "12", "name": "1.6",
     "orientation": "vertical",
     "color": "Blue.png",
     "title1": "Gun",
     "rules1": "Look at the top 2 cards of a deck. Return or Discard them.",
     "art1": "Gun.png",
     "title2": "Armor",
-    "rules2": "Use an Item facing away from you. Its owner Returns and then draws a card.",
+    "rules2": "An opponent may score their revision for 1 point. Activate 1 of their Items facing them 2x.",
     "art2": "Armor.png"
   },
-
-
   {
-    "name": "2.1",
+    "number": "13", "name": "2.1",
     "orientation": "vertical",
     "color": "Yellow.png",
     "title1": "Keys",
-    "rules1": "Draw a card. Equip a card and activate it. Return an Equipped card.",
+    "rules1": "Draw a card. Return an Equipped card. Equip a card and activate it.",
     "art1": "Keys.png",
     "title2": "Phone",
     "rules2": "Discard 2 cards. Draw 2 cards.",
     "art2": "Phone.png"
   },
   {
-    "name": "2.2",
+    "number": "14", "name": "2.2",
     "orientation": "vertical",
     "color": "Yellow.png",
     "title1": "Keys",
-    "rules1": "Draw a card. Equip a card and activate it. Return an Equipped card.",
+    "rules1": "Draw a card. Return an Equipped card. Equip a card and activate it.",
     "art1": "Keys.png",
     "title2": "Wallet",
-    "rules2": "Rotate one of another player's cards.",
+    "rules2": "Rotate 1 of another player's Equipment.",
     "art2": "Wallet.png"
   },
   {
-    "name": "2.3",
+    "number": "15", "name": "2.3",
     "orientation": "vertical",
     "color": "Yellow.png",
     "title1": "Keys",
-    "rules1": "Draw a card. Equip a card and activate it. Return an Equipped card.",
+    "rules1": "Draw a card. Return an Equipped card. Equip a card and activate it.",
     "art1": "Keys.png",
     "title2": "Tickets",
     "rules2": "Look at the top 4 cards of a deck, Return them in any order.",
     "art2": "Tickets.png"
   },
   {
-    "name": "2.4",
+    "number": "16", "name": "2.4",
     "orientation": "vertical",
     "color": "Yellow.png",
     "title1": "Phone",
     "rules1": "Discard 2 cards. Draw 2 cards.",
     "art1": "Phone.png",
     "title2": "Wallet",
-    "rules2": "Rotate one of another player's cards.",
+    "rules2": "Rotate 1 of another player's Equipment.",
     "art2": "Wallet.png"
   },
   {
-    "name": "2.5",
+    "number": "17", "name": "2.5",
     "orientation": "vertical",
     "color": "Yellow.png",
     "title1": "Phone",
@@ -191,51 +187,51 @@
     "art2": "Tickets.png"
   },
   {
-    "name": "2.6",
+    "number": "18", "name": "2.6",
     "orientation": "vertical",
     "color": "Yellow.png",
     "title1": "Wallet",
-    "rules1": "Rotate one of another player's cards.",
+    "rules1": "Rotate 1 of another player's Equipment.",
     "art1": "Wallet.png",
     "title2": "Tickets",
     "rules2": "Look at the top 4 cards of a deck, Return them in any order.",
     "art2": "Tickets.png"
   },
   {
-    "name": "x0.1",
+    "number": "19", "name": "x0.1",
     "orientation": "vertical",
     "color": "Purple.png",
     "title1": "Tie",
-    "rules1": "Swap this card with the Paradox. Rotate a card that you own.",
+    "rules1": "Swap this card with the Paradox. Rotate 1 of your Equipment.",
     "art1": "Tie.png",
     "title2": "Resume",
     "rules2": "Look at 3 cards from a deck, Draw 1, Discard the rest, then Return 1 card.",
     "art2": "Resume.png"
   },
   {
-    "name": "x0.2",
+    "number": "20", "name": "x0.2",
     "orientation": "vertical",
     "color": "Purple.png",
     "title1": "Tie",
-    "rules1": "Swap this card with the Paradox. Rotate a card that you own.",
+    "rules1": "Swap this card with the Paradox. Rotate 1 of your Equipment.",
     "art1": "Tie.png",
     "title2": "Shoes",
     "rules2": "Score your revision for 1 point.",
     "art2": "Shoes.png"
   },
   {
-    "name": "x0.3",
+    "number": "21", "name": "x0.3",
     "orientation": "vertical",
     "color": "Purple.png",
     "title1": "Tie",
-    "rules1": "Swap this card with the Paradox. Rotate a card that you own.",
+    "rules1": "Swap this card with the Paradox. Rotate 1 of your Equipment.",
     "art1": "Tie.png",
     "title2": "Pen",
     "rules2": "Take a card from a player. That player takes a card from you.",
     "art2": "Pen.png"
   },
   {
-    "name": "x0.4",
+    "number": "22", "name": "x0.4",
     "orientation": "vertical",
     "color": "Purple.png",
     "title1": "Resume",
@@ -246,7 +242,7 @@
     "art2": "Shoes.png"
   },
   {
-    "name": "x0.5",
+    "number": "23", "name": "x0.5",
     "orientation": "vertical",
     "color": "Purple.png",
     "title1": "Resume",
@@ -257,7 +253,7 @@
     "art2": "Pen.png"
   },
   {
-    "name": "x0.6",
+    "number": "24", "name": "x0.6",
     "orientation": "vertical",
     "color": "Purple.png",
     "title1": "Shoes",
@@ -270,18 +266,18 @@
 
 
   {
-    "name": "x1.1",
+    "number": "25", "name": "x1.1",
     "orientation": "vertical",
     "color": "Orange.png",
     "title1": "Cutters",
-    "rules1": "Swap the top card of a deck with the Paradox. Rotate an Equipment.",
+    "rules1": "Swap the top card of a deck with the Paradox. Rotate any 1 Equipment.",
     "art1": "Cutters.png",
     "title2": "Paint",
     "rules2": "For each card in your Equipment: either Discard it and Draw a card, or Rotate it.",
     "art2": "Paint.png"
   },
   {
-    "name": "x1.2",
+    "number": "26", "name": "x1.2",
     "orientation": "vertical",
     "color": "Orange.png",
     "title1": "Cutters",
@@ -292,18 +288,18 @@
     "art2": "Syringe.png"
   },
   {
-    "name": "x1.3",
+    "number": "27", "name": "x1.3",
     "orientation": "vertical",
     "color": "Orange.png",
     "title1": "Cutters",
     "rules1": "Swap the top card of a deck with the Paradox. Rotate an Equipment.",
     "art1": "Cutters.png",
     "title2": "Handcuffs",
-    "rules2": "Use an Item facing you. Return and then Draw a card.",
+    "rules2": "Swap 2 cards scored for 1 point with another player's card scored for 2 points.",
     "art2": "Handcuffs.png"
   },
   {
-    "name": "x1.4",
+    "number": "28", "name": "x1.4",
     "orientation": "vertical",
     "color": "Orange.png",
     "title1": "Paint",
@@ -314,93 +310,93 @@
     "art2": "Syringe.png"
   },
   {
-    "name": "x1.5",
+    "number": "29", "name": "x1.5",
     "orientation": "vertical",
     "color": "Orange.png",
     "title1": "Paint",
     "rules1": "For each card in your Equipment: either Discard it and Draw a card, or Rotate it.",
     "art1": "Paint.png",
     "title2": "Handcuffs",
-    "rules2": "Use an Item facing you. Return and then Draw a card.",
+    "rules2": "Swap 2 cards scored for 1 point with another player's card scored for 2 points.",
     "art2": "Handcuffs.png"
   },
   {
-    "name": "x1.6",
+    "number": "30", "name": "x1.6",
     "orientation": "vertical",
     "color": "Orange.png",
     "title1": "Syringe",
     "rules1": "Return this card. its owner Draws 1 card. Swap a card with a player's Revision.",
     "art1": "Syringe.png",
     "title2": "Handcuffs",
-    "rules2": "Use an Item facing you. Return and then Draw a card.",
+    "rules2": "Swap 2 cards scored for 1 point with another player's card scored for 2 points.",
     "art2": "Handcuffs.png"
   },
 
 
   {
-    "name": "x2.1",
+    "number": "31", "name": "x2.1",
     "orientation": "vertical",
     "color": "Green.png",
     "title1": "Tent",
-    "rules1": "Discard an Equipped card. Equip a card and activate it. Draw a card.",
+    "rules1": "Discard an Equipped card. Draw a card. Equip a card and activate it.",
     "art1": "Tent.png",
     "title2": "Hatchet",
     "rules2": "Rotate all Equipment. Discard a card. Draw a card.",
     "art2": "Hatchet.png"
   },
   {
-    "name": "x2.2",
+    "number": "32", "name": "x2.2",
     "orientation": "vertical",
     "color": "Green.png",
     "title1": "Tent",
-    "rules1": "Discard an Equipped card. Equip a card and activate it. Draw a card.",
+    "rules1": "Discard an Equipped card. Draw a card. Equip a card and activate it.",
     "art1": "Tent.png",
     "title2": "Matches",
-    "rules2": "Score the Paradox for 2. This replaces it (face Matches out). Draw a card.",
+    "rules2": "Re-score for 2 points a card that you have scored for 1 point.",
     "art2": "Matches.png"
   },
   {
-    "name": "x2.3",
+    "number": "33", "name": "x2.3",
     "orientation": "vertical",
     "color": "Green.png",
     "title1": "Tent",
-    "rules1": "Discard an Equipped card. Equip a card and activate it. Draw a card.",
+    "rules1": "Discard an Equipped card. Draw a card. Equip a card and activate it.",
     "art1": "Tent.png",
     "title2": "Rope",
-    "rules2": "Look at an entire deck. Return it in the same order.",
+    "rules2": "Swap any card scored for 1 point with the Paradox.",
     "art2": "Rope.png"
   },
   {
-    "name": "x2.4",
+    "number": "34", "name": "x2.4",
     "orientation": "vertical",
     "color": "Green.png",
     "title1": "Hatchet",
     "rules1": "Rotate all Equipment. Discard a card. Draw a card.",
     "art1": "Hatchet.png",
     "title2": "Matches",
-    "rules2": "Score the Paradox for 2. This replaces it (face Matches out). Draw a card.",
+    "rules2": "Re-score for 2 points a card that you have scored for 1 point.",
     "art2": "Matches.png"
   },
   {
-    "name": "x2.5",
+    "number": "35", "name": "x2.5",
     "orientation": "vertical",
     "color": "Green.png",
     "title1": "Hatchet",
     "rules1": "Rotate all Equipment. Discard a card. Draw a card.",
     "art1": "Hatchet.png",
     "title2": "Rope",
-    "rules2": "Look at an entire deck. Return it in the same order.",
+    "rules2": "Swap any card scored for 1 point with the Paradox.",
     "art2": "Rope.png"
   },
   {
-    "name": "x2.6",
+    "number": "36", "name": "x2.6",
     "orientation": "vertical",
     "color": "Green.png",
     "title1": "Matches",
-    "rules1": "Score the Paradox for 2. This replaces it (face Matches out). Draw a card.",
+    "rules1": "Re-score for 2 points a card that you have scored for 1 point.",
     "art1": "Matches.png",
     "title2": "Rope",
-    "rules2": "Look at an entire deck. Return it in the same order.",
+    "rules2": "Swap any card scored for 1 point with the Paradox.",
     "art2": "Rope.png"
   }
 ]
