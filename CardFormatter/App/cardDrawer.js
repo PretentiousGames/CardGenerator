@@ -1,5 +1,110 @@
 ﻿//The cardformatter namespace
 (function () {
+    var enumerate = function () {
+        var values = {};
+        var level = 0;
+        var currentLevel = [{
+            level: level,
+            savagery: 0,
+            technology: 0,
+            chaos: 0
+        }];
+        var nextLevel = [];
+
+        values["000"] = currentLevel[0];
+        while (currentLevel.length > 0) {
+            for (var i = 0; i < currentLevel.length; i++) {
+                var current = currentLevel[i];
+                console.log("", current.level, ":[", current.savagery, ",", current.technology, ",", current.chaos, "]");
+                var adding = null;
+
+                var pushIfNotAlreadyThere = function (val) {
+                    var id = "" + val.savagery + val.technology + val.chaos;
+                    if (!values[id]) {
+                        nextLevel.push(val);
+                        values[id] = val;
+                    }
+                };
+
+                var maxNumber = 6;
+                var minNumber = level - ((maxNumber + 2) / 2);
+                var isSafe = function (val) {
+                    return val.savagery <= maxNumber
+                        && val.technology <= maxNumber
+                        && val.chaos <= maxNumber
+                        && val.savagery > minNumber
+                        && val.technology > minNumber
+                        && val.chaos > minNumber;
+                };
+
+                if (level < 1 || level > 11) {
+                    adding = {
+                        level: current.level + 1,
+                        savagery: current.savagery + 2,
+                        technology: current.technology,
+                        chaos: current.chaos
+                    };
+                    if (isSafe(adding)) {
+                        pushIfNotAlreadyThere(adding);
+                    }
+                    adding = {
+                        level: current.level + 1,
+                        savagery: current.savagery,
+                        technology: current.technology + 2,
+                        chaos: current.chaos
+                    }
+                    if (isSafe(adding)) {
+                        pushIfNotAlreadyThere(adding);
+                    }
+                    adding = {
+                        level: current.level + 1,
+                        savagery: current.savagery,
+                        technology: current.technology,
+                        chaos: current.chaos + 2
+                    };
+                    if (isSafe(adding)) {
+                        pushIfNotAlreadyThere(adding);
+                    }
+                }
+
+                adding = {
+                    level: current.level + 1,
+                    savagery: current.savagery + 1,
+                    technology: current.technology + 1,
+                    chaos: current.chaos
+                };
+                if (isSafe(adding)) {
+                    pushIfNotAlreadyThere(adding);
+                }
+                adding = {
+                    level: current.level + 1,
+                    savagery: current.savagery + 1,
+                    technology: current.technology,
+                    chaos: current.chaos + 1
+                };
+                if (isSafe(adding)) {
+                    pushIfNotAlreadyThere(adding);
+                }
+                adding = {
+                    level: current.level + 1,
+                    savagery: current.savagery,
+                    technology: current.technology + 1,
+                    chaos: current.chaos + 1
+                };
+                if (isSafe(adding)) {
+                    pushIfNotAlreadyThere(adding);
+                }
+            }
+            var tempLevel = currentLevel;
+            currentLevel = nextLevel;
+            nextLevel = tempLevel;
+            nextLevel.length = 0;
+            level++;
+        }
+        debugger;
+    }
+    //enumerate();
+
     var debug = false;
     var cardFormatter = window.cardFormatter || {};
     window.cardFormatter = cardFormatter;
@@ -395,7 +500,7 @@
                         setStyles(testWord.styles);
 
                         var wordFontObj = testWord.styles.font ? _.where(fonts, { name: testWord.styles.font.toLocaleLowerCase() })[0].font : fontObj;
-                        
+
                         var measure;
                         if (testWord.imageFile) {
                             var allottedHeight = fontSize * (testWord.relativeFontSize || 1) * (1 - testWord.yPadding);
@@ -491,7 +596,7 @@
                     var wx = getWordX(sizeOffset);
                     l.words.forEach(function (w) {
                         if (w.imageFile) {
-                            wx += w.text === ' ' && justification === 'full' ? extraXOffset : 0;                        
+                            wx += w.text === ' ' && justification === 'full' ? extraXOffset : 0;
                             cardFormatter.drawer.drawImage({
                                 name: w.imageFile,
                                 rotate: w.styles.rotate,
