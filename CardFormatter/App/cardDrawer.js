@@ -1,110 +1,5 @@
 ﻿//The cardformatter namespace
 (function () {
-    var enumerate = function () {
-        var values = {};
-        var level = 0;
-        var currentLevel = [{
-            level: level,
-            savagery: 0,
-            technology: 0,
-            chaos: 0
-        }];
-        var nextLevel = [];
-
-        values["000"] = currentLevel[0];
-        while (currentLevel.length > 0) {
-            for (var i = 0; i < currentLevel.length; i++) {
-                var current = currentLevel[i];
-                console.log("", current.level, ":[", current.savagery, ",", current.technology, ",", current.chaos, "]");
-                var adding = null;
-
-                var pushIfNotAlreadyThere = function (val) {
-                    var id = "" + val.savagery + val.technology + val.chaos;
-                    if (!values[id]) {
-                        nextLevel.push(val);
-                        values[id] = val;
-                    }
-                };
-
-                var maxNumber = 6;
-                var minNumber = level - ((maxNumber + 2) / 2);
-                var isSafe = function (val) {
-                    return val.savagery <= maxNumber
-                        && val.technology <= maxNumber
-                        && val.chaos <= maxNumber
-                        && val.savagery > minNumber
-                        && val.technology > minNumber
-                        && val.chaos > minNumber;
-                };
-
-                if (level < 1 || level > 11) {
-                    adding = {
-                        level: current.level + 1,
-                        savagery: current.savagery + 2,
-                        technology: current.technology,
-                        chaos: current.chaos
-                    };
-                    if (isSafe(adding)) {
-                        pushIfNotAlreadyThere(adding);
-                    }
-                    adding = {
-                        level: current.level + 1,
-                        savagery: current.savagery,
-                        technology: current.technology + 2,
-                        chaos: current.chaos
-                    }
-                    if (isSafe(adding)) {
-                        pushIfNotAlreadyThere(adding);
-                    }
-                    adding = {
-                        level: current.level + 1,
-                        savagery: current.savagery,
-                        technology: current.technology,
-                        chaos: current.chaos + 2
-                    };
-                    if (isSafe(adding)) {
-                        pushIfNotAlreadyThere(adding);
-                    }
-                }
-
-                adding = {
-                    level: current.level + 1,
-                    savagery: current.savagery + 1,
-                    technology: current.technology + 1,
-                    chaos: current.chaos
-                };
-                if (isSafe(adding)) {
-                    pushIfNotAlreadyThere(adding);
-                }
-                adding = {
-                    level: current.level + 1,
-                    savagery: current.savagery + 1,
-                    technology: current.technology,
-                    chaos: current.chaos + 1
-                };
-                if (isSafe(adding)) {
-                    pushIfNotAlreadyThere(adding);
-                }
-                adding = {
-                    level: current.level + 1,
-                    savagery: current.savagery,
-                    technology: current.technology + 1,
-                    chaos: current.chaos + 1
-                };
-                if (isSafe(adding)) {
-                    pushIfNotAlreadyThere(adding);
-                }
-            }
-            var tempLevel = currentLevel;
-            currentLevel = nextLevel;
-            nextLevel = tempLevel;
-            nextLevel.length = 0;
-            level++;
-        }
-        debugger;
-    }
-    //enumerate();
-
     var debug = false;
     var cardFormatter = window.cardFormatter || {};
     window.cardFormatter = cardFormatter;
@@ -252,10 +147,22 @@
                         .filter(function (e) { return e.name === element.styles.array })
                         .each(function (e) {
                             element.styles = _.extend({}, e.styles, element.styles);
-                            element.styles.x = e.styles.x + (e.styles.orientation === "horizontal" ? (e.count * e.styles.itemWidth) : 0);
-                            element.styles.y = e.styles.y + (e.styles.orientation !== "horizontal" ? (e.count * e.styles.itemHeight) : 0);
-                            element.styles.xSize = e.styles.orientation === "horizontal" ? e.styles.itemWidth : e.styles.xSize;
-                            element.styles.ySize = e.styles.orientation !== "horizontal" ? e.styles.itemHeight : e.styles.ySize;
+                            if (e.styles.direction) {
+                                element.styles.x = e.styles.x
+                                    + ((e.styles.direction === "right" ? (e.count * e.styles.itemWidth) : 0))
+                                    - ((e.styles.direction === "left" ? (e.count * e.styles.itemWidth) : 0));
+                                element.styles.y = e.styles.y
+                                    + ((e.styles.direction === "down" ? (e.count * e.styles.itemHeight) : 0))
+                                    - ((e.styles.direction === "up" ? (e.count * e.styles.itemHeight) : 0));
+                                element.styles.xSize = e.styles.xSize;
+                                element.styles.ySize = e.styles.ySize;
+                            }
+                            else if (e.styles.orientation) {
+                                element.styles.x = e.styles.x + ((e.styles.orientation === "horizontal" ? (e.count * e.styles.itemWidth) : 0));
+                                element.styles.y = e.styles.y + ((e.styles.orientation !== "horizontal" ? (e.count * e.styles.itemHeight) : 0));
+                                element.styles.xSize = e.styles.orientation === "horizontal" ? e.styles.itemWidth : e.styles.xSize;
+                                element.styles.ySize = e.styles.orientation !== "horizontal" ? e.styles.itemHeight : e.styles.ySize;
+                            }
                             e.count++;
                         });
                 }
