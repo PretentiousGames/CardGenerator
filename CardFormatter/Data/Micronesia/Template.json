@@ -295,7 +295,8 @@
         "y": 235,
         "xSize": 130,
         "ySize": 355,
-        "fillStyle": "#9B9BDE"
+        "fillStyle": "#9B9BDE",
+        "lineHeight": 0.8
       }
     },
     {
@@ -306,7 +307,8 @@
         "y": 235,
         "xSize": 130,
         "ySize": 355,
-        "fillStyle": "#9B9BDE"
+        "fillStyle": "#9B9BDE",
+        "lineHeight":  0.8
       }
     },
     {
