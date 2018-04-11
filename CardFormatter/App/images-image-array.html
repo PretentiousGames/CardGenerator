@@ -37,7 +37,8 @@
                 var groupings = [];
                 var grouping = newGrouping();
                 var row = [];
-                _.each(images, function(image, i) {
+                images = _.sortBy(images, function(image) { return image.name; });
+                _.each(images, function (image, i) {
                     row.push(image);
                     if (row.length === x) {
                         grouping.rows.push(row);
