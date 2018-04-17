@@ -319,6 +319,10 @@
         };
 
         var drawText = function (canvas, context, fonts, obj) {
+            if (!obj) {
+                debugger;
+                return;
+            }
             var styles = obj.getMergedStyles();
             var justification = styles.justification || 'left';
             var alignment = styles.alignment || 'top';
