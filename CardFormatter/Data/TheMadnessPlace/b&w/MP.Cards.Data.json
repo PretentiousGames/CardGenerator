@@ -1,0 +1,1528 @@
+﻿[
+  {
+    "orientation": "vertical",
+    "subtitle": "Room",
+    "name": "room.back",
+    "type": "Back"
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Great Generator",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "GreatGenerator.png",
+    "1ReqCount": "4",
+    "1Req": { "constant": "electricalRequirementImage" },
+    "2ReqCount": "4",
+    "2Req": { "constant": "mechanicalRequirementImage" },
+    "3ReqCount": "4",
+    "3Req": { "constant": "chemicalRequirementImage" },
+    "4ReqCount": "4",
+    "4Req": { "constant": "steamRequirementImage" },
+    "points": "7",
+    "ability": [
+      "3",
+      { "constant": "anyImage" },
+      { "constant": "arrowImage" },
+      "Gain 6",
+      { "constant": "anyImage" },
+      "."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Singularity",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "Singularity.png",
+    "1ReqCount": "7",
+    "1Req": { "constant": "timeRequirementImage" },
+    "activateCost": { "constant": "madScientist" },
+    "points": "7",
+    "ability": [
+      "Move your Mad Scientist to this card at the start of each turn."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "Drusella's Secret Laboratory",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "SecretLab.png",
+    "1ReqCount": "3",
+    "1Req": { "constant": "electricalRequirementImage" },
+    "2ReqCount": "3",
+    "2Req": { "constant": "mechanicalRequirementImage" },
+    "3ReqCount": "3",
+    "3Req": { "constant": "chemicalRequirementImage" },
+    "4ReqCount": "3",
+    "4Req": { "constant": "steamRequirementImage" },
+    "points": "6",
+    "ability": [
+      "All rooms cost -1 ",
+      { "constant": "anyImage" },
+      " for you to repair (minimum 0)."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Madness Place",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "Madness.png",
+    "1ReqCount": "18",
+    "1Req": { "constant": "wildRequirementImage" },
+    "activateCost": { "constant": "madScientist" },
+    "points": "6",
+    "ability": [
+      "n",
+      { "constant": "anyImage" },
+      { "constant": "arrowImage" },
+      "Play n parts you own to create a new device (minimum 3)."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "Monster General's Castle HQ",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "HQ.png",
+    "1ReqCount": "13",
+    "1Req": { "constant": "mechanicalRequirementImage" },
+    "points": "5",
+    "ability": [
+      "All rooms cost -1 ",
+      { "constant": "mechanicalImage" },
+      " for you to repair (minimum 0)."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "Seraglio of Minotarus Arronax",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "seraglio.png",
+    "1ReqCount": "13",
+    "1Req": { "constant": "electricalRequirementImage" },
+    "points": "5",
+    "ability": [
+      "All rooms cost -1",
+      { "constant": "electricalImage" },
+      " for you to repair (minimum 0)."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "Brisco Arronax's personal kitchen",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "kitchen.png",
+    "1ReqCount": "13",
+    "1Req": { "constant": "steamRequirementImage" },
+    "points": "5",
+    "ability": [
+      "All rooms cost -1",
+      { "constant": "steamImage" },
+      " for you to repair (minimum 0)."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "Blaylock Arronax's bathroom",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "bathroom.png",
+    "1ReqCount": "13",
+    "1Req": { "constant": "chemicalRequirementImage" },
+    "points": "5",
+    "ability": [
+      "All rooms cost -1",
+      { "constant": "chemicalImage" },
+      " for you to repair (minimum 0)."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "Chapel of Teeth",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "teeth.png",
+    "1ReqCount": "7",
+    "1Req": { "constant": "electricalRequirementImage" },
+    "points": "3",
+    "ability": [
+      { "constant": "mechanicalImage" },
+      { "constant": "arrowImage" },
+      "Return a device you own to your hand."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "Harem Quarters",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "harem.png",
+    "1ReqCount": "7",
+    "1Req": { "constant": "mechanicalRequirementImage" },
+    "points": "3",
+    "ability": [
+      { "constant": "steamImage" },
+      { "constant": "arrowImage" },
+      "Return a device you own to your hand."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Master Library",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "library.png",
+    "1ReqCount": "7",
+    "1Req": { "constant": "steamRequirementImage" },
+    "points": "3",
+    "ability": [
+      { "constant": "chemicalImage" },
+      { "constant": "arrowImage" },
+      "Return a device you own to your hand."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "Octavia's Bell Tower",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "bell.png",
+    "1ReqCount": "7",
+    "1Req": { "constant": "chemicalRequirementImage" },
+    "points": "3",
+    "ability": [
+      { "constant": "electricalImage" },
+      { "constant": "arrowImage" },
+      "Return a device you own to your hand."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "Titor's Room",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "paradox.png",
+    "1ReqCount": "6",
+    "1Req": { "constant": "timeRequirementImage" },
+    "activateCost": { "constant": "madScientist" },
+    "points": "4",
+    "ability": [
+      "n",
+      { "constant": "timeImage" },
+      { "constant": "arrowImage" },
+      "Select n devices you own with minions on them and run each of them once."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "Erwin's Cattery",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "cattery.png",
+    "1ReqCount": "4",
+    "1Req": { "constant": "timeRequirementImage" },
+    "activateCost": { "constant": "madScientist" },
+    "points": "3",
+    "ability": [
+      "n",
+      { "constant": "timeImage" },
+      { "constant": "arrowImage" },
+      "Select n devices you own with minions on them and run each of them once."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Ingenious Paradox",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "paradox.png",
+    "1ReqCount": "3",
+    "1Req": { "constant": "timeRequirementImage" },
+    "activateCost": { "constant": "madScientist" },
+    "points": "2",
+    "ability": [
+      "n",
+      { "constant": "timeImage" },
+      { "constant": "arrowImage" },
+      "Select n devices you own with minions on them and run each of them once."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "Wells' Grotto",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "paradox.png",
+    "1ReqCount": "2",
+    "1Req": { "constant": "timeRequirementImage" },
+    "activateCost": { "constant": "madScientist" },
+    "points": "1",
+    "ability": [
+      "n",
+      { "constant": "timeImage" },
+      { "constant": "arrowImage" },
+      "Select n devices you own with minions on them and run each of them once."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "Lead Room",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "lead.png",
+    "1ReqCount": "5",
+    "1Req": { "constant": "electricalRequirementImage" },
+    "points": "2",
+    "ability": [
+      "2n",
+      { "constant": "chemicalImage" },
+      { "constant": "arrowImage" },
+      "Take n parts from the heap."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "Torture Room",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "torture.png",
+    "1ReqCount": "5",
+    "1Req": { "constant": "mechanicalRequirementImage" },
+    "points": "2",
+    "ability": [
+      "2n",
+      { "constant": "electricalImage" },
+      { "constant": "arrowImage" },
+      "Take n parts from the heap."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "Tower of Heptagons",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "heptagons.png",
+    "1ReqCount": "5",
+    "1Req": { "constant": "steamRequirementImage" },
+    "points": "2",
+    "ability": [
+      "2n",
+      { "constant": "mechanicalImage" },
+      { "constant": "arrowImage" },
+      "Take n parts from the heap."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "Violetta Arronax's Apiary",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "apiary.png",
+    "1ReqCount": "5",
+    "1Req": { "constant": "chemicalRequirementImage" },
+    "points": "2",
+    "ability": [
+      "2n",
+      { "constant": "steamImage" },
+      { "constant": "arrowImage" },
+      "Take n parts from the heap."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "Alexia Arronax's Dining Room",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "diningRoom.png",
+    "1ReqCount": "4",
+    "1Req": { "constant": "electricalRequirementImage" },
+    "2ReqCount": "4",
+    "2Req": { "constant": "mechanicalRequirementImage" },
+    "points": "4",
+    "ability": [
+      { "constant": "steamImage" },
+      { "constant": "arrowImage" },
+      "Give this energy to an opponent to activate their device using your mad scientist."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "Greenish-Blue Gate",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "greenblue.png",
+    "1ReqCount": "4",
+    "1Req": { "constant": "steamRequirementImage" },
+    "2ReqCount": "4",
+    "2Req": { "constant": "electricalRequirementImage" },
+    "points": "4",
+    "ability": [
+      { "constant": "chemicalImage" },
+      { "constant": "arrowImage" },
+      "Give this energy to an opponent to activate their device using your mad scientist."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "Corridor of Feet",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "feet.png",
+    "1ReqCount": "4",
+    "1Req": { "constant": "chemicalRequirementImage" },
+    "2ReqCount": "4",
+    "2Req": { "constant": "mechanicalRequirementImage" },
+    "points": "4",
+    "ability": [
+      { "constant": "electricalImage" },
+      { "constant": "arrowImage" },
+      "Give this energy to an opponent to activate their device using your mad scientist."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "Corridor of Smells",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "smells.png",
+    "1ReqCount": "4",
+    "1Req": { "constant": "chemicalRequirementImage" },
+    "2ReqCount": "4",
+    "2Req": { "constant": "steamRequirementImage" },
+    "points": "4",
+    "ability": [
+      { "constant": "mechanicalImage" },
+      { "constant": "arrowImage" },
+      "Give this energy to an opponent to activate their device using your mad scientist."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Prisoner's Dilemma",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "prisoners.png",
+    "1ReqCount": "1",
+    "1Req": { "constant": "minionRequirementImage" },
+    "points": "1",
+    "ability": [
+      { "constant": "freeImage" },
+      { "constant": "arrowImage" },
+      "Discard a minion for 3 energy of your choice."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "Hobbesian Trap",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "prisoners.png",
+    "1ReqCount": "2",
+    "1Req": { "constant": "minionRequirementImage" },
+    "points": "2",
+    "ability": [
+      { "constant": "freeImage" },
+      { "constant": "arrowImage" },
+      "Discard a minion for 3 energy of your choice."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Nursery",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "prisoners.png",
+    "1ReqCount": "3",
+    "1Req": { "constant": "minionRequirementImage" },
+    "points": "3",
+    "ability": [
+      { "constant": "freeImage" },
+      { "constant": "arrowImage" },
+      "Discard a minion for 3 energy of your choice."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Stack Overflow",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "ambiguous.png",
+    "1ReqCount": "13",
+    "1Req": { "constant": "wildRequirementImage" },
+    "activateCost": { "constant": "madScientist" },
+    "points": "4",
+    "ability": [
+      { "constant": "freeImage" },
+      { "constant": "arrowImage" },
+      "create a converter."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Ambiguous Reference",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "ambiguous.png",
+    "1ReqCount": "10",
+    "1Req": { "constant": "wildRequirementImage" },
+    "activateCost": { "constant": "madScientist" },
+    "points": "3",
+    "ability": [
+      { "constant": "freeImage" },
+      { "constant": "arrowImage" },
+      "create a converter."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Abandoned Mutex",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "mutex.png",
+    "1ReqCount": "7",
+    "1Req": { "constant": "wildRequirementImage" },
+    "activateCost": { "constant": "madScientist" },
+    "points": "2",
+    "ability": [
+      { "constant": "freeImage" },
+      { "constant": "arrowImage" },
+      "create a converter."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Invalid Operation",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "null.png",
+    "1ReqCount": "5",
+    "1Req": { "constant": "wildRequirementImage" },
+    "activateCost": { "constant": "madScientist" },
+    "points": "1",
+    "ability": [
+      { "constant": "freeImage" },
+      { "constant": "arrowImage" },
+      "create a converter."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Green Hall",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "green.png",
+    "1ReqCount": "4",
+    "1Req": { "constant": "mechanicalRequirementImage" },
+    "2ReqCount": "4",
+    "2Req": { "constant": "steamRequirementImage" },
+    "points": "4",
+    "activateCost": { "constant": "madScientist" },
+    "ability": [
+      "3",
+      { "constant": "chemicalImage" },
+      { "constant": "arrowImage" },
+      "Swap any two parts you own, then balance any affected devices."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Blue Hall",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "blue.png",
+    "1ReqCount": "4",
+    "1Req": { "constant": "electricalRequirementImage" },
+    "2ReqCount": "4",
+    "2Req": { "constant": "chemicalRequirementImage" },
+    "points": "4",
+    "activateCost": { "constant": "madScientist" },
+    "ability": [
+      "3",
+      { "constant": "mechanicalImage" },
+      { "constant": "arrowImage" },
+      "Swap any two parts you own, then balance any affected devices."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Red Hall",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "red.png",
+    "1ReqCount": "2",
+    "1Req": { "constant": "electricalRequirementImage" },
+    "2ReqCount": "2",
+    "2Req": { "constant": "mechanicalRequirementImage" },
+    "points": "2",
+    "activateCost": { "constant": "madScientist" },
+    "ability": [
+      "3",
+      { "constant": "steamImage" },
+      { "constant": "arrowImage" },
+      "Swap any two parts you own, then balance any affected devices."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Yellow Hall",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "yellow.png",
+    "1ReqCount": "2",
+    "1Req": { "constant": "chemicalRequirementImage" },
+    "2ReqCount": "2",
+    "2Req": { "constant": "steamRequirementImage" },
+    "points": "2",
+    "activateCost": { "constant": "madScientist" },
+    "ability": [
+      "3",
+      { "constant": "electricalImage" },
+      { "constant": "arrowImage" },
+      "Swap any two parts you own, then balance any affected devices."
+    ]
+  },
+
+  {
+    "orientation": "vertical",
+    "subtitle": "StartRoom",
+    "name": "start.room.back",
+    "type": "Back"
+  },
+
+  {
+    "orientation": "vertical",
+    "name": "The Gallery of Trilobites",
+    "type": "StartRoom",
+    "fileNamePrefix": "1.Room.0.1",
+    "art": "Sickness.png",
+    "1ReqCount": "3",
+    "1Req": { "constant": "electricalRequirementImage" },
+    "points": "1",
+    "activateCost": { "constant": "madScientist" },
+    "ability": [
+      { "constant": "steamImage" },
+      { "constant": "arrowImage" },
+      "A device you own gains a level"
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Gallery of Trilobites",
+    "type": "StartRoom",
+    "fileNamePrefix": "1.Room.0.2",
+    "art": "blink.png",
+    "1ReqCount": "3",
+    "1Req": { "constant": "mechanicalRequirementImage" },
+    "points": "1",
+    "activateCost": { "constant": "madScientist" },
+    "ability": [
+      { "constant": "electricalImage" },
+      { "constant": "arrowImage" },
+      "A device you own gains a level"
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Gallery of Trilobites",
+    "type": "StartRoom",
+    "fileNamePrefix": "1.Room.0.3",
+    "art": "mustard.png",
+    "1ReqCount": "3",
+    "1Req": { "constant": "chemicalRequirementImage" },
+    "points": "1",
+    "activateCost": { "constant": "madScientist" },
+    "ability": [
+      { "constant": "mechanicalImage" },
+      { "constant": "arrowImage" },
+      "A device you own gains a level"
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Gallery of Trilobites",
+    "type": "StartRoom",
+    "fileNamePrefix": "1.Room.0.4",
+    "art": "centralcontrol.png",
+    "1ReqCount": "3",
+    "1Req": { "constant": "steamRequirementImage" },
+    "points": "1",
+    "activateCost": { "constant": "madScientist" },
+    "ability": [
+      { "constant": "chemicalImage" },
+      { "constant": "arrowImage" },
+      "A device you own gains a level"
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Throne of Socrates Arronax",
+    "type": "StartRoom",
+    "fileNamePrefix": "1.Room.1.1",
+    "art": "throne.png",
+    "1ReqCount": "2",
+    "1Req": { "constant": "wildRequirementImage" },
+    "2ReqCount": "2",
+    "2Req": { "constant": "steamRequirementImage" },
+    "points": "1",
+    "activateCost": { "constant": "madScientist" },
+    "ability": [
+      { "constant": "electricalImage" },
+      { "constant": "arrowImage" },
+      "Add a part to a device you own then balance it."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Throne of Socrates Arronax",
+    "type": "StartRoom",
+    "fileNamePrefix": "1.Room.1.2",
+    "art": "bleu.png",
+    "1ReqCount": "2",
+    "1Req": { "constant": "wildRequirementImage" },
+    "2ReqCount": "2",
+    "2Req": { "constant": "electricalRequirementImage" },
+    "points": "1",
+    "activateCost": { "constant": "madScientist" },
+    "ability": [
+      { "constant": "mechanicalImage" },
+      { "constant": "arrowImage" },
+      "Add a part to a device you own then balance it."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Throne of Socrates Arronax",
+    "type": "StartRoom",
+    "fileNamePrefix": "1.Room.1.3",
+    "art": "hairy.png",
+    "1ReqCount": "2",
+    "1Req": { "constant": "wildRequirementImage" },
+    "2ReqCount": "2",
+    "2Req": { "constant": "mechanicalRequirementImage" },
+    "points": "1",
+    "activateCost": { "constant": "madScientist" },
+    "ability": [
+      { "constant": "chemicalImage" },
+      { "constant": "arrowImage" },
+      "Add a part to a device you own then balance it."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Throne of Socrates Arronax",
+    "type": "StartRoom",
+    "fileNamePrefix": "1.Room.1.4",
+    "art": "trilobites.png",
+    "1ReqCount": "2",
+    "1Req": { "constant": "wildRequirementImage" },
+    "2ReqCount": "2",
+    "2Req": { "constant": "chemicalRequirementImage" },
+    "points": "1",
+    "activateCost": { "constant": "madScientist" },
+    "ability": [
+      { "constant": "steamImage" },
+      { "constant": "arrowImage" },
+      "Add a part to a device you own then balance it."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Central Control Channel",
+    "type": "StartRoom",
+    "fileNamePrefix": "1.Room.2.1",
+    "art": "drums.png",
+    "1ReqCount": "2",
+    "1Req": { "constant": "electricalRequirementImage" },
+    "2ReqCount": "2",
+    "2Req": { "constant": "steamRequirementImage" },
+    "activateCost": { "constant": "madScientist" },
+    "points": "2",
+    "ability": [
+      { "constant": "chemicalImage" },
+      { "constant": "arrowImage" },
+      "Gain a minion. You may do this multiple times as 1 action, but the cost doubles each time."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Central Control Channel",
+    "type": "StartRoom",
+    "fileNamePrefix": "1.Room.2.2",
+    "art": "cyan.png",
+    "1ReqCount": "2",
+    "1Req": { "constant": "chemicalRequirementImage" },
+    "2ReqCount": "2",
+    "2Req": { "constant": "mechanicalRequirementImage" },
+    "activateCost": { "constant": "madScientist" },
+    "points": "2",
+    "ability": [
+      { "constant": "steamImage" },
+      { "constant": "arrowImage" },
+      "Gain a minion. You may do this multiple times as 1 action, but the cost doubles each time."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Central Control Channel",
+    "type": "StartRoom",
+    "fileNamePrefix": "1.Room.2.3",
+    "art": "anti.png",
+    "1ReqCount": "2",
+    "1Req": { "constant": "electricalRequirementImage" },
+    "2ReqCount": "2",
+    "2Req": { "constant": "chemicalRequirementImage" },
+    "activateCost": { "constant": "madScientist" },
+    "points": "2",
+    "ability": [
+      { "constant": "mechanicalImage" },
+      { "constant": "arrowImage" },
+      "Gain a minion. You may do this multiple times as 1 action, but the cost doubles each time."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Central Control Channel",
+    "type": "StartRoom",
+    "fileNamePrefix": "1.Room.2.4",
+    "art": "minaret.png",
+    "1ReqCount": "2",
+    "1Req": { "constant": "steamRequirementImage" },
+    "2ReqCount": "2",
+    "2Req": { "constant": "mechanicalRequirementImage" },
+    "activateCost": { "constant": "madScientist" },
+    "points": "2",
+    "ability": [
+      { "constant": "electricalImage" },
+      { "constant": "arrowImage" },
+      "Gain a minion. You may do this multiple times as 1 action, but the cost doubles each time."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Balance",
+    "type": "StartRoom",
+    "fileNamePrefix": "1.Room.3.1.",
+    "art": "minaret.png",
+    "ability": [
+      "This game, ",
+      { "constant": "steamImage" },
+      " is used to balance devices."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Balance",
+    "type": "StartRoom",
+    "fileNamePrefix": "1.Room.3.2.",
+    "art": "minaret.png",
+    "ability": [
+      "This game, ",
+      { "constant": "mechanicalImage" },
+      " is used to balance devices."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Balance",
+    "type": "StartRoom",
+    "fileNamePrefix": "1.Room.3.3.",
+    "art": "minaret.png",
+    "ability": [
+      "This game, ",
+      { "constant": "electricalImage" },
+      " is used to balance devices."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Balance",
+    "type": "StartRoom",
+    "fileNamePrefix": "1.Room.3.4.",
+    "art": "minaret.png",
+    "ability": [
+      "This game, ",
+      { "constant": "chemicalImage" },
+      " is used to balance devices."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Junk Room",
+    "type": "StartRoom",
+    "fileNamePrefix": "1.Room.4",
+    "art": "minaret.png",
+    "ability": [
+      { "constant": "freeImage" },
+      { "constant": "arrowImage" },
+      "Take a part from the heap."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Anomaly",
+    "type": "StartRoom",
+    "fileNamePrefix": "1.Room.4",
+    "art": "minaret.png",
+    "ability": [
+      { "constant": "timeImage" },
+      { "constant": "arrowImage" },
+      "Refresh a tired worker. Take another action."
+    ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "The Barracks",
+    "type": "StartRoom",
+    "fileNamePrefix": "1.Room.4",
+    "art": "minaret.png",
+    "ability": [
+      { "constant": "freeImage" },
+      { "constant": "arrowImage" },
+      "Refresh all your tired workers."
+    ]
+  },
+
+
+  {
+    "orientation": "vertical",
+    "subtitle": "Start Part",
+    "name": "0.back.sc",
+    "type": "Back"
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Heinlein device",
+    "subtitle": "Start Part",
+    "type": "Part",
+    "art": "heinlein.png",
+    "fileNamePrefix": "2.0",
+    "frontCost": [ { "constant": "timeImage" } ],
+    "frontEffects": [ { "constant": "steamImage" } ],
+    "level": [ "2" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Ulysses Engine",
+    "subtitle": "Start Part",
+    "type": "Part",
+    "art": "ulysses.png",
+    "fileNamePrefix": "2.1",
+    "frontCost": [ { "constant": "timeImage" } ],
+    "frontEffects": [ { "constant": "mechanicalImage" } ],
+    "level": [ "2" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Raivata Mechanism",
+    "subtitle": "Start Part",
+    "type": "Part",
+    "art": "raivata.png",
+    "fileNamePrefix": "2.2",
+    "frontCost": [ { "constant": "timeImage" } ],
+    "frontEffects": [ { "constant": "chemicalImage" } ],
+    "level": [ "2" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Seven Minute Boots",
+    "subtitle": "Start Part",
+    "type": "Part",
+    "art": "boots.png",
+    "fileNamePrefix": "2.3",
+    "frontCost": [ { "constant": "timeImage" } ],
+    "frontEffects": [ { "constant": "electricalImage" } ],
+    "level": [ "2" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Theophilus's Pot",
+    "subtitle": "Start Device",
+    "type": "Device",
+    "art": "heinlein.png",
+    "fileNamePrefix": "0.2.0",
+    "frontCost": [ { "constant": "mechanicalImage" } ],
+    "frontEffects": [ { "constant": "mechanicalImage" } ],
+    "level": [ "2" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "The Doctor's Gadget",
+    "subtitle": "Start Device",
+    "type": "Device",
+    "art": "ulysses.png",
+    "fileNamePrefix": "0.2.1",
+    "frontCost": [ { "constant": "chemicalImage" } ],
+    "frontEffects": [ { "constant": "chemicalImage" } ],
+    "level": [ "2" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Prof. Corbyn's Battery",
+    "subtitle": "Start Device",
+    "type": "Device",
+    "art": "raivata.png",
+    "fileNamePrefix": "0.2.2",
+    "frontCost": [ { "constant": "electricalImage" } ],
+    "frontEffects": [ { "constant": "electricalImage" } ],
+    "level": [ "2" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Wardean Shield",
+    "subtitle": "Start Device",
+    "type": "Device",
+    "art": "boots.png",
+    "fileNamePrefix": "0.2.3",
+    "frontCost": [ { "constant": "steamImage" } ],
+    "frontEffects": [ { "constant": "steamImage" } ],
+    "level": [ "2" ]
+  },
+  {
+    "orientation": "vertical",
+    "name": "0.back2",
+    "type": "Back"
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Nautilus-Bot",
+    "type": "Part",
+    "art": "nautilus.png",
+    "fileNamePrefix": "2.4",
+    "frontCost": [ { "constant": "timeImage" } ],
+    "frontEffects": [ { "constant": "steamImage" } ],
+    "level": [ "2" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Chrono-Bot",
+    "type": "Part",
+    "art": "chrono.png",
+    "fileNamePrefix": "2.5",
+    "frontCost": [ { "constant": "timeImage" } ],
+    "frontEffects": [ { "constant": "chemicalImage" } ],
+    "level": [ "2" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Hexivalic wave conductor",
+    "type": "Part",
+    "art": "hexivalic.png",
+    "fileNamePrefix": "2.6",
+    "frontCost": [ { "constant": "timeImage" } ],
+    "frontEffects": [ { "constant": "mechanicalImage" } ],
+    "level": [ "2" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Temporal Clacker",
+    "type": "Part",
+    "art": "temporal.png",
+    "fileNamePrefix": "2.7",
+    "frontCost": [ { "constant": "timeImage" } ],
+    "frontEffects": [ { "constant": "electricalImage" } ],
+    "level": [ "2" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Tok",
+    "type": "Part",
+    "art": "tok.png",
+    "fileNamePrefix": "2.8",
+    "frontCost": [ { "constant": "chemicalImage" } ],
+    "frontEffects": [ { "constant": "steamImage" } ],
+    "level": [ "2" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Baghdad Capacitor",
+    "type": "Part",
+    "art": "baghdad.png",
+    "fileNamePrefix": "2.9",
+    "frontCost": [ { "constant": "chemicalImage" } ],
+    "frontEffects": [ { "constant": "mechanicalImage" } ],
+    "level": [ "2" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Lightning Staff",
+    "type": "Part",
+    "art": "staff.png",
+    "fileNamePrefix": "2.10",
+    "frontCost": [ { "constant": "chemicalImage" } ],
+    "frontEffects": [ { "constant": "electricalImage" } ],
+    "level": [ "2" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Doppler wrench",
+    "type": "Part",
+    "art": "wrench.png",
+    "fileNamePrefix": "2.11",
+    "frontCost": [ { "constant": "steamImage" } ],
+    "frontEffects": [ { "constant": "chemicalImage" } ],
+    "level": [ "2" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Universal Constructor",
+    "type": "Part",
+    "art": "universal.png",
+    "fileNamePrefix": "2.12",
+    "frontCost": [ { "constant": "steamImage" } ],
+    "frontEffects": [ { "constant": "mechanicalImage" } ],
+    "level": [ "2" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Ionization Engine",
+    "type": "Part",
+    "art": "ionization.png",
+    "fileNamePrefix": "2.13",
+    "frontCost": [ { "constant": "steamImage" } ],
+    "frontEffects": [ { "constant": "electricalImage" } ],
+    "level": [ "2" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "TechnoBlivet",
+    "type": "Part",
+    "art": "blivet.png",
+    "fileNamePrefix": "2.14",
+    "frontCost": [ { "constant": "mechanicalImage" } ],
+    "frontEffects": [ { "constant": "chemicalImage" } ],
+    "level": [ "2" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Robot Builder",
+    "type": "Part",
+    "art": "builder.png",
+    "fileNamePrefix": "2.15",
+    "frontCost": [ { "constant": "mechanicalImage" } ],
+    "frontEffects": [ { "constant": "steamImage" } ],
+    "level": [ "2" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Pruning Bot",
+    "type": "Part",
+    "art": "pruning.png",
+    "fileNamePrefix": "2.16",
+    "frontCost": [ { "constant": "mechanicalImage" } ],
+    "frontEffects": [ { "constant": "electricalImage" } ],
+    "level": [ "2" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Loxodontia Muridae",
+    "type": "Part",
+    "art": "elephant.png",
+    "fileNamePrefix": "2.17",
+    "frontCost": [ { "constant": "electricalImage" } ],
+    "frontEffects": [ { "constant": "chemicalImage" } ],
+    "level": [ "2" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Pib",
+    "type": "Part",
+    "art": "pib.png",
+    "fileNamePrefix": "2.18",
+    "frontCost": [ { "constant": "electricalImage" } ],
+    "frontEffects": [ { "constant": "steamImage" } ],
+    "level": [ "2" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Bourgeoisie Bot",
+    "type": "Part",
+    "art": "bourgeoisie.png",
+    "fileNamePrefix": "2.19",
+    "frontCost": [ { "constant": "electricalImage" } ],
+    "frontEffects": [ { "constant": "mechanicalImage" } ],
+    "level": [ "2" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Chronometric Coupler",
+    "type": "Part",
+    "art": "coupler.png",
+    "fileNamePrefix": "2.20",
+    "frontCost": [ { "constant": "timeImage" } ],
+    "frontEffects": [ { "constant": "timeImage" } ],
+    "level": [ "3" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Tesseract",
+    "type": "Part",
+    "art": "tesseract.png",
+    "fileNamePrefix": "2.21",
+    "frontCost": [ { "constant": "timeImage" } ],
+    "frontEffects": [ { "constant": "timeImage" } ],
+    "level": [ "3" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Screamers",
+    "type": "Part",
+    "art": "screamers.png",
+    "fileNamePrefix": "2.22",
+    "frontCost": [ { "constant": "chemicalImage" } ],
+    "frontEffects": [ { "constant": "steamImage" } ],
+    "level": [ "3" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Gargantulus",
+    "type": "Part",
+    "art": "gargantulus.png",
+    "fileNamePrefix": "2.23",
+    "frontCost": [ { "constant": "chemicalImage" } ],
+    "frontEffects": [ { "constant": "mechanicalImage" } ],
+    "level": [ "3" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Pholiota Squarrosoides",
+    "type": "Part",
+    "art": "squarrosoides.png",
+    "fileNamePrefix": "2.24",
+    "frontCost": [ { "constant": "chemicalImage" } ],
+    "frontEffects": [ { "constant": "electricalImage" } ],
+    "level": [ "3" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Nisne wrench",
+    "type": "Part",
+    "art": "nisne.png",
+    "fileNamePrefix": "2.25",
+    "frontCost": [ { "constant": "steamImage" } ],
+    "frontEffects": [ { "constant": "chemicalImage" } ],
+    "level": [ "3" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Dingbat",
+    "type": "Part",
+    "art": "dingbot.png",
+    "fileNamePrefix": "2.26",
+    "frontCost": [ { "constant": "steamImage" } ],
+    "frontEffects": [ { "constant": "mechanicalImage" } ],
+    "level": [ "3" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Autonomous kinetic balancer",
+    "type": "Part",
+    "art": "balancer.png",
+    "fileNamePrefix": "2.27",
+    "frontCost": [ { "constant": "steamImage" } ],
+    "frontEffects": [ { "constant": "electricalImage" } ],
+    "level": [ "3" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Coffee Machine",
+    "type": "Part",
+    "art": "coffee.png",
+    "fileNamePrefix": "2.28",
+    "frontCost": [ { "constant": "mechanicalImage" } ],
+    "frontEffects": [ { "constant": "chemicalImage" } ],
+    "level": [ "3" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Psychotropic Spider",
+    "type": "Part",
+    "art": "psychotropic.png",
+    "fileNamePrefix": "2.29",
+    "frontCost": [ { "constant": "mechanicalImage" } ],
+    "frontEffects": [ { "constant": "steamImage" } ],
+    "level": [ "3" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Kinetic Accumulator",
+    "type": "Part",
+    "art": "hammer.png",
+    "fileNamePrefix": "2.30",
+    "frontCost": [ { "constant": "mechanicalImage" } ],
+    "frontEffects": [ { "constant": "electricalImage" } ],
+    "level": [ "3" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "One Way Staircase",
+    "type": "Part",
+    "art": "staircase.png",
+    "fileNamePrefix": "2.31",
+    "frontCost": [ { "constant": "electricalImage" } ],
+    "frontEffects": [ { "constant": "chemicalImage" } ],
+    "level": [ "3" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Deathmice",
+    "type": "Part",
+    "art": "rat.png",
+    "fileNamePrefix": "2.32",
+    "frontCost": [ { "constant": "electricalImage" } ],
+    "frontEffects": [ { "constant": "steamImage" } ],
+    "level": [ "3" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Antimemetic Weapon",
+    "type": "Part",
+    "art": "antimemetic.png",
+    "fileNamePrefix": "2.33",
+    "frontCost": [ { "constant": "electricalImage" } ],
+    "frontEffects": [ { "constant": "mechanicalImage" } ],
+    "level": [ "3" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Squidroach",
+    "type": "Part",
+    "art": "squidroach.png",
+    "fileNamePrefix": "2.34",
+    "frontCost": [ { "constant": "chemicalImage" } ],
+    "frontEffects": [ { "constant": "steamImage" } ],
+    "level": [ "4" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Lampman",
+    "type": "Part",
+    "art": "lamp.png",
+    "fileNamePrefix": "2.35",
+    "frontCost": [ { "constant": "chemicalImage" } ],
+    "frontEffects": [ { "constant": "mechanicalImage" } ],
+    "level": [ "4" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Ned",
+    "type": "Part",
+    "art": "ned.png",
+    "fileNamePrefix": "2.36",
+    "frontCost": [ { "constant": "chemicalImage" } ],
+    "frontEffects": [ { "constant": "electricalImage" } ],
+    "level": [ "4" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Nefarious Turbine",
+    "type": "Part",
+    "art": "turbine.png",
+    "fileNamePrefix": "2.37",
+    "frontCost": [ { "constant": "steamImage" } ],
+    "frontEffects": [ { "constant": "chemicalImage" } ],
+    "level": [ "4" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Apmool",
+    "type": "Part",
+    "art": "apmool.png",
+    "fileNamePrefix": "2.38",
+    "frontCost": [ { "constant": "steamImage" } ],
+    "frontEffects": [ { "constant": "mechanicalImage" } ],
+    "level": [ "4" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Gravity Engine",
+    "type": "Part",
+    "art": "gravity.png",
+    "fileNamePrefix": "2.39",
+    "frontCost": [ { "constant": "steamImage" } ],
+    "frontEffects": [ { "constant": "electricalImage" } ],
+    "level": [ "4" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "AutoCrammer",
+    "type": "Part",
+    "art": "autocrammer.png",
+    "fileNamePrefix": "2.40",
+    "frontCost": [ { "constant": "mechanicalImage" } ],
+    "frontEffects": [ { "constant": "chemicalImage" } ],
+    "level": [ "4" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Death ray",
+    "type": "Part",
+    "art": "deathray.png",
+    "fileNamePrefix": "2.41",
+    "frontCost": [ { "constant": "mechanicalImage" } ],
+    "frontEffects": [ { "constant": "steamImage" } ],
+    "level": [ "4" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Intelligent Rodents",
+    "type": "Part",
+    "art": "intelligentRodents.png",
+    "fileNamePrefix": "2.42",
+    "frontCost": [ { "constant": "mechanicalImage" } ],
+    "frontEffects": [ { "constant": "electricalImage" } ],
+    "level": [ "4" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Vampire-Pepper",
+    "type": "Part",
+    "art": "pepper.png",
+    "fileNamePrefix": "2.43",
+    "frontCost": [ { "constant": "electricalImage" } ],
+    "frontEffects": [ { "constant": "chemicalImage" } ],
+    "level": [ "4" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Birdbath",
+    "type": "Part",
+    "art": "birdbath.png",
+    "fileNamePrefix": "2.44",
+    "frontCost": [ { "constant": "electricalImage" } ],
+    "frontEffects": [ { "constant": "steamImage" } ],
+    "level": [ "4" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Abstract Device",
+    "type": "Part",
+    "art": "abstract.png",
+    "fileNamePrefix": "2.45",
+    "frontCost": [ { "constant": "electricalImage" } ],
+    "frontEffects": [ { "constant": "mechanicalImage" } ],
+    "level": [ "4" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Sergeant Ack",
+    "type": "Part",
+    "art": "ack.png",
+    "fileNamePrefix": "2.46",
+    "frontCost": [ { "constant": "chemicalImage" } ],
+    "frontEffects": [ { "constant": "timeImage" } ],
+    "level": [ "5" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Glowy green things",
+    "type": "Part",
+    "art": "glowy.png",
+    "fileNamePrefix": "2.47",
+    "frontCost": [ { "constant": "chemicalImage" } ],
+    "frontEffects": [ { "constant": "chemicalImage" } ],
+    "level": [ "5" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Brain in a Jar",
+    "type": "Part",
+    "art": "brain.png",
+    "fileNamePrefix": "2.48",
+    "frontCost": [ { "constant": "steamImage" } ],
+    "frontEffects": [ { "constant": "timeImage" } ],
+    "level": [ "5" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Vile Bagpipes",
+    "type": "Part",
+    "art": "bagpipes.png",
+    "fileNamePrefix": "2.49",
+    "frontCost": [ { "constant": "steamImage" } ],
+    "frontEffects": [ { "constant": "steamImage" } ],
+    "level": [ "5" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Humanoid Cat",
+    "type": "Part",
+    "art": "cat.png",
+    "fileNamePrefix": "2.50",
+    "frontCost": [ { "constant": "mechanicalImage" } ],
+    "frontEffects": [ { "constant": "timeImage" } ],
+    "level": [ "5" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Construction Bot",
+    "type": "Part",
+    "art": "construction.png",
+    "fileNamePrefix": "2.51",
+    "frontCost": [ { "constant": "mechanicalImage" } ],
+    "frontEffects": [ { "constant": "mechanicalImage" } ],
+    "level": [ "5" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Trenchcoat Generator",
+    "type": "Part",
+    "art": "trenchcoat.png",
+    "fileNamePrefix": "2.52",
+    "frontCost": [ { "constant": "electricalImage" } ],
+    "frontEffects": [ { "constant": "timeImage" } ],
+    "level": [ "5" ]
+  },
+  {
+    "orientation": "horizontal",
+    "name": "Syn Packet",
+    "type": "Part",
+    "art": "syn.png",
+    "fileNamePrefix": "2.53",
+    "frontCost": [ { "constant": "electricalImage" } ],
+    "frontEffects": [ { "constant": "electricalImage" } ],
+    "level": [ "5" ]
+  },
+  {
+    "orientation": "vertical",
+    "subtitle": "Character",
+    "name": "character.back",
+    "type": "Back"
+  },
+  {
+    "orientation": "vertical",
+    "name": "Dr. Cornelius",
+    "type": "PlayerMat",
+    "fileNamePrefix": "9.",
+    "art": "Character.4.png",
+    "color": { "constant": "chemicalImage" }
+  },
+  {
+    "orientation": "vertical",
+    "name": "Prof. Corbyn",
+    "type": "PlayerMat",
+    "fileNamePrefix": "9.",
+    "art": "Character.1.png",
+    "color": { "constant": "electricalImage" }
+  },
+  {
+    "orientation": "vertical",
+    "name": "Persephone Ward",
+    "type": "PlayerMat",
+    "fileNamePrefix": "9.",
+    "art": "Character.3.png",
+    "color": { "constant": "steamImage" }
+  },
+  {
+    "orientation": "vertical",
+    "name": "Theophilus Pott",
+    "type": "PlayerMat",
+    "fileNamePrefix": "9.",
+    "art": "Character.2.png",
+    "color": { "constant": "mechanicalImage" }
+  }
+]
