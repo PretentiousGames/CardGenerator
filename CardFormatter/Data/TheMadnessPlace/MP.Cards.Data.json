@@ -19,6 +19,7 @@
     "3Req": { "constant": "chemicalRequirementImage" },
     "4ReqCount": "4",
     "4Req": { "constant": "steamRequirementImage" },
+    "activateCost": { "constant": "madScientist" },
     "points": "7",
     "ability": [
       "3",
@@ -212,10 +213,12 @@
     "activateCost": { "constant": "madScientist" },
     "points": "4",
     "ability": [
-      "n",
+      "4",
       { "constant": "timeImage" },
       { "constant": "arrowImage" },
-      "Select n devices you own with minions on them and run each of them once."
+      "Take 2 more actions. You may not spend any more ",
+      { "constant": "timeImage" },
+      " this turn."
     ]
   },
   {
@@ -229,10 +232,12 @@
     "activateCost": { "constant": "madScientist" },
     "points": "3",
     "ability": [
-      "n",
+      "4",
       { "constant": "timeImage" },
       { "constant": "arrowImage" },
-      "Select n devices you own with minions on them and run each of them once."
+      "Take 2 more actions. You may not spend any more ",
+      { "constant": "timeImage" },
+      " this turn."
     ]
   },
   {
@@ -246,10 +251,12 @@
     "activateCost": { "constant": "madScientist" },
     "points": "2",
     "ability": [
-      "n",
+      "4",
       { "constant": "timeImage" },
       { "constant": "arrowImage" },
-      "Select n devices you own with minions on them and run each of them once."
+      "Take 2 more actions. You may not spend any more ",
+      { "constant": "timeImage" },
+      " this turn."
     ]
   },
   {
@@ -263,10 +270,12 @@
     "activateCost": { "constant": "madScientist" },
     "points": "1",
     "ability": [
-      "n",
+      "4",
       { "constant": "timeImage" },
       { "constant": "arrowImage" },
-      "Select n devices you own with minions on them and run each of them once."
+      "Take 2 more actions. You may not spend any more ",
+      { "constant": "timeImage" },
+      " this turn."
     ]
   },
   {
@@ -279,10 +288,10 @@
     "1Req": { "constant": "electricalRequirementImage" },
     "points": "2",
     "ability": [
-      "2n",
+      "n",
       { "constant": "chemicalImage" },
       { "constant": "arrowImage" },
-      "Take n parts from the heap."
+      "Add n parts to a device you own then balance it."
     ]
   },
   {
@@ -295,10 +304,10 @@
     "1Req": { "constant": "mechanicalRequirementImage" },
     "points": "2",
     "ability": [
-      "2n",
+      "n",
       { "constant": "electricalImage" },
       { "constant": "arrowImage" },
-      "Take n parts from the heap."
+      "Add n parts to a device you own then balance it."
     ]
   },
   {
@@ -311,10 +320,10 @@
     "1Req": { "constant": "steamRequirementImage" },
     "points": "2",
     "ability": [
-      "2n",
+      "n",
       { "constant": "mechanicalImage" },
       { "constant": "arrowImage" },
-      "Take n parts from the heap."
+      "Add n parts to a device you own then balance it."
     ]
   },
   {
@@ -327,10 +336,10 @@
     "1Req": { "constant": "chemicalRequirementImage" },
     "points": "2",
     "ability": [
-      "2n",
+      "n",
       { "constant": "steamImage" },
       { "constant": "arrowImage" },
-      "Take n parts from the heap."
+      "Add n parts to a device you own then balance it."
     ]
   },
   {
@@ -413,7 +422,9 @@
     "ability": [
       { "constant": "freeImage" },
       { "constant": "arrowImage" },
-      "Discard a minion for 3 energy of your choice."
+      "Discard a minion for 3",
+      { "constant": "anyImage" },
+      "."
     ]
   },
   {
@@ -428,7 +439,9 @@
     "ability": [
       { "constant": "freeImage" },
       { "constant": "arrowImage" },
-      "Discard a minion for 3 energy of your choice."
+      "Discard a minion for 3",
+      { "constant": "anyImage" },
+      "."
     ]
   },
   {
@@ -443,7 +456,9 @@
     "ability": [
       { "constant": "freeImage" },
       { "constant": "arrowImage" },
-      "Discard a minion for 3 energy of your choice."
+      "Discard a minion for 3",
+      { "constant": "anyImage" },
+      "."
     ]
   },
   {
@@ -457,7 +472,8 @@
     "activateCost": { "constant": "madScientist" },
     "points": "4",
     "ability": [
-      { "constant": "freeImage" },
+      "2",
+      { "constant": "anyImage" },
       { "constant": "arrowImage" },
       "create a converter."
     ]
@@ -473,7 +489,8 @@
     "activateCost": { "constant": "madScientist" },
     "points": "3",
     "ability": [
-      { "constant": "freeImage" },
+      "2",
+      { "constant": "anyImage" },
       { "constant": "arrowImage" },
       "create a converter."
     ]
@@ -489,7 +506,8 @@
     "activateCost": { "constant": "madScientist" },
     "points": "2",
     "ability": [
-      { "constant": "freeImage" },
+      "2",
+      { "constant": "anyImage" },
       { "constant": "arrowImage" },
       "create a converter."
     ]
@@ -505,7 +523,8 @@
     "activateCost": { "constant": "madScientist" },
     "points": "1",
     "ability": [
-      { "constant": "freeImage" },
+      "2",
+      { "constant": "anyImage" },
       { "constant": "arrowImage" },
       "create a converter."
     ]
@@ -612,158 +631,18 @@
   },
   {
     "orientation": "vertical",
-    "name": "The Gallery of Trilobites",
+    "name": "The Throne of Socrates Arronax",
     "type": "StartRoom",
-    "fileNamePrefix": "1.Room.0.2",
-    "art": "blink.png",
-    "1ReqCount": "3",
-    "1Req": { "constant": "mechanicalRequirementImage" },
-    "points": "1",
-    "activateCost": { "constant": "madScientist" },
-    "ability": [
-      { "constant": "electricalImage" },
-      { "constant": "arrowImage" },
-      "A device you own gains a level"
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "The Gallery of Trilobites",
-    "type": "StartRoom",
-    "fileNamePrefix": "1.Room.0.3",
-    "art": "mustard.png",
-    "1ReqCount": "3",
-    "1Req": { "constant": "chemicalRequirementImage" },
-    "points": "1",
-    "activateCost": { "constant": "madScientist" },
-    "ability": [
-      { "constant": "mechanicalImage" },
-      { "constant": "arrowImage" },
-      "A device you own gains a level"
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "The Gallery of Trilobites",
-    "type": "StartRoom",
-    "fileNamePrefix": "1.Room.0.4",
-    "art": "centralcontrol.png",
+    "fileNamePrefix": "1.Room.1.2",
+    "art": "bleu.png",
     "1ReqCount": "3",
     "1Req": { "constant": "steamRequirementImage" },
     "points": "1",
     "activateCost": { "constant": "madScientist" },
     "ability": [
-      { "constant": "chemicalImage" },
-      { "constant": "arrowImage" },
-      "A device you own gains a level"
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "The Throne of Socrates Arronax",
-    "type": "StartRoom",
-    "fileNamePrefix": "1.Room.1.1",
-    "art": "throne.png",
-    "1ReqCount": "2",
-    "1Req": { "constant": "wildRequirementImage" },
-    "2ReqCount": "2",
-    "2Req": { "constant": "steamRequirementImage" },
-    "points": "1",
-    "activateCost": { "constant": "madScientist" },
-    "ability": [
-      { "constant": "electricalImage" },
-      { "constant": "arrowImage" },
-      "Add a part to a device you own then balance it."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "The Throne of Socrates Arronax",
-    "type": "StartRoom",
-    "fileNamePrefix": "1.Room.1.2",
-    "art": "bleu.png",
-    "1ReqCount": "2",
-    "1Req": { "constant": "wildRequirementImage" },
-    "2ReqCount": "2",
-    "2Req": { "constant": "electricalRequirementImage" },
-    "points": "1",
-    "activateCost": { "constant": "madScientist" },
-    "ability": [
       { "constant": "mechanicalImage" },
       { "constant": "arrowImage" },
       "Add a part to a device you own then balance it."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "The Throne of Socrates Arronax",
-    "type": "StartRoom",
-    "fileNamePrefix": "1.Room.1.3",
-    "art": "hairy.png",
-    "1ReqCount": "2",
-    "1Req": { "constant": "wildRequirementImage" },
-    "2ReqCount": "2",
-    "2Req": { "constant": "mechanicalRequirementImage" },
-    "points": "1",
-    "activateCost": { "constant": "madScientist" },
-    "ability": [
-      { "constant": "chemicalImage" },
-      { "constant": "arrowImage" },
-      "Add a part to a device you own then balance it."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "The Throne of Socrates Arronax",
-    "type": "StartRoom",
-    "fileNamePrefix": "1.Room.1.4",
-    "art": "trilobites.png",
-    "1ReqCount": "2",
-    "1Req": { "constant": "wildRequirementImage" },
-    "2ReqCount": "2",
-    "2Req": { "constant": "chemicalRequirementImage" },
-    "points": "1",
-    "activateCost": { "constant": "madScientist" },
-    "ability": [
-      { "constant": "steamImage" },
-      { "constant": "arrowImage" },
-      "Add a part to a device you own then balance it."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "The Central Control Channel",
-    "type": "StartRoom",
-    "fileNamePrefix": "1.Room.2.1",
-    "art": "drums.png",
-    "1ReqCount": "2",
-    "1Req": { "constant": "electricalRequirementImage" },
-    "2ReqCount": "2",
-    "2Req": { "constant": "steamRequirementImage" },
-    "activateCost": { "constant": "madScientist" },
-    "points": "2",
-    "ability": [
-      { "constant": "chemicalImage" },
-      { "constant": "arrowImage" },
-      "Gain a minion. You may do this multiple times as 1 action, but the cost doubles each time."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "The Central Control Channel",
-    "type": "StartRoom",
-    "fileNamePrefix": "1.Room.2.2",
-    "art": "cyan.png",
-    "1ReqCount": "2",
-    "1Req": { "constant": "chemicalRequirementImage" },
-    "2ReqCount": "2",
-    "2Req": { "constant": "mechanicalRequirementImage" },
-    "activateCost": { "constant": "madScientist" },
-    "points": "2",
-    "ability": [
-      { "constant": "steamImage" },
-      { "constant": "arrowImage" },
-      "Gain a minion. You may do this multiple times as 1 action, but the cost doubles each time."
     ]
   },
   {
@@ -772,121 +651,34 @@
     "type": "StartRoom",
     "fileNamePrefix": "1.Room.2.3",
     "art": "anti.png",
-    "1ReqCount": "2",
-    "1Req": { "constant": "electricalRequirementImage" },
-    "2ReqCount": "2",
-    "2Req": { "constant": "chemicalRequirementImage" },
+    "1ReqCount": "3",
+    "1Req": { "constant": "mechanicalRequirementImage" },
     "activateCost": { "constant": "madScientist" },
-    "points": "2",
+    "points": "1",
     "ability": [
-      { "constant": "mechanicalImage" },
-      { "constant": "arrowImage" },
-      "Gain a minion. You may do this multiple times as 1 action, but the cost doubles each time."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "The Central Control Channel",
-    "type": "StartRoom",
-    "fileNamePrefix": "1.Room.2.4",
-    "art": "minaret.png",
-    "1ReqCount": "2",
-    "1Req": { "constant": "steamRequirementImage" },
-    "2ReqCount": "2",
-    "2Req": { "constant": "mechanicalRequirementImage" },
-    "activateCost": { "constant": "madScientist" },
-    "points": "2",
-    "ability": [
-      { "constant": "electricalImage" },
-      { "constant": "arrowImage" },
-      "Gain a minion. You may do this multiple times as 1 action, but the cost doubles each time."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "The Balance",
-    "type": "StartRoom",
-    "fileNamePrefix": "1.Room.3.1.",
-    "art": "minaret.png",
-    "ability": [
-      "This game, ",
-      { "constant": "steamImage" },
-      " is used to balance devices."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "The Balance",
-    "type": "StartRoom",
-    "fileNamePrefix": "1.Room.3.2.",
-    "art": "minaret.png",
-    "ability": [
-      "This game, ",
-      { "constant": "mechanicalImage" },
-      " is used to balance devices."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "The Balance",
-    "type": "StartRoom",
-    "fileNamePrefix": "1.Room.3.3.",
-    "art": "minaret.png",
-    "ability": [
-      "This game, ",
-      { "constant": "electricalImage" },
-      " is used to balance devices."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "The Balance",
-    "type": "StartRoom",
-    "fileNamePrefix": "1.Room.3.4.",
-    "art": "minaret.png",
-    "ability": [
-      "This game, ",
+      "n",
       { "constant": "chemicalImage" },
-      " is used to balance devices."
+      { "constant": "arrowImage" },
+      "Gain n minions."
     ]
   },
   {
     "orientation": "vertical",
     "name": "The Junk Room",
     "type": "StartRoom",
-    "fileNamePrefix": "1.Room.4",
+    "fileNamePrefix": "1.Room.3.1.",
     "art": "minaret.png",
+    "1ReqCount": "3",
+    "1Req": { "constant": "chemicalRequirementImage" },
+    "activateCost": { "constant": "madScientist" },
+    "points": "1",
     "ability": [
-      { "constant": "freeImage" },
+      "n",
+      { "constant": "electricalImage" },
       { "constant": "arrowImage" },
-      "Take a part from the heap."
+      "Take n parts from the heap."
     ]
   },
-  {
-    "orientation": "vertical",
-    "name": "The Anomaly",
-    "type": "StartRoom",
-    "fileNamePrefix": "1.Room.4",
-    "art": "minaret.png",
-    "ability": [
-      { "constant": "timeImage" },
-      { "constant": "arrowImage" },
-      "Refresh a tired worker. Take another action."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "The Barracks",
-    "type": "StartRoom",
-    "fileNamePrefix": "1.Room.4",
-    "art": "minaret.png",
-    "ability": [
-      { "constant": "freeImage" },
-      { "constant": "arrowImage" },
-      "Refresh all your tired workers."
-    ]
-  },
-
 
   {
     "orientation": "vertical",
@@ -945,8 +737,8 @@
     "type": "Device",
     "art": "heinlein.png",
     "fileNamePrefix": "0.2.0",
-    "frontCost": [ { "constant": "mechanicalImage" } ],
-    "frontEffects": [ { "constant": "mechanicalImage" } ],
+    "frontCost": [ { "constant": "anyImage" } ],
+    "frontEffects": [ { "constant": "anyImage" } ],
     "level": [ "2" ]
   },
   {
@@ -956,8 +748,8 @@
     "type": "Device",
     "art": "ulysses.png",
     "fileNamePrefix": "0.2.1",
-    "frontCost": [ { "constant": "chemicalImage" } ],
-    "frontEffects": [ { "constant": "chemicalImage" } ],
+    "frontCost": [ { "constant": "anyImage" } ],
+    "frontEffects": [ { "constant": "anyImage" } ],
     "level": [ "2" ]
   },
   {
@@ -967,8 +759,8 @@
     "type": "Device",
     "art": "raivata.png",
     "fileNamePrefix": "0.2.2",
-    "frontCost": [ { "constant": "electricalImage" } ],
-    "frontEffects": [ { "constant": "electricalImage" } ],
+    "frontCost": [ { "constant": "anyImage" } ],
+    "frontEffects": [ { "constant": "anyImage" } ],
     "level": [ "2" ]
   },
   {
@@ -978,8 +770,8 @@
     "type": "Device",
     "art": "boots.png",
     "fileNamePrefix": "0.2.3",
-    "frontCost": [ { "constant": "steamImage" } ],
-    "frontEffects": [ { "constant": "steamImage" } ],
+    "frontCost": [ { "constant": "anyImage" } ],
+    "frontEffects": [ { "constant": "anyImage" } ],
     "level": [ "2" ]
   },
   {
@@ -1499,7 +1291,7 @@
     "type": "PlayerMat",
     "fileNamePrefix": "9.",
     "art": "Character.4.png",
-    "color": { "constant": "chemicalImage" }
+    "color": { "constant": "madScientist" }
   },
   {
     "orientation": "vertical",
@@ -1507,7 +1299,7 @@
     "type": "PlayerMat",
     "fileNamePrefix": "9.",
     "art": "Character.1.png",
-    "color": { "constant": "electricalImage" }
+    "color": { "constant": "madScientist" }
   },
   {
     "orientation": "vertical",
@@ -1515,7 +1307,7 @@
     "type": "PlayerMat",
     "fileNamePrefix": "9.",
     "art": "Character.3.png",
-    "color": { "constant": "steamImage" }
+    "color": { "constant": "madScientist" }
   },
   {
     "orientation": "vertical",
@@ -1523,6 +1315,6 @@
     "type": "PlayerMat",
     "fileNamePrefix": "9.",
     "art": "Character.2.png",
-    "color": { "constant": "mechanicalImage" }
+    "color": { "constant": "madScientist" }
   }
 ]

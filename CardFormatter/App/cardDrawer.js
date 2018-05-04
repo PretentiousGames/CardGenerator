@@ -123,7 +123,7 @@
                 if (!image) {
                     var img = card[element.name];
                     if (img) {
-                        drawErrorText('image was not found: ' + (img.name || img.constant));
+                        drawErrorText('image was not found: ' + (img.name || img.constant || img));
                     }
                 } else {
 
@@ -319,7 +319,7 @@
         };
 
         var drawText = function (canvas, context, fonts, obj) {
-            if (!obj) {
+            if (!obj || !obj.getMergedStyles) {
                 debugger;
                 return;
             }
