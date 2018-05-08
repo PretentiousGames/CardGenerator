@@ -320,7 +320,7 @@
 
         var drawText = function (canvas, context, fonts, obj) {
             if (!obj || !obj.getMergedStyles) {
-                debugger;
+                //debugger;
                 return;
             }
             var styles = obj.getMergedStyles();
