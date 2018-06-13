@@ -1,0 +1,8 @@
+﻿[ { "name": "leader.00", "image": "leaderArt.png", "type": "leader", "ximage": "messenger", "orientation": "vertical", "ltitle": "Sugo", "lrank": [ "1"], "lrules": [ "When you gain goods, gain 2", { "constant": "points" }, "."] },
+  { "name": "god.02.00", "image": "godArt.png", "type": "god", "ximage": "MessengerGod", "orientation": "vertical", "gtitle": "Savali", "grank": [ "1"], "grules": [ "When you gain goods, gain 1+n", { "constant": "points" }, "."] },
+  
+  { "name": "strategy.Explore", "stitle": "Explore", "image": "strategyArt.png", "type": "strategy", "orientation": "vertical", "srules": [ "Look at the top ", {"constant": "homes"}, " islands. Settle 1 of them." ] },
+
+  { "name": "resource.01", "image": "resourceArt.png", "type": "resource", "orientation": "horizontal", "itr": [ {"constant": "homes"}], "itc": [ {"constant": "up"}, { "constant": "up" }],                                             "ibl": [{ "constant": "homes" }], "icl": [ {"constant":"left"}, "\n", { "constant": "left" }],                               "icr": [ {"constant": "right"}, "\n", { "constant": "right" }],                                                               "itl": [{ "constant": "homes" }], "ibc": [{"constant": "down"}, { "constant": "down" }, { "constant": "down" }],                         "ibr": [{ "constant": "homes" }], "icc": [] }, 
+  { "name": "card.00", "image": "cardArt.png", "type": "card", "orientation": "horizontal", "tl": [], "tc": [ "When you Explore, tuck a card up."], "tr": [], "cl": [ "3", { "constant": "points" }], "cr": [ { "constant": "homes" }], "bl": [], "bc": [ { "constant": "homes" }, ": Tuck a card."], "br": [] }
+]

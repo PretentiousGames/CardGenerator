@@ -1,4 +1,6 @@
-﻿//The cardformatter namespace
+﻿_ = _ || undefined;
+
+//The cardformatter namespace
 (function () {
     var debug = false;
     var cardFormatter = window.cardFormatter || {};
@@ -233,25 +235,41 @@
                 }
                 if (obj.prefix) {
                     prefix = obj.prefix.constant ? template.constants[obj.prefix.constant] :
-                        obj.prefix.text ? obj.prefix.text : obj.prefix;
+                        obj.prefix.text ? obj.prefix.text : _.isArray(obj.prefix) ? _.flatten(_.map(obj.prefix, getRuns)) : obj.prefix;
                 }
                 if (obj.suffix) {
                     suffix = obj.suffix.constant ? template.constants[obj.suffix.constant] :
-                        obj.suffix.text ? obj.suffix.text : obj.suffix;
+                        obj.suffix.text ? obj.suffix.text : _.isArray(obj.suffix) ? _.flatten(_.map(obj.suffix, getRuns)) : obj.suffix;
                 }
                 if (prefix) {
-                    if (prefix.text) {
-                        val.unshift({ text: prefix.text, styles: _.extend({}, obj.styles, prefix.styles) });
-                    } else {
-                        val.unshift({ text: prefix, styles: obj.styles });
+                    var applyPrefix = function (p) {
+                        if (p.text) {
+                            val.unshift({ text: p.text, styles: _.extend({}, obj.styles, p.styles) });
+                        } else if (_.isArray(p)) {
+                            _.each(p,
+                                function (x) {
+                                    applyPrefix(x);
+                                });
+                        } else {
+                            val.unshift({ text: p, styles: obj.styles });
+                        }
                     }
+                    applyPrefix(prefix);
                 }
                 if (suffix) {
-                    if (suffix.text) {
-                        val.push({ text: suffix.text, styles: _.extend({}, obj.styles, suffix.styles) });
-                    } else {
-                        val.push({ text: suffix, styles: obj.styles });
+                    var applySuffix = function (s) {
+                        if (s.text) {
+                            val.push({ text: s.text, styles: _.extend({}, obj.styles, s.styles) });
+                        } else if (_.isArray(s)) {
+                            _.each(s,
+                                function (x) {
+                                    applySuffix(x);
+                                });
+                        } else {
+                            val.push({ text: s, styles: obj.styles });
+                        }
                     }
+                    applySuffix(suffix);
                 }
                 return val;
             };

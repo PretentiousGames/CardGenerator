@@ -155,18 +155,6 @@
     },
     {
       "type": "text",
-      "name": "worshipSlot",
-      "styles": {
-        "x": 85,
-        "y": 610,
-        "xSize": 130,
-        "ySize": 130,
-        "rotate": 45,
-        "fillStyle": "#9BDE9B"
-      }
-    },
-    {
-      "type": "text",
       "name": "br",
       "styles": {
         "x": 910,
@@ -320,7 +308,7 @@
         "xSize": 130,
         "ySize": 355,
         "fillStyle": "#9B9BDE",
-        "lineHeight": 0.8
+        "lineHeight":  0.8
       }
     },
     {
@@ -340,7 +328,7 @@
       "requirements": [
         {
           "name": "type",
-          "values": [ "island" ]
+          "values": [ "Resource" ]
         }
       ],
       "elements": [
@@ -349,7 +337,7 @@
           "name": "background",
           "x": 0,
           "y": 0,
-          "constant": "islandBG",
+          "constant": "resourceBG",
           "draw": false
         }
       ],
@@ -438,7 +426,7 @@
     "godBG": "godBG.png",
     "leaderBG": "leaderBG.png",
     "strategyBG": "strategyBG.png",
-    "islandBG": "islandBG.png",
+    "resourceBG": "resourceBG.png",
     "cardBG": "cardBG.png",
 
     "down": {
@@ -467,13 +455,8 @@
       "description": "+1 Point"
     },
 
-    "island": {
-      "text": "Ԛ",
-      "styles": { "font": "Aharoni-True.ttf" },
-      "description": "island symbol"
-    },
     "resource": {
-      "text": "ԉ",
+      "text": "Ԛ",
       "styles": { "font": "Aharoni-True.ttf" },
       "description": "resource symbol"
     },
@@ -501,13 +484,6 @@
     "worker": {
       "text": "ӝ",
       "styles": { "font": "Aharoni-True.ttf" },
-      "description": "Worker"
-    },
-    "worshipper": {
-      "text": "ӝ",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      },
       "description": "Worker"
     },
     "support": {

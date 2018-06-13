@@ -28,6 +28,7 @@
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -465,6 +466,19 @@
     <Content Include="Data\JurassicUniverse\treehopper.png" />
     <Content Include="Data\JurassicUniverse\truffle.png" />
     <Content Include="Data\JurassicUniverse\zebra.png" />
+    <Content Include="Data\HattCorp\blankImage.png" />
+    <Content Include="Data\HattCorp\cardArt.png" />
+    <Content Include="Data\HattCorp\cardBG.png" />
+    <Content Include="Data\HattCorp\cardFrontBackground.png" />
+    <Content Include="Data\HattCorp\godArt.png" />
+    <Content Include="Data\HattCorp\godBG.png" />
+    <Content Include="Data\HattCorp\islandArt.png" />
+    <Content Include="Data\HattCorp\islandBG.png" />
+    <Content Include="Data\HattCorp\leaderArt.png" />
+    <Content Include="Data\HattCorp\leaderBG.png" />
+    <Content Include="Data\HattCorp\strategyArt.png" />
+    <Content Include="Data\HattCorp\strategyBG.png" />
+    <Content Include="Data\HattCorp\verticalBackground.png" />
     <Content Include="Data\Micronesia\blankImage.png" />
     <Content Include="Data\Micronesia\cardArt.png" />
     <Content Include="Data\Micronesia\cardBG.png" />
@@ -480,6 +494,10 @@
     <Content Include="Data\Micronesia\strategyBG.png" />
     <Content Include="Data\Micronesia\verticalBackground.png" />
     <Content Include="Data\SportsBall\backgroundHorizontal.png" />
+    <Content Include="Data\SportsBall\backgroundBlue.png" />
+    <Content Include="Data\SportsBall\backgroundGreen.png" />
+    <Content Include="Data\SportsBall\backgroundYellow.png" />
+    <Content Include="Data\SportsBall\backgroundRed.png" />
     <Content Include="Data\SportsBall\backgroundVertical.png" />
     <Content Include="Data\TerranLeagueOfDefenseRobots\Abductor.png" />
     <Content Include="Data\TerranLeagueOfDefenseRobots\AbstractWeapon.png" />
@@ -1547,6 +1565,12 @@
     <Content Include="Data\TheMadnessPlace\BelweBdBTBold.ttf" />
     <Content Include="Data\TheMadnessPlace\Montserrat-ExtraBold.ttf" />
     <Content Include="Data\TheMadnessPlace\Montserrat-Light.ttf" />
+    <Content Include="Data\HattCorp\Aharoni-True.ttf" />
+    <Content Include="Data\HattCorp\Cards.Datafile.json" />
+    <Content Include="Data\HattCorp\Montserrat-Light.otf" />
+    <Content Include="Data\HattCorp\Template.json" />
+    <Content Include="Data\SportsBall\Deception.Cards.Data.json" />
+    <Content Include="Data\SportsBall\Deception.Cards.Template.json" />
     <None Include="Properties\PublishProfiles\CardFormatter - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\CardFormatter - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\CardFormatter.pubxml" />

@@ -32,7 +32,6 @@
     "art": "Singularity.png",
     "1ReqCount": "7",
     "1Req": { "constant": "timeRequirementImage" },
-    "activateCost": { "constant": "madScientist" },
     "points": "7",
     "ability": [
       "Move your Mad Scientist to this card at the start of each turn."
@@ -82,9 +81,9 @@
     "type": "Room",
     "fileNamePrefix": "1.Room.",
     "art": "HQ.png",
-    "1ReqCount": "13",
+    "1ReqCount": "7",
     "1Req": { "constant": "mechanicalRequirementImage" },
-    "points": "5",
+    "points": "3",
     "ability": [
       "All rooms cost -1 ",
       { "constant": "mechanicalImage" },
@@ -97,9 +96,9 @@
     "type": "Room",
     "fileNamePrefix": "1.Room.",
     "art": "seraglio.png",
-    "1ReqCount": "13",
+    "1ReqCount": "7",
     "1Req": { "constant": "electricalRequirementImage" },
-    "points": "5",
+    "points": "3",
     "ability": [
       "All rooms cost -1",
       { "constant": "electricalImage" },
@@ -112,9 +111,9 @@
     "type": "Room",
     "fileNamePrefix": "1.Room.",
     "art": "kitchen.png",
-    "1ReqCount": "13",
+    "1ReqCount": "7",
     "1Req": { "constant": "steamRequirementImage" },
-    "points": "5",
+    "points": "3",
     "ability": [
       "All rooms cost -1",
       { "constant": "steamImage" },
@@ -127,9 +126,9 @@
     "type": "Room",
     "fileNamePrefix": "1.Room.",
     "art": "bathroom.png",
-    "1ReqCount": "13",
+    "1ReqCount": "7",
     "1Req": { "constant": "chemicalRequirementImage" },
-    "points": "5",
+    "points": "3",
     "ability": [
       "All rooms cost -1",
       { "constant": "chemicalImage" },
@@ -142,12 +141,12 @@
     "type": "Room",
     "fileNamePrefix": "1.Room.",
     "art": "paradox.png",
-    "1ReqCount": "6",
+    "1ReqCount": "4",
     "1Req": { "constant": "timeRequirementImage" },
     "activateCost": { "constant": "madScientist" },
-    "points": "4",
+    "points": "3",
     "ability": [
-      "4",
+      "2",
       { "constant": "timeImage" },
       { "constant": "arrowImage" },
       "Take 2 more actions. You may not spend any more ",
@@ -284,6 +283,25 @@
   },
   {
     "orientation": "vertical",
+    "name": "Wells' Grotto",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "paradox.png",
+    "1ReqCount": "6",
+    "1Req": { "constant": "timeRequirementImage" },
+    "activateCost": { "constant": "madScientist" },
+    "points": "4",
+    "ability": [
+      "2",
+      { "constant": "timeImage" },
+      { "constant": "arrowImage" },
+      "Take 2 more actions. You may not spend any more ",
+      { "constant": "timeImage" },
+      " this turn."
+    ]
+  },
+  {
+    "orientation": "vertical",
     "name": "The Mediocre Generator",
     "type": "Room",
     "fileNamePrefix": "1.Room.",
@@ -348,10 +366,10 @@
     "type": "Room",
     "fileNamePrefix": "1.Room.",
     "art": "teeth.png",
-    "1ReqCount": "7",
+    "1ReqCount": "5",
     "1Req": { "constant": "electricalRequirementImage" },
     "activateCost": { "constant": "madScientist" },
-    "points": "3",
+    "points": "2",
     "ability": [
       { "constant": "mechanicalImage" },
       { "constant": "arrowImage" },
@@ -364,10 +382,10 @@
     "type": "Room",
     "fileNamePrefix": "1.Room.",
     "art": "harem.png",
-    "1ReqCount": "7",
+    "1ReqCount": "5",
     "1Req": { "constant": "mechanicalRequirementImage" },
     "activateCost": { "constant": "madScientist" },
-    "points": "3",
+    "points": "2",
     "ability": [
       { "constant": "steamImage" },
       { "constant": "arrowImage" },
@@ -380,10 +398,10 @@
     "type": "Room",
     "fileNamePrefix": "1.Room.",
     "art": "library.png",
-    "1ReqCount": "7",
+    "1ReqCount": "5",
     "1Req": { "constant": "steamRequirementImage" },
     "activateCost": { "constant": "madScientist" },
-    "points": "3",
+    "points": "2",
     "ability": [
       { "constant": "chemicalImage" },
       { "constant": "arrowImage" },
@@ -396,10 +414,10 @@
     "type": "Room",
     "fileNamePrefix": "1.Room.",
     "art": "bell.png",
-    "1ReqCount": "7",
+    "1ReqCount": "5",
     "1Req": { "constant": "chemicalRequirementImage" },
     "activateCost": { "constant": "madScientist" },
-    "points": "3",
+    "points": "2",
     "ability": [
       { "constant": "electricalImage" },
       { "constant": "arrowImage" },
@@ -412,12 +430,12 @@
     "type": "Room",
     "fileNamePrefix": "1.Room.",
     "art": "cattery.png",
-    "1ReqCount": "4",
+    "1ReqCount": "3",
     "1Req": { "constant": "timeRequirementImage" },
     "activateCost": { "constant": "madScientist" },
-    "points": "3",
+    "points": "2",
     "ability": [
-      "4",
+      "2",
       { "constant": "timeImage" },
       { "constant": "arrowImage" },
       "Take 2 more actions. You may not spend any more ",
@@ -444,33 +462,14 @@
   },
   {
     "orientation": "vertical",
-    "name": "The Ingenious Paradox",
-    "type": "Room",
-    "fileNamePrefix": "1.Room.",
-    "art": "paradox.png",
-    "1ReqCount": "3",
-    "1Req": { "constant": "timeRequirementImage" },
-    "activateCost": { "constant": "madScientist" },
-    "points": "2",
-    "ability": [
-      "4",
-      { "constant": "timeImage" },
-      { "constant": "arrowImage" },
-      "Take 2 more actions. You may not spend any more ",
-      { "constant": "timeImage" },
-      " this turn."
-    ]
-  },
-  {
-    "orientation": "vertical",
     "name": "Lead Room",
     "type": "Room",
     "fileNamePrefix": "1.Room.",
     "art": "lead.png",
-    "1ReqCount": "5",
+    "1ReqCount": "3",
     "1Req": { "constant": "electricalRequirementImage" },
     "activateCost": { "constant": "madScientist" },
-    "points": "2",
+    "points": "1",
     "ability": [
       "n",
       { "constant": "chemicalImage" },
@@ -484,9 +483,9 @@
     "type": "Room",
     "fileNamePrefix": "1.Room.",
     "art": "torture.png",
-    "1ReqCount": "5",
+    "1ReqCount": "3",
     "1Req": { "constant": "mechanicalRequirementImage" },
-    "points": "2",
+    "points": "1",
     "activateCost": { "constant": "madScientist" },
     "ability": [
       "n",
@@ -501,10 +500,10 @@
     "type": "Room",
     "fileNamePrefix": "1.Room.",
     "art": "heptagons.png",
-    "1ReqCount": "5",
+    "1ReqCount": "3",
     "1Req": { "constant": "steamRequirementImage" },
     "activateCost": { "constant": "madScientist" },
-    "points": "2",
+    "points": "1",
     "ability": [
       "n",
       { "constant": "mechanicalImage" },
@@ -518,15 +517,35 @@
     "type": "Room",
     "fileNamePrefix": "1.Room.",
     "art": "apiary.png",
-    "1ReqCount": "5",
+    "1ReqCount": "3",
     "1Req": { "constant": "chemicalRequirementImage" },
     "activateCost": { "constant": "madScientist" },
-    "points": "2",
+    "points": "1",
     "ability": [
       "n",
       { "constant": "steamImage" },
       { "constant": "arrowImage" },
       "Add n parts to a device you own then balance it."
+    ]
+  },
+
+  {
+    "orientation": "vertical",
+    "name": "The Ingenious Paradox",
+    "type": "Room",
+    "fileNamePrefix": "1.Room.",
+    "art": "paradox.png",
+    "1ReqCount": "2",
+    "1Req": { "constant": "timeRequirementImage" },
+    "activateCost": { "constant": "madScientist" },
+    "points": "1",
+    "ability": [
+      "2",
+      { "constant": "timeImage" },
+      { "constant": "arrowImage" },
+      "Take 2 more actions. You may not spend any more ",
+      { "constant": "timeImage" },
+      " this turn."
     ]
   },
   {
@@ -608,25 +627,6 @@
       "Gain 1",
       { "constant": "anyImage" },
       ". Take another action."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "Wells' Grotto",
-    "type": "Room",
-    "fileNamePrefix": "1.Room.",
-    "art": "paradox.png",
-    "1ReqCount": "2",
-    "1Req": { "constant": "timeRequirementImage" },
-    "activateCost": { "constant": "madScientist" },
-    "points": "1",
-    "ability": [
-      "4",
-      { "constant": "timeImage" },
-      { "constant": "arrowImage" },
-      "Take 2 more actions. You may not spend any more ",
-      { "constant": "timeImage" },
-      " this turn."
     ]
   },
   {
@@ -746,9 +746,9 @@
     "type": "StartRoom",
     "fileNamePrefix": "1.Room.0.1",
     "art": "Sickness.png",
-    "1ReqCount": "3",
+    "1ReqCount": "13",
     "1Req": { "constant": "electricalRequirementImage" },
-    "points": "1",
+    "points": "5",
     "activateCost": { "constant": "madScientist" },
     "ability": [
       { "constant": "steamImage" },
@@ -762,9 +762,9 @@
     "type": "StartRoom",
     "fileNamePrefix": "1.Room.1.2",
     "art": "bleu.png",
-    "1ReqCount": "3",
+    "1ReqCount": "13",
     "1Req": { "constant": "steamRequirementImage" },
-    "points": "1",
+    "points": "5",
     "activateCost": { "constant": "madScientist" },
     "ability": [
       { "constant": "mechanicalImage" },
@@ -778,10 +778,10 @@
     "type": "StartRoom",
     "fileNamePrefix": "1.Room.2.3",
     "art": "anti.png",
-    "1ReqCount": "3",
+    "1ReqCount": "13",
     "1Req": { "constant": "mechanicalRequirementImage" },
     "activateCost": { "constant": "madScientist" },
-    "points": "1",
+    "points": "5",
     "ability": [
       "n",
       { "constant": "chemicalImage" },
@@ -795,10 +795,10 @@
     "type": "StartRoom",
     "fileNamePrefix": "1.Room.3.1.",
     "art": "minaret.png",
-    "1ReqCount": "3",
+    "1ReqCount": "13",
     "1Req": { "constant": "chemicalRequirementImage" },
     "activateCost": { "constant": "madScientist" },
-    "points": "1",
+    "points": "5",
     "ability": [
       "n",
       { "constant": "electricalImage" },
@@ -812,15 +812,14 @@
     "type": "StartRoom",
     "fileNamePrefix": "1.Room.4.1.",
     "art": "minaret.png",
-    "1ReqCount": "2",
+    "1ReqCount": "10",
     "1Req": { "constant": "timeRequirementImage" },
     "activateCost": { "constant": "madScientist" },
-    "points": "1",
+    "points": "5",
     "ability": [
-      "n",
       { "constant": "timeImage" },
       { "constant": "arrowImage" },
-      "Refresh 2 tired workers. Take another action."
+      "Activating this doesn't require your Mad Scientist. Refresh a tired worker. Take another action."
     ]
   },
 
@@ -832,8 +831,7 @@
     "art": "heinlein.png",
     "fileNamePrefix": "2.0",
     "frontCost": [ { "constant": "timeImage" } ],
-    "frontEffects": [ { "constant": "steamImage" } ],
-    "level": [ "2" ]
+    "frontEffects": [ { "constant": "timeImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -843,8 +841,7 @@
     "art": "ulysses.png",
     "fileNamePrefix": "2.1",
     "frontCost": [ { "constant": "timeImage" } ],
-    "frontEffects": [ { "constant": "mechanicalImage" } ],
-    "level": [ "2" ]
+    "frontEffects": [ { "constant": "timeImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -854,8 +851,7 @@
     "art": "raivata.png",
     "fileNamePrefix": "2.2",
     "frontCost": [ { "constant": "timeImage" } ],
-    "frontEffects": [ { "constant": "chemicalImage" } ],
-    "level": [ "2" ]
+    "frontEffects": [ { "constant": "timeImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -865,8 +861,7 @@
     "art": "boots.png",
     "fileNamePrefix": "2.3",
     "frontCost": [ { "constant": "timeImage" } ],
-    "frontEffects": [ { "constant": "electricalImage" } ],
-    "level": [ "2" ]
+    "frontEffects": [ { "constant": "timeImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -876,8 +871,7 @@
     "art": "heinlein.png",
     "fileNamePrefix": "0.2.0",
     "frontCost": [ { "constant": "anyImage" } ],
-    "frontEffects": [ { "constant": "anyImage" } ],
-    "level": [ "2" ]
+    "frontEffects": [ { "constant": "anyImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -887,8 +881,7 @@
     "art": "ulysses.png",
     "fileNamePrefix": "0.2.1",
     "frontCost": [ { "constant": "anyImage" } ],
-    "frontEffects": [ { "constant": "anyImage" } ],
-    "level": [ "2" ]
+    "frontEffects": [ { "constant": "anyImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -898,8 +891,7 @@
     "art": "raivata.png",
     "fileNamePrefix": "0.2.2",
     "frontCost": [ { "constant": "anyImage" } ],
-    "frontEffects": [ { "constant": "anyImage" } ],
-    "level": [ "2" ]
+    "frontEffects": [ { "constant": "anyImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -909,8 +901,7 @@
     "art": "boots.png",
     "fileNamePrefix": "0.2.3",
     "frontCost": [ { "constant": "anyImage" } ],
-    "frontEffects": [ { "constant": "anyImage" } ],
-    "level": [ "2" ]
+    "frontEffects": [ { "constant": "anyImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -919,8 +910,7 @@
     "art": "nautilus.png",
     "fileNamePrefix": "2.4",
     "frontCost": [ { "constant": "timeImage" } ],
-    "frontEffects": [ { "constant": "steamImage" } ],
-    "level": [ "2" ]
+    "frontEffects": [ { "constant": "steamImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -929,8 +919,7 @@
     "art": "chrono.png",
     "fileNamePrefix": "2.5",
     "frontCost": [ { "constant": "timeImage" } ],
-    "frontEffects": [ { "constant": "chemicalImage" } ],
-    "level": [ "2" ]
+    "frontEffects": [ { "constant": "chemicalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -939,8 +928,7 @@
     "art": "hexivalic.png",
     "fileNamePrefix": "2.6",
     "frontCost": [ { "constant": "timeImage" } ],
-    "frontEffects": [ { "constant": "mechanicalImage" } ],
-    "level": [ "2" ]
+    "frontEffects": [ { "constant": "mechanicalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -949,8 +937,7 @@
     "art": "temporal.png",
     "fileNamePrefix": "2.7",
     "frontCost": [ { "constant": "timeImage" } ],
-    "frontEffects": [ { "constant": "electricalImage" } ],
-    "level": [ "2" ]
+    "frontEffects": [ { "constant": "electricalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -959,8 +946,7 @@
     "art": "tok.png",
     "fileNamePrefix": "2.8",
     "frontCost": [ { "constant": "chemicalImage" } ],
-    "frontEffects": [ { "constant": "steamImage" } ],
-    "level": [ "2" ]
+    "frontEffects": [ { "constant": "steamImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -969,8 +955,7 @@
     "art": "baghdad.png",
     "fileNamePrefix": "2.9",
     "frontCost": [ { "constant": "chemicalImage" } ],
-    "frontEffects": [ { "constant": "mechanicalImage" } ],
-    "level": [ "2" ]
+    "frontEffects": [ { "constant": "mechanicalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -979,8 +964,7 @@
     "art": "staff.png",
     "fileNamePrefix": "2.10",
     "frontCost": [ { "constant": "chemicalImage" } ],
-    "frontEffects": [ { "constant": "electricalImage" } ],
-    "level": [ "2" ]
+    "frontEffects": [ { "constant": "electricalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -989,8 +973,7 @@
     "art": "wrench.png",
     "fileNamePrefix": "2.11",
     "frontCost": [ { "constant": "steamImage" } ],
-    "frontEffects": [ { "constant": "chemicalImage" } ],
-    "level": [ "2" ]
+    "frontEffects": [ { "constant": "chemicalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -999,8 +982,7 @@
     "art": "universal.png",
     "fileNamePrefix": "2.12",
     "frontCost": [ { "constant": "steamImage" } ],
-    "frontEffects": [ { "constant": "mechanicalImage" } ],
-    "level": [ "2" ]
+    "frontEffects": [ { "constant": "mechanicalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1009,8 +991,7 @@
     "art": "ionization.png",
     "fileNamePrefix": "2.13",
     "frontCost": [ { "constant": "steamImage" } ],
-    "frontEffects": [ { "constant": "electricalImage" } ],
-    "level": [ "2" ]
+    "frontEffects": [ { "constant": "electricalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1019,8 +1000,7 @@
     "art": "blivet.png",
     "fileNamePrefix": "2.14",
     "frontCost": [ { "constant": "mechanicalImage" } ],
-    "frontEffects": [ { "constant": "chemicalImage" } ],
-    "level": [ "2" ]
+    "frontEffects": [ { "constant": "chemicalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1029,8 +1009,7 @@
     "art": "builder.png",
     "fileNamePrefix": "2.15",
     "frontCost": [ { "constant": "mechanicalImage" } ],
-    "frontEffects": [ { "constant": "steamImage" } ],
-    "level": [ "2" ]
+    "frontEffects": [ { "constant": "steamImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1039,8 +1018,7 @@
     "art": "pruning.png",
     "fileNamePrefix": "2.16",
     "frontCost": [ { "constant": "mechanicalImage" } ],
-    "frontEffects": [ { "constant": "electricalImage" } ],
-    "level": [ "2" ]
+    "frontEffects": [ { "constant": "electricalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1049,8 +1027,7 @@
     "art": "elephant.png",
     "fileNamePrefix": "2.17",
     "frontCost": [ { "constant": "electricalImage" } ],
-    "frontEffects": [ { "constant": "chemicalImage" } ],
-    "level": [ "2" ]
+    "frontEffects": [ { "constant": "chemicalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1059,8 +1036,7 @@
     "art": "pib.png",
     "fileNamePrefix": "2.18",
     "frontCost": [ { "constant": "electricalImage" } ],
-    "frontEffects": [ { "constant": "steamImage" } ],
-    "level": [ "2" ]
+    "frontEffects": [ { "constant": "steamImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1069,8 +1045,7 @@
     "art": "bourgeoisie.png",
     "fileNamePrefix": "2.19",
     "frontCost": [ { "constant": "electricalImage" } ],
-    "frontEffects": [ { "constant": "mechanicalImage" } ],
-    "level": [ "2" ]
+    "frontEffects": [ { "constant": "mechanicalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1079,8 +1054,7 @@
     "art": "coupler.png",
     "fileNamePrefix": "2.20",
     "frontCost": [ { "constant": "timeImage" } ],
-    "frontEffects": [ { "constant": "timeImage" } ],
-    "level": [ "3" ]
+    "frontEffects": [ { "constant": "timeImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1089,8 +1063,7 @@
     "art": "tesseract.png",
     "fileNamePrefix": "2.21",
     "frontCost": [ { "constant": "timeImage" } ],
-    "frontEffects": [ { "constant": "timeImage" } ],
-    "level": [ "3" ]
+    "frontEffects": [ { "constant": "timeImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1099,8 +1072,7 @@
     "art": "screamers.png",
     "fileNamePrefix": "2.22",
     "frontCost": [ { "constant": "chemicalImage" } ],
-    "frontEffects": [ { "constant": "steamImage" } ],
-    "level": [ "3" ]
+    "frontEffects": [ { "constant": "steamImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1109,8 +1081,7 @@
     "art": "gargantulus.png",
     "fileNamePrefix": "2.23",
     "frontCost": [ { "constant": "chemicalImage" } ],
-    "frontEffects": [ { "constant": "mechanicalImage" } ],
-    "level": [ "3" ]
+    "frontEffects": [ { "constant": "mechanicalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1119,8 +1090,7 @@
     "art": "squarrosoides.png",
     "fileNamePrefix": "2.24",
     "frontCost": [ { "constant": "chemicalImage" } ],
-    "frontEffects": [ { "constant": "electricalImage" } ],
-    "level": [ "3" ]
+    "frontEffects": [ { "constant": "electricalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1129,8 +1099,7 @@
     "art": "nisne.png",
     "fileNamePrefix": "2.25",
     "frontCost": [ { "constant": "steamImage" } ],
-    "frontEffects": [ { "constant": "chemicalImage" } ],
-    "level": [ "3" ]
+    "frontEffects": [ { "constant": "chemicalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1139,8 +1108,7 @@
     "art": "dingbot.png",
     "fileNamePrefix": "2.26",
     "frontCost": [ { "constant": "steamImage" } ],
-    "frontEffects": [ { "constant": "mechanicalImage" } ],
-    "level": [ "3" ]
+    "frontEffects": [ { "constant": "mechanicalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1149,8 +1117,7 @@
     "art": "balancer.png",
     "fileNamePrefix": "2.27",
     "frontCost": [ { "constant": "steamImage" } ],
-    "frontEffects": [ { "constant": "electricalImage" } ],
-    "level": [ "3" ]
+    "frontEffects": [ { "constant": "electricalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1159,8 +1126,7 @@
     "art": "coffee.png",
     "fileNamePrefix": "2.28",
     "frontCost": [ { "constant": "mechanicalImage" } ],
-    "frontEffects": [ { "constant": "chemicalImage" } ],
-    "level": [ "3" ]
+    "frontEffects": [ { "constant": "chemicalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1169,8 +1135,7 @@
     "art": "psychotropic.png",
     "fileNamePrefix": "2.29",
     "frontCost": [ { "constant": "mechanicalImage" } ],
-    "frontEffects": [ { "constant": "steamImage" } ],
-    "level": [ "3" ]
+    "frontEffects": [ { "constant": "steamImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1179,8 +1144,7 @@
     "art": "hammer.png",
     "fileNamePrefix": "2.30",
     "frontCost": [ { "constant": "mechanicalImage" } ],
-    "frontEffects": [ { "constant": "electricalImage" } ],
-    "level": [ "3" ]
+    "frontEffects": [ { "constant": "electricalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1189,8 +1153,7 @@
     "art": "staircase.png",
     "fileNamePrefix": "2.31",
     "frontCost": [ { "constant": "electricalImage" } ],
-    "frontEffects": [ { "constant": "chemicalImage" } ],
-    "level": [ "3" ]
+    "frontEffects": [ { "constant": "chemicalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1199,8 +1162,7 @@
     "art": "rat.png",
     "fileNamePrefix": "2.32",
     "frontCost": [ { "constant": "electricalImage" } ],
-    "frontEffects": [ { "constant": "steamImage" } ],
-    "level": [ "3" ]
+    "frontEffects": [ { "constant": "steamImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1209,8 +1171,7 @@
     "art": "antimemetic.png",
     "fileNamePrefix": "2.33",
     "frontCost": [ { "constant": "electricalImage" } ],
-    "frontEffects": [ { "constant": "mechanicalImage" } ],
-    "level": [ "3" ]
+    "frontEffects": [ { "constant": "mechanicalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1219,8 +1180,7 @@
     "art": "squidroach.png",
     "fileNamePrefix": "2.34",
     "frontCost": [ { "constant": "chemicalImage" } ],
-    "frontEffects": [ { "constant": "steamImage" } ],
-    "level": [ "4" ]
+    "frontEffects": [ { "constant": "steamImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1229,8 +1189,7 @@
     "art": "lamp.png",
     "fileNamePrefix": "2.35",
     "frontCost": [ { "constant": "chemicalImage" } ],
-    "frontEffects": [ { "constant": "mechanicalImage" } ],
-    "level": [ "4" ]
+    "frontEffects": [ { "constant": "mechanicalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1239,8 +1198,7 @@
     "art": "ned.png",
     "fileNamePrefix": "2.36",
     "frontCost": [ { "constant": "chemicalImage" } ],
-    "frontEffects": [ { "constant": "electricalImage" } ],
-    "level": [ "4" ]
+    "frontEffects": [ { "constant": "electricalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1249,8 +1207,7 @@
     "art": "turbine.png",
     "fileNamePrefix": "2.37",
     "frontCost": [ { "constant": "steamImage" } ],
-    "frontEffects": [ { "constant": "chemicalImage" } ],
-    "level": [ "4" ]
+    "frontEffects": [ { "constant": "chemicalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1259,8 +1216,7 @@
     "art": "apmool.png",
     "fileNamePrefix": "2.38",
     "frontCost": [ { "constant": "steamImage" } ],
-    "frontEffects": [ { "constant": "mechanicalImage" } ],
-    "level": [ "4" ]
+    "frontEffects": [ { "constant": "mechanicalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1269,8 +1225,7 @@
     "art": "gravity.png",
     "fileNamePrefix": "2.39",
     "frontCost": [ { "constant": "steamImage" } ],
-    "frontEffects": [ { "constant": "electricalImage" } ],
-    "level": [ "4" ]
+    "frontEffects": [ { "constant": "electricalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1279,8 +1234,7 @@
     "art": "autocrammer.png",
     "fileNamePrefix": "2.40",
     "frontCost": [ { "constant": "mechanicalImage" } ],
-    "frontEffects": [ { "constant": "chemicalImage" } ],
-    "level": [ "4" ]
+    "frontEffects": [ { "constant": "chemicalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1289,8 +1243,7 @@
     "art": "deathray.png",
     "fileNamePrefix": "2.41",
     "frontCost": [ { "constant": "mechanicalImage" } ],
-    "frontEffects": [ { "constant": "steamImage" } ],
-    "level": [ "4" ]
+    "frontEffects": [ { "constant": "steamImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1299,8 +1252,7 @@
     "art": "intelligentRodents.png",
     "fileNamePrefix": "2.42",
     "frontCost": [ { "constant": "mechanicalImage" } ],
-    "frontEffects": [ { "constant": "electricalImage" } ],
-    "level": [ "4" ]
+    "frontEffects": [ { "constant": "electricalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1309,8 +1261,7 @@
     "art": "pepper.png",
     "fileNamePrefix": "2.43",
     "frontCost": [ { "constant": "electricalImage" } ],
-    "frontEffects": [ { "constant": "chemicalImage" } ],
-    "level": [ "4" ]
+    "frontEffects": [ { "constant": "chemicalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1319,8 +1270,7 @@
     "art": "birdbath.png",
     "fileNamePrefix": "2.44",
     "frontCost": [ { "constant": "electricalImage" } ],
-    "frontEffects": [ { "constant": "steamImage" } ],
-    "level": [ "4" ]
+    "frontEffects": [ { "constant": "steamImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1329,8 +1279,7 @@
     "art": "abstract.png",
     "fileNamePrefix": "2.45",
     "frontCost": [ { "constant": "electricalImage" } ],
-    "frontEffects": [ { "constant": "mechanicalImage" } ],
-    "level": [ "4" ]
+    "frontEffects": [ { "constant": "mechanicalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1339,8 +1288,7 @@
     "art": "ack.png",
     "fileNamePrefix": "2.46",
     "frontCost": [ { "constant": "chemicalImage" } ],
-    "frontEffects": [ { "constant": "timeImage" } ],
-    "level": [ "5" ]
+    "frontEffects": [ { "constant": "timeImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1349,8 +1297,7 @@
     "art": "glowy.png",
     "fileNamePrefix": "2.47",
     "frontCost": [ { "constant": "chemicalImage" } ],
-    "frontEffects": [ { "constant": "chemicalImage" } ],
-    "level": [ "5" ]
+    "frontEffects": [ { "constant": "chemicalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1359,8 +1306,7 @@
     "art": "brain.png",
     "fileNamePrefix": "2.48",
     "frontCost": [ { "constant": "steamImage" } ],
-    "frontEffects": [ { "constant": "timeImage" } ],
-    "level": [ "5" ]
+    "frontEffects": [ { "constant": "timeImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1369,8 +1315,7 @@
     "art": "bagpipes.png",
     "fileNamePrefix": "2.49",
     "frontCost": [ { "constant": "steamImage" } ],
-    "frontEffects": [ { "constant": "steamImage" } ],
-    "level": [ "5" ]
+    "frontEffects": [ { "constant": "steamImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1379,8 +1324,7 @@
     "art": "cat.png",
     "fileNamePrefix": "2.50",
     "frontCost": [ { "constant": "mechanicalImage" } ],
-    "frontEffects": [ { "constant": "timeImage" } ],
-    "level": [ "5" ]
+    "frontEffects": [ { "constant": "timeImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1389,8 +1333,7 @@
     "art": "construction.png",
     "fileNamePrefix": "2.51",
     "frontCost": [ { "constant": "mechanicalImage" } ],
-    "frontEffects": [ { "constant": "mechanicalImage" } ],
-    "level": [ "5" ]
+    "frontEffects": [ { "constant": "mechanicalImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1399,8 +1342,7 @@
     "art": "trenchcoat.png",
     "fileNamePrefix": "2.52",
     "frontCost": [ { "constant": "electricalImage" } ],
-    "frontEffects": [ { "constant": "timeImage" } ],
-    "level": [ "5" ]
+    "frontEffects": [ { "constant": "timeImage" } ]
   },
   {
     "orientation": "horizontal",
@@ -1409,8 +1351,7 @@
     "art": "syn.png",
     "fileNamePrefix": "2.53",
     "frontCost": [ { "constant": "electricalImage" } ],
-    "frontEffects": [ { "constant": "electricalImage" } ],
-    "level": [ "5" ]
+    "frontEffects": [ { "constant": "electricalImage" } ]
   },
   {
     "orientation": "vertical",
