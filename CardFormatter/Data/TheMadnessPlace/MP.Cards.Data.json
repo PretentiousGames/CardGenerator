@@ -827,7 +827,7 @@
     "orientation": "horizontal",
     "name": "Heinlein device",
     "subtitle": "Start Part",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "heinlein.png",
     "fileNamePrefix": "2.0",
     "frontCost": [ { "constant": "timeImage" } ],
@@ -837,7 +837,7 @@
     "orientation": "horizontal",
     "name": "Ulysses Engine",
     "subtitle": "Start Part",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "ulysses.png",
     "fileNamePrefix": "2.1",
     "frontCost": [ { "constant": "timeImage" } ],
@@ -847,7 +847,7 @@
     "orientation": "horizontal",
     "name": "Raivata Mechanism",
     "subtitle": "Start Part",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "raivata.png",
     "fileNamePrefix": "2.2",
     "frontCost": [ { "constant": "timeImage" } ],
@@ -857,7 +857,7 @@
     "orientation": "horizontal",
     "name": "Seven Minute Boots",
     "subtitle": "Start Part",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "boots.png",
     "fileNamePrefix": "2.3",
     "frontCost": [ { "constant": "timeImage" } ],
@@ -906,7 +906,7 @@
   {
     "orientation": "horizontal",
     "name": "Nautilus-Bot",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "nautilus.png",
     "fileNamePrefix": "2.4",
     "frontCost": [ { "constant": "timeImage" } ],
@@ -915,7 +915,7 @@
   {
     "orientation": "horizontal",
     "name": "Chrono-Bot",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "chrono.png",
     "fileNamePrefix": "2.5",
     "frontCost": [ { "constant": "timeImage" } ],
@@ -924,7 +924,7 @@
   {
     "orientation": "horizontal",
     "name": "Hexivalic wave conductor",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "hexivalic.png",
     "fileNamePrefix": "2.6",
     "frontCost": [ { "constant": "timeImage" } ],
@@ -933,7 +933,7 @@
   {
     "orientation": "horizontal",
     "name": "Temporal Clacker",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "temporal.png",
     "fileNamePrefix": "2.7",
     "frontCost": [ { "constant": "timeImage" } ],
@@ -942,7 +942,7 @@
   {
     "orientation": "horizontal",
     "name": "Tok",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "tok.png",
     "fileNamePrefix": "2.8",
     "frontCost": [ { "constant": "chemicalImage" } ],
@@ -951,7 +951,7 @@
   {
     "orientation": "horizontal",
     "name": "Baghdad Capacitor",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "baghdad.png",
     "fileNamePrefix": "2.9",
     "frontCost": [ { "constant": "chemicalImage" } ],
@@ -960,7 +960,7 @@
   {
     "orientation": "horizontal",
     "name": "Lightning Staff",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "staff.png",
     "fileNamePrefix": "2.10",
     "frontCost": [ { "constant": "chemicalImage" } ],
@@ -969,7 +969,7 @@
   {
     "orientation": "horizontal",
     "name": "Doppler wrench",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "wrench.png",
     "fileNamePrefix": "2.11",
     "frontCost": [ { "constant": "steamImage" } ],
@@ -978,7 +978,7 @@
   {
     "orientation": "horizontal",
     "name": "Universal Constructor",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "universal.png",
     "fileNamePrefix": "2.12",
     "frontCost": [ { "constant": "steamImage" } ],
@@ -987,7 +987,7 @@
   {
     "orientation": "horizontal",
     "name": "Ionization Engine",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "ionization.png",
     "fileNamePrefix": "2.13",
     "frontCost": [ { "constant": "steamImage" } ],
@@ -996,7 +996,7 @@
   {
     "orientation": "horizontal",
     "name": "TechnoBlivet",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "blivet.png",
     "fileNamePrefix": "2.14",
     "frontCost": [ { "constant": "mechanicalImage" } ],
@@ -1005,7 +1005,7 @@
   {
     "orientation": "horizontal",
     "name": "Robot Builder",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "builder.png",
     "fileNamePrefix": "2.15",
     "frontCost": [ { "constant": "mechanicalImage" } ],
@@ -1014,7 +1014,7 @@
   {
     "orientation": "horizontal",
     "name": "Pruning Bot",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "pruning.png",
     "fileNamePrefix": "2.16",
     "frontCost": [ { "constant": "mechanicalImage" } ],
@@ -1023,7 +1023,7 @@
   {
     "orientation": "horizontal",
     "name": "Loxodontia Muridae",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "elephant.png",
     "fileNamePrefix": "2.17",
     "frontCost": [ { "constant": "electricalImage" } ],
@@ -1032,7 +1032,7 @@
   {
     "orientation": "horizontal",
     "name": "Pib",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "pib.png",
     "fileNamePrefix": "2.18",
     "frontCost": [ { "constant": "electricalImage" } ],
@@ -1041,7 +1041,7 @@
   {
     "orientation": "horizontal",
     "name": "Bourgeoisie Bot",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "bourgeoisie.png",
     "fileNamePrefix": "2.19",
     "frontCost": [ { "constant": "electricalImage" } ],
@@ -1050,7 +1050,7 @@
   {
     "orientation": "horizontal",
     "name": "Chronometric Coupler",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "coupler.png",
     "fileNamePrefix": "2.20",
     "frontCost": [ { "constant": "timeImage" } ],
@@ -1059,7 +1059,7 @@
   {
     "orientation": "horizontal",
     "name": "Tesseract",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "tesseract.png",
     "fileNamePrefix": "2.21",
     "frontCost": [ { "constant": "timeImage" } ],
@@ -1068,7 +1068,7 @@
   {
     "orientation": "horizontal",
     "name": "Screamers",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "screamers.png",
     "fileNamePrefix": "2.22",
     "frontCost": [ { "constant": "chemicalImage" } ],
@@ -1077,7 +1077,7 @@
   {
     "orientation": "horizontal",
     "name": "Gargantulus",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "gargantulus.png",
     "fileNamePrefix": "2.23",
     "frontCost": [ { "constant": "chemicalImage" } ],
@@ -1086,7 +1086,7 @@
   {
     "orientation": "horizontal",
     "name": "Pholiota Squarrosoides",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "squarrosoides.png",
     "fileNamePrefix": "2.24",
     "frontCost": [ { "constant": "chemicalImage" } ],
@@ -1095,7 +1095,7 @@
   {
     "orientation": "horizontal",
     "name": "Nisne wrench",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "nisne.png",
     "fileNamePrefix": "2.25",
     "frontCost": [ { "constant": "steamImage" } ],
@@ -1104,7 +1104,7 @@
   {
     "orientation": "horizontal",
     "name": "Dingbat",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "dingbot.png",
     "fileNamePrefix": "2.26",
     "frontCost": [ { "constant": "steamImage" } ],
@@ -1113,7 +1113,7 @@
   {
     "orientation": "horizontal",
     "name": "Autonomous kinetic balancer",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "balancer.png",
     "fileNamePrefix": "2.27",
     "frontCost": [ { "constant": "steamImage" } ],
@@ -1122,7 +1122,7 @@
   {
     "orientation": "horizontal",
     "name": "Coffee Machine",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "coffee.png",
     "fileNamePrefix": "2.28",
     "frontCost": [ { "constant": "mechanicalImage" } ],
@@ -1131,7 +1131,7 @@
   {
     "orientation": "horizontal",
     "name": "Psychotropic Spider",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "psychotropic.png",
     "fileNamePrefix": "2.29",
     "frontCost": [ { "constant": "mechanicalImage" } ],
@@ -1140,7 +1140,7 @@
   {
     "orientation": "horizontal",
     "name": "Kinetic Accumulator",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "hammer.png",
     "fileNamePrefix": "2.30",
     "frontCost": [ { "constant": "mechanicalImage" } ],
@@ -1149,7 +1149,7 @@
   {
     "orientation": "horizontal",
     "name": "One Way Staircase",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "staircase.png",
     "fileNamePrefix": "2.31",
     "frontCost": [ { "constant": "electricalImage" } ],
@@ -1158,7 +1158,7 @@
   {
     "orientation": "horizontal",
     "name": "Deathmice",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "rat.png",
     "fileNamePrefix": "2.32",
     "frontCost": [ { "constant": "electricalImage" } ],
@@ -1167,7 +1167,7 @@
   {
     "orientation": "horizontal",
     "name": "Antimemetic Weapon",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "antimemetic.png",
     "fileNamePrefix": "2.33",
     "frontCost": [ { "constant": "electricalImage" } ],
@@ -1176,7 +1176,7 @@
   {
     "orientation": "horizontal",
     "name": "Squidroach",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "squidroach.png",
     "fileNamePrefix": "2.34",
     "frontCost": [ { "constant": "chemicalImage" } ],
@@ -1185,7 +1185,7 @@
   {
     "orientation": "horizontal",
     "name": "Lampman",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "lamp.png",
     "fileNamePrefix": "2.35",
     "frontCost": [ { "constant": "chemicalImage" } ],
@@ -1194,7 +1194,7 @@
   {
     "orientation": "horizontal",
     "name": "Ned",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "ned.png",
     "fileNamePrefix": "2.36",
     "frontCost": [ { "constant": "chemicalImage" } ],
@@ -1203,7 +1203,7 @@
   {
     "orientation": "horizontal",
     "name": "Nefarious Turbine",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "turbine.png",
     "fileNamePrefix": "2.37",
     "frontCost": [ { "constant": "steamImage" } ],
@@ -1212,7 +1212,7 @@
   {
     "orientation": "horizontal",
     "name": "Apmool",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "apmool.png",
     "fileNamePrefix": "2.38",
     "frontCost": [ { "constant": "steamImage" } ],
@@ -1221,7 +1221,7 @@
   {
     "orientation": "horizontal",
     "name": "Gravity Engine",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "gravity.png",
     "fileNamePrefix": "2.39",
     "frontCost": [ { "constant": "steamImage" } ],
@@ -1230,7 +1230,7 @@
   {
     "orientation": "horizontal",
     "name": "AutoCrammer",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "autocrammer.png",
     "fileNamePrefix": "2.40",
     "frontCost": [ { "constant": "mechanicalImage" } ],
@@ -1239,7 +1239,7 @@
   {
     "orientation": "horizontal",
     "name": "Death ray",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "deathray.png",
     "fileNamePrefix": "2.41",
     "frontCost": [ { "constant": "mechanicalImage" } ],
@@ -1248,7 +1248,7 @@
   {
     "orientation": "horizontal",
     "name": "Intelligent Rodents",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "intelligentRodents.png",
     "fileNamePrefix": "2.42",
     "frontCost": [ { "constant": "mechanicalImage" } ],
@@ -1257,7 +1257,7 @@
   {
     "orientation": "horizontal",
     "name": "Vampire-Pepper",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "pepper.png",
     "fileNamePrefix": "2.43",
     "frontCost": [ { "constant": "electricalImage" } ],
@@ -1266,7 +1266,7 @@
   {
     "orientation": "horizontal",
     "name": "Birdbath",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "birdbath.png",
     "fileNamePrefix": "2.44",
     "frontCost": [ { "constant": "electricalImage" } ],
@@ -1275,7 +1275,7 @@
   {
     "orientation": "horizontal",
     "name": "Abstract Device",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "abstract.png",
     "fileNamePrefix": "2.45",
     "frontCost": [ { "constant": "electricalImage" } ],
@@ -1284,7 +1284,7 @@
   {
     "orientation": "horizontal",
     "name": "Sergeant Ack",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "ack.png",
     "fileNamePrefix": "2.46",
     "frontCost": [ { "constant": "chemicalImage" } ],
@@ -1293,7 +1293,7 @@
   {
     "orientation": "horizontal",
     "name": "Glowy green things",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "glowy.png",
     "fileNamePrefix": "2.47",
     "frontCost": [ { "constant": "chemicalImage" } ],
@@ -1302,7 +1302,7 @@
   {
     "orientation": "horizontal",
     "name": "Brain in a Jar",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "brain.png",
     "fileNamePrefix": "2.48",
     "frontCost": [ { "constant": "steamImage" } ],
@@ -1311,7 +1311,7 @@
   {
     "orientation": "horizontal",
     "name": "Vile Bagpipes",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "bagpipes.png",
     "fileNamePrefix": "2.49",
     "frontCost": [ { "constant": "steamImage" } ],
@@ -1320,7 +1320,7 @@
   {
     "orientation": "horizontal",
     "name": "Humanoid Cat",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "cat.png",
     "fileNamePrefix": "2.50",
     "frontCost": [ { "constant": "mechanicalImage" } ],
@@ -1329,7 +1329,7 @@
   {
     "orientation": "horizontal",
     "name": "Construction Bot",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "construction.png",
     "fileNamePrefix": "2.51",
     "frontCost": [ { "constant": "mechanicalImage" } ],
@@ -1338,7 +1338,7 @@
   {
     "orientation": "horizontal",
     "name": "Trenchcoat Generator",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "trenchcoat.png",
     "fileNamePrefix": "2.52",
     "frontCost": [ { "constant": "electricalImage" } ],
@@ -1347,7 +1347,7 @@
   {
     "orientation": "horizontal",
     "name": "Syn Packet",
-    "type": "Part",
+    "type": "Part","balanceC": "2","balanceE": "2",
     "art": "syn.png",
     "fileNamePrefix": "2.53",
     "frontCost": [ { "constant": "electricalImage" } ],
@@ -1359,7 +1359,7 @@
     "type": "PlayerMat",
     "fileNamePrefix": "9.",
     "art": "Character.4.png",
-    "color": { "constant": "madScientist" }
+    "color": { "constant": "madScientistYellow" }
   },
   {
     "orientation": "vertical",
@@ -1367,7 +1367,7 @@
     "type": "PlayerMat",
     "fileNamePrefix": "9.",
     "art": "Character.1.png",
-    "color": { "constant": "madScientist" }
+    "color": { "constant": "madScientistGreen" }
   },
   {
     "orientation": "vertical",
@@ -1375,7 +1375,7 @@
     "type": "PlayerMat",
     "fileNamePrefix": "9.",
     "art": "Character.3.png",
-    "color": { "constant": "madScientist" }
+    "color": { "constant": "madScientistBlue" }
   },
   {
     "orientation": "vertical",
@@ -1383,7 +1383,7 @@
     "type": "PlayerMat",
     "fileNamePrefix": "9.",
     "art": "Character.2.png",
-    "color": { "constant": "madScientist" }
+    "color": { "constant": "madScientistRed" }
   },
 
   {
