@@ -53,7 +53,7 @@
     "4Req": { "constant": "steamRequirementImage" },
     "points": "6",
     "ability": [
-      "All rooms cost -1 ",
+      "All rooms cost -1",
       { "constant": "anyImage" },
       " for you to repair (minimum 0)."
     ]
@@ -85,7 +85,7 @@
     "1Req": { "constant": "mechanicalRequirementImage" },
     "points": "3",
     "ability": [
-      "All rooms cost -1 ",
+      "All rooms cost -1",
       { "constant": "mechanicalImage" },
       " for you to repair (minimum 0)."
     ]
@@ -169,7 +169,7 @@
     "ability": [
       { "constant": "steamImage" },
       { "constant": "arrowImage" },
-      "Give this energy to an opponent to activate their device using your mad scientist."
+      "Activate an opponent's device using your Mad Scientist. They gain the activation energy."
     ]
   },
   {
@@ -187,7 +187,7 @@
     "ability": [
       { "constant": "chemicalImage" },
       { "constant": "arrowImage" },
-      "Give this energy to an opponent to activate their device using your mad scientist."
+      "Activate an opponent's device using your Mad Scientist. They gain the activation energy."
     ]
   },
   {
@@ -205,7 +205,7 @@
     "ability": [
       { "constant": "electricalImage" },
       { "constant": "arrowImage" },
-      "Give this energy to an opponent to activate their device using your mad scientist."
+      "Activate an opponent's device using your Mad Scientist. They gain the activation energy."
     ]
   },
   {
@@ -223,7 +223,7 @@
     "ability": [
       { "constant": "mechanicalImage" },
       { "constant": "arrowImage" },
-      "Give this energy to an opponent to activate their device using your mad scientist."
+      "Activate an opponent's device using your Mad Scientist. They gain the activation energy."
     ]
   },
   {
@@ -237,8 +237,7 @@
     "activateCost": { "constant": "madScientist" },
     "points": "4",
     "ability": [
-      "2",
-      { "constant": "anyImage" },
+      { "constant": "freeImage" },
       { "constant": "arrowImage" },
       "create a converter."
     ]
@@ -256,10 +255,9 @@
     "points": "4",
     "activateCost": { "constant": "madScientist" },
     "ability": [
-      "3",
       { "constant": "chemicalImage" },
       { "constant": "arrowImage" },
-      "Swap any two parts you own, then balance any affected devices."
+      "Swap 2 parts you own then balance any affected devices."
     ]
   },
   {
@@ -275,10 +273,9 @@
     "points": "4",
     "activateCost": { "constant": "madScientist" },
     "ability": [
-      "3",
       { "constant": "mechanicalImage" },
       { "constant": "arrowImage" },
-      "Swap any two parts you own, then balance any affected devices."
+      "Swap 2 parts you own then balance any affected devices."
     ]
   },
   {
@@ -336,8 +333,7 @@
     "activateCost": { "constant": "madScientist" },
     "points": "3",
     "ability": [
-      "2",
-      { "constant": "anyImage" },
+      { "constant": "freeImage" },
       { "constant": "arrowImage" },
       "create a converter."
     ]
@@ -350,7 +346,6 @@
     "art": "prisoners.png",
     "1ReqCount": "3",
     "1Req": { "constant": "minionRequirementImage" },
-    "activateCost": { "constant": "madScientist" },
     "points": "3",
     "ability": [
       { "constant": "freeImage" },
@@ -371,9 +366,9 @@
     "activateCost": { "constant": "madScientist" },
     "points": "2",
     "ability": [
-      { "constant": "mechanicalImage" },
+      { "constant": "freeImage" },
       { "constant": "arrowImage" },
-      "Return a device you own to your hand."
+      "Add a card to your generator. Balance your generator (2x cost)."
     ]
   },
   {
@@ -387,9 +382,9 @@
     "activateCost": { "constant": "madScientist" },
     "points": "2",
     "ability": [
-      { "constant": "steamImage" },
+      { "constant": "freeImage" },
       { "constant": "arrowImage" },
-      "Return a device you own to your hand."
+      "Add a card to your generator. Balance your generator (2x cost)."
     ]
   },
   {
@@ -403,9 +398,9 @@
     "activateCost": { "constant": "madScientist" },
     "points": "2",
     "ability": [
-      { "constant": "chemicalImage" },
+      { "constant": "freeImage" },
       { "constant": "arrowImage" },
-      "Return a device you own to your hand."
+      "Add a card to your generator. Balance your generator (2x cost)."
     ]
   },
   {
@@ -419,9 +414,9 @@
     "activateCost": { "constant": "madScientist" },
     "points": "2",
     "ability": [
-      { "constant": "electricalImage" },
+      { "constant": "freeImage" },
       { "constant": "arrowImage" },
-      "Return a device you own to your hand."
+      "Add a card to your generator. Balance your generator (2x cost)."
     ]
   },
   {
@@ -454,8 +449,7 @@
     "activateCost": { "constant": "madScientist" },
     "points": "2",
     "ability": [
-      "2",
-      { "constant": "anyImage" },
+      { "constant": "freeImage" },
       { "constant": "arrowImage" },
       "create a converter."
     ]
@@ -556,7 +550,6 @@
     "art": "prisoners.png",
     "1ReqCount": "2",
     "1Req": { "constant": "minionRequirementImage" },
-    "activateCost": { "constant": "madScientist" },
     "points": "2",
     "ability": [
       { "constant": "freeImage" },
@@ -579,10 +572,9 @@
     "points": "2",
     "activateCost": { "constant": "madScientist" },
     "ability": [
-      "3",
       { "constant": "steamImage" },
       { "constant": "arrowImage" },
-      "Swap any two parts you own, then balance any affected devices."
+      "Swap 2 parts you own then balance any affected devices."
     ]
   },
   {
@@ -598,10 +590,9 @@
     "points": "2",
     "activateCost": { "constant": "madScientist" },
     "ability": [
-      "3",
       { "constant": "electricalImage" },
       { "constant": "arrowImage" },
-      "Swap any two parts you own, then balance any affected devices."
+      "Swap 2 parts you own then balance any affected devices."
     ]
   },
   {
@@ -621,12 +612,11 @@
     "activateCost": { "constant": "madScientist" },
     "points": "1",
     "ability": [
-      "2",
       { "constant": "anyImage" },
       { "constant": "arrowImage" },
-      "Gain 1",
+      "Gain ",
       { "constant": "anyImage" },
-      ". Take another action."
+      " and take another action."
     ]
   },
   {
@@ -637,7 +627,6 @@
     "art": "prisoners.png",
     "1ReqCount": "1",
     "1Req": { "constant": "minionRequirementImage" },
-    "activateCost": { "constant": "madScientist" },
     "points": "1",
     "ability": [
       { "constant": "freeImage" },
@@ -658,8 +647,7 @@
     "activateCost": { "constant": "madScientist" },
     "points": "1",
     "ability": [
-      "2",
-      { "constant": "anyImage" },
+      { "constant": "freeImage" },
       { "constant": "arrowImage" },
       "create a converter."
     ]
@@ -677,7 +665,6 @@
     "points": "1",
     "activateCost": { "constant": "madScientist" },
     "ability": [
-      "2",
       { "constant": "chemicalImage" },
       { "constant": "arrowImage" },
       "Tuck an extra core card on the output side of a device then balance the device."
@@ -696,7 +683,6 @@
     "points": "1",
     "activateCost": { "constant": "madScientist" },
     "ability": [
-      "2",
       { "constant": "mechanicalImage" },
       { "constant": "arrowImage" },
       "Tuck an extra core card on the output side of a device then balance the device."
@@ -715,7 +701,6 @@
     "points": "1",
     "activateCost": { "constant": "madScientist" },
     "ability": [
-      "2",
       { "constant": "steamImage" },
       { "constant": "arrowImage" },
       "Tuck an extra core card on the output side of a device then balance the device."
@@ -734,7 +719,6 @@
     "points": "1",
     "activateCost": { "constant": "madScientist" },
     "ability": [
-      "2",
       { "constant": "electricalImage" },
       { "constant": "arrowImage" },
       "Tuck an extra core card on the output side of a device then balance the device."
@@ -769,7 +753,7 @@
     "ability": [
       { "constant": "mechanicalImage" },
       { "constant": "arrowImage" },
-      "Add a part to a device you own then balance it."
+      "Add a part to a device you own then balance it, ignoring the cost of the leftmost core."
     ]
   },
   {
@@ -800,10 +784,10 @@
     "activateCost": { "constant": "madScientist" },
     "points": "5",
     "ability": [
-      "n",
+      "2",
       { "constant": "electricalImage" },
       { "constant": "arrowImage" },
-      "Take n parts from the heap."
+      "Take all the parts from the heap."
     ]
   },
   {
@@ -812,14 +796,13 @@
     "type": "StartRoom",
     "fileNamePrefix": "1.Room.4.1.",
     "art": "minaret.png",
-    "1ReqCount": "10",
+    "1ReqCount": "13",
     "1Req": { "constant": "timeRequirementImage" },
-    "activateCost": { "constant": "madScientist" },
     "points": "5",
     "ability": [
       { "constant": "timeImage" },
       { "constant": "arrowImage" },
-      "Activating this doesn't require your Mad Scientist. Refresh a tired worker. Take another action."
+      "Refresh a tired worker. Take another action."
     ]
   },
 
@@ -827,41 +810,41 @@
     "orientation": "horizontal",
     "name": "Heinlein device",
     "subtitle": "Start Part",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part",
     "art": "heinlein.png",
     "fileNamePrefix": "2.0",
-    "frontCost": [ { "constant": "timeImage" } ],
-    "frontEffects": [ { "constant": "timeImage" } ]
+    "frontCost": [ { "constant": "timeImage" } ],"balanceC": "2",
+    "frontEffects": [ { "constant": "timeImage" } ],"balanceE": "2"
   },
   {
     "orientation": "horizontal",
     "name": "Ulysses Engine",
     "subtitle": "Start Part",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part",
     "art": "ulysses.png",
     "fileNamePrefix": "2.1",
-    "frontCost": [ { "constant": "timeImage" } ],
-    "frontEffects": [ { "constant": "timeImage" } ]
+    "frontCost": [ { "constant": "timeImage" } ],"balanceC": "2",
+    "frontEffects": [ { "constant": "timeImage" } ],"balanceE": "2"
   },
   {
     "orientation": "horizontal",
     "name": "Raivata Mechanism",
     "subtitle": "Start Part",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part",
     "art": "raivata.png",
     "fileNamePrefix": "2.2",
-    "frontCost": [ { "constant": "timeImage" } ],
-    "frontEffects": [ { "constant": "timeImage" } ]
+    "frontCost": [ { "constant": "timeImage" } ],"balanceC": "2",
+    "frontEffects": [ { "constant": "timeImage" } ],"balanceE": "2"
   },
   {
     "orientation": "horizontal",
     "name": "Seven Minute Boots",
     "subtitle": "Start Part",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part",
     "art": "boots.png",
     "fileNamePrefix": "2.3",
-    "frontCost": [ { "constant": "timeImage" } ],
-    "frontEffects": [ { "constant": "timeImage" } ]
+    "frontCost": [ { "constant": "timeImage" } ],"balanceC": "2",
+    "frontEffects": [ { "constant": "timeImage" } ],"balanceE": "2"
   },
   {
     "orientation": "horizontal",
@@ -906,43 +889,43 @@
   {
     "orientation": "horizontal",
     "name": "Nautilus-Bot",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceE": "1",
     "art": "nautilus.png",
     "fileNamePrefix": "2.4",
-    "frontCost": [ { "constant": "timeImage" } ],
+    "frontCost": [ { "constant": "timeImage" } ],"balanceC": "2",
     "frontEffects": [ { "constant": "steamImage" } ]
   },
   {
     "orientation": "horizontal",
     "name": "Chrono-Bot",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceE": "1",
     "art": "chrono.png",
     "fileNamePrefix": "2.5",
-    "frontCost": [ { "constant": "timeImage" } ],
+    "frontCost": [ { "constant": "timeImage" } ],"balanceC": "2",
     "frontEffects": [ { "constant": "chemicalImage" } ]
   },
   {
     "orientation": "horizontal",
     "name": "Hexivalic wave conductor",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceE": "1",
     "art": "hexivalic.png",
     "fileNamePrefix": "2.6",
-    "frontCost": [ { "constant": "timeImage" } ],
+    "frontCost": [ { "constant": "timeImage" } ],"balanceC": "2",
     "frontEffects": [ { "constant": "mechanicalImage" } ]
   },
   {
     "orientation": "horizontal",
     "name": "Temporal Clacker",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceE": "1",
     "art": "temporal.png",
     "fileNamePrefix": "2.7",
-    "frontCost": [ { "constant": "timeImage" } ],
+    "frontCost": [ { "constant": "timeImage" } ],"balanceC": "2",
     "frontEffects": [ { "constant": "electricalImage" } ]
   },
   {
     "orientation": "horizontal",
     "name": "Tok",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "tok.png",
     "fileNamePrefix": "2.8",
     "frontCost": [ { "constant": "chemicalImage" } ],
@@ -951,7 +934,7 @@
   {
     "orientation": "horizontal",
     "name": "Baghdad Capacitor",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "baghdad.png",
     "fileNamePrefix": "2.9",
     "frontCost": [ { "constant": "chemicalImage" } ],
@@ -960,7 +943,7 @@
   {
     "orientation": "horizontal",
     "name": "Lightning Staff",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "staff.png",
     "fileNamePrefix": "2.10",
     "frontCost": [ { "constant": "chemicalImage" } ],
@@ -969,7 +952,7 @@
   {
     "orientation": "horizontal",
     "name": "Doppler wrench",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "wrench.png",
     "fileNamePrefix": "2.11",
     "frontCost": [ { "constant": "steamImage" } ],
@@ -978,7 +961,7 @@
   {
     "orientation": "horizontal",
     "name": "Universal Constructor",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "universal.png",
     "fileNamePrefix": "2.12",
     "frontCost": [ { "constant": "steamImage" } ],
@@ -987,7 +970,7 @@
   {
     "orientation": "horizontal",
     "name": "Ionization Engine",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "ionization.png",
     "fileNamePrefix": "2.13",
     "frontCost": [ { "constant": "steamImage" } ],
@@ -996,7 +979,7 @@
   {
     "orientation": "horizontal",
     "name": "TechnoBlivet",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "blivet.png",
     "fileNamePrefix": "2.14",
     "frontCost": [ { "constant": "mechanicalImage" } ],
@@ -1005,7 +988,7 @@
   {
     "orientation": "horizontal",
     "name": "Robot Builder",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "builder.png",
     "fileNamePrefix": "2.15",
     "frontCost": [ { "constant": "mechanicalImage" } ],
@@ -1014,7 +997,7 @@
   {
     "orientation": "horizontal",
     "name": "Pruning Bot",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "pruning.png",
     "fileNamePrefix": "2.16",
     "frontCost": [ { "constant": "mechanicalImage" } ],
@@ -1023,7 +1006,7 @@
   {
     "orientation": "horizontal",
     "name": "Loxodontia Muridae",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "elephant.png",
     "fileNamePrefix": "2.17",
     "frontCost": [ { "constant": "electricalImage" } ],
@@ -1032,7 +1015,7 @@
   {
     "orientation": "horizontal",
     "name": "Pib",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "pib.png",
     "fileNamePrefix": "2.18",
     "frontCost": [ { "constant": "electricalImage" } ],
@@ -1041,7 +1024,7 @@
   {
     "orientation": "horizontal",
     "name": "Bourgeoisie Bot",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "bourgeoisie.png",
     "fileNamePrefix": "2.19",
     "frontCost": [ { "constant": "electricalImage" } ],
@@ -1050,25 +1033,25 @@
   {
     "orientation": "horizontal",
     "name": "Chronometric Coupler",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part",
     "art": "coupler.png",
     "fileNamePrefix": "2.20",
-    "frontCost": [ { "constant": "timeImage" } ],
-    "frontEffects": [ { "constant": "timeImage" } ]
+    "frontCost": [ { "constant": "timeImage" } ],"balanceC": "2",
+    "frontEffects": [ { "constant": "timeImage" } ],"balanceE": "2"
   },
   {
     "orientation": "horizontal",
     "name": "Tesseract",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part",
     "art": "tesseract.png",
     "fileNamePrefix": "2.21",
-    "frontCost": [ { "constant": "timeImage" } ],
-    "frontEffects": [ { "constant": "timeImage" } ]
+    "frontCost": [ { "constant": "timeImage" } ],"balanceC": "2",
+    "frontEffects": [ { "constant": "timeImage" } ],"balanceE": "2"
   },
   {
     "orientation": "horizontal",
     "name": "Screamers",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "screamers.png",
     "fileNamePrefix": "2.22",
     "frontCost": [ { "constant": "chemicalImage" } ],
@@ -1077,7 +1060,7 @@
   {
     "orientation": "horizontal",
     "name": "Gargantulus",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "gargantulus.png",
     "fileNamePrefix": "2.23",
     "frontCost": [ { "constant": "chemicalImage" } ],
@@ -1086,7 +1069,7 @@
   {
     "orientation": "horizontal",
     "name": "Pholiota Squarrosoides",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "squarrosoides.png",
     "fileNamePrefix": "2.24",
     "frontCost": [ { "constant": "chemicalImage" } ],
@@ -1095,7 +1078,7 @@
   {
     "orientation": "horizontal",
     "name": "Nisne wrench",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "nisne.png",
     "fileNamePrefix": "2.25",
     "frontCost": [ { "constant": "steamImage" } ],
@@ -1104,7 +1087,7 @@
   {
     "orientation": "horizontal",
     "name": "Dingbat",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "dingbot.png",
     "fileNamePrefix": "2.26",
     "frontCost": [ { "constant": "steamImage" } ],
@@ -1113,7 +1096,7 @@
   {
     "orientation": "horizontal",
     "name": "Autonomous kinetic balancer",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "balancer.png",
     "fileNamePrefix": "2.27",
     "frontCost": [ { "constant": "steamImage" } ],
@@ -1122,7 +1105,7 @@
   {
     "orientation": "horizontal",
     "name": "Coffee Machine",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "coffee.png",
     "fileNamePrefix": "2.28",
     "frontCost": [ { "constant": "mechanicalImage" } ],
@@ -1131,7 +1114,7 @@
   {
     "orientation": "horizontal",
     "name": "Psychotropic Spider",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "psychotropic.png",
     "fileNamePrefix": "2.29",
     "frontCost": [ { "constant": "mechanicalImage" } ],
@@ -1140,7 +1123,7 @@
   {
     "orientation": "horizontal",
     "name": "Kinetic Accumulator",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "hammer.png",
     "fileNamePrefix": "2.30",
     "frontCost": [ { "constant": "mechanicalImage" } ],
@@ -1149,7 +1132,7 @@
   {
     "orientation": "horizontal",
     "name": "One Way Staircase",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "staircase.png",
     "fileNamePrefix": "2.31",
     "frontCost": [ { "constant": "electricalImage" } ],
@@ -1158,7 +1141,7 @@
   {
     "orientation": "horizontal",
     "name": "Deathmice",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "rat.png",
     "fileNamePrefix": "2.32",
     "frontCost": [ { "constant": "electricalImage" } ],
@@ -1167,7 +1150,7 @@
   {
     "orientation": "horizontal",
     "name": "Antimemetic Weapon",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "antimemetic.png",
     "fileNamePrefix": "2.33",
     "frontCost": [ { "constant": "electricalImage" } ],
@@ -1176,7 +1159,7 @@
   {
     "orientation": "horizontal",
     "name": "Squidroach",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "squidroach.png",
     "fileNamePrefix": "2.34",
     "frontCost": [ { "constant": "chemicalImage" } ],
@@ -1185,7 +1168,7 @@
   {
     "orientation": "horizontal",
     "name": "Lampman",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "lamp.png",
     "fileNamePrefix": "2.35",
     "frontCost": [ { "constant": "chemicalImage" } ],
@@ -1194,7 +1177,7 @@
   {
     "orientation": "horizontal",
     "name": "Ned",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "ned.png",
     "fileNamePrefix": "2.36",
     "frontCost": [ { "constant": "chemicalImage" } ],
@@ -1203,7 +1186,7 @@
   {
     "orientation": "horizontal",
     "name": "Nefarious Turbine",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "turbine.png",
     "fileNamePrefix": "2.37",
     "frontCost": [ { "constant": "steamImage" } ],
@@ -1212,7 +1195,7 @@
   {
     "orientation": "horizontal",
     "name": "Apmool",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "apmool.png",
     "fileNamePrefix": "2.38",
     "frontCost": [ { "constant": "steamImage" } ],
@@ -1221,7 +1204,7 @@
   {
     "orientation": "horizontal",
     "name": "Gravity Engine",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "gravity.png",
     "fileNamePrefix": "2.39",
     "frontCost": [ { "constant": "steamImage" } ],
@@ -1230,7 +1213,7 @@
   {
     "orientation": "horizontal",
     "name": "AutoCrammer",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "autocrammer.png",
     "fileNamePrefix": "2.40",
     "frontCost": [ { "constant": "mechanicalImage" } ],
@@ -1239,7 +1222,7 @@
   {
     "orientation": "horizontal",
     "name": "Death ray",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "deathray.png",
     "fileNamePrefix": "2.41",
     "frontCost": [ { "constant": "mechanicalImage" } ],
@@ -1248,7 +1231,7 @@
   {
     "orientation": "horizontal",
     "name": "Intelligent Rodents",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "intelligentRodents.png",
     "fileNamePrefix": "2.42",
     "frontCost": [ { "constant": "mechanicalImage" } ],
@@ -1257,7 +1240,7 @@
   {
     "orientation": "horizontal",
     "name": "Vampire-Pepper",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "pepper.png",
     "fileNamePrefix": "2.43",
     "frontCost": [ { "constant": "electricalImage" } ],
@@ -1266,7 +1249,7 @@
   {
     "orientation": "horizontal",
     "name": "Birdbath",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "birdbath.png",
     "fileNamePrefix": "2.44",
     "frontCost": [ { "constant": "electricalImage" } ],
@@ -1275,7 +1258,7 @@
   {
     "orientation": "horizontal",
     "name": "Abstract Device",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "abstract.png",
     "fileNamePrefix": "2.45",
     "frontCost": [ { "constant": "electricalImage" } ],
@@ -1284,16 +1267,16 @@
   {
     "orientation": "horizontal",
     "name": "Sergeant Ack",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1",
     "art": "ack.png",
     "fileNamePrefix": "2.46",
     "frontCost": [ { "constant": "chemicalImage" } ],
-    "frontEffects": [ { "constant": "timeImage" } ]
+    "frontEffects": [ { "constant": "timeImage" } ],"balanceE": "2"
   },
   {
     "orientation": "horizontal",
     "name": "Glowy green things",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "glowy.png",
     "fileNamePrefix": "2.47",
     "frontCost": [ { "constant": "chemicalImage" } ],
@@ -1302,16 +1285,16 @@
   {
     "orientation": "horizontal",
     "name": "Brain in a Jar",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1",
     "art": "brain.png",
     "fileNamePrefix": "2.48",
     "frontCost": [ { "constant": "steamImage" } ],
-    "frontEffects": [ { "constant": "timeImage" } ]
+    "frontEffects": [ { "constant": "timeImage" } ],"balanceE": "2"
   },
   {
     "orientation": "horizontal",
     "name": "Vile Bagpipes",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "bagpipes.png",
     "fileNamePrefix": "2.49",
     "frontCost": [ { "constant": "steamImage" } ],
@@ -1320,16 +1303,16 @@
   {
     "orientation": "horizontal",
     "name": "Humanoid Cat",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1",
     "art": "cat.png",
     "fileNamePrefix": "2.50",
     "frontCost": [ { "constant": "mechanicalImage" } ],
-    "frontEffects": [ { "constant": "timeImage" } ]
+    "frontEffects": [ { "constant": "timeImage" } ],"balanceE": "2"
   },
   {
     "orientation": "horizontal",
     "name": "Construction Bot",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "construction.png",
     "fileNamePrefix": "2.51",
     "frontCost": [ { "constant": "mechanicalImage" } ],
@@ -1338,16 +1321,16 @@
   {
     "orientation": "horizontal",
     "name": "Trenchcoat Generator",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1",
     "art": "trenchcoat.png",
     "fileNamePrefix": "2.52",
     "frontCost": [ { "constant": "electricalImage" } ],
-    "frontEffects": [ { "constant": "timeImage" } ]
+    "frontEffects": [ { "constant": "timeImage" } ],"balanceE": "2"
   },
   {
     "orientation": "horizontal",
     "name": "Syn Packet",
-    "type": "Part","balanceC": "2","balanceE": "2",
+    "type": "Part","balanceC": "1","balanceE": "1",
     "art": "syn.png",
     "fileNamePrefix": "2.53",
     "frontCost": [ { "constant": "electricalImage" } ],
@@ -1359,7 +1342,8 @@
     "type": "PlayerMat",
     "fileNamePrefix": "9.",
     "art": "Character.4.png",
-    "color": { "constant": "madScientistYellow" }
+    "color": { "constant": "madScientistYellow" },
+    "genText": "When you refresh your Mad Scientist, gain the energy to the right."
   },
   {
     "orientation": "vertical",
@@ -1367,7 +1351,8 @@
     "type": "PlayerMat",
     "fileNamePrefix": "9.",
     "art": "Character.1.png",
-    "color": { "constant": "madScientistGreen" }
+    "color": { "constant": "madScientistGreen" },
+    "genText": "When you refresh your Mad Scientist, gain the energy to the right."
   },
   {
     "orientation": "vertical",
@@ -1375,7 +1360,8 @@
     "type": "PlayerMat",
     "fileNamePrefix": "9.",
     "art": "Character.3.png",
-    "color": { "constant": "madScientistBlue" }
+    "color": { "constant": "madScientistBlue" },
+    "genText": "When you refresh your Mad Scientist, gain the energy to the right."
   },
   {
     "orientation": "vertical",
@@ -1383,7 +1369,8 @@
     "type": "PlayerMat",
     "fileNamePrefix": "9.",
     "art": "Character.2.png",
-    "color": { "constant": "madScientistRed" }
+    "color": { "constant": "madScientistRed" },
+    "genText": "When you refresh your Mad Scientist, gain the energy to the right."
   },
 
   {
