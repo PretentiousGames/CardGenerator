@@ -72,22 +72,7 @@
       "n",
       { "constant": "anyImage" },
       { "constant": "arrowImage" },
-      "Play n parts you own to create a new device (minimum 3)."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "Monster General's Castle HQ",
-    "type": "Room",
-    "fileNamePrefix": "1.Room.",
-    "art": "HQ.png",
-    "1ReqCount": "7",
-    "1Req": { "constant": "mechanicalRequirementImage" },
-    "points": "3",
-    "ability": [
-      "All rooms cost -1",
-      { "constant": "mechanicalImage" },
-      " for you to repair (minimum 0)."
+      "Play n parts to create a new device (minimum 3). Discard your all your energy and part cards."
     ]
   },
   {
@@ -101,22 +86,7 @@
     "points": "3",
     "ability": [
       "All rooms cost -1",
-      { "constant": "electricalImage" },
-      " for you to repair (minimum 0)."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "Brisco Arronax's personal kitchen",
-    "type": "Room",
-    "fileNamePrefix": "1.Room.",
-    "art": "kitchen.png",
-    "1ReqCount": "7",
-    "1Req": { "constant": "steamRequirementImage" },
-    "points": "3",
-    "ability": [
-      "All rooms cost -1",
-      { "constant": "steamImage" },
+      { "constant": "anyImage" },
       " for you to repair (minimum 0)."
     ]
   },
@@ -131,7 +101,7 @@
     "points": "3",
     "ability": [
       "All rooms cost -1",
-      { "constant": "chemicalImage" },
+      { "constant": "anyImage" },
       " for you to repair (minimum 0)."
     ]
   },
@@ -156,24 +126,6 @@
   },
   {
     "orientation": "vertical",
-    "name": "Alexia Arronax's Dining Room",
-    "type": "Room",
-    "fileNamePrefix": "1.Room.",
-    "art": "diningRoom.png",
-    "1ReqCount": "4",
-    "1Req": { "constant": "electricalRequirementImage" },
-    "2ReqCount": "4",
-    "2Req": { "constant": "mechanicalRequirementImage" },
-    "activateCost": { "constant": "madScientist" },
-    "points": "4",
-    "ability": [
-      { "constant": "steamImage" },
-      { "constant": "arrowImage" },
-      "Activate an opponent's device using your Mad Scientist. They gain the activation energy."
-    ]
-  },
-  {
-    "orientation": "vertical",
     "name": "Greenish-Blue Gate",
     "type": "Room",
     "fileNamePrefix": "1.Room.",
@@ -185,7 +137,7 @@
     "activateCost": { "constant": "madScientist" },
     "points": "4",
     "ability": [
-      { "constant": "chemicalImage" },
+      { "constant": "electricalImage" }, "/", { "constant": "steamImage" },
       { "constant": "arrowImage" },
       "Activate an opponent's device using your Mad Scientist. They gain the activation energy."
     ]
@@ -203,25 +155,7 @@
     "activateCost": { "constant": "madScientist" },
     "points": "4",
     "ability": [
-      { "constant": "electricalImage" },
-      { "constant": "arrowImage" },
-      "Activate an opponent's device using your Mad Scientist. They gain the activation energy."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "Corridor of Smells",
-    "type": "Room",
-    "fileNamePrefix": "1.Room.",
-    "art": "smells.png",
-    "1ReqCount": "4",
-    "1Req": { "constant": "chemicalRequirementImage" },
-    "2ReqCount": "4",
-    "2Req": { "constant": "steamRequirementImage" },
-    "activateCost": { "constant": "madScientist" },
-    "points": "4",
-    "ability": [
-      { "constant": "mechanicalImage" },
+      { "constant": "chemicalImage" }, "/", { "constant": "mechanicalImage" },
       { "constant": "arrowImage" },
       "Activate an opponent's device using your Mad Scientist. They gain the activation energy."
     ]
@@ -255,9 +189,10 @@
     "points": "4",
     "activateCost": { "constant": "madScientist" },
     "ability": [
-      { "constant": "chemicalImage" },
+      { "constant": "mechanicalImage" },
+      { "constant": "steamImage" },
       { "constant": "arrowImage" },
-      "Swap 2 parts you own then balance any affected devices."
+      "A device you own gains 2 levels."
     ]
   },
   {
@@ -273,9 +208,10 @@
     "points": "4",
     "activateCost": { "constant": "madScientist" },
     "ability": [
-      { "constant": "mechanicalImage" },
+      { "constant": "electricalImage" },
+      { "constant": "chemicalImage" },
       { "constant": "arrowImage" },
-      "Swap 2 parts you own then balance any affected devices."
+      "A device you own gains 2 levels."
     ]
   },
   {
@@ -333,9 +269,10 @@
     "activateCost": { "constant": "madScientist" },
     "points": "3",
     "ability": [
-      { "constant": "freeImage" },
+      "2",
+      { "constant": "anyImage" },
       { "constant": "arrowImage" },
-      "create a converter."
+      "Gain a minion. Take another action."
     ]
   },
   {
@@ -346,29 +283,11 @@
     "art": "prisoners.png",
     "1ReqCount": "3",
     "1Req": { "constant": "minionRequirementImage" },
-    "points": "3",
+    "points": "5",
     "ability": [
-      { "constant": "freeImage" },
-      { "constant": "arrowImage" },
-      "Discard a minion for 3",
+      "Discard up to 6 minions for 2",
       { "constant": "anyImage" },
-      "."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "Chapel of Teeth",
-    "type": "Room",
-    "fileNamePrefix": "1.Room.",
-    "art": "teeth.png",
-    "1ReqCount": "5",
-    "1Req": { "constant": "electricalRequirementImage" },
-    "activateCost": { "constant": "madScientist" },
-    "points": "2",
-    "ability": [
-      { "constant": "freeImage" },
-      { "constant": "arrowImage" },
-      "Add a card to your generator. Balance your generator (2x cost)."
+      " each."
     ]
   },
   {
@@ -382,23 +301,8 @@
     "activateCost": { "constant": "madScientist" },
     "points": "2",
     "ability": [
-      { "constant": "freeImage" },
-      { "constant": "arrowImage" },
-      "Add a card to your generator. Balance your generator (2x cost)."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "The Master Library",
-    "type": "Room",
-    "fileNamePrefix": "1.Room.",
-    "art": "library.png",
-    "1ReqCount": "5",
-    "1Req": { "constant": "steamRequirementImage" },
-    "activateCost": { "constant": "madScientist" },
-    "points": "2",
-    "ability": [
-      { "constant": "freeImage" },
+      "2",
+      { "constant": "mechanicalImage" },
       { "constant": "arrowImage" },
       "Add a card to your generator. Balance your generator (2x cost)."
     ]
@@ -414,7 +318,8 @@
     "activateCost": { "constant": "madScientist" },
     "points": "2",
     "ability": [
-      { "constant": "freeImage" },
+      "2",
+      { "constant": "chemicalImage" },
       { "constant": "arrowImage" },
       "Add a card to your generator. Balance your generator (2x cost)."
     ]
@@ -466,23 +371,6 @@
     "points": "1",
     "ability": [
       "n",
-      { "constant": "chemicalImage" },
-      { "constant": "arrowImage" },
-      "Add n parts to a device you own then balance it."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "Torture Room",
-    "type": "Room",
-    "fileNamePrefix": "1.Room.",
-    "art": "torture.png",
-    "1ReqCount": "3",
-    "1Req": { "constant": "mechanicalRequirementImage" },
-    "points": "1",
-    "activateCost": { "constant": "madScientist" },
-    "ability": [
-      "n",
       { "constant": "electricalImage" },
       { "constant": "arrowImage" },
       "Add n parts to a device you own then balance it."
@@ -500,29 +388,11 @@
     "points": "1",
     "ability": [
       "n",
-      { "constant": "mechanicalImage" },
-      { "constant": "arrowImage" },
-      "Add n parts to a device you own then balance it."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "Violetta Arronax's Apiary",
-    "type": "Room",
-    "fileNamePrefix": "1.Room.",
-    "art": "apiary.png",
-    "1ReqCount": "3",
-    "1Req": { "constant": "chemicalRequirementImage" },
-    "activateCost": { "constant": "madScientist" },
-    "points": "1",
-    "ability": [
-      "n",
       { "constant": "steamImage" },
       { "constant": "arrowImage" },
       "Add n parts to a device you own then balance it."
     ]
   },
-
   {
     "orientation": "vertical",
     "name": "The Ingenious Paradox",
@@ -550,7 +420,7 @@
     "art": "prisoners.png",
     "1ReqCount": "2",
     "1Req": { "constant": "minionRequirementImage" },
-    "points": "2",
+    "points": "4",
     "ability": [
       { "constant": "freeImage" },
       { "constant": "arrowImage" },
@@ -572,7 +442,7 @@
     "points": "2",
     "activateCost": { "constant": "madScientist" },
     "ability": [
-      { "constant": "steamImage" },
+      { "constant": "mechanicalImage" }, { "constant": "electricalImage" },
       { "constant": "arrowImage" },
       "Swap 2 parts you own then balance any affected devices."
     ]
@@ -590,14 +460,14 @@
     "points": "2",
     "activateCost": { "constant": "madScientist" },
     "ability": [
-      { "constant": "electricalImage" },
+      { "constant": "chemicalImage" }, { "constant": "steamImage" },
       { "constant": "arrowImage" },
       "Swap 2 parts you own then balance any affected devices."
     ]
   },
   {
     "orientation": "vertical",
-    "name": "Bloody Stupid Aaronax's Generator",
+    "name": "Bloody Stupid Arronax's Generator",
     "type": "Room",
     "fileNamePrefix": "1.Room.",
     "art": "GreatGenerator.png",
@@ -627,7 +497,7 @@
     "art": "prisoners.png",
     "1ReqCount": "1",
     "1Req": { "constant": "minionRequirementImage" },
-    "points": "1",
+    "points": "2",
     "ability": [
       { "constant": "freeImage" },
       { "constant": "arrowImage" },
@@ -647,45 +517,10 @@
     "activateCost": { "constant": "madScientist" },
     "points": "1",
     "ability": [
-      { "constant": "freeImage" },
+      "2",
+      { "constant": "anyImage" },
       { "constant": "arrowImage" },
-      "create a converter."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "The Viridescent Corridor",
-    "type": "Room",
-    "fileNamePrefix": "1.Room.",
-    "art": "green.png",
-    "1ReqCount": "2",
-    "1Req": { "constant": "electricalRequirementImage" },
-    "2ReqCount": "2",
-    "2Req": { "constant": "wildRequirementImage" },
-    "points": "1",
-    "activateCost": { "constant": "madScientist" },
-    "ability": [
-      { "constant": "chemicalImage" },
-      { "constant": "arrowImage" },
-      "Tuck an extra core card on the output side of a device then balance the device."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "The Ultramarine Corridor",
-    "type": "Room",
-    "fileNamePrefix": "1.Room.",
-    "art": "blue.png",
-    "1ReqCount": "2",
-    "1Req": { "constant": "chemicalRequirementImage" },
-    "2ReqCount": "2",
-    "2Req": { "constant": "wildRequirementImage" },
-    "points": "1",
-    "activateCost": { "constant": "madScientist" },
-    "ability": [
-      { "constant": "mechanicalImage" },
-      { "constant": "arrowImage" },
-      "Tuck an extra core card on the output side of a device then balance the device."
+      "Gain a minion. Take another action."
     ]
   },
   {
@@ -701,7 +536,7 @@
     "points": "1",
     "activateCost": { "constant": "madScientist" },
     "ability": [
-      { "constant": "steamImage" },
+      { "constant": "mechanicalImage" },
       { "constant": "arrowImage" },
       "Tuck an extra core card on the output side of a device then balance the device."
     ]
@@ -719,7 +554,7 @@
     "points": "1",
     "activateCost": { "constant": "madScientist" },
     "ability": [
-      { "constant": "electricalImage" },
+      { "constant": "steamImage" },
       { "constant": "arrowImage" },
       "Tuck an extra core card on the output side of a device then balance the device."
     ]
@@ -735,7 +570,7 @@
     "points": "5",
     "activateCost": { "constant": "madScientist" },
     "ability": [
-      { "constant": "steamImage" },
+      { "constant": "electricalImage" },
       { "constant": "arrowImage" },
       "A device you own gains a level"
     ]
@@ -751,9 +586,9 @@
     "points": "5",
     "activateCost": { "constant": "madScientist" },
     "ability": [
-      { "constant": "mechanicalImage" },
+      { "constant": "steamImage" },
       { "constant": "arrowImage" },
-      "Add a part to a device you own then balance it, ignoring the cost of the leftmost core."
+      "Add a part or core to a device you own then balance it, ignoring the cost of the leftmost core."
     ]
   },
   {
@@ -768,7 +603,7 @@
     "points": "5",
     "ability": [
       "n",
-      { "constant": "chemicalImage" },
+      { "constant": "mechanicalImage" },
       { "constant": "arrowImage" },
       "Gain n minions."
     ]
@@ -785,7 +620,7 @@
     "points": "5",
     "ability": [
       "2",
-      { "constant": "electricalImage" },
+      { "constant": "chemicalImage" },
       { "constant": "arrowImage" },
       "Take all the parts from the heap."
     ]
