@@ -77,56 +77,7 @@
   },
   {
     "orientation": "vertical",
-    "name": "Seraglio of Minotarus Arronax",
-    "type": "Room",
-    "fileNamePrefix": "1.Room.",
-    "art": "seraglio.png",
-    "1ReqCount": "7",
-    "1Req": { "constant": "electricalRequirementImage" },
-    "points": "3",
-    "ability": [
-      "All rooms cost -1",
-      { "constant": "anyImage" },
-      " for you to repair (minimum 0)."
-    ]
-  },
-  {
-    "orientation": "vertical",
     "name": "Bloody Stupid Arronax's bathroom",
-    "type": "Room",
-    "fileNamePrefix": "1.Room.",
-    "art": "bathroom.png",
-    "1ReqCount": "7",
-    "1Req": { "constant": "chemicalRequirementImage" },
-    "points": "3",
-    "ability": [
-      "All rooms cost -1",
-      { "constant": "anyImage" },
-      " for you to repair (minimum 0)."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "Titor's Room",
-    "type": "Room",
-    "fileNamePrefix": "1.Room.",
-    "art": "paradox.png",
-    "1ReqCount": "4",
-    "1Req": { "constant": "timeRequirementImage" },
-    "activateCost": { "constant": "madScientist" },
-    "points": "3",
-    "ability": [
-      "2",
-      { "constant": "timeImage" },
-      { "constant": "arrowImage" },
-      "Take 2 more actions. You may not spend any more ",
-      { "constant": "timeImage" },
-      " this turn."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "Greenish-Blue Gate",
     "type": "Room",
     "fileNamePrefix": "1.Room.",
     "art": "greenblue.png",
@@ -216,50 +167,6 @@
   },
   {
     "orientation": "vertical",
-    "name": "Wells' Grotto",
-    "type": "Room",
-    "fileNamePrefix": "1.Room.",
-    "art": "paradox.png",
-    "1ReqCount": "6",
-    "1Req": { "constant": "timeRequirementImage" },
-    "activateCost": { "constant": "madScientist" },
-    "points": "4",
-    "ability": [
-      "2",
-      { "constant": "timeImage" },
-      { "constant": "arrowImage" },
-      "Take 2 more actions. You may not spend any more ",
-      { "constant": "timeImage" },
-      " this turn."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "The Mediocre Generator",
-    "type": "Room",
-    "fileNamePrefix": "1.Room.",
-    "art": "GreatGenerator.png",
-    "1ReqCount": "2",
-    "1Req": { "constant": "electricalRequirementImage" },
-    "2ReqCount": "2",
-    "2Req": { "constant": "mechanicalRequirementImage" },
-    "3ReqCount": "2",
-    "3Req": { "constant": "chemicalRequirementImage" },
-    "4ReqCount": "2",
-    "4Req": { "constant": "steamRequirementImage" },
-    "activateCost": { "constant": "madScientist" },
-    "points": "3",
-    "ability": [
-      "2",
-      { "constant": "anyImage" },
-      { "constant": "arrowImage" },
-      "Gain 4",
-      { "constant": "anyImage" },
-      "."
-    ]
-  },
-  {
-    "orientation": "vertical",
     "name": "The Ambiguous Reference",
     "type": "Room",
     "fileNamePrefix": "1.Room.",
@@ -281,9 +188,9 @@
     "type": "Room",
     "fileNamePrefix": "1.Room.",
     "art": "prisoners.png",
-    "1ReqCount": "3",
+    "1ReqCount": "2",
     "1Req": { "constant": "minionRequirementImage" },
-    "points": "5",
+    "points": "4",
     "ability": [
       "Discard up to 6 minions for 2",
       { "constant": "anyImage" },
@@ -296,10 +203,12 @@
     "type": "Room",
     "fileNamePrefix": "1.Room.",
     "art": "harem.png",
-    "1ReqCount": "5",
+    "1ReqCount": "2",
     "1Req": { "constant": "mechanicalRequirementImage" },
+    "2ReqCount": "2",
+    "2Req": { "constant": "wildRequirementImage" },
+    "points": "1",
     "activateCost": { "constant": "madScientist" },
-    "points": "2",
     "ability": [
       "2",
       { "constant": "mechanicalImage" },
@@ -382,8 +291,10 @@
     "type": "Room",
     "fileNamePrefix": "1.Room.",
     "art": "heptagons.png",
-    "1ReqCount": "3",
+    "1ReqCount": "2",
     "1Req": { "constant": "steamRequirementImage" },
+    "2ReqCount": "2",
+    "2Req": { "constant": "wildRequirementImage" },
     "activateCost": { "constant": "madScientist" },
     "points": "1",
     "ability": [
@@ -410,23 +321,6 @@
       "Take 2 more actions. You may not spend any more ",
       { "constant": "timeImage" },
       " this turn."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "Hobbesian Trap",
-    "type": "Room",
-    "fileNamePrefix": "1.Room.",
-    "art": "prisoners.png",
-    "1ReqCount": "2",
-    "1Req": { "constant": "minionRequirementImage" },
-    "points": "4",
-    "ability": [
-      { "constant": "freeImage" },
-      { "constant": "arrowImage" },
-      "Discard a minion for 3",
-      { "constant": "anyImage" },
-      "."
     ]
   },
   {
@@ -521,42 +415,6 @@
       { "constant": "anyImage" },
       { "constant": "arrowImage" },
       "Gain a minion. Take another action."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "The Vermilion Corridor",
-    "type": "Room",
-    "fileNamePrefix": "1.Room.",
-    "art": "red.png",
-    "1ReqCount": "2",
-    "1Req": { "constant": "mechanicalRequirementImage" },
-    "2ReqCount": "2",
-    "2Req": { "constant": "wildRequirementImage" },
-    "points": "1",
-    "activateCost": { "constant": "madScientist" },
-    "ability": [
-      { "constant": "mechanicalImage" },
-      { "constant": "arrowImage" },
-      "Tuck an extra core card on the output side of a device then balance the device."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "The Golden Corridor",
-    "type": "Room",
-    "fileNamePrefix": "1.Room.",
-    "art": "yellow.png",
-    "1ReqCount": "2",
-    "1Req": { "constant": "steamRequirementImage" },
-    "2ReqCount": "2",
-    "2Req": { "constant": "wildRequirementImage" },
-    "points": "1",
-    "activateCost": { "constant": "madScientist" },
-    "ability": [
-      { "constant": "steamImage" },
-      { "constant": "arrowImage" },
-      "Tuck an extra core card on the output side of a device then balance the device."
     ]
   },
   {
