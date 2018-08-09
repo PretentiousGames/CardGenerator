@@ -76,28 +76,11 @@
     "type": "Room",
     "fileNamePrefix": "1.Room.",
     "art": "Singularity.png",
-    "1ReqCount": "20",
-    "1Req": { "constant": "timeRequirementImage" },
-    "2ReqCount": "20",
-    "2Req": { "constant": "wildRequirementImage" },
-    "points": "20",
-    "ability": [
-      "Move your Mad Scientist to this card at the start of each turn."
-    ]
-  },
-  {
-    "orientation": "vertical",
-    "name": "The Anomaly",
-    "type": "StartRoom",
-    "fileNamePrefix": "1.Room.4.1.",
-    "art": "minaret.png",
     "1ReqCount": "9",
     "1Req": { "constant": "timeRequirementImage" },
-    "points": "5",
+    "points": "7",
     "ability": [
-      { "constant": "timeImage" },
-      { "constant": "arrowImage" },
-      "Refresh a tired worker. Take another action."
+      "Move your Mad Scientist to this card at the start of each turn."
     ]
   },
   {
@@ -225,7 +208,7 @@
       "Gain a minion. Take another action."
     ]
   },
-  
+
   {
     "orientation": "vertical",
     "name": "The Nursery",
@@ -389,7 +372,6 @@
     "points": "1",
     "activateCost": { "constant": "madScientist" },
     "ability": [
-      "2",
       { "constant": "mechanicalImage" },
       { "constant": "arrowImage" },
       "Take all the parts from the heap."
@@ -406,7 +388,6 @@
     "activateCost": { "constant": "madScientist" },
     "points": "1",
     "ability": [
-      "2",
       { "constant": "chemicalImage" },
       { "constant": "arrowImage" },
       "Take all the parts from the heap."
@@ -414,7 +395,7 @@
   },
   {
     "orientation": "vertical",
-    "name": "Lead Room",
+    "name": "The Lead Room",
     "type": "Room",
     "fileNamePrefix": "1.Room.",
     "art": "lead.png",
@@ -444,6 +425,24 @@
       { "constant": "steamImage" },
       { "constant": "arrowImage" },
       "Add n parts to a device you own then balance it."
+    ]
+  },
+
+  {
+    "orientation": "vertical",
+    "name": "The Anomaly",
+    "type": "StartRoom",
+    "fileNamePrefix": "1.Room.4.1.",
+    "art": "minaret.png",
+    "1ReqCount": "20",
+    "1Req": { "constant": "timeRequirementImage" },
+    "2ReqCount": "20",
+    "2Req": { "constant": "wildRequirementImage" },
+    "points": "20",
+    "ability": [
+      { "constant": "timeImage" },
+      { "constant": "arrowImage" },
+      "Refresh a tired worker. Take another action."
     ]
   },
   {
@@ -506,7 +505,6 @@
     "activateCost": { "constant": "madScientist" },
     "points": "5",
     "ability": [
-      "2",
       { "constant": "chemicalImage" },
       { "constant": "arrowImage" },
       "Add a card to your generator. Balance your generator (2x cost)."
