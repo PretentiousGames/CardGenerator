@@ -290,81 +290,6 @@
     "art2": "Tickets.png"
   },
 
-
-  {
-    "number": "19",
-    "name": "x0.1",
-    "orientation": "vertical",
-    "color": "Gray.png",
-    "title1": "Banjolele",
-    "rules1": "Each player discards a card. Look at 4 cards from the deck: give 1 to each player. Return the rest.",
-    "art1": "Banjolele.png",
-    "title2": "Valet",
-    "rules2": "Treat this as the item of your choice when scoring.",
-    "art2": "Valet.png"
-  },
-  {
-    "number": "20",
-    "name": "x0.2",
-    "orientation": "vertical",
-    "color": "Gray.png",
-    "title1": "Banjolele",
-    "rules1": "Banjoleler",
-    "art1": "Banjolele.png",
-    "title2": "Mess Jacket",
-    "rules2": "Mess Jacketr",
-    "art2": "Mess Jacket.png"
-  },
-  {
-    "number": "21",
-    "name": "x0.3",
-    "orientation": "vertical",
-    "color": "Gray.png",
-    "title1": "Banjolele",
-    "rules1": "Banjoleler",
-    "art1": "Banjolele.png",
-    "title2": "the Times",
-    "rules2": "the Timesr",
-    "art2": "the Times.png"
-  },
-  {
-    "number": "22",
-    "name": "x0.4",
-    "orientation": "vertical",
-    "color": "Gray.png",
-    "title1": "Valet",
-    "rules1": "Treat this as the item of your choice when scoring.",
-    "art1": "Valet.png",
-    "title2": "Mess Jacket",
-    "rules2": "Mess Jacketr",
-    "art2": "Mess Jacket.png"
-  },
-  {
-    "number": "23",
-    "name": "x0.5",
-    "orientation": "vertical",
-    "color": "Gray.png",
-    "title1": "Valet",
-    "rules1": "Treat this as the item of your choice when scoring.",
-    "art1": "Valet.png",
-    "title2": "the Times",
-    "rules2": "the Timesr",
-    "art2": "the Times.png"
-  },
-  {
-    "number": "24",
-    "name": "x0.6",
-    "orientation": "vertical",
-    "color": "Gray.png",
-    "title1": "Mess Jacket",
-    "rules1": "Mess Jacketr",
-    "art1": "Mess Jacket.png",
-    "title2": "the Times",
-    "rules2": "the Timesr",
-    "art2": "the Times.png"
-  },
-
-
   {
     "number": "19",
     "name": "x0.1",
@@ -584,5 +509,78 @@
     "title2": "Rope",
     "rules2": "Swap any card scored for 1 point with the Paradox.",
     "art2": "Rope.png"
+  },
+
+  {
+    "number": "37",
+    "name": "x0.1",
+    "orientation": "vertical",
+    "color": "Gray.png",
+    "title1": "Banjolele",
+    "rules1": "You may not score for 3 points. When you score a card: draw a card then discard a card.",
+    "art1": "Banjolele.png",
+    "title2": "Valet",
+    "rules2": "Treat this as the item of your choice when scoring.",
+    "art2": "Valet.png"
+  },
+  {
+    "number": "38",
+    "name": "x0.2",
+    "orientation": "vertical",
+    "color": "Gray.png",
+    "title1": "Banjolele",
+    "rules1": "You may not score for 3 points. When you score a card: draw a card then discard a card.",
+    "art1": "Banjolele.png",
+    "title2": "Mess Jacket",
+    "rules2": "Discard a card. Draw 2 cards. Return a card.",
+    "art2": "Mess Jacket.png"
+  },
+  {
+    "number": "39",
+    "name": "x0.3",
+    "orientation": "vertical",
+    "color": "Gray.png",
+    "title1": "Banjolele",
+    "rules1": "You may not score for 3 points. When you score a card: draw a card then discard a card.",
+    "art1": "Banjolele.png",
+    "title2": "the Times",
+    "rules2": "Return a card. Draw 2 cards. Discard a card.",
+    "art2": "the Times.png"
+  },
+  {
+    "number": "40",
+    "name": "x0.4",
+    "orientation": "vertical",
+    "color": "Gray.png",
+    "title1": "Valet",
+    "rules1": "Treat this as the item of your choice when scoring.",
+    "art1": "Valet.png",
+    "title2": "Mess Jacket",
+    "rules2": "Discard a card. Draw 2 cards. Return a card.",
+    "art2": "Mess Jacket.png"
+  },
+  {
+    "number": "41",
+    "name": "x0.5",
+    "orientation": "vertical",
+    "color": "Gray.png",
+    "title1": "Valet",
+    "rules1": "Treat this as the item of your choice when scoring.",
+    "art1": "Valet.png",
+    "title2": "the Times",
+    "rules2": "Return a card. Draw 2 cards. Discard a card.",
+    "art2": "the Times.png"
+  },
+  {
+    "number": "42",
+    "name": "x0.6",
+    "orientation": "vertical",
+    "color": "Gray.png",
+    "title1": "Mess Jacket",
+    "rules1": "Discard a card. Draw 2 cards. Return a card.",
+    "art1": "Mess Jacket.png",
+    "title2": "the Times",
+    "rules2": "Return a card. Draw 2 cards. Discard a card.",
+    "art2": "the Times.png"
   }
 ]

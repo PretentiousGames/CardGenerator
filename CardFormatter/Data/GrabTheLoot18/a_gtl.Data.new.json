@@ -1,0 +1,231 @@
+﻿[
+  {
+    "name": "GreedHate",
+    "orientation": "vertical",
+    "art": "feeling5.png",
+    "title": "Captain Freaks Out!",
+    "rules": "The player with the most Obsessions Gets Shot!",
+    "type": "Greed"
+  },
+  {
+    "name": "GreedKill",
+    "orientation": "vertical",
+    "art": "feeling6.png",
+    "title": "Captain Shoots wildly!",
+    "rules": "The players who don't have the least Obsessions Get Shot!",
+    "type": "Greed"
+  },
+  {
+    "name": "GreedApathy",
+    "orientation": "vertical",
+    "art": "feeling4.png",
+    "title": "Loading the Gun!",
+    "rules": "Play one more round. The player with the most Obsessions Gets Shot!",
+    "type": "Greed"
+  },
+  {
+    "name": "GreedSleep",
+    "orientation": "vertical",
+    "art": "feeling2.png",
+    "title": "Captain Brags",
+    "rules": "Obsessions are worth +1 point each.",
+    "type": "Greed"
+  },
+  {
+    "name": "GreedGifts",
+    "orientation": "vertical",
+    "art": "feeling1.png",
+    "title": "Captain gives gifts.",
+    "rules": "Coins are worth double points, and are awarded bonus points as if they were items.",
+    "type": "Greed"
+  },
+  {
+    "name": "GreedCranky",
+    "orientation": "vertical",
+    "art": "feeling3.png",
+    "title": "Captain gets cranky!",
+    "rules": "The player(s) with the most items lose 2 items each.",
+    "type": "Greed"
+  },
+
+  {
+    "name": "behavior.Bribe",
+    "orientation": "vertical",
+    "art": "Bribe.png",
+    "title": "Bribe",
+    "type": "Action2",
+    "rule1of2": [ "Give a player an item: +3", { "constant": "coin" }, "." ],
+    "rule2of2": [ "Give a player 2", { "constant": "coin" }, ": Take an item from them." ]
+  },
+  {
+    "name": "behavior.Cajole",
+    "orientation": "vertical",
+    "art": "Cajole.png",
+    "title": "Cajole",
+    "type": "Action2",
+    "rule1of2": [ ": +2", { "constant": "coin" }, ". Swap an item with the Captain's greed." ],
+    "rule2of2": [ ": A player gives you an item. Give them an item." ]
+  },
+  {
+    "name": "behavior.Deceive",
+    "orientation": "vertical",
+    "art": "Decieve.png",
+    "title": "Deceive",
+    "type": "Action2",
+    "rule1of2": [ ": +4", { "constant": "coin" }, ". Swap 2 behavior cards." ],
+    "rule2of2": [ { "constant": "coin" }, ": Look at the bottom 2 greed cards." ]
+  },
+  {
+    "name": "behavior.Flirt",
+    "orientation": "vertical",
+    "art": "Flirt.png",
+    "title": "Flirt",
+    "type": "Action2",
+    "rule1of2": [ ": +5", { "constant": "coin" }, "." ],
+    "rule2of2": [ "2", { "constant": "coin" }, ": Put a player's item into the Captain's greed." ]
+  },
+  {
+    "name": "behavior.Gripe",
+    "orientation": "vertical",
+    "art": "Gripe.png",
+    "title": "Gripe",
+    "type": "Action2",
+    "rule1of2": [ "Discard the first 3 behavior cards: Keep all ", { "constant": "coin" }, " that were on them." ],
+    "rule2of2": [ "2", { "constant": "coin" }, ": Take an item from the Captain's greed." ]
+  },
+  {
+    "name": "behavior.Hoodwink",
+    "orientation": "vertical",
+    "art": "Hoodwink.png",
+    "title": "Hoodwink",
+    "type": "Action2",
+    "rule1of2": [ ": +", { "constant": "coin" }, ". Bury an item" ],
+    "rule2of2": [ "2", { "constant": "coin" }, ": Swap an item with a player." ]
+  },
+  
+  {
+    "name": "Captain",
+    "orientation": "vertical",
+    "artz": "captain.png",
+    "rulesNotAbility": "When play reaches the Captain, discard the rightmost behavior card, and reveal a new Greed card.",
+    "rule3of3": ["When a behavior card is full, discard it and reveal a new Greed card."],
+    "title": "The Captain",
+    "type": "Captain"
+  },
+
+  {
+    "name": "character.01.sophia",
+    "orientation": "vertical",
+    "rules": ["When you Gain ", { "constant": "coin" }, ", Gain an extra ", { "constant": "coin" }, "."],
+    "title": "Sophia",
+    "type": "Character"
+  },
+  {
+    "name": "character.02.andrew",
+    "orientation": "vertical",
+    "rules": "You are treated as having one more Buried item of your choice for scoring purposes.",
+    "title": "Andrew",
+    "type": "Character"
+  },
+  {
+    "name": "character.03.james",
+    "orientation": "vertical",
+    "title": "James",
+    "type": "CharacterAbility",
+    "rulesNotAbility": [ "Gain double points for ", { "constant": "coin" }, " at the end of the game." ],
+    "rule3of3": [ "+2", { "constant": "coin" }, "." ]
+  },
+  {
+    "name": "character.04.dwayne",
+    "orientation": "vertical",
+    "rules": "At the end of the game before anyone gets shot; Bury 2 of your items.",
+    "title": "Dwayne",
+    "type": "Character"
+  },
+  {
+    "name": "character.05.alison",
+    "orientation": "vertical",
+    "rules": ["Whenever you lose an item without gaining an item, you may Gain ", { "constant": "coin" }, "."],
+    "title": "Alison",
+    "type": "Character"
+  },
+  {
+    "name": "character.06.bryson",
+    "orientation": "vertical",
+    "rulesNotAbility": ["When any other player activates this card, gain ", { "constant": "coin" }, ". You may not activate it."],
+    "rule3of3": [ "+5", { "constant": "coin" }, "." ],
+    "title": "Bryson",
+    "type": "CharacterAbility"
+  },
+  {
+    "name": "character.07.jacob",
+    "orientation": "vertical",
+    "title": "Jacob",
+    "type": "CharacterAbility",
+    "rulesNotAbility": [ "When any other player activates this card, take a ", { "constant": "coin" }, " from them." ],
+    "rule3of3": [ "Gain ", { "constant": "coin" }, ". Swap an item with the Captain's Greed." ]
+  },
+  {
+    "name": "character.08.trevyn",
+    "orientation": "vertical",
+    "title": "Trevyn",
+    "type": "CharacterAbility",
+    "rulesNotAbility": [ "When any other player activates this card, take a ", { "constant": "coin" }, " from them." ],
+    "rule3of3": [ "Gain ", { "constant": "coin" }, ". Bury a treasure." ]
+  },
+  {
+    "name": "character.09.scott",
+    "orientation": "vertical",
+    "title": "Scott",
+    "type": "Character",
+    "rules": [ "At the beginning of the game, look at the bottom 2 greed cards." ]
+  },
+  {
+    "name": "character.10.berret",
+    "orientation": "vertical",
+    "title": "Berrett",
+    "type": "Character",
+    "rules": [ "If you get shot, you lose 5 points, but do not automatically lose the game." ]
+  },
+  {
+    "name": "character.11.dan",
+    "orientation": "vertical",
+    "title": "Dan",
+    "type": "CharacterAbility",
+    "rulesNotAbility": [ "When you are about to lose an item, you may activate this ability." ],
+    "rule3of3": [ { "constant": "coin" }, ": lose a coin instead of an item." ]
+  },
+
+  {
+    "name": "Gem",
+    "orientation": "vertical",
+    "art": "gem.png",
+    "title": "Item",
+    "rules": "Gem",
+    "type": "Treasure"
+  },
+  {
+    "name": "Jewelry",
+    "orientation": "vertical",
+    "art": "jewelry.png",
+    "title": "Item",
+    "rules": "Jewelry",
+    "type": "Treasure"
+  },
+  {
+    "name": "Pearl",
+    "orientation": "vertical",
+    "art": "pearl.png",
+    "title": "Item",
+    "rules": "Pearl",
+    "type": "Treasure"
+  },
+  {
+    "name": "Trinket",
+    "orientation": "vertical",
+    "art": "trinket.png",
+    "title": "Item",
+    "rules": "Trinket",
+    "type": "Treasure"
+  }
+]
