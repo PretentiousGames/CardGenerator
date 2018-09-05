@@ -432,6 +432,9 @@
     <Content Include="Data\GrabTheLoot18\Aharoni-True.ttf" />
     <Content Include="Data\GrabTheLoot18\a_gtl.Data.new.json" />
     <Content Include="Data\GrabTheLoot18\a_gtl.Template.json" />
+    <Content Include="Data\Witch Hunt\Aharoni-True.ttf" />
+    <Content Include="Data\Witch Hunt\cards.json" />
+    <Content Include="Data\Witch Hunt\cardTemplate.json" />
     <None Include="Data\Hellrides\Data.json" />
     <Content Include="Data\Hellrides\3.png" />
     <Content Include="Data\Hellrides\6.png" />
@@ -1459,6 +1462,14 @@
     <Content Include="Data\ThePerfectMoment\Tie.png" />
     <Content Include="Data\ThePerfectMoment\Wallet.png" />
     <Content Include="Data\ThePerfectMoment\Yellow.png" />
+    <Content Include="Data\Witch Hunt\Images\Entrepreneur.png" />
+    <Content Include="Data\Witch Hunt\Images\Major.png" />
+    <Content Include="Data\Witch Hunt\Images\Maniac.png" />
+    <Content Include="Data\Witch Hunt\Images\Martyr.png" />
+    <Content Include="Data\Witch Hunt\Images\Narcicist.png" />
+    <Content Include="Data\Witch Hunt\Images\RoleBg.png" />
+    <Content Include="Data\Witch Hunt\Images\WitchHater.png" />
+    <Content Include="Data\Witch Hunt\Images\Zealot.png" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jszip.js" />
     <Content Include="Scripts\opentype.js" />
