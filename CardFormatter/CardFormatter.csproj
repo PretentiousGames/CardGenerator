@@ -310,6 +310,11 @@
     <Content Include="bower_components\webcomponentsjs\webcomponents-lite.min.js" />
     <Content Include="bower_components\webcomponentsjs\webcomponents.js" />
     <Content Include="bower_components\webcomponentsjs\webcomponents.min.js" />
+    <Content Include="Data\Chudyk\blankImage.png" />
+    <Content Include="Data\Chudyk\cardArt.png" />
+    <Content Include="Data\Chudyk\cardBG.png" />
+    <Content Include="Data\Chudyk\cardFrontBackground.png" />
+    <Content Include="Data\Chudyk\verticalBackground.png" />
     <Content Include="Data\Polynesia.new\Images\Archer.png" />
     <Content Include="Data\Polynesia.new\Images\Baldur.png" />
     <Content Include="Data\Polynesia.new\Images\Bragi.png" />
@@ -1886,6 +1891,10 @@
     <Content Include="Data\Polynesia.old\cards.json" />
     <Content Include="Data\Polynesia.old\templates.json" />
     <Content Include="Data\Polynesia.old\twoCards.json" />
+    <Content Include="Data\Chudyk\Aharoni-True.ttf" />
+    <Content Include="Data\Chudyk\Cards.Datafile.json" />
+    <Content Include="Data\Chudyk\Montserrat-Light.otf" />
+    <Content Include="Data\Chudyk\Template.json" />
     <None Include="Properties\PublishProfiles\CardFormatter - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\CardFormatter - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\CardFormatter.pubxml" />
@@ -1932,6 +1941,13 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
+  <Target Name="CopyRoslynFiles" AfterTargets="AfterBuild" Condition="!$(Disable_CopyWebApplication) And '$(OutDir)' != '$(OutputPath)'">
+    <ItemGroup>
+      <RoslynFiles Include="$(CscToolPath)\*" />
+    </ItemGroup>
+    <MakeDir Directories="$(WebProjectOutputDir)\bin\roslyn" />
+    <Copy SourceFiles="@(RoslynFiles)" DestinationFolder="$(WebProjectOutputDir)\bin\roslyn" SkipUnchangedFiles="true" Retries="$(CopyRetryCount)" RetryDelayMilliseconds="$(CopyRetryDelayMilliseconds)" />
+  </Target>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>

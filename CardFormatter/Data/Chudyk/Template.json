@@ -1,0 +1,267 @@
+﻿{
+  "fullWidth": 825,
+  "fullHeight": 1125,
+  "styles": {
+    "font": "arial.ttf",
+    "maxFontSize": 100,
+    "minFontSize": 10,
+    "lineHeight": 1,
+    "offset": -0.147,
+    "xOffset": 0.052,
+    "justification": "center",
+    "alignment": "middle",
+    "textBaseline": "hanging"
+  },
+  "requirements": [ ],
+  "elements": [
+    {
+      "type": "image",
+      "name": "background",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "image",
+      "name": "image",
+      "x": 0,
+      "y": 0
+    },
+
+    {
+      "type": "text",
+      "name": "tl",
+      "styles": {
+        "x": 85,
+        "y": 85,
+        "xSize": 130,
+        "ySize": 130,
+        "fillStyle": "#151540",
+        "rotate": -45
+      }
+    },
+    {
+      "type": "text",
+      "name": "tr",
+      "styles": {
+        "x": 910,
+        "y": 85,
+        "xSize": 130,
+        "ySize": 130,
+        "fillStyle": "#151540",
+        "rotate": 45
+      }
+    },
+    {
+      "type": "text",
+      "name": "bl",
+      "styles": {
+        "x": 85,
+        "y": 610,
+        "xSize": 130,
+        "ySize": 130,
+        "fillStyle": "#151540",
+        "rotate": 225
+      }
+    },
+    {
+      "type": "text",
+      "name": "br",
+      "styles": {
+        "x": 910,
+        "y": 610,
+        "xSize": 130,
+        "ySize": 130,
+        "fillStyle": "#151540",
+        "rotate": -225
+      }
+    },
+    {
+      "type": "text",
+      "name": "tc",
+      "styles": {
+        "x": 235,
+        "y": 70,
+        "xSize": 655,
+        "ySize": 130,
+        "fillStyle": "#9B9BDE"
+      }
+    },
+    {
+      "type": "text",
+      "name": "bc",
+      "styles": {
+        "x": 235,
+        "y": 610,
+        "xSize": 655,
+        "ySize": 130,
+        "fillStyle": "#9B9BDE",
+        "rotate": 180
+      }
+    },
+    {
+      "type": "text",
+      "name": "cl",
+      "styles": {
+        "xo": 85,
+        "yo": 235,
+        "x": -27.5,
+        "y": 347.5,
+        "xSize": 355,
+        "ySize": 130,
+        "fillStyle": "#9B9BDE",
+        "rotate": -90
+      }
+    },
+    {
+      "type": "text",
+      "name": "cr",
+      "styles": {
+        "xo": 910,
+        "yo": 235,
+        "x": 797.5,
+        "y": 347.5,
+        "xSize": 355,
+        "ySize": 130,
+        "fillStyle": "#9B9BDE",
+        "rotate": 90
+      }
+    },
+    {
+      "type": "text",
+      "name": "cc",
+      "styles": {
+        "x": 235,
+        "y": 235,
+        "xSize": 655,
+        "ySize": 355,
+        "fillStyle": "#000"
+      }
+    }
+  ],
+  "subTypes": [
+    {
+      "requirements": [
+        {
+          "name": "type",
+          "values": [ "basicCard" ]
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "name": "background",
+          "x": 0,
+          "y": 0,
+          "constant": "basicCardBG",
+          "draw": false
+        }
+      ],
+      "subTypes": []
+    },
+    {
+      "requirements": [
+        {
+          "name": "type",
+          "values": [ "card" ]
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "name": "background",
+          "x": 0,
+          "y": 0,
+          "constant": "cardBG",
+          "draw": false
+        }
+      ],
+      "subTypes": []
+    }
+  ],
+  "constants": {
+    "Background": "cardFrontBackground.png",
+    "verticalBackground": "verticalBackground.png",
+    "basicCardBG": "basicCardBG.png",
+    "cardBG": "cardBG.png",
+
+    "down": {
+      "text": "Ռ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "you may play cards splayed down on this card"
+    },
+    "up": {
+      "text": "Ջ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "you may play cards splayed up on this card"
+    },
+    "right": {
+      "text": "Պ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "you may play cards splayed right on this card"
+    },
+    "left": {
+      "text": "Չ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "you may play cards splayed left on this card"
+    },
+    "points": {
+      "text": "Ԗ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "+1 Point"
+    },
+
+    "island": {
+      "text": "Ԛ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "island symbol"
+    },
+    "resource": {
+      "text": "ԉ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "resource symbol"
+    },
+    "god": {
+      "text": "ԟ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "god symbol"
+    },
+    "leader": {
+      "text": "Ԉ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "leader symbol"
+    },
+
+    "income": {
+      "text": "ԙ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "Income"
+    },
+    "goods": {
+      "text": "Ԙ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "Goods"
+    },
+    "worker": {
+      "text": "ӝ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "Worker"
+    },
+    "worshipper": {
+      "text": "ӝ",
+      "styles": {
+        "font": "Aharoni-True.ttf"
+      },
+      "description": "Worker"
+    },
+    "support": {
+      "text": "ԫ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "Support"
+    },
+    "homes": {
+      "text": "ԥ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "Homes"
+    }
+  }
+}

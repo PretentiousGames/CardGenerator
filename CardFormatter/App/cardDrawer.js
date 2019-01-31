@@ -200,6 +200,7 @@
         };
 
         var drawCard = function (cardTemplate, card, imageFiles, fonts, callback) {
+            debug = window.debug || debug;
             var context = card.canvas.getContext('2d');
 
             //Load up the fonts
