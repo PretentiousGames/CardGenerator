@@ -2,12 +2,22 @@
   {
     "number": "55", "name": "x2.2",
     "orientation": "vertical",
-    "color": "Green.png",
+    "color": "Red.png",
     "title1": "Maggots",
-    "rules1": "Use 2 Items owned by an opponent. They may score their revision for 1 point.",
+    "rules1": "Do some junk.",
     "art1": "Tent.png",
     "title2": "Stuff",
     "rules2": "An opponent may score their revision for 1 point. Activate any 2 of their Items.",
-    "art2": "Matches.png"
+    "art2": "Matches.png",
+    "flavor": [
+      { "constant": "1994" },
+      " We wanna be ",
+      { "constant": "Free" },
+      " to do what we wanna do, we wanna get ",
+      { "constant": "Loaded" },
+      ", and have a ",
+      { "constant": "Good Time" },
+      "!"
+    ] 
   }
 ]

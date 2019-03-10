@@ -5,11 +5,19 @@
     "orientation": "vertical",
     "color": "Cyan.png",
     "title1": "Money",
-    "rules1": "Draw a card. Return a card. If you have the fewest lousy fixes, steal a lousy fix.",
+    "rules1": "Draw a card. Return a card. If you have the fewest 1 point fixes, steal a 1 point fix.",
     "art1": "Money.png",
     "title2": "Aces",
     "rules2": "Look at the top card of the deck. You may score it, discard it, or return a card and keep it.",
-    "art2": "Aces.png"
+    "art2": "Aces.png",
+    "flavor": [
+      { "constant": "2014" },
+      " get the  ",
+      { "constant": "Money" },
+      " and the ",
+      { "constant": "Aces" },
+      "!"
+    ] 
   },
   {
     "number": "-2",
@@ -17,11 +25,19 @@
     "orientation": "vertical",
     "color": "Cyan.png",
     "title1": "Money",
-    "rules1": "Draw a card. Return a card. If you have the fewest lousy fixes, steal a lousy fix.",
+    "rules1": "Draw a card. Return a card. If you have the fewest 1 point fixes, steal a 1 point fix.",
     "art1": "Money.png",
     "title2": "Drink",
-    "rules2": "Always: Play with your revision revealed.\n Activate: rotate both your equipment.",
-    "art2": "Drink.png"
+    "rules2": "Always: Play with your plan revealed.\n Activate: rotate both your equipment.",
+    "art2": "Drink.png",
+    "flavor": [
+      { "constant": "2014" },
+      " get the  ",
+      { "constant": "Money" },
+      " and the ",
+      { "constant": "Drink" },
+      "!"
+    ]
   },
   {
     "number": "-3",
@@ -29,11 +45,19 @@
     "orientation": "vertical",
     "color": "Cyan.png",
     "title1": "Money",
-    "rules1": "Draw a card. Return a card. If you have the fewest lousy fixes, steal a lousy fix.",
+    "rules1": "Draw a card. Return a card. If you have the fewest 1 point fixes, steal a 1 point fix.",
     "art1": "Money.png",
     "title2": "Knife",
-    "rules2": "Look at your opponents revision. You may score it.",
-    "art2": "Knife.png"
+    "rules2": "Look at your opponents plan. You may score it.",
+    "art2": "Knife.png",
+    "flavor": [
+      { "constant": "2014" },
+      " get the  ",
+      { "constant": "Money" },
+      " and the ",
+      { "constant": "Knife" },
+      "!"
+    ]
   },
   {
     "number": "-4",
@@ -44,8 +68,16 @@
     "rules1": "Look at the top card of the deck. You may score it, discard it, or return a card and keep it.",
     "art1": "Aces.png",
     "title2": "Drink",
-    "rules2": "Always: Play with your revision revealed.\n Activate: rotate both your equipment.",
-    "art2": "Drink.png"
+    "rules2": "Always: Play with your plan revealed.\n Activate: rotate both your equipment.",
+    "art2": "Drink.png",
+    "flavor": [
+      { "constant": "2014" },
+      " get the  ",
+      { "constant": "Aces" },
+      " and the ",
+      { "constant": "Drink" },
+      "!"
+    ]
   },
   {
     "number": "-5",
@@ -56,8 +88,16 @@
     "rules1": "Look at the top card of the deck. You may score it, discard it, or return a card and keep it.",
     "art1": "Aces.png",
     "title2": "Knife",
-    "rules2": "Look at your opponents revision. You may score it.",
-    "art2": "Knife.png"
+    "rules2": "Look at your opponents plan. You may score it.",
+    "art2": "Knife.png",
+    "flavor": [
+      { "constant": "2014" },
+      " get the  ",
+      { "constant": "Aces" },
+      " and the ",
+      { "constant": "Knife" },
+      "!"
+    ]
   },
   {
     "number": "-6",
@@ -65,11 +105,19 @@
     "orientation": "vertical",
     "color": "Cyan.png",
     "title1": "Drink",
-    "rules1": "Always: Play with your revision revealed.\n Activate: rotate both your equipment.",
+    "rules1": "Always: Play with your plan revealed.\n Activate: rotate both your equipment.",
     "art1": "Drink.png",
     "title2": "Knife",
-    "rules2": "Look at your opponents revision. You may score it.",
-    "art2": "Knife.png"
+    "rules2": "Look at your opponents plan. You may score it.",
+    "art2": "Knife.png",
+    "flavor": [
+      { "constant": "2014" },
+      " get the  ",
+      { "constant": "Drink" },
+      " and the ",
+      { "constant": "Knife" },
+      "!"
+    ]
   },
 
 
@@ -79,11 +127,19 @@
     "orientation": "vertical",
     "color": "Red.png",
     "title1": "Flowers",
-    "rules1": "Up to 2 times: Swap an Equipped card with your Revision.",
+    "rules1": "Up to 2 times: Swap an Equipped card with your plan.",
     "art1": "Flowers.png",
     "title2": "Poetry",
     "rules2": "Draw 2 cards. Return 2 cards.",
-    "art2": "Poetry.png"
+    "art2": "Poetry.png",
+    "flavor": [
+      { "constant": "1994" },
+      " get the  ",
+      { "constant": "Flowers" },
+      " and the ",
+      { "constant": "Poetry" },
+      "!"
+    ]
   },
   {
     "number": "2",
@@ -91,11 +147,19 @@
     "orientation": "vertical",
     "color": "Red.png",
     "title1": "Flowers",
-    "rules1": "Up to 2 times: Swap an Equipped card with your Revision.",
+    "rules1": "Up to 2 times: Swap an Equipped card with your plan.",
     "art1": "Flowers.png",
-    "title2": "Candy",
+    "title2": "Chocolate",
     "rules2": "Draw 2 cards: Equip 1, Discard the other. Return an Equipped card.",
-    "art2": "Candy.png"
+    "art2": "Candy.png",
+    "flavor": [
+      { "constant": "1994" },
+      " get the  ",
+      { "constant": "Flowers" },
+      " and the ",
+      { "constant": "Chocolate" },
+      "!"
+    ]
   },
   {
     "number": "3",
@@ -103,11 +167,19 @@
     "orientation": "vertical",
     "color": "Red.png",
     "title1": "Flowers",
-    "rules1": "Up to 2 times: Swap an Equipped card with your Revision.",
+    "rules1": "Up to 2 times: Swap an Equipped card with your plan.",
     "art1": "Flowers.png",
     "title2": "Ring",
     "rules2": "You and a player each select and trade a card.",
-    "art2": "Ring.png"
+    "art2": "Ring.png",
+    "flavor": [
+      { "constant": "1994" },
+      " get the  ",
+      { "constant": "Flowers" },
+      " and the ",
+      { "constant": "Ring" },
+      "!"
+    ]
   },
   {
     "number": "4",
@@ -117,9 +189,17 @@
     "title1": "Poetry",
     "rules1": "Draw 2 cards. Return 2 cards.",
     "art1": "Poetry.png",
-    "title2": "Candy",
+    "title2": "Chocolate",
     "rules2": "Draw 2 cards: Equip 1, Discard the other. Return an Equipped card.",
-    "art2": "Candy.png"
+    "art2": "Candy.png",
+    "flavor": [
+      { "constant": "1994" },
+      " get the  ",
+      { "constant": "Chocolate" },
+      " and the ",
+      { "constant": "Poetry" },
+      "!"
+    ]
   },
   {
     "number": "5",
@@ -131,236 +211,396 @@
     "art1": "Poetry.png",
     "title2": "Ring",
     "rules2": "You and a player each select and trade a card.",
-    "art2": "Ring.png"
+    "art2": "Ring.png",
+    "flavor": [
+      { "constant": "1994" },
+      " get the  ",
+      { "constant": "Ring" },
+      " and the ",
+      { "constant": "Poetry" },
+      "!"
+    ]
   },
   {
     "number": "6",
     "name": "0.6",
     "orientation": "vertical",
     "color": "Red.png",
-    "title1": "Candy",
+    "title1": "Chocolate",
     "rules1": "Draw 2 cards: Equip 1, Discard the other. Return an Equipped card.",
     "art1": "Candy.png",
     "title2": "Ring",
     "rules2": "You and a player each select and trade a card.",
-    "art2": "Ring.png"
+    "art2": "Ring.png",
+    "flavor": [
+      { "constant": "1994" },
+      " get the  ",
+      { "constant": "Chocolate" },
+      " and the ",
+      { "constant": "Ring" },
+      "!"
+    ]
   },
   {
     "number": "7",
     "name": "1.1",
     "orientation": "vertical",
-    "color": "Blue.png",
+    "color": "Yellow.png",
     "title1": "Map",
     "rules1": "Rotate 1 or 2 of your Equipment cards.",
     "art1": "Map.png",
-    "title2": "Disguise",
+    "title2": "Mask",
     "rules2": "Draw a card. Discard a card.",
-    "art2": "Disguise.png"
+    "art2": "Disguise.png",
+    "flavor": [
+      { "constant": "1981" },
+      " get the  ",
+      { "constant": "Map" },
+      " and the ",
+      { "constant": "Mask" },
+      "!"
+    ]
   },
   {
     "number": "8",
     "name": "1.2",
     "orientation": "vertical",
-    "color": "Blue.png",
+    "color": "Yellow.png",
     "title1": "Map",
     "rules1": "Rotate 1 or 2 of your Equipment cards.",
     "art1": "Map.png",
     "title2": "Gun",
     "rules2": "Look at the top 2 cards of the deck. Return or Discard them.",
-    "art2": "Gun.png"
+    "art2": "Gun.png",
+    "flavor": [
+      { "constant": "1981" },
+      " get the  ",
+      { "constant": "Map" },
+      " and the ",
+      { "constant": "Gun" },
+      "!"
+    ]
   },
   {
     "number": "9",
     "name": "1.3",
     "orientation": "vertical",
-    "color": "Blue.png",
+    "color": "Yellow.png",
     "title1": "Map",
     "rules1": "Rotate 1 or 2 of your Equipment cards.",
     "art1": "Map.png",
     "title2": "Armor",
-    "rules2": "A foe may score their revision for 1 point. Activate 1 of their Items facing them 2x.",
-    "art2": "Armor.png"
+    "rules2": "A foe may score their plan for 1 point. Activate 1 of their Items facing them 2x.",
+    "art2": "Armor.png",
+    "flavor": [
+      { "constant": "1981" },
+      " get the  ",
+      { "constant": "Map" },
+      " and the ",
+      { "constant": "Armor" },
+      "!"
+    ]
   },
   {
     "number": "10",
     "name": "1.4",
     "orientation": "vertical",
-    "color": "Blue.png",
-    "title1": "Disguise",
+    "color": "Yellow.png",
+    "title1": "Mask",
     "rules1": "Draw a card. Discard a card.",
     "art1": "Disguise.png",
     "title2": "Gun",
     "rules2": "Look at the top 2 cards of the deck. Return or Discard them.",
-    "art2": "Gun.png"
+    "art2": "Gun.png",
+    "flavor": [
+      { "constant": "1981" },
+      " get the  ",
+      { "constant": "Gun" },
+      " and the ",
+      { "constant": "Mask" },
+      "!"
+    ]
   },
   {
     "number": "11",
     "name": "1.5",
     "orientation": "vertical",
-    "color": "Blue.png",
-    "title1": "Disguise",
+    "color": "Yellow.png",
+    "title1": "Mask",
     "rules1": "Draw a card. Discard a card.",
     "art1": "Disguise.png",
     "title2": "Armor",
-    "rules2": "A foe may score their revision for 1 point. Activate 1 of their Items facing them 2x.",
-    "art2": "Armor.png"
+    "rules2": "A foe may score their plan for 1 point. Activate 1 of their Items facing them 2x.",
+    "art2": "Armor.png",
+    "flavor": [
+      { "constant": "1981" },
+      " get the  ",
+      { "constant": "Armor" },
+      " and the ",
+      { "constant": "Mask" },
+      "!"
+    ]
   },
   {
     "number": "12",
     "name": "1.6",
     "orientation": "vertical",
-    "color": "Blue.png",
+    "color": "Yellow.png",
     "title1": "Gun",
     "rules1": "Look at the top 2 cards of the deck. Return or Discard them.",
     "art1": "Gun.png",
     "title2": "Armor",
-    "rules2": "A foe may score their revision for 1 point. Activate 1 of their Items facing them 2x.",
-    "art2": "Armor.png"
+    "rules2": "A foe may score their plan for 1 point. Activate 1 of their Items facing them 2x.",
+    "art2": "Armor.png",
+    "flavor": [
+      { "constant": "1981" },
+      " get the  ",
+      { "constant": "Gun" },
+      " and the ",
+      { "constant": "Armor" },
+      "!"
+    ]
   },
   {
     "number": "13",
     "name": "2.1",
     "orientation": "vertical",
-    "color": "Yellow.png",
+    "color": "Purple.png",
     "title1": "Keys",
     "rules1": "Draw a card. Return an Equipped card. Equip a card and activate it.",
     "art1": "Keys.png",
     "title2": "Phone",
     "rules2": "Discard 2 cards. Draw 2 cards.",
-    "art2": "Phone.png"
+    "art2": "Phone.png",
+    "flavor": [
+      { "constant": "2005" },
+      " get the  ",
+      { "constant": "Keys" },
+      " and the ",
+      { "constant": "Phone" },
+      "!"
+    ]
   },
   {
     "number": "14",
     "name": "2.2",
     "orientation": "vertical",
-    "color": "Yellow.png",
+    "color": "Purple.png",
     "title1": "Keys",
     "rules1": "Draw a card. Return an Equipped card. Equip a card and activate it.",
     "art1": "Keys.png",
     "title2": "Wallet",
     "rules2": "Rotate 1 of another player's Equipment.",
-    "art2": "Wallet.png"
+    "art2": "Wallet.png",
+    "flavor": [
+      { "constant": "2005" },
+      " get the  ",
+      { "constant": "Keys" },
+      " and the ",
+      { "constant": "Wallet" },
+      "!"
+    ]
   },
   {
     "number": "15",
     "name": "2.3",
     "orientation": "vertical",
-    "color": "Yellow.png",
+    "color": "Purple.png",
     "title1": "Keys",
     "rules1": "Draw a card. Return an Equipped card. Equip a card and activate it.",
     "art1": "Keys.png",
     "title2": "Tickets",
     "rules2": "Look at the top 4 cards of the deck, Return them in any order.",
-    "art2": "Tickets.png"
+    "art2": "Tickets.png",
+    "flavor": [
+      { "constant": "2005" },
+      " get the  ",
+      { "constant": "Keys" },
+      " and the ",
+      { "constant": "Tickets" },
+      "!"
+    ]
   },
   {
     "number": "16",
     "name": "2.4",
     "orientation": "vertical",
-    "color": "Yellow.png",
+    "color": "Purple.png",
     "title1": "Phone",
     "rules1": "Discard 2 cards. Draw 2 cards.",
     "art1": "Phone.png",
     "title2": "Wallet",
     "rules2": "Rotate 1 of another player's Equipment.",
-    "art2": "Wallet.png"
+    "art2": "Wallet.png",
+    "flavor": [
+      { "constant": "2005" },
+      " get the  ",
+      { "constant": "Wallet" },
+      " and the ",
+      { "constant": "Phone" },
+      "!"
+    ]
   },
   {
     "number": "17",
     "name": "2.5",
     "orientation": "vertical",
-    "color": "Yellow.png",
+    "color": "Purple.png",
     "title1": "Phone",
     "rules1": "Discard 2 cards. Draw 2 cards.",
     "art1": "Phone.png",
     "title2": "Tickets",
     "rules2": "Look at the top 4 cards of the deck, Return them in any order.",
-    "art2": "Tickets.png"
+    "art2": "Tickets.png",
+    "flavor": [
+      { "constant": "2005" },
+      " get the  ",
+      { "constant": "Tickets" },
+      " and the ",
+      { "constant": "Phone" },
+      "!"
+    ]
   },
   {
     "number": "18",
     "name": "2.6",
     "orientation": "vertical",
-    "color": "Yellow.png",
+    "color": "Purple.png",
     "title1": "Wallet",
     "rules1": "Rotate 1 of another player's Equipment.",
     "art1": "Wallet.png",
     "title2": "Tickets",
     "rules2": "Look at the top 4 cards of the deck, Return them in any order.",
-    "art2": "Tickets.png"
+    "art2": "Tickets.png",
+    "flavor": [
+      { "constant": "2005" },
+      " get the  ",
+      { "constant": "Wallet" },
+      " and the ",
+      { "constant": "Tickets" },
+      "!"
+    ]
   },
 
   {
     "number": "19",
     "name": "x0.1",
     "orientation": "vertical",
-    "color": "Purple.png",
+    "color": "Blue.png",
     "title1": "Tie",
     "rules1": "Swap this card with the Paradox. Rotate 1 of your Equipment.",
     "art1": "Tie.png",
     "title2": "Resume",
     "rules2": "Discard a card. Look at 3 cards from the deck, Draw 1, Return the rest.",
-    "art2": "Resume.png"
+    "art2": "Resume.png",
+    "flavor": [
+      { "constant": "1989" },
+      " get the  ",
+      { "constant": "Tie" },
+      " and the ",
+      { "constant": "Resume" },
+      "!"
+    ]
   },
   {
     "number": "20",
     "name": "x0.2",
     "orientation": "vertical",
-    "color": "Purple.png",
+    "color": "Blue.png",
     "title1": "Tie",
     "rules1": "Swap this card with the Paradox. Rotate 1 of your Equipment.",
     "art1": "Tie.png",
     "title2": "Shoes",
-    "rules2": "Score your revision for 1 point.",
-    "art2": "Shoes.png"
+    "rules2": "Score your plan for 1 point.",
+    "art2": "Shoes.png",
+    "flavor": [
+      { "constant": "1989" },
+      " get the  ",
+      { "constant": "Tie" },
+      " and the ",
+      { "constant": "Shoes" },
+      "!"
+    ]
   },
   {
     "number": "21",
     "name": "x0.3",
     "orientation": "vertical",
-    "color": "Purple.png",
+    "color": "Blue.png",
     "title1": "Tie",
     "rules1": "Swap this card with the Paradox. Rotate 1 of your Equipment.",
     "art1": "Tie.png",
     "title2": "Pen",
-    "rules2": "A player takes a card from you. Take a card from that player.",
-    "art2": "Pen.png"
+    "rules2": "Swap one of your equipment cards with the paradox.",
+    "art2": "Pen.png",
+    "flavor": [
+      { "constant": "1989" },
+      " get the  ",
+      { "constant": "Tie" },
+      " and the ",
+      { "constant": "Pen" },
+      "!"
+    ]
   },
   {
     "number": "22",
     "name": "x0.4",
     "orientation": "vertical",
-    "color": "Purple.png",
+    "color": "Blue.png",
     "title1": "Resume",
     "rules1": "Discard a card. Look at 3 cards from the deck, Draw 1, Return the rest.",
     "art1": "Resume.png",
     "title2": "Shoes",
-    "rules2": "Score your revision for 1 point.",
-    "art2": "Shoes.png"
+    "rules2": "Score your plan for 1 point.",
+    "art2": "Shoes.png",
+    "flavor": [
+      { "constant": "1989" },
+      " get the  ",
+      { "constant": "Shoes" },
+      " and the ",
+      { "constant": "Resume" },
+      "!"
+    ]
   },
   {
     "number": "23",
     "name": "x0.5",
     "orientation": "vertical",
-    "color": "Purple.png",
+    "color": "Blue.png",
     "title1": "Resume",
     "rules1": "Discard a card. Look at 3 cards from the deck, Draw 1, Return the rest.",
     "art1": "Resume.png",
     "title2": "Pen",
-    "rules2": "A player takes a card from you. Take a card from that player.",
-    "art2": "Pen.png"
+    "rules2": "Swap one of your equipment cards with the paradox.",
+    "art2": "Pen.png",
+    "flavor": [
+      { "constant": "1989" },
+      " get the  ",
+      { "constant": "Pen" },
+      " and the ",
+      { "constant": "Resume" },
+      "!"
+    ]
   },
   {
     "number": "24",
     "name": "x0.6",
     "orientation": "vertical",
-    "color": "Purple.png",
+    "color": "Blue.png",
     "title1": "Shoes",
-    "rules1": "Score your revision for 1 point.",
+    "rules1": "Score your plan for 1 point.",
     "art1": "Shoes.png",
     "title2": "Pen",
-    "rules2": "A player takes a card from you. Take a card from that player.",
-    "art2": "Pen.png"
+    "rules2": "Swap one of your equipment cards with the paradox.",
+    "art2": "Pen.png",
+    "flavor": [
+      { "constant": "1989" },
+      " get the  ",
+      { "constant": "Shoes" },
+      " and the ",
+      { "constant": "Pen" },
+      "!"
+    ]
   },
 
 
@@ -370,11 +610,19 @@
     "orientation": "vertical",
     "color": "Orange.png",
     "title1": "Cutters",
-    "rules1": "Swap the top card of the deck with the Paradox. Rotate any 1 Equipment.",
+    "rules1": "Discard a card. Draw 2 cards. Return a card.",
     "art1": "Cutters.png",
     "title2": "Paint",
     "rules2": "For each card in your Equipment: either Discard it and Draw a card, or Rotate it.",
-    "art2": "Paint.png"
+    "art2": "Paint.png",
+    "flavor": [
+      { "constant": "2000" },
+      " get the  ",
+      { "constant": "Cutters" },
+      " and the ",
+      { "constant": "Paint" },
+      "!"
+    ]
   },
   {
     "number": "26",
@@ -382,11 +630,19 @@
     "orientation": "vertical",
     "color": "Orange.png",
     "title1": "Cutters",
-    "rules1": "Swap the top card of the deck with the Paradox. Rotate an Equipment.",
+    "rules1": "Discard a card. Draw 2 cards. Return a card.",
     "art1": "Cutters.png",
     "title2": "Syringe",
-    "rules2": "Return this card. its owner Draws 1 card. Swap a card with a player's Revision.",
-    "art2": "Syringe.png"
+    "rules2": "Return this card. its owner Draws 1 card. Swap a card with a player's plan.",
+    "art2": "Syringe.png",
+    "flavor": [
+      { "constant": "2000" },
+      " get the  ",
+      { "constant": "Cutters" },
+      " and the ",
+      { "constant": "Syringe" },
+      "!"
+    ]
   },
   {
     "number": "27",
@@ -394,11 +650,19 @@
     "orientation": "vertical",
     "color": "Orange.png",
     "title1": "Cutters",
-    "rules1": "Swap the top card of the deck with the Paradox. Rotate an Equipment.",
+    "rules1": "Discard a card. Draw 2 cards. Return a card.",
     "art1": "Cutters.png",
     "title2": "Handcuffs",
     "rules2": "Swap 2 cards scored for 1 point with another player's card scored for 2 points.",
-    "art2": "Handcuffs.png"
+    "art2": "Handcuffs.png",
+    "flavor": [
+      { "constant": "2000" },
+      " get the  ",
+      { "constant": "Cutters" },
+      " and the ",
+      { "constant": "Handcuffs" },
+      "!"
+    ]
   },
   {
     "number": "28",
@@ -409,8 +673,16 @@
     "rules1": "For each card in your Equipment: either Discard it and Draw a card, or Rotate it.",
     "art1": "Paint.png",
     "title2": "Syringe",
-    "rules2": "Return this card. its owner Draws 1 card. Swap a card with a player's Revision.",
-    "art2": "Syringe.png"
+    "rules2": "Return this card. its owner Draws 1 card. Swap a card with a player's plan.",
+    "art2": "Syringe.png",
+    "flavor": [
+      { "constant": "2000" },
+      " get the  ",
+      { "constant": "Syringe" },
+      " and the ",
+      { "constant": "Paint" },
+      "!"
+    ]
   },
   {
     "number": "29",
@@ -422,7 +694,15 @@
     "art1": "Paint.png",
     "title2": "Handcuffs",
     "rules2": "Swap 2 cards scored for 1 point with another player's card scored for 2 points.",
-    "art2": "Handcuffs.png"
+    "art2": "Handcuffs.png",
+    "flavor": [
+      { "constant": "2000" },
+      " get the  ",
+      { "constant": "Handcuffs" },
+      " and the ",
+      { "constant": "Paint" },
+      "!"
+    ]
   },
   {
     "number": "30",
@@ -430,11 +710,19 @@
     "orientation": "vertical",
     "color": "Orange.png",
     "title1": "Syringe",
-    "rules1": "Return this card. its owner Draws 1 card. Swap a card with a player's Revision.",
+    "rules1": "Return this card. its owner Draws 1 card. Swap a card with a player's plan.",
     "art1": "Syringe.png",
     "title2": "Handcuffs",
     "rules2": "Swap 2 cards scored for 1 point with another player's card scored for 2 points.",
-    "art2": "Handcuffs.png"
+    "art2": "Handcuffs.png",
+    "flavor": [
+      { "constant": "2000" },
+      " get the  ",
+      { "constant": "Syringe" },
+      " and the ",
+      { "constant": "Handcuffs" },
+      "!"
+    ]
   },
 
 
@@ -448,7 +736,15 @@
     "art1": "Tent.png",
     "title2": "Hatchet",
     "rules2": "Rotate all Equipment. Discard a card. Draw a card.",
-    "art2": "Hatchet.png"
+    "art2": "Hatchet.png",
+    "flavor": [
+      { "constant": "2018" },
+      " get the  ",
+      { "constant": "Tent" },
+      " and the ",
+      { "constant": "Hatchet" },
+      "!"
+    ]
   },
   {
     "number": "32",
@@ -460,7 +756,15 @@
     "art1": "Tent.png",
     "title2": "Matches",
     "rules2": "Re-score for 2 points a card that you have scored for 1 point.",
-    "art2": "Matches.png"
+    "art2": "Matches.png",
+    "flavor": [
+      { "constant": "2018" },
+      " get the  ",
+      { "constant": "Tent" },
+      " and the ",
+      { "constant": "Matches" },
+      "!"
+    ]
   },
   {
     "number": "33",
@@ -472,7 +776,15 @@
     "art1": "Tent.png",
     "title2": "Rope",
     "rules2": "Swap any card scored for 1 point with the Paradox.",
-    "art2": "Rope.png"
+    "art2": "Rope.png",
+    "flavor": [
+      { "constant": "2018" },
+      " get the  ",
+      { "constant": "Tent" },
+      " and the ",
+      { "constant": "Rope" },
+      "!"
+    ]
   },
   {
     "number": "34",
@@ -484,7 +796,15 @@
     "art1": "Hatchet.png",
     "title2": "Matches",
     "rules2": "Re-score for 2 points a card that you have scored for 1 point.",
-    "art2": "Matches.png"
+    "art2": "Matches.png",
+    "flavor": [
+      { "constant": "2018" },
+      " get the  ",
+      { "constant": "Matches" },
+      " and the ",
+      { "constant": "Hatchet" },
+      "!"
+    ]
   },
   {
     "number": "35",
@@ -496,7 +816,15 @@
     "art1": "Hatchet.png",
     "title2": "Rope",
     "rules2": "Swap any card scored for 1 point with the Paradox.",
-    "art2": "Rope.png"
+    "art2": "Rope.png",
+    "flavor": [
+      { "constant": "2018" },
+      " get the  ",
+      { "constant": "Rope" },
+      " and the ",
+      { "constant": "Hatchet" },
+      "!"
+    ]
   },
   {
     "number": "36",
@@ -508,79 +836,135 @@
     "art1": "Matches.png",
     "title2": "Rope",
     "rules2": "Swap any card scored for 1 point with the Paradox.",
-    "art2": "Rope.png"
+    "art2": "Rope.png",
+    "flavor": [
+      { "constant": "2018" },
+      " get the  ",
+      { "constant": "Matches" },
+      " and the ",
+      { "constant": "Rope" },
+      "!"
+    ]
   },
 
   {
     "number": "37",
-    "name": "x0.1",
+    "name": "-x0.1",
     "orientation": "vertical",
-    "color": "Gray.png",
+    "color": "Magenta.png",
     "title1": "Banjolele",
     "rules1": "You may not score for 3 points. When you score a card: draw a card then discard a card.",
     "art1": "Banjolele.png",
-    "title2": "Valet",
-    "rules2": "Treat this as the item of your choice when scoring.",
-    "art2": "Valet.png"
+    "title2": "Sheet Music",
+    "rules2": "In hand: Treat this as the item of your choice when scoring.",
+    "art2": "SheetMusic.png",
+    "flavor": [
+      { "constant": "1925" },
+      " get the  ",
+      { "constant": "Banjolele" },
+      " and the ",
+      { "constant": "Music" },
+      "!"
+    ]
   },
   {
     "number": "38",
-    "name": "x0.2",
+    "name": "-x0.2",
     "orientation": "vertical",
-    "color": "Gray.png",
+    "color": "Magenta.png",
     "title1": "Banjolele",
     "rules1": "You may not score for 3 points. When you score a card: draw a card then discard a card.",
     "art1": "Banjolele.png",
     "title2": "Mess Jacket",
-    "rules2": "Discard a card. Draw 2 cards. Return a card.",
-    "art2": "Mess Jacket.png"
+    "rules2": "Swap the top card of the deck wth the Paradox. Rotate an Equipment.",
+    "art2": "MessJacket.png",
+    "flavor": [
+      { "constant": "1925" },
+      " get the  ",
+      { "constant": "Banjolele" },
+      " and the ",
+      { "constant": "Jacket" },
+      "!"
+    ]
   },
   {
     "number": "39",
-    "name": "x0.3",
+    "name": "-x0.3",
     "orientation": "vertical",
-    "color": "Gray.png",
+    "color": "Magenta.png",
     "title1": "Banjolele",
     "rules1": "You may not score for 3 points. When you score a card: draw a card then discard a card.",
     "art1": "Banjolele.png",
     "title2": "the Times",
     "rules2": "Return a card. Draw 2 cards. Discard a card.",
-    "art2": "the Times.png"
+    "art2": "Times.png",
+    "flavor": [
+      { "constant": "1925" },
+      " get the  ",
+      { "constant": "Banjolele" },
+      " and the ",
+      { "constant": "Times" },
+      "!"
+    ]
   },
   {
     "number": "40",
-    "name": "x0.4",
+    "name": "-x0.4",
     "orientation": "vertical",
-    "color": "Gray.png",
-    "title1": "Valet",
-    "rules1": "Treat this as the item of your choice when scoring.",
-    "art1": "Valet.png",
+    "color": "Magenta.png",
+    "title1": "Sheet Music",
+    "rules1": "In hand: Treat this as the item of your choice when scoring.",
+    "art1": "SheetMusic.png",
     "title2": "Mess Jacket",
-    "rules2": "Discard a card. Draw 2 cards. Return a card.",
-    "art2": "Mess Jacket.png"
+    "rules2": "Swap the top card of the deck with the Paradox. Rotate an Equipment.",
+    "art2": "MessJacket.png",
+    "flavor": [
+      { "constant": "1925" },
+      " get the  ",
+      { "constant": "Jacket" },
+      " and the ",
+      { "constant": "Music" },
+      "!"
+    ]
   },
   {
     "number": "41",
-    "name": "x0.5",
+    "name": "-x0.5",
     "orientation": "vertical",
-    "color": "Gray.png",
-    "title1": "Valet",
-    "rules1": "Treat this as the item of your choice when scoring.",
-    "art1": "Valet.png",
+    "color": "Magenta.png",
+    "title1": "Sheet Music",
+    "rules1": "In hand: Treat this as the item of your choice when scoring.",
+    "art1": "SheetMusic.png",
     "title2": "the Times",
     "rules2": "Return a card. Draw 2 cards. Discard a card.",
-    "art2": "the Times.png"
+    "art2": "Times.png",
+    "flavor": [
+      { "constant": "1925" },
+      " get the  ",
+      { "constant": "Times" },
+      " and the ",
+      { "constant": "Music" },
+      "!"
+    ]
   },
   {
     "number": "42",
-    "name": "x0.6",
+    "name": "-x0.6",
     "orientation": "vertical",
-    "color": "Gray.png",
+    "color": "Magenta.png",
     "title1": "Mess Jacket",
-    "rules1": "Discard a card. Draw 2 cards. Return a card.",
-    "art1": "Mess Jacket.png",
+    "rules1": "Swap the top card of the deck with the Paradox. Rotate an Equipment.",
+    "art1": "MessJacket.png",
     "title2": "the Times",
     "rules2": "Return a card. Draw 2 cards. Discard a card.",
-    "art2": "the Times.png"
+    "art2": "Times.png",
+    "flavor": [
+      { "constant": "1925" },
+      " get the  ",
+      { "constant": "Jacket" },
+      " and the ",
+      { "constant": "Times" },
+      "!"
+    ]
   }
 ]

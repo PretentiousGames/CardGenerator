@@ -353,6 +353,7 @@
             var xOffset = styles.xOffset || 0.0;
             var noWrap = styles.noWrap || false;
             var shadowStrength = styles.shadowStrength || 1;
+            var solidShadowWidth = styles.solidShadowWidth || 1;
             var rotate = styles.rotate || 0;
             var lastLineHeight = styles.lastLineHeight || lineHeight;
             var x = styles.x;
@@ -502,7 +503,7 @@
                         setStyles(w.styles);
                         wx += w.text === ' ' && justification === 'full' ? extraXOffset : 0;
                         for (var ssi = 0; ssi < shadowStrength; ssi++) {
-                            var styleObj = { fontSize: fontSize * (w.relativeFontSize || 1), fillStyle: w.styles.fillStyle };
+                            var styleObj = { fontSize: fontSize * (w.relativeFontSize || 1), fillStyle: w.styles.fillStyle, solidShadowWidth: w.styles.solidShadowWidth };
                             var wordFontObj = w.styles.font ? _.where(fonts, { name: w.styles.font.toLocaleLowerCase() })[0].font : fontObj;
 
                             cardFormatter.drawer.fillText(context, wordFontObj, w.text, wx - w.xLeadIn, getYPositioning(w, wy), styleObj);
@@ -628,8 +629,15 @@
             var path = font.getPath(text, x, y + topOffset, obj.fontSize, { kerning: false });
             var svgPath = path.toPathData();
             var canvasPath = new cardFormatter.canvgPath(svgPath);
+            ctx.lineCap = "round";
+            ctx.lineJoin = "round";
             ctx.fillStyle = obj.fillStyle;
             canvasPath.draw(ctx);
+            if (obj.solidShadowWidth > 1) {
+                ctx.lineWidth = obj.solidShadowWidth;
+                ctx.stroke();
+                ctx.lineWidth = 1;
+            }
             ctx.fill();
         };
 
@@ -653,6 +661,7 @@
 
             ctx.shadowColor = obj.outerShadowColor;
             ctx.shadowBlur = obj.outerShadowBlur;
+            debugger;
             for (var j = 0; j < obj.outerShadowStrength; j++) {
                 ctx.stroke();
             }
