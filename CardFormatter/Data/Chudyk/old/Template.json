@@ -29,80 +29,121 @@
 
     {
       "type": "text",
-      "name": "title",
+      "name": "tl",
       "styles": {
-        "x": -275,
-        "y": 525,
-        "xSize": 775,
-        "ySize": 75,
+        "x": 85,
+        "y": 85,
+        "xSize": 130,
+        "ySize": 130,
+        "fillStyle": "#151540",
+        "rotate": -45
+      }
+    },
+    {
+      "type": "text",
+      "name": "tr",
+      "styles": {
+        "x": 910,
+        "y": 85,
+        "xSize": 130,
+        "ySize": 130,
+        "fillStyle": "#151540",
+        "rotate": 45
+      }
+    },
+    {
+      "type": "text",
+      "name": "bl",
+      "styles": {
+        "x": 85,
+        "y": 610,
+        "xSize": 130,
+        "ySize": 130,
+        "fillStyle": "#151540",
+        "rotate": 225
+      }
+    },
+    {
+      "type": "text",
+      "name": "br",
+      "styles": {
+        "x": 910,
+        "y": 610,
+        "xSize": 130,
+        "ySize": 130,
+        "fillStyle": "#151540",
+        "rotate": -225
+      }
+    },
+    {
+      "type": "text",
+      "name": "tc",
+      "styles": {
+        "x": 235,
+        "y": 70,
+        "xSize": 655,
+        "ySize": 130,
+        "fillStyle": "#9B9BDE"
+      }
+    },
+    {
+      "type": "text",
+      "name": "bc",
+      "styles": {
+        "x": 235,
+        "y": 610,
+        "xSize": 655,
+        "ySize": 130,
+        "fillStyle": "#9B9BDE",
+        "rotate": 180
+      }
+    },
+    {
+      "type": "text",
+      "name": "cl",
+      "styles": {
+        "xo": 85,
+        "yo": 235,
+        "x": -27.5,
+        "y": 347.5,
+        "xSize": 355,
+        "ySize": 130,
+        "fillStyle": "#9B9BDE",
         "rotate": -90
       }
     },
     {
       "type": "text",
-      "name": "title",
+      "name": "cr",
       "styles": {
-        "x": 325,
-        "y": 525,
-        "xSize": 775,
-        "ySize": 75,
+        "xo": 910,
+        "yo": 235,
+        "x": 797.5,
+        "y": 347.5,
+        "xSize": 355,
+        "ySize": 130,
+        "fillStyle": "#9B9BDE",
         "rotate": 90
       }
     },
     {
       "type": "text",
-      "name": "title2",
+      "name": "cc",
       "styles": {
-        "x": 175,
-        "y": 75,
-        "xSize": 475,
-        "ySize": 75,
-        "rotate": 0
-      }
-    },
-    {
-      "type": "text",
-      "name": "title2",
-      "styles": {
-        "x": 175,
-        "y": 975,
-        "xSize": 475,
-        "ySize": 75,
-        "rotate": 180
-      }
-    },
-    {
-      "type": "text",
-      "name": "rules1",
-      "styles": {
-        "x": 150,
-        "y": 800,
-        "xSize": 525,
-        "ySize": 175,
-        "maxFontSize": 50,
-        "rotate": 0
-      }
-    },
-    {
-      "type": "text",
-      "name": "rules2",
-      "styles": {
-        "x": 150,
-        "y": 150,
-        "xSize": 525,
-        "ySize": 175,
-        "maxFontSize": 60,
-        "rotate": 180
+        "x": 235,
+        "y": 235,
+        "xSize": 655,
+        "ySize": 355,
+        "fillStyle": "#000"
       }
     }
-
   ],
   "subTypes": [
     {
       "requirements": [
         {
           "name": "type",
-          "values": [ "chemical" ]
+          "values": [ "basicCard" ]
         }
       ],
       "elements": [
@@ -111,7 +152,7 @@
           "name": "background",
           "x": 0,
           "y": 0,
-          "constant": "chemicalBG",
+          "constant": "basicCardBG",
           "draw": false
         }
       ],
@@ -121,7 +162,7 @@
       "requirements": [
         {
           "name": "type",
-          "values": [ "steam" ]
+          "values": [ "card" ]
         }
       ],
       "elements": [
@@ -130,45 +171,7 @@
           "name": "background",
           "x": 0,
           "y": 0,
-          "constant": "steamBG",
-          "draw": false
-        }
-      ],
-      "subTypes": []
-    },
-    {
-      "requirements": [
-        {
-          "name": "type",
-          "values": [ "electrical" ]
-        }
-      ],
-      "elements": [
-        {
-          "type": "image",
-          "name": "background",
-          "x": 0,
-          "y": 0,
-          "constant": "electricalBG",
-          "draw": false
-        }
-      ],
-      "subTypes": []
-    },
-    {
-      "requirements": [
-        {
-          "name": "type",
-          "values": [ "metal" ]
-        }
-      ],
-      "elements": [
-        {
-          "type": "image",
-          "name": "background",
-          "x": 0,
-          "y": 0,
-          "constant": "metalBG",
+          "constant": "cardBG",
           "draw": false
         }
       ],
@@ -178,10 +181,8 @@
   "constants": {
     "Background": "cardFrontBackground.png",
     "verticalBackground": "verticalBackground.png",
-    "metalBG": "metalBG.png",
-    "electricalBG": "electricalBG.png",
-    "steamBG": "steamBG.png",
-    "chemicalBG": "chemicalBG.png",
+    "basicCardBG": "basicCardBG.png",
+    "cardBG": "cardBG.png",
 
     "down": {
       "text": "Ռ",

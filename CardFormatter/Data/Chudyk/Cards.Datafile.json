@@ -1,19 +1,196 @@
-﻿[{ "name": "card.01", "image": "cardArt.png", "type": "basicCard", "orientation": "horizontal", "tr": [ "♥" ], "tc": [ "Replace Me" ],                                               "tl": [ "♣" ], "cl": [ "Shuffle the discard pile into the deck." ], "bl": [ "♠" ], "bc": [ "Count ♠s as ♪s" ], "br": [ "♦" ], "cr": [ "Execute North branch" ] },
- { "name": "card.02", "image": "cardArt.png", "type": "basicCard", "orientation": "horizontal", "tr": [ "♣" ], "tc": [ "Stash the last card from the North branch." ],               "tl": [ "♠" ], "cl": [ "Draw $♦ cards" ],                           "bl": [ "♦" ], "bc": [ "Count ♣s as ♪s" ], "br": [ "♪" ], "cr": [ "Execute South branch" ] },
- { "name": "card.03", "image": "cardArt.png", "type": "basicCard", "orientation": "horizontal", "tr": [ "♠" ], "tc": [ "Stash the last card from the South branch." ],               "tl": [ "♦" ], "cl": [ "Draw $♣ cards" ],                           "bl": [ "♪" ], "bc": [ "Count ♪s as ♣s" ], "br": [ "♥" ], "cr": [ "Execute East branch" ] },
- { "name": "card.04", "image": "cardArt.png", "type": "basicCard", "orientation": "horizontal", "tr": [ "♦" ], "tc": [ "Stash the last card from the East branch." ],                "tl": [ "♪" ], "cl": [ "Draw $♥ cards" ],                           "bl": [ "♥" ], "bc": [ "Count ♪s as ♥s" ], "br": [ "♣" ], "cr": [ "Execute West branch" ] },
- { "name": "card.05", "image": "cardArt.png", "type": "basicCard", "orientation": "horizontal", "tr": [ "♪" ], "tc": [ "Stash the last card from the West branch." ],                "tl": [ "♥" ], "cl": [ "Draw $♠ cards" ],                           "bl": [ "♣" ], "bc": [ "Count ♪s as ♦s" ], "br": [ "♠" ], "cr": [ "Reorder North branch" ] },
- { "name": "card.06", "image": "cardArt.png", "type": "basicCard", "orientation": "horizontal", "tr": [ "♥" ], "tc": [ "Move all cards from the North branch to the South branch" ], "tl": [ "♣" ], "cl": [ "Discard $♦ cards" ],                        "bl": [ "♠" ], "bc": [ "Count ♪s as ♠s" ], "br": [ "♦" ], "cr": [ "Reorder South branch" ] },
- { "name": "card.07", "image": "cardArt.png", "type": "basicCard", "orientation": "horizontal", "tr": [ "♣" ], "tc": [ "Move all cards from the South branch to the North branch" ], "tl": [ "♠" ], "cl": [ "Discard $♣ cards" ],                        "bl": [ "♦" ], "bc": [ "Count ♣s as ♦s" ], "br": [ "♪" ], "cr": [ "Reorder West branch" ] },
- { "name": "card.08", "image": "cardArt.png", "type": "basicCard", "orientation": "horizontal", "tr": [ "♠" ], "tc": [ "Move all cards from the East branch to the West branch" ],   "tl": [ "♦" ], "cl": [ "Discard $♥ cards" ],                        "bl": [ "♪" ], "bc": [ "Count ♦s as ♣s" ], "br": [ "♥" ], "cr": [ "Reorder East branch" ] },
- { "name": "card.09", "image": "cardArt.png", "type": "basicCard", "orientation": "horizontal", "tr": [ "♦" ], "tc": [ "Move all cards from the West branch to the East branch" ],   "tl": [ "♪" ], "cl": [ "Discard $♠ cards" ],                        "bl": [ "♥" ], "bc": [ "Count ♦s as ♥s" ], "br": [ "♣" ], "cr": [ "Draw $♪ cards" ] },
- { "name": "card.10", "image": "cardArt.png", "type": "basicCard", "orientation": "horizontal", "tr": [ "♪" ], "tc": [ "Stash $♦ cards from any branch." ],                          "tl": [ "♥" ], "cl": [ "Stash $♦ cards." ],                         "bl": [ "♣" ], "bc": [ "Count ♦s as ♠s" ], "br": [ "♠" ], "cr": [ "Discard $♪ cards" ] },
- { "name": "card.11", "image": "cardArt.png", "type": "basicCard", "orientation": "horizontal", "tr": [ "♥" ], "tc": [ "Stash $♥ cards from any branch." ],                          "tl": [ "♣" ], "cl": [ "Stash $♥ cards." ],                         "bl": [ "♠" ], "bc": [ "Count ♥s as ♣s" ], "br": [ "♦" ], "cr": [ "Tuck an additional card this turn" ] },
- { "name": "card.12", "image": "cardArt.png", "type": "basicCard", "orientation": "horizontal", "tr": [ "♣" ], "tc": [ "Stash $♣ cards from any branch." ],                          "tl": [ "♠" ], "cl": [ "Stash $♣ cards." ],                         "bl": [ "♦" ], "bc": [ "Count ♥s as ♦s" ], "br": [ "♪" ], "cr": [ "Ignore the previous card." ] },
- { "name": "card.13", "image": "cardArt.png", "type": "basicCard", "orientation": "horizontal", "tr": [ "♠" ], "tc": [ "Stash $♠ cards from any branch." ],                          "tl": [ "♦" ], "cl": [ "Stash $♠ cards." ],                         "bl": [ "♪" ], "bc": [ "Count ♥s as ♠s" ], "br": [ "♥" ], "cr": [ "Ignore the next card." ] },
- { "name": "card.14", "image": "cardArt.png", "type": "basicCard", "orientation": "horizontal", "tr": [ "♦" ], "tc": [ "Tuck a $♦ card in any branch." ],                            "tl": [ "♪" ], "cl": [ "Draw and stash $♦ cards." ],                "bl": [ "♥" ], "bc": [ "Count ♠s as ♣s" ], "br": [ "♣" ], "cr": [ "Execute the next card twice." ] }, 
- { "name": "card.15", "image": "cardArt.png", "type": "basicCard", "orientation": "horizontal", "tr": [ "♪" ], "tc": [ "Tuck a $♠ card in any branch." ],                            "tl": [ "♥" ], "cl": [ "Draw and stash $♠ cards." ],                "bl": [ "♣" ], "bc": [ "Count ♠s as ♥s" ], "br": [ "♠" ], "cr": [ "Execute the previous card again." ] },
- { "name": "card.16", "image": "cardArt.png", "type": "basicCard", "orientation": "horizontal", "tr": [ "♥" ], "tc": [ "Tuck a $♥ card in any branch." ],                            "tl": [ "♣" ], "cl": [ "Draw and stash $♣ cards." ],                "bl": [ "♠" ], "bc": [ "Count ♠s as ♦s" ], "br": [ "♦" ], "cr": [ "Reveal and activate a card from your hand. Then discard." ] },
- { "name": "card.17", "image": "cardArt.png", "type": "basicCard", "orientation": "horizontal", "tr": [ "♣" ], "tc": [ "Tuck a $♣ card in any branch." ],                            "tl": [ "♠" ], "cl": [ "Draw and stash $♥ cards." ],                "bl": [ "♦" ], "bc": [ "Count ♣s as ♦s" ], "br": [ "♪" ], "cr": [ "Stash $♪ cards." ] },
- { "name": "card.18", "image": "cardArt.png", "type": "basicCard", "orientation": "horizontal", "tr": [ "♠" ], "tc": [ "Tuck a $♪ card in any branch." ],                            "tl": [ "♦" ], "cl": [ "Draw and stash $♪ cards." ],                "bl": [ "♪" ], "bc": [ "Count ♣s as ♥s" ], "br": [ "♥" ], "cr": [ "Draw and stash $♪ cards." ] }
+﻿[
+  {
+    "name": "back.01",
+    "image": "chemicalBack.png",
+    "type": "chemical",
+    "orientation": "vertical",
+    "title": [ "Graverobber" ],
+    "title2": [ "Chemical" ]
+  },
+  {
+    "name": "back.02",
+    "image": "electricalBack.png",
+    "type": "electrical",
+    "orientation": "vertical",
+    "title": [ "Builder" ],
+    "title2": [ "Electrical" ]
+  },
+  {
+    "name": "back.03",
+    "image": "steamBack.png",
+    "type": "steam",
+    "orientation": "vertical",
+    "title": [ "Hoarder" ],
+    "title2": [ "Steam" ]
+  },
+  {
+    "name": "back.04",
+    "image": "metalBack.png",
+    "type": "metal",
+    "orientation": "vertical",
+    "title": [ "Hypnotist" ],
+    "title2": [ "Metal" ]
+  },
+  {
+    "name": "card.01",
+    "image": "IntelligentRodents.png",
+    "type": "chemical",
+    "orientation": "vertical",
+    "title": [ "Intelligent Rodents" ],
+    "rules1": [ "You may discard a card before ranting." ],
+    "rules2": [ "When your opponent plays a wild role, you may rant." ]
+  },
+  {
+    "name": "card.02",
+    "image": "BrainInAJar.png",
+    "type": "chemical",
+    "orientation": "vertical",
+    "title": [ "Brain in a Jar" ],
+    "rules1": [ "You may use any material when adding to a metal gadget." ],
+    "rules2": [ "Your completed metal gadgets are worth +1 infamy each." ]
+  },
+  {
+    "name": "card.03",
+    "image": "GlowyGreenThings.png",
+    "type": "chemical",
+    "orientation": "vertical",
+    "title": [ "Glowy green things" ],
+    "rules1": [ "You may also use 1 material from your hand when graverobbing." ],
+    "rules2": [ "You may use chemicals to tuck under any gadget." ]
+  },
+  {
+    "name": "card.04",
+    "image": "HumanoidCat.png",
+    "type": "chemical",
+    "orientation": "vertical",
+    "title": [ "Humanoid Cat" ],
+    "rules1": [ "You may also hypnotize 1 card from the deck when hypnotizing." ],
+    "rules2": [ "Your completed gadgets may horde +1 card each." ]
+  },
+  {
+    "name": "card.05",
+    "image": "VampirePepper.png",
+    "type": "chemical",
+    "orientation": "vertical",
+    "title": [ "Vampire-Pepper" ],
+    "rules1": [ "You may draw after playing a wild role." ],
+    "rules2": [ "+2 max minions." ]
+  },
+  {
+    "name": "card.06",
+    "image": "GravityEngine.png",
+    "type": "steam",
+    "orientation": "vertical",
+    "title": [ "Gravity Engine" ],
+    "rules1": [ "All your minions count as graverobbers." ],
+    "rules2": [ "When you finish this, you may immediately build or graverob once per infamy." ]
+  },
+  {
+    "name": "card.07",
+    "image": "TemporalClacker.png",
+    "type": "steam",
+    "orientation": "vertical",
+    "title": [ "Temporal Clacker" ],
+    "rules1": [ "Before you build, draw a card. you may add two cards to a gadget during the build." ],
+    "rules2": [ "When you finish a chemical gadget, you may swap it with the top card of the deck." ]
+  },
+  {
+    "name": "card.08",
+    "image": "NefariousTurbine.png",
+    "type": "steam",
+    "orientation": "vertical",
+    "title": [ "Nefarious Turbine" ],
+    "rules1": [ "You also may hypnotize 1 minion from hand when hypnotizing. x2 max minions." ],
+    "rules2": [ "Your opponents may not rant during your turn." ]
+  },
+  {
+    "name": "card.09",
+    "image": "Birdbath.png",
+    "type": "steam",
+    "orientation": "vertical",
+    "title": [ "Birdbath" ],
+    "rules1": [ "Your metal gadgets always function, even when they are unfinished." ],
+    "rules2": [ "Before you graverob, you may discard the top card of the deck to the graveyard." ]
+  },
+  {
+    "name": "card.10",
+    "image": "AbstractDevice.png",
+    "type": "electrical",
+    "orientation": "vertical",
+    "title": [ "Abstract Device" ],
+    "rules1": [ "You may hoard an additional card from the deck when you hoard." ],
+    "rules2": [ "+1 max handsize." ]
+  },
+  {
+    "name": "card.11",
+    "image": "IonizationEngine.png",
+    "type": "electrical",
+    "orientation": "vertical",
+    "title": [ "Ionization Engine" ],
+    "rules1": [ "You may rant after any turn during which you built." ],
+    "rules2": [ "Each minion you gain may perform its action when you gain it." ]
+  },
+  {
+    "name": "card.12",
+    "image": "BaghdadCapacitor.png",
+    "type": "electrical",
+    "orientation": "vertical",
+    "title": [ "Baghdad Capacitor" ],
+    "rules1": [ "You may discard all your cards before ranting." ],
+    "rules2": [ "+2 infamy. you may build this with any single type of material." ]
+  },
+  {
+    "name": "card.13",
+    "image": "AntimemeticWeapon.png",
+    "type": "electrical",
+    "orientation": "vertical",
+    "title": [ "Antimemetic Weapon" ],
+    "rules1": [ "You may add 1 material from the graveyard to the gadget you are building each time you build." ],
+    "rules2": [ "You may finish this with no materials." ]
+  },
+  {
+    "name": "card.14",
+    "image": "SevenMinuteBoots.png",
+    "type": "metal",
+    "orientation": "vertical",
+    "title": [ "Seven Minute Boots" ],
+    "rules1": [ "When you finish this, you may exchange finished gadgets of the same infamy with an opponent." ],
+    "rules2": [ "Your minions may perform their actions twice each when you lead or follow their role." ]
+  },
+  {
+    "name": "card.15",
+    "image": "AutoCrammer.png",
+    "type": "metal",
+    "orientation": "vertical",
+    "title": [ "AutoCrammer" ],
+    "rules1": [ "Your hoarder minions counts as every role." ],
+    "rules2": [ "You may give an opponent a card to make one of their completed gadget's functions available to you for one turn." ]
+  },
+  {
+    "name": "card.16",
+    "image": "DeathRay.png",
+    "type": "metal",
+    "orientation": "vertical",
+    "title": [ "Death Ray" ],
+    "rules1": [ "When hoarding you may hoard 1 extra material from the graveyard." ],
+    "rules2": [ "When you finish this, the game ends immediately.  score as usual." ]
+  },
+  {
+    "name": "card.17",
+    "image": "KineticAccumulator.png",
+    "type": "metal",
+    "orientation": "vertical",
+    "title": [ "Kinetic Accumulator" ],
+    "rules1": [ "When the game ends, gain 1 infamy per minion you have." ],
+    "rules2": [ "You may use one Metal material to finish any gadget." ]
+  },
+  {
+    "name": "card.18",
+    "image": "ChronometricCoupler.png",
+    "type": "metal",
+    "orientation": "vertical",
+    "title": [ "Chronometric Coupler" ],
+    "rules1": [ "You may play multiple cards of the same role in order to perform additional actions." ],
+    "rules2": [ "If you have one minion of each role, you win." ]
+  }
 ]
