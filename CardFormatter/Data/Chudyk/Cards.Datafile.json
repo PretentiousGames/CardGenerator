@@ -20,7 +20,7 @@
     "image": "steamBack.png",
     "type": "steam",
     "orientation": "vertical",
-    "title": [ "Hoarder" ],
+    "title": [ "Tinkerer" ],
     "title2": [ "Steam" ]
   },
   {
@@ -37,8 +37,8 @@
     "type": "chemical",
     "orientation": "vertical",
     "title": [ "Intelligent Rodents" ],
-    "rules1": [ "You may discard a card before ranting." ],
-    "rules2": [ "When your opponent plays a wild role, you may rant." ]
+    "rules1": [ "When you rant, draw an extra card, and then discard a card." ],
+    "rules2": [ "Before you graverob, you may discard the top card of the deck to the graveyard." ]
   },
   {
     "name": "card.02",
@@ -46,8 +46,8 @@
     "type": "chemical",
     "orientation": "vertical",
     "title": [ "Brain in a Jar" ],
-    "rules1": [ "You may use any material when adding to a metal gadget." ],
-    "rules2": [ "Your completed metal gadgets are worth +1 infamy each." ]
+    "rules1": [ "+1 max handsize." ],
+    "rules2": [ "You may draw after playing a wild role." ]
   },
   {
     "name": "card.03",
@@ -55,8 +55,8 @@
     "type": "chemical",
     "orientation": "vertical",
     "title": [ "Glowy green things" ],
-    "rules1": [ "You may also use 1 material from your hand when graverobbing." ],
-    "rules2": [ "You may use chemicals to tuck under any gadget." ]
+    "rules1": [ "Your metal gadgets (finished and unfinished) are worth +1 infamy each." ],
+    "rules2": [ "You may add a single chemical material to any gadget you are building." ]
   },
   {
     "name": "card.04",
@@ -64,8 +64,8 @@
     "type": "chemical",
     "orientation": "vertical",
     "title": [ "Humanoid Cat" ],
-    "rules1": [ "You may also hypnotize 1 card from the deck when hypnotizing." ],
-    "rules2": [ "Your completed gadgets may horde +1 card each." ]
+    "rules1": [ "You may also hypnotize 1 card from your hand when hypnotizing." ],
+    "rules2": [ "+2 max minions." ]
   },
   {
     "name": "card.05",
@@ -73,8 +73,8 @@
     "type": "chemical",
     "orientation": "vertical",
     "title": [ "Vampire-Pepper" ],
-    "rules1": [ "You may draw after playing a wild role." ],
-    "rules2": [ "+2 max minions." ]
+    "rules1": [ "Your finished gadgets may horde +1 card each." ],
+    "rules2": [ "You may also use 1 material from the top of the deck when graverobbing." ]
   },
   {
     "name": "card.06",
@@ -82,8 +82,8 @@
     "type": "steam",
     "orientation": "vertical",
     "title": [ "Gravity Engine" ],
-    "rules1": [ "All your minions count as graverobbers." ],
-    "rules2": [ "When you finish this, you may immediately build or graverob once per infamy." ]
+    "rules1": [ "All your minions count as builders. you may build this with any type of material." ],
+    "rules2": [ "+3 infamy. you may build this with any type of material." ]
   },
   {
     "name": "card.07",
@@ -91,8 +91,8 @@
     "type": "steam",
     "orientation": "vertical",
     "title": [ "Temporal Clacker" ],
-    "rules1": [ "Before you build, draw a card. you may add two cards to a gadget during the build." ],
-    "rules2": [ "When you finish a chemical gadget, you may swap it with the top card of the deck." ]
+    "rules1": [ "Your unfinished metal gadgets still provide you with infamy." ],
+    "rules2": [ "When you finish this, you may immediately build and/or graverob once per infamy." ]
   },
   {
     "name": "card.08",
@@ -100,8 +100,8 @@
     "type": "steam",
     "orientation": "vertical",
     "title": [ "Nefarious Turbine" ],
-    "rules1": [ "You also may hypnotize 1 minion from hand when hypnotizing. x2 max minions." ],
-    "rules2": [ "Your opponents may not rant during your turn." ]
+    "rules1": [ "You also may hypnotize 1 minion from the top of the deck when hypnotizing. +2 max minions." ],
+    "rules2": [ "Your metal gadgets require one fewer materials to complete." ]
   },
   {
     "name": "card.09",
@@ -109,8 +109,8 @@
     "type": "steam",
     "orientation": "vertical",
     "title": [ "Birdbath" ],
-    "rules1": [ "Your metal gadgets always function, even when they are unfinished." ],
-    "rules2": [ "Before you graverob, you may discard the top card of the deck to the graveyard." ]
+    "rules1": [ "Before you build, draw a card. you may add two cards to a gadget during the build." ],
+    "rules2": [ "-1 infamy. At the start of your turn, you may draw two cards." ]
   },
   {
     "name": "card.10",
@@ -118,8 +118,8 @@
     "type": "electrical",
     "orientation": "vertical",
     "title": [ "Abstract Device" ],
-    "rules1": [ "You may hoard an additional card from the deck when you hoard." ],
-    "rules2": [ "+1 max handsize." ]
+    "rules1": [ "You may tuck an extra card from the graveyard when you tinker." ],
+    "rules2": [ "At the end of your turn if the top card of the deck's infamy matches the number of cards in your hand, hypnotize it." ]
   },
   {
     "name": "card.11",
@@ -127,8 +127,8 @@
     "type": "electrical",
     "orientation": "vertical",
     "title": [ "Ionization Engine" ],
-    "rules1": [ "You may rant after any turn during which you built." ],
-    "rules2": [ "Each minion you gain may perform its action when you gain it." ]
+    "rules1": [ "You may rant after any turn during which you tinkered or hypnotized." ],
+    "rules2": [ "When you gain a minion, you may take a card matching that minion's type from the graveyard if one exists, or draw a card if one doesn't." ]
   },
   {
     "name": "card.12",
@@ -136,8 +136,8 @@
     "type": "electrical",
     "orientation": "vertical",
     "title": [ "Baghdad Capacitor" ],
-    "rules1": [ "You may discard all your cards before ranting." ],
-    "rules2": [ "+2 infamy. you may build this with any single type of material." ]
+    "rules1": [ "You may also add 1 material from the graveyard to the gadget you are building each time you build." ],
+    "rules2": [ "When you start building this, you may tuck an electrical card under it from the graveyard if one exists." ]
   },
   {
     "name": "card.13",
@@ -145,8 +145,8 @@
     "type": "electrical",
     "orientation": "vertical",
     "title": [ "Antimemetic Weapon" ],
-    "rules1": [ "You may add 1 material from the graveyard to the gadget you are building each time you build." ],
-    "rules2": [ "You may finish this with no materials." ]
+    "rules1": [ "You may discard any number of cards before ranting." ],
+    "rules2": [ "When you finish this, you may swap it with the top card of the deck or a card in the graveyard." ]
   },
   {
     "name": "card.14",
@@ -154,8 +154,8 @@
     "type": "metal",
     "orientation": "vertical",
     "title": [ "Seven Minute Boots" ],
-    "rules1": [ "When you finish this, you may exchange finished gadgets of the same infamy with an opponent." ],
-    "rules2": [ "Your minions may perform their actions twice each when you lead or follow their role." ]
+    "rules1": [ "At the end of each of your turns, you may Rant." ],
+    "rules2": [ "Your builder and tinkerer minions may perform their actions three times each when you lead or follow their role." ]
   },
   {
     "name": "card.15",
@@ -163,8 +163,8 @@
     "type": "metal",
     "orientation": "vertical",
     "title": [ "AutoCrammer" ],
-    "rules1": [ "Your hoarder minions counts as every role." ],
-    "rules2": [ "You may give an opponent a card to make one of their completed gadget's functions available to you for one turn." ]
+    "rules1": [ "Your hypnotist minions count as every role." ],
+    "rules2": [ "After you Rant, you may draw four additional cards. If you do, discard this." ]
   },
   {
     "name": "card.16",
@@ -172,8 +172,8 @@
     "type": "metal",
     "orientation": "vertical",
     "title": [ "Death Ray" ],
-    "rules1": [ "When hoarding you may hoard 1 extra material from the graveyard." ],
-    "rules2": [ "When you finish this, the game ends immediately.  score as usual." ]
+    "rules1": [ "You may discard a minion to the graveyard to perform its action three times when you would normally perform it once." ],
+    "rules2": [ "Once this is finished, you may end the game at the start of any of your turns. Score as usual." ]
   },
   {
     "name": "card.17",
@@ -182,7 +182,7 @@
     "orientation": "vertical",
     "title": [ "Kinetic Accumulator" ],
     "rules1": [ "When the game ends, gain 1 infamy per minion you have." ],
-    "rules2": [ "You may use one Metal material to finish any gadget." ]
+    "rules2": [ "Your gadgets require one fewer materials to finish." ]
   },
   {
     "name": "card.18",
@@ -190,7 +190,31 @@
     "type": "metal",
     "orientation": "vertical",
     "title": [ "Chronometric Coupler" ],
-    "rules1": [ "You may play multiple cards of the same role in order to perform additional actions." ],
-    "rules2": [ "If you have one minion of each role, you win." ]
+    "rules1": [ "After you finish this, tuck every card in your hand under gadgets you own face down (if possible)." ],
+    "rules2": [ "When you follow, you may return any number of cards from the graveyard matching the role that you followed in order to perform the action the same number of extra times." ]
+  },
+  {
+    "names1": "Dr. Doom Device, Spatial Anomalizer, Zombie Cannon",
+    "names2": "Revivification Matrix, Collapsing Gun, Bone Teleportation Network",
+    "names3": "Alternator Widget, Pollution Amplifier, Tissue Disruptor",
+    "For Graverob actions, If you add a card to an uncompleted gadget, complete it.": "",
+    "Before you tinker, take a card from the graveyard. you may add two cards to a gadget during the tinker.": "",
+    "Gain +3 infamy per minion if you have the fewest minions.": "",
+    "If you start your turn with one minion of each role, you win.": "",
+    "After you finish this, tuck every card from the graveyard under gadgets you own face down (if possible).": "",
+    "Instead of discarding the role you select, you may tuck it face down under a incomplete gadget.": "",
+    "At the end of the game, select a material. You may count any of the cards in your hand as that material for scoring purposes.": "",
+    "If you have 4 gadgets of the same type of material at any time, you win.": "",
+    "+3 infamy if you have the fewest completed gadgets.": "",
+
+    "When you take an action, select one of your opponent's minions to use. your opponent may not use that minion this turn.": "",
+    "When your opponent plays a wild role, you may rant.": "",
+    "Your opponents may not rant during your turn.": "",
+    "When you Graverob, you may steal an electrical or steam gadget which has no cards tucked under it from an opponent instead of a card from the graveyard.": "",
+    "You may give an opponent a card from your hand to make one of their finished gadget's functions available to you for one turn.": "",
+    "When you finish this, you may exchange a tucked card for a finished gadget of the same total infamy with an opponent (tucked cards count).": "",
+    "After you Rant, you may steal a face-down tucked card from an opponent that has more tucked cards than you and tuck it under a gadget you own.": "",
+    "+1 infamy. After you finish this, you may swap a gadget with an opponent that has more gadgets than you.": "",
+    "+1 infamy. You may Hypnotize your opponent's minions if they have more minions than you.": ""
   }
 ]
