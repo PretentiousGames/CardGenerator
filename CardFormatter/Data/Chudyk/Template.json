@@ -173,6 +173,25 @@
         }
       ],
       "subTypes": []
+    },
+    {
+      "requirements": [
+        {
+          "name": "type",
+          "values": [ "flesh" ]
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "name": "background",
+          "x": 0,
+          "y": 0,
+          "constant": "fleshBG",
+          "draw": false
+        }
+      ],
+      "subTypes": []
     }
   ],
   "constants": {
@@ -182,6 +201,7 @@
     "electricalBG": "electricalBG.png",
     "steamBG": "steamBG.png",
     "chemicalBG": "chemicalBG.png",
+    "fleshBG": "fleshBG.png",
 
     "down": {
       "text": "Ռ",

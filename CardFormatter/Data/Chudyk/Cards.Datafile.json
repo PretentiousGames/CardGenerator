@@ -32,6 +32,14 @@
     "title2": [ "Metal" ]
   },
   {
+    "name": "back.05",
+    "image": "fleshBack.png",
+    "type": "flesh",
+    "orientation": "vertical",
+    "title": [ "Torturer" ],
+    "title2": [ "Flesh" ]
+  },
+  {
     "name": "card.01",
     "image": "IntelligentRodents.png",
     "type": "chemical",
@@ -128,7 +136,7 @@
     "orientation": "vertical",
     "title": [ "Ionization Engine" ],
     "rules1": [ "You may rant after any turn during which you tinkered or hypnotized." ],
-    "rules2": [ "When you gain a minion, you may take a card matching that minion's type from the graveyard if one exists, or draw a card if one doesn't." ]
+    "rules2": [ "When you gain a minion, you may take a card matching that minion's type from the graveyard or draw a card." ]
   },
   {
     "name": "card.12",
@@ -191,30 +199,88 @@
     "orientation": "vertical",
     "title": [ "Chronometric Coupler" ],
     "rules1": [ "After you finish this, tuck every card in your hand under gadgets you own face down (if possible)." ],
-    "rules2": [ "When you follow, you may return any number of cards from the graveyard matching the role that you followed in order to perform the action the same number of extra times." ]
+    "rules2": [ "When you follow, you may return cards from the graveyard of the same role to perform the same action that many times." ]
+  },
+
+  {
+    "name": "card.19",
+    "image": "DrDoomDevice.png",
+    "type": "flesh",
+    "orientation": "vertical",
+    "title": [ "Dr. Doom Device" ],
+    "rules1": [ "If you have 4 gadgets of the same type of material at any time, you win." ],
+    "rules2": [ "If you start your turn with one minion of each role, you win." ]
   },
   {
-    "names1": "Dr. Doom Device, Spatial Anomalizer, Zombie Cannon",
-    "names2": "Revivification Matrix, Collapsing Gun, Bone Teleportation Network",
-    "names3": "Alternator Widget, Pollution Amplifier, Tissue Disruptor",
-    "For Graverob actions, If you add a card to an uncompleted gadget, complete it.": "",
-    "Before you tinker, take a card from the graveyard. you may add two cards to a gadget during the tinker.": "",
-    "Gain +3 infamy per minion if you have the fewest minions.": "",
-    "If you start your turn with one minion of each role, you win.": "",
-    "After you finish this, tuck every card from the graveyard under gadgets you own face down (if possible).": "",
-    "Instead of discarding the role you select, you may tuck it face down under a incomplete gadget.": "",
-    "At the end of the game, select a material. You may count any of the cards in your hand as that material for scoring purposes.": "",
-    "If you have 4 gadgets of the same type of material at any time, you win.": "",
-    "+3 infamy if you have the fewest completed gadgets.": "",
-
-    "When you take an action, select one of your opponent's minions to use. your opponent may not use that minion this turn.": "",
-    "When your opponent plays a wild role, you may rant.": "",
-    "Your opponents may not rant during your turn.": "",
-    "When you Graverob, you may steal an electrical or steam gadget which has no cards tucked under it from an opponent instead of a card from the graveyard.": "",
-    "You may give an opponent a card from your hand to make one of their finished gadget's functions available to you for one turn.": "",
-    "When you finish this, you may exchange a tucked card for a finished gadget of the same total infamy with an opponent (tucked cards count).": "",
-    "After you Rant, you may steal a face-down tucked card from an opponent that has more tucked cards than you and tuck it under a gadget you own.": "",
-    "+1 infamy. After you finish this, you may swap a gadget with an opponent that has more gadgets than you.": "",
-    "+1 infamy. You may Hypnotize your opponent's minions if they have more minions than you.": ""
+    "name": "card.20",
+    "image": "SpatialAnomalizer.png",
+    "type": "flesh",
+    "orientation": "vertical",
+    "title": [ "Spatial Anomalizer" ],
+    "rules1": [ "Your opponents may not rant during your turn." ],
+    "rules2": [ "At the end of the game, select a material. You may count any of the cards in your hand as that material for scoring purposes." ]
+  },
+  {
+    "name": "card.21",
+    "image": "ZombieCannon.png",
+    "type": "flesh",
+    "orientation": "vertical",
+    "title": [ "Zombie Cannon" ],
+    "rules1": [ "Before you tinker, take a card from the graveyard. you may add two cards to a gadget during the tinker." ],
+    "rules2": [ "When you finish this, you may exchange a tucked card for a finished gadget of the same total infamy with an opponent (tucked cards count)." ]
+  },
+  {
+    "name": "card.22",
+    "image": "RevivificationMatrix.png",
+    "type": "flesh",
+    "orientation": "vertical",
+    "title": [ "Revivification Matrix" ],
+    "rules1": [ "You may give an opponent a card from your hand to make one of their finished gadget's functions available to you for one turn." ],
+    "rules2": [ "For Graverob actions, If you add a card to an uncompleted gadget, complete it." ]
+  },
+  {
+    "name": "card.23",
+    "image": "CollapsingGun.png",
+    "type": "flesh",
+    "orientation": "vertical",
+    "title": [ "Collapsing Gun" ],
+    "rules1": [ "+1 infamy. You may Hypnotize your opponent's minions if they have more minions than you." ],
+    "rules2": [ "After you finish this, tuck every card from the graveyard under gadgets you own face down (if possible)." ]
+  },
+  {
+    "name": "card.24",
+    "image": "BoneTeleportationNetwork.png",
+    "type": "flesh",
+    "orientation": "vertical",
+    "title": [ "Bone Teleportation Network" ],
+    "rules1": [ "When you Graverob, you may steal an electrical or steam gadget which has no cards tucked under it from an opponent instead of a card from the graveyard." ],
+    "rules2": [ "After you Rant, you may steal a face-down tucked card from an opponent that has more tucked cards than you and tuck it under a gadget you own." ]
+  },
+  {
+    "name": "card.25",
+    "image": "TrenchcoatGenerator.png",
+    "type": "flesh",
+    "orientation": "vertical",
+    "title": [ "Trenchcoat Generator" ],
+    "rules1": [ "When your opponent plays a wild role, you may rant." ],
+    "rules2": [ "+2 infamy per gadget if you have the fewest completed gadgets." ]
+  },
+  {
+    "name": "card.26",
+    "image": "PollutionAmplifier.png",
+    "type": "flesh",
+    "orientation": "vertical",
+    "title": [ "Pollution Amplifier" ],
+    "rules1": [ "When you take an action, select one of your opponent's minions to use. your opponent may not use that minion this turn." ],
+    "rules2": [ "Gain +3 infamy per minion if you have the fewest minions." ]
+  },
+  {
+    "name": "card.27",
+    "image": "TissueDisruptor.png",
+    "type": "flesh",
+    "orientation": "vertical",
+    "title": [ "Tissue Disruptor" ],
+    "rules1": [ "+1 infamy. After you finish this, you may swap a gadget with an opponent that has more gadgets than you." ],
+    "rules2": [ "Instead of discarding the role you select, you may tuck it face down under a incomplete gadget." ]
   }
 ]
