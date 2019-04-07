@@ -226,8 +226,8 @@
     "type": "flesh",
     "orientation": "vertical",
     "title": [ "Zombie Cannon" ],
-    "rules1": [ "Before you tinker, take a card from the graveyard. you may add two cards to a gadget during the tinker." ],
-    "rules2": [ "When you finish this, you may exchange a tucked card for a finished gadget of the same total infamy with an opponent (tucked cards count)." ]
+    "rules1": [ "When you torture, you may also tuck a card from the graveyard." ],
+    "rules2": [ "When you finish this, exchange a tucked card for a gadget of the same total infamy." ]
   },
   {
     "name": "card.22",
@@ -235,8 +235,8 @@
     "type": "flesh",
     "orientation": "vertical",
     "title": [ "Revivification Matrix" ],
-    "rules1": [ "You may give an opponent a card from your hand to make one of their finished gadget's functions available to you for one turn." ],
-    "rules2": [ "For Graverob actions, If you add a card to an uncompleted gadget, complete it." ]
+    "rules1": [ "When you graverob, you may steal a tucked card from an opponent instead of a card from the graveyard." ],
+    "rules2": [ "When you torture, if you add a card to an uncompleted gadget, complete it." ]
   },
   {
     "name": "card.23",
@@ -245,7 +245,7 @@
     "orientation": "vertical",
     "title": [ "Collapsing Gun" ],
     "rules1": [ "+1 infamy. You may Hypnotize your opponent's minions if they have more minions than you." ],
-    "rules2": [ "After you finish this, tuck every card from the graveyard under gadgets you own face down (if possible)." ]
+    "rules2": [ "When you torture, also tuck the top card from the deck if possible." ]
   },
   {
     "name": "card.24",
@@ -253,8 +253,8 @@
     "type": "flesh",
     "orientation": "vertical",
     "title": [ "Bone Teleportation Network" ],
-    "rules1": [ "When you Graverob, you may steal an electrical or steam gadget which has no cards tucked under it from an opponent instead of a card from the graveyard." ],
-    "rules2": [ "After you Rant, you may steal a face-down tucked card from an opponent that has more tucked cards than you and tuck it under a gadget you own." ]
+    "rules1": [ "After you finish this, tuck every card from the graveyard under gadgets you own face down (if possible)." ],
+    "rules2": [ "After you torture, you may steal a face-down tucked card from an opponent who has more tucked cards than you and tuck it." ]
   },
   {
     "name": "card.25",
@@ -263,7 +263,7 @@
     "orientation": "vertical",
     "title": [ "Trenchcoat Generator" ],
     "rules1": [ "When your opponent plays a wild role, you may rant." ],
-    "rules2": [ "+2 infamy per gadget if you have the fewest completed gadgets." ]
+    "rules2": [ "You are immune to torture." ]
   },
   {
     "name": "card.26",
