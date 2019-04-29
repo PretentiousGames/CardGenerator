@@ -12,7 +12,7 @@
     "image": "electricalBack.png",
     "type": "electrical",
     "orientation": "vertical",
-    "title": [ "Builder" ],
+    "title": [ "Craftsman" ],
     "title2": [ "Electrical" ]
   },
   {
@@ -90,7 +90,7 @@
     "type": "steam",
     "orientation": "vertical",
     "title": [ "Gravity Engine" ],
-    "rules1": [ "All your minions count as builders. you may build this with any type of material." ],
+    "rules1": [ "All your minions count as Craftsmen. you may build this with any type of material." ],
     "rules2": [ "+3 infamy. you may build this with any type of material." ]
   },
   {
@@ -100,7 +100,7 @@
     "orientation": "vertical",
     "title": [ "Temporal Clacker" ],
     "rules1": [ "Your unfinished metal gadgets still provide you with infamy." ],
-    "rules2": [ "When you finish this, you may immediately build and/or graverob once per infamy." ]
+    "rules2": [ "When you finish this, you may immediately craft and/or graverob once per infamy." ]
   },
   {
     "name": "card.08",
@@ -117,7 +117,7 @@
     "type": "steam",
     "orientation": "vertical",
     "title": [ "Birdbath" ],
-    "rules1": [ "Before you build, draw a card. you may add two cards to a gadget during the build." ],
+    "rules1": [ "Before you craft, draw a card. you may add one additional card to a gadget during the craft." ],
     "rules2": [ "-1 infamy. At the start of your turn, you may draw two cards." ]
   },
   {
@@ -144,7 +144,7 @@
     "type": "electrical",
     "orientation": "vertical",
     "title": [ "Baghdad Capacitor" ],
-    "rules1": [ "You may also add 1 material from the graveyard to the gadget you are building each time you build." ],
+    "rules1": [ "You may also add 1 material from the graveyard to the gadget you are building each time you craft." ],
     "rules2": [ "When you start building this, you may tuck an electrical card under it from the graveyard if one exists." ]
   },
   {
@@ -163,7 +163,7 @@
     "orientation": "vertical",
     "title": [ "Seven Minute Boots" ],
     "rules1": [ "At the end of each of your turns, you may Rant." ],
-    "rules2": [ "Your builder and tinkerer minions may perform their actions three times each when you lead or follow their role." ]
+    "rules2": [ "Your Craftsman and tinkerer minions may perform their actions three times each when you lead or follow their role." ]
   },
   {
     "name": "card.15",
@@ -232,7 +232,7 @@
   {
     "name": "card.22",
     "image": "RevivificationMatrix.png",
-    "type": "flesh",
+    "type": "metal",
     "orientation": "vertical",
     "title": [ "Revivification Matrix" ],
     "rules1": [ "When you graverob, you may steal a tucked card from an opponent instead of a card from the graveyard." ],
@@ -241,7 +241,7 @@
   {
     "name": "card.23",
     "image": "CollapsingGun.png",
-    "type": "flesh",
+    "type": "electrical",
     "orientation": "vertical",
     "title": [ "Collapsing Gun" ],
     "rules1": [ "+1 infamy. You may Hypnotize your opponent's minions if they have more minions than you." ],
@@ -259,7 +259,7 @@
   {
     "name": "card.25",
     "image": "TrenchcoatGenerator.png",
-    "type": "flesh",
+    "type": "steam",
     "orientation": "vertical",
     "title": [ "Trenchcoat Generator" ],
     "rules1": [ "When your opponent plays a wild role, you may rant." ],
@@ -281,6 +281,6 @@
     "orientation": "vertical",
     "title": [ "Tissue Disruptor" ],
     "rules1": [ "+1 infamy. After you finish this, you may swap a gadget with an opponent that has more gadgets than you." ],
-    "rules2": [ "Instead of discarding the role you select, you may tuck it face down under a incomplete gadget." ]
+    "rules2": [ "Instead of discarding the role you select, you may tuck it face down under an incomplete gadget." ]
   }
 ]
