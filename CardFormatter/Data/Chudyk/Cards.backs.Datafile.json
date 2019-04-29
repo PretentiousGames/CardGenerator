@@ -1,0 +1,220 @@
+﻿[
+  {
+    "name": "back.03",
+    "image": "chemicalBack.png",
+    "type": "chemical",
+    "orientation": "vertical",
+    "title": [ "Graverobber" ],
+    "title2": [ "Chemical" ]
+  },
+  {
+    "name": "back.02",
+    "image": "chemicalBack.png",
+    "type": "chemical",
+    "orientation": "vertical",
+    "title": [ "Graverobber" ],
+    "title2": [ "Chemical" ]
+  },
+  {
+    "name": "back.01",
+    "image": "chemicalBack.png",
+    "type": "chemical",
+    "orientation": "vertical",
+    "title": [ "Graverobber" ],
+    "title2": [ "Chemical" ]
+  },
+  {
+    "name": "back.06",
+    "image": "chemicalBack.png",
+    "type": "chemical",
+    "orientation": "vertical",
+    "title": [ "Graverobber" ],
+    "title2": [ "Chemical" ]
+  },
+  {
+    "name": "back.05",
+    "image": "chemicalBack.png",
+    "type": "chemical",
+    "orientation": "vertical",
+    "title": [ "Graverobber" ],
+    "title2": [ "Chemical" ]
+  },
+  {
+    "name": "back.04",
+    "image": "steamBack.png",
+    "type": "steam",
+    "orientation": "vertical",
+    "title": [ "Tinkerer" ],
+    "title2": [ "Steam" ]
+  },
+  {
+    "name": "back.09",
+    "image": "steamBack.png",
+    "type": "steam",
+    "orientation": "vertical",
+    "title": [ "Tinkerer" ],
+    "title2": [ "Steam" ]
+  },
+  {
+    "name": "back.08",
+    "image": "steamBack.png",
+    "type": "steam",
+    "orientation": "vertical",
+    "title": [ "Tinkerer" ],
+    "title2": [ "Steam" ]
+  },
+  {
+    "name": "back.07",
+    "image": "steamBack.png",
+    "type": "steam",
+    "orientation": "vertical",
+    "title": [ "Tinkerer" ],
+    "title2": [ "Steam" ]
+  },
+
+  {
+    "name": "back.12",
+    "image": "electricalBack.png",
+    "type": "electrical",
+    "orientation": "vertical",
+    "title": [ "Craftsman" ],
+    "title2": [ "Electrical" ]
+  },
+  {
+    "name": "back.11",
+    "image": "electricalBack.png",
+    "type": "electrical",
+    "orientation": "vertical",
+    "title": [ "Craftsman" ],
+    "title2": [ "Electrical" ]
+  },
+  {
+    "name": "back.10",
+    "image": "electricalBack.png",
+    "type": "electrical",
+    "orientation": "vertical",
+    "title": [ "Craftsman" ],
+    "title2": [ "Electrical" ]
+  },
+  {
+    "name": "back.15",
+    "image": "electricalBack.png",
+    "type": "electrical",
+    "orientation": "vertical",
+    "title": [ "Craftsman" ],
+    "title2": [ "Electrical" ]
+  },
+  {
+    "name": "back.14",
+    "image": "metalBack.png",
+    "type": "metal",
+    "orientation": "vertical",
+    "title": [ "Hypnotist" ],
+    "title2": [ "Metal" ]
+  },
+  {
+    "name": "back.13",
+    "image": "metalBack.png",
+    "type": "metal",
+    "orientation": "vertical",
+    "title": [ "Hypnotist" ],
+    "title2": [ "Metal" ]
+  },
+  {
+    "name": "back.18",
+    "image": "metalBack.png",
+    "type": "metal",
+    "orientation": "vertical",
+    "title": [ "Hypnotist" ],
+    "title2": [ "Metal" ]
+  },
+  {
+    "name": "back.17",
+    "image": "metalBack.png",
+    "type": "metal",
+    "orientation": "vertical",
+    "title": [ "Hypnotist" ],
+    "title2": [ "Metal" ]
+  },
+  {
+    "name": "back.16",
+    "image": "metalBack.png",
+    "type": "metal",
+    "orientation": "vertical",
+    "title": [ "Hypnotist" ],
+    "title2": [ "Metal" ]
+  },
+
+  {
+    "name": "back.21",
+    "image": "fleshBack.png",
+    "type": "flesh",
+    "orientation": "vertical",
+    "title": [ "Torturer" ],
+    "title2": [ "Flesh" ]
+  },
+  {
+    "name": "back.20",
+    "image": "fleshBack.png",
+    "type": "flesh",
+    "orientation": "vertical",
+    "title": [ "Torturer" ],
+    "title2": [ "Flesh" ]
+  },
+  {
+    "name": "back.19",
+    "image": "fleshBack.png",
+    "type": "flesh",
+    "orientation": "vertical",
+    "title": [ "Torturer" ],
+    "title2": [ "Flesh" ]
+  },
+  {
+    "name": "back.24",
+    "image": "metalBack.png",
+    "type": "metal",
+    "orientation": "vertical",
+    "title": [ "Hypnotist" ],
+    "title2": [ "Metal" ]
+  },
+  {
+    "name": "back.23",
+    "image": "electricalBack.png",
+    "type": "electrical",
+    "orientation": "vertical",
+    "title": [ "Craftsman" ],
+    "title2": [ "Electrical" ]
+  },
+  {
+    "name": "back.22",
+    "image": "fleshBack.png",
+    "type": "flesh",
+    "orientation": "vertical",
+    "title": [ "Torturer" ],
+    "title2": [ "Flesh" ]
+  },
+  {
+    "name": "back.27",
+    "image": "steamBack.png",
+    "type": "steam",
+    "orientation": "vertical",
+    "title": [ "Tinkerer" ],
+    "title2": [ "Steam" ]
+  },
+  {
+    "name": "back.26",
+    "image": "fleshBack.png",
+    "type": "flesh",
+    "orientation": "vertical",
+    "title": [ "Torturer" ],
+    "title2": [ "Flesh" ]
+  },
+  {
+    "name": "back.25",
+    "image": "fleshBack.png",
+    "type": "flesh",
+    "orientation": "vertical",
+    "title": [ "Torturer" ],
+    "title2": [ "Flesh" ]
+  }
+]
