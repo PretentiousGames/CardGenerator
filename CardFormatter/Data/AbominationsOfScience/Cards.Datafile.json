@@ -355,8 +355,10 @@
     "level": "3",
     "fileNamePrefix": "1.Room.27",
     "art": "DrDoomDevice.png",
-    "1ReqCount": "3",
+    "1ReqCount": "1",
     "1Req": { "constant": "minionRequirementImage" },
+    "2ReqCount": "6",
+    "2Req": { "constant": "wildRequirementImage" },
     "points": "3",
     "ability": [ "Remove all peasants from your mob." ]
   }
