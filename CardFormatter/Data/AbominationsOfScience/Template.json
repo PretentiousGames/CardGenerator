@@ -1,0 +1,452 @@
+﻿{
+  "fullWidth": 825,
+  "fullHeight": 1125,
+  "styles": {
+    "font": "belweb.ttf",
+    "maxFontSize": 67,
+    "minFontSize": 12,
+    "lineHeight": 1,
+    "offset": -0.156,
+    "xOffset": 0.06701,
+    "justification": "center",
+    "alignment": "middle",
+    "fillStyle": "#000"
+  },
+  "requirements": [],
+  "elements": [
+    {
+      "type": "image",
+      "name": "art",
+      "x": 0,
+      "y": 0
+    }
+  ],
+  "subTypes": [
+    {
+      "requirements": [],
+      "elements": [],
+      "subTypes": [
+        {
+          "requirements": [
+            {
+              "name": "type",
+              "values": [ "Plan" ]
+            },
+            {
+              "name": "level",
+              "values": [ "1" ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "templateImage",
+              "x": 0,
+              "y": 0,
+              "constant": "plan.1BG"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "type",
+              "values": [ "Plan" ]
+            },
+            {
+              "name": "level",
+              "values": [ "2" ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "templateImage",
+              "x": 0,
+              "y": 0,
+              "constant": "plan.2BG"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "type",
+              "values": [ "Plan" ]
+            },
+            {
+              "name": "level",
+              "values": [ "3" ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "templateImage",
+              "x": 0,
+              "y": 0,
+              "constant": "plan.3BG"
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "type",
+              "values": [ "Plan" ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "text",
+              "name": "name",
+              "styles": {
+                "x": 145,
+                "y": 94,
+                "xSize": 535,
+                "ySize": 100,
+                "maxFontSize": 100
+              }
+            },
+            {
+              "type": "array",
+              "name": "requirementsArray",
+              "styles": {
+                "x": 44,
+                "y": 210,
+                "xSize": 202.3851388396772,
+                "ySize": 206.7375073851991,
+                "itemWidth": 176,
+                "direction": "right",
+                "old x": 44,
+                "old y": 760,
+                "old xSize": 202.3851388396772,
+                "old ySize": 206.7375073851991,
+                "old itemHeight": 175.7666895604395,
+                "old direction": "up",
+                "maxFontSize": 1000,
+                "justification": "left"
+              }
+            },
+            {
+              "type": "array",
+              "name": "requirementsCountArray",
+              "styles": {
+                "x": 172,
+                "y": 208,
+                "xSize": 47.52089268755935,
+                "ySize": 47.52089268755935,
+                "itemWidth": 176,
+                "direction": "right",
+                "maxFontSize": 1000,
+                "justification": "center"
+              }
+            },
+            {
+              "type": "text",
+              "name": "1Req",
+              "styles": {
+                "array": "requirementsArray"
+              }
+            },
+            {
+              "type": "text",
+              "name": "2Req",
+              "styles": {
+                "array": "requirementsArray"
+              }
+            },
+            {
+              "type": "text",
+              "name": "3Req",
+              "styles": {
+                "array": "requirementsArray"
+              }
+            },
+            {
+              "type": "text",
+              "name": "4Req",
+              "styles": {
+                "array": "requirementsArray"
+              }
+            },
+            {
+              "type": "text",
+              "name": "1ReqCount",
+              "styles": {
+                "array": "requirementsCountArray"
+              }
+            },
+            {
+              "type": "text",
+              "name": "2ReqCount",
+              "styles": {
+                "array": "requirementsCountArray"
+              }
+            },
+            {
+              "type": "text",
+              "name": "3ReqCount",
+              "styles": {
+                "array": "requirementsCountArray"
+              }
+            },
+            {
+              "type": "text",
+              "name": "4ReqCount",
+              "styles": {
+                "array": "requirementsCountArray"
+              }
+            }
+          ],
+          "subTypes": [
+            {
+              "requirements": [
+                {
+                  "name": "ability",
+                  "exists": true
+                }
+              ],
+              "elements": [
+                {
+                  "type": "image",
+                  "name": "abilityOverlayImage",
+                  "x": 0,
+                  "y": 0,
+                  "constant": "rulesImageLoc"
+                },
+                {
+                  "type": "text",
+                  "name": "ability",
+                  "styles": {
+                    "x": 144,
+                    "y": 922,
+                    "xSize": 539,
+                    "ySize": 119
+                  }
+                }
+              ],
+              "subTypes": [
+                {
+                  "requirements": [
+                    {
+                      "name": "points",
+                      "exists": true
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "type": "image",
+                      "name": "pointsOverlayImage",
+                      "x": 35,
+                      "y": 740,
+                      "constant": "sidePointsImageLoc"
+                    },
+                    {
+                      "type": "text",
+                      "name": "points",
+                      "styles": {
+                        "x": 115,
+                        "y": 770,
+                        "xSize": 77,
+                        "ySize": 83,
+                        "maxFontSize": 113,
+                        "alignment": "bottom"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "requirements": [
+                    {
+                      "name": "infamy",
+                      "exists": true
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "type": "image",
+                      "name": "infamyOverlayImage",
+                      "x": 591,
+                      "y": 740,
+                      "constant": "sideInfamyImageLoc"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "requirements": [
+                {
+                  "name": "ability",
+                  "exists": false
+                }
+              ],
+              "elements": [],
+              "subTypes": [
+                {
+                  "requirements": [
+                    {
+                      "name": "points",
+                      "exists": true
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "type": "image",
+                      "name": "pointsOverlayImage",
+                      "x": 35,
+                      "y": 840,
+                      "constant": "sidePointsImageLoc"
+                    },
+                    {
+                      "type": "text",
+                      "name": "points",
+                      "styles": {
+                        "x": 115,
+                        "y": 870,
+                        "xSize": 77,
+                        "ySize": 83,
+                        "maxFontSize": 113,
+                        "alignment": "bottom"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "requirements": [
+                    {
+                      "name": "infamy",
+                      "exists": true
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "type": "image",
+                      "name": "infamyOverlayImage",
+                      "x": 591,
+                      "y": 840,
+                      "constant": "sideInfamyImageLoc"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "constants": {
+    "timeImageLoc": "time.png",
+    "unknownImageLoc": "unknown.png",
+    "wildImageLoc": "wild.png",
+    "chemicalImageLoc": "chemical.png",
+    "electricImageLoc": "electric.png",
+    "IconFrameImageLoc": "IconFrame.png",
+    "infamyImageLoc": "infamy.png",
+    "mechanicalImageLoc": "mechanical.png",
+    "minionImageLoc": "minion.png",
+    "nothingImageLoc": "nothing.png",
+    "plan.1BG": "plan.1.png",
+    "plan.2BG": "plan.2.png",
+    "plan.3BG": "plan.3.png",
+    "pointsImageLoc": "points.png",
+    "roomchemicalImageLoc": "roomchemical.png",
+    "roomElectricImageLoc": "roomElectric.png",
+    "roomInfamyImageLoc": "roomInfamy.png",
+    "roomMechanicalImageLoc": "roomMechanical.png",
+    "roomMinionImageLoc": "roomMinion.png",
+    "roomSteamImageLoc": "roomSteam.png",
+    "roomTimeImageLoc": "roomTime.png",
+    "roomWildImageLoc": "roomWild.png",
+    "rulesImageLoc": "rules.png",
+    "sideInfamyImageLoc": "sideInfamy.png",
+    "sidePointsImageLoc": "sidePoints.png",
+    "sparkImageLoc": "spark.png",
+    "steamImageLoc": "steam.png",
+
+    "sparkImage": {
+      "imageFile": "spark.png",
+      "yPadding": 0.29
+    },
+    "minionImage": {
+      "imageFile": "minion.png",
+      "yPadding": 0.29
+    },
+    "chemicalImage": {
+      "imageFile": "chemical.png",
+      "yPadding": 0.29
+    },
+    "electricImage": {
+      "imageFile": "electric.png",
+      "yPadding": 0.29
+    },
+    "mechanicalImage": {
+      "imageFile": "mechanical.png",
+      "yPadding": 0.29
+    },
+    "steamImage": {
+      "imageFile": "steam.png",
+      "yPadding": 0.29
+    },
+    "timeImage": {
+      "imageFile": "time.png",
+      "yPadding": 0.29
+    },
+    "nothingImage": {
+      "imageFile": "nothing.png",
+      "yPadding": 0.29
+    },
+    "unknownImage": {
+      "imageFile": "unknown.png",
+      "yPadding": 0.29
+    },
+    "arrowImage": {
+      "imageFile": "arrow.png",
+      "yPadding": 0.29
+    },
+
+    "steamRequirementImage": {
+      "imageFile": "roomSteam.png",
+      "yPadding": 0.0
+    },
+    "minionRequirementImage": {
+      "imageFile": "roomMinion.png",
+      "yPadding": 0.0
+    },
+    "mechanicalRequirementImage": {
+      "imageFile": "roomMechanical.png",
+      "yPadding": 0.0
+    },
+    "electricRequirementImage": {
+      "imageFile": "roomElectric.png",
+      "yPadding": 0.0
+    },
+    "chemicalRequirementImage": {
+      "imageFile": "roomChemical.png",
+      "yPadding": 0.0
+    },
+    "wildRequirementImage": {
+      "imageFile": "roomWild.png",
+      "yPadding": 0.0
+    },
+    "timeRequirementImage": {
+      "imageFile": "roomTime.png",
+      "yPadding": 0.0
+    },
+    "sparkRequirementImage": {
+      "imageFile": "roomSpark.png",
+      "yPadding": 0.0
+    },
+
+    "half": "½",
+    "nothing": "",
+    "discard": {
+      "text": "Թ",
+      "styles": {
+        "font": "Aharoni-True.ttf"
+      }
+    }
+  }
+}
