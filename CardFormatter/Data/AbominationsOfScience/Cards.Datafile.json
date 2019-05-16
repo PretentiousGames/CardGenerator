@@ -227,8 +227,10 @@
     "level": "2",
     "fileNamePrefix": "1.Room.18",
     "art": "DeathRay.png",
-    "1ReqCount": "2",
+    "1ReqCount": "1",
     "1Req": { "constant": "minionRequirementImage" },
+    "2ReqCount": "3",
+    "2Req": { "constant": "wildRequirementImage" },
     "points": "2",
     "ability": [ "Menace the populace, but remove 2x as many peasants from your mob as usual." ]
   },
