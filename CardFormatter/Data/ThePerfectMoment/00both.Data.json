@@ -953,10 +953,10 @@
     "orientation": "vertical",
     "color": "Magenta.png",
     "title1": "Mess Jacket",
-    "rules1": "Swap the top card of the deck with the Paradox. Rotate an Equipment.",
+    "rules1": "Swap any card with the Paradox. Your opponent may score their plan as a fragment.",
     "art1": "MessJacket.png",
     "title2": "the Times",
-    "rules2": "Swap any card with the Paradox. Your opponent may score their plan as a fragment.",
+    "rules2": "Draw 2 cards from the bottom of the deck. Discard 2 cards.",
     "art2": "Times.png",
     "flavor": [
       { "constant": "1925" },
