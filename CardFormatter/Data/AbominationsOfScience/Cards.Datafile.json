@@ -243,7 +243,7 @@
     "level": "3",
     "fileNamePrefix": "1.Room.19",
     "art": "TemporalClacker.png",
-    "1ReqCount": "3",
+    "1ReqCount": "7",
     "1Req": { "constant": "timeRequirementImage" },
     "points": "6",
     "ability": [ "Produce energy with all of your robots." ]

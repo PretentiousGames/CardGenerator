@@ -82,7 +82,7 @@
     "orientation": "vertical",
     "title": [ "Vampire-Pepper" ],
     "rules1": [ "Your finished gadgets may horde +1 card each." ],
-    "rules2": [ "You may also use 1 material from the top of the deck when graverobbing." ]
+    "rules2": [ "You may also use 1 material from your hand when graverobbing." ]
   },
   {
     "name": "card.06",
