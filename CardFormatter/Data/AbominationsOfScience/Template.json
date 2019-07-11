@@ -16,11 +16,17 @@
   "elements": [
     {
       "type": "image",
-      "name": "art",
+      "name": "background",
       "x": 0,
-      "y": 0
-    }
-  ],
+      "y": 0,
+      "constant": "verticalBackground"
+    },
+  {
+  "type": "image",
+  "name": "art",
+  "x": 0,
+  "y": 0
+}],
   "subTypes": [
     {
       "requirements": [],
@@ -348,9 +354,9 @@
     "mechanicalImageLoc": "mechanical.png",
     "minionImageLoc": "minion.png",
     "nothingImageLoc": "nothing.png",
-    "plan.1BG": "plan.1.png",
-    "plan.2BG": "plan.2.png",
-    "plan.3BG": "plan.3.png",
+    "plan.1BG": "plan.1.low.png",
+    "plan.2BG": "plan.2.low.png",
+    "plan.3BG": "plan.3.low.png",
     "pointsImageLoc": "points.png",
     "roomchemicalImageLoc": "roomchemical.png",
     "roomElectricImageLoc": "roomElectric.png",
@@ -365,6 +371,7 @@
     "sidePointsImageLoc": "sidePoints.png",
     "sparkImageLoc": "spark.png",
     "steamImageLoc": "steam.png",
+    "verticalBackground": "verticalBackground.png",
 
     "sparkImage": {
       "imageFile": "spark.png",

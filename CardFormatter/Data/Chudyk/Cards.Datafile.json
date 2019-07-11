@@ -1,52 +1,20 @@
 ﻿[
   {
-    "name": "back.01",
-    "image": "chemicalBack.png",
-    "type": "chemical",
-    "orientation": "vertical",
-    "title": [ "Graverobber" ],
-    "title2": [ "Chemical" ]
-  },
-  {
-    "name": "back.02",
-    "image": "electricalBack.png",
-    "type": "electrical",
-    "orientation": "vertical",
-    "title": [ "Craftsman" ],
-    "title2": [ "Electrical" ]
-  },
-  {
-    "name": "back.03",
-    "image": "steamBack.png",
-    "type": "steam",
-    "orientation": "vertical",
-    "title": [ "Tinkerer" ],
-    "title2": [ "Steam" ]
-  },
-  {
-    "name": "back.04",
-    "image": "metalBack.png",
-    "type": "metal",
-    "orientation": "vertical",
-    "title": [ "Hypnotist" ],
-    "title2": [ "Metal" ]
-  },
-  {
-    "name": "back.05",
-    "image": "fleshBack.png",
-    "type": "flesh",
-    "orientation": "vertical",
-    "title": [ "Torturer" ],
-    "title2": [ "Flesh" ]
-  },
-  {
     "name": "card.01",
     "image": "IntelligentRodents.png",
     "type": "chemical",
     "orientation": "vertical",
     "title": [ "Intelligent Rodents" ],
-    "rules1": [ "When you rant, draw an extra card, and then discard a card." ],
+    "rules1": [ "When you rant, draw 2 extra cards, and then discard 2 cards." ],
     "rules2": [ "Before you graverob, you may discard the top card of the deck to the graveyard." ]
+  },
+  {
+    "name": "card.back.03.01",
+    "image": "chemicalBack.png",
+    "type": "chemical",
+    "orientation": "vertical",
+    "title": [ "Graverobber" ],
+    "title2": [ "Chemical" ]
   },
   {
     "name": "card.02",
@@ -58,6 +26,14 @@
     "rules2": [ "You may draw after playing a wild role." ]
   },
   {
+    "name": "card.back.02.02",
+    "image": "chemicalBack.png",
+    "type": "chemical",
+    "orientation": "vertical",
+    "title": [ "Graverobber" ],
+    "title2": [ "Chemical" ]
+  },
+  {
     "name": "card.03",
     "image": "GlowyGreenThings.png",
     "type": "chemical",
@@ -67,13 +43,29 @@
     "rules2": [ "You may add a single chemical material to any gadget you are building." ]
   },
   {
+    "name": "card.back.01.03",
+    "image": "chemicalBack.png",
+    "type": "chemical",
+    "orientation": "vertical",
+    "title": [ "Graverobber" ],
+    "title2": [ "Chemical" ]
+  },
+  {
     "name": "card.04",
     "image": "HumanoidCat.png",
     "type": "chemical",
     "orientation": "vertical",
     "title": [ "Humanoid Cat" ],
     "rules1": [ "You may also hypnotize 1 card from your hand when hypnotizing." ],
-    "rules2": [ "+2 max minions." ]
+    "rules2": [ "You may hypnotize +2 max minions." ]
+  },
+  {
+    "name": "card.back.13.04",
+    "image": "chemicalBack.png",
+    "type": "chemical",
+    "orientation": "vertical",
+    "title": [ "Graverobber" ],
+    "title2": [ "Chemical" ]
   },
   {
     "name": "card.05",
@@ -85,6 +77,14 @@
     "rules2": [ "You may also use 1 material from your hand when graverobbing." ]
   },
   {
+    "name": "card.back.12.05",
+    "image": "chemicalBack.png",
+    "type": "chemical",
+    "orientation": "vertical",
+    "title": [ "Graverobber" ],
+    "title2": [ "Chemical" ]
+  },
+  {
     "name": "card.06",
     "image": "GravityEngine.png",
     "type": "steam",
@@ -94,13 +94,29 @@
     "rules2": [ "+3 infamy. you may build this with any type of material." ]
   },
   {
+    "name": "card.back.11.06",
+    "image": "steamBack.png",
+    "type": "steam",
+    "orientation": "vertical",
+    "title": [ "Tinkerer" ],
+    "title2": [ "Steam" ]
+  },
+  {
     "name": "card.07",
     "image": "TemporalClacker.png",
     "type": "steam",
     "orientation": "vertical",
     "title": [ "Temporal Clacker" ],
     "rules1": [ "Your unfinished metal gadgets still provide you with infamy." ],
-    "rules2": [ "When you finish this, you may immediately craft and/or graverob once per infamy." ]
+    "rules2": [ "When you finish this, you may immediately craft once per infamy." ]
+  },
+  {
+    "name": "card.back.23.07",
+    "image": "steamBack.png",
+    "type": "steam",
+    "orientation": "vertical",
+    "title": [ "Tinkerer" ],
+    "title2": [ "Steam" ]
   },
   {
     "name": "card.08",
@@ -108,8 +124,16 @@
     "type": "steam",
     "orientation": "vertical",
     "title": [ "Nefarious Turbine" ],
-    "rules1": [ "You also may hypnotize 1 minion from the top of the deck when hypnotizing. +2 max minions." ],
+    "rules1": [ "You may hypnotize 1 extra minion when you hypnotize. You may also hypnotize minions from the your hand when hypnotizing." ],
     "rules2": [ "Your metal gadgets require one fewer materials to complete." ]
+  },
+  {
+    "name": "card.back.22.08",
+    "image": "steamBack.png",
+    "type": "steam",
+    "orientation": "vertical",
+    "title": [ "Tinkerer" ],
+    "title2": [ "Steam" ]
   },
   {
     "name": "card.09",
@@ -121,6 +145,14 @@
     "rules2": [ "-1 infamy. At the start of your turn, you may draw two cards." ]
   },
   {
+    "name": "card.back.21.09",
+    "image": "steamBack.png",
+    "type": "steam",
+    "orientation": "vertical",
+    "title": [ "Tinkerer" ],
+    "title2": [ "Steam" ]
+  },
+  {
     "name": "card.10",
     "image": "AbstractDevice.png",
     "type": "electrical",
@@ -128,6 +160,14 @@
     "title": [ "Abstract Device" ],
     "rules1": [ "You may tuck an extra card from the graveyard when you tinker." ],
     "rules2": [ "At the end of your turn if the top card of the deck's infamy matches the number of cards in your hand, hypnotize it." ]
+  },
+  {
+    "name": "card.back.33.10",
+    "image": "electricalBack.png",
+    "type": "electrical",
+    "orientation": "vertical",
+    "title": [ "Craftsman" ],
+    "title2": [ "Electrical" ]
   },
   {
     "name": "card.11",
@@ -139,13 +179,29 @@
     "rules2": [ "When you gain a minion, you may take a card matching that minion's type from the graveyard or draw a card." ]
   },
   {
+    "name": "card.back.32.11",
+    "image": "electricalBack.png",
+    "type": "electrical",
+    "orientation": "vertical",
+    "title": [ "Craftsman" ],
+    "title2": [ "Electrical" ]
+  },
+  {
     "name": "card.12",
     "image": "BaghdadCapacitor.png",
     "type": "electrical",
     "orientation": "vertical",
     "title": [ "Baghdad Capacitor" ],
     "rules1": [ "You may also add 1 material from the graveyard to the gadget you are building each time you craft." ],
-    "rules2": [ "When you start building this, you may tuck an electrical card under it from the graveyard if one exists." ]
+    "rules2": [ "When you complete this, take all electrical cards from the graveyard and your hand, and tuck them under this." ]
+  },
+  {
+    "name": "card.back.31.12",
+    "image": "electricalBack.png",
+    "type": "electrical",
+    "orientation": "vertical",
+    "title": [ "Craftsman" ],
+    "title2": [ "Electrical" ]
   },
   {
     "name": "card.13",
@@ -154,7 +210,15 @@
     "orientation": "vertical",
     "title": [ "Antimemetic Weapon" ],
     "rules1": [ "You may discard any number of cards before ranting." ],
-    "rules2": [ "When you finish this, you may swap it with the top card of the deck or a card in the graveyard." ]
+    "rules2": [ "When you finish this, you may swap it with a card in the graveyard." ]
+  },
+  {
+    "name": "card.back.43.13",
+    "image": "electricalBack.png",
+    "type": "electrical",
+    "orientation": "vertical",
+    "title": [ "Craftsman" ],
+    "title2": [ "Electrical" ]
   },
   {
     "name": "card.14",
@@ -163,7 +227,15 @@
     "orientation": "vertical",
     "title": [ "Seven Minute Boots" ],
     "rules1": [ "At the end of each of your turns, you may Rant." ],
-    "rules2": [ "Your Craftsman and tinkerer minions may perform their actions three times each when you lead or follow their role." ]
+    "rules2": [ "Your Craftsman and Tinkerer minions may perform their actions three times each when you lead or follow their role." ]
+  },
+  {
+    "name": "card.back.42.14",
+    "image": "metalBack.png",
+    "type": "metal",
+    "orientation": "vertical",
+    "title": [ "Hypnotist" ],
+    "title2": [ "Metal" ]
   },
   {
     "name": "card.15",
@@ -171,8 +243,16 @@
     "type": "metal",
     "orientation": "vertical",
     "title": [ "AutoCrammer" ],
-    "rules1": [ "Your hypnotist minions count as every role." ],
+    "rules1": [ "Your Hypnotist minions count as every role." ],
     "rules2": [ "After you Rant, you may draw four additional cards. If you do, discard this." ]
+  },
+  {
+    "name": "card.back.41.15",
+    "image": "metalBack.png",
+    "type": "metal",
+    "orientation": "vertical",
+    "title": [ "Hypnotist" ],
+    "title2": [ "Metal" ]
   },
   {
     "name": "card.16",
@@ -181,7 +261,15 @@
     "orientation": "vertical",
     "title": [ "Death Ray" ],
     "rules1": [ "You may discard a minion to the graveyard to perform its action three times when you would normally perform it once." ],
-    "rules2": [ "Once this is finished, you may end the game at the start of any of your turns. Score as usual." ]
+    "rules2": [ "You may end the game at the start of any of your turns. Score as usual." ]
+  },
+  {
+    "name": "card.back.53.16",
+    "image": "metalBack.png",
+    "type": "metal",
+    "orientation": "vertical",
+    "title": [ "Hypnotist" ],
+    "title2": [ "Metal" ]
   },
   {
     "name": "card.17",
@@ -193,13 +281,29 @@
     "rules2": [ "Your gadgets require one fewer materials to finish." ]
   },
   {
+    "name": "card.back.52.17",
+    "image": "metalBack.png",
+    "type": "metal",
+    "orientation": "vertical",
+    "title": [ "Hypnotist" ],
+    "title2": [ "Metal" ]
+  },
+  {
     "name": "card.18",
     "image": "ChronometricCoupler.png",
     "type": "metal",
     "orientation": "vertical",
     "title": [ "Chronometric Coupler" ],
-    "rules1": [ "After you finish this, tuck every card in your hand under gadgets you own face down (if possible)." ],
+    "rules1": [ "After you finish this, tuck every card in your hand under gadgets you own face down (if legal)." ],
     "rules2": [ "When you follow, you may return cards from the graveyard of the same role to perform the same action that many times." ]
+  },
+  {
+    "name": "card.back.51.18",
+    "image": "metalBack.png",
+    "type": "metal",
+    "orientation": "vertical",
+    "title": [ "Hypnotist" ],
+    "title2": [ "Metal" ]
   },
 
   {
@@ -212,6 +316,14 @@
     "rules2": [ "If you start your turn with one minion of each role, you win." ]
   },
   {
+    "name": "card.back.63.19",
+    "image": "fleshBack.png",
+    "type": "flesh",
+    "orientation": "vertical",
+    "title": [ "Torturer" ],
+    "title2": [ "Flesh" ]
+  },
+  {
     "name": "card.20",
     "image": "SpatialAnomalizer.png",
     "type": "flesh",
@@ -219,6 +331,14 @@
     "title": [ "Spatial Anomalizer" ],
     "rules1": [ "Your opponents may not rant during your turn." ],
     "rules2": [ "At the end of the game, select a material. You may count any of the cards in your hand as that material for scoring purposes." ]
+  },
+  {
+    "name": "card.back.62.20",
+    "image": "fleshBack.png",
+    "type": "flesh",
+    "orientation": "vertical",
+    "title": [ "Torturer" ],
+    "title2": [ "Flesh" ]
   },
   {
     "name": "card.21",
@@ -230,6 +350,14 @@
     "rules2": [ "When you finish this, exchange a tucked card for a gadget of the same total infamy." ]
   },
   {
+    "name": "card.back.61.21",
+    "image": "fleshBack.png",
+    "type": "flesh",
+    "orientation": "vertical",
+    "title": [ "Torturer" ],
+    "title2": [ "Flesh" ]
+  },
+  {
     "name": "card.22",
     "image": "RevivificationMatrix.png",
     "type": "metal",
@@ -239,13 +367,29 @@
     "rules2": [ "When you torture, if you add a card to an uncompleted gadget, complete it." ]
   },
   {
+    "name": "card.back.73.22",
+    "image": "metalBack.png",
+    "type": "metal",
+    "orientation": "vertical",
+    "title": [ "Hypnotist" ],
+    "title2": [ "Metal" ]
+  },
+  {
     "name": "card.23",
     "image": "CollapsingGun.png",
     "type": "electrical",
     "orientation": "vertical",
     "title": [ "Collapsing Gun" ],
     "rules1": [ "+1 infamy. You may Hypnotize your opponent's minions if they have more minions than you." ],
-    "rules2": [ "When you torture, also tuck the top card from the deck if possible." ]
+    "rules2": [ "When you torture, you may also tuck a card from your hand." ]
+  },
+  {
+    "name": "card.back.72.23",
+    "image": "electricalBack.png",
+    "type": "electrical",
+    "orientation": "vertical",
+    "title": [ "Craftsman" ],
+    "title2": [ "Electrical" ]
   },
   {
     "name": "card.24",
@@ -253,8 +397,16 @@
     "type": "flesh",
     "orientation": "vertical",
     "title": [ "Bone Teleportation Network" ],
-    "rules1": [ "After you finish this, tuck every card from the graveyard under gadgets you own face down (if possible)." ],
+    "rules1": [ "After you finish this, tuck every card from the graveyard under gadgets you own (if possible) face down." ],
     "rules2": [ "After you torture, you may steal a face-down tucked card from an opponent who has more tucked cards than you and tuck it." ]
+  },
+  {
+    "name": "card.back.71.24",
+    "image": "fleshBack.png",
+    "type": "flesh",
+    "orientation": "vertical",
+    "title": [ "Torturer" ],
+    "title2": [ "Flesh" ]
   },
   {
     "name": "card.25",
@@ -266,6 +418,14 @@
     "rules2": [ "You are immune to torture." ]
   },
   {
+    "name": "card.back.83.25",
+    "image": "steamBack.png",
+    "type": "steam",
+    "orientation": "vertical",
+    "title": [ "Tinkerer" ],
+    "title2": [ "Steam" ]
+  },
+  {
     "name": "card.26",
     "image": "PollutionAmplifier.png",
     "type": "flesh",
@@ -275,6 +435,14 @@
     "rules2": [ "Gain +3 infamy per minion if you have the fewest minions." ]
   },
   {
+    "name": "card.back.82.26",
+    "image": "fleshBack.png",
+    "type": "flesh",
+    "orientation": "vertical",
+    "title": [ "Torturer" ],
+    "title2": [ "Flesh" ]
+  },
+  {
     "name": "card.27",
     "image": "TissueDisruptor.png",
     "type": "flesh",
@@ -282,5 +450,13 @@
     "title": [ "Tissue Disruptor" ],
     "rules1": [ "+1 infamy. After you finish this, you may swap a gadget with an opponent that has more gadgets than you." ],
     "rules2": [ "Instead of discarding the role you select, you may tuck it face down under an incomplete gadget." ]
+  },
+  {
+    "name": "card.back.81.27",
+    "image": "fleshBack.png",
+    "type": "flesh",
+    "orientation": "vertical",
+    "title": [ "Torturer" ],
+    "title2": [ "Flesh" ]
   }
 ]

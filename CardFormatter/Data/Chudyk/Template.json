@@ -31,6 +31,7 @@
       "type": "text",
       "name": "title",
       "styles": {
+        "font": "belweb.ttf",
         "x": -275,
         "y": 525,
         "xSize": 775,
@@ -42,6 +43,7 @@
       "type": "text",
       "name": "title",
       "styles": {
+        "font": "belweb.ttf",
         "x": 325,
         "y": 525,
         "xSize": 775,
@@ -53,6 +55,7 @@
       "type": "text",
       "name": "title2",
       "styles": {
+        "font": "belweb.ttf",
         "x": 175,
         "y": 75,
         "xSize": 475,
@@ -64,6 +67,7 @@
       "type": "text",
       "name": "title2",
       "styles": {
+        "font": "belweb.ttf",
         "x": 175,
         "y": 975,
         "xSize": 475,
