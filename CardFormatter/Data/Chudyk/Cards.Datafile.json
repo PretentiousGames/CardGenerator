@@ -57,7 +57,7 @@
     "orientation": "vertical",
     "title": [ "Humanoid Cat" ],
     "rules1": [ "You may also hypnotize 1 card from your hand when hypnotizing." ],
-    "rules2": [ "You may hypnotize +2 max minions." ]
+    "rules2": [ "Your minions may hold +2 max tokens." ]
   },
   {
     "name": "card.back.13.04",
@@ -244,7 +244,7 @@
     "orientation": "vertical",
     "title": [ "AutoCrammer" ],
     "rules1": [ "Your Hypnotist minions count as every role." ],
-    "rules2": [ "After you Rant, you may draw four additional cards. If you do, discard this." ]
+    "rules2": [ "After you Rant, you may draw up to four additional cards. If you do, discard this." ]
   },
   {
     "name": "card.back.41.15",
@@ -260,7 +260,7 @@
     "type": "metal",
     "orientation": "vertical",
     "title": [ "Death Ray" ],
-    "rules1": [ "You may discard a minion to the graveyard to perform its action three times when you would normally perform it once." ],
+    "rules1": [ "You may discard a minion to the graveyard to perform its action two additional times when it is performing its action." ],
     "rules2": [ "You may end the game at the start of any of your turns. Score as usual." ]
   },
   {
@@ -277,7 +277,7 @@
     "type": "metal",
     "orientation": "vertical",
     "title": [ "Kinetic Accumulator" ],
-    "rules1": [ "When the game ends, gain 1 infamy per minion you have." ],
+    "rules1": [ "When the game ends, score your minions and the tokens on them twice." ],
     "rules2": [ "Your gadgets require one fewer materials to finish." ]
   },
   {
