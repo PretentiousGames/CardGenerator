@@ -5,8 +5,8 @@
     "type": "chemical",
     "orientation": "vertical",
     "title": [ "Intelligent Rodents" ],
-    "rules1": [ "When you rant, draw 2 extra cards, and then discard 2 cards." ],
-    "rules2": [ "Before you graverob, you may discard the top card of the deck to the graveyard." ]
+    "rules1": [ "When you rant, draw 2 extra cards, and then discard 2 cards from those you drew." ],
+    "rules2": [ "Before you graverob, you may add the top card of the deck to the graveyard." ]
   },
   {
     "name": "card.back.03.01",
@@ -40,7 +40,7 @@
     "orientation": "vertical",
     "title": [ "Glowy green things" ],
     "rules1": [ "Your metal gadgets (finished and unfinished) are worth +1 infamy each." ],
-    "rules2": [ "You may add a single chemical material to any gadget you are building." ]
+    "rules2": [ "You may add chemical material to any gadget you are building as long as it completes the gadget." ]
   },
   {
     "name": "card.back.01.03",
@@ -57,7 +57,7 @@
     "orientation": "vertical",
     "title": [ "Humanoid Cat" ],
     "rules1": [ "You may also hypnotize 1 card from your hand when hypnotizing." ],
-    "rules2": [ "Your minions may hold +2 max tokens." ]
+    "rules2": [ "When you finish this, you may immediately Hypnotize 1 time." ]
   },
   {
     "name": "card.back.13.04",
@@ -73,7 +73,7 @@
     "type": "chemical",
     "orientation": "vertical",
     "title": [ "Vampire-Pepper" ],
-    "rules1": [ "Your finished gadgets may horde +1 card each." ],
+    "rules1": [ "Your finished gadgets may horde +1 token each." ],
     "rules2": [ "You may also use 1 material from your hand when graverobbing." ]
   },
   {
@@ -108,7 +108,7 @@
     "orientation": "vertical",
     "title": [ "Temporal Clacker" ],
     "rules1": [ "Your unfinished metal gadgets still provide you with infamy." ],
-    "rules2": [ "When you finish this, you may immediately craft once per infamy." ]
+    "rules2": [ "When you finish this, you may immediately Craft any number of times." ]
   },
   {
     "name": "card.back.23.07",
@@ -125,7 +125,7 @@
     "orientation": "vertical",
     "title": [ "Nefarious Turbine" ],
     "rules1": [ "You may hypnotize 1 extra minion when you hypnotize. You may also hypnotize minions from the your hand when hypnotizing." ],
-    "rules2": [ "Your metal gadgets require one fewer materials to complete." ]
+    "rules2": [ "Whenever you add a material to an unfinished gadget, finish it." ]
   },
   {
     "name": "card.back.22.08",
@@ -141,7 +141,7 @@
     "type": "steam",
     "orientation": "vertical",
     "title": [ "Birdbath" ],
-    "rules1": [ "Before you craft, draw a card. you may add one additional card to a gadget during the craft." ],
+    "rules1": [ "Before you craft, draw a card. you may discard an extra card to add an extra token to a gadget during the craft." ],
     "rules2": [ "-1 infamy. At the start of your turn, you may draw two cards." ]
   },
   {
@@ -158,7 +158,7 @@
     "type": "electrical",
     "orientation": "vertical",
     "title": [ "Abstract Device" ],
-    "rules1": [ "You may tuck an extra card from the graveyard when you tinker." ],
+    "rules1": [ "When you tinker, you may discard a card from the graveyard to add tokens equal to the card's infamy to a finished gadget." ],
     "rules2": [ "At the end of your turn if the top card of the deck's infamy matches the number of cards in your hand, hypnotize it." ]
   },
   {
@@ -176,7 +176,7 @@
     "orientation": "vertical",
     "title": [ "Ionization Engine" ],
     "rules1": [ "You may rant after any turn during which you tinkered or hypnotized." ],
-    "rules2": [ "When you gain a minion, you may take a card matching that minion's type from the graveyard or draw a card." ]
+    "rules2": [ "When you gain a minion, you may take 2 cards matching that minion's type from the graveyard." ]
   },
   {
     "name": "card.back.32.11",
@@ -193,7 +193,7 @@
     "orientation": "vertical",
     "title": [ "Baghdad Capacitor" ],
     "rules1": [ "You may also add 1 material from the graveyard to the gadget you are building each time you craft." ],
-    "rules2": [ "When you complete this, take all electrical cards from the graveyard and your hand, and tuck them under this." ]
+    "rules2": [ "When you finish this, discard all electrical cards from the graveyard and your hand, and add 2 tokens to this for each card discarded." ]
   },
   {
     "name": "card.back.31.12",
@@ -210,7 +210,7 @@
     "orientation": "vertical",
     "title": [ "Antimemetic Weapon" ],
     "rules1": [ "You may discard any number of cards before ranting." ],
-    "rules2": [ "When you finish this, you may swap it with a card in the graveyard." ]
+    "rules2": [ "When you finish this, swap it with a card in your hand." ]
   },
   {
     "name": "card.back.43.13",
@@ -321,7 +321,7 @@
     "type": "flesh",
     "orientation": "vertical",
     "title": [ "Torturer" ],
-    "title2": [ "Flesh" ]
+    "title2": [ "flesh" ]
   },
   {
     "name": "card.20",
@@ -338,7 +338,7 @@
     "type": "flesh",
     "orientation": "vertical",
     "title": [ "Torturer" ],
-    "title2": [ "Flesh" ]
+    "title2": [ "flesh" ]
   },
   {
     "name": "card.21",
@@ -346,7 +346,7 @@
     "type": "flesh",
     "orientation": "vertical",
     "title": [ "Zombie Cannon" ],
-    "rules1": [ "When you torture, you may also tuck a card from the graveyard." ],
+    "rules1": [ "When you torture, you may also discard a card from the graveyard (to add an additional token to one of your gadgets)." ],
     "rules2": [ "When you finish this, exchange a tucked card for a gadget of the same total infamy." ]
   },
   {
@@ -355,36 +355,19 @@
     "type": "flesh",
     "orientation": "vertical",
     "title": [ "Torturer" ],
-    "title2": [ "Flesh" ]
+    "title2": [ "flesh" ]
   },
   {
     "name": "card.22",
-    "image": "RevivificationMatrix.png",
-    "type": "metal",
-    "orientation": "vertical",
-    "title": [ "Revivification Matrix" ],
-    "rules1": [ "When you graverob, you may steal a tucked card from an opponent instead of a card from the graveyard." ],
-    "rules2": [ "When you torture, if you add a card to an uncompleted gadget, complete it." ]
-  },
-  {
-    "name": "card.back.73.22",
-    "image": "metalBack.png",
-    "type": "metal",
-    "orientation": "vertical",
-    "title": [ "Hypnotist" ],
-    "title2": [ "Metal" ]
-  },
-  {
-    "name": "card.23",
     "image": "CollapsingGun.png",
     "type": "electrical",
     "orientation": "vertical",
     "title": [ "Collapsing Gun" ],
-    "rules1": [ "+1 infamy. You may Hypnotize your opponent's minions if they have more minions than you." ],
-    "rules2": [ "When you torture, you may also tuck a card from your hand." ]
+    "rules1": [ "+1 infamy. When you hypnotize, you may Hypnotize your opponent's minions if they have more minions than you." ],
+    "rules2": [ "When you torture, you may also discard a card from your hand (to add an additional token to one of your gadgets)." ]
   },
   {
-    "name": "card.back.72.23",
+    "name": "card.back.73.22",
     "image": "electricalBack.png",
     "type": "electrical",
     "orientation": "vertical",
@@ -392,24 +375,7 @@
     "title2": [ "Electrical" ]
   },
   {
-    "name": "card.24",
-    "image": "BoneTeleportationNetwork.png",
-    "type": "flesh",
-    "orientation": "vertical",
-    "title": [ "Bone Teleportation Network" ],
-    "rules1": [ "After you finish this, tuck every card from the graveyard under gadgets you own (if possible) face down." ],
-    "rules2": [ "After you torture, you may steal a face-down tucked card from an opponent who has more tucked cards than you and tuck it." ]
-  },
-  {
-    "name": "card.back.71.24",
-    "image": "fleshBack.png",
-    "type": "flesh",
-    "orientation": "vertical",
-    "title": [ "Torturer" ],
-    "title2": [ "Flesh" ]
-  },
-  {
-    "name": "card.25",
+    "name": "card.23",
     "image": "TrenchcoatGenerator.png",
     "type": "steam",
     "orientation": "vertical",
@@ -418,7 +384,7 @@
     "rules2": [ "You are immune to torture." ]
   },
   {
-    "name": "card.back.83.25",
+    "name": "card.back.72.23",
     "image": "steamBack.png",
     "type": "steam",
     "orientation": "vertical",
@@ -426,37 +392,123 @@
     "title2": [ "Steam" ]
   },
   {
-    "name": "card.26",
-    "image": "PollutionAmplifier.png",
+    "name": "card.24",
+    "image": "BoneTeleportationNetwork.png",
     "type": "flesh",
     "orientation": "vertical",
-    "title": [ "Pollution Amplifier" ],
-    "rules1": [ "When you take an action, select one of your opponent's minions to use. your opponent may not use that minion this turn." ],
-    "rules2": [ "Gain +3 infamy per minion if you have the fewest minions." ]
+    "title": [ "Bone Teleportation Network" ],
+    "rules1": [ "After you finish this, discard every card in the graveyard to add tokens equal to the cards infamy to finished gadgets you own." ],
+    "rules2": [ "After you torture, you may steal up to three tokens from an opponent who has more tokens than you and add them to finished gadgets you own." ]
   },
   {
-    "name": "card.back.82.26",
+    "name": "card.back.71.24",
     "image": "fleshBack.png",
     "type": "flesh",
     "orientation": "vertical",
     "title": [ "Torturer" ],
     "title2": [ "Flesh" ]
+  },  
+  
+  {
+    "name": "card.28",
+    "image": "Biggerizer.png",
+    "type": "trash",
+    "orientation": "vertical",
+    "title": [ "Biggerizer" ],
+    "rules1": [ "When you finish this, add a token to every card in play." ],
+    "rules2": [ "Your hand size increases by the number of tokens you have on your Destroyer minion." ]
   },
   {
-    "name": "card.27",
+    "name": "card.back.93.28",
+    "image": "trashBack.png",
+    "type": "trash",
+    "orientation": "vertical",
+    "title": [ "Trash Man" ],
+    "title2": [ "Trash" ]
+  },
+  {
+    "name": "card.29",
+    "image": "VolcanicProbe.png",
+    "type": "trash",
+    "orientation": "vertical",
+    "title": [ "Volcanic Probe" ],
+    "rules1": [ "When you Hypnotize, add a token to a minion." ],
+    "rules2": [ "After you Tinker, draw a card and add a token to a card in the graveyard." ]
+  },
+  {
+    "name": "card.back.92.29",
+    "image": "trashBack.png",
+    "type": "trash",
+    "orientation": "vertical",
+    "title": [ "Trash Man" ],
+    "title2": [ "Trash" ]
+  },
+  {
+    "name": "card.30",
+    "image": "RevivificationMatrix.png",
+    "type": "trash",
+    "orientation": "vertical",
+    "title": [ "Revivification Matrix" ],
+    "rules1": [ "When you finish this, draw a card per minion you have, and add a token to every card in the graveyard." ],
+    "rules2": [ "When you finish this, you may swap it with a card in the graveyard." ]
+  },
+  {
+    "name": "card.back.91.30",
+    "image": "trashBack.png",
+    "type": "trash",
+    "orientation": "vertical",
+    "title": [ "Trash Man" ],
+    "title2": [ "Trash" ]
+  },
+  {
+    "name": "card.31",
     "image": "TissueDisruptor.png",
-    "type": "flesh",
+    "type": "trash",
     "orientation": "vertical",
     "title": [ "Tissue Disruptor" ],
-    "rules1": [ "+1 infamy. After you finish this, you may swap a gadget with an opponent that has more gadgets than you." ],
-    "rules2": [ "Instead of discarding the role you select, you may tuck it face down under an incomplete gadget." ]
+    "rules1": [ "After you Craft using metal, draw a card and add a token to a card in the graveyard." ],
+    "rules2": [ "After you Tinker, you may rotate one of your completed gadgets." ]
   },
   {
-    "name": "card.back.81.27",
-    "image": "fleshBack.png",
-    "type": "flesh",
+    "name": "card.back.103.31",
+    "image": "trashBack.png",
+    "type": "trash",
     "orientation": "vertical",
-    "title": [ "Torturer" ],
-    "title2": [ "Flesh" ]
+    "title": [ "Trash Man" ],
+    "title2": [ "Trash" ]
+  },
+  {
+    "name": "card.32",
+    "image": "EthericCompass.png",
+    "type": "electrical",
+    "orientation": "vertical",
+    "title": [ "Etheric Compass" ],
+    "rules1": [ "Your Tinkerer minion may add tokens to your Destroyer minion instead of a completed gadget." ],
+    "rules2": [ "After you Destroy, add a token to a card in the graveyard and you may then discard a card to Rant." ]
+  },
+  {
+    "name": "card.back.102.32",
+    "image": "electricalBack.png",
+    "type": "electrical",
+    "orientation": "vertical",
+    "title": [ "Craftsman" ],
+    "title2": [ "Electrical" ]
+  },
+  {
+    "name": "card.33",
+    "image": "PollutionAmplifier.png",
+    "type": "steam",
+    "orientation": "vertical",
+    "title": [ "Pollution Amplifier" ],
+    "rules1": [ "When you Hypnotize, add a token to a gadget you own." ],
+    "rules2": [ "After you Destroy, you may discard a card to reallocate all tokens on your minions." ]
+  },
+  {
+    "name": "card.back.101.33",
+    "image": "steamBack.png",
+    "type": "steam",
+    "orientation": "vertical",
+    "title": [ "Tinkerer" ],
+    "title2": [ "Steam" ]
   }
 ]
