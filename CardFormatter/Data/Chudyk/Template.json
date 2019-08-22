@@ -182,6 +182,25 @@
       "requirements": [
         {
           "name": "type",
+          "values": [ "trash" ]
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "name": "background",
+          "x": 0,
+          "y": 0,
+          "constant": "trashBG",
+          "draw": false
+        }
+      ],
+      "subTypes": []
+    },
+    {
+      "requirements": [
+        {
+          "name": "type",
           "values": [ "flesh" ]
         }
       ],
@@ -202,6 +221,7 @@
     "Background": "cardFrontBackground.png",
     "verticalBackground": "verticalBackground.png",
     "metalBG": "metalBG.png",
+    "trashBG": "trashBG.png",
     "electricalBG": "electricalBG.png",
     "steamBG": "steamBG.png",
     "chemicalBG": "chemicalBG.png",

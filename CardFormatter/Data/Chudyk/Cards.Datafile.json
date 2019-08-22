@@ -360,7 +360,7 @@
   {
     "name": "card.22",
     "image": "CollapsingGun.png",
-    "type": "electrical",
+    "type": "flesh",
     "orientation": "vertical",
     "title": [ "Collapsing Gun" ],
     "rules1": [ "+1 infamy. When you hypnotize, you may Hypnotize your opponent's minions if they have more minions than you." ],
@@ -368,11 +368,11 @@
   },
   {
     "name": "card.back.73.22",
-    "image": "electricalBack.png",
-    "type": "electrical",
+    "image": "fleshBack.png",
+    "type": "flesh",
     "orientation": "vertical",
-    "title": [ "Craftsman" ],
-    "title2": [ "Electrical" ]
+    "title": [ "Torturer" ],
+    "title2": [ "Flesh" ]
   },
   {
     "name": "card.23",
@@ -416,14 +416,14 @@
     "orientation": "vertical",
     "title": [ "Biggerizer" ],
     "rules1": [ "When you finish this, add a token to every card in play." ],
-    "rules2": [ "Your hand size increases by the number of tokens you have on your Destroyer minion." ]
+    "rules2": [ "Your hand size increases by the number of tokens you have on your Recycler minion." ]
   },
   {
     "name": "card.back.93.28",
     "image": "trashBack.png",
     "type": "trash",
     "orientation": "vertical",
-    "title": [ "Trash Man" ],
+    "title": [ "Recycler" ],
     "title2": [ "Trash" ]
   },
   {
@@ -440,7 +440,7 @@
     "image": "trashBack.png",
     "type": "trash",
     "orientation": "vertical",
-    "title": [ "Trash Man" ],
+    "title": [ "Recycler" ],
     "title2": [ "Trash" ]
   },
   {
@@ -457,7 +457,7 @@
     "image": "trashBack.png",
     "type": "trash",
     "orientation": "vertical",
-    "title": [ "Trash Man" ],
+    "title": [ "Recycler" ],
     "title2": [ "Trash" ]
   },
   {
@@ -474,7 +474,7 @@
     "image": "trashBack.png",
     "type": "trash",
     "orientation": "vertical",
-    "title": [ "Trash Man" ],
+    "title": [ "Recycler" ],
     "title2": [ "Trash" ]
   },
   {
@@ -483,8 +483,8 @@
     "type": "electrical",
     "orientation": "vertical",
     "title": [ "Etheric Compass" ],
-    "rules1": [ "Your Tinkerer minion may add tokens to your Destroyer minion instead of a completed gadget." ],
-    "rules2": [ "After you Destroy, add a token to a card in the graveyard and you may then discard a card to Rant." ]
+    "rules1": [ "Your Tinkerer minion may add tokens to your Recycler minion instead of a completed gadget." ],
+    "rules2": [ "After you Recycle, add a token to a card in the graveyard and you may then discard a card to Rant." ]
   },
   {
     "name": "card.back.102.32",
@@ -497,18 +497,18 @@
   {
     "name": "card.33",
     "image": "PollutionAmplifier.png",
-    "type": "steam",
+    "type": "trash",
     "orientation": "vertical",
     "title": [ "Pollution Amplifier" ],
     "rules1": [ "When you Hypnotize, add a token to a gadget you own." ],
-    "rules2": [ "After you Destroy, you may discard a card to reallocate all tokens on your minions." ]
+    "rules2": [ "After you Recycle, you may discard a card to reallocate all tokens on your minions." ]
   },
   {
     "name": "card.back.101.33",
-    "image": "steamBack.png",
-    "type": "steam",
+    "image": "trashBack.png",
+    "type": "trash",
     "orientation": "vertical",
-    "title": [ "Tinkerer" ],
-    "title2": [ "Steam" ]
+    "title": [ "Recycler" ],
+    "title2": [ "Trash" ]
   }
 ]
