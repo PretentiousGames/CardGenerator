@@ -90,7 +90,7 @@
     "type": "steam",
     "orientation": "vertical",
     "title": [ "Gravity Engine" ],
-    "rules1": [ "All your minions count as Craftsmen. you may build this with any type of material." ],
+    "rules1": [ "All your minions count as Craftsmen when following. you may build this with any type of material." ],
     "rules2": [ "+3 infamy. you may build this with any type of material." ]
   },
   {
@@ -192,7 +192,7 @@
     "type": "electrical",
     "orientation": "vertical",
     "title": [ "Baghdad Capacitor" ],
-    "rules1": [ "You may also add 1 material from the graveyard to the gadget you are building each time you craft." ],
+    "rules1": [ "You may also add 1 material from the graveyard to a gadget you are building each time you craft." ],
     "rules2": [ "When you finish this, discard all electrical cards from the graveyard and your hand, and add 2 tokens to this for each card discarded." ]
   },
   {
