@@ -32,9 +32,9 @@
       "name": "title",
       "styles": {
         "font": "belweb.ttf",
-        "x": -275,
+        "x": -125,
         "y": 525,
-        "xSize": 775,
+        "xSize": 475,
         "ySize": 75,
         "rotate": -90
       }
@@ -44,9 +44,9 @@
       "name": "title",
       "styles": {
         "font": "belweb.ttf",
-        "x": 325,
+        "x": 475,
         "y": 525,
-        "xSize": 775,
+        "xSize": 475,
         "ySize": 75,
         "rotate": 90
       }
@@ -80,7 +80,7 @@
       "name": "rules1",
       "styles": {
         "x": 150,
-        "y": 800,
+        "y": 875,
         "xSize": 525,
         "ySize": 175,
         "maxFontSize": 50,
@@ -92,14 +92,85 @@
       "name": "rules2",
       "styles": {
         "x": 150,
-        "y": 150,
+        "y": 75,
         "xSize": 525,
         "ySize": 175,
-        "maxFontSize": 60,
+        "maxFontSize": 50,
+        "rotate": 180
+      }
+    },
+    {
+      "type": "text",
+      "name": "rulesValue1",
+      "styles": {
+        "x": 75,
+        "y": 875,
+        "xSize": 75,
+        "ySize": 75,
+        "maxFontSize": 50,
+        "rotate": 0
+      }
+    },
+    {
+      "type": "text",
+      "name": "rulesValue2",
+      "styles": {
+        "x": 675,
+        "y": 175,
+        "xSize": 75,
+        "ySize": 75,
+        "maxFontSize": 50,
+        "rotate": 180
+      }
+    },
+    {
+      "type": "text",
+      "name": "trigger1",
+      "styles": {
+        "x": 150,
+        "y": 800,
+        "xSize": 525,
+        "ySize": 75,
+        "maxFontSize": 50,
+        "rotate": 0
+      }
+    },
+    {
+      "type": "text",
+      "name": "trigger2",
+      "styles": {
+        "x": 150,
+        "y": 250,
+        "xSize": 525,
+        "ySize": 75,
+        "maxFontSize": 50,
+        "rotate": 180
+      }
+    },
+    {
+      "type": "text",
+      "name": "triggerValue1",
+      "styles": {
+        "x": 75,
+        "y": 800,
+        "xSize": 75,
+        "ySize": 75,
+        "maxFontSize": 50,
+        "rotate": 0
+      }
+    },
+    {
+      "type": "text",
+      "name": "triggerValue2",
+      "styles": {
+        "x": 675,
+        "y": 250,
+        "xSize": 75,
+        "ySize": 75,
+        "maxFontSize": 50,
         "rotate": 180
       }
     }
-
   ],
   "subTypes": [
     {
