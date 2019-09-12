@@ -26,6 +26,18 @@
       "x": 0,
       "y": 0
     },
+	{
+      "type": "image",
+      "name": "overlay1",
+      "x": 0,
+      "y": 0
+    },	
+	{
+      "type": "image",
+      "name": "overlay2",
+      "x": 0,
+      "y": 0
+    },	
 
     {
       "type": "text",
@@ -145,6 +157,45 @@
     }
   ],
   "subTypes": [
+    {
+      "requirements": [
+        {
+          "name": "boostable1",
+          "values": [ "true" ]
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "name": "overlay1",
+          "x": 0,
+          "y": 0,
+          "constant": "boostable1",
+          "draw": false
+        }
+      ],
+      "subTypes": []
+    },
+    {
+      "requirements": [
+        {
+          "name": "boostable2",
+          "values": [ "true" ]
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "name": "overlay2",
+          "x": 0,
+          "y": 0,
+          "constant": "boostable2",
+          "draw": false
+        }
+      ],
+      "subTypes": []
+    },
+	
     {
       "requirements": [
         {
@@ -269,6 +320,10 @@
     "steamBG": "steamBG.png",
     "chemicalBG": "chemicalBG.png",
     "fleshBG": "fleshBG.png",
+	
+    "boostable1": "boostable1.png",
+    "boostable2": "boostable2.png",
+	
     "n": {
       "text": "դ",
       "styles": { "font": "Aharoni-True.ttf" },
