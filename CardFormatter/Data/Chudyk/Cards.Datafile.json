@@ -425,7 +425,7 @@
     "orientation": "vertical",
     "title": "Trenchcoat Generator",
     "type": "chemical",
-    "trigger1": "When an opponent plays a wild role",
+    "trigger1": "When an opponent plays a wild",
     "triggerValue1": "1",
     "rules1": "Rant.",
     "rulesValue1": "2",
