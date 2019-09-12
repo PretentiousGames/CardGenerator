@@ -29,112 +29,118 @@
 
     {
       "type": "text",
-      "name": "tl",
+      "name": "title",
       "styles": {
-        "x": 85,
-        "y": 85,
-        "xSize": 130,
-        "ySize": 130,
-        "fillStyle": "#151540",
-        "rotate": -45
-      }
-    },
-    {
-      "type": "text",
-      "name": "tr",
-      "styles": {
-        "x": 910,
-        "y": 85,
-        "xSize": 130,
-        "ySize": 130,
-        "fillStyle": "#151540",
-        "rotate": 45
-      }
-    },
-    {
-      "type": "text",
-      "name": "bl",
-      "styles": {
-        "x": 85,
-        "y": 610,
-        "xSize": 130,
-        "ySize": 130,
-        "fillStyle": "#151540",
-        "rotate": 225
-      }
-    },
-    {
-      "type": "text",
-      "name": "br",
-      "styles": {
-        "x": 910,
-        "y": 610,
-        "xSize": 130,
-        "ySize": 130,
-        "fillStyle": "#151540",
-        "rotate": -225
-      }
-    },
-    {
-      "type": "text",
-      "name": "tc",
-      "styles": {
-        "x": 235,
-        "y": 70,
-        "xSize": 655,
-        "ySize": 130,
-        "fillStyle": "#9B9BDE"
-      }
-    },
-    {
-      "type": "text",
-      "name": "bc",
-      "styles": {
-        "x": 235,
-        "y": 610,
-        "xSize": 655,
-        "ySize": 130,
-        "fillStyle": "#9B9BDE",
-        "rotate": 180
-      }
-    },
-    {
-      "type": "text",
-      "name": "cl",
-      "styles": {
-        "xo": 85,
-        "yo": 235,
-        "x": -27.5,
-        "y": 347.5,
-        "xSize": 355,
-        "ySize": 130,
-        "fillStyle": "#9B9BDE",
+        "font": "belweb.ttf",
+        "x": -125,
+        "y": 525,
+        "xSize": 475,
+        "ySize": 75,
         "rotate": -90
       }
     },
     {
       "type": "text",
-      "name": "cr",
+      "name": "title",
       "styles": {
-        "xo": 910,
-        "yo": 235,
-        "x": 797.5,
-        "y": 347.5,
-        "xSize": 355,
-        "ySize": 130,
-        "fillStyle": "#9B9BDE",
+        "font": "belweb.ttf",
+        "x": 475,
+        "y": 525,
+        "xSize": 475,
+        "ySize": 75,
         "rotate": 90
       }
     },
     {
       "type": "text",
-      "name": "cc",
+      "name": "rules1",
       "styles": {
-        "x": 235,
-        "y": 235,
-        "xSize": 655,
-        "ySize": 355,
-        "fillStyle": "#000"
+        "x": 150,
+        "y": 875,
+        "xSize": 525,
+        "ySize": 175,
+        "maxFontSize": 50,
+        "rotate": 0
+      }
+    },
+    {
+      "type": "text",
+      "name": "rules2",
+      "styles": {
+        "x": 150,
+        "y": 75,
+        "xSize": 525,
+        "ySize": 175,
+        "maxFontSize": 50,
+        "rotate": 180
+      }
+    },
+    {
+      "type": "text",
+      "name": "rulesValue1",
+      "styles": {
+        "x": 75,
+        "y": 875,
+        "xSize": 75,
+        "ySize": 75,
+        "rotate": 0
+      }
+    },
+    {
+      "type": "text",
+      "name": "rulesValue2",
+      "styles": {
+        "x": 675,
+        "y": 175,
+        "xSize": 75,
+        "ySize": 75,
+        "rotate": 180
+      }
+    },
+    {
+      "type": "text",
+      "name": "trigger1",
+      "styles": {
+        "x": 150,
+        "y": 800,
+        "xSize": 525,
+        "ySize": 75,
+        "maxFontSize": 50,
+        "rotate": 0
+      }
+    },
+    {
+      "type": "text",
+      "name": "trigger2",
+      "styles": {
+        "x": 150,
+        "y": 250,
+        "xSize": 525,
+        "ySize": 75,
+        "maxFontSize": 50,
+        "rotate": 180
+      }
+    },
+    {
+      "type": "text",
+      "name": "triggerValue1",
+      "styles": {
+        "x": 75,
+        "y": 800,
+        "xSize": 75,
+        "ySize": 75,
+        "rotate": 0
+      }
+    },
+    {
+      "type": "text",
+      "name": "triggerValue2",
+      "styles": {
+        "x": 675,
+        "y": 250,
+        "xSize": 75,
+        "ySize": 75,
+        "rotate": 180
       }
     }
   ],
@@ -143,7 +149,7 @@
       "requirements": [
         {
           "name": "type",
-          "values": [ "basicCard" ]
+          "values": [ "chemical" ]
         }
       ],
       "elements": [
@@ -152,7 +158,7 @@
           "name": "background",
           "x": 0,
           "y": 0,
-          "constant": "basicCardBG",
+          "constant": "chemicalBG",
           "draw": false
         }
       ],
@@ -162,7 +168,7 @@
       "requirements": [
         {
           "name": "type",
-          "values": [ "card" ]
+          "values": [ "steam" ]
         }
       ],
       "elements": [
@@ -171,7 +177,83 @@
           "name": "background",
           "x": 0,
           "y": 0,
-          "constant": "cardBG",
+          "constant": "steamBG",
+          "draw": false
+        }
+      ],
+      "subTypes": []
+    },
+    {
+      "requirements": [
+        {
+          "name": "type",
+          "values": [ "electrical" ]
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "name": "background",
+          "x": 0,
+          "y": 0,
+          "constant": "electricalBG",
+          "draw": false
+        }
+      ],
+      "subTypes": []
+    },
+    {
+      "requirements": [
+        {
+          "name": "type",
+          "values": [ "metal" ]
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "name": "background",
+          "x": 0,
+          "y": 0,
+          "constant": "metalBG",
+          "draw": false
+        }
+      ],
+      "subTypes": []
+    },
+    {
+      "requirements": [
+        {
+          "name": "type",
+          "values": [ "trash" ]
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "name": "background",
+          "x": 0,
+          "y": 0,
+          "constant": "trashBG",
+          "draw": false
+        }
+      ],
+      "subTypes": []
+    },
+    {
+      "requirements": [
+        {
+          "name": "type",
+          "values": [ "flesh" ]
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "name": "background",
+          "x": 0,
+          "y": 0,
+          "constant": "fleshBG",
           "draw": false
         }
       ],
@@ -181,8 +263,17 @@
   "constants": {
     "Background": "cardFrontBackground.png",
     "verticalBackground": "verticalBackground.png",
-    "basicCardBG": "basicCardBG.png",
-    "cardBG": "cardBG.png",
+    "metalBG": "metalBG.png",
+    "trashBG": "trashBG.png",
+    "electricalBG": "electricalBG.png",
+    "steamBG": "steamBG.png",
+    "chemicalBG": "chemicalBG.png",
+    "fleshBG": "fleshBG.png",
+    "n": {
+      "text": "դ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "how many tokens are on this card"
+    },
 
     "down": {
       "text": "Ռ",

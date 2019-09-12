@@ -11,7 +11,8 @@
     "rulesValue1": "1",
     "trigger2": "Before you graverob",
     "triggerValue2": "1",
-    "rules2": "you may add the top card of the deck to the morgue.",
+    "rules2": "you may add the top {n} cards of the deck to the morgue.",
+    "boostable2": "true",
     "rulesValue2": "0"
   },
   {
@@ -26,8 +27,9 @@
     "rulesValue1": "1",
     "trigger2": "After you play a wild role",
     "triggerValue2": "1",
-    "rules2": "Draw a card.",
-    "rulesValue2": "1"
+    "rules2": "Draw {n} cards.",
+    "boostable2": "true",
+    "rulesValue2": "3"
   },
   {
     "image": "GlowyGreenThings.png",
@@ -37,8 +39,9 @@
     "type": "flesh",
     "trigger1": "Always",
     "triggerValue1": "A",
-    "rules1": "Your metal gadgets (finished and unfinished) are worth +1 infamy each.",
-    "rulesValue1": "1",
+    "rules1": "Your metal gadgets (finished and unfinished) are worth +{n} infamy each.",
+    "boostable1": "true",
+    "rulesValue1": "3",
     "trigger2": "When you build",
     "triggerValue2": "1",
     "rules2": "You may treat any gadget as flesh if it needs only 1 more material to finish.",
@@ -50,14 +53,15 @@
     "orientation": "vertical",
     "title": "Humanoid Cat",
     "type": "flesh",
-    "trigger1": "When you hypnotize",
+    "trigger1": "When you Hypnotize",
     "triggerValue1": "1",
-    "rules1": "You may hypnotize 1 card from your hand.",
+    "rules1": "You may Hypnotize 1 card from your hand.",
     "rulesValue1": "2",
     "trigger2": "When you finish this",
     "triggerValue2": "0",
-    "rules2": "you may hypnotize 1 card from the morgue.",
-    "rulesValue2": "2"
+    "rules2": "you may Hypnotize {n} cards from the morgue.",
+    "boostable2": "true",
+    "rulesValue2": "3"
   },
   {
     "image": "BoneTeleportationNetwork.png",
@@ -67,12 +71,14 @@
     "type": "flesh",
     "trigger1": "Always",
     "triggerValue1": "A",
-    "rules1": "Your finished gadgets may hold +1 token each.",
-    "rulesValue1": "1",
+    "rules1": "Your finished gadgets may hold +{n} token each.",
+    "boostable1": "true",
+    "rulesValue1": "2",
     "trigger2": "When you graverob",
     "triggerValue2": "1",
-    "rules2": "You may graverob 1 card from your hand.",
-    "rulesValue2": "1"
+    "rules2": "You may graverob {n} card from your hand.",
+    "boostable2": "true",
+    "rulesValue2": "2"
   },
   {
     "image": "ZombieCannon.png",
@@ -84,10 +90,11 @@
     "triggerValue1": "0",
     "rules1": "Discard a finished gadget, and gain a minion of the same type.",
     "rulesValue1": "1",
-    "trigger2": "When you are Alchemized",
+    "trigger2": "When you are Transmuted",
     "triggerValue2": "1",
-    "rules2": "draw a card.",
-    "rulesValue2": "1"
+    "rules2": "draw {n} cards.",
+    "boostable2": "true",
+    "rulesValue2": "3"
   },
   {
     "image": "HelperBot.png",
@@ -95,14 +102,16 @@
     "orientation": "vertical",
     "title": "Helper-bot",
     "type": "steam",
-    "trigger1": "When you are Alchemized",
+    "trigger1": "When you are Transmuted",
     "triggerValue1": "1",
-    "rules1": "draw a card and then add a token to 1 of your gadgets.",
+    "rules1": "draw a card and then add a token to {n} of your gadgets.",
+    "boostable1": "true",
     "rulesValue1": "2",
-    "trigger2": "When you Recycle",
+    "trigger2": "When you Repair",
     "triggerValue2": "1",
-    "rules2": "add 1 additional token to any card you add a token to.",
-    "rulesValue2": "1"
+    "rules2": "add {n} additional tokens to any card you add a token to.",
+    "boostable2": "true",
+    "rulesValue2": "3"
   },
   {
     "image": "GravityEngine.png",
@@ -140,10 +149,11 @@
     "orientation": "vertical",
     "title": "Nefarious Turbine",
     "type": "steam",
-    "trigger1": "when you hypnotize",
+    "trigger1": "when you Craft",
     "triggerValue1": "1",
-    "rules1": "hypnotize a minion from your hand.",
-    "rulesValue1": "2",
+    "rules1": "Add {n} tokens to any boostable gadget you complete.",
+    "boostable1": "true",
+    "rulesValue1": "3",
     "trigger2": "Always",
     "triggerValue2": "A",
     "rules2": "When you add a material to a gadget, finish it.",
@@ -155,7 +165,7 @@
     "orientation": "vertical",
     "title": "Birdbath",
     "type": "steam",
-    "trigger1": "Before you craft",
+    "trigger1": "Before you Craft",
     "triggerValue1": "1",
     "rules1": "draw a card. Discard a card to add a token to an unfinished gadget.",
     "rulesValue1": "2",
@@ -170,11 +180,11 @@
     "orientation": "vertical",
     "title": "Personificationizer",
     "type": "steam",
-    "trigger1": "When you Alchemize",
+    "trigger1": "When you Transmute",
     "triggerValue1": "1",
     "rules1": "Discard a finished gadget, and gain a minion of the same type.",
     "rulesValue1": "1",
-    "trigger2": "When you Recycle",
+    "trigger2": "When you Repair",
     "triggerValue2": "1",
     "rules2": "You may discard a minion to finish the top card of the deck.",
     "rulesValue2": "2"
@@ -202,8 +212,9 @@
     "type": "electrical",
     "trigger1": "When you tinker",
     "triggerValue1": "1",
-    "rules1": "Discard a card from the morgue. Add 2 tokens to a finished gadget.",
-    "rulesValue1": "2",
+    "rules1": "Discard a card from the morgue. Add {n} tokens to a finished gadget.",
+    "boostable1": "true",
+    "rulesValue1": "3",
     "trigger2": "At the end of your turn",
     "triggerValue2": "1",
     "rules2": "Hypnotize the top card of the deck if it's infamy matches your hand count.",
@@ -221,8 +232,9 @@
     "rulesValue1": "2",
     "trigger2": "When you gain a minion",
     "triggerValue2": "1",
-    "rules2": "you may take 2 cards from the morgue.",
-    "rulesValue2": "2"
+    "rules2": "you may take {n} cards from the morgue.",
+    "boostable2": "true",
+    "rulesValue2": "3"
   },
   {
     "image": "BaghdadCapacitor.png",
@@ -230,9 +242,9 @@
     "orientation": "vertical",
     "title": "Baghdad Capacitor",
     "type": "electrical",
-    "trigger1": "when you craft",
+    "trigger1": "when you Craft",
     "triggerValue1": "1",
-    "rules1": "You may add 1 material from the morgue to an unfinished gadget.",
+    "rules1": "Discard a card from the morgue. Add a token to an unfinished gadget",
     "rulesValue1": "2",
     "trigger2": "When you finish this",
     "triggerValue2": "0",
@@ -245,13 +257,13 @@
     "orientation": "vertical",
     "title": "Hypno-crown",
     "type": "electrical",
-    "trigger1": "After you are Alchemized",
+    "trigger1": "After you are Transmuted",
     "triggerValue1": "1",
-    "rules1": "hypnotize a minion from your hand.",
+    "rules1": "Hypnotize a minion from your hand.",
     "rulesValue1": "2",
     "trigger2": "When you rant",
     "triggerValue2": "2",
-    "rules2": "discard any number of tokens on this to hypnotize that many times.",
+    "rules2": "discard any number of tokens on this to Hypnotize that many times.",
     "rulesValue2": "3"
   },
   {
@@ -264,9 +276,10 @@
     "triggerValue1": "0",
     "rules1": "add 1 token to each of your gadgets (finished and unfinished).",
     "rulesValue1": "3",
-    "trigger2": "Before you Alchemize",
+    "trigger2": "Before you Transmute",
     "triggerValue2": "1",
-    "rules2": "you may convert any of your minions to Alchemist minions.",
+    "rules2": "you may convert up to {n} of your minions to Transmuter minions.",
+    "boostable2": "true",
     "rulesValue2": "2"
   },
   {
@@ -281,8 +294,9 @@
     "rulesValue1": "2",
     "trigger2": "When you Craft or Tinker",
     "triggerValue2": "2",
-    "rules2": "Your minions may perform their actions 3 times each.",
-    "rulesValue2": "3"
+    "rules2": "Your minions may perform their actions {n} times each.",
+    "boostable2": "true",
+    "rulesValue2": "4"
   },
   {
     "image": "AutoCrammer.png",
@@ -296,8 +310,9 @@
     "rulesValue1": "3",
     "trigger2": "When you Hypnotize",
     "triggerValue2": "1",
-    "rules2": "gain a minion.",
-    "rulesValue2": "2"
+    "rules2": "gain {n} minions.",
+    "boostable2": "true",
+    "rulesValue2": "3"
   },
   {
     "image": "DeathRay.png",
@@ -395,7 +410,7 @@
     "orientation": "vertical",
     "title": "Concotion of Happiness",
     "type": "chemical",
-    "trigger1": "When you Alchemize",
+    "trigger1": "When you Transmute",
     "triggerValue1": "1",
     "rules1": "discard a card from the morgue to gain access to an additional gadget.",
     "rulesValue1": "2",
@@ -414,7 +429,7 @@
     "triggerValue1": "A",
     "rules1": "You may Hypnotize other players' minions if they have more than you.",
     "rulesValue1": "3",
-    "trigger2": "When you Alchemize",
+    "trigger2": "When you Transmute",
     "triggerValue2": "1",
     "rules2": "You may discard a card from your hand to gain access to a gadget.",
     "rulesValue2": "2"
@@ -431,7 +446,7 @@
     "rulesValue1": "2",
     "trigger2": "Always",
     "triggerValue2": "A",
-    "rules2": "You are immune to Alchemy.",
+    "rules2": "You are immune to Transmutation.",
     "rulesValue2": "3"
   },
   {
@@ -444,7 +459,7 @@
     "triggerValue1": "0",
     "rules1": "Discard the cards in the morgue. Add their infamy to your gadgets as tokens.",
     "rulesValue1": "3",
-    "trigger2": "After you Alchemize",
+    "trigger2": "After you Transmute",
     "triggerValue2": "1",
     "rules2": "Move a token from an opponent's gadget to yours.",
     "rulesValue2": "3"
@@ -457,11 +472,12 @@
     "type": "trash",
     "trigger1": "When you finish this",
     "triggerValue1": "0",
-    "rules1": "add a token to every card in play.",
+    "rules1": "add a {n} tokens to every card in play.",
+    "boostable1": "true",
     "rulesValue1": "1",
     "trigger2": "When you rant",
     "triggerValue2": "2",
-    "rules2": "Draw cards equal to the number of Recycler minions you have.",
+    "rules2": "Draw cards equal to the number of Repairman minions you have.",
     "rulesValue2": "2"
   },
   {
@@ -506,7 +522,8 @@
     "rulesValue1": "2",
     "trigger2": "After you Tinker",
     "triggerValue2": "1",
-    "rules2": "you may rotate 1 of your finished gadgets.",
+    "rules2": "you may rotate {n} of your finished gadgets.",
+    "boostable2": "true",
     "rulesValue2": "1"
   },
   {
@@ -517,9 +534,9 @@
     "type": "trash",
     "trigger1": "When you tinker",
     "triggerValue1": "1",
-    "rules1": "discard a token from a finished gadget to gain a Recycler minion.",
+    "rules1": "discard a token from a finished gadget to gain a Repairman minion.",
     "rulesValue1": "1",
-    "trigger2": "After you Recycle",
+    "trigger2": "After you Repair",
     "triggerValue2": "1",
     "rules2": "discard a card from the morgue and your hand and then Rant.",
     "rulesValue2": "2"
@@ -532,9 +549,10 @@
     "type": "trash",
     "trigger1": "When you Hypnotize",
     "triggerValue1": "1",
-    "rules1": "add a token to a gadget you own.",
-    "rulesValue1": "1",
-    "trigger2": "After you Recycle",
+    "rules1": "add {n} tokens to a gadget you own.",
+    "boostable1": "true",
+    "rulesValue1": "3",
+    "trigger2": "After you Repair",
     "triggerValue2": "1",
     "rules2": "discard a card to reallocate all your minions.",
     "rulesValue2": "3"
@@ -736,7 +754,7 @@
     "image": "chemicalBack.png",
     "type": "chemical",
     "orientation": "vertical",
-    "title": "Alchemist",
+    "title": "Transmuter",
     "title2": "chemical"
   },
   {
@@ -744,7 +762,7 @@
     "image": "chemicalBack.png",
     "type": "chemical",
     "orientation": "vertical",
-    "title": "Alchemist",
+    "title": "Transmuter",
     "title2": "chemical"
   },
   {
@@ -752,7 +770,7 @@
     "image": "chemicalBack.png",
     "type": "chemical",
     "orientation": "vertical",
-    "title": "Alchemist",
+    "title": "Transmuter",
     "title2": "chemical"
   },
   {
@@ -760,7 +778,7 @@
     "image": "chemicalBack.png",
     "type": "chemical",
     "orientation": "vertical",
-    "title": "Alchemist",
+    "title": "Transmuter",
     "title2": "Chemical"
   },
   {
@@ -768,7 +786,7 @@
     "image": "chemicalBack.png",
     "type": "chemical",
     "orientation": "vertical",
-    "title": "Alchemist",
+    "title": "Transmuter",
     "title2": "Chemical"
   },
   {
@@ -776,7 +794,7 @@
     "image": "chemicalBack.png",
     "type": "chemical",
     "orientation": "vertical",
-    "title": "Alchemist",
+    "title": "Transmuter",
     "title2": "Chemical"
   },
   {
@@ -784,7 +802,7 @@
     "image": "trashBack.png",
     "type": "trash",
     "orientation": "vertical",
-    "title": "Recycler",
+    "title": "Repairman",
     "title2": "Trash"
   },
   {
@@ -792,7 +810,7 @@
     "image": "trashBack.png",
     "type": "trash",
     "orientation": "vertical",
-    "title": "Recycler",
+    "title": "Repairman",
     "title2": "Trash"
   },
   {
@@ -800,7 +818,7 @@
     "image": "trashBack.png",
     "type": "trash",
     "orientation": "vertical",
-    "title": "Recycler",
+    "title": "Repairman",
     "title2": "Trash"
   },
   {
@@ -808,7 +826,7 @@
     "image": "trashBack.png",
     "type": "trash",
     "orientation": "vertical",
-    "title": "Recycler",
+    "title": "Repairman",
     "title2": "Trash"
   },
   {
@@ -816,7 +834,7 @@
     "image": "trashBack.png",
     "type": "trash",
     "orientation": "vertical",
-    "title": "Recycler",
+    "title": "Repairman",
     "title2": "Trash"
   },
   {
@@ -824,7 +842,7 @@
     "image": "trashBack.png",
     "type": "trash",
     "orientation": "vertical",
-    "title": "Recycler",
+    "title": "Repairman",
     "title2": "Trash"
   }
 ]
