@@ -320,12 +320,17 @@
     "steamBG": "steamBG.png",
     "chemicalBG": "chemicalBG.png",
     "fleshBG": "fleshBG.png",
-	
+
     "boostable1": "boostable1.png",
     "boostable2": "boostable2.png",
-	
+
     "n": {
       "text": "դ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "how many tokens are on this card"
+    },
+    "x": {
+      "text": "Թ",
       "styles": { "font": "Aharoni-True.ttf" },
       "description": "how many tokens are on this card"
     },
