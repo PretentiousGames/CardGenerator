@@ -65,7 +65,7 @@
     },
     {
       "type": "text",
-      "name": "rules1",
+      "name": "rules2",
       "styles": {
         "x": 150,
         "y": 875,
@@ -77,7 +77,7 @@
     },
     {
       "type": "text",
-      "name": "rules2",
+      "name": "rules1",
       "styles": {
         "x": 150,
         "y": 75,
@@ -89,7 +89,7 @@
     },
     {
       "type": "text",
-      "name": "rulesValue1",
+      "name": "rulesValue2",
       "styles": {
         "x": 75,
         "y": 875,
@@ -100,7 +100,7 @@
     },
     {
       "type": "text",
-      "name": "rulesValue2",
+      "name": "rulesValue1",
       "styles": {
         "x": 675,
         "y": 175,
@@ -111,7 +111,7 @@
     },
     {
       "type": "text",
-      "name": "trigger1",
+      "name": "trigger2",
       "styles": {
         "x": 150,
         "y": 800,
@@ -123,7 +123,7 @@
     },
     {
       "type": "text",
-      "name": "trigger2",
+      "name": "trigger1",
       "styles": {
         "x": 150,
         "y": 250,
@@ -135,7 +135,7 @@
     },
     {
       "type": "text",
-      "name": "triggerValue1",
+      "name": "triggerValue2",
       "styles": {
         "x": 75,
         "y": 800,
@@ -146,7 +146,7 @@
     },
     {
       "type": "text",
-      "name": "triggerValue2",
+      "name": "triggerValue1",
       "styles": {
         "x": 675,
         "y": 250,
@@ -324,6 +324,22 @@
     "boostable1": "boostable1.png",
     "boostable2": "boostable2.png",
 
+    "3infamy": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "3Infamy.png"},
+    "chemical": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "Chemical.png"},
+    "craftsman": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "Craftsman.png"},
+    "electricity": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "Electricity.png"},
+    "flesh": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "Flesh.png"},
+    "graverobber": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "Graverobber.png"},
+    "hypnotist": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "Hypnotist.png"},
+    "metal": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "Metal.png"},
+    "recycler": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "Recycler.png"},
+    "steam": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "Steam.png"},
+    "tinkerer": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "Tinkerer.png"},
+    "torturer": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "Torturer.png"},
+    "trash": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "Trash.png"},
+    "1infamy": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "1Infamy.png"},
+    "2infamy": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "2Infamy.png"},
+
     "n": {
       "text": "դ",
       "styles": { "font": "Aharoni-True.ttf" },
@@ -333,86 +349,6 @@
       "text": "Թ",
       "styles": { "font": "Aharoni-True.ttf" },
       "description": "how many tokens are on this card"
-    },
-
-    "down": {
-      "text": "Ռ",
-      "styles": { "font": "Aharoni-True.ttf" },
-      "description": "you may play cards splayed down on this card"
-    },
-    "up": {
-      "text": "Ջ",
-      "styles": { "font": "Aharoni-True.ttf" },
-      "description": "you may play cards splayed up on this card"
-    },
-    "right": {
-      "text": "Պ",
-      "styles": { "font": "Aharoni-True.ttf" },
-      "description": "you may play cards splayed right on this card"
-    },
-    "left": {
-      "text": "Չ",
-      "styles": { "font": "Aharoni-True.ttf" },
-      "description": "you may play cards splayed left on this card"
-    },
-    "points": {
-      "text": "Ԗ",
-      "styles": { "font": "Aharoni-True.ttf" },
-      "description": "+1 Point"
-    },
-
-    "island": {
-      "text": "Ԛ",
-      "styles": { "font": "Aharoni-True.ttf" },
-      "description": "island symbol"
-    },
-    "resource": {
-      "text": "ԉ",
-      "styles": { "font": "Aharoni-True.ttf" },
-      "description": "resource symbol"
-    },
-    "god": {
-      "text": "ԟ",
-      "styles": { "font": "Aharoni-True.ttf" },
-      "description": "god symbol"
-    },
-    "leader": {
-      "text": "Ԉ",
-      "styles": { "font": "Aharoni-True.ttf" },
-      "description": "leader symbol"
-    },
-
-    "income": {
-      "text": "ԙ",
-      "styles": { "font": "Aharoni-True.ttf" },
-      "description": "Income"
-    },
-    "goods": {
-      "text": "Ԙ",
-      "styles": { "font": "Aharoni-True.ttf" },
-      "description": "Goods"
-    },
-    "worker": {
-      "text": "ӝ",
-      "styles": { "font": "Aharoni-True.ttf" },
-      "description": "Worker"
-    },
-    "worshipper": {
-      "text": "ӝ",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      },
-      "description": "Worker"
-    },
-    "support": {
-      "text": "ԫ",
-      "styles": { "font": "Aharoni-True.ttf" },
-      "description": "Support"
-    },
-    "homes": {
-      "text": "ԥ",
-      "styles": { "font": "Aharoni-True.ttf" },
-      "description": "Homes"
     }
   }
 }

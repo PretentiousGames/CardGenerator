@@ -1,17 +1,17 @@
 ﻿[
   {
-    "image": "IntelligentRodents.png",
-    "name": "card.01",
+    "image": "BaghdadCapacitor.png",
+    "name": "card.22",
     "orientation": "vertical",
-    "title": "Intelligent Rodents",
-    "type": "flesh",
-    "trigger1": "When you rant",
-    "triggerValue1": "2",
-    "rules1": "draw 2 cards then discard 2 cards.",
-    "rulesValue1": "1",
-    "trigger2": "Before you graverob",
-    "triggerValue2": "1",
-    "rules2": "you may add the top card of the deck to the graveyard.",
-    "rulesValue2": "0"
+    "title": "Baghdad Capacitor",
+    "type": "electrical",
+    "trigger1": "When this leaves play",
+    "triggerValue1": "0",
+    "rules1": "Add 1{metal} token to each of your {steam} gadgets (finished and unfinished).",
+    "rulesValue1": "3",
+    "trigger2": "Always",
+    "triggerValue2": "A",
+    "rules2": "OO{metal}OO{flesh}OO",
+    "rulesValue2": "1"
   }
 ]

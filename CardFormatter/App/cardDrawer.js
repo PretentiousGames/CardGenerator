@@ -283,7 +283,7 @@
         if (!val) {
         }
         else if (val.imageFile) {
-          return [{ text: "", imageFile: val.imageFile, "yPadding": val.yPadding }];
+          return [{ text: "", imageFile: val.imageFile, yPadding: val.yPadding, xImgOffset: val.xImgOffset, relativeSize: val.relativeSize }];
         } else if (val.text) {
           if (val.text.constant) {
             return _.map(getRuns(template.constants[val.text.constant]), copyBaseStyles);
@@ -332,7 +332,7 @@
 
     var reduceRuns = function (memo, item) {
       if (item.imageFile) {
-        memo.push({ text: '', imageFile: item.imageFile, styles: item.styles, yPadding: item.yPadding });
+        memo.push({ text: '', imageFile: item.imageFile, styles: item.styles, yPadding: item.yPadding, xImgOffset: item.xImgOffset, relativeSize: item.relativeSize });
         return memo;
       }
       if (!item.text.split) {
@@ -553,11 +553,11 @@
               wx += w.text === ' ' && justification === 'full' ? extraXOffset : 0;
               cardFormatter.drawer.drawImage({
                 name: w.imageFile,
-                rotate: w.styles.rotate,
-                x: wx - (w.xLeadIn | 0),
+                //rotate: w.styles.rotate,
+                x: wx + (w.xImgOffset || 0),
                 y: getYPositioning(w, wy) + (w.yPadding * fontSize * (w.relativeFontSize || 1)),
-                xSize: w.xSize,
-                ySize: w.ySize
+                xSize: w.xSize * (w.relativeSize || 1),
+                ySize: w.ySize * (w.relativeSize || 1)
               });
               wx += w.width;
               return;
