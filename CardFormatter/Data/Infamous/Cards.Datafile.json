@@ -1,21 +1,21 @@
 ﻿[
-  { "image": "IntelligentRodents.png", "name": "card.01", "orientation": "vertical", "title": "Intelligent Rodents", "type": "flesh",
+  { "image": "IntelligentRodents.png", "name": "card.01", "orientation": "vertical", "title": "Smart Rodents", "type": "flesh",
     "trigger1": "Before you graverob", "triggerValue1": "1", "rules1": "Add the top 2 cards of the deck to the morgue.", "rulesValue1": "0",
     "trigger2": "Before you rant", "triggerValue2": "2", "rules2": "Discard any number of cards.", "rulesValue2": "0"
   },
-  { "image": "BrainInAJar.png", "name": "card.02", "orientation": "vertical", "title": "Brain in a Jar", "type": "flesh",
-    "trigger1": "After you Rant", "triggerValue1": "2", "rules1": "Draw up to 4 additional cards. Return this to your hand.", "rulesValue1": "1",
+  { "image": "BrainInAJar.png", "name": "card.02", "orientation": "vertical", "title": "Vat o' Brain", "type": "flesh",
+    "trigger1": "Always", "triggerValue1": "A", "rules1": "Instead of discarding a matching card to follow, you may reveal one.", "rulesValue1": "2",
     "trigger2": "When an opponent plays a wild", "triggerValue2": "0", "rules2": "Rant.", "rulesValue2": "2"
   },
-  { "image": "GlowyGreenThings.png", "name": "card.03", "orientation": "vertical", "title": "Glowy green things", "type": "flesh",
+  { "image": "GlowyGreenThings.png", "name": "card.03", "orientation": "vertical", "title": "Phosphorescent Toads", "type": "flesh",
     "trigger1": "Always", "triggerValue1": "A", "rules1": "Your finished gadgets may hold +4 Upgrades each.", "rulesValue1": "2",
     "trigger2": "When you rant", "triggerValue2": "2", "rules2": "Draw 2 cards then discard 2 cards.", "rulesValue2": "1"
   },
-  { "image": "HumanoidCat.png", "name": "card.04", "orientation": "vertical", "title": "Humanoid Cat", "type": "flesh",
+  { "image": "HumanoidCat.png", "name": "card.04", "orientation": "vertical", "title": "Regent of Cats", "type": "flesh",
     "trigger1": "When you finish this", "triggerValue1": "0", "rules1": "Hypnotize 2 cards from the morgue.", "rulesValue1": "3",
     "trigger2": "After you are Transmuted", "triggerValue2": "0", "rules2": "Hypnotize a minion from your hand.", "rulesValue2": "2"
   },
-  { "image": "BoneTeleportationNetwork.png", "name": "card.05", "orientation": "vertical", "title": "Bone Tele-Network", "type": "flesh",
+  { "image": "BoneTeleportationNetwork.png", "name": "card.05", "orientation": "vertical", "title": "Skeleporter", "type": "flesh",
     "trigger1": "When you finish this", "triggerValue1": "0", "rules1": "Discard this to finish a card from your hand, then draw a card.", "rulesValue1": "2",
     "trigger2": "When you Repair", "triggerValue2": "1", "rules2": "Discard a minion to finish a card from the graveyard.", "rulesValue2": "1"
   },
@@ -23,23 +23,23 @@
     "trigger1": "When you finish this", "triggerValue1": "0", "rules1": "Discard all {flesh} cards from the morgue. Add 2 Upgrades to this for each.", "rulesValue1": "2",
     "trigger2": "Always", "triggerValue2": "A", "rules2": "+{3infamy}.", "rulesValue2": "2"
   },
-  { "image": "Biggerizer.png", "name": "card.07", "orientation": "vertical", "title": "Biggerizer", "type": "trash",
+  { "image": "Biggerizer.png", "name": "card.07", "orientation": "vertical", "title": "Supersizer", "type": "trash",
     "trigger1": "When you finish this", "triggerValue1": "0", "rules1": "Add 2 Upgrades to every finished gadget.", "rulesValue1": "1",
     "trigger2": "When you are Transmuted", "triggerValue2": "0", "rules2": "Draw a card and then add a token to 2 of your gadgets.", "rulesValue2": "2"
   },
-  { "image": "Killbot.png", "name": "card.08", "orientation": "vertical", "title": "Killbot", "type": "trash",
+  { "image": "Killbot.png", "name": "card.08", "orientation": "vertical", "title": "Slaybot Mk.III", "type": "trash",
     "trigger1": "When you finish this", "triggerValue1": "0", "rules1": "Discard a minion and draw four cards.", "rulesValue1": "1",
     "trigger2": "At the start of your turn", "triggerValue2": "0", "rules2": "Each player loses a minion of their choice.", "rulesValue2": "2"
   },
   { "image": "RevivificationMatrix.png", "name": "card.09", "orientation": "vertical", "title": "Revivification Matrix", "type": "trash",
     "trigger1": "When you finish this", "triggerValue1": "0", "rules1": "Swap this with a card in the morgue.", "rulesValue1": "1",
-    "trigger2": "When you Transmute", "triggerValue2": "1", "rules2": "Discard a finished gadget, and gain 3 minions of the same type.", "rulesValue2": "1"
+    "trigger2": "Always", "triggerValue2": "A", "rules2": "Instead of discarding a card to take an action, you may reveal one.", "rulesValue2": "3"
   },
   { "image": "TissueDisruptor.png", "name": "card.10", "orientation": "vertical", "title": "Tissue Disruptor", "type": "trash",
     "trigger1": "When you Tinker", "triggerValue1": "1", "rules1": "Discard an Upgrade from a finished gadget to gain a Repairman minion.", "rulesValue1": "1",
     "trigger2": "After you Tinker", "triggerValue2": "1", "rules2": "Rotate up to 2 of your finished gadgets.", "rulesValue2": "1"
   },
-  { "image": "EthericCompass.png", "name": "card.11", "orientation": "vertical", "title": "Etheric Compass", "type": "trash",
+  { "image": "TemporalClacker.png", "name": "card.11", "orientation": "vertical", "title": "Temporal Clacker", "type": "trash",
     "trigger1": "When you Transmute", "triggerValue1": "1", "rules1": "Discard a card from your hand to gain access to a gadget.", "rulesValue1": "1",
     "trigger2": "After turns where you Tinker", "triggerValue2": "0", "rules2": "Rant", "rulesValue2": "2"
   },
@@ -50,66 +50,66 @@
   
   { "image": "HelperBot.png", "name": "card.13", "orientation": "vertical", "title": "Helper-bot", "type": "steam",
     "trigger1": "After you play a wild role", "triggerValue1": "1", "rules1": "Draw a card.", "rulesValue1": "1",
-    "trigger2": "When you finish this", "triggerValue2": "0", "rules2": "Discard your hand. Add 2 Upgrades to every finished gadget you own.", "rulesValue2": "3"
+    "trigger2": "During each opponent's turn", "triggerValue2": "3", "rules2": "Every card counts as a wild role for you.", "rulesValue2": "3"
   },
   { "image": "GravityEngine.png", "name": "card.14", "orientation": "vertical", "title": "Gravity Engine", "type": "steam",
     "trigger1": "When you Craft", "triggerValue1": "1", "rules1": "Discard a card from the morgue. Add a Material to an unfinished gadget", "rulesValue1": "2",
     "trigger2": "When you are Transmuted", "triggerValue2": "0", "rules2": "Draw a card.", "rulesValue2": "1"
   },
-  { "image": "TemporalClacker.png", "name": "card.15", "orientation": "vertical", "title": "Temporal Clacker", "type": "steam",
+  { "image": "KineticAccumulator.png", "name": "card.15", "orientation": "vertical", "title": "Kinetic Accumulator", "type": "steam",
     "trigger1": "After you Repair", "triggerValue1": "1", "rules1": "Discard a card from your hand and then Rant.", "rulesValue1": "2",
     "trigger2": "When you Craft", "triggerValue2": "1", "rules2": "Add an Upgrade to any gadget you finish.", "rulesValue2": "1"
   },
   { "image": "NefariousTurbine.png", "name": "card.16", "orientation": "vertical", "title": "Nefarious Turbine", "type": "steam",
-    "trigger1": "When you finish this", "triggerValue1": "0", "rules1": "Exchange a tucked card for an opponent's gadget of the same total {1infamy}.", "rulesValue1": "3",
+    "trigger1": "When you finish this", "triggerValue1": "0", "rules1": "Trade this with a gadget your opponent owns.", "rulesValue1": "3",
     "trigger2": "Always", "triggerValue2": "A", "rules2": "You are immune to Transmutation.", "rulesValue2": "3"
   },
-  { "image": "Birdbath.png", "name": "card.17", "orientation": "vertical", "title": "Birdbath", "type": "steam",
-    "trigger1": "When you Repair", "triggerValue1": "1", "rules1": "Add 2 additional tokens to any card you add a token to.", "rulesValue1": "2",
-    "trigger2": "When you rant", "triggerValue2": "2", "rules2": "Discard n minions to finish the top card of the deck n times.", "rulesValue2": "2"
+  { "image": "theIronMidas.png", "name": "card.17", "orientation": "vertical", "title": "the Iron Midas", "type": "steam",
+    "trigger1": "When you rant", "triggerValue1": "2", "rules1": "Discard n minions to finish the top card of the deck n times.", "rulesValue1": "2",
+    "trigger2": "When you build", "triggerValue2": "3", "rules2": "You may treat any card as {metal}.", "rulesValue2": "2"
   },
   { "image": "Personificationizer.png", "name": "card.18", "orientation": "vertical", "title": "Personificationizer", "type": "steam",
-    "trigger1": "When you build", "triggerValue1": "3", "rules1": "You may treat any gadget as {flesh} if it needs only 1 more Material to finish.", "rulesValue1": "2",
+    "trigger1": "When you build", "triggerValue1": "3", "rules1": "Treat any gadget as {flesh} or {trash} if it needs only 1 more Material to finish.", "rulesValue1": "2",
     "trigger2": "Always", "triggerValue2": "A", "rules2": "Your unfinished {metal} gadgets provide you with {3infamy}.", "rulesValue2": "3"
-  },
-  { "image": "AntimemeticWeapon.png", "name": "card.19", "orientation": "vertical", "title": "Antimemetic Weapon", "type": "electrical",
+  },  
+  { "image": "TrenchcoatGenerator.png", "name": "card.19", "orientation": "vertical", "title": "Greatcoat Generator", "type": "chemical",
     "trigger1": "When you Transmute", "triggerValue1": "1", "rules1": "Discard a card from the morgue. Gain access to an additional gadget.", "rulesValue1": "2",
     "trigger2": "When you finish this", "triggerValue2": "0", "rules2": "Draw a card per minion you have, and discard every card in the morgue.", "rulesValue2": "3"
   },
-  { "image": "AbstractDevice.png", "name": "card.20", "orientation": "vertical", "title": "Abstract Device", "type": "electrical",
+  { "image": "SpatialAnomalizer.png", "name": "card.20", "orientation": "vertical", "title": "Location Randomizer", "type": "chemical",
     "trigger1": "When you graverob", "triggerValue1": "1", "rules1": "Graverob a card from your hand.", "rulesValue1": "1",
-    "trigger2": "When you rant", "triggerValue2": "2", "rules2": "Draw a card.", "rulesValue2": "1"
-  },
-  { "image": "IonizationEngine.png", "name": "card.21", "orientation": "vertical", "title": "Ionization Engine", "type": "electrical",
-    "trigger1": "Before you Transmute", "triggerValue1": "1", "rules1": "Convert any number of your minions to Transmuter minions.", "rulesValue1": "2",
     "trigger2": "Always", "triggerValue2": "A", "rules2": "When you start building a {3infamy} gadget, add a Material to it.", "rulesValue2": "3"
   },
-  { "image": "BaghdadCapacitor.png", "name": "card.22", "orientation": "vertical", "title": "Baghdad Capacitor", "type": "electrical",
-    "trigger1": "When this leaves play", "triggerValue1": "0", "rules1": "Add 1 token to each of your gadgets (finished and unfinished).", "rulesValue1": "4",
-    "trigger2": "Always", "triggerValue2": "A", "rules2": "Your {metal} gadgets (finished and unfinished) are worth +1{1infamy} each.", "rulesValue2": "1"
+  { "image": "ConcotionOfHappiness.png", "name": "card.21", "orientation": "vertical", "title": "Liquid of Happiness", "type": "chemical",
+    "trigger1": "When you finish this", "triggerValue1": "0", "rules1": "Add 5 Upgrades to finished gadgets you own.", "rulesValue1": "3",
+    "trigger2": "When you finish this", "triggerValue2": "0", "rules2": "Craft up to 5 times.", "rulesValue2": "3"
   },
-  { "image": "TrenchcoatGenerator.png", "name": "card.23", "orientation": "vertical", "title": "Trenchcoat Generator", "type": "electrical",
-    "trigger1": "When you gain a minion", "triggerValue1": "2", "rules1": "Draw 2 cards.", "rulesValue1": "2",
+  { "image": "IonizationEngine.png", "name": "card.22", "orientation": "vertical", "title": "Ionization Engine", "type": "chemical",
+    "trigger1": "When this leaves play", "triggerValue1": "0", "rules1": "Add 1 token to each of your gadgets (finished and unfinished).", "rulesValue1": "4",
+    "trigger2": "When you Repair", "triggerValue2": "1", "rules2": "Add 2 additional tokens to any card you add a token to.", "rulesValue2": "2"
+  },
+  { "image": "Hypno-crown.png", "name": "card.23", "orientation": "vertical", "title": "Hypno-crown", "type": "chemical",
+    "trigger1": "Before you Transmute", "triggerValue1": "1", "rules1": "Convert any number of your minions to Transmuter minions.", "rulesValue1": "2",
     "trigger2": "Always", "triggerValue2": "A", "rules2": "Your Hypnotist minions count as every role.", "rulesValue2": "3"
   },
-  { "image": "CarapaceFertilizer.png", "name": "card.24", "orientation": "vertical", "title": "Carapace Fertilizer", "type": "electrical",
-    "trigger1": "When you finish this", "triggerValue1": "0", "rules1": "Add 5 Upgrades to finished gadgets you own.", "rulesValue1": "3",
-    "trigger2": "When you finish this", "triggerValue2": "0", "rules2": "Craft any number of times.", "rulesValue2": "3"
+  { "image": "VampirePepper.png", "name": "card.24", "orientation": "vertical", "title": "Hematophagous-Pepper", "type": "chemical",
+    "trigger1": "When you gain a minion", "triggerValue1": "2", "rules1": "Draw 2 cards.", "rulesValue1": "2",
+    "trigger2": "When you rant", "triggerValue2": "2", "rules2": "Draw a card.", "rulesValue2": "1"
   },
 
-  { "image": "SevenMinuteBoots.png", "name": "card.25", "orientation": "vertical", "title": "Seven Minute Boots", "type": "metal",
+  { "image": "SevenMinuteBoots.png", "name": "card.25", "orientation": "vertical", "title": "Chrono-Boots", "type": "metal",
     "trigger1": "When you Tinker", "triggerValue1": "1", "rules1": "Discard a card from the morgue. Add 3 Upgrades to a finished gadget.", "rulesValue1": "3",
-    "trigger2": "During each opponent's turn", "triggerValue2": "3", "rules2": "Every card counts as a wild for you.", "rulesValue2": "3"
+    "trigger2": "When you finish this", "triggerValue2": "0", "rules2": "Discard your hand. Add 2 Upgrades to every finished gadget you own.", "rulesValue2": "3"
   },
   { "image": "AutoCrammer.png", "name": "card.26", "orientation": "vertical", "title": "AutoCrammer", "type": "metal",
-    "trigger1": "When you rant", "triggerValue1": "2", "rules1": "Discard any number of Upgrades on this to Hypnotize that many times.", "rulesValue1": "3",
+    "trigger1": "Always", "triggerValue1": "A", "rules1": "Each Upgrade on this is worth +1{infamy}.", "rulesValue1": "3",
     "trigger2": "When you Hypnotize", "triggerValue2": "1", "rules2": "Add 2 tokens to a gadget you own.", "rulesValue2": "2"
   },
   { "image": "DeathRay.png", "name": "card.27", "orientation": "vertical", "title": "Death Ray", "type": "metal",
     "trigger1": "When you activate a minion", "triggerValue1": "3", "rules1": "Discard a minion to perform its action 3 times.", "rulesValue1": "3",
     "trigger2": "After you Transmute", "triggerValue2": "1", "rules2": "Move a token from an opponent's gadget to yours.", "rulesValue2": "3"
   },
-  { "image": "KineticAccumulator.png", "name": "card.28", "orientation": "vertical", "title": "Kinetic Accumulator", "type": "metal",
+  { "image": "EthericCompass.png", "name": "card.28", "orientation": "vertical", "title": "Etheric Compass", "type": "metal",
     "trigger1": "Always", "triggerValue1": "A", "rules1": "If you have 1 minion of each role, you win.", "rulesValue1": "4",
     "trigger2": "Always", "triggerValue2": "A", "rules2": "When the game ends score your minions twice.", "rulesValue2": "3"
   },
@@ -117,31 +117,31 @@
     "trigger1": "When you Craft or Tinker", "triggerValue1": "2", "rules1": "Your minions may perform their actions 3 times each.", "rulesValue1": "4",
     "trigger2": "When following", "triggerValue2": "3", "rules2": "Discard n cards from the morgue of the active role to perform that action +n{x}.", "rulesValue2": "2"
   },
-  { "image": "theIronMidas.png", "name": "card.30", "orientation": "vertical", "title": "the Iron Midas", "type": "metal",
-    "trigger1": "When you build", "triggerValue1": "3", "rules1": "You may treat any card as {metal}.", "rulesValue1": "2",
+  { "image": "Birdbath.png", "name": "card.30", "orientation": "vertical", "title": "Birdbath", "type": "metal",
+    "trigger1": "Always", "triggerValue1": "A", "rules1": "Your {metal} gadgets (finished and unfinished) are worth +1{1infamy} each.", "rulesValue1": "1",
     "trigger2": "When you build", "triggerValue2": "3", "rules2": "Your gadgets require 1 fewer Materials to finish.", "rulesValue2": "4"
   },
-  { "image": "DrDoomDevice.png", "name": "card.31", "orientation": "vertical", "title": "Dr. Doom Device", "type": "chemical",
-    "trigger1": "Always", "triggerValue1": "A", "rules1": "If you have 4 gadgets of the same type of Material at any time, you win.", "rulesValue1": "4",
-    "trigger2": "At the start of your turn", "triggerValue2": "2", "rules2": "You may end the game immediately. Score as usual.", "rulesValue2": "3"
+  { "image": "AntimemeticWeapon.png", "name": "card.31", "orientation": "vertical", "title": "Antimemetic Weapon", "type": "electrical",
+    "trigger1": "Always", "triggerValue1": "A", "rules1": "You may Hypnotize other players' minions if they have more than you.", "rulesValue1": "3",
+    "trigger2": "During your turn", "triggerValue2": "2", "rules2": "Your opponents may not draw cards.", "rulesValue2": "4"
   },
-  { "image": "SpatialAnomalizer.png", "name": "card.32", "orientation": "vertical", "title": "Spatial Anomalizer", "type": "chemical",
+  { "image": "AbstractDevice.png", "name": "card.32", "orientation": "vertical", "title": "Abstract Device", "type": "electrical",
     "trigger1": "At the end of your turn", "triggerValue1": "3", "rules1": "Rant, then draw a card.", "rulesValue1": "3",
     "trigger2": "When you finish this", "triggerValue2": "0", "rules2": "Discard the cards in the morgue. Add their {1infamy} to your gadgets as tokens.", "rulesValue2": "4"
   },
-  { "image": "ConcotionOfHappiness.png", "name": "card.33", "orientation": "vertical", "title": "Concotion of Happiness", "type": "chemical",
-    "trigger1": "Always", "triggerValue1": "A", "rules1": "You may Hypnotize other players' minions if they have more than you.", "rulesValue1": "3",
+  { "image": "CollapsingGun.png", "name": "card.33", "orientation": "vertical", "title": "Collapsing Gun", "type": "electrical",
+    "trigger1": "When you transmute", "triggerValue1": "2", "rules1": "You may treat a card of your choice as any material this turn.", "rulesValue1": "4",
     "trigger2": "When you Hypnotize", "triggerValue2": "1", "rules2": "Gain a minion of your choice.", "rulesValue2": "2"
   },
-  { "image": "CollapsingGun.png", "name": "card.34", "orientation": "vertical", "title": "Collapsing Gun", "type": "chemical",
-    "trigger1": "When you transmute", "triggerValue1": "2", "rules1": "You may treat a card of your choice as {electricity} or {steam} this turn.", "rulesValue1": "3",
-    "trigger2": "During your turn", "triggerValue2": "2", "rules2": "Your opponents may not draw cards.", "rulesValue2": "4"
+  { "image": "DrDoomDevice.png", "name": "card.34", "orientation": "vertical", "title": "Dr. Doom Device", "type": "electrical",
+    "trigger1": "Always", "triggerValue1": "A", "rules1": "If you have 4 gadgets of the same type of Material at any time, you win.", "rulesValue1": "4",
+    "trigger2": "At the start of your turn", "triggerValue2": "2", "rules2": "You may end the game immediately. Score as usual.", "rulesValue2": "3"
   },
-  { "image": "Hypno-crown.png", "name": "card.35", "orientation": "vertical", "title": "Hypno-crown", "type": "chemical",
+  { "image": "BaghdadCapacitor.png", "name": "card.35", "orientation": "vertical", "title": "Baghdad Capacitor", "type": "electrical",
     "trigger1": "Always", "triggerValue1": "2", "rules1": "You may have any number of minions.", "rulesValue1": "3",
     "trigger2": "At the start of your turn", "triggerValue2": "2", "rules2": "Hypnotize all cards in the morgue with {1infamy} = to your hand count.", "rulesValue2": "4"
   },
-  { "image": "VampirePepper.png", "name": "card.36", "orientation": "vertical", "title": "Vampire-Pepper", "type": "chemical",
+  { "image": "CarapaceFertilizer.png", "name": "card.36", "orientation": "vertical", "title": "Carapace Fertilizer", "type": "electrical",
     "trigger1": "At the start of your turn", "triggerValue1": "2", "rules1": "Take 2 cards from the morgue.", "rulesValue1": "2",
     "trigger2": "At the start of your turn", "triggerValue2": "1", "rules2": "Discard a card to treat all cards as {flesh} this turn.", "rulesValue2": "3"
   },
@@ -255,40 +255,40 @@
     "type": "steam"
   },
   {
-    "image": "electricalBack.png",
+    "image": "chemicalBack.png",
     "name": "card.back.61.15",
     "orientation": "vertical",
-    "type": "electrical"
+    "type": "chemical"
   },
   {
-    "image": "electricalBack.png",
+    "image": "chemicalBack.png",
     "name": "card.back.62.14",
     "orientation": "vertical",
-    "type": "electrical"
+    "type": "chemical"
   },
   {
-    "image": "electricalBack.png",
+    "image": "chemicalBack.png",
     "name": "card.back.63.13",
     "orientation": "vertical",
-    "type": "electrical"
+    "type": "chemical"
   },
   {
-    "image": "electricalBack.png",
+    "image": "chemicalBack.png",
     "name": "card.back.71.18",
     "orientation": "vertical",
-    "type": "electrical"
+    "type": "chemical"
   },
   {
-    "image": "electricalBack.png",
+    "image": "chemicalBack.png",
     "name": "card.back.72.17",
     "orientation": "vertical",
-    "type": "electrical"
+    "type": "chemical"
   },
   {
-    "image": "electricalBack.png",
+    "image": "chemicalBack.png",
     "name": "card.back.73.16",
     "orientation": "vertical",
-    "type": "electrical"
+    "type": "chemical"
   },
   {
     "image": "metalBack.png",
@@ -327,39 +327,39 @@
     "type": "metal"
   },
   {
-    "image": "chemicalBack.png",
+    "image": "electricalBack.png",
     "name": "card.back.101.27",
     "orientation": "vertical",
-    "type": "chemical"
+    "type": "electrical"
   },
   {
-    "image": "chemicalBack.png",
+    "image": "electricalBack.png",
     "name": "card.back.102.26",
     "orientation": "vertical",
-    "type": "chemical"
+    "type": "electrical"
   },
   {
-    "image": "chemicalBack.png",
+    "image": "electricalBack.png",
     "name": "card.back.103.25",
     "orientation": "vertical",
-    "type": "chemical"
+    "type": "electrical"
   },
   {
-    "image": "chemicalBack.png",
+    "image": "electricalBack.png",
     "name": "card.back.111.30",
     "orientation": "vertical",
-    "type": "chemical"
+    "type": "electrical"
   },
   {
-    "image": "chemicalBack.png",
+    "image": "electricalBack.png",
     "name": "card.back.112.29",
     "orientation": "vertical",
-    "type": "chemical"
+    "type": "electrical"
   },
   {
-    "image": "chemicalBack.png",
+    "image": "electricalBack.png",
     "name": "card.back.113.28",
     "orientation": "vertical",
-    "type": "chemical"
+    "type": "electrical"
   }
 ]
