@@ -1,0 +1,397 @@
+﻿{
+  "fullWidth": 825,
+  "fullHeight": 1125,
+  "styles": {
+    "font": "arial.ttf",
+    "maxFontSize": 100,
+    "minFontSize": 10,
+    "lineHeight": 1,
+    "offset": -0.147,
+    "xOffset": 0.052,
+    "justification": "center",
+    "alignment": "middle",
+    "textBaseline": "hanging"
+  },
+  "requirements": [ ],
+  "elements": [
+    {
+      "type": "image",
+      "name": "background",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "image",
+      "name": "image",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "image",
+      "name": "frame",
+      "x": 0,
+      "y": 0
+    },
+
+    {
+      "type": "text",
+      "name": "title",
+      "styles": {
+        "font": "belweb.ttf",
+        "x": 150,
+        "y": 130,
+        "xSize": 525,
+        "ySize": 87
+      }
+    }
+  ],
+  "subTypes": [
+    {
+      "requirements": [
+        {
+          "name": "type",
+          "values": [ "automa" ]
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "name": "frame",
+          "constant": "automaFrame",
+          "draw": false
+        },
+        {
+          "type": "text",
+          "name": "rules",
+          "styles": {
+            "x": 150,
+            "y": 875,
+            "xSize": 525,
+            "ySize": 175,
+            "maxFontSize": 50
+          }
+        },
+        {
+          "type": "array",
+          "name": "costArray",
+          "styles": {
+            "x": 100,
+            "y": 225,
+            "--xSizeMax": 625,
+            "xSize": 125,
+            "ySize": 125,
+            "itemWidth": 125,
+            "direction": "right",
+            "--placementStyle": "distributed",
+            "maxFontSize": 1000,
+            "justification": "left"
+          }
+        },
+        {
+          "type": "text",
+          "name": "heads",
+          "styles": {
+            "array": "costArray"
+          }
+        },
+        {
+          "type": "text",
+          "name": "arms",
+          "styles": {
+            "array": "costArray"
+          }
+        },
+        {
+          "type": "text",
+          "name": "bodies",
+          "styles": {
+            "array": "costArray"
+          }
+        },
+        {
+          "type": "text",
+          "name": "legs",
+          "styles": {
+            "array": "costArray"
+          }
+        },
+        {
+          "type": "text",
+          "name": "workers",
+          "styles": {
+            "x": 102,
+            "y": 727,
+            "xSize": 121,
+            "ySize": 121
+          },
+          "suffix": { "constant": "automa" }
+        },
+        {
+          "type": "text",
+          "name": "strength",
+          "styles": {
+            "x": 602,
+            "y": 727,
+            "xSize": 121,
+            "ySize": 121
+          },
+          "suffix": { "constant": "strength" }
+        },
+        {
+          "type": "text",
+          "name": "ability",
+          "styles": {
+            "x": 144,
+            "y": 883,
+            "xSize": 537,
+            "ySize": 99
+          }
+        }
+      ],
+      "subTypes": []
+    }
+  ],
+  "constants": {
+    "verticalBackground": "Background.png",
+    "automaFrame": "AutomaFrame.png",
+    "stationFrame": "Station.png",
+    "sampleAutoma": "SampleAutoma.png",
+    "automaIconBubble": "AutomaIconBubble.png",
+    "2automaIconBubble": "2AutomaIconBubble.png",
+    "3automaIconBubble": "3AutomaIconBubble.png",
+
+    "black": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "Chemical.png"
+    },
+
+    "clearBlack": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "clearBlack.png"
+    },
+    "clearBlue": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "clearBlue.png"
+    },
+    "clearRed": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "clearRed.png"
+    },
+    "clearYellow": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "clearYellow.png"
+    },
+    "gray": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "gray.png"
+    },
+    "lightBlue": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "lightBlue.png"
+    },
+    "natural": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "natural.png"
+    },
+    "pink": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "pink.png"
+    },
+    "red": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "red.png"
+    },
+    "white": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "white.png"
+    },
+    "yellow": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "yellow.png"
+    },
+    "black": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "black.png"
+    },
+    "blue": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "blue.png"
+    },
+    "L2": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "L2.png"
+    },
+    "L3": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "L3.png"
+    },
+    "L4": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "L4.png"
+    },
+
+    "clearBlackCircle": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "clearBlack.Circle.png"
+    },
+    "clearBlueCircle": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "clearBlue.Circle.png"
+    },
+    "clearRedCircle": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "clearRed.Circle.png"
+    },
+    "clearYellowCircle": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "clearYellow.Circle.png"
+    },
+    "grayCircle": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "gray.Circle.png"
+    },
+    "lightBlueCircle": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "lightBlue.Circle.png"
+    },
+    "naturalCircle": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "natural.Circle.png"
+    },
+    "pinkCircle": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "pink.Circle.png"
+    },
+    "redCircle": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "red.Circle.png"
+    },
+    "whiteCircle": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "white.Circle.png"
+    },
+    "yellowCircle": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "yellow.Circle.png"
+    },
+    "blackCircle": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "black.Circle.png"
+    },
+    "blueCircle": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "blue.Circle.png"
+    },
+
+    "collect": {
+      "text": "փ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "Plus sign"
+    },
+    "swap": {
+      "text": "Ֆ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "swap"
+    },
+    "downgrade": {
+      "text": "Ռ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "down arrow"
+    },
+    "upgrade": {
+      "text": "Ջ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "up arrow"
+    },
+    "->": {
+      "text": "Է",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "yields"
+    },
+    "n": {
+      "text": "դ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "how many tokens are on this card"
+    },
+    "x": {
+      "text": "Թ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "how many tokens are on this card"
+    },
+    "strength": {
+      "text": "ɳ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "how strong an automa is"
+    },
+    "automa": {
+      "text": "ҿ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "an automa"
+    },
+    "worker": {
+      "text": "ҿ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "a worker"
+    }
+  }
+}

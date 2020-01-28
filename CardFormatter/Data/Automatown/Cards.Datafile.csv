@@ -1,0 +1,82 @@
+image,name,orientation,type,title,workers,strength,heads,arms,bodies,legs,total value,ability,number,location,ability 3,ability 2,ability 1
+Killbot.png,1,vertical,automa,Starting Blueprint,1,1,2,2,2,1,7,Swap,,,,,
+Killbot.png,2,vertical,automa,Starting Blueprint,1,1,2,2,2,1,7,Swap,,,,,
+Killbot.png,3,vertical,automa,Starting Blueprint,1,1,2,2,2,1,7,Swap,,,,,
+Killbot.png,4,vertical,automa,Starting Blueprint,1,1,2,2,2,1,7,Swap,,,,,
+Killbot.png,5,vertical,automa,Head Repurposer,1,2,3,2,2,1,8,Red -> 2 matching L2,,,,,
+Killbot.png,6,vertical,automa,Torso Repurposer,1,2,2,3,1,2,8,Blue -> 2 matching L2,,,,,
+Killbot.png,7,vertical,automa,Arm Repurposer,1,2,1,2,3,2,8,Yellow -> 2 matching L2,,,,,
+Killbot.png,8,vertical,automa,Foot Repurposer,1,2,1,2,2,3,8,Black -> 2 matching L2,,,,,
+Killbot.png,9,vertical,automa,Scrapworker,1,2,2,3,1,3,9,Collect 1 White AND Upgrade x1,,,,,
+Killbot.png,10,vertical,automa,Multi-Purpose Repurposer,1,3,1,3,2,3,9,"Choose one: Clear Black -> 2x Black, Clear Blue -> 2x Blue, Clear Red -> 2x Red, Clear Yellow -> 2x Yellow",,,,,
+Killbot.png,11,vertical,automa,Refiner,1,3,2,1,3,3,9,Upgrade x1 AND Swap,,,,,
+Killbot.png,12,vertical,automa,Upgrader,1,3,3,1,3,2,9,Upgrade x2,,,,,
+Killbot.png,13,vertical,automa,A Head In The Clouds,1,3,3,2,2,2,9,Collect 1 Pink,,,,,
+Killbot.png,14,vertical,automa,Moreso Torso,1,3,2,3,2,2,9,Collect 1 Lt Blue,,,,,
+Killbot.png,15,vertical,automa,Armed and Dangerous,1,3,2,2,3,2,9,Collect 1 Natural,,,,,
+Killbot.png,16,vertical,automa,Foot Solder,1,3,2,2,2,3,9,Collect 1 Gray,,,,,
+Killbot.png,17,vertical,automa,Head Smasher,1,4,3,3,2,2,10,Pink -> 3 White,,,,,
+Killbot.png,18,vertical,automa,Arm Smasher,1,4,2,3,2,3,10,Natural -> 3 White,,,,,
+Killbot.png,19,vertical,automa,Torso Smasher,1,4,2,2,3,3,10,Light Blue -> 3 White,,,,,
+Killbot.png,20,vertical,automa,Foot Smasher,1,4,3,2,3,2,10,Gray -> 3 White,,,,,
+Killbot.png,21,vertical,automa,Junk Collector,1,4,4,3,2,2,11,Collect 1 White,,,,,
+Killbot.png,22,vertical,automa,Toggler,1,4,2,2,3,4,11,"Downgrade x1, Upgrade x2",,,,,
+Killbot.png,23,vertical,automa,2 Heads > 1,1,5,4,4,2,2,12,Clear Red -> 2x Red,,,,,
+Killbot.png,24,vertical,automa,2 Arms > 1,1,5,4,2,2,4,12,Clear Yellow -> 2x Yellow,,,,,
+Killbot.png,25,vertical,automa,2 Torso > 1,1,5,2,4,4,2,12,Clear Blue -> 2x Blue,,,,,
+Killbot.png,26,vertical,automa,2 Feet > 1,1,5,2,2,4,4,12,Clear Black -> 2x Black,,,,,
+Killbot.png,27,vertical,automa,Twins,2,3,4,2,4,3,13,"Choose one: Red -> 2 Pink, Yellow -> 2 Natural, Blue -> 2 Light Blue, Black -> 2 Gray",,,,,
+Killbot.png,28,vertical,automa,Swarm,3,0,3,4,2,4,13,"Use only when placing 3 workers. Choose any 3:  Collect 1 White, Upgrade x1, Swap",,,,,
+Killbot.png,29,vertical,automa,Super Upgrader,1,6,4,4,4,4,16,Upgrade x2,,,,,
+Killbot.png,30,vertical,automa,Powerhouse,1,8,4,4,4,4,16,"Choose one:  L2 -> 3 White, L3 -> 4 White, L4 -> 5 White",,,,,
+Killbot.png,31,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,32,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,33,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,34,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,35,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,36,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,37,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,38,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,39,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,40,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,41,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,42,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,43,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,44,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,45,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,46,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,47,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,48,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,49,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,50,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,51,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,52,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,53,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,54,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,55,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,56,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,57,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,58,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,59,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Killbot.png,60,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
+Station.png,61,vertical,station,,,,,,,,,,1,Scrap Heap,Collect 7 White,Collect 5 White,Collect 3 White
+Station.png,62,vertical,station,,,,,,,,,,2,Low Quality Head Station,Collect 2 Red and 1 Pink,Collect 3 Pink,Collect 2 Pink
+Station.png,63,vertical,station,,,,,,,,,,3,Low Quality Arm Station,Collect 2 Yellow and 1 Natural,Collect 3 Natural,Collect 2 Natural
+Station.png,64,vertical,station,,,,,,,,,,4,Low Quality Torso Station,Collect 2 Blue and 1 Light Blue,Collect 3 Light Blue,Collect 2 Light Blue
+Station.png,65,vertical,station,,,,,,,,,,5,Low Quality Foot Station,Collect 2 Black and 1 Gray,Collect 3 Gray,Collect 2 Gray
+Station.png,66,vertical,station,,,,,,,,,,6,Medium Quality Head Station,Collect 1 Red and 1 Clear Red,Collect 1 Red and 1 Pink,Collect 1 Red
+Station.png,67,vertical,station,,,,,,,,,,7,Medium Quality Arm Station,Collect 1 Yellow and 1 Clear Yellow,Collect 1 Yellow and 1 Natural,Collect 1 Yellow
+Station.png,68,vertical,station,,,,,,,,,,8,Medium Quality Torso Station,Collect 1 Blue and 1 Clear Blue,Collect 1 Blue and 1 Light Blue,Collect 1 Blue
+Station.png,69,vertical,station,,,,,,,,,,9,Medium Quality Foot Station,Collect 1 Black and 1 Clear Black,Collect 1 Black and 1 Gray,Collect 1 Black
+Station.png,70,vertical,station,,,,,,,,,,10,Head Assembler,Collect 2 Red Upgrade x1,Collect 1 Clear Red Upgrade x1,Collect 1 Pink Upgrade x1
+Station.png,71,vertical,station,,,,,,,,,,11,Arms Assembler,"Collect 2 Yellow, Upgrade x1","Collect 1 Clear Yellow, Upgrade x1","Collect 1 Natural, Upgrade x1"
+Station.png,72,vertical,station,,,,,,,,,,12,Torso Assembler,"Collect 2 Blue, Upgrade x1","Collect 1 Clear Blue, Upgrade x1","Collect 1 Lt Blue, Upgrade x1"
+Station.png,73,vertical,station,,,,,,,,,,13,Feet Assembler,"Collect 2 Black, Upgrade x1","Collect 1 Clear Black, Upgrade x1","Collect 1 Gray, Upgrade x1"
+Station.png,74,vertical,station,,,,,,,,,,14,Foot Exchanger,Discard 1 Gray: Collect 3 matching [Red/Blue/Yellow],Discard 1 Gray: Collect 2 matching [Clear Red/Clear Blue/Clear Yellow],Discard 1 Gray: Collect 3 matching [Pink/Lt Blue/Natural]
+Station.png,75,vertical,station,,,,,,,,,,15,Head Exchanger,Discard 1 Pink: Collect 3 matching [Black/Blue/Yellow],Discard 1 Pink: Collect 2 matching [Clear Black/Clear Blue/Clear Yellow],Discard 1 Pink: Collect 3 matching [Gray/Lt Blue/Natural]
+Station.png,76,vertical,station,,,,,,,,,,16,Torso Exchanger,Discard 1 Lt Blue: Collect 3 matching [Red/Black/Yellow],Discard 1 Lt Blue: Collect 2 matching [Clear Red/Clear Black/Clear Yellow],Discard 1 Lt Blue: Collect 3 matching [Pink/Gray/Natural]
+Station.png,77,vertical,station,,,,,,,,,,17,Arms Exchanger,Discard 1 Natural: Collect 3 matching [Red/Blue/Black],Discard 1 Natural: Collect 2 matching [Clear Red/Clear Blue/Clear Black],Discard 1 Natural: Collect 3 matching [Pink/Lt Blue/Gray]
+Station.png,78,vertical,station,,,,,,,,,,18,Recycling Station,Discard 1 White: Collect 2 matching [Clear Red/Clear Blue/Clear Yellow/Clear Black],Discard 1 White: Collect 2 matching [Red/Blue/Yellow/Black],Discard 1 White: Collect 2 matching [Pink/Lt Blue/Natural/Gray]
+Station.png,79,vertical,station,,,,,,,,,,19,Upgrade Station,Upgrade x7,Upgrade x5,Upgrade x3
+Station.png,80,vertical,station,,,,,,,,,,20,Upgrade/Scrap Shop,"Collect 4 White, Upgrade x3","Collect 3 White, Upgrade x2","Collect 2 White, Upgrade x1"
+Station.png,81,vertical,station,,,,,,,,,,21,Component Juggler,"2 White, Upgrade x3, Swap x2","1 White, Upgrade x2, Swap x2","Upgrade x2, Swap x1"
