@@ -31,18 +31,6 @@
       "name": "frame",
       "x": 0,
       "y": 0
-    },
-
-    {
-      "type": "text",
-      "name": "title",
-      "styles": {
-        "font": "belweb.ttf",
-        "x": 150,
-        "y": 130,
-        "xSize": 525,
-        "ySize": 87
-      }
     }
   ],
   "subTypes": [
@@ -59,6 +47,17 @@
           "name": "frame",
           "constant": "automaFrame",
           "draw": false
+        },
+        {
+          "type": "text",
+          "name": "title",
+          "styles": {
+            "font": "belweb.ttf",
+            "x": 150,
+            "y": 130,
+            "xSize": 525,
+            "ySize": 87
+          }
         },
         {
           "type": "text",
@@ -149,23 +148,121 @@
         }
       ],
       "subTypes": []
+    },
+    {
+      "requirements": [
+        {
+          "name": "type",
+          "values": [ "station" ]
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "name": "frame",
+          "constant": "stationFrame",
+          "draw": false
+        },
+        {
+          "type": "text",
+          "name": "location",
+          "styles": {
+            "font": "belweb.ttf",
+            "x": 225,
+            "y": 130,
+            "xSize": 464,
+            "ySize": 87
+          }
+        },
+        {
+          "type": "text",
+          "name": "cost 3",
+          "styles": {
+            "x": 100,
+            "y": 569,
+            "xSize": 125,
+            "ySize": 125
+          }
+        },
+        {
+          "type": "text",
+          "name": "ability 3",
+          "styles": {
+            "x": 263,
+            "y": 583,
+            "xSize": 425,
+            "ySize": 99,
+            "maxFontSize": 50,
+            "justification": "left"
+          }
+        },
+        {
+          "type": "text",
+          "name": "cost 2",
+          "styles": {
+            "x": 100,
+            "y": 719,
+            "xSize": 125,
+            "ySize": 125
+          }
+        },
+        {
+          "type": "text",
+          "name": "ability 2",
+          "styles": {
+            "x": 263,
+            "y": 733,
+            "xSize": 425,
+            "ySize": 99,
+            "maxFontSize": 50,
+            "justification": "left"
+          }
+        },
+        {
+          "type": "text",
+          "name": "cost 1",
+          "styles": {
+            "x": 100,
+            "y": 869,
+            "xSize": 125,
+            "ySize": 125
+          }
+        },
+        {
+          "type": "text",
+          "name": "ability 1",
+          "styles": {
+            "x": 263,
+            "y": 883,
+            "xSize": 425,
+            "ySize": 99,
+            "maxFontSize": 50,
+            "justification": "left"
+          }
+        },
+        {
+          "type": "text",
+          "name": "number",
+          "styles": {
+            "x": 125,
+            "y": 125,
+            "xSize": 75,
+            "ySize": 75,
+            "maxFontSize": 50
+          }
+        }
+      ],
+      "subTypes": []
     }
   ],
   "constants": {
     "verticalBackground": "Background.png",
     "automaFrame": "AutomaFrame.png",
-    "stationFrame": "Station.png",
+    "stationFrame": "StationFrame.png",
     "sampleAutoma": "SampleAutoma.png",
     "automaIconBubble": "AutomaIconBubble.png",
     "2automaIconBubble": "2AutomaIconBubble.png",
     "3automaIconBubble": "3AutomaIconBubble.png",
-
-    "black": {
-      "yPadding": 0.1,
-      "xImgOffset": -2,
-      "relativeSize": 1.1,
-      "imageFile": "Chemical.png"
-    },
 
     "clearBlack": {
       "yPadding": 0.1,
@@ -342,6 +439,24 @@
       "relativeSize": 1.1,
       "imageFile": "blue.Circle.png"
     },
+    "3automa": {
+      "yPadding": 0.1,
+      "xImgOffset": -18,
+      "relativeSize": 1.36,
+      "imageFile": "3AutomaIconBubble.png"
+    },
+    "2automa": {
+      "yPadding": 0.1,
+      "xImgOffset": -18,
+      "relativeSize": 1.36,
+      "imageFile": "2AutomaIconBubble.png"
+    },
+    "1automa": {
+      "yPadding": 0.1,
+      "xImgOffset": -18,
+      "relativeSize": 1.36,
+      "imageFile": "AutomaIconBubble.png"
+    },
 
     "collect": {
       "text": "փ",
@@ -349,19 +464,22 @@
       "description": "Plus sign"
     },
     "swap": {
-      "text": "Ֆ",
-      "styles": { "font": "Aharoni-True.ttf" },
-      "description": "swap"
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "swap.png"
     },
     "downgrade": {
-      "text": "Ռ",
-      "styles": { "font": "Aharoni-True.ttf" },
-      "description": "down arrow"
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "downgrade.png"
     },
     "upgrade": {
-      "text": "Ջ",
-      "styles": { "font": "Aharoni-True.ttf" },
-      "description": "up arrow"
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "upgrade.png"
     },
     "->": {
       "text": "Է",

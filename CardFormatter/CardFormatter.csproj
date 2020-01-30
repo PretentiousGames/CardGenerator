@@ -364,6 +364,8 @@
     <Content Include="Data\AbominationsOfScience\VampirePepper.png" />
     <Content Include="Data\AbominationsOfScience\wild.png" />
     <Content Include="Data\AbominationsOfScience\ZombieCannon.png" />
+    <Content Include="Data\Automatown\2AutomaIconBubble.png" />
+    <Content Include="Data\Automatown\3AutomaIconBubble.png" />
     <Content Include="Data\Automatown\Aharoni-True.ttf" />
     <Content Include="Data\Automatown\arial.ttf" />
     <Content Include="Data\Automatown\AutomaFrame.png" />
@@ -386,8 +388,12 @@
     <Content Include="Data\Automatown\clearYellow.Circle.png" />
     <Content Include="Data\Automatown\clearYellow.png" />
     <Content Include="Data\Automatown\CostCircle.png" />
+    <Content Include="Data\Automatown\Downgrade.png" />
     <Content Include="Data\Automatown\gray.Circle.png" />
     <Content Include="Data\Automatown\gray.png" />
+    <Content Include="Data\Automatown\L2.png" />
+    <Content Include="Data\Automatown\L3.png" />
+    <Content Include="Data\Automatown\L4.png" />
     <Content Include="Data\Automatown\lightBlue.Circle.png" />
     <Content Include="Data\Automatown\lightBlue.png" />
     <Content Include="Data\Automatown\Montserrat-Light.otf" />
@@ -399,8 +405,11 @@
     <Content Include="Data\Automatown\red.png" />
     <Content Include="Data\Automatown\SampleAutoma.png" />
     <Content Include="Data\Automatown\Station.png" />
+    <Content Include="Data\Automatown\StationFrame.png" />
     <Content Include="Data\Automatown\Strength.png" />
+    <Content Include="Data\Automatown\swap.png" />
     <Content Include="Data\Automatown\Template.json" />
+    <Content Include="Data\Automatown\Upgrade.png" />
     <Content Include="Data\Automatown\white.Circle.png" />
     <Content Include="Data\Automatown\white.png" />
     <Content Include="Data\Automatown\yellow.Circle.png" />
@@ -845,6 +854,7 @@
     <Content Include="Data\AbominationsOfScience\KelmscottRoman.ttf" />
     <Content Include="Data\AbominationsOfScience\Montserrat-ExtraBold.ttf" />
     <Content Include="Data\AbominationsOfScience\Montserrat-Light.ttf" />
+    <Content Include="Data\Automatown\seguiemj.ttf" />
     <None Include="Data\Hellrides\Data.json" />
     <Content Include="Data\Hellrides\3.png" />
     <Content Include="Data\Hellrides\6.png" />

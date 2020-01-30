@@ -906,6 +906,9 @@
     "type": "station",
     "number": "1",
     "location": "Scrap Heap",
+    "cost 3": "{3automa}",
+    "cost 2": "{2automa}",
+    "cost 1": "{1automa}",
     "ability 3": "{collect}7{white}",
     "ability 2": "{collect}5{white}",
     "ability 1": "{collect}3{white}"
@@ -917,6 +920,9 @@
     "type": "station",
     "number": "2",
     "location": "Low Quality Head Station",
+    "cost 3": "{3automa}",
+    "cost 2": "{2automa}",
+    "cost 1": "{1automa}",
     "ability 3": "{collect}2{red} and 1{pink}",
     "ability 2": "{collect}3{pink}",
     "ability 1": "{collect}2{pink}"
@@ -928,6 +934,9 @@
     "type": "station",
     "number": "3",
     "location": "Low Quality Arm Station",
+    "cost 3": "{3automa}",
+    "cost 2": "{2automa}",
+    "cost 1": "{1automa}",
     "ability 3": "{collect}2{yellow} and 1{natural}",
     "ability 2": "{collect}3{natural}",
     "ability 1": "{collect}2{natural}"
@@ -939,6 +948,9 @@
     "type": "station",
     "number": "4",
     "location": "Low Quality Torso Station",
+    "cost 3": "{3automa}",
+    "cost 2": "{2automa}",
+    "cost 1": "{1automa}",
     "ability 3": "{collect}2{blue} and 1{lightBlue}",
     "ability 2": "{collect}3{lightBlue}",
     "ability 1": "{collect}2{lightBlue}"
@@ -950,6 +962,9 @@
     "type": "station",
     "number": "5",
     "location": "Low Quality Foot Station",
+    "cost 3": "{3automa}",
+    "cost 2": "{2automa}",
+    "cost 1": "{1automa}",
     "ability 3": "{collect}2{black} and 1{gray}",
     "ability 2": "{collect}3{gray}",
     "ability 1": "{collect}2{gray}"
@@ -961,6 +976,9 @@
     "type": "station",
     "number": "6",
     "location": "Medium Quality Head Station",
+    "cost 3": "{3automa}",
+    "cost 2": "{2automa}",
+    "cost 1": "{1automa}",
     "ability 3": "{collect}1{red} and 1{clearRed}",
     "ability 2": "{collect}1{red} and 1{pink}",
     "ability 1": "{collect}1{red}"
@@ -972,6 +990,9 @@
     "type": "station",
     "number": "7",
     "location": "Medium Quality Arm Station",
+    "cost 3": "{3automa}",
+    "cost 2": "{2automa}",
+    "cost 1": "{1automa}",
     "ability 3": "{collect}1{yellow} and 1{clearYellow}",
     "ability 2": "{collect}1{yellow} and 1{natural}",
     "ability 1": "{collect}1{yellow}"
@@ -983,6 +1004,9 @@
     "type": "station",
     "number": "8",
     "location": "Medium Quality Torso Station",
+    "cost 3": "{3automa}",
+    "cost 2": "{2automa}",
+    "cost 1": "{1automa}",
     "ability 3": "{collect}1{blue} and 1{clearBlue}",
     "ability 2": "{collect}1{blue} and 1{lightBlue}",
     "ability 1": "{collect}1{blue}"
@@ -994,6 +1018,9 @@
     "type": "station",
     "number": "9",
     "location": "Medium Quality Foot Station",
+    "cost 3": "{3automa}",
+    "cost 2": "{2automa}",
+    "cost 1": "{1automa}",
     "ability 3": "{collect}1{black} and 1{clearBlack}",
     "ability 2": "{collect}1{black} and 1{gray}",
     "ability 1": "{collect}1{black}"
@@ -1005,6 +1032,9 @@
     "type": "station",
     "number": "10",
     "location": "Head Assembler",
+    "cost 3": "{3automa}",
+    "cost 2": "{2automa}",
+    "cost 1": "{1automa}",
     "ability 3": "{collect}2{red}{upgrade}x1",
     "ability 2": "{collect}1{clearRed}{upgrade}x1",
     "ability 1": "{collect}1{pink}{upgrade}x1"
@@ -1016,6 +1046,9 @@
     "type": "station",
     "number": "11",
     "location": "Arms Assembler",
+    "cost 3": "{3automa}",
+    "cost 2": "{2automa}",
+    "cost 1": "{1automa}",
     "ability 3": "{collect}2{yellow}, {upgrade}x1",
     "ability 2": "{collect}1{clearYellow}, {upgrade}x1",
     "ability 1": "{collect}1{natural}, {upgrade}x1"
@@ -1027,6 +1060,9 @@
     "type": "station",
     "number": "12",
     "location": "Torso Assembler",
+    "cost 3": "{3automa}",
+    "cost 2": "{2automa}",
+    "cost 1": "{1automa}",
     "ability 3": "{collect}2{blue}, {upgrade}x1",
     "ability 2": "{collect}1{clearBlue}, {upgrade}x1",
     "ability 1": "{collect}1{ltBlue}, {upgrade}x1"
@@ -1038,6 +1074,9 @@
     "type": "station",
     "number": "13",
     "location": "Feet Assembler",
+    "cost 3": "{3automa}",
+    "cost 2": "{2automa}",
+    "cost 1": "{1automa}",
     "ability 3": "{collect}2{black}, {upgrade}x1",
     "ability 2": "{collect}1{clearBlack}, {upgrade}x1",
     "ability 1": "{collect}1{gray}, {upgrade}x1"
@@ -1049,6 +1088,9 @@
     "type": "station",
     "number": "14",
     "location": "Foot Exchanger",
+    "cost 3": "{3automa}",
+    "cost 2": "{2automa}",
+    "cost 1": "{1automa}",
     "ability 3": "Discard 1{gray}: {collect}3 matching [{red}/{blue}/{yellow}]",
     "ability 2": "Discard 1{gray}: {collect}2 matching [{clearRed}/{clearBlue}/{clearYellow}]",
     "ability 1": "Discard 1{gray}: {collect}3 matching [{pink}/{ltBlue}/{natural}]"
@@ -1060,6 +1102,9 @@
     "type": "station",
     "number": "15",
     "location": "Head Exchanger",
+    "cost 3": "{3automa}",
+    "cost 2": "{2automa}",
+    "cost 1": "{1automa}",
     "ability 3": "Discard 1{pink}: {collect}3 matching [{black}/{blue}/{yellow}]",
     "ability 2": "Discard 1{pink}: {collect}2 matching [{clearBlack}/{clearBlue}/{clearYellow}]",
     "ability 1": "Discard 1{pink}: {collect}3 matching [{gray}/{ltBlue}/{natural}]"
@@ -1071,6 +1116,9 @@
     "type": "station",
     "number": "16",
     "location": "Torso Exchanger",
+    "cost 3": "{3automa}",
+    "cost 2": "{2automa}",
+    "cost 1": "{1automa}",
     "ability 3": "Discard 1{ltBlue}: {collect}3 matching [{red}/{black}/{yellow}]",
     "ability 2": "Discard 1{ltBlue}: {collect}2 matching [{clearRed}/{clearBlack}/{clearYellow}]",
     "ability 1": "Discard 1{ltBlue}: {collect}3 matching [{pink}/{gray}/{natural}]"
@@ -1082,6 +1130,9 @@
     "type": "station",
     "number": "17",
     "location": "Arms Exchanger",
+    "cost 3": "{3automa}",
+    "cost 2": "{2automa}",
+    "cost 1": "{1automa}",
     "ability 3": "Discard 1{natural}: {collect}3 matching [{red}/{blue}/{black}]",
     "ability 2": "Discard 1{natural}: {collect}2 matching [{clearRed}/{clearBlue}/{clearBlack}]",
     "ability 1": "Discard 1{natural}: {collect}3 matching [{pink}/{ltBlue}/{gray}]"
@@ -1093,6 +1144,9 @@
     "type": "station",
     "number": "18",
     "location": "Recycling Station",
+    "cost 3": "{3automa}",
+    "cost 2": "{2automa}",
+    "cost 1": "{1automa}",
     "ability 3": "Discard 1{white}: {collect}2 matching [{clearRed}/{clearBlue}/{clearYellow}/{clearBlack}]",
     "ability 2": "Discard 1{white}: {collect}2 matching [{red}/{blue}/{yellow}/{black}]",
     "ability 1": "Discard 1{white}: {collect}2 matching [{pink}/{ltBlue}/{natural}/{gray}]"
@@ -1103,7 +1157,10 @@
     "orientation": "vertical",
     "type": "station",
     "number": "19",
-    "location": "{upgrade} Station",
+    "location": "Upgrade Station",
+    "cost 3": "{3automa}",
+    "cost 2": "{2automa}",
+    "cost 1": "{1automa}",
     "ability 3": "{upgrade}x7",
     "ability 2": "{upgrade}x5",
     "ability 1": "{upgrade}x3"
@@ -1114,7 +1171,10 @@
     "orientation": "vertical",
     "type": "station",
     "number": "20",
-    "location": "{upgrade}/Scrap Shop",
+    "location": "Upgrade/Scrap Shop",
+    "cost 3": "{3automa}",
+    "cost 2": "{2automa}",
+    "cost 1": "{1automa}",
     "ability 3": "{collect}4{white}, {upgrade}x3",
     "ability 2": "{collect}3{white}, {upgrade}x2",
     "ability 1": "{collect}2{white}, {upgrade}x1"
@@ -1126,6 +1186,9 @@
     "type": "station",
     "number": "21",
     "location": "Component Juggler",
+    "cost 3": "{3automa}",
+    "cost 2": "{2automa}",
+    "cost 1": "{1automa}",
     "ability 3": "2{white}, {upgrade}x3, {swap}x2",
     "ability 2": "1{white}, {upgrade}x2, {swap}x2",
     "ability 1": "{upgrade}x2, {swap}x1"
