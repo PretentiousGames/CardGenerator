@@ -1,7 +1,7 @@
 ﻿[
   {
     "image": "SampleAutoma.png",
-    "name": "1",
+    "name": "01",
     "orientation": "vertical",
     "type": "automa",
     "title": "Starting Blueprint",
@@ -16,7 +16,7 @@
   },
   {
     "image": "SampleAutoma.png",
-    "name": "2",
+    "name": "02",
     "orientation": "vertical",
     "type": "automa",
     "title": "Starting Blueprint",
@@ -31,7 +31,7 @@
   },
   {
     "image": "SampleAutoma.png",
-    "name": "3",
+    "name": "03",
     "orientation": "vertical",
     "type": "automa",
     "title": "Starting Blueprint",
@@ -46,7 +46,7 @@
   },
   {
     "image": "SampleAutoma.png",
-    "name": "4",
+    "name": "04",
     "orientation": "vertical",
     "type": "automa",
     "title": "Starting Blueprint",
@@ -61,7 +61,7 @@
   },
   {
     "image": "SampleAutoma.png",
-    "name": "5",
+    "name": "05",
     "orientation": "vertical",
     "type": "automa",
     "title": "Head Repurposer",
@@ -76,7 +76,7 @@
   },
   {
     "image": "SampleAutoma.png",
-    "name": "6",
+    "name": "06",
     "orientation": "vertical",
     "type": "automa",
     "title": "Torso Repurposer",
@@ -91,7 +91,7 @@
   },
   {
     "image": "SampleAutoma.png",
-    "name": "7",
+    "name": "07",
     "orientation": "vertical",
     "type": "automa",
     "title": "Arm Repurposer",
@@ -106,7 +106,7 @@
   },
   {
     "image": "SampleAutoma.png",
-    "name": "8",
+    "name": "08",
     "orientation": "vertical",
     "type": "automa",
     "title": "Foot Repurposer",
@@ -121,7 +121,7 @@
   },
   {
     "image": "SampleAutoma.png",
-    "name": "9",
+    "name": "09",
     "orientation": "vertical",
     "type": "automa",
     "title": "Scrapworker",

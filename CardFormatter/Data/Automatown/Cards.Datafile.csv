@@ -1,82 +1,82 @@
-image,name,orientation,type,title,workers,strength,heads,arms,bodies,legs,total value,ability,number,location,ability 3,ability 2,ability 1
-Killbot.png,1,vertical,automa,Starting Blueprint,1,1,2,2,2,1,7,Swap,,,,,
-Killbot.png,2,vertical,automa,Starting Blueprint,1,1,2,2,2,1,7,Swap,,,,,
-Killbot.png,3,vertical,automa,Starting Blueprint,1,1,2,2,2,1,7,Swap,,,,,
-Killbot.png,4,vertical,automa,Starting Blueprint,1,1,2,2,2,1,7,Swap,,,,,
-Killbot.png,5,vertical,automa,Head Repurposer,1,2,3,2,2,1,8,Red -> 2 matching L2,,,,,
-Killbot.png,6,vertical,automa,Torso Repurposer,1,2,2,3,1,2,8,Blue -> 2 matching L2,,,,,
-Killbot.png,7,vertical,automa,Arm Repurposer,1,2,1,2,3,2,8,Yellow -> 2 matching L2,,,,,
-Killbot.png,8,vertical,automa,Foot Repurposer,1,2,1,2,2,3,8,Black -> 2 matching L2,,,,,
-Killbot.png,9,vertical,automa,Scrapworker,1,2,2,3,1,3,9,Collect 1 White AND Upgrade x1,,,,,
-Killbot.png,10,vertical,automa,Multi-Purpose Repurposer,1,3,1,3,2,3,9,"Choose one: Clear Black -> 2x Black, Clear Blue -> 2x Blue, Clear Red -> 2x Red, Clear Yellow -> 2x Yellow",,,,,
-Killbot.png,11,vertical,automa,Refiner,1,3,2,1,3,3,9,Upgrade x1 AND Swap,,,,,
-Killbot.png,12,vertical,automa,Upgrader,1,3,3,1,3,2,9,Upgrade x2,,,,,
-Killbot.png,13,vertical,automa,A Head In The Clouds,1,3,3,2,2,2,9,Collect 1 Pink,,,,,
-Killbot.png,14,vertical,automa,Moreso Torso,1,3,2,3,2,2,9,Collect 1 Lt Blue,,,,,
-Killbot.png,15,vertical,automa,Armed and Dangerous,1,3,2,2,3,2,9,Collect 1 Natural,,,,,
-Killbot.png,16,vertical,automa,Foot Solder,1,3,2,2,2,3,9,Collect 1 Gray,,,,,
-Killbot.png,17,vertical,automa,Head Smasher,1,4,3,3,2,2,10,Pink -> 3 White,,,,,
-Killbot.png,18,vertical,automa,Arm Smasher,1,4,2,3,2,3,10,Natural -> 3 White,,,,,
-Killbot.png,19,vertical,automa,Torso Smasher,1,4,2,2,3,3,10,Light Blue -> 3 White,,,,,
-Killbot.png,20,vertical,automa,Foot Smasher,1,4,3,2,3,2,10,Gray -> 3 White,,,,,
-Killbot.png,21,vertical,automa,Junk Collector,1,4,4,3,2,2,11,Collect 1 White,,,,,
-Killbot.png,22,vertical,automa,Toggler,1,4,2,2,3,4,11,"Downgrade x1, Upgrade x2",,,,,
-Killbot.png,23,vertical,automa,2 Heads > 1,1,5,4,4,2,2,12,Clear Red -> 2x Red,,,,,
-Killbot.png,24,vertical,automa,2 Arms > 1,1,5,4,2,2,4,12,Clear Yellow -> 2x Yellow,,,,,
-Killbot.png,25,vertical,automa,2 Torso > 1,1,5,2,4,4,2,12,Clear Blue -> 2x Blue,,,,,
-Killbot.png,26,vertical,automa,2 Feet > 1,1,5,2,2,4,4,12,Clear Black -> 2x Black,,,,,
-Killbot.png,27,vertical,automa,Twins,2,3,4,2,4,3,13,"Choose one: Red -> 2 Pink, Yellow -> 2 Natural, Blue -> 2 Light Blue, Black -> 2 Gray",,,,,
-Killbot.png,28,vertical,automa,Swarm,3,0,3,4,2,4,13,"Use only when placing 3 workers. Choose any 3:  Collect 1 White, Upgrade x1, Swap",,,,,
-Killbot.png,29,vertical,automa,Super Upgrader,1,6,4,4,4,4,16,Upgrade x2,,,,,
-Killbot.png,30,vertical,automa,Powerhouse,1,8,4,4,4,4,16,"Choose one:  L2 -> 3 White, L3 -> 4 White, L4 -> 5 White",,,,,
-Killbot.png,31,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,32,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,33,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,34,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,35,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,36,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,37,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,38,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,39,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,40,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,41,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,42,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,43,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,44,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,45,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,46,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,47,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,48,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,49,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,50,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,51,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,52,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,53,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,54,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,55,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,56,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,57,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,58,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,59,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Killbot.png,60,vertical,automa,Basic Worker,1,1,1,1,1,1,4,None,,,,,
-Station.png,61,vertical,station,,,,,,,,,,1,Scrap Heap,Collect 7 White,Collect 5 White,Collect 3 White
-Station.png,62,vertical,station,,,,,,,,,,2,Low Quality Head Station,Collect 2 Red and 1 Pink,Collect 3 Pink,Collect 2 Pink
-Station.png,63,vertical,station,,,,,,,,,,3,Low Quality Arm Station,Collect 2 Yellow and 1 Natural,Collect 3 Natural,Collect 2 Natural
-Station.png,64,vertical,station,,,,,,,,,,4,Low Quality Torso Station,Collect 2 Blue and 1 Light Blue,Collect 3 Light Blue,Collect 2 Light Blue
-Station.png,65,vertical,station,,,,,,,,,,5,Low Quality Foot Station,Collect 2 Black and 1 Gray,Collect 3 Gray,Collect 2 Gray
-Station.png,66,vertical,station,,,,,,,,,,6,Medium Quality Head Station,Collect 1 Red and 1 Clear Red,Collect 1 Red and 1 Pink,Collect 1 Red
-Station.png,67,vertical,station,,,,,,,,,,7,Medium Quality Arm Station,Collect 1 Yellow and 1 Clear Yellow,Collect 1 Yellow and 1 Natural,Collect 1 Yellow
-Station.png,68,vertical,station,,,,,,,,,,8,Medium Quality Torso Station,Collect 1 Blue and 1 Clear Blue,Collect 1 Blue and 1 Light Blue,Collect 1 Blue
-Station.png,69,vertical,station,,,,,,,,,,9,Medium Quality Foot Station,Collect 1 Black and 1 Clear Black,Collect 1 Black and 1 Gray,Collect 1 Black
-Station.png,70,vertical,station,,,,,,,,,,10,Head Assembler,Collect 2 Red Upgrade x1,Collect 1 Clear Red Upgrade x1,Collect 1 Pink Upgrade x1
-Station.png,71,vertical,station,,,,,,,,,,11,Arms Assembler,"Collect 2 Yellow, Upgrade x1","Collect 1 Clear Yellow, Upgrade x1","Collect 1 Natural, Upgrade x1"
-Station.png,72,vertical,station,,,,,,,,,,12,Torso Assembler,"Collect 2 Blue, Upgrade x1","Collect 1 Clear Blue, Upgrade x1","Collect 1 Lt Blue, Upgrade x1"
-Station.png,73,vertical,station,,,,,,,,,,13,Feet Assembler,"Collect 2 Black, Upgrade x1","Collect 1 Clear Black, Upgrade x1","Collect 1 Gray, Upgrade x1"
-Station.png,74,vertical,station,,,,,,,,,,14,Foot Exchanger,Discard 1 Gray: Collect 3 matching [Red/Blue/Yellow],Discard 1 Gray: Collect 2 matching [Clear Red/Clear Blue/Clear Yellow],Discard 1 Gray: Collect 3 matching [Pink/Lt Blue/Natural]
-Station.png,75,vertical,station,,,,,,,,,,15,Head Exchanger,Discard 1 Pink: Collect 3 matching [Black/Blue/Yellow],Discard 1 Pink: Collect 2 matching [Clear Black/Clear Blue/Clear Yellow],Discard 1 Pink: Collect 3 matching [Gray/Lt Blue/Natural]
-Station.png,76,vertical,station,,,,,,,,,,16,Torso Exchanger,Discard 1 Lt Blue: Collect 3 matching [Red/Black/Yellow],Discard 1 Lt Blue: Collect 2 matching [Clear Red/Clear Black/Clear Yellow],Discard 1 Lt Blue: Collect 3 matching [Pink/Gray/Natural]
-Station.png,77,vertical,station,,,,,,,,,,17,Arms Exchanger,Discard 1 Natural: Collect 3 matching [Red/Blue/Black],Discard 1 Natural: Collect 2 matching [Clear Red/Clear Blue/Clear Black],Discard 1 Natural: Collect 3 matching [Pink/Lt Blue/Gray]
-Station.png,78,vertical,station,,,,,,,,,,18,Recycling Station,Discard 1 White: Collect 2 matching [Clear Red/Clear Blue/Clear Yellow/Clear Black],Discard 1 White: Collect 2 matching [Red/Blue/Yellow/Black],Discard 1 White: Collect 2 matching [Pink/Lt Blue/Natural/Gray]
-Station.png,79,vertical,station,,,,,,,,,,19,Upgrade Station,Upgrade x7,Upgrade x5,Upgrade x3
-Station.png,80,vertical,station,,,,,,,,,,20,Upgrade/Scrap Shop,"Collect 4 White, Upgrade x3","Collect 3 White, Upgrade x2","Collect 2 White, Upgrade x1"
-Station.png,81,vertical,station,,,,,,,,,,21,Component Juggler,"2 White, Upgrade x3, Swap x2","1 White, Upgrade x2, Swap x2","Upgrade x2, Swap x1"
+﻿"image","name","orientation","type","number","location","cost 3","cost 2","cost 1","ability 3","ability 2","ability 1","title","workers","strength","heads","arms","bodies","legs","total value","ability"
+"SampleAutoma.png","01","vertical","automa","","","","","","","","","Starting Blueprint","1","1","{pinkCircle}","{naturalCircle}","{lightBlueCircle}","{whiteCircle}","7","{swap}"
+"SampleAutoma.png","02","vertical","automa","","","","","","","","","Starting Blueprint","1","1","{pinkCircle}","{naturalCircle}","{lightBlueCircle}","{whiteCircle}","7","{swap}"
+"SampleAutoma.png","03","vertical","automa","","","","","","","","","Starting Blueprint","1","1","{pinkCircle}","{naturalCircle}","{lightBlueCircle}","{whiteCircle}","7","{swap}"
+"SampleAutoma.png","04","vertical","automa","","","","","","","","","Starting Blueprint","1","1","{pinkCircle}","{naturalCircle}","{lightBlueCircle}","{whiteCircle}","7","{swap}"
+"SampleAutoma.png","05","vertical","automa","","","","","","","","","Head Repurposer","1","2","{redCircle}","{naturalCircle}","{lightBlueCircle}","{whiteCircle}","8","{red},{->}2 matching {L2}"
+"SampleAutoma.png","06","vertical","automa","","","","","","","","","Torso Repurposer","1","2","{pinkCircle}","{yellowCircle}","{whiteCircle}","{grayCircle}","8","{blue},{->}2 matching {L2}"
+"SampleAutoma.png","07","vertical","automa","","","","","","","","","Arm Repurposer","1","2","{whiteCircle}","{naturalCircle}","{blueCircle}","{grayCircle}","8","{yellow},{->}2 matching {L2}"
+"SampleAutoma.png","08","vertical","automa","","","","","","","","","Foot Repurposer","1","2","{whiteCircle}","{naturalCircle}","{lightBlueCircle}","{blackCircle}","8","{black},{->}2 matching {L2}"
+"SampleAutoma.png","09","vertical","automa","","","","","","","","","Scrapworker","1","2","{pinkCircle}","{yellowCircle}","{whiteCircle}","{blackCircle}","9","{collect}1{white} AND {upgrade}x1"
+"SampleAutoma.png","10","vertical","automa","","","","","","","","","Multi-Purpose Repurposer","1","3","{whiteCircle}","{yellowCircle}","{lightBlueCircle}","{blackCircle}","9","Choose one: {clearBlack},{->}2x{black}, {clearBlue},{->}2x{blue}, {clearRed},{->}2x{red}, {clearYellow},{->}2x{yellow}"
+"SampleAutoma.png","11","vertical","automa","","","","","","","","","Refiner","1","3","{pinkCircle}","{whiteCircle}","{blueCircle}","{blackCircle}","9","{upgrade}x1 AND {swap}"
+"SampleAutoma.png","12","vertical","automa","","","","","","","","","Upgrader","1","3","{redCircle}","{whiteCircle}","{blueCircle}","{grayCircle}","9","{upgrade}x2"
+"SampleAutoma.png","13","vertical","automa","","","","","","","","","A Head In The Clouds","1","3","{redCircle}","{naturalCircle}","{lightBlueCircle}","{grayCircle}","9","{collect}1{pink}"
+"SampleAutoma.png","14","vertical","automa","","","","","","","","","Moreso Torso","1","3","{pinkCircle}","{yellowCircle}","{lightBlueCircle}","{grayCircle}","9","{collect}1{lightBlue}"
+"SampleAutoma.png","15","vertical","automa","","","","","","","","","Armed and Dangerous","1","3","{pinkCircle}","{naturalCircle}","{blueCircle}","{grayCircle}","9","{collect}1{natural}"
+"SampleAutoma.png","16","vertical","automa","","","","","","","","","Foot Solder","1","3","{pinkCircle}","{naturalCircle}","{lightBlueCircle}","{blackCircle}","9","{collect}1{gray}"
+"SampleAutoma.png","17","vertical","automa","","","","","","","","","Head Smasher","1","4","{redCircle}","{yellowCircle}","{lightBlueCircle}","{grayCircle}","10","{pink},{->}3{white}"
+"SampleAutoma.png","18","vertical","automa","","","","","","","","","Arm Smasher","1","4","{pinkCircle}","{yellowCircle}","{lightBlueCircle}","{blackCircle}","10","{natural},{->}3{white}"
+"SampleAutoma.png","19","vertical","automa","","","","","","","","","Torso Smasher","1","4","{pinkCircle}","{naturalCircle}","{blueCircle}","{blackCircle}","10","{lightBlue},{->}3{white}"
+"SampleAutoma.png","20","vertical","automa","","","","","","","","","Foot Smasher","1","4","{redCircle}","{naturalCircle}","{blueCircle}","{grayCircle}","10","{gray},{->}3{white}"
+"SampleAutoma.png","21","vertical","automa","","","","","","","","","Junk Collector","1","4","{clearRedCircle}","{yellowCircle}","{lightBlueCircle}","{grayCircle}","11","{collect}1{white}"
+"SampleAutoma.png","22","vertical","automa","","","","","","","","","Toggler","1","4","{pinkCircle}","{naturalCircle}","{blueCircle}","{clearBlackCircle}","11","{downgrade}x1, {upgrade}x2"
+"SampleAutoma.png","23","vertical","automa","","","","","","","","","2 Heads > 1","1","5","{clearRedCircle}","{clearYellowCircle}","{lightBlueCircle}","{grayCircle}","12","{clearRed},{->}2x{red}"
+"SampleAutoma.png","24","vertical","automa","","","","","","","","","2 Arms > 1","1","5","{clearRedCircle}","{naturalCircle}","{lightBlueCircle}","{clearBlackCircle}","12","{clearYellow},{->}2x{yellow}"
+"SampleAutoma.png","25","vertical","automa","","","","","","","","","2 Torso > 1","1","5","{pinkCircle}","{clearYellowCircle}","{clearBlueCircle}","{grayCircle}","12","{clearBlue},{->}2x{blue}"
+"SampleAutoma.png","26","vertical","automa","","","","","","","","","2 Feet > 1","1","5","{pinkCircle}","{naturalCircle}","{clearBlueCircle}","{clearBlackCircle}","12","{clearBlack},{->}2x{black}"
+"SampleAutoma.png","27","vertical","automa","","","","","","","","","Twins","2","3","{clearRedCircle}","{naturalCircle}","{clearBlueCircle}","{blackCircle}","13","Choose one: {red},{->}2{pink}, {yellow},{->}2{natural}, {blue},{->}2{lightBlue}, {black},{->}2{gray}"
+"SampleAutoma.png","28","vertical","automa","","","","","","","","","Swarm","3","0","{redCircle}","{clearYellowCircle}","{lightBlueCircle}","{clearBlackCircle}","13","Use only when placing 3{worker}. Choose any 3: {collect}1{white}, {upgrade}x1, {swap}"
+"SampleAutoma.png","29","vertical","automa","","","","","","","","","Super Upgrader","1","6","{clearRedCircle}","{clearYellowCircle}","{clearBlueCircle}","{clearBlackCircle}","16","{upgrade}x2"
+"SampleAutoma.png","30","vertical","automa","","","","","","","","","Powerhouse","1","8","{clearRedCircle}","{clearYellowCircle}","{clearBlueCircle}","{clearBlackCircle}","16","Choose one: {gray},{->}3{white}, {black},{->}4{white}, {clearBlack},{->}5{white}"
+"SampleAutoma.png","31","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","32","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","33","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","34","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","35","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","36","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","37","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","38","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","39","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","40","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","41","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","42","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","43","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","44","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","45","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","46","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","47","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","48","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","49","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","50","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","51","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","52","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","53","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","54","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","55","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","56","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","57","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","58","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","59","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleAutoma.png","60","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
+"SampleStation.png","61","vertical","station","1","Scrap Heap","{3automa}","{2automa}","{1automa}","{collect}7{white}","{collect}5{white}","{collect}3{white}","","","","","","","","",""
+"SampleStation.png","62","vertical","station","2","Low Quality Head Station","{3automa}","{2automa}","{1automa}","{collect}2{red} and 1{pink}","{collect}3{pink}","{collect}2{pink}","","","","","","","","",""
+"SampleStation.png","63","vertical","station","3","Low Quality Arm Station","{3automa}","{2automa}","{1automa}","{collect}2{yellow} and 1{natural}","{collect}3{natural}","{collect}2{natural}","","","","","","","","",""
+"SampleStation.png","64","vertical","station","4","Low Quality Torso Station","{3automa}","{2automa}","{1automa}","{collect}2{blue} and 1{lightBlue}","{collect}3{lightBlue}","{collect}2{lightBlue}","","","","","","","","",""
+"SampleStation.png","65","vertical","station","5","Low Quality Foot Station","{3automa}","{2automa}","{1automa}","{collect}2{black} and 1{gray}","{collect}3{gray}","{collect}2{gray}","","","","","","","","",""
+"SampleStation.png","66","vertical","station","6","Medium Quality Head Station","{3automa}","{2automa}","{1automa}","{collect}1{red} and 1{clearRed}","{collect}1{red} and 1{pink}","{collect}1{red}","","","","","","","","",""
+"SampleStation.png","67","vertical","station","7","Medium Quality Arm Station","{3automa}","{2automa}","{1automa}","{collect}1{yellow} and 1{clearYellow}","{collect}1{yellow} and 1{natural}","{collect}1{yellow}","","","","","","","","",""
+"SampleStation.png","68","vertical","station","8","Medium Quality Torso Station","{3automa}","{2automa}","{1automa}","{collect}1{blue} and 1{clearBlue}","{collect}1{blue} and 1{lightBlue}","{collect}1{blue}","","","","","","","","",""
+"SampleStation.png","69","vertical","station","9","Medium Quality Foot Station","{3automa}","{2automa}","{1automa}","{collect}1{black} and 1{clearBlack}","{collect}1{black} and 1{gray}","{collect}1{black}","","","","","","","","",""
+"SampleStation.png","70","vertical","station","10","Head Assembler","{3automa}","{2automa}","{1automa}","{collect}2{red},{upgrade}x1","{collect}1{clearRed},{upgrade}x1","{collect}1{pink},{upgrade}x1","","","","","","","","",""
+"SampleStation.png","71","vertical","station","11","Arms Assembler","{3automa}","{2automa}","{1automa}","{collect}2{yellow}, {upgrade}x1","{collect}1{clearYellow}, {upgrade}x1","{collect}1{natural}, {upgrade}x1","","","","","","","","",""
+"SampleStation.png","72","vertical","station","12","Torso Assembler","{3automa}","{2automa}","{1automa}","{collect}2{blue}, {upgrade}x1","{collect}1{clearBlue}, {upgrade}x1","{collect}1{lightBlue}, {upgrade}x1","","","","","","","","",""
+"SampleStation.png","73","vertical","station","13","Feet Assembler","{3automa}","{2automa}","{1automa}","{collect}2{black}, {upgrade}x1","{collect}1{clearBlack}, {upgrade}x1","{collect}1{gray}, {upgrade}x1","","","","","","","","",""
+"SampleStation.png","74","vertical","station","14","Foot Exchanger","{3automa}","{2automa}","{1automa}","Discard 1{gray}: {collect}3 matching [{red}/{blue}/{yellow}]","Discard 1{gray}: {collect}2 matching [{clearRed}/{clearBlue}/{clearYellow}]","Discard 1{gray}: {collect}3 matching [{pink}/{lightBlue}/{natural}]","","","","","","","","",""
+"SampleStation.png","75","vertical","station","15","Head Exchanger","{3automa}","{2automa}","{1automa}","Discard 1{pink}: {collect}3 matching [{black}/{blue}/{yellow}]","Discard 1{pink}: {collect}2 matching [{clearBlack}/{clearBlue}/{clearYellow}]","Discard 1{pink}: {collect}3 matching [{gray}/{lightBlue}/{natural}]","","","","","","","","",""
+"SampleStation.png","76","vertical","station","16","Torso Exchanger","{3automa}","{2automa}","{1automa}","Discard 1{lightBlue}: {collect}3 matching [{red}/{black}/{yellow}]","Discard 1{lightBlue}: {collect}2 matching [{clearRed}/{clearBlack}/{clearYellow}]","Discard 1{lightBlue}: {collect}3 matching [{pink}/{gray}/{natural}]","","","","","","","","",""
+"SampleStation.png","77","vertical","station","17","Arms Exchanger","{3automa}","{2automa}","{1automa}","Discard 1{natural}: {collect}3 matching [{red}/{blue}/{black}]","Discard 1{natural}: {collect}2 matching [{clearRed}/{clearBlue}/{clearBlack}]","Discard 1{natural}: {collect}3 matching [{pink}/{lightBlue}/{gray}]","","","","","","","","",""
+"SampleStation.png","78","vertical","station","18","Recycling Station","{3automa}","{2automa}","{1automa}","Discard 1{white}: {collect}2 matching [{clearRed}/{clearBlue}/{clearYellow}/{clearBlack}]","Discard 1{white}: {collect}2 matching [{red}/{blue}/{yellow}/{black}]","Discard 1{white}: {collect}2 matching [{pink}/{lightBlue}/{natural}/{gray}]","","","","","","","","",""
+"SampleStation.png","79","vertical","station","19","Upgrade Station","{3automa}","{2automa}","{1automa}","{upgrade}x7","{upgrade}x5","{upgrade}x3","","","","","","","","",""
+"SampleStation.png","80","vertical","station","20","Upgrade/Scrap Shop","{3automa}","{2automa}","{1automa}","{collect}4{white}, {upgrade}x3","{collect}3{white}, {upgrade}x2","{collect}2{white}, {upgrade}x1","","","","","","","","",""
+"SampleStation.png","81","vertical","station","21","Component Juggler","{3automa}","{2automa}","{1automa}","{collect}2{white}, {upgrade}x3, {swap}x2","{collect}1{white}, {upgrade}x2, {swap}x2","{upgrade}x2, {swap}x1","","","","","","","","",""
