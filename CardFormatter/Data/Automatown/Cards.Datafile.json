@@ -207,7 +207,7 @@
     "bodies": "{lightBlueCircle}",
     "legs": "{grayCircle}",
     "total value": "9",
-    "ability": "{collect}1{ltBlue}"
+    "ability": "{collect}1{lightBlue}"
   },
   {
     "image": "SampleAutoma.png",
@@ -900,7 +900,7 @@
     "ability": ""
   },
   {
-    "image": "Station.png",
+    "image": "SampleStation.png",
     "name": "61",
     "orientation": "vertical",
     "type": "station",
@@ -914,7 +914,7 @@
     "ability 1": "{collect}3{white}"
   },
   {
-    "image": "Station.png",
+    "image": "SampleStation.png",
     "name": "62",
     "orientation": "vertical",
     "type": "station",
@@ -928,7 +928,7 @@
     "ability 1": "{collect}2{pink}"
   },
   {
-    "image": "Station.png",
+    "image": "SampleStation.png",
     "name": "63",
     "orientation": "vertical",
     "type": "station",
@@ -942,7 +942,7 @@
     "ability 1": "{collect}2{natural}"
   },
   {
-    "image": "Station.png",
+    "image": "SampleStation.png",
     "name": "64",
     "orientation": "vertical",
     "type": "station",
@@ -956,7 +956,7 @@
     "ability 1": "{collect}2{lightBlue}"
   },
   {
-    "image": "Station.png",
+    "image": "SampleStation.png",
     "name": "65",
     "orientation": "vertical",
     "type": "station",
@@ -970,7 +970,7 @@
     "ability 1": "{collect}2{gray}"
   },
   {
-    "image": "Station.png",
+    "image": "SampleStation.png",
     "name": "66",
     "orientation": "vertical",
     "type": "station",
@@ -984,7 +984,7 @@
     "ability 1": "{collect}1{red}"
   },
   {
-    "image": "Station.png",
+    "image": "SampleStation.png",
     "name": "67",
     "orientation": "vertical",
     "type": "station",
@@ -998,7 +998,7 @@
     "ability 1": "{collect}1{yellow}"
   },
   {
-    "image": "Station.png",
+    "image": "SampleStation.png",
     "name": "68",
     "orientation": "vertical",
     "type": "station",
@@ -1012,7 +1012,7 @@
     "ability 1": "{collect}1{blue}"
   },
   {
-    "image": "Station.png",
+    "image": "SampleStation.png",
     "name": "69",
     "orientation": "vertical",
     "type": "station",
@@ -1026,7 +1026,7 @@
     "ability 1": "{collect}1{black}"
   },
   {
-    "image": "Station.png",
+    "image": "SampleStation.png",
     "name": "70",
     "orientation": "vertical",
     "type": "station",
@@ -1040,7 +1040,7 @@
     "ability 1": "{collect}1{pink}{upgrade}x1"
   },
   {
-    "image": "Station.png",
+    "image": "SampleStation.png",
     "name": "71",
     "orientation": "vertical",
     "type": "station",
@@ -1054,7 +1054,7 @@
     "ability 1": "{collect}1{natural}, {upgrade}x1"
   },
   {
-    "image": "Station.png",
+    "image": "SampleStation.png",
     "name": "72",
     "orientation": "vertical",
     "type": "station",
@@ -1065,10 +1065,10 @@
     "cost 1": "{1automa}",
     "ability 3": "{collect}2{blue}, {upgrade}x1",
     "ability 2": "{collect}1{clearBlue}, {upgrade}x1",
-    "ability 1": "{collect}1{ltBlue}, {upgrade}x1"
+    "ability 1": "{collect}1{lightBlue}, {upgrade}x1"
   },
   {
-    "image": "Station.png",
+    "image": "SampleStation.png",
     "name": "73",
     "orientation": "vertical",
     "type": "station",
@@ -1082,7 +1082,7 @@
     "ability 1": "{collect}1{gray}, {upgrade}x1"
   },
   {
-    "image": "Station.png",
+    "image": "SampleStation.png",
     "name": "74",
     "orientation": "vertical",
     "type": "station",
@@ -1093,10 +1093,10 @@
     "cost 1": "{1automa}",
     "ability 3": "Discard 1{gray}: {collect}3 matching [{red}/{blue}/{yellow}]",
     "ability 2": "Discard 1{gray}: {collect}2 matching [{clearRed}/{clearBlue}/{clearYellow}]",
-    "ability 1": "Discard 1{gray}: {collect}3 matching [{pink}/{ltBlue}/{natural}]"
+    "ability 1": "Discard 1{gray}: {collect}3 matching [{pink}/{lightBlue}/{natural}]"
   },
   {
-    "image": "Station.png",
+    "image": "SampleStation.png",
     "name": "75",
     "orientation": "vertical",
     "type": "station",
@@ -1107,10 +1107,10 @@
     "cost 1": "{1automa}",
     "ability 3": "Discard 1{pink}: {collect}3 matching [{black}/{blue}/{yellow}]",
     "ability 2": "Discard 1{pink}: {collect}2 matching [{clearBlack}/{clearBlue}/{clearYellow}]",
-    "ability 1": "Discard 1{pink}: {collect}3 matching [{gray}/{ltBlue}/{natural}]"
+    "ability 1": "Discard 1{pink}: {collect}3 matching [{gray}/{lightBlue}/{natural}]"
   },
   {
-    "image": "Station.png",
+    "image": "SampleStation.png",
     "name": "76",
     "orientation": "vertical",
     "type": "station",
@@ -1119,12 +1119,12 @@
     "cost 3": "{3automa}",
     "cost 2": "{2automa}",
     "cost 1": "{1automa}",
-    "ability 3": "Discard 1{ltBlue}: {collect}3 matching [{red}/{black}/{yellow}]",
-    "ability 2": "Discard 1{ltBlue}: {collect}2 matching [{clearRed}/{clearBlack}/{clearYellow}]",
-    "ability 1": "Discard 1{ltBlue}: {collect}3 matching [{pink}/{gray}/{natural}]"
+    "ability 3": "Discard 1{lightBlue}: {collect}3 matching [{red}/{black}/{yellow}]",
+    "ability 2": "Discard 1{lightBlue}: {collect}2 matching [{clearRed}/{clearBlack}/{clearYellow}]",
+    "ability 1": "Discard 1{lightBlue}: {collect}3 matching [{pink}/{gray}/{natural}]"
   },
   {
-    "image": "Station.png",
+    "image": "SampleStation.png",
     "name": "77",
     "orientation": "vertical",
     "type": "station",
@@ -1135,10 +1135,10 @@
     "cost 1": "{1automa}",
     "ability 3": "Discard 1{natural}: {collect}3 matching [{red}/{blue}/{black}]",
     "ability 2": "Discard 1{natural}: {collect}2 matching [{clearRed}/{clearBlue}/{clearBlack}]",
-    "ability 1": "Discard 1{natural}: {collect}3 matching [{pink}/{ltBlue}/{gray}]"
+    "ability 1": "Discard 1{natural}: {collect}3 matching [{pink}/{lightBlue}/{gray}]"
   },
   {
-    "image": "Station.png",
+    "image": "SampleStation.png",
     "name": "78",
     "orientation": "vertical",
     "type": "station",
@@ -1149,10 +1149,10 @@
     "cost 1": "{1automa}",
     "ability 3": "Discard 1{white}: {collect}2 matching [{clearRed}/{clearBlue}/{clearYellow}/{clearBlack}]",
     "ability 2": "Discard 1{white}: {collect}2 matching [{red}/{blue}/{yellow}/{black}]",
-    "ability 1": "Discard 1{white}: {collect}2 matching [{pink}/{ltBlue}/{natural}/{gray}]"
+    "ability 1": "Discard 1{white}: {collect}2 matching [{pink}/{lightBlue}/{natural}/{gray}]"
   },
   {
-    "image": "Station.png",
+    "image": "SampleStation.png",
     "name": "79",
     "orientation": "vertical",
     "type": "station",
@@ -1166,7 +1166,7 @@
     "ability 1": "{upgrade}x3"
   },
   {
-    "image": "Station.png",
+    "image": "SampleStation.png",
     "name": "80",
     "orientation": "vertical",
     "type": "station",
@@ -1180,7 +1180,7 @@
     "ability 1": "{collect}2{white}, {upgrade}x1"
   },
   {
-    "image": "Station.png",
+    "image": "SampleStation.png",
     "name": "81",
     "orientation": "vertical",
     "type": "station",
@@ -1189,8 +1189,8 @@
     "cost 3": "{3automa}",
     "cost 2": "{2automa}",
     "cost 1": "{1automa}",
-    "ability 3": "2{white}, {upgrade}x3, {swap}x2",
-    "ability 2": "1{white}, {upgrade}x2, {swap}x2",
+    "ability 3": "{collect}2{white}, {upgrade}x3, {swap}x2",
+    "ability 2": "{collect}1{white}, {upgrade}x2, {swap}x2",
     "ability 1": "{upgrade}x2, {swap}x1"
   }
 ]
