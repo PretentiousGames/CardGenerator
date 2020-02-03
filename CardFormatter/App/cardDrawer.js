@@ -251,6 +251,10 @@
                 function (x) {
                   applyPrefix(x);
                 });
+            } else if (s.imageFile) {
+              s = _.extend({}, s);
+              s.styles = _.extend({}, obj.styles, s.styles);
+              val.push(s);
             } else {
               val.unshift({ text: p, styles: obj.styles });
             }
@@ -266,6 +270,10 @@
                 function (x) {
                   applySuffix(x);
                 });
+            } else if (s.imageFile) {
+              s = _.extend({}, s);
+              s.styles = _.extend({}, obj.styles, s.styles);
+              val.push(s);
             } else {
               val.push({ text: s, styles: obj.styles });
             }
@@ -453,8 +461,6 @@
             currentLineWords++;
             setStyles(testWord.styles);
 
-            var wordFontObj = testWord.styles.font ? _.where(fonts, { name: testWord.styles.font.toLocaleLowerCase() })[0].font : fontObj;
-
             var measure;
             if (testWord.imageFile) {
               var allottedHeight = fontSize * (testWord.relativeFontSize || 1) * (1 - testWord.yPadding);
@@ -463,6 +469,7 @@
               testWord.ySize = measure.height;
             }
             else {
+              var wordFontObj = testWord.styles.font ? _.where(fonts, { name: testWord.styles.font.toLocaleLowerCase() })[0].font : fontObj;
               measure = cardFormatter.drawer.measureText(wordFontObj, fontSize * (testWord.relativeFontSize || 1), testWord.text);
             }
             var testWordWidth = measure.width + (fontSize * .1);

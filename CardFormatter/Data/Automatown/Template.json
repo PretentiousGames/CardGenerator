@@ -72,13 +72,57 @@
         },
         {
           "type": "array",
-          "name": "costArray",
+          "name": "circleArray",
           "styles": {
             "x": 100,
             "y": 225,
             "--xSizeMax": 625,
             "xSize": 125,
             "ySize": 125,
+            "itemWidth": 125,
+            "direction": "right",
+            "--placementStyle": "distributed",
+            "maxFontSize": 1000,
+            "justification": "left"
+          }
+        },
+        {
+          "type": "text",
+          "name": "h0",
+          "styles": {
+            "array": "circleArray"
+          }
+        },
+        {
+          "type": "text",
+          "name": "a0",
+          "styles": {
+            "array": "circleArray"
+          }
+        },
+        {
+          "type": "text",
+          "name": "b0",
+          "styles": {
+            "array": "circleArray"
+          }
+        },
+        {
+          "type": "text",
+          "name": "l0",
+          "styles": {
+            "array": "circleArray"
+          }
+        },
+        {
+          "type": "array",
+          "name": "costArray",
+          "styles": {
+            "x": 112.5,
+            "y": 237.5,
+            "--xSizeMax": 625,
+            "xSize": 100,
+            "ySize": 100,
             "itemWidth": 125,
             "direction": "right",
             "--placementStyle": "distributed",
@@ -361,133 +405,46 @@
       "imageFile": "L4.png"
     },
 
-    "clearBlackCircle": {
-      "yPadding": 0.1,
-      "xImgOffset": -2,
-      "relativeSize": 1.1,
-      "imageFile": "clearBlack.Circle.png"
-    },
-    "clearBlueCircle": {
-      "yPadding": 0.1,
-      "xImgOffset": -2,
-      "relativeSize": 1.1,
-      "imageFile": "clearBlue.Circle.png"
-    },
-    "clearRedCircle": {
-      "yPadding": 0.1,
-      "xImgOffset": -2,
-      "relativeSize": 1.1,
-      "imageFile": "clearRed.Circle.png"
-    },
-    "clearYellowCircle": {
-      "yPadding": 0.1,
-      "xImgOffset": -2,
-      "relativeSize": 1.1,
-      "imageFile": "clearYellow.Circle.png"
-    },
-    "grayCircle": {
-      "yPadding": 0.1,
-      "xImgOffset": -2,
-      "relativeSize": 1.1,
-      "imageFile": "gray.Circle.png"
-    },
-    "lightBlueCircle": {
-      "yPadding": 0.1,
-      "xImgOffset": -2,
-      "relativeSize": 1.1,
-      "imageFile": "lightBlue.Circle.png"
-    },
-    "naturalCircle": {
-      "yPadding": 0.1,
-      "xImgOffset": -2,
-      "relativeSize": 1.1,
-      "imageFile": "natural.Circle.png"
-    },
-    "pinkCircle": {
-      "yPadding": 0.1,
-      "xImgOffset": -2,
-      "relativeSize": 1.1,
-      "imageFile": "pink.Circle.png"
-    },
-    "redCircle": {
-      "yPadding": 0.1,
-      "xImgOffset": -2,
-      "relativeSize": 1.1,
-      "imageFile": "red.Circle.png"
-    },
-    "whiteCircle": {
-      "yPadding": 0.1,
-      "xImgOffset": -2,
-      "relativeSize": 1.1,
-      "imageFile": "white.Circle.png"
-    },
-    "yellowCircle": {
-      "yPadding": 0.1,
-      "xImgOffset": -2,
-      "relativeSize": 1.1,
-      "imageFile": "yellow.Circle.png"
-    },
-    "blackCircle": {
-      "yPadding": 0.1,
-      "xImgOffset": -2,
-      "relativeSize": 1.1,
-      "imageFile": "black.Circle.png"
-    },
-    "blueCircle": {
-      "yPadding": 0.1,
-      "xImgOffset": -2,
-      "relativeSize": 1.1,
-      "imageFile": "blue.Circle.png"
-    },
     "3automa": {
       "yPadding": 0.1,
       "xImgOffset": -18,
       "relativeSize": 1.36,
-      "imageFile": "3AutomaIconBubble.png"
+      "imageFile": "3Automa.png"
     },
     "2automa": {
       "yPadding": 0.1,
       "xImgOffset": -18,
       "relativeSize": 1.36,
-      "imageFile": "2AutomaIconBubble.png"
+      "imageFile": "2Automa.png"
     },
     "1automa": {
       "yPadding": 0.1,
       "xImgOffset": -18,
       "relativeSize": 1.36,
-      "imageFile": "AutomaIconBubble.png"
+      "imageFile": "1Automa.png"
     },
 
-    "arm": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "arm.png" },
-    "head": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "head.png" },
-    "leg": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "leg.png" },
-    "torso": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "torso.png" },
-    "arm.2.circle": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "arm.2.circle.png" },
-    "arm.2": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "arm.2.png" },
-    "arm.3.circle": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "arm.3.circle.png" },
-    "arm.3": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "arm.3.png" },
-    "arm.4.circle": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "arm.4.circle.png" },
-    "arm.4": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "arm.4.png" },
-    "head.2.circle": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "head.2.circle.png" },
-    "head.2": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "head.2.png" },
-    "head.3.circle": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "head.3.circle.png" },
-    "head.3": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "head.3.png" },
-    "head.4.circle": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "head.4.circle.png" },
-    "head.4": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "head.4.png" },
-    "leg.2.circle": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "leg.2.circle.png" },
-    "leg.2": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "leg.2.png" },
-    "leg.3.circle": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "leg.3.circle.png" },
-    "leg.3": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "leg.3.png" },
-    "leg.4.circle": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "leg.4.circle.png" },
-    "leg.4": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "leg.4.png" },
-    "scrap.1.circle": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "scrap.1.circle.png" },
-    "scrap.1": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "scrap.1.png" },
-    "torse.2.circle": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "torso.2.circle.png" },
-    "torse.3.circle": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "torso.3.circle.png" },
-    "torse.4.circle": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "torso.4.circle.png" },
-    "torso.2": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "torso.2.png" },
-    "torso.3": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "torso.3.png" },
-    "torso.4": { "yPadding": 0.1, "xImgOffset": -18, "relativeSize": 1.36, "imageFile": "torso.4.png" },
+    "arm": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "arm.png" },
+    "head": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "head.png" },
+    "leg": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "leg.png" },
+    "torso": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "torso.png" },
+    "arm.2": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "arm.2.png" },
+    "arm.3": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "arm.3.png" },
+    "arm.4": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "arm.4.png" },
+    "head.2": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "head.2.png" },
+    "head.3": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "head.3.png" },
+    "head.4": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "head.4.png" },
+    "leg.2": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "leg.2.png" },
+    "leg.3": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "leg.3.png" },
+    "leg.4": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "leg.4.png" },
+    "scrap.1": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "scrap.1.png" },
+    "torso.2": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "torso.2.png" },
+    "torso.3": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "torso.3.png" },
+    "torso.4": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "torso.4.png" },
+    "cc": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "CostCircle.png" },
+	
+    "automa": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "Automa.png" },
+    "worker": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "Automa.png" },
 
     "collect": {
       "text": "փ",
@@ -532,12 +489,12 @@
       "styles": { "font": "Aharoni-True.ttf" },
       "description": "how strong an automa is"
     },
-    "automa": {
+    "automax": {
       "text": "ҿ",
       "styles": { "font": "Aharoni-True.ttf" },
       "description": "an automa"
     },
-    "worker": {
+    "workerx": {
       "text": "ҿ",
       "styles": { "font": "Aharoni-True.ttf" },
       "description": "a worker"
