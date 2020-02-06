@@ -76,12 +76,11 @@
           "styles": {
             "x": 100,
             "y": 225,
-            "--xSizeMax": 625,
+            "sizeMax": 625,
             "xSize": 125,
             "ySize": 125,
-            "itemWidth": 125,
-            "direction": "right",
-            "--placementStyle": "distributed",
+            "direction": "horizontal",
+            "placementStyle": "distributed",
             "maxFontSize": 1000,
             "justification": "left"
           }
@@ -118,14 +117,13 @@
           "type": "array",
           "name": "costArray",
           "styles": {
-            "x": 112.5,
+            "x": 106.5,
             "y": 237.5,
-            "--xSizeMax": 625,
+            "sizeMax": 625,
             "xSize": 100,
             "ySize": 100,
-            "itemWidth": 125,
-            "direction": "right",
-            "--placementStyle": "distributed",
+            "direction": "horizontal",
+            "placementStyle": "distributed",
             "maxFontSize": 1000,
             "justification": "left"
           }
@@ -162,23 +160,11 @@
           "type": "text",
           "name": "workers",
           "styles": {
-            "x": 102,
-            "y": 727,
-            "xSize": 121,
-            "ySize": 121
-          },
-          "suffix": { "constant": "automa" }
-        },
-        {
-          "type": "text",
-          "name": "strength",
-          "styles": {
-            "x": 602,
-            "y": 727,
-            "xSize": 121,
-            "ySize": 121
-          },
-          "suffix": { "constant": "strength" }
+            "x": 87.5,
+            "y": 711.5,
+            "xSize": 150,
+            "ySize": 150
+          }
         },
         {
           "type": "text",
@@ -191,7 +177,29 @@
           }
         }
       ],
-      "subTypes": []
+      "subTypes": [
+	    { "requirements": [ { "name": "icon", "exists": true } ],
+		  "elements": [	  		  
+            {
+              "type": "image",
+              "name": "iconPlatform",
+			  "constant": "strengthPlatform",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "type": "text",
+              "name": "icon",
+              "styles": {
+                "x": 602,
+                "y": 727,
+                "xSize": 121,
+                "ySize": 121
+              }
+            }
+		  ]
+		}
+	  ]
     },
     {
       "requirements": [
@@ -216,6 +224,16 @@
             "y": 130,
             "xSize": 464,
             "ySize": 87
+          }
+        },
+        {
+          "type": "text",
+          "name": "number",
+          "styles": {
+            "x": 125,
+            "y": 125,
+            "xSize": 75,
+            "ySize": 75
           }
         },
         {
@@ -283,17 +301,132 @@
             "maxFontSize": 50,
             "justification": "left"
           }
+        }
+      ],
+      "subTypes": []
+    },
+    {
+      "requirements": [
+        {
+          "name": "type",
+          "values": [ "goal" ]
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "name": "frame",
+          "constant": "goalFrame",
+          "draw": false
         },
         {
           "type": "text",
-          "name": "number",
+          "name": "name",
           "styles": {
-            "x": 125,
-            "y": 125,
+            "font": "belweb.ttf",
+            "x": 150,
+            "y": 130,
+            "xSize": 525,
+            "ySize": 87
+          }
+        },
+        {
+          "type": "array",
+          "name": "circleArray",
+          "styles": {
+            "x": 100,
+            "y": 225,
+            "sizeMax": 625,
+            "xSize": 125,
+            "ySize": 125,
+            "direction": "horizontal",
+            "placementStyle": "distributed",
+            "maxFontSize": 1000,
+            "justification": "left"
+          }
+        },
+        {
+          "type": "text",
+          "name": "r1",
+          "styles": {
+            "array": "circleArray"
+          }
+        },
+        {
+          "type": "text",
+          "name": "r2",
+          "styles": {
+            "array": "circleArray"
+          }
+        },
+        {
+          "type": "text",
+          "name": "r3",
+          "styles": {
+            "array": "circleArray"
+          }
+        },
+        {
+          "type": "text",
+          "name": "r4",
+          "styles": {
+            "array": "circleArray"
+          }
+        },
+        {
+          "type": "array",
+          "name": "costArray",
+          "styles": {
+            "x": 115.5,
+            "y": 230.5,
+            "sizeMax": 625,
+            "xSize": 100,
+            "ySize": 100,
+            "direction": "horizontal",
+            "placementStyle": "distributed",
+            "maxFontSize": 1000,
+            "justification": "left"
+          }
+        },
+        {
+          "type": "text",
+          "name": "Req1",
+          "styles": {
+            "array": "costArray"
+          }
+        },
+        {
+          "type": "text",
+          "name": "Req2",
+          "styles": {
+            "array": "costArray"
+          }
+        },
+        {
+          "type": "text",
+          "name": "Req3",
+          "styles": {
+            "array": "costArray"
+          }
+        },
+        {
+          "type": "text",
+          "name": "Req4",
+          "styles": {
+            "array": "costArray"
+          }
+        },
+        {
+          "type": "text",
+          "name": "Value",
+          "styles": {
+            "x": 375,
+            "y": 925,
             "xSize": 75,
             "ySize": 75,
             "maxFontSize": 50
-          }
+          },
+          "suffix": { "constant": "points" }
         }
       ],
       "subTypes": []
@@ -302,11 +435,13 @@
   "constants": {
     "verticalBackground": "Background.png",
     "automaFrame": "AutomaFrame.png",
+    "goalFrame": "goalFrame.png",
     "stationFrame": "StationFrame.png",
     "sampleAutoma": "SampleAutoma.png",
     "automaIconBubble": "AutomaIconBubble.png",
     "2automaIconBubble": "2AutomaIconBubble.png",
     "3automaIconBubble": "3AutomaIconBubble.png",
+	"strengthPlatform": "strengthPlatform.png",
 
     "clearBlack": {
       "yPadding": 0.1,
@@ -446,6 +581,11 @@
     "automa": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "Automa.png" },
     "worker": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "Automa.png" },
 
+    "points": {
+      "text": "՟",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "Plus sign"
+    },
     "collect": {
       "text": "փ",
       "styles": { "font": "Aharoni-True.ttf" },
@@ -469,6 +609,22 @@
       "relativeSize": 1.1,
       "imageFile": "upgrade.png"
     },
+    "shooty": {
+      "text": "Ӳ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "violent robot"
+    },
+    "handy": {
+      "text": "ա",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "capable robot"
+    },
+    "tricky": {
+      "text": "ճ",
+      "styles": { "font": "Aharoni-True.ttf" },
+      "description": "manipulative robot"
+    },
+
     "->": {
       "text": "Է",
       "styles": { "font": "Aharoni-True.ttf" },

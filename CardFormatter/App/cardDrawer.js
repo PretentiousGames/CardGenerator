@@ -143,13 +143,26 @@
           //context.drawImage(image, element.x, element.y);
         }
       };
-      var applyArray = function (element) {
+      var applyArray = function (element, elements) {
         if (element.styles && element.styles.array) {
+          var numberInArray = null;
           _.chain(elements)
             .filter(function (e) { return e.name === element.styles.array })
-            .each(function (e) {
+            .each(function (e, i, l) {
               element.styles = _.extend({}, e.styles, element.styles);
-              if (e.styles.direction) {
+              if (e.styles.placementStyle === "distributed") {
+                if (numberInArray === null) {                  
+                  numberInArray = _.reduce(elements, (memo, elem) => memo + (elem.styles && elem.styles.array === element.styles.array && card[elem.name] ? 1 : 0), 0);
+                }
+
+                var horizontal = e.styles.direction !== "vertical";
+                delta = (e.styles.sizeMax/* - (horizontal ? e.styles.xSize : e.styles.ySize)*/) / numberInArray;
+                element.styles.x = e.styles.x + ((horizontal ? ((e.count) * delta + ((delta - e.styles.xSize) / 2)) : 0))
+                element.styles.y = e.styles.y + ((!horizontal ? ((e.count) * delta + ((delta - e.styles.ySize) / 2)) : 0))
+                element.styles.xSize = e.styles.xSize;
+                element.styles.ySize = e.styles.ySize;
+              }
+              else if (e.styles.direction) {
                 element.styles.x = e.styles.x
                   + ((e.styles.direction === "right" ? (e.count * e.styles.itemWidth) : 0))
                   - ((e.styles.direction === "left" ? (e.count * e.styles.itemWidth) : 0));
@@ -182,7 +195,12 @@
               context[key] = value;
             });
           } else if (element.type === 'text') {
-            drawText(applyArray(element));
+            drawText(applyArray(element, elements));
+          } else if (element.type === 'array') {
+            //context.beginPath();
+            //context.rect(element.styles.x, element.styles.y, element.styles.sizeMax, element.styles.sizeMax);
+            //context.rect(element.styles.x, element.styles.y, element.styles.xSize, element.styles.ySize);            
+            //context.stroke();
           }
         });
 

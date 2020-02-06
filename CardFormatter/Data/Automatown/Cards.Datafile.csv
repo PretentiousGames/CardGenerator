@@ -1,82 +1,28 @@
-﻿"image","name","orientation","type","number","location","cost 3","cost 2","cost 1","ability 3","ability 2","ability 1","title","workers","strength","heads","arms","bodies","legs","total value","ability"
-"SampleAutoma.png","01","vertical","automa","","","","","","","","","Starting Blueprint","1","1","{pinkCircle}","{naturalCircle}","{lightBlueCircle}","{whiteCircle}","7","{swap}"
-"SampleAutoma.png","02","vertical","automa","","","","","","","","","Starting Blueprint","1","1","{pinkCircle}","{naturalCircle}","{lightBlueCircle}","{whiteCircle}","7","{swap}"
-"SampleAutoma.png","03","vertical","automa","","","","","","","","","Starting Blueprint","1","1","{pinkCircle}","{naturalCircle}","{lightBlueCircle}","{whiteCircle}","7","{swap}"
-"SampleAutoma.png","04","vertical","automa","","","","","","","","","Starting Blueprint","1","1","{pinkCircle}","{naturalCircle}","{lightBlueCircle}","{whiteCircle}","7","{swap}"
-"SampleAutoma.png","05","vertical","automa","","","","","","","","","Head Repurposer","1","2","{redCircle}","{naturalCircle}","{lightBlueCircle}","{whiteCircle}","8","{red},{->}2 matching {L2}"
-"SampleAutoma.png","06","vertical","automa","","","","","","","","","Torso Repurposer","1","2","{pinkCircle}","{yellowCircle}","{whiteCircle}","{grayCircle}","8","{blue},{->}2 matching {L2}"
-"SampleAutoma.png","07","vertical","automa","","","","","","","","","Arm Repurposer","1","2","{whiteCircle}","{naturalCircle}","{blueCircle}","{grayCircle}","8","{yellow},{->}2 matching {L2}"
-"SampleAutoma.png","08","vertical","automa","","","","","","","","","Foot Repurposer","1","2","{whiteCircle}","{naturalCircle}","{lightBlueCircle}","{blackCircle}","8","{black},{->}2 matching {L2}"
-"SampleAutoma.png","09","vertical","automa","","","","","","","","","Scrapworker","1","2","{pinkCircle}","{yellowCircle}","{whiteCircle}","{blackCircle}","9","{collect}1{white} AND {upgrade}x1"
-"SampleAutoma.png","10","vertical","automa","","","","","","","","","Multi-Purpose Repurposer","1","3","{whiteCircle}","{yellowCircle}","{lightBlueCircle}","{blackCircle}","9","Choose one: {clearBlack},{->}2x{black}, {clearBlue},{->}2x{blue}, {clearRed},{->}2x{red}, {clearYellow},{->}2x{yellow}"
-"SampleAutoma.png","11","vertical","automa","","","","","","","","","Refiner","1","3","{pinkCircle}","{whiteCircle}","{blueCircle}","{blackCircle}","9","{upgrade}x1 AND {swap}"
-"SampleAutoma.png","12","vertical","automa","","","","","","","","","Upgrader","1","3","{redCircle}","{whiteCircle}","{blueCircle}","{grayCircle}","9","{upgrade}x2"
-"SampleAutoma.png","13","vertical","automa","","","","","","","","","A Head In The Clouds","1","3","{redCircle}","{naturalCircle}","{lightBlueCircle}","{grayCircle}","9","{collect}1{pink}"
-"SampleAutoma.png","14","vertical","automa","","","","","","","","","Moreso Torso","1","3","{pinkCircle}","{yellowCircle}","{lightBlueCircle}","{grayCircle}","9","{collect}1{lightBlue}"
-"SampleAutoma.png","15","vertical","automa","","","","","","","","","Armed and Dangerous","1","3","{pinkCircle}","{naturalCircle}","{blueCircle}","{grayCircle}","9","{collect}1{natural}"
-"SampleAutoma.png","16","vertical","automa","","","","","","","","","Foot Solder","1","3","{pinkCircle}","{naturalCircle}","{lightBlueCircle}","{blackCircle}","9","{collect}1{gray}"
-"SampleAutoma.png","17","vertical","automa","","","","","","","","","Head Smasher","1","4","{redCircle}","{yellowCircle}","{lightBlueCircle}","{grayCircle}","10","{pink},{->}3{white}"
-"SampleAutoma.png","18","vertical","automa","","","","","","","","","Arm Smasher","1","4","{pinkCircle}","{yellowCircle}","{lightBlueCircle}","{blackCircle}","10","{natural},{->}3{white}"
-"SampleAutoma.png","19","vertical","automa","","","","","","","","","Torso Smasher","1","4","{pinkCircle}","{naturalCircle}","{blueCircle}","{blackCircle}","10","{lightBlue},{->}3{white}"
-"SampleAutoma.png","20","vertical","automa","","","","","","","","","Foot Smasher","1","4","{redCircle}","{naturalCircle}","{blueCircle}","{grayCircle}","10","{gray},{->}3{white}"
-"SampleAutoma.png","21","vertical","automa","","","","","","","","","Junk Collector","1","4","{clearRedCircle}","{yellowCircle}","{lightBlueCircle}","{grayCircle}","11","{collect}1{white}"
-"SampleAutoma.png","22","vertical","automa","","","","","","","","","Toggler","1","4","{pinkCircle}","{naturalCircle}","{blueCircle}","{clearBlackCircle}","11","{downgrade}x1, {upgrade}x2"
-"SampleAutoma.png","23","vertical","automa","","","","","","","","","2 Heads > 1","1","5","{clearRedCircle}","{clearYellowCircle}","{lightBlueCircle}","{grayCircle}","12","{clearRed},{->}2x{red}"
-"SampleAutoma.png","24","vertical","automa","","","","","","","","","2 Arms > 1","1","5","{clearRedCircle}","{naturalCircle}","{lightBlueCircle}","{clearBlackCircle}","12","{clearYellow},{->}2x{yellow}"
-"SampleAutoma.png","25","vertical","automa","","","","","","","","","2 Torso > 1","1","5","{pinkCircle}","{clearYellowCircle}","{clearBlueCircle}","{grayCircle}","12","{clearBlue},{->}2x{blue}"
-"SampleAutoma.png","26","vertical","automa","","","","","","","","","2 Feet > 1","1","5","{pinkCircle}","{naturalCircle}","{clearBlueCircle}","{clearBlackCircle}","12","{clearBlack},{->}2x{black}"
-"SampleAutoma.png","27","vertical","automa","","","","","","","","","Twins","2","3","{clearRedCircle}","{naturalCircle}","{clearBlueCircle}","{blackCircle}","13","Choose one: {red},{->}2{pink}, {yellow},{->}2{natural}, {blue},{->}2{lightBlue}, {black},{->}2{gray}"
-"SampleAutoma.png","28","vertical","automa","","","","","","","","","Swarm","3","0","{redCircle}","{clearYellowCircle}","{lightBlueCircle}","{clearBlackCircle}","13","Use only when placing 3{worker}. Choose any 3: {collect}1{white}, {upgrade}x1, {swap}"
-"SampleAutoma.png","29","vertical","automa","","","","","","","","","Super Upgrader","1","6","{clearRedCircle}","{clearYellowCircle}","{clearBlueCircle}","{clearBlackCircle}","16","{upgrade}x2"
-"SampleAutoma.png","30","vertical","automa","","","","","","","","","Powerhouse","1","8","{clearRedCircle}","{clearYellowCircle}","{clearBlueCircle}","{clearBlackCircle}","16","Choose one: {gray},{->}3{white}, {black},{->}4{white}, {clearBlack},{->}5{white}"
-"SampleAutoma.png","31","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","32","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","33","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","34","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","35","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","36","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","37","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","38","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","39","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","40","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","41","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","42","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","43","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","44","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","45","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","46","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","47","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","48","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","49","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","50","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","51","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","52","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","53","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","54","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","55","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","56","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","57","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","58","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","59","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleAutoma.png","60","vertical","automa","","","","","","","","","Basic Worker","1","1","{whiteCircle}","{whiteCircle}","{whiteCircle}","{whiteCircle}","4",""
-"SampleStation.png","61","vertical","station","1","Scrap Heap","{3automa}","{2automa}","{1automa}","{collect}7{white}","{collect}5{white}","{collect}3{white}","","","","","","","","",""
-"SampleStation.png","62","vertical","station","2","Low Quality Head Station","{3automa}","{2automa}","{1automa}","{collect}2{red} and 1{pink}","{collect}3{pink}","{collect}2{pink}","","","","","","","","",""
-"SampleStation.png","63","vertical","station","3","Low Quality Arm Station","{3automa}","{2automa}","{1automa}","{collect}2{yellow} and 1{natural}","{collect}3{natural}","{collect}2{natural}","","","","","","","","",""
-"SampleStation.png","64","vertical","station","4","Low Quality Torso Station","{3automa}","{2automa}","{1automa}","{collect}2{blue} and 1{lightBlue}","{collect}3{lightBlue}","{collect}2{lightBlue}","","","","","","","","",""
-"SampleStation.png","65","vertical","station","5","Low Quality Foot Station","{3automa}","{2automa}","{1automa}","{collect}2{black} and 1{gray}","{collect}3{gray}","{collect}2{gray}","","","","","","","","",""
-"SampleStation.png","66","vertical","station","6","Medium Quality Head Station","{3automa}","{2automa}","{1automa}","{collect}1{red} and 1{clearRed}","{collect}1{red} and 1{pink}","{collect}1{red}","","","","","","","","",""
-"SampleStation.png","67","vertical","station","7","Medium Quality Arm Station","{3automa}","{2automa}","{1automa}","{collect}1{yellow} and 1{clearYellow}","{collect}1{yellow} and 1{natural}","{collect}1{yellow}","","","","","","","","",""
-"SampleStation.png","68","vertical","station","8","Medium Quality Torso Station","{3automa}","{2automa}","{1automa}","{collect}1{blue} and 1{clearBlue}","{collect}1{blue} and 1{lightBlue}","{collect}1{blue}","","","","","","","","",""
-"SampleStation.png","69","vertical","station","9","Medium Quality Foot Station","{3automa}","{2automa}","{1automa}","{collect}1{black} and 1{clearBlack}","{collect}1{black} and 1{gray}","{collect}1{black}","","","","","","","","",""
-"SampleStation.png","70","vertical","station","10","Head Assembler","{3automa}","{2automa}","{1automa}","{collect}2{red},{upgrade}x1","{collect}1{clearRed},{upgrade}x1","{collect}1{pink},{upgrade}x1","","","","","","","","",""
-"SampleStation.png","71","vertical","station","11","Arms Assembler","{3automa}","{2automa}","{1automa}","{collect}2{yellow}, {upgrade}x1","{collect}1{clearYellow}, {upgrade}x1","{collect}1{natural}, {upgrade}x1","","","","","","","","",""
-"SampleStation.png","72","vertical","station","12","Torso Assembler","{3automa}","{2automa}","{1automa}","{collect}2{blue}, {upgrade}x1","{collect}1{clearBlue}, {upgrade}x1","{collect}1{lightBlue}, {upgrade}x1","","","","","","","","",""
-"SampleStation.png","73","vertical","station","13","Feet Assembler","{3automa}","{2automa}","{1automa}","{collect}2{black}, {upgrade}x1","{collect}1{clearBlack}, {upgrade}x1","{collect}1{gray}, {upgrade}x1","","","","","","","","",""
-"SampleStation.png","74","vertical","station","14","Foot Exchanger","{3automa}","{2automa}","{1automa}","Discard 1{gray}: {collect}3 matching [{red}/{blue}/{yellow}]","Discard 1{gray}: {collect}2 matching [{clearRed}/{clearBlue}/{clearYellow}]","Discard 1{gray}: {collect}3 matching [{pink}/{lightBlue}/{natural}]","","","","","","","","",""
-"SampleStation.png","75","vertical","station","15","Head Exchanger","{3automa}","{2automa}","{1automa}","Discard 1{pink}: {collect}3 matching [{black}/{blue}/{yellow}]","Discard 1{pink}: {collect}2 matching [{clearBlack}/{clearBlue}/{clearYellow}]","Discard 1{pink}: {collect}3 matching [{gray}/{lightBlue}/{natural}]","","","","","","","","",""
-"SampleStation.png","76","vertical","station","16","Torso Exchanger","{3automa}","{2automa}","{1automa}","Discard 1{lightBlue}: {collect}3 matching [{red}/{black}/{yellow}]","Discard 1{lightBlue}: {collect}2 matching [{clearRed}/{clearBlack}/{clearYellow}]","Discard 1{lightBlue}: {collect}3 matching [{pink}/{gray}/{natural}]","","","","","","","","",""
-"SampleStation.png","77","vertical","station","17","Arms Exchanger","{3automa}","{2automa}","{1automa}","Discard 1{natural}: {collect}3 matching [{red}/{blue}/{black}]","Discard 1{natural}: {collect}2 matching [{clearRed}/{clearBlue}/{clearBlack}]","Discard 1{natural}: {collect}3 matching [{pink}/{lightBlue}/{gray}]","","","","","","","","",""
-"SampleStation.png","78","vertical","station","18","Recycling Station","{3automa}","{2automa}","{1automa}","Discard 1{white}: {collect}2 matching [{clearRed}/{clearBlue}/{clearYellow}/{clearBlack}]","Discard 1{white}: {collect}2 matching [{red}/{blue}/{yellow}/{black}]","Discard 1{white}: {collect}2 matching [{pink}/{lightBlue}/{natural}/{gray}]","","","","","","","","",""
-"SampleStation.png","79","vertical","station","19","Upgrade Station","{3automa}","{2automa}","{1automa}","{upgrade}x7","{upgrade}x5","{upgrade}x3","","","","","","","","",""
-"SampleStation.png","80","vertical","station","20","Upgrade/Scrap Shop","{3automa}","{2automa}","{1automa}","{collect}4{white}, {upgrade}x3","{collect}3{white}, {upgrade}x2","{collect}2{white}, {upgrade}x1","","","","","","","","",""
-"SampleStation.png","81","vertical","station","21","Component Juggler","{3automa}","{2automa}","{1automa}","{collect}2{white}, {upgrade}x3, {swap}x2","{collect}1{white}, {upgrade}x2, {swap}x2","{upgrade}x2, {swap}x1","","","","","","","","",""
+image,name,orientation,type,Req1,Req2,Req3,Req4,Value
+SampleGoal.png,Shoot a police officer,vertical,goal,{shooty},,,,1
+SampleGoal.png,Commit Arson,vertical,goal,{shooty},{shooty},,,2
+SampleGoal.png,Steal candy from a baby,vertical,goal,{handy},,,,2
+SampleGoal.png,Assassinate the Mayor,vertical,goal,{shooty},{shooty},{shooty},,3
+SampleGoal.png,Steal someones pet dog,vertical,goal,{handy},{shooty},,,3
+SampleGoal.png,Destroy the police headquarters,vertical,goal,{shooty},{shooty},{shooty},{shooty},4
+SampleGoal.png,Rob a bank,vertical,goal,{handy},{shooty},{shooty},,4
+SampleGoal.png,Rob a convenience store,vertical,goal,{handy},{handy},,,4
+SampleGoal.png,Impersonate a store clerk,vertical,goal,{tricky},,,,4
+SampleGoal.png,Shoot up the city,vertical,goal,{handy},{shooty},{shooty},{shooty},5
+SampleGoal.png,Rob a jewelry store,vertical,goal,{handy},{handy},{shooty},,5
+SampleGoal.png,Manipulate the police,vertical,goal,{tricky},{shooty},,,5
+SampleGoal.png,Take over town hall,vertical,goal,{handy},{handy},{shooty},{shooty},6
+SampleGoal.png,Vandalize the courthouse,vertical,goal,{handy},{handy},{handy},,6
+SampleGoal.png,Vandalize a monument,vertical,goal,{handy},{tricky},,,6
+SampleGoal.png,Rob a sporting goods store,vertical,goal,{handy},{handy},{handy},{shooty},7
+SampleGoal.png,Impersonate a police officer,vertical,goal,{tricky},{handy},{shooty},,7
+SampleGoal.png,Take a hostage,vertical,goal,{handy},{handy},{tricky},,8
+SampleGoal.png,Take over the mafia,vertical,goal,{tricky},{handy},{shooty},{shooty},8
+SampleGoal.png,Blackmail a government official,vertical,goal,{tricky},{tricky},,,8
+SampleGoal.png,Impersonate the chief of police,vertical,goal,{tricky},{tricky},{shooty},,9
+SampleGoal.png,Encourage kids to smoke,vertical,goal,{handy},{handy},{handy},{tricky},10
+SampleGoal.png,Destroy a teacher's reputation,vertical,goal,{handy},{tricky},{handy},,10
+SampleGoal.png,Imperonate the mayor,vertical,goal,{tricky},{tricky},{handy},{handy},12
+SampleGoal.png,Con a judge,vertical,goal,{tricky},{tricky},{tricky},,12
+SampleGoal.png,Replace school superintendant,vertical,goal,{tricky},{tricky},{tricky},{handy},14
+SampleGoal.png,Convert the Mayor to evil,vertical,goal,{tricky},{tricky},{tricky},{tricky},16
