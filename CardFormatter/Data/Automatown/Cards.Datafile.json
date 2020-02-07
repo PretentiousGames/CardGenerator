@@ -415,6 +415,7 @@
     "arms": "{arm.4}",     "a0": "{cc}",
     "bodies": "{torso.2}", "b0": "{cc}",
     "legs": "{leg.4}",     "l0": "{cc}",
+    "icon": "{handy}",
     "total value": "13",
     "ability": "Use only when placing 3{worker}. Choose any 3: {collect}1{scrap.1}, {upgrade}x1, {swap}"
   },
@@ -431,7 +432,7 @@
     "legs": "{leg.4}",     "l0": "{cc}",
     "icon": "{handy}{tricky}",
     "total value": "16",
-    "ability": "{upgrade}x2"
+    "ability": "{upgrade}x3"
   },
   {
     "image": "SampleAutoma.png",
@@ -446,7 +447,7 @@
     "legs": "{leg.4}",     "l0": "{cc}",
     "icon": "{shooty}{handy}{tricky}",
     "total value": "16",
-    "ability": "Choose one: {leg.2}{->}3{scrap.1}, {leg.3}{->}4{scrap.1}, {leg.4}{->}5{scrap.1}"
+    "ability": "Choose one: {L2}{->}3{scrap.1}, {L3}{->}4{scrap.1}, {L4}{->}5{scrap.1}"
   },
   {
     "image": "SampleAutoma.png",
