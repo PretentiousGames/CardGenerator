@@ -87,28 +87,28 @@
         },
         {
           "type": "text",
-          "name": "h0",
+          "name": "r1",
           "styles": {
             "array": "circleArray"
           }
         },
         {
           "type": "text",
-          "name": "a0",
+          "name": "r2",
           "styles": {
             "array": "circleArray"
           }
         },
         {
           "type": "text",
-          "name": "b0",
+          "name": "r3",
           "styles": {
             "array": "circleArray"
           }
         },
         {
           "type": "text",
-          "name": "l0",
+          "name": "r4",
           "styles": {
             "array": "circleArray"
           }
@@ -130,28 +130,28 @@
         },
         {
           "type": "text",
-          "name": "heads",
+          "name": "Req1",
           "styles": {
             "array": "costArray"
           }
         },
         {
           "type": "text",
-          "name": "arms",
+          "name": "Req2",
           "styles": {
             "array": "costArray"
           }
         },
         {
           "type": "text",
-          "name": "bodies",
+          "name": "Req3",
           "styles": {
             "array": "costArray"
           }
         },
         {
           "type": "text",
-          "name": "legs",
+          "name": "Req4",
           "styles": {
             "array": "costArray"
           }

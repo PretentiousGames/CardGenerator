@@ -648,6 +648,9 @@
   (function () {
     var measureImage = function (fontSize, imageName) {
       var image = images[imageName];
+      if (!image) {
+        console.log(imageName + "not loaded");
+      }
       var height = image.height;
       var width = image.width;
       var scaledWidth = width * fontSize / height;
