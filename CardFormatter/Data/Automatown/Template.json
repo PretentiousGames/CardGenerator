@@ -441,85 +441,13 @@
     "automaIconBubble": "AutomaIconBubble.png",
     "2automaIconBubble": "2AutomaIconBubble.png",
     "3automaIconBubble": "3AutomaIconBubble.png",
-	"strengthPlatform": "strengthPlatform.png",
+    "strengthPlatform": "strengthPlatform.png",
 
-    "clearBlack": {
-      "yPadding": 0.1,
-      "xImgOffset": -2,
-      "relativeSize": 1.1,
-      "imageFile": "clearBlack.png"
-    },
-    "clearBlue": {
-      "yPadding": 0.1,
-      "xImgOffset": -2,
-      "relativeSize": 1.1,
-      "imageFile": "clearBlue.png"
-    },
-    "clearRed": {
-      "yPadding": 0.1,
-      "xImgOffset": -2,
-      "relativeSize": 1.1,
-      "imageFile": "clearRed.png"
-    },
-    "clearYellow": {
-      "yPadding": 0.1,
-      "xImgOffset": -2,
-      "relativeSize": 1.1,
-      "imageFile": "clearYellow.png"
-    },
-    "gray": {
-      "yPadding": 0.1,
-      "xImgOffset": -2,
-      "relativeSize": 1.1,
-      "imageFile": "gray.png"
-    },
-    "lightBlue": {
-      "yPadding": 0.1,
-      "xImgOffset": -2,
-      "relativeSize": 1.1,
-      "imageFile": "lightBlue.png"
-    },
-    "natural": {
-      "yPadding": 0.1,
-      "xImgOffset": -2,
-      "relativeSize": 1.1,
-      "imageFile": "natural.png"
-    },
-    "pink": {
-      "yPadding": 0.1,
-      "xImgOffset": -2,
-      "relativeSize": 1.1,
-      "imageFile": "pink.png"
-    },
-    "red": {
-      "yPadding": 0.1,
-      "xImgOffset": -2,
-      "relativeSize": 1.1,
-      "imageFile": "red.png"
-    },
     "white": {
       "yPadding": 0.1,
       "xImgOffset": -2,
       "relativeSize": 1.1,
       "imageFile": "white.png"
-    },
-    "yellow": {
-      "yPadding": 0.1,
-      "xImgOffset": -2,
-      "relativeSize": 1.1,
-      "imageFile": "yellow.png"
-    },
-    "black": {
-      "yPadding": 0.1,
-      "xImgOffset": -2,
-      "relativeSize": 1.1,
-      "imageFile": "black.png"
-    },
-    "blue": {
-      "yPadding": 0.1,
-      "xImgOffset": -2,
-      "relativeSize": 1.1,
-      "imageFile": "blue.png"
     },
     "L2": {
       "yPadding": 0.1,
@@ -559,23 +487,19 @@
       "imageFile": "1Automa.png"
     },
 
-    "arm": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "arm.png" },
-    "head": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "head.png" },
-    "leg": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "leg.png" },
-    "torso": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "torso.png" },
-    "arm.2": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "arm.2.png" },
-    "arm.3": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "arm.3.png" },
-    "arm.4": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "arm.4.png" },
-    "head.2": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "head.2.png" },
-    "head.3": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "head.3.png" },
-    "head.4": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "head.4.png" },
-    "leg.2": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "leg.2.png" },
-    "leg.3": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "leg.3.png" },
-    "leg.4": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "leg.4.png" },
+    "controller": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "controller.png" },
+    "sensor": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "sensor.png" },
+    "motor": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "motor.png" },
+    "controller.2": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "controller.2.png" },
+    "controller.3": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "controller.3.png" },
+    "controller.4": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "controller.4.png" },
+    "sensor.2": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "sensor.2.png" },
+    "sensor.3": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "sensor.3.png" },
+    "sensor.4": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "sensor.4.png" },
+    "motor.2": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "motor.2.png" },
+    "motor.3": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "motor.3.png" },
+    "motor.4": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "motor.4.png" },
     "scrap.1": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "scrap.1.png" },
-    "torso.2": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "torso.2.png" },
-    "torso.3": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "torso.3.png" },
-    "torso.4": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "torso.4.png" },
     "cc": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "CostCircle.png" },
 	
     "automa": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "Automa.png" },
@@ -644,16 +568,6 @@
       "text": "ɳ",
       "styles": { "font": "Aharoni-True.ttf" },
       "description": "how strong an automa is"
-    },
-    "automax": {
-      "text": "ҿ",
-      "styles": { "font": "Aharoni-True.ttf" },
-      "description": "an automa"
-    },
-    "workerx": {
-      "text": "ҿ",
-      "styles": { "font": "Aharoni-True.ttf" },
-      "description": "a worker"
     }
   }
 }
