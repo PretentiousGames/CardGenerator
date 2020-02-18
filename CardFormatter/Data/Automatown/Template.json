@@ -160,8 +160,8 @@
           "type": "text",
           "name": "workers",
           "styles": {
-            "x": 87.5,
-            "y": 711.5,
+            "x": 88.75,
+            "y": 705.33,
             "xSize": 150,
             "ySize": 150
           }
@@ -321,7 +321,7 @@
         },
         {
           "type": "text",
-          "name": "name",
+          "name": "title",
           "styles": {
             "font": "belweb.ttf",
             "x": 150,
