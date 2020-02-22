@@ -33,7 +33,7 @@
   },
   { "image": "RevivificationMatrix.png", "name": "card.09", "orientation": "vertical", "title": "Revivification Matrix", "type": "trash",
     "trigger1": "When you finish this", "triggerValue1": "0", "rules1": "Swap this with a card in the Morgue.", "rulesValue1": "1",
-    "trigger2": "Always", "triggerValue2": "A", "rules2": "??? Instead of discarding a card to take an action, you may reveal one.", "rulesValue2": "3"
+    "trigger2": "Always", "triggerValue2": "A", "rules2": "You may have any number of minions.", "rulesValue2": "3"
   },
   { "image": "TissueDisruptor.png", "name": "card.10", "orientation": "vertical", "title": "Tissue Disruptor", "type": "trash",
     "trigger1": "When you Tinker", "triggerValue1": "1", "rules1": "Discard an Upgrade from a finished Gadget to gain a Mechanic minion.", "rulesValue1": "1",
@@ -138,8 +138,8 @@
     "trigger2": "At the start of your turn", "triggerValue2": "2", "rules2": "You may end the game immediately. Score as usual.", "rulesValue2": "3"
   },
   { "image": "BaghdadCapacitor.png", "name": "card.35", "orientation": "vertical", "title": "Baghdad Capacitor", "type": "electrical",
-    "trigger1": "Always", "triggerValue1": "A", "rules1": "You may have any number of minions.", "rulesValue1": "3",
-    "trigger2": "At the start of your turn", "triggerValue2": "2", "rules2": "Reanimate all cards in the Morgue with {1infamy} = to your hand count.", "rulesValue2": "4"
+    "trigger1": "Always", "triggerValue1": "A", "rules1": "Instead of discarding a card to take an action, you may reveal one.", "rulesValue1": "3",
+    "trigger2": "After you Reanimate", "triggerValue2": "2", "rules2": "Reanimate all cards in the Morgue with {1infamy} = to your hand count.", "rulesValue2": "4"
   },
   { "image": "CarapaceFertilizer.png", "name": "card.36", "orientation": "vertical", "title": "Carapace Fertilizer", "type": "electrical",
     "trigger1": "At the start of your turn", "triggerValue1": "2", "rules1": "Take 2 cards from the Morgue.", "rulesValue1": "2",
