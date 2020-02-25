@@ -410,6 +410,8 @@
       var xSize = styles.xSize;
       var ySize = styles.ySize;
 
+      context.strokeRect(x, y, xSize, ySize);
+
       var fontObj = _.where(fonts, { name: font.toLocaleLowerCase() })[0].font;
 
       var runs = getRuns(obj);
@@ -557,7 +559,9 @@
               cardFormatter.drawer.fillText(context, wordFontObj, w.text, wx - w.xLeadIn, getYPositioning(w, wy), styleObj);
             }
             var wordWidth = w.width;
+
             //context.strokeRect(wx, wy + (fontSize / 3), wordWidth, lineHeight * fontSize);
+
             wx += wordWidth;
             resetStyles();
           });
@@ -712,7 +716,7 @@
 
       ctx.shadowColor = obj.outerShadowColor;
       ctx.shadowBlur = obj.outerShadowBlur;
-      debugger;
+
       for (var j = 0; j < obj.outerShadowStrength; j++) {
         ctx.stroke();
       }

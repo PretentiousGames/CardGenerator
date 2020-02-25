@@ -136,6 +136,7 @@
                             csv()
                               .fromString(event.target.result)
                               .then((jsonObj) => {
+                                console.log(jsonObj);
                                 poly.set('files.data', jsonObj);
                                 poly.set('files.data.count', 1);
                                 poly.set('files.data.complete', 1);
@@ -147,15 +148,12 @@
                               reader.onload = function(e) {
                                 var data = new Uint8Array(e.target.result);
                                 var workbook = XLSX.read(data, {type: 'array'});
-                                var rows = [];
+
                                 workbook.SheetNames.forEach(function(sheetName) {
                                   var XL_row_object = XLSX.utils.sheet_to_row_object_array(workbook.Sheets[sheetName]);
-                                  rows.push.apply(rows, XL_row_object);
+                                  var json_object = JSON.stringify(XL_row_object);
+                                  console.log(json_object);
                                 });
-                                poly.set('files.data', rows);
-                                poly.set('files.data.count', 1);
-                                poly.set('files.data.complete', 1);
-                                poly.set('files.data.working', false);
                               };
                               reader.readAsArrayBuffer(file);
                           }

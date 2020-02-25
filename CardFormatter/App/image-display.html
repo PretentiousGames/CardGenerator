@@ -1,47 +1,54 @@
 ﻿<dom-module id="image-display">
-    <style>
-    </style>
+  <style>
+  </style>
 
-    <template>
-        <div>
-            <image-display-options options="{{options}}"></image-display-options>
-            <paper-button raised on-click="clickAction">Download</paper-button>
-            <image-array files="{{files}}" options="{{options}}"></image-array>
-        </div>
-    </template>
+  <template>
+    <div>
+      <image-display-options options="{{options}}"></image-display-options>
+      <paper-button raised on-click="clickAction">Download</paper-button>
+      <paper-button raised class="command" on-tap="generateAction">Generate</paper-button>
+      <image-array files="{{files}}" options="{{options}}"></image-array>
+    </div>
+  </template>
 
-    <script>
-        Polymer({
-            is: "image-display",
-            properties: {
-                files: {
-                    type: Object,
-                },
-                options: {
-                    type: Object,
-                }
-            },
-            clickAction: function (e) {
-                var zip = new JSZip();
-                var cards = [];
+  <script>
+    Polymer({
+      is: "image-display",
+      properties: {
+        files: {
+          type: Object,
+        },
+        options: {
+          type: Object,
+        }
+      },
+      clickAction: function (e) {
+        var zip = new JSZip();
+        var cards = [];
 
-                var anchors = document.getElementsByClassName("imageAnchor");
-                var pages = _.map(anchors, function (anchor) {
-                    return { canvas: anchor.children[0], name: anchor.attributes["download"].value };
-                });
-
-                _.each(pages, function (e) {
-                    var savable = new Image();
-                    var data = e.canvas.toDataURL();
-                    savable.src = data;
-                    zip.file(e.name, savable.src.substr(savable.src.indexOf(',') + 1), { base64: true });
-                    e.canvas.parentNode.href = data;
-                });
-
-                var blob = zip.generate({ type: "blob" });
-                saveAs(blob, "images.zip");
-                return false;
-            },
+        var anchors = document.getElementsByClassName("imageAnchor");
+        var pages = _.map(anchors, function (anchor) {
+          return { canvas: anchor.children[0], name: anchor.attributes["download"].value };
         });
-    </script>
+
+        _.each(pages, function (e) {
+          var savable = new Image();
+          var data = e.canvas.toDataURL();
+          savable.src = data;
+          zip.file(e.name, savable.src.substr(savable.src.indexOf(',') + 1), { base64: true });
+          e.canvas.parentNode.href = data;
+        });
+
+        var blob = zip.generate({ type: "blob" });
+        saveAs(blob, "images.zip");
+        return false;
+      },
+      generateAction: function (e) {
+        var images = document.querySelectorAll("card-image");
+        images.forEach(i => {
+          i.somethingChanged();
+        });
+      },
+    });
+  </script>
 </dom-module>

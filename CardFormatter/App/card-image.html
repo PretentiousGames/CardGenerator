@@ -1,10 +1,15 @@
 ﻿<dom-module id="card-image">
-    <style>
-    </style>
+  <style>
+    .imageDiv {
+      min-height: 1em;
+      min-width: 1em;
+      background: #E8FFE8;
+    }
+     
+  </style>
 
     <template>
-        <div>
-            <!--<span>{{_getJson(item)}}</span>-->
+        <div class="imageDiv">
             <a class="imageAnchor" download="{{fileName}}"><canvas height="{{displayHeight}}" width="{{displayWidth}}" id="canvas" /></a>
         </div>
     </template>
@@ -26,16 +31,8 @@
                 displayWidth: { type: Number, value: 10 },
                 fileName: { type: String, value: "image.png" },
             },
-            observers: [
-              '_somethingChanged(item.*)',
-              '_somethingChanged(files.*)',
-              '_somethingChanged(options.*)'
-            ],
             _getJson: function (obj) {
                 return JSON.stringify(obj);
-            },
-            _somethingChanged: function() {
-                this._updateImage();
             },
             _updateImage: function () {
                 var poly = this;
@@ -68,7 +65,11 @@
                 poly.set('fileName', name + '.png');
 
                 cardFormatter.cardDrawer.drawCard(poly.files.template, poly.item, poly.files.images, poly.files.fonts, function () { });
-            },
+          },
+            
+          somethingChanged: function() {
+            this._updateImage();
+          },
         });
     </script>
 </dom-module>
