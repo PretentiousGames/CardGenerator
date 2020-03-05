@@ -427,7 +427,9 @@
       var xSize = styles.xSize;
       var ySize = styles.ySize;
 
-      context.strokeRect(x, y, xSize, ySize);
+      if (debug) {
+        context.strokeRect(x, y, xSize, ySize);
+      }
 
       var fontObj = _.where(fonts, { name: font.toLocaleLowerCase() })[0].font;
 
