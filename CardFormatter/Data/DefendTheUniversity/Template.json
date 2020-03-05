@@ -32,165 +32,272 @@
 			"y": 0
 		}
 	],
-	"subTypes": [{
-		"requirements": [{
-			"name": "deck",
-			"values": ["part"]
-		}],
-		"elements": [{
-				"type": "image",
-				"name": "frame",
-				"constant": "frame",
-				"draw": false
-			},
-			{
-				"type": "text",
-				"name": "title",
-				"styles": {
-					"font": "belweb.ttf",
-					"x": 150,
-					"y": 130,
-					"xSize": 525,
-					"ySize": 87
-				}
-			},
-			{
-				"type": "text",
-				"name": "rules",
-				"styles": {
-					"x": 150,
-					"y": 860,
-					"xSize": 525,
-					"ySize": 150,
-					"maxFontSize": 100
-				}
-			},
-			{
-				"type": "array",
-				"name": "circleArray",
-				"styles": {
-					"x": 100,
-					"y": 225,
-					"sizeMax": 625,
-					"xSize": 125,
-					"ySize": 125,
-					"direction": "horizontal",
-					"placementStyle": "distributed",
-					"maxFontSize": 1000,
-					"justification": "left"
-				}
-			},
-			{
-				"type": "text",
-				"name": "spaceC",
-				"styles": {
-					"array": "circleArray"
-				}
-			},
-			{
-				"type": "text",
-				"name": "speedC",
-				"styles": {
-					"array": "circleArray"
-				}
-			},
-			{
-				"type": "text",
-				"name": "defenseC",
-				"styles": {
-					"array": "circleArray"
-				}
-			},
-			{
-				"type": "text",
-				"name": "sizeC",
-				"styles": {
-					"array": "circleArray"
-				}
-			},
-			{
-				"type": "array",
-				"name": "costArray",
-				"styles": {
-					"x": 106.5,
-					"y": 237.5,
-					"sizeMax": 625,
-					"xSize": 100,
-					"ySize": 100,
-					"direction": "horizontal",
-					"placementStyle": "distributed",
-					"maxFontSize": 1000,
-					"justification": "left"
-				}
-			},
-      {
-        "type": "text",
-        "name": "space",
-        "suffix": { "constant": "spaceSymbol" },
-        "styles": {
-          "array": "costArray"
+  "subTypes": [
+    {
+      "requirements": [
+        {
+          "name": "deck",
+          "values": [ "foe" ]
         }
-      },
-      {
-        "type": "text",
-        "name": "speed",
-        "suffix": { "constant": "speedSymbol" },
-        "styles": {
-          "array": "costArray"
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "name": "frame",
+          "constant": "frame",
+          "draw": false
+        },
+        {
+          "type": "text",
+          "name": "title",
+          "styles": {
+            "font": "belweb.ttf",
+            "x": 150,
+            "y": 125,
+            "xSize": 450,
+            "ySize": 100
+          }
+        },
+        {
+          "type": "text",
+          "name": "type",
+          "styles": {
+            "x": 600,
+            "y": 125,
+            "xSize": 100,
+            "ySize": 100
+          }
+        },
+        {
+          "type": "text",
+          "name": "bonusAbilities",
+          "styles": {
+            "x": 238,
+            "y": 875,
+            "xSize": 350,
+            "ySize": 117,
+            "maxFontSize": 100
+          }
+        },
+        {
+          "type": "text",
+          "name": "requirements",
+          "styles": {
+            "x": 588,
+            "y": 884,
+            "xSize": 100,
+            "ySize": 100
+          }
+        },
+        {
+          "type": "text",
+          "name": "effects",
+          "styles": {
+            "x": 138,
+            "y": 884,
+            "xSize": 100,
+            "ySize": 100
+          }
         }
-      },
-      {
-        "type": "text",
-        "name": "defense",
-        "suffix": { "constant": "defenseSymbol" },
-        "styles": {
-          "array": "costArray"
+      ],
+      "subTypes": [
+        {
+          "requirements": [
+            {
+              "name": "icon",
+              "exists": true
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "iconPlatform",
+              "constant": "strengthPlatform",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "type": "text",
+              "name": "icon",
+              "styles": {
+                "x": 602,
+                "y": 727,
+                "xSize": 121,
+                "ySize": 121
+              }
+            }
+          ]
         }
-      },
-      {
-        "type": "text",
-        "name": "size",
-        "suffix": { "constant": "sizeSymbol" },
-        "styles": {
-          "array": "costArray"
+      ]
+    },
+    {
+      "requirements": [
+        {
+          "name": "deck",
+          "values": [ "part" ]
         }
-      },
-			{
-				"type": "text",
-				"name": "type",
-				"styles": {
-					"x": 88.75,
-					"y": 705.33,
-					"xSize": 150,
-					"ySize": 150
-				}
-			}
-		],
-		"subTypes": [{
-			"requirements": [{
-				"name": "icon",
-				"exists": true
-			}],
-			"elements": [{
-					"type": "image",
-					"name": "iconPlatform",
-					"constant": "strengthPlatform",
-					"x": 0,
-					"y": 0
-				},
-				{
-					"type": "text",
-					"name": "icon",
-					"styles": {
-						"x": 602,
-						"y": 727,
-						"xSize": 121,
-						"ySize": 121
-					}
-				}
-			]
-		}]
-	}],
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "name": "frame",
+          "constant": "frame",
+          "draw": false
+        },
+        {
+          "type": "text",
+          "name": "title",
+          "styles": {
+            "font": "belweb.ttf",
+            "x": 150,
+            "y": 130,
+            "xSize": 525,
+            "ySize": 87
+          }
+        },
+        {
+          "type": "text",
+          "name": "rules",
+          "styles": {
+            "x": 150,
+            "y": 860,
+            "xSize": 525,
+            "ySize": 150,
+            "maxFontSize": 100
+          }
+        },
+        {
+          "type": "array",
+          "name": "circleArray",
+          "styles": {
+            "x": 100,
+            "y": 225,
+            "sizeMax": 625,
+            "xSize": 125,
+            "ySize": 125,
+            "direction": "horizontal",
+            "placementStyle": "distributed",
+            "maxFontSize": 1000,
+            "justification": "left"
+          }
+        },
+        {
+          "type": "text",
+          "name": "spaceC",
+          "styles": {
+            "array": "circleArray"
+          }
+        },
+        {
+          "type": "text",
+          "name": "speedC",
+          "styles": {
+            "array": "circleArray"
+          }
+        },
+        {
+          "type": "text",
+          "name": "defenseC",
+          "styles": {
+            "array": "circleArray"
+          }
+        },
+        {
+          "type": "text",
+          "name": "sizeC",
+          "styles": {
+            "array": "circleArray"
+          }
+        },
+        {
+          "type": "array",
+          "name": "costArray",
+          "styles": {
+            "x": 106.5,
+            "y": 237.5,
+            "sizeMax": 625,
+            "xSize": 100,
+            "ySize": 100,
+            "direction": "horizontal",
+            "placementStyle": "distributed",
+            "maxFontSize": 1000,
+            "justification": "left"
+          }
+        },
+        {
+          "type": "text",
+          "name": "space",
+          "suffix": { "constant": "spaceSymbol" },
+          "styles": {
+            "array": "costArray"
+          }
+        },
+        {
+          "type": "text",
+          "name": "speed",
+          "suffix": { "constant": "speedSymbol" },
+          "styles": {
+            "array": "costArray"
+          }
+        },
+        {
+          "type": "text",
+          "name": "defense",
+          "suffix": { "constant": "defenseSymbol" },
+          "styles": {
+            "array": "costArray"
+          }
+        },
+        {
+          "type": "text",
+          "name": "size",
+          "suffix": { "constant": "sizeSymbol" },
+          "styles": {
+            "array": "costArray"
+          }
+        },
+        {
+          "type": "text",
+          "name": "type",
+          "styles": {
+            "x": 88.75,
+            "y": 705.33,
+            "xSize": 150,
+            "ySize": 150
+          }
+        }
+      ],
+      "subTypes": [
+        {
+          "requirements": [
+            {
+              "name": "icon",
+              "exists": true
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "iconPlatform",
+              "constant": "strengthPlatform",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "type": "text",
+              "name": "icon",
+              "styles": {
+                "x": 602,
+                "y": 727,
+                "xSize": 121,
+                "ySize": 121
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
 	"constants": {
 		"verticalBackground": "Background.png",
 		"frame": "Frame.png",

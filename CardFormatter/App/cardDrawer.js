@@ -347,6 +347,23 @@
 
             return _.flatten(_.map(output, getRuns));
           }
+          if (val.includes("\\n")) {
+            var splits = val.split(/\\n/g);
+            var output = [];
+
+            for (var i = 0; i < splits.length; i++) {
+              var val = splits[i];
+              if (val.length > 0) {
+                output.push(val);
+              }
+              if (i + 1 < splits.length) {
+                output.push("\n");
+              }
+            }
+
+            return _.flatten(_.map(output, getRuns));
+          }
+
           else {
             return [{ text: val }];
           }
