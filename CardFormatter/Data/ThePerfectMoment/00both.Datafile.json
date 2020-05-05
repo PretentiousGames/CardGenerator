@@ -10,14 +10,7 @@
     "title2": "Aces",
     "rules2": "Look at the top card of the deck. You may score it, discard it, or return a card and keep it.",
     "art2": "Aces.png",
-    "flavor": [
-      { "constant": "2014" },
-      " get the  ",
-      { "constant": "Money" },
-      " and the ",
-      { "constant": "Aces" },
-      "!"
-    ] 
+    "flavor": "{2014} get the {Money} and the {Aces}!"
   },
   {
     "number": "-2",
@@ -30,14 +23,7 @@
     "title2": "Drink",
     "rules2": "Always: Play with your plan revealed.\n Activate: rotate both your equipment.",
     "art2": "Drink.png",
-    "flavor": [
-      { "constant": "2014" },
-      " get the  ",
-      { "constant": "Money" },
-      " and the ",
-      { "constant": "Drink" },
-      "!"
-    ]
+    "flavor": "{2014} get the {Money} and the {Drink}!"
   },
   {
     "number": "-3",
@@ -50,14 +36,7 @@
     "title2": "Knife",
     "rules2": "Look at your opponents plan. You may score it.",
     "art2": "Knife.png",
-    "flavor": [
-      { "constant": "2014" },
-      " get the  ",
-      { "constant": "Money" },
-      " and the ",
-      { "constant": "Knife" },
-      "!"
-    ]
+    "flavor": "{2014} get the {Money} and the {Knife}!"
   },
   {
     "number": "-4",
@@ -70,14 +49,7 @@
     "title2": "Drink",
     "rules2": "Always: Play with your plan revealed.\n Activate: rotate both your equipment.",
     "art2": "Drink.png",
-    "flavor": [
-      { "constant": "2014" },
-      " get the  ",
-      { "constant": "Aces" },
-      " and the ",
-      { "constant": "Drink" },
-      "!"
-    ]
+    "flavor": "{2014} get the {Aces} and the {Drink}!"
   },
   {
     "number": "-5",
@@ -90,14 +62,7 @@
     "title2": "Knife",
     "rules2": "Look at your opponents plan. You may score it.",
     "art2": "Knife.png",
-    "flavor": [
-      { "constant": "2014" },
-      " get the  ",
-      { "constant": "Aces" },
-      " and the ",
-      { "constant": "Knife" },
-      "!"
-    ]
+    "flavor": "{2014} get the {Aces} and the {Knife}!"
   },
   {
     "number": "-6",
@@ -110,14 +75,7 @@
     "title2": "Knife",
     "rules2": "Look at your opponents plan. You may score it.",
     "art2": "Knife.png",
-    "flavor": [
-      { "constant": "2014" },
-      " get the  ",
-      { "constant": "Drink" },
-      " and the ",
-      { "constant": "Knife" },
-      "!"
-    ]
+    "flavor": "{2014} get the {Drink} and the {Knife}!"
   },
 
 
@@ -132,14 +90,7 @@
     "title2": "Poetry",
     "rules2": "Draw 2 cards. Return 2 cards.",
     "art2": "Poetry.png",
-    "flavor": [
-      { "constant": "1994" },
-      " get the  ",
-      { "constant": "Flowers" },
-      " and the ",
-      { "constant": "Poetry" },
-      "!"
-    ]
+    "flavor": "{1994} get the {Flowers} and the {Poetry}!"
   },
   {
     "number": "2",
@@ -152,14 +103,7 @@
     "title2": "Chocolate",
     "rules2": "Draw 2 cards: Equip 1, Discard the other. Return an Equipped card.",
     "art2": "Candy.png",
-    "flavor": [
-      { "constant": "1994" },
-      " get the  ",
-      { "constant": "Flowers" },
-      " and the ",
-      { "constant": "Chocolate" },
-      "!"
-    ]
+    "flavor": "{1994} get the {Flowers} and the {Chocolate}!"
   },
   {
     "number": "3",
@@ -172,14 +116,7 @@
     "title2": "Ring",
     "rules2": "You and a player each select and trade a card.",
     "art2": "Ring.png",
-    "flavor": [
-      { "constant": "1994" },
-      " get the  ",
-      { "constant": "Flowers" },
-      " and the ",
-      { "constant": "Ring" },
-      "!"
-    ]
+    "flavor": "{1994} get the {Flowers} and the {Ring}!"
   },
   {
     "number": "4",
@@ -192,14 +129,7 @@
     "title2": "Chocolate",
     "rules2": "Draw 2 cards: Equip 1, Discard the other. Return an Equipped card.",
     "art2": "Candy.png",
-    "flavor": [
-      { "constant": "1994" },
-      " get the  ",
-      { "constant": "Chocolate" },
-      " and the ",
-      { "constant": "Poetry" },
-      "!"
-    ]
+    "flavor": "{1994} get the {Chocolate} and the {Poetry}!"
   },
   {
     "number": "5",
@@ -212,14 +142,7 @@
     "title2": "Ring",
     "rules2": "You and a player each select and trade a card.",
     "art2": "Ring.png",
-    "flavor": [
-      { "constant": "1994" },
-      " get the  ",
-      { "constant": "Ring" },
-      " and the ",
-      { "constant": "Poetry" },
-      "!"
-    ]
+    "flavor": "{1994} get the {Ring} and the {Poetry}!"
   },
   {
     "number": "6",
@@ -232,14 +155,7 @@
     "title2": "Ring",
     "rules2": "You and a player each select and trade a card.",
     "art2": "Ring.png",
-    "flavor": [
-      { "constant": "1994" },
-      " get the  ",
-      { "constant": "Chocolate" },
-      " and the ",
-      { "constant": "Ring" },
-      "!"
-    ]
+    "flavor": "{1994} get the {Chocolate} and the {Ring}!"
   },
   {
     "number": "7",
@@ -252,14 +168,7 @@
     "title2": "Mask",
     "rules2": "Draw a card. Discard a card.",
     "art2": "Disguise.png",
-    "flavor": [
-      { "constant": "1981" },
-      " get the  ",
-      { "constant": "Map" },
-      " and the ",
-      { "constant": "Mask" },
-      "!"
-    ]
+    "flavor": "{1981} get the {Map} and the {Mask}!"
   },
   {
     "number": "8",
@@ -272,14 +181,7 @@
     "title2": "Gun",
     "rules2": "Look at the top 2 cards of the deck. Return or Discard them.",
     "art2": "Gun.png",
-    "flavor": [
-      { "constant": "1981" },
-      " get the  ",
-      { "constant": "Map" },
-      " and the ",
-      { "constant": "Gun" },
-      "!"
-    ]
+    "flavor": "{1981} get the {Map} and the {Gun}!"
   },
   {
     "number": "9",
@@ -292,14 +194,7 @@
     "title2": "Armor",
     "rules2": "A foe may score their plan as a fragment. Activate 1 of their Items facing them 2x.",
     "art2": "Armor.png",
-    "flavor": [
-      { "constant": "1981" },
-      " get the  ",
-      { "constant": "Map" },
-      " and the ",
-      { "constant": "Armor" },
-      "!"
-    ]
+    "flavor": "{1981} get the {Map} and the {Armor}!"
   },
   {
     "number": "10",
@@ -312,14 +207,7 @@
     "title2": "Gun",
     "rules2": "Look at the top 2 cards of the deck. Return or Discard them.",
     "art2": "Gun.png",
-    "flavor": [
-      { "constant": "1981" },
-      " get the  ",
-      { "constant": "Gun" },
-      " and the ",
-      { "constant": "Mask" },
-      "!"
-    ]
+    "flavor": "{1981} get the {Gun} and the {Mask}!"
   },
   {
     "number": "11",
@@ -332,14 +220,7 @@
     "title2": "Armor",
     "rules2": "A foe may score their plan as a fragment. Activate 1 of their Items facing them 2x.",
     "art2": "Armor.png",
-    "flavor": [
-      { "constant": "1981" },
-      " get the  ",
-      { "constant": "Armor" },
-      " and the ",
-      { "constant": "Mask" },
-      "!"
-    ]
+    "flavor": "{1981} get the {Armor} and the {Mask}!"
   },
   {
     "number": "12",
@@ -352,14 +233,7 @@
     "title2": "Armor",
     "rules2": "A foe may score their plan as a fragment. Activate 1 of their Items facing them 2x.",
     "art2": "Armor.png",
-    "flavor": [
-      { "constant": "1981" },
-      " get the  ",
-      { "constant": "Gun" },
-      " and the ",
-      { "constant": "Armor" },
-      "!"
-    ]
+    "flavor": "{1981} get the {Gun} and the {Armor}!"
   },
   {
     "number": "13",
@@ -372,14 +246,7 @@
     "title2": "Phone",
     "rules2": "Discard 2 cards. Draw 2 cards.",
     "art2": "Phone.png",
-    "flavor": [
-      { "constant": "2005" },
-      " get the  ",
-      { "constant": "Keys" },
-      " and the ",
-      { "constant": "Phone" },
-      "!"
-    ]
+    "flavor": "{2005} get the {Keys} and the {Phone}!"
   },
   {
     "number": "14",
@@ -392,14 +259,7 @@
     "title2": "Wallet",
     "rules2": "Rotate 1 of another player's Equipment.",
     "art2": "Wallet.png",
-    "flavor": [
-      { "constant": "2005" },
-      " get the  ",
-      { "constant": "Keys" },
-      " and the ",
-      { "constant": "Wallet" },
-      "!"
-    ]
+    "flavor": "{2005} get the {Keys} and the {Wallet}!"
   },
   {
     "number": "15",
@@ -412,14 +272,7 @@
     "title2": "Tickets",
     "rules2": "Look at the top 4 cards of the deck, Return them in any order.",
     "art2": "Tickets.png",
-    "flavor": [
-      { "constant": "2005" },
-      " get the  ",
-      { "constant": "Keys" },
-      " and the ",
-      { "constant": "Tickets" },
-      "!"
-    ]
+    "flavor": "{2005} get the {Keys} and the {Tickets}!"
   },
   {
     "number": "16",
@@ -432,14 +285,7 @@
     "title2": "Wallet",
     "rules2": "Rotate 1 of another player's Equipment.",
     "art2": "Wallet.png",
-    "flavor": [
-      { "constant": "2005" },
-      " get the  ",
-      { "constant": "Wallet" },
-      " and the ",
-      { "constant": "Phone" },
-      "!"
-    ]
+    "flavor": "{2005} get the {Wallet} and the {Phone}!"
   },
   {
     "number": "17",
@@ -452,14 +298,7 @@
     "title2": "Tickets",
     "rules2": "Look at the top 4 cards of the deck, Return them in any order.",
     "art2": "Tickets.png",
-    "flavor": [
-      { "constant": "2005" },
-      " get the  ",
-      { "constant": "Tickets" },
-      " and the ",
-      { "constant": "Phone" },
-      "!"
-    ]
+    "flavor": "{2005} get the {Tickets} and the {Phone}!"
   },
   {
     "number": "18",
@@ -472,14 +311,7 @@
     "title2": "Tickets",
     "rules2": "Look at the top 4 cards of the deck, Return them in any order.",
     "art2": "Tickets.png",
-    "flavor": [
-      { "constant": "2005" },
-      " get the  ",
-      { "constant": "Wallet" },
-      " and the ",
-      { "constant": "Tickets" },
-      "!"
-    ]
+    "flavor": "{2005} get the {Wallet} and the {Tickets}!"
   },
 
   {
@@ -493,14 +325,7 @@
     "title2": "Resume",
     "rules2": "Discard a card. Look at 3 cards from the deck, Draw 1, Return the rest.",
     "art2": "Resume.png",
-    "flavor": [
-      { "constant": "1989" },
-      " get the  ",
-      { "constant": "Tie" },
-      " and the ",
-      { "constant": "Resume" },
-      "!"
-    ]
+    "flavor": "{1989} get the {Tie} and the {Resume}!"
   },
   {
     "number": "20",
@@ -513,14 +338,7 @@
     "title2": "Shoes",
     "rules2": "Score your plan as a fragment.",
     "art2": "Shoes.png",
-    "flavor": [
-      { "constant": "1989" },
-      " get the  ",
-      { "constant": "Tie" },
-      " and the ",
-      { "constant": "Shoes" },
-      "!"
-    ]
+    "flavor": "{1989} get the {Tie} and the {Shoes}!"
   },
   {
     "number": "21",
@@ -533,14 +351,7 @@
     "title2": "Pen",
     "rules2": "Swap one of your equipment cards with the paradox.",
     "art2": "Pen.png",
-    "flavor": [
-      { "constant": "1989" },
-      " get the  ",
-      { "constant": "Tie" },
-      " and the ",
-      { "constant": "Pen" },
-      "!"
-    ]
+    "flavor": "{1989} get the {Tie} and the {Pen}!"
   },
   {
     "number": "22",
@@ -553,14 +364,7 @@
     "title2": "Shoes",
     "rules2": "Score your plan as a fragment.",
     "art2": "Shoes.png",
-    "flavor": [
-      { "constant": "1989" },
-      " get the  ",
-      { "constant": "Shoes" },
-      " and the ",
-      { "constant": "Resume" },
-      "!"
-    ]
+    "flavor": "{1989} get the {Shoes} and the {Resume}!"
   },
   {
     "number": "23",
@@ -573,14 +377,7 @@
     "title2": "Pen",
     "rules2": "Swap one of your equipment cards with the paradox.",
     "art2": "Pen.png",
-    "flavor": [
-      { "constant": "1989" },
-      " get the  ",
-      { "constant": "Pen" },
-      " and the ",
-      { "constant": "Resume" },
-      "!"
-    ]
+    "flavor": "{1989} get the {Pen} and the {Resume}!"
   },
   {
     "number": "24",
@@ -593,14 +390,7 @@
     "title2": "Pen",
     "rules2": "Swap one of your equipment cards with the paradox.",
     "art2": "Pen.png",
-    "flavor": [
-      { "constant": "1989" },
-      " get the  ",
-      { "constant": "Shoes" },
-      " and the ",
-      { "constant": "Pen" },
-      "!"
-    ]
+    "flavor": "{1989} get the {Shoes} and the {Pen}!"
   },
 
 
@@ -615,14 +405,7 @@
     "title2": "Paint",
     "rules2": "For each card in your Equipment: either Discard it and Draw a card, or Rotate it.",
     "art2": "Paint.png",
-    "flavor": [
-      { "constant": "2000" },
-      " get the  ",
-      { "constant": "Cutters" },
-      " and the ",
-      { "constant": "Paint" },
-      "!"
-    ]
+    "flavor": "{2000} get the {Cutters} and the {Paint}!"
   },
   {
     "number": "26",
@@ -635,14 +418,7 @@
     "title2": "Syringe",
     "rules2": "Return this card. its owner Draws 1 card. Swap a card with a player's plan.",
     "art2": "Syringe.png",
-    "flavor": [
-      { "constant": "2000" },
-      " get the  ",
-      { "constant": "Cutters" },
-      " and the ",
-      { "constant": "Syringe" },
-      "!"
-    ]
+    "flavor": "{2000} get the {Cutters} and the {Syringe}!"
   },
   {
     "number": "27",
@@ -655,14 +431,7 @@
     "title2": "Handcuffs",
     "rules2": "Swap 2 cards scored as a fragment with another player's card scored for 2 points.",
     "art2": "Handcuffs.png",
-    "flavor": [
-      { "constant": "2000" },
-      " get the  ",
-      { "constant": "Cutters" },
-      " and the ",
-      { "constant": "Handcuffs" },
-      "!"
-    ]
+    "flavor": "{2000} get the {Cutters} and the {Handcuffs}!"
   },
   {
     "number": "28",
@@ -675,14 +444,7 @@
     "title2": "Syringe",
     "rules2": "Return this card. its owner Draws 1 card. Swap a card with a player's plan.",
     "art2": "Syringe.png",
-    "flavor": [
-      { "constant": "2000" },
-      " get the  ",
-      { "constant": "Syringe" },
-      " and the ",
-      { "constant": "Paint" },
-      "!"
-    ]
+    "flavor": "{2000} get the {Syringe} and the {Paint}!"
   },
   {
     "number": "29",
@@ -695,14 +457,7 @@
     "title2": "Handcuffs",
     "rules2": "Swap 2 cards scored as a fragment with another player's card scored for 2 points.",
     "art2": "Handcuffs.png",
-    "flavor": [
-      { "constant": "2000" },
-      " get the  ",
-      { "constant": "Handcuffs" },
-      " and the ",
-      { "constant": "Paint" },
-      "!"
-    ]
+    "flavor": "{2000} get the {Handcuffs} and the {Paint}!"
   },
   {
     "number": "30",
@@ -715,14 +470,7 @@
     "title2": "Handcuffs",
     "rules2": "Swap 2 cards scored as a fragment with another player's card scored for 2 points.",
     "art2": "Handcuffs.png",
-    "flavor": [
-      { "constant": "2000" },
-      " get the  ",
-      { "constant": "Syringe" },
-      " and the ",
-      { "constant": "Handcuffs" },
-      "!"
-    ]
+    "flavor": "{2000} get the {Syringe} and the {Handcuffs}!"
   },
 
 
@@ -737,14 +485,7 @@
     "title2": "Hatchet",
     "rules2": "Rotate all Equipment. Discard a card. Draw a card.",
     "art2": "Hatchet.png",
-    "flavor": [
-      { "constant": "2018" },
-      " get the  ",
-      { "constant": "Tent" },
-      " and the ",
-      { "constant": "Hatchet" },
-      "!"
-    ]
+    "flavor": "{2018} get the {Tent} and the {Hatchet}!"
   },
   {
     "number": "32",
@@ -757,14 +498,7 @@
     "title2": "Matches",
     "rules2": "Re-score for 2 points a card that you have scored as a fragment.",
     "art2": "Matches.png",
-    "flavor": [
-      { "constant": "2018" },
-      " get the  ",
-      { "constant": "Tent" },
-      " and the ",
-      { "constant": "Matches" },
-      "!"
-    ]
+    "flavor": "{2018} get the {Tent} and the {Matches}!"
   },
   {
     "number": "33",
@@ -777,14 +511,7 @@
     "title2": "Rope",
     "rules2": "Swap any card scored as a fragment with the Paradox. You may score your plan.",
     "art2": "Rope.png",
-    "flavor": [
-      { "constant": "2018" },
-      " get the  ",
-      { "constant": "Tent" },
-      " and the ",
-      { "constant": "Rope" },
-      "!"
-    ]
+    "flavor": "{2018} get the {Tent} and the {Rope}!"
   },
   {
     "number": "34",
@@ -797,14 +524,7 @@
     "title2": "Matches",
     "rules2": "Re-score for 2 points a card that you have scored as a fragment.",
     "art2": "Matches.png",
-    "flavor": [
-      { "constant": "2018" },
-      " get the  ",
-      { "constant": "Matches" },
-      " and the ",
-      { "constant": "Hatchet" },
-      "!"
-    ]
+    "flavor": "{2018} get the {Matches} and the {Hatchet}!"
   },
   {
     "number": "35",
@@ -817,14 +537,7 @@
     "title2": "Rope",
     "rules2": "Swap any card scored as a fragment with the Paradox. You may score your plan.",
     "art2": "Rope.png",
-    "flavor": [
-      { "constant": "2018" },
-      " get the  ",
-      { "constant": "Rope" },
-      " and the ",
-      { "constant": "Hatchet" },
-      "!"
-    ]
+    "flavor": "{2018} get the {Rope} and the {Hatchet}!"
   },
   {
     "number": "36",
@@ -837,14 +550,7 @@
     "title2": "Rope",
     "rules2": "Swap any card scored as a fragment with the Paradox. You may score your plan.",
     "art2": "Rope.png",
-    "flavor": [
-      { "constant": "2018" },
-      " get the  ",
-      { "constant": "Matches" },
-      " and the ",
-      { "constant": "Rope" },
-      "!"
-    ]
+    "flavor": "{2018} get the {Matches} and the {Rope}!"
   },
 
   {
@@ -858,14 +564,7 @@
     "title2": "Sheet Music",
     "rules2": "Always: When scoring this treat it as any item.\nActivate: rotate an Equipped card.",
     "art2": "SheetMusic.png",
-    "flavor": [
-      { "constant": "1925" },
-      " get the  ",
-      { "constant": "Banjolele" },
-      " and the ",
-      { "constant": "Music" },
-      "!"
-    ]
+    "flavor": "{1925} get the {Banjolele} and the {Music}!"
   },
   {
     "number": "38",
@@ -878,14 +577,7 @@
     "title2": "Mess Jacket",
     "rules2": "Swap any card with the Paradox. Your opponent may score their plan as a fragment.",
     "art2": "MessJacket.png",
-    "flavor": [
-      { "constant": "1925" },
-      " get the  ",
-      { "constant": "Banjolele" },
-      " and the ",
-      { "constant": "Jacket" },
-      "!"
-    ]
+    "flavor": "{1925} get the {Banjolele} and the {Jacket}!"
   },
   {
     "number": "39",
@@ -898,14 +590,7 @@
     "title2": "the Times",
     "rules2": "Draw 2 cards from the bottom of the deck. Discard 2 cards.",
     "art2": "Times.png",
-    "flavor": [
-      { "constant": "1925" },
-      " get the  ",
-      { "constant": "Banjolele" },
-      " and the ",
-      { "constant": "Times" },
-      "!"
-    ]
+    "flavor": "{1925} get the {Banjolele} and the {Times}!"
   },
   {
     "number": "40",
@@ -918,14 +603,7 @@
     "title2": "Mess Jacket",
     "rules2": "Swap any card with the Paradox. Your opponent may score their plan as a fragment.",
     "art2": "MessJacket.png",
-    "flavor": [
-      { "constant": "1925" },
-      " get the  ",
-      { "constant": "Jacket" },
-      " and the ",
-      { "constant": "Music" },
-      "!"
-    ]
+    "flavor": "{1925} get the {Jacket} and the {Music}!"
   },
   {
     "number": "41",
@@ -938,14 +616,7 @@
     "title2": "the Times",
     "rules2": "Draw 2 cards from the bottom of the deck. Discard 2 cards.",
     "art2": "Times.png",
-    "flavor": [
-      { "constant": "1925" },
-      " get the  ",
-      { "constant": "Times" },
-      " and the ",
-      { "constant": "Music" },
-      "!"
-    ]
+    "flavor": "{1925} get the {Times} and the {Music}!"
   },
   {
     "number": "42",
@@ -958,13 +629,6 @@
     "title2": "the Times",
     "rules2": "Draw 2 cards from the bottom of the deck. Discard 2 cards.",
     "art2": "Times.png",
-    "flavor": [
-      { "constant": "1925" },
-      " get the  ",
-      { "constant": "Jacket" },
-      " and the ",
-      { "constant": "Times" },
-      "!"
-    ]
+    "flavor": "{1925} get the {Jacket} and the {Times}!"
   }
 ]

@@ -183,7 +183,7 @@
         },
         {
           "type": "text",
-          "name": "spaceC",
+          "name": "sizeC",
           "styles": {
             "array": "circleArray"
           }
@@ -257,13 +257,20 @@
           }
         },
         {
+          "type": "image",
+          "name": "typePlatform",
+          "constant": "TypeCircle",
+          "x": 62,
+          "y": 760
+        },
+        {
           "type": "text",
           "name": "type",
           "styles": {
-            "x": 88.75,
-            "y": 705.33,
-            "xSize": 150,
-            "ySize": 150
+            "x": 67,
+            "y": 765,
+            "xSize": 190,
+            "ySize": 90
           }
         }
       ],
@@ -298,351 +305,353 @@
       ]
     }
   ],
-	"constants": {
-		"verticalBackground": "Background.png",
-		"frame": "Frame.png",
+  "constants": {
+    "verticalBackground": "Background.png",
+    "frame": "Frame.png",
+    "CostCircle": "CostCircle.png",
+    "TypeCircle": "TypeCircle.png",
 
-		"1automa": {
-			"yPadding": 0.1,
-			"xImgOffset": -18,
-			"relativeSize": 1.36,
-			"imageFile": "1Automa.png"
-		},
+    "1automa": {
+      "yPadding": 0.1,
+      "xImgOffset": -18,
+      "relativeSize": 1.36,
+      "imageFile": "1Automa.png"
+    },
 
-		"controller": {
-			"yPadding": 0.1,
-			"xImgOffset": -2,
-			"relativeSize": 1.1,
-			"imageFile": "controller.png"
-		},
+    "controller": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "controller.png"
+    },
 
-		"->": {
-			"text": "Է",
-			"styles": {
-				"font": "Aharoni-True.ttf"
-			},
-			"description": "yields"
-		},
+    "->": {
+      "text": "Է",
+      "styles": {
+        "font": "Aharoni-True.ttf"
+      },
+      "description": "yields"
+    },
 
-		"fireSymbol": {
-			"text": "ե",
-			"styles": {
-				"font": "Aharoni-True.ttf",
-				"innerShadow": {
-					"styles": {
-						"fillStyle": "#FF0",
-						"initialLineWidth": 1,
-						"strokeStyle": "#400",
-						"shadowColor": "#f00",
-						"secondLineWidth": 2
-					}
-				}
-			}
-		},
-		"acidSymbol": {
-			"text": "ӳ",
-			"styles": {
-				"font": "Aharoni-True.ttf",
-				"innerShadow": {
-					"styles": {
-						"fillStyle": "#0F0",
-						"initialLineWidth": 1,
-						"strokeStyle": "#000",
-						"shadowColor": "#FF0",
-						"secondLineWidth": 2
-					}
-				}
-			}
-		},
-		"bulletsSymbol": {
-			"text": "Ի",
-			"styles": {
-				"font": "Aharoni-True.ttf",
-				"innerShadow": {
-					"styles": {
-						"fillStyle": "#999",
-						"initialLineWidth": 1,
-						"strokeStyle": "#000",
-						"shadowColor": "#666",
-						"secondLineWidth": 2
-					}
-				}
-			}
-		},
-		"punchSymbol": {
-			"text": "ӱ",
-			"styles": {
-				"font": "Aharoni-True.ttf",
-				"innerShadow": {
-					"styles": {
-						"fillStyle": "#A86",
-						"initialLineWidth": 1,
-						"strokeStyle": "#000",
-						"shadowColor": "#642",
-						"secondLineWidth": 2
-					}
-				}
-			}
-		},
-		"scratchSymbol": {
-			"text": "Ӱ",
-			"styles": {
-				"font": "Aharoni-True.ttf",
-				"innerShadow": {
-					"styles": {
-						"fillStyle": "#A21",
-						"initialLineWidth": 1,
-						"strokeStyle": "#000",
-						"shadowColor": "#610",
-						"secondLineWidth": 2
-					}
-				}
-			}
-		},
-		"electricitySymbol": {
-			"text": "ԧ",
-			"styles": {
-				"font": "Aharoni-True.ttf",
-				"innerShadow": {
-					"styles": {
-						"fillStyle": "#ff0",
-						"initialLineWidth": 1,
-						"strokeStyle": "#000",
-						"shadowColor": "#880",
-						"secondLineWidth": 2
-					}
-				}
-			}
-		},
-		"speedSymbol": {
-			"text": "ӛ",
-			"styles": {
-				"font": "Aharoni-True.ttf",
-				"color": "#ff0",
-				"innerShadow": {
-					"styles": {
-						"fillStyle": "#ff0",
-						"initialLineWidth": 1,
-						"strokeStyle": "#000",
-						"shadowColor": "#440",
-						"secondLineWidth": 2
-					}
-				}
-			}
-		},
-		"abominationCard": {
-			"text": "ҵ",
-			"styles": {
-				"font": "Aharoni-True.ttf"
-			}
-		},
-		"cyborgCard": {
-			"text": "Ҷ",
-			"styles": {
-				"font": "Aharoni-True.ttf"
-			}
-		},
-		"robotCard": {
-			"text": "ҷ",
-			"styles": {
-				"font": "Aharoni-True.ttf"
-			}
-		},
-		"ufoCard": {
-			"text": "Ҹ",
-			"styles": {
-				"font": "Aharoni-True.ttf"
-			}
-		},
-		"alienCard": {
-			"text": "ҹ",
-			"styles": {
-				"font": "Aharoni-True.ttf"
-			}
-		},
-		"plantCard": {
-			"text": "Һ",
-			"styles": {
-				"font": "Aharoni-True.ttf"
-			}
-		},
-		"foeCard": {
-			"text": "ԗ",
-			"styles": {
-				"font": "Aharoni-True.ttf"
-			}
-		},
-		"wildAttack": {
-			"text": "Լ",
-			"styles": {
-				"font": "Aharoni-True.ttf"
-			}
-		},
-		"wildAttack2": {
-			"text": "ՂՂՂ",
-			"styles": {
-				"font": "Aharoni-True.ttf"
-			}
-		},
-		"healingSymbol": {
-			"text": "փ",
-			"styles": {
-				"font": "Aharoni-True.ttf",
-				"innerShadow": {
-					"styles": {
-						"fillStyle": "#0f0",
-						"initialLineWidth": 1,
-						"strokeStyle": "#000",
-						"shadowColor": "#080",
-						"secondLineWidth": 2
-					}
-				}
-			}
-		},
-		"yieldsSymbol": {
-			"text": ":",
-			"text.symbol": "Է",
-			"styles": {
-				"font": "Aharoni-True.ttf"
-			}
-		},
-		"flipSymbol": {
-			"text": "ծ",
-			"styles": {
-				"font": "Aharoni-True.ttf"
-			}
-		},
-		"damageSymbol": {
-			"text": "Ӯ",
-			"styles": {
-				"font": "Aharoni-True.ttf",
-				"maxFontSize": 10,
-				"innerShadow": {
-					"styles": {
-						"fillStyle": "#f00",
-						"initialLineWidth": 1,
-						"strokeStyle": "#000",
-						"shadowColor": "#ff0",
-						"secondLineWidth": 2
-					}
-				}
-			}
-		},
-		"attackSymbol": {
-			"text": "Ղ",
-			"styles": {
-				"font": "Aharoni-True.ttf"
-			}
-		},
-		"energySymbol": {
-			"text": "Ԩ",
-			"styles": {
-				"font": "Aharoni-True.ttf",
-				"innerShadow": {
-					"styles": {
-						"fillStyle": "#FF0",
-						"initialLineWidth": 1,
-						"strokeStyle": "#000",
-						"shadowColor": "#880",
-						"secondLineWidth": 2
-					}
-				}
-			}
-		},
-		"+energy": {
-			"text": "ҳ",
-			"styles": {
-				"font": "Aharoni-True.ttf",
-				"innerShadow": {
-					"styles": {
-						"fillStyle": "#0F0",
-						"initialLineWidth": 1,
-						"strokeStyle": "#000",
-						"shadowColor": "#080",
-						"secondLineWidth": 2
-					}
-				}
-			}
-		},
-		"-energy": {
-			"text": "Ҵ",
-			"styles": {
-				"font": "Aharoni-True.ttf",
-				"innerShadow": {
-					"styles": {
-						"fillStyle": "#F00",
-						"initialLineWidth": 1,
-						"strokeStyle": "#000",
-						"shadowColor": "#800",
-						"secondLineWidth": 2
-					}
-				}
-			}
-		},
-		"costSymbol": {
-			"text": "$",
-			"styles": {}
-		},
-		"sizeSymbol": {
-			"text": "դ",
-			"styles": {
-				"font": "Aharoni-True.ttf",
-				"innerShadow": {
-					"styles": {
-						"fillStyle": "#00F",
-						"initialLineWidth": 1,
-						"strokeStyle": "#000",
-						"shadowColor": "#008",
-						"secondLineWidth": 2
-					}
-				}
-			}
-		},
-		"repairSymbol": {
-			"text": "ӭ",
-			"styles": {
-				"font": "Aharoni-True.ttf",
-				"innerShadow": {
-					"styles": {
-						"fillStyle": "#0FF",
-						"initialLineWidth": 1,
-						"strokeStyle": "#000",
-						"shadowColor": "#088",
-						"secondLineWidth": 2
-					}
-				}
-			}
-		},
-		"defenseSymbol": {
-			"text": "Ԡ",
-			"styles": {
-				"font": "Aharoni-True.ttf",
-				"innerShadow": {
-					"styles": {
-						"fillStyle": "#800",
-						"initialLineWidth": 1,
-						"strokeStyle": "#000",
-						"shadowColor": "#400",
-						"secondLineWidth": 2
-					}
-				}
-			}
-		},
-		"spaceSymbol": {
-			"text": "ը",
-			"styles": {
-				"font": "Aharoni-True.ttf",
-				"innerShadow": {
-					"styles": {
-						"fillStyle": "#00f",
-						"initialLineWidth": 1,
-						"strokeStyle": "#000",
-						"shadowColor": "#008",
-						"secondLineWidth": 2
-					}
-				}
-			}
-		}
+    "fireSymbol": {
+      "text": "ե",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#FF0",
+            "initialLineWidth": 1,
+            "strokeStyle": "#400",
+            "shadowColor": "#f00",
+            "secondLineWidth": 2
+          }
+        }
+      }
+    },
+    "acidSymbol": {
+      "text": "ӳ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#0F0",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#FF0",
+            "secondLineWidth": 2
+          }
+        }
+      }
+    },
+    "bulletsSymbol": {
+      "text": "Ի",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#999",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#666",
+            "secondLineWidth": 2
+          }
+        }
+      }
+    },
+    "punchSymbol": {
+      "text": "ӱ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#A86",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#642",
+            "secondLineWidth": 2
+          }
+        }
+      }
+    },
+    "scratchSymbol": {
+      "text": "Ӱ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#A21",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#610",
+            "secondLineWidth": 2
+          }
+        }
+      }
+    },
+    "electricitySymbol": {
+      "text": "ԧ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#ff0",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#880",
+            "secondLineWidth": 2
+          }
+        }
+      }
+    },
+    "speedSymbol": {
+      "text": "ӛ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "color": "#ff0",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#ff0",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#440",
+            "secondLineWidth": 2
+          }
+        }
+      }
+    },
+    "abominationCard": {
+      "text": "ҵ",
+      "styles": {
+        "font": "Aharoni-True.ttf"
+      }
+    },
+    "cyborgCard": {
+      "text": "Ҷ",
+      "styles": {
+        "font": "Aharoni-True.ttf"
+      }
+    },
+    "robotCard": {
+      "text": "ҷ",
+      "styles": {
+        "font": "Aharoni-True.ttf"
+      }
+    },
+    "ufoCard": {
+      "text": "Ҹ",
+      "styles": {
+        "font": "Aharoni-True.ttf"
+      }
+    },
+    "alienCard": {
+      "text": "ҹ",
+      "styles": {
+        "font": "Aharoni-True.ttf"
+      }
+    },
+    "plantCard": {
+      "text": "Һ",
+      "styles": {
+        "font": "Aharoni-True.ttf"
+      }
+    },
+    "foeCard": {
+      "text": "ԗ",
+      "styles": {
+        "font": "Aharoni-True.ttf"
+      }
+    },
+    "wildAttack": {
+      "text": "Լ",
+      "styles": {
+        "font": "Aharoni-True.ttf"
+      }
+    },
+    "wildAttack2": {
+      "text": "ՂՂՂ",
+      "styles": {
+        "font": "Aharoni-True.ttf"
+      }
+    },
+    "healingSymbol": {
+      "text": "փ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#0f0",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#080",
+            "secondLineWidth": 2
+          }
+        }
+      }
+    },
+    "yieldsSymbol": {
+      "text": ":",
+      "text.symbol": "Է",
+      "styles": {
+        "font": "Aharoni-True.ttf"
+      }
+    },
+    "flipSymbol": {
+      "text": "ծ",
+      "styles": {
+        "font": "Aharoni-True.ttf"
+      }
+    },
+    "damageSymbol": {
+      "text": "Ӯ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "maxFontSize": 10,
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#f00",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#ff0",
+            "secondLineWidth": 2
+          }
+        }
+      }
+    },
+    "attackSymbol": {
+      "text": "Ղ",
+      "styles": {
+        "font": "Aharoni-True.ttf"
+      }
+    },
+    "energySymbol": {
+      "text": "Ԩ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#FF0",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#880",
+            "secondLineWidth": 2
+          }
+        }
+      }
+    },
+    "+energy": {
+      "text": "ҳ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#0F0",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#080",
+            "secondLineWidth": 2
+          }
+        }
+      }
+    },
+    "-energy": {
+      "text": "Ҵ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#F00",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#800",
+            "secondLineWidth": 2
+          }
+        }
+      }
+    },
+    "costSymbol": {
+      "text": "$",
+      "styles": {}
+    },
+    "sizeSymbol": {
+      "text": "դ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#00F",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#008",
+            "secondLineWidth": 2
+          }
+        }
+      }
+    },
+    "repairSymbol": {
+      "text": "ӭ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#0FF",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#088",
+            "secondLineWidth": 2
+          }
+        }
+      }
+    },
+    "defenseSymbol": {
+      "text": "Ԡ",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#800",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#400",
+            "secondLineWidth": 2
+          }
+        }
+      }
+    },
+    "spaceSymbol": {
+      "text": "ը",
+      "styles": {
+        "font": "Aharoni-True.ttf",
+        "innerShadow": {
+          "styles": {
+            "fillStyle": "#00f",
+            "initialLineWidth": 1,
+            "strokeStyle": "#000",
+            "shadowColor": "#008",
+            "secondLineWidth": 2
+          }
+        }
+      }
+    }
 
-	}
+  }
 }

@@ -1,0 +1,4 @@
+name,orientation,deck,type,title,rules,speed,defense,size,image,speedC,defenseC,sizeC
+03.3-Battery,vertical,part,Add On,Battery,{flipSymbol}{yieldsSymbol}3{+energy},,,1,SampleImage.png,,,{cc}
+03.4-HeavyArmor,vertical,part,Add On,Heavy Armor,,,4,2,SampleImage.png,,{cc},{cc}
+03.5-Jetpack,vertical,part,Add On,Jetpack,{flipSymbol}{yieldsSymbol},1,,1,SampleImage.png,{cc},,{cc}
