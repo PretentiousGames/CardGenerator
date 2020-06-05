@@ -439,6 +439,15 @@
         }
       }
     },
+
+
+    "abomination": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "abomination.png" },
+    "beast": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "beast.png" },
+    "flier": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "flier.png" },
+    "plant": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "plant.png" },
+    "robot": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "robot.png" },
+    "undead": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "undead.png" },
+
     "abominationCard": {
       "text": "ҵ",
       "styles": {
