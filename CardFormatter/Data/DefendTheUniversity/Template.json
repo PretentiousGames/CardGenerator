@@ -1,43 +1,43 @@
 ﻿{
-	"fullWidth": 825,
-	"fullHeight": 1125,
-	"styles": {
-		"font": "arial.ttf",
-		"maxFontSize": 100,
-		"minFontSize": 10,
-		"lineHeight": 1,
-		"offset": -0.147,
-		"xOffset": 0.052,
-		"justification": "center",
-		"alignment": "middle",
-		"textBaseline": "hanging"
-	},
-	"requirements": [],
-	"elements": [{
-			"type": "image",
-			"name": "background",
-			"x": 0,
-			"y": 0
-		},
-		{
-			"type": "image",
-			"name": "image",
-			"x": 0,
-			"y": 0
-		},
-		{
-			"type": "image",
-			"name": "frame",
-			"x": 0,
-			"y": 0
-		}
-	],
+  "fullWidth": 825,
+  "fullHeight": 1125,
+  "styles": {
+    "font": "arial.ttf",
+    "maxFontSize": 100,
+    "minFontSize": 10,
+    "lineHeight": 1,
+    "offset": -0.147,
+    "xOffset": 0.052,
+    "justification": "center",
+    "alignment": "middle",
+    "textBaseline": "hanging"
+  },
+  "requirements": [],
+  "elements": [{
+      "type": "image",
+      "name": "background",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "image",
+      "name": "image",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "image",
+      "name": "frame",
+      "x": 0,
+      "y": 0
+    }
+  ],
   "subTypes": [
     {
       "requirements": [
         {
           "name": "deck",
-          "values": [ "foe" ]
+          "values": ["foe"]
         }
       ],
       "elements": [
@@ -134,7 +134,7 @@
       "requirements": [
         {
           "name": "deck",
-          "values": [ "part" ]
+          "values": [ "part", "basic", "technology" ]
         }
       ],
       "elements": [
@@ -167,114 +167,110 @@
           }
         },
         {
-          "type": "array",
-          "name": "circleArray",
-          "styles": {
-            "x": 100,
-            "y": 225,
-            "sizeMax": 625,
-            "xSize": 125,
-            "ySize": 125,
-            "direction": "horizontal",
-            "placementStyle": "distributed",
-            "maxFontSize": 1000,
-            "justification": "left"
-          }
-        },
-        {
           "type": "text",
-          "name": "sizeC",
+          "name": "textOnlyRules",
           "styles": {
-            "array": "circleArray"
-          }
-        },
-        {
-          "type": "text",
-          "name": "speedC",
-          "styles": {
-            "array": "circleArray"
-          }
-        },
-        {
-          "type": "text",
-          "name": "defenseC",
-          "styles": {
-            "array": "circleArray"
-          }
-        },
-        {
-          "type": "text",
-          "name": "sizeC",
-          "styles": {
-            "array": "circleArray"
-          }
-        },
-        {
-          "type": "array",
-          "name": "costArray",
-          "styles": {
-            "x": 106.5,
-            "y": 237.5,
-            "sizeMax": 625,
-            "xSize": 100,
+            "x": 143,
+            "y": 883,
+            "xSize": 539,
             "ySize": 100,
-            "direction": "horizontal",
-            "placementStyle": "distributed",
-            "maxFontSize": 1000,
-            "justification": "left"
-          }
-        },
-        {
-          "type": "text",
-          "name": "space",
-          "suffix": { "constant": "spaceSymbol" },
-          "styles": {
-            "array": "costArray"
-          }
-        },
-        {
-          "type": "text",
-          "name": "speed",
-          "suffix": { "constant": "speedSymbol" },
-          "styles": {
-            "array": "costArray"
-          }
-        },
-        {
-          "type": "text",
-          "name": "defense",
-          "suffix": { "constant": "defenseSymbol" },
-          "styles": {
-            "array": "costArray"
-          }
-        },
-        {
-          "type": "text",
-          "name": "size",
-          "suffix": { "constant": "sizeSymbol" },
-          "styles": {
-            "array": "costArray"
-          }
-        },
-        {
-          "type": "image",
-          "name": "typePlatform",
-          "constant": "TypeCircle",
-          "x": 62,
-          "y": 760
-        },
-        {
-          "type": "text",
-          "name": "type",
-          "styles": {
-            "x": 67,
-            "y": 765,
-            "xSize": 190,
-            "ySize": 90
+            "maxFontSize": 100
           }
         }
+
       ],
       "subTypes": [
+        {"requirements": [{"name": "size","values": [ "1" ]}],"elements": [{"type": "image","name": "1Size.png","x": 0,"y": 0}]},
+        {"requirements": [{"name": "size","values": [ "2" ]}],"elements": [{"type": "image","name": "2Size.png","x": 0,"y": 0}]},
+        {"requirements": [{"name": "size","values": [ "3" ]}],"elements": [{"type": "image","name": "3Size.png","x": 0,"y": 0}]},
+        {"requirements": [{"name": "size","values": [ "4" ]}],"elements": [{"type": "image","name": "4Size.png","x": 0,"y": 0}]},
+        {"requirements": [{"name": "size","values": [ "5" ]}],"elements": [{"type": "image","name": "5Size.png","x": 0,"y": 0}]},
+        {
+          "requirements": [
+            {
+              "name": "size",
+              "exists": true
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "sizePlatform",
+              "constant": "SizeCircle",
+              "x": 560,
+              "y": 740,
+              "xSize": 140,
+              "ySize": 130
+            },
+            {
+              "type": "text",
+              "name": "size",
+              "suffix": { "constant": "size" },
+              "styles": {
+                "x": 555,
+                "y": 780,
+                "xSize": 150,
+                "ySize": 80
+              }
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "type",
+              "exists": true
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "typePlatform",
+              "constant": "TypeCircle",
+              "x": 62,
+              "y": 760
+            },
+            {
+              "type": "text",
+              "name": "type",
+              "styles": {
+                "x": 67,
+                "y": 765,
+                "xSize": 190,
+                "ySize": 90
+              }
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "costs",
+              "exists": true
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "costsPlatform",
+              "constant": "CostCircle",
+              "x": 588,
+              "y": 225,
+              "xSize": 125,
+              "ySize": 125
+            },
+            {
+              "type": "text",
+              "name": "costs",
+              "styles": {
+                "x": 600,
+                "y": 244,
+                "xSize": 100,
+                "ySize": 100
+              }
+            }
+          ]
+        },
         {
           "requirements": [
             {
@@ -310,12 +306,61 @@
     "frame": "Frame.png",
     "CostCircle": "CostCircle.png",
     "TypeCircle": "TypeCircle.png",
+    "SizeCircle": "SizePlatform.png",
 
-    "1automa": {
-      "yPadding": 0.1,
-      "xImgOffset": -18,
-      "relativeSize": 1.36,
-      "imageFile": "1Automa.png"
+    "beast": {
+      "imageFile": "beast.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "flier": {
+      "imageFile": "flier.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "robot": {
+      "imageFile": "robot.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "plant": {
+      "imageFile": "plant.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "undead": {
+      "imageFile": "undead.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "abomination": {
+      "imageFile": "abomination.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "temp": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1.15,
+      "imageFile": "temp.png"
+    },
+    "-coolant": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "minusCoolant.png"
+    },
+    "+coolant": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "plusCoolant.png"
     },
 
     "controller": {
@@ -333,7 +378,7 @@
       "description": "yields"
     },
 
-    "fireSymbol": {
+    "fire": {
       "text": "ե",
       "styles": {
         "font": "Aharoni-True.ttf",
@@ -348,7 +393,7 @@
         }
       }
     },
-    "acidSymbol": {
+    "acid": {
       "text": "ӳ",
       "styles": {
         "font": "Aharoni-True.ttf",
@@ -363,7 +408,7 @@
         }
       }
     },
-    "bulletsSymbol": {
+    "bullets": {
       "text": "Ի",
       "styles": {
         "font": "Aharoni-True.ttf",
@@ -378,7 +423,7 @@
         }
       }
     },
-    "punchSymbol": {
+    "punch": {
       "text": "ӱ",
       "styles": {
         "font": "Aharoni-True.ttf",
@@ -393,7 +438,7 @@
         }
       }
     },
-    "scratchSymbol": {
+    "scratch": {
       "text": "Ӱ",
       "styles": {
         "font": "Aharoni-True.ttf",
@@ -408,7 +453,7 @@
         }
       }
     },
-    "electricitySymbol": {
+    "electricity": {
       "text": "ԧ",
       "styles": {
         "font": "Aharoni-True.ttf",
@@ -423,7 +468,7 @@
         }
       }
     },
-    "speedSymbol": {
+    "speed": {
       "text": "ӛ",
       "styles": {
         "font": "Aharoni-True.ttf",
@@ -441,12 +486,42 @@
     },
 
 
-    "abomination": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "abomination.png" },
-    "beast": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "beast.png" },
-    "flier": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "flier.png" },
-    "plant": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "plant.png" },
-    "robot": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "robot.png" },
-    "undead": { "yPadding": 0.1, "xImgOffset": -2, "relativeSize": 1.1, "imageFile": "undead.png" },
+    "abomination": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "abomination.png"
+    },
+    "beast": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "beast.png"
+    },
+    "flier": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "flier.png"
+    },
+    "plant": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "plant.png"
+    },
+    "robot": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "robot.png"
+    },
+    "undead": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "undead.png"
+    },
 
     "abominationCard": {
       "text": "ҵ",
@@ -502,7 +577,7 @@
         "font": "Aharoni-True.ttf"
       }
     },
-    "healingSymbol": {
+    "healing": {
       "text": "փ",
       "styles": {
         "font": "Aharoni-True.ttf",
@@ -517,20 +592,20 @@
         }
       }
     },
-    "yieldsSymbol": {
+    "yields": {
       "text": ":",
-      "text.symbol": "Է",
+      "text.": "Է",
       "styles": {
         "font": "Aharoni-True.ttf"
       }
     },
-    "flipSymbol": {
+    "flip": {
       "text": "ծ",
       "styles": {
         "font": "Aharoni-True.ttf"
       }
     },
-    "damageSymbol": {
+    "damage": {
       "text": "Ӯ",
       "styles": {
         "font": "Aharoni-True.ttf",
@@ -546,13 +621,13 @@
         }
       }
     },
-    "attackSymbol": {
+    "attack": {
       "text": "Ղ",
       "styles": {
         "font": "Aharoni-True.ttf"
       }
     },
-    "energySymbol": {
+    "energy": {
       "text": "Ԩ",
       "styles": {
         "font": "Aharoni-True.ttf",
@@ -597,11 +672,11 @@
         }
       }
     },
-    "costSymbol": {
+    "cost": {
       "text": "$",
       "styles": {}
     },
-    "sizeSymbol": {
+    "size": {
       "text": "դ",
       "styles": {
         "font": "Aharoni-True.ttf",
@@ -616,7 +691,7 @@
         }
       }
     },
-    "repairSymbol": {
+    "repair": {
       "text": "ӭ",
       "styles": {
         "font": "Aharoni-True.ttf",
@@ -631,7 +706,7 @@
         }
       }
     },
-    "defenseSymbol": {
+    "defense": {
       "text": "Ԡ",
       "styles": {
         "font": "Aharoni-True.ttf",
@@ -646,7 +721,7 @@
         }
       }
     },
-    "spaceSymbol": {
+    "space": {
       "text": "ը",
       "styles": {
         "font": "Aharoni-True.ttf",
