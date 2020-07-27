@@ -3,6 +3,11 @@
   "fullHeight": 500,
   "styles": {
     "font": "arial.ttf",
+    "maxFontSize": 500,
+    "minFontSize": 10,
+    "lineHeight": 1,
+    "offset": -0.147,
+    "xOffset": 0.052,
     "justification": "center",
     "alignment": "middle",
     "textBaseline": "hanging"
@@ -22,331 +27,191 @@
     }],
   "subTypes": [],
   "constants": {
+    "beast": {
+      "imageFile": "beast.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "flier": {
+      "imageFile": "flier.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "robot": {
+      "imageFile": "robot.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "plant": {
+      "imageFile": "plant.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "undead": {
+      "imageFile": "undead.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "abomination": {
+      "imageFile": "abomination.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "temp": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1.15,
+      "imageFile": "temp.png"
+    },
+    "-coolant": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "-coolant.png"
+    },
+    "+coolant": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "+coolant.png"
+    },
+
+    "controller": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "controller.png"
+    },
+
     "->": {
-      "text": "Է",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      },
-      "description": "yields"
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "arrow.png"
     },
     "fire": {
-      "text": "ե",
-      "styles": {
-        "font": "Aharoni-True.ttf",
-        "innerShadow": {
-          "styles": {
-            "fillStyle": "#FF0",
-            "initialLineWidth": 1,
-            "strokeStyle": "#400",
-            "shadowColor": "#f00",
-            "secondLineWidth": 2
-          }
-        }
-      }
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "fire.png"
     },
     "acid": {
-      "text": "ӳ",
-      "styles": {
-        "font": "Aharoni-True.ttf",
-        "innerShadow": {
-          "styles": {
-            "fillStyle": "#0F0",
-            "initialLineWidth": 1,
-            "strokeStyle": "#000",
-            "shadowColor": "#FF0",
-            "secondLineWidth": 2
-          }
-        }
-      }
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "acid.png"
     },
     "bullets": {
-      "text": "Ի",
-      "styles": {
-        "font": "Aharoni-True.ttf",
-        "innerShadow": {
-          "styles": {
-            "fillStyle": "#999",
-            "initialLineWidth": 1,
-            "strokeStyle": "#000",
-            "shadowColor": "#666",
-            "secondLineWidth": 2
-          }
-        }
-      }
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "bullets.png"
     },
     "punch": {
-      "text": "ӱ",
-      "styles": {
-        "font": "Aharoni-True.ttf",
-        "innerShadow": {
-          "styles": {
-            "fillStyle": "#A86",
-            "initialLineWidth": 1,
-            "strokeStyle": "#000",
-            "shadowColor": "#642",
-            "secondLineWidth": 2
-          }
-        }
-      }
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "punch.png"
     },
     "scratch": {
-      "text": "Ӱ",
-      "styles": {
-        "font": "Aharoni-True.ttf",
-        "innerShadow": {
-          "styles": {
-            "fillStyle": "#A21",
-            "initialLineWidth": 1,
-            "strokeStyle": "#000",
-            "shadowColor": "#610",
-            "secondLineWidth": 2
-          }
-        }
-      }
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "scratch.png"
     },
     "electricity": {
-      "text": "ԧ",
-      "styles": {
-        "font": "Aharoni-True.ttf",
-        "innerShadow": {
-          "styles": {
-            "fillStyle": "#ff0",
-            "initialLineWidth": 1,
-            "strokeStyle": "#000",
-            "shadowColor": "#880",
-            "secondLineWidth": 2
-          }
-        }
-      }
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "electricity.png"
     },
     "speed": {
-      "text": "ӛ",
-      "styles": {
-        "font": "Aharoni-True.ttf",
-        "color": "#ff0",
-        "innerShadow": {
-          "styles": {
-            "fillStyle": "#ff0",
-            "initialLineWidth": 1,
-            "strokeStyle": "#000",
-            "shadowColor": "#440",
-            "secondLineWidth": 2
-          }
-        }
-      }
-    },
-    "abominationCard": {
-      "text": "ҵ",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      }
-    },
-    "cyborgCard": {
-      "text": "Ҷ",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      }
-    },
-    "robotCard": {
-      "text": "ҷ",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      }
-    },
-    "ufoCard": {
-      "text": "Ҹ",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      }
-    },
-    "alienCard": {
-      "text": "ҹ",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      }
-    },
-    "plantCard": {
-      "text": "Һ",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      }
-    },
-    "foeCard": {
-      "text": "ԗ",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      }
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "speed.png"
     },
     "wildAttack": {
-      "text": "Լ",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      }
-    },
-    "wildAttack2": {
-      "text": "ՂՂՂ",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      }
-    },
-    "healing": {
-      "text": "փ",
-      "styles": {
-        "font": "Aharoni-True.ttf",
-        "innerShadow": {
-          "styles": {
-            "fillStyle": "#0f0",
-            "initialLineWidth": 1,
-            "strokeStyle": "#000",
-            "shadowColor": "#080",
-            "secondLineWidth": 2
-          }
-        }
-      }
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "wildAttack.png"
     },
     "yields": {
-      "text": ":",
-      "text.": "Է",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      }
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "yields.png"
     },
     "flip": {
-      "text": "ծ",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      }
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "flip.png"
     },
     "damage": {
-      "text": "Ӯ",
-      "styles": {
-        "font": "Aharoni-True.ttf",
-        "maxFontSize": 10,
-        "innerShadow": {
-          "styles": {
-            "fillStyle": "#f00",
-            "initialLineWidth": 1,
-            "strokeStyle": "#000",
-            "shadowColor": "#ff0",
-            "secondLineWidth": 2
-          }
-        }
-      }
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "damage.png"
     },
     "attack": {
-      "text": "Ղ",
-      "styles": {
-        "font": "Aharoni-True.ttf"
-      }
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "attack.png"
     },
     "energy": {
-      "text": "Ԩ",
-      "styles": {
-        "font": "Aharoni-True.ttf",
-        "innerShadow": {
-          "styles": {
-            "fillStyle": "#FF0",
-            "initialLineWidth": 1,
-            "strokeStyle": "#000",
-            "shadowColor": "#880",
-            "secondLineWidth": 2
-          }
-        }
-      }
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "energy.png"
     },
     "+energy": {
-      "text": "ҳ",
-      "styles": {
-        "font": "Aharoni-True.ttf",
-        "innerShadow": {
-          "styles": {
-            "fillStyle": "#0F0",
-            "initialLineWidth": 1,
-            "strokeStyle": "#000",
-            "shadowColor": "#080",
-            "secondLineWidth": 2
-          }
-        }
-      }
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "+energy.png"
     },
     "-energy": {
-      "text": "Ҵ",
-      "styles": {
-        "font": "Aharoni-True.ttf",
-        "innerShadow": {
-          "styles": {
-            "fillStyle": "#F00",
-            "initialLineWidth": 1,
-            "strokeStyle": "#000",
-            "shadowColor": "#800",
-            "secondLineWidth": 2
-          }
-        }
-      }
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "-energy.png"
     },
     "cost": {
       "text": "$",
       "styles": {}
     },
     "size": {
-      "text": "դ",
-      "styles": {
-        "font": "Aharoni-True.ttf",
-        "innerShadow": {
-          "styles": {
-            "fillStyle": "#00F",
-            "initialLineWidth": 1,
-            "strokeStyle": "#000",
-            "shadowColor": "#008",
-            "secondLineWidth": 2
-          }
-        }
-      }
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "size.png"
     },
     "repair": {
-      "text": "ӭ",
-      "styles": {
-        "font": "Aharoni-True.ttf",
-        "innerShadow": {
-          "styles": {
-            "fillStyle": "#0FF",
-            "initialLineWidth": 1,
-            "strokeStyle": "#000",
-            "shadowColor": "#088",
-            "secondLineWidth": 2
-          }
-        }
-      }
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "repair.png"
     },
     "defense": {
-      "text": "Ԡ",
-      "styles": {
-        "font": "Aharoni-True.ttf",
-        "innerShadow": {
-          "styles": {
-            "fillStyle": "#800",
-            "initialLineWidth": 1,
-            "strokeStyle": "#000",
-            "shadowColor": "#400",
-            "secondLineWidth": 2
-          }
-        }
-      }
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "defense.png"
     },
     "space": {
-      "text": "ը",
-      "styles": {
-        "font": "Aharoni-True.ttf",
-        "innerShadow": {
-          "styles": {
-            "fillStyle": "#00f",
-            "initialLineWidth": 1,
-            "strokeStyle": "#000",
-            "shadowColor": "#008",
-            "secondLineWidth": 2
-          }
-        }
-      }
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "space.png"
     }
   }
 }
