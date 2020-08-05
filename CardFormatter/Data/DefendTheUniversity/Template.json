@@ -45,7 +45,7 @@
         {
           "type": "image",
           "name": "frame",
-          "constant": "frame",
+          "constant": "hFrame",
           "draw": false
         },
         {
@@ -53,9 +53,9 @@
           "name": "title",
           "styles": {
             "font": "belweb.ttf",
-            "x": 150,
+            "x": 287,
             "y": 125,
-            "xSize": 450,
+            "xSize": 550,
             "ySize": 100
           }
         },
@@ -63,30 +63,9 @@
           "type": "text",
           "name": "type",
           "styles": {
-            "x": 600,
+            "x": 131,
             "y": 125,
-            "xSize": 100,
-            "ySize": 100
-          }
-        },
-        {
-          "type": "text",
-          "name": "bonusAbilities",
-          "styles": {
-            "x": 238,
-            "y": 875,
-            "xSize": 350,
-            "ySize": 117,
-            "maxFontSize": 100
-          }
-        },
-        {
-          "type": "text",
-          "name": "requirements",
-          "styles": {
-            "x": 588,
-            "y": 884,
-            "xSize": 100,
+            "xSize": 150,
             "ySize": 100
           }
         },
@@ -94,48 +73,52 @@
           "type": "text",
           "name": "effects",
           "styles": {
-            "x": 138,
-            "y": 884,
-            "xSize": 100,
+            "x": 844,
+            "y": 125,
+            "xSize": 150,
             "ySize": 100
+          }
+        },
+        {
+          "type": "text",
+          "name": "requirements",
+          "styles": {
+            "x": 287,
+            "y": 574,
+            "xSize": 550,
+            "ySize": 117,
+            "maxFontSize": 100
+          }
+        },
+        {
+          "type": "text",
+          "name": "bonusAbilities",
+          "styles": {
+            "x": 143,
+            "y": 583,
+            "xSize": 133,
+            "ySize": 99
+          }
+        },
+        {
+          "type": "text",
+          "name": "health",
+          "styles": {
+            "x": 850,
+            "y": 583,
+            "xSize": 133,
+            "ySize": 99
           }
         }
       ],
       "subTypes": [
-        {
-          "requirements": [
-            {
-              "name": "icon",
-              "exists": true
-            }
-          ],
-          "elements": [
-            {
-              "type": "image",
-              "name": "iconPlatform",
-              "constant": "strengthPlatform",
-              "x": 0,
-              "y": 0
-            },
-            {
-              "type": "text",
-              "name": "icon",
-              "styles": {
-                "x": 602,
-                "y": 727,
-                "xSize": 121,
-                "ySize": 121
-              }
-            }
-          ]
-        }
       ]
     },
     {
       "requirements": [
         {
           "name": "deck",
-          "values": [ "part", "basic", "technology" ]
+          "values": [ "part", "character", "technology" ]
         }
       ],
       "elements": [
@@ -264,6 +247,22 @@
         {
           "requirements": [
             {
+              "name": "rules",
+              "values": [ "+2{space}" ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "2Space.png",
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
               "name": "size",
               "exists": true
             }
@@ -303,15 +302,15 @@
               "type": "image",
               "name": "typePlatform",
               "constant": "TypeCircle",
-              "x": 62,
-              "y": 760
+              "x": 100,
+              "y": 230
             },
             {
               "type": "text",
               "name": "type",
               "styles": {
-                "x": 67,
-                "y": 765,
+                "x": 105,
+                "y": 235,
                 "xSize": 190,
                 "ySize": 90
               }
@@ -380,10 +379,29 @@
   "constants": {
     "verticalBackground": "Background.png",
     "frame": "Frame.png",
+    "hFrame": "HorizontalFrame.png",
     "CostCircle": "CostCircle.png",
     "TypeCircle": "TypeCircle.png",
     "SizeCircle": "SizePlatform.png",
 
+    "foeCard": {
+      "imageFile": "foeCard.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "regeneration": {
+      "imageFile": "regeneration.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "health": {
+      "imageFile": "health.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
     "beast": {
       "imageFile": "beast.png",
       "yPadding": 0.25,
@@ -416,6 +434,12 @@
     },
     "abomination": {
       "imageFile": "abomination.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "royal": {
+      "imageFile": "royal.png",
       "yPadding": 0.25,
       "xImgOffset": -0,
       "relativeSize": 1
