@@ -118,7 +118,7 @@
       "requirements": [
         {
           "name": "deck",
-          "values": [ "part", "character", "technology" ]
+          "values": [ "part", "character", "technology", "startPart" ]
         }
       ],
       "elements": [

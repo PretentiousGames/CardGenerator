@@ -1,0 +1,17 @@
+﻿[
+  {
+    "image": "BaghdadCapacitor.png",
+    "name": "card.22",
+    "orientation": "vertical",
+    "title": "Baghdad Capacitor",
+    "type": "electrical",
+    "trigger1": "When this leaves play",
+    "triggerValue1": "0",
+    "rules1": "Add 1{metal} token to each of your {steam} gadgets (finished and unfinished).",
+    "rulesValue1": "3",
+    "trigger2": "Always",
+    "triggerValue2": "A",
+    "rules2": "OO{metal}OO{flesh}OO",
+    "rulesValue2": "1"
+  }
+]
