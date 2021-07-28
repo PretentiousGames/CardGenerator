@@ -1064,7 +1064,6 @@
     <Content Include="Data\DefendTheUniversity\icons.Template.json" />
     <Content Include="Data\DefendTheUniversity\icons.xcf" />
     <Content Include="Data\DefendTheUniversity\plant.xcf" />
-    <Content Include="Data\GrabTheLoot\a_gtl.D%40ta.old.csv" />
     <Content Include="Data\GrabTheLoot\a_gtl.Datafile.xlsx" />
     <None Include="Data\Hellrides\Data.json" />
     <Content Include="Data\Hellrides\3.png" />
@@ -2092,7 +2091,6 @@
     <Content Include="Data\TerranLeagueOfDefenseRobots\00map.Template.json" />
     <Content Include="Data\GrabTheLoot\Aharoni-True.ttf" />
     <Content Include="Data\GrabTheLoot\a_gtl.Template.json" />
-    <Content Include="Data\GrabTheLoot\a_gtl.D%40ta.old.json" />
     <Content Include="Data\TheMadnessPlace\MP.Cards.foo.Data.json" />
     <Content Include="Data\ThePerfectMoment\00both.Datafile.json" />
     <Content Include="Data\ThePerfectMoment\00.sm.data.json" />
