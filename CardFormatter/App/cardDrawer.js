@@ -2,7 +2,7 @@
 
 //The cardformatter namespace
 (function () {
-  var debug = false;
+    var debug = false;
   var cardFormatter = window.cardFormatter || {};
   window.cardFormatter = cardFormatter;
   var template = {};

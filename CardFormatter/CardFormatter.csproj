@@ -50,7 +50,6 @@
   <ItemGroup>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
@@ -532,31 +531,22 @@
     <Content Include="Data\Infamous.18\Biggerizer.png" />
     <Content Include="Data\Infamous.18\Birdbath.png" />
     <Content Include="Data\Infamous.18\BoneTeleportationNetwork.png" />
-    <Content Include="Data\Infamous.18\boostable1.png" />
-    <Content Include="Data\Infamous.18\boostable2.png" />
     <Content Include="Data\Infamous.18\BrainInAJar.png" />
     <Content Include="Data\Infamous.18\CarapaceFertilizer.png" />
     <Content Include="Data\Infamous.18\Chemical.png" />
-    <Content Include="Data\Infamous.18\chemicalBack.png" />
-    <Content Include="Data\Infamous.18\chemicalBG.png" />
     <Content Include="Data\Infamous.18\ChronometricCoupler.png" />
     <Content Include="Data\Infamous.18\CollapsingGun.png" />
     <Content Include="Data\Infamous.18\ConcotionOfHappiness.png" />
     <Content Include="Data\Infamous.18\Craftsman.png" />
     <Content Include="Data\Infamous.18\DeathRay.png" />
     <Content Include="Data\Infamous.18\DrDoomDevice.png" />
-    <Content Include="Data\Infamous.18\electricalBack.png" />
-    <Content Include="Data\Infamous.18\electricalBG.png" />
     <Content Include="Data\Infamous.18\Electricity.png" />
     <Content Include="Data\Infamous.18\ethericCompass.png" />
     <Content Include="Data\Infamous.18\Flesh.png" />
-    <Content Include="Data\Infamous.18\fleshBack.png" />
-    <Content Include="Data\Infamous.18\fleshBG.png" />
     <Content Include="Data\Infamous.18\GlowyGreenThings.png" />
     <Content Include="Data\Infamous.18\Graverobber.png" />
     <Content Include="Data\Infamous.18\GravityEngine.png" />
     <Content Include="Data\Infamous.18\HelperBot.png" />
-    <Content Include="Data\Infamous.18\HumanoidCat.png" />
     <Content Include="Data\Infamous.18\Hypno-crown.png" />
     <Content Include="Data\Infamous.18\Hypnotist.png" />
     <Content Include="Data\Infamous.18\IntelligentRodents.png" />
@@ -564,26 +554,20 @@
     <Content Include="Data\Infamous.18\Killbot.png" />
     <Content Include="Data\Infamous.18\KineticAccumulator.png" />
     <Content Include="Data\Infamous.18\Metal.png" />
-    <Content Include="Data\Infamous.18\metalBack.png" />
-    <Content Include="Data\Infamous.18\metalBG.png" />
     <Content Include="Data\Infamous.18\NefariousTurbine.png" />
     <Content Include="Data\Infamous.18\Personificationizer.png" />
     <Content Include="Data\Infamous.18\PollutionAmplifier.png" />
-    <Content Include="Data\Infamous.18\rats2.png" />
     <Content Include="Data\Infamous.18\Recycler.png" />
     <Content Include="Data\Infamous.18\RevivificationMatrix.png" />
     <Content Include="Data\Infamous.18\SevenMinuteBoots.png" />
     <Content Include="Data\Infamous.18\SpatialAnomalizer.png" />
     <Content Include="Data\Infamous.18\Steam.png" />
-    <Content Include="Data\Infamous.18\steamBack.png" />
-    <Content Include="Data\Infamous.18\steamBG.png" />
     <Content Include="Data\Infamous.18\TemporalClacker.png" />
     <Content Include="Data\Infamous.18\theIronMidas.png" />
     <Content Include="Data\Infamous.18\Tinkerer.png" />
     <Content Include="Data\Infamous.18\TissueDisruptor.png" />
     <Content Include="Data\Infamous.18\Torturer.png" />
     <Content Include="Data\Infamous.18\Trash.png" />
-    <Content Include="Data\Infamous.18\trashBack.png" />
     <Content Include="Data\Infamous.18\trashBG.png" />
     <Content Include="Data\Infamous.18\TrenchcoatGenerator.png" />
     <Content Include="Data\Infamous.18\VampirePepper.png" />
@@ -2187,7 +2171,6 @@
     <Content Include="Data\Infamous.18\Aharoni-True.ttf" />
     <Content Include="Data\Infamous.18\arial.ttf" />
     <Content Include="Data\Infamous.18\belweb.ttf" />
-    <Content Include="Data\Infamous.18\Cards.Datafile.csv" />
     <Content Include="Data\Infamous.18\Montserrat-Light.otf" />
     <Content Include="Data\Infamous.18\Template.json" />
     <Content Include="Data\ReadingGame\DataFile.xlsx" />
