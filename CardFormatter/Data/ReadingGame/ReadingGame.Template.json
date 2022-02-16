@@ -1,0 +1,269 @@
+﻿{
+  "fullWidth": 825,
+  "fullHeight": 1125,
+  "styles": {
+    "font": "arial.ttf",
+    "maxFontSize": 100,
+    "minFontSize": 10,
+    "lineHeight": 1,
+    "offset": -0.147,
+    "xOffset": 0.052,
+    "justification": "center",
+    "alignment": "middle",
+    "textBaseline": "hanging"
+  },
+  "requirements": [],
+  "elements": [
+    {
+      "type": "image",
+      "name": "background",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "image",
+      "name": "image",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "image",
+      "name": "frame",
+      "x": 0,
+      "y": 0
+    }
+  ],
+  "subTypes": [
+    {
+      "requirements": [
+        {
+          "name": "deck",
+          "values": [ "Item" ]
+        }
+      ],
+      "elements": [
+        {
+          "type": "text",
+          "name": "titlex",
+          "styles": {
+            "font": "belweb.ttf",
+            "x": 50,
+            "y": 60,
+            "xSize": 650,
+            "ySize": 100
+          }
+        },
+        {
+          "type": "text",
+          "name": "rules",
+          "styles": {
+            "x": 50,
+            "y": 650,
+            "xSize": 650,
+            "ySize": 350,
+            "maxFontSize": 200
+          }
+        },
+        {
+          "type": "text",
+          "name": "type",
+          "styles": {
+            "x": 47,
+            "y": 47,
+            "xSize": 100,
+            "ySize": 100
+          }
+        },
+        {
+          "type": "text",
+          "name": "effect",
+          "styles": {
+            "x": 603,
+            "y": 47,
+            "xSize": 100,
+            "ySize": 100
+          }
+        }
+      ],
+      "subTypes": [
+      ]
+    },
+    {
+      "requirements": [
+        {
+          "name": "deck",
+          "values": [ "Monster" ]
+        }
+      ],
+      "elements": [
+        {
+          "type": "text",
+          "name": "title",
+          "styles": {
+            "font": "belweb.ttf",
+            "x": 50,
+            "y": 600,
+            "xSize": 660,
+            "ySize": 110
+          }
+        },
+        {
+          "type": "text",
+          "name": "rules",
+          "styles": {
+            "x": 75,
+            "y": 750,
+            "xSize": 600,
+            "ySize": 250,
+            "maxFontSize": 200
+          }
+        },
+        {
+          "type": "text",
+          "name": "weakness",
+          "styles": {
+            "x": 34,
+            "y": 36,
+            "xSize": 100,
+            "ySize": 100
+          }
+        },
+        {
+          "type": "text",
+          "name": "attack",
+          "styles": {
+            "x": 39,
+            "y": 909,
+            "xSize": 100,
+            "ySize": 100
+          }
+        },
+        {
+          "type": "text",
+          "name": "health",
+          "styles": {
+            "x": 613,
+            "y": 909,
+            "xSize": 100,
+            "ySize": 100
+          }
+        }
+      ],
+      "subTypes": [
+      ]
+    },
+    {
+      "requirements": [
+        {
+          "name": "deck",
+          "values": [ "Character" ]
+        }
+      ],
+      "elements": [
+        {
+          "type": "text",
+          "name": "title",
+          "styles": {
+            "font": "belweb.ttf",
+            "x": 63,
+            "y": 738,
+            "xSize": 625,
+            "ySize": 75
+          }
+        },
+        {
+          "type": "text",
+          "name": "rules",
+          "styles": {
+            "x": 100,
+            "y": 838,
+            "xSize": 550,
+            "ySize": 125
+          }
+        }
+      ],
+      "subTypes": [
+      ]
+    }
+  ],
+  "constants": {
+    "SizeCircle": "SizePlatform.png",
+
+    "damage": {
+      "imageFile": "damage.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "health": {
+      "imageFile": "health.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "defense": {
+      "imageFile": "defense.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "healing": {
+      "imageFile": "healing.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "barbarian": {
+      "imageFile": "barbarian.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "druid": {
+      "imageFile": "druid.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "cleric": {
+      "imageFile": "cleric.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "gladiator": {
+      "imageFile": "gladiator.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "rogue": {
+      "imageFile": "rogue.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "wizard": {
+      "imageFile": "wizard.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "flee": {
+      "imageFile": "flee.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "fight": {
+      "imageFile": "fight.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "cost": {
+      "text": "$",
+      "styles": {}
+    }
+  }
+}
