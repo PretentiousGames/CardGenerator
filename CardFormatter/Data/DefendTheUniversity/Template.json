@@ -374,6 +374,46 @@
           ]
         }
       ]
+    },
+    {
+      "requirements": [
+        {
+          "name": "deck",
+          "values": [ "playing" ]
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "name": "frame",
+          "constant": "frame",
+          "draw": false
+        },
+        {
+          "type": "text",
+          "name": "value1",
+          "styles": {
+            "font": "belweb.ttf",
+            "x": 175,
+            "y": 125,
+            "xSize": 100,
+            "ySize": 100
+          }
+        },
+        {
+          "type": "text",
+          "name": "value2",
+          "styles": {
+            "font": "belweb.ttf",
+            "x": 550,
+            "y": 875,
+            "xSize": 100,
+            "ySize": 100,
+            "rotate": 180
+          }
+        }
+      ],
+      "subTypes": []
     }
   ],
   "constants": {
@@ -384,6 +424,24 @@
     "TypeCircle": "TypeCircle.png",
     "SizeCircle": "SizePlatform.png",
 
+    "A": {
+      "imageFile": "hourglass.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "B": {
+      "imageFile": "clock.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "C": {
+      "imageFile": "star.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
     "foeCard": {
       "imageFile": "foeCard.png",
       "yPadding": 0.25,

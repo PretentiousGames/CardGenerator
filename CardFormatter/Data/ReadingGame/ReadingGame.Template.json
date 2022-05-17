@@ -1,6 +1,6 @@
 ﻿{
-  "fullWidth": 825,
-  "fullHeight": 1125,
+  "fullWidth": 750,
+  "fullHeight": 1050,
   "styles": {
     "font": "arial.ttf",
     "maxFontSize": 100,
@@ -143,9 +143,9 @@
           "name": "health",
           "styles": {
             "x": 613,
-            "y": 909,
+            "y": 919,
             "xSize": 100,
-            "ySize": 100
+            "ySize": 80
           }
         }
       ],
