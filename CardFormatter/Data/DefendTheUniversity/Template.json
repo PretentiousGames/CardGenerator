@@ -53,40 +53,40 @@
           "name": "title",
           "styles": {
             "font": "belweb.ttf",
-            "x": 287,
-            "y": 125,
-            "xSize": 550,
-            "ySize": 100
+            "x": 288,
+            "y": 121,
+            "xSize": 547,
+            "ySize": 96
           }
         },
         {
           "type": "text",
           "name": "type",
           "styles": {
-            "x": 131,
-            "y": 125,
-            "xSize": 150,
-            "ySize": 100
+            "x": 137,
+            "y": 121,
+            "xSize": 120,
+            "ySize": 96
           }
         },
         {
           "type": "text",
           "name": "effects",
           "styles": {
-            "x": 844,
-            "y": 125,
-            "xSize": 150,
-            "ySize": 100
+            "x": 865,
+            "y": 121,
+            "xSize": 122,
+            "ySize": 96
           }
         },
         {
           "type": "text",
           "name": "requirements",
           "styles": {
-            "x": 287,
-            "y": 574,
-            "xSize": 550,
-            "ySize": 117,
+            "x": 281,
+            "y": 570,
+            "xSize": 559,
+            "ySize": 118,
             "maxFontSize": 100
           }
         },
@@ -94,20 +94,20 @@
           "type": "text",
           "name": "bonusAbilities",
           "styles": {
-            "x": 143,
-            "y": 583,
-            "xSize": 133,
-            "ySize": 99
+            "x": 137,
+            "y": 570,
+            "xSize": 115,
+            "ySize": 119
           }
         },
         {
           "type": "text",
           "name": "health",
           "styles": {
-            "x": 850,
-            "y": 583,
-            "xSize": 133,
-            "ySize": 99
+            "x": 869,
+            "y": 570,
+            "xSize": 119,
+            "ySize": 119
           }
         }
       ],
