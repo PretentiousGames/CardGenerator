@@ -1,0 +1,918 @@
+﻿{
+  "fullWidth": 825,
+  "fullHeight": 1125,
+  "styles": {
+    "font": "arial.ttf",
+    "maxFontSize": 100,
+    "minFontSize": 10,
+    "lineHeight": 1,
+    "offset": -0.147,
+    "xOffset": 0.052,
+    "justification": "center",
+    "alignment": "middle",
+    "textBaseline": "hanging"
+  },
+  "requirements": [],
+  "elements": [
+    {
+      "type": "image",
+      "name": "background",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "image",
+      "name": "image",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "image",
+      "name": "frame",
+      "x": 0,
+      "y": 0
+    }
+  ],
+  "subTypes": [
+    {
+      "requirements": [
+        {
+          "name": "deck",
+          "values": [ "foe" ]
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "name": "frame",
+          "constant": "hFrame",
+          "draw": false
+        },
+        {
+          "type": "text",
+          "name": "title",
+          "styles": {
+            "font": "belweb.ttf",
+            "x": 288,
+            "y": 121,
+            "xSize": 547,
+            "ySize": 96
+          }
+        },
+        {
+          "type": "text",
+          "name": "type",
+          "styles": {
+            "x": 137,
+            "y": 121,
+            "xSize": 120,
+            "ySize": 96
+          }
+        },
+        {
+          "type": "text",
+          "name": "effects",
+          "styles": {
+            "x": 865,
+            "y": 121,
+            "xSize": 122,
+            "ySize": 96
+          }
+        },
+        {
+          "type": "text",
+          "name": "requirements",
+          "styles": {
+            "x": 281,
+            "y": 570,
+            "xSize": 559,
+            "ySize": 118,
+            "maxFontSize": 100
+          }
+        },
+        {
+          "type": "text",
+          "name": "bonusAbilities",
+          "styles": {
+            "x": 137,
+            "y": 570,
+            "xSize": 115,
+            "ySize": 119
+          }
+        },
+        {
+          "type": "text",
+          "name": "health",
+          "styles": {
+            "x": 869,
+            "y": 570,
+            "xSize": 119,
+            "ySize": 119
+          }
+        }
+      ],
+      "subTypes": [
+      ]
+    },
+    {
+      "requirements": [
+        {
+          "name": "deck",
+          "values": [ "part", "technology", "startPart" ]
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "name": "frame",
+          "constant": "frame",
+          "draw": false
+        },
+        {
+          "type": "text",
+          "name": "title",
+          "styles": {
+            "font": "belweb.ttf",
+            "x": 150,
+            "y": 130,
+            "xSize": 525,
+            "ySize": 87
+          }
+        },
+        {
+          "type": "text",
+          "name": "rules",
+          "styles": {
+            "x": 150,
+            "y": 860,
+            "xSize": 525,
+            "ySize": 150,
+            "maxFontSize": 100
+          }
+        },
+        {
+          "type": "text",
+          "name": "textOnlyRules",
+          "styles": {
+            "x": 143,
+            "y": 883,
+            "xSize": 539,
+            "ySize": 100,
+            "maxFontSize": 100
+          }
+        }
+
+      ],
+      "subTypes": [
+        {
+          "requirements": [
+            {
+              "name": "size",
+              "values": [ "1" ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "1Size.png",
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "size",
+              "values": [ "2" ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "2Size.png",
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "size",
+              "values": [ "3" ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "3Size.png",
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "size",
+              "values": [ "4" ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "4Size.png",
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "size",
+              "values": [ "5" ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "5Size.png",
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "rules",
+              "values": [ "+2{space}" ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "2Space.png",
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "size",
+              "exists": true
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "sizePlatform",
+              "constant": "SizeCircle",
+              "x": 560,
+              "y": 740,
+              "xSize": 140,
+              "ySize": 130
+            },
+            {
+              "type": "text",
+              "name": "size",
+              "suffix": { "constant": "size" },
+              "styles": {
+                "x": 555,
+                "y": 780,
+                "xSize": 150,
+                "ySize": 80
+              }
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "type",
+              "exists": true
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "typePlatform",
+              "constant": "TypeCircle",
+              "x": 100,
+              "y": 230
+            },
+            {
+              "type": "text",
+              "name": "type",
+              "styles": {
+                "x": 105,
+                "y": 235,
+                "xSize": 190,
+                "ySize": 90
+              }
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "costs",
+              "exists": true
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "costsPlatform",
+              "constant": "CostCircle",
+              "x": 588,
+              "y": 225,
+              "xSize": 125,
+              "ySize": 125
+            },
+            {
+              "type": "text",
+              "name": "costs",
+              "styles": {
+                "x": 600,
+                "y": 244,
+                "xSize": 100,
+                "ySize": 100
+              }
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "icon",
+              "exists": true
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "iconPlatform",
+              "constant": "strengthPlatform",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "type": "text",
+              "name": "icon",
+              "styles": {
+                "x": 602,
+                "y": 727,
+                "xSize": 121,
+                "ySize": 121
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requirements": [
+        {
+          "name": "deck",
+          "values": ["character" ]
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "name": "frame",
+          "constant": "peopleFrame",
+          "draw": false
+        },
+        {
+          "type": "text",
+          "name": "title",
+          "styles": {
+            "font": "belweb.ttf",
+            "x": 150,
+            "y": 130,
+            "xSize": 525,
+            "ySize": 87
+          }
+        },
+        {
+          "type": "text",
+          "name": "rules",
+          "styles": {
+            "x": 150,
+            "y": 860,
+            "xSize": 525,
+            "ySize": 150,
+            "maxFontSize": 100
+          }
+        },
+        {
+          "type": "text",
+          "name": "textOnlyRules",
+          "styles": {
+            "x": 143,
+            "y": 883,
+            "xSize": 539,
+            "ySize": 100,
+            "maxFontSize": 100
+          }
+        }
+
+      ],
+      "subTypes": [
+        {
+          "requirements": [
+            {
+              "name": "size",
+              "values": [ "1" ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "1Size.png",
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "size",
+              "values": [ "2" ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "2Size.png",
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "size",
+              "values": [ "3" ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "3Size.png",
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "size",
+              "values": [ "4" ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "4Size.png",
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "size",
+              "values": [ "5" ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "5Size.png",
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "rules",
+              "values": [ "+2{space}" ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "2Space.png",
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "size",
+              "exists": true
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "sizePlatform",
+              "constant": "SizeCircle",
+              "x": 560,
+              "y": 740,
+              "xSize": 140,
+              "ySize": 130
+            },
+            {
+              "type": "text",
+              "name": "size",
+              "suffix": { "constant": "size" },
+              "styles": {
+                "x": 555,
+                "y": 780,
+                "xSize": 150,
+                "ySize": 80
+              }
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "type",
+              "exists": true
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "typePlatform",
+              "constant": "TypeCircle",
+              "x": 100,
+              "y": 230
+            },
+            {
+              "type": "text",
+              "name": "type",
+              "styles": {
+                "x": 105,
+                "y": 235,
+                "xSize": 190,
+                "ySize": 90
+              }
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "costs",
+              "exists": true
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "costsPlatform",
+              "constant": "CostCircle",
+              "x": 588,
+              "y": 225,
+              "xSize": 125,
+              "ySize": 125
+            },
+            {
+              "type": "text",
+              "name": "costs",
+              "styles": {
+                "x": 600,
+                "y": 244,
+                "xSize": 100,
+                "ySize": 100
+              }
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "icon",
+              "exists": true
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "iconPlatform",
+              "constant": "strengthPlatform",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "type": "text",
+              "name": "icon",
+              "styles": {
+                "x": 602,
+                "y": 727,
+                "xSize": 121,
+                "ySize": 121
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requirements": [
+        {
+          "name": "deck",
+          "values": [ "playing" ]
+        }
+      ],
+      "elements": [
+        {
+          "type": "image",
+          "name": "frame",
+          "constant": "frame",
+          "draw": false
+        },
+        {
+          "type": "text",
+          "name": "value1",
+          "styles": {
+            "font": "belweb.ttf",
+            "x": 175,
+            "y": 125,
+            "xSize": 100,
+            "ySize": 100
+          }
+        },
+        {
+          "type": "text",
+          "name": "value2",
+          "styles": {
+            "font": "belweb.ttf",
+            "x": 550,
+            "y": 875,
+            "xSize": 100,
+            "ySize": 100,
+            "rotate": 180
+          }
+        }
+      ],
+      "subTypes": []
+    }
+  ],
+  "constants": {
+    "verticalBackground": "Background.png",
+    "frame": "Frame.png",
+    "peopleFrame": "peopleFrame.png",
+    "hFrame": "HorizontalFrame.png",
+    "CostCircle": "CostCircle.png",
+    "TypeCircle": "TypeCircle.png",
+    "SizeCircle": "SizePlatform.png",
+
+    "A": {
+      "imageFile": "hourglass.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "B": {
+      "imageFile": "clock.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "C": {
+      "imageFile": "star.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "foeCard": {
+      "imageFile": "foeCard.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "regeneration": {
+      "imageFile": "regeneration.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "health": {
+      "imageFile": "health.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "beast": {
+      "imageFile": "beast.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "flier": {
+      "imageFile": "flier.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "robot": {
+      "imageFile": "robot.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "plant": {
+      "imageFile": "plant.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "undead": {
+      "imageFile": "undead.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "abomination": {
+      "imageFile": "abomination.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "royal": {
+      "imageFile": "royal.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "temp": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1.15,
+      "imageFile": "temp.png"
+    },
+    "-coolant": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "-coolant.png"
+    },
+    "+coolant": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "+coolant.png"
+    },
+
+    "controller": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "controller.png"
+    },
+
+    "->": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "arrow.png"
+    },
+    "fire": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "fire.png"
+    },
+    "acid": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "acid.png"
+    },
+    "bullets": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "bullets.png"
+    },
+    "punch": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "punch.png"
+    },
+    "scratch": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "scratch.png"
+    },
+    "electricity": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "electricity.png"
+    },
+    "speed": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "speed.png"
+    },
+    "wildAttack": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "wildAttack.png"
+    },
+    "yields": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "yields.png"
+    },
+    "flip": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "flip.png"
+    },
+    "damage": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "damage.png"
+    },
+    "attack": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "attack.png"
+    },
+    "energy": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "energy.png"
+    },
+    "+energy": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "+energy.png"
+    },
+    "-energy": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "-energy.png"
+    },
+    "cost": {
+      "text": "$",
+      "styles": {}
+    },
+    "size": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "size.png"
+    },
+    "repair": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "repair.png"
+    },
+    "defense": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "defense.png"
+    },
+    "space": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "space.png"
+    }
+  }
+}

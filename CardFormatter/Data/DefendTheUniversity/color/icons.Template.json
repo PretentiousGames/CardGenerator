@@ -1,0 +1,217 @@
+﻿{
+  "fullWidth": 500,
+  "fullHeight": 500,
+  "styles": {
+    "font": "arial.ttf",
+    "maxFontSize": 500,
+    "minFontSize": 10,
+    "lineHeight": 1,
+    "offset": -0.147,
+    "xOffset": 0.052,
+    "justification": "center",
+    "alignment": "middle",
+    "textBaseline": "hanging"
+  },
+  "requirements": [],
+  "elements": [
+    {
+      "type": "text",
+      "name": "i",
+      "styles": {
+        "font": "belweb.ttf",
+        "x": 0,
+        "y": 0,
+        "xSize": 500,
+        "ySize": 500
+      }
+    }],
+  "subTypes": [],
+  "constants": {
+    "beast": {
+      "imageFile": "beast.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "flier": {
+      "imageFile": "flier.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "robot": {
+      "imageFile": "robot.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "plant": {
+      "imageFile": "plant.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "undead": {
+      "imageFile": "undead.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "abomination": {
+      "imageFile": "abomination.png",
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1
+    },
+    "temp": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1.15,
+      "imageFile": "temp.png"
+    },
+    "-coolant": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "-coolant.png"
+    },
+    "+coolant": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "+coolant.png"
+    },
+
+    "controller": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "controller.png"
+    },
+
+    "->": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "arrow.png"
+    },
+    "fire": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "fire.png"
+    },
+    "acid": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "acid.png"
+    },
+    "bullets": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "bullets.png"
+    },
+    "punch": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "punch.png"
+    },
+    "scratch": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "scratch.png"
+    },
+    "electricity": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "electricity.png"
+    },
+    "speed": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "speed.png"
+    },
+    "wildAttack": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "wildAttack.png"
+    },
+    "yields": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "yields.png"
+    },
+    "flip": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "flip.png"
+    },
+    "damage": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "damage.png"
+    },
+    "attack": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "attack.png"
+    },
+    "energy": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "energy.png"
+    },
+    "+energy": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "+energy.png"
+    },
+    "-energy": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "-energy.png"
+    },
+    "cost": {
+      "text": "$",
+      "styles": {}
+    },
+    "size": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "size.png"
+    },
+    "repair": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "repair.png"
+    },
+    "defense": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "defense.png"
+    },
+    "space": {
+      "yPadding": 0.1,
+      "xImgOffset": -2,
+      "relativeSize": 1.1,
+      "imageFile": "space.png"
+    }
+  }
+}
