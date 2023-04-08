@@ -1,0 +1,1 @@
+convert %1 -colorize 80% %1

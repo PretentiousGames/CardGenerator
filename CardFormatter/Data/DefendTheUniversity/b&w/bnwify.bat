@@ -1,0 +1,1 @@
+convert %1 -canny 0x1+10%+30% -negate %1

@@ -15,8 +15,8 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CardFormatter</RootNamespace>
     <AssemblyName>CardFormatter</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
-    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -29,6 +29,7 @@
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
     <Use64BitIISExpress />
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -52,22 +53,21 @@
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Web.Razor">
@@ -421,7 +421,6 @@
     <Content Include="Data\DefendTheUniversity\b&amp;w\blank.png" />
     <Content Include="Data\DefendTheUniversity\b&amp;w\bullets.outline.png" />
     <Content Include="Data\DefendTheUniversity\b&amp;w\bullets.png" />
-    <Content Include="Data\DefendTheUniversity\b&amp;w\c11.png" />
     <Content Include="Data\DefendTheUniversity\b&amp;w\clock.png" />
     <Content Include="Data\DefendTheUniversity\b&amp;w\CostCircle.png" />
     <Content Include="Data\DefendTheUniversity\b&amp;w\damage.png" />
@@ -488,7 +487,6 @@
     <Content Include="Data\DefendTheUniversity\b&amp;w\sampleCaper.jpg" />
     <Content Include="Data\DefendTheUniversity\b&amp;w\SampleImage.png" />
     <Content Include="Data\DefendTheUniversity\b&amp;w\SampleMonster.jpg" />
-    <Content Include="Data\DefendTheUniversity\b&amp;w\SamplePart.c.png" />
     <Content Include="Data\DefendTheUniversity\b&amp;w\SamplePart.jpg" />
     <Content Include="Data\DefendTheUniversity\b&amp;w\sampleReactor.jpg" />
     <Content Include="Data\DefendTheUniversity\b&amp;w\sampleTechnology.jpg" />
@@ -730,7 +728,6 @@
     <Content Include="Data\Infamous.18\TissueDisruptor.png" />
     <Content Include="Data\Infamous.18\Torturer.png" />
     <Content Include="Data\Infamous.18\Trash.png" />
-    <Content Include="Data\Infamous.18\trashBG.png" />
     <Content Include="Data\Infamous.18\TrenchcoatGenerator.png" />
     <Content Include="Data\Infamous.18\VampirePepper.png" />
     <Content Include="Data\Infamous.18\verticalBackground.png" />
@@ -805,47 +802,11 @@
     <Content Include="Data\Infamous\verticalBackground.png" />
     <Content Include="Data\Infamous\volcanicProbe.png" />
     <Content Include="Data\Infamous\ZombieCannon.png" />
-    <Content Include="Data\Polynesia.new\Images\Archer.png" />
-    <Content Include="Data\Polynesia.new\Images\Baldur.png" />
-    <Content Include="Data\Polynesia.new\Images\Bragi.png" />
-    <Content Include="Data\Polynesia.new\Images\Chief.png" />
-    <Content Include="Data\Polynesia.new\Images\Freyja.png" />
-    <Content Include="Data\Polynesia.new\Images\Freyr.png" />
-    <Content Include="Data\Polynesia.new\Images\Frigg.png" />
     <Content Include="Data\Polynesia.new\Images\God.png" />
     <Content Include="Data\Polynesia.new\Images\Gods.png" />
-    <Content Include="Data\Polynesia.new\Images\Heimdallur.png" />
-    <Content Include="Data\Polynesia.new\Images\Hel.png" />
-    <Content Include="Data\Polynesia.new\Images\Hero.png" />
-    <Content Include="Data\Polynesia.new\Images\Idunn.png" />
-    <Content Include="Data\Polynesia.new\Images\Jord.png" />
-    <Content Include="Data\Polynesia.new\Images\Lady.png" />
     <Content Include="Data\Polynesia.new\Images\Leader.png" />
     <Content Include="Data\Polynesia.new\Images\Leaders.png" />
-    <Content Include="Data\Polynesia.new\Images\Loki.png" />
-    <Content Include="Data\Polynesia.new\Images\Lord.png" />
-    <Content Include="Data\Polynesia.new\Images\Lord2.png" />
-    <Content Include="Data\Polynesia.new\Images\Mother.png" />
-    <Content Include="Data\Polynesia.new\Images\Njordr.png" />
-    <Content Include="Data\Polynesia.new\Images\Noble.png" />
-    <Content Include="Data\Polynesia.new\Images\Odin.png" />
     <Content Include="Data\Polynesia.new\Images\Platforms.png" />
-    <Content Include="Data\Polynesia.new\Images\Poet.png" />
-    <Content Include="Data\Polynesia.new\Images\Politician.png" />
-    <Content Include="Data\Polynesia.new\Images\Priestess.png" />
-    <Content Include="Data\Polynesia.new\Images\Princess.png" />
-    <Content Include="Data\Polynesia.new\Images\Prophetess.png" />
-    <Content Include="Data\Polynesia.new\Images\Ranger.png" />
-    <Content Include="Data\Polynesia.new\Images\Ruler.png" />
-    <Content Include="Data\Polynesia.new\Images\Sif.png" />
-    <Content Include="Data\Polynesia.new\Images\Skadi.png" />
-    <Content Include="Data\Polynesia.new\Images\Sorceress.png" />
-    <Content Include="Data\Polynesia.new\Images\Thor.png" />
-    <Content Include="Data\Polynesia.new\Images\Tyr.png" />
-    <Content Include="Data\Polynesia.new\Images\Ullr.png" />
-    <Content Include="Data\Polynesia.new\Images\Verdandi.png" />
-    <Content Include="Data\Polynesia.new\Images\Warrior.png" />
-    <Content Include="Data\Polynesia.new\Images\Weaver.png" />
     <Content Include="Data\Polynesia.new\Tiles\0.png" />
     <Content Include="Data\Polynesia.new\Tiles\1.png" />
     <Content Include="Data\Polynesia.new\Tiles\10.png" />
@@ -1176,22 +1137,12 @@
     <Content Include="Data\ReadingGame\Fury.png" />
     <Content Include="Data\ReadingGame\GladiatorWeakness.png" />
     <Content Include="Data\ReadingGame\HealerWeakness.png" />
-    <Content Include="Data\ReadingGame\item1.png" />
-    <Content Include="Data\ReadingGame\item10.png" />
-    <Content Include="Data\ReadingGame\item2.png" />
     <Content Include="Data\ReadingGame\item3.png" />
-    <Content Include="Data\ReadingGame\item4.png" />
-    <Content Include="Data\ReadingGame\item5.png" />
-    <Content Include="Data\ReadingGame\item6.png" />
-    <Content Include="Data\ReadingGame\item7.png" />
-    <Content Include="Data\ReadingGame\item8.png" />
-    <Content Include="Data\ReadingGame\item9.png" />
     <Content Include="Data\ReadingGame\itemBackground.png" />
     <Content Include="Data\ReadingGame\itemBorder.png" />
     <Content Include="Data\ReadingGame\Jambler.png" />
     <Content Include="Data\ReadingGame\JubJambler.png" />
     <Content Include="Data\ReadingGame\Mimic.png" />
-    <Content Include="Data\ReadingGame\monsterBackground.png" />
     <Content Include="Data\ReadingGame\monsterBorder.png" />
     <Content Include="Data\ReadingGame\Octopot.png" />
     <Content Include="Data\ReadingGame\RogueWeakness.png" />
@@ -1257,7 +1208,6 @@
     <Content Include="Data\DefendTheUniversity\color\Aharoni-True.ttf" />
     <Content Include="Data\DefendTheUniversity\color\arial.ttf" />
     <Content Include="Data\DefendTheUniversity\color\belweb.ttf" />
-    <Content Include="Data\DefendTheUniversity\color\DataFile - Copy.xlsx" />
     <Content Include="Data\DefendTheUniversity\color\DataFile.xlsx" />
     <Content Include="Data\DefendTheUniversity\color\few.DataFile.foo.csv" />
     <Content Include="Data\DefendTheUniversity\color\icons.DataFile.foo.csv" />
@@ -1571,57 +1521,6 @@
     <Content Include="Data\JurassicUniverse\tempRegulator.2.png" />
     <Content Include="Data\JurassicUniverse\tempRegulator.png" />
     <Content Include="Data\JurassicUniverse\tiger.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\0.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\1.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\10.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\11.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\12.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\13.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\14.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\15.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\16.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\17.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\18.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\19.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\2.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\20.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\21.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\22.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\23.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\24.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\25.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\26.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\27.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\28.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\29.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\3.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\30.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\31.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\32.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\33.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\34.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\35.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\36.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\37.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\38.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\39.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\4.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\40.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\41.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\42.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\43.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\44.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\45.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\46.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\47.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\48.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\49.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\5.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\6.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\7.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\8.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\9.png" />
-    <Content Include="Data\JurassicUniverse\Tiles\platforms.png" />
     <Content Include="Data\JurassicUniverse\tofuGenerator.png" />
     <Content Include="Data\JurassicUniverse\trex.png" />
     <Content Include="Data\JurassicUniverse\triceratops.png" />
@@ -2220,9 +2119,7 @@
     <Content Include="bower_components\paper-toggle-button\bower.json" />
     <Content Include="bower_components\paper-toggle-button\README.md" />
     <Content Include="bower_components\polymer\bower.json" />
-    <Content Include="bower_components\polymer\build.log" />
     <Content Include="bower_components\webcomponentsjs\bower.json" />
-    <Content Include="bower_components\webcomponentsjs\build.log" />
     <Content Include="bower_components\webcomponentsjs\package.json" />
     <Content Include="bower_components\webcomponentsjs\README.md" />
     <Content Include="bower_components\iron-icon\bower.json" />
@@ -2270,8 +2167,6 @@
     <Content Include="Data\TheDragonsGame\full.Data.json" />
     <Content Include="Data\TheDragonsGame\full.Template.json" />
     <Content Include="Data\Sorcery\rexlia rg.ttf" />
-    <Content Include="Data\JurassicUniverse\SpaceGame.tiles.data.json" />
-    <Content Include="Data\JurassicUniverse\SpaceGame.tiles.template.json" />
     <Content Include="Data\JurassicUniverse\RexliaRg-Regular.ttf" />
     <Content Include="Data\ExtinctionEvents\Aharoni-True.ttf" />
     <Content Include="Data\ExtinctionEvents\EE.Cards.Data.json" />
@@ -2288,7 +2183,6 @@
     <Content Include="Data\TerranLeagueOfDefenseRobots\Template.TLDR.json" />
     <Content Include="Data\ThePerfectMoment\00tpm.Template.json" />
     <Content Include="Data\TerranLeagueOfDefenseRobots\00map.Data.json" />
-    <Content Include="Data\TerranLeagueOfDefenseRobots\00map.Template.json" />
     <Content Include="Data\GrabTheLoot\Aharoni-True.ttf" />
     <Content Include="Data\GrabTheLoot\a_gtl.Template.json" />
     <Content Include="Data\TheMadnessPlace\MP.Cards.foo.Data.json" />
@@ -2363,6 +2257,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Data\JurassicUniverse\Tiles\" />
     <Folder Include="Data\Polynesia.old\fewerImages\" />
     <Folder Include="Data\Scotts\" />
     <Folder Include="Models\" />

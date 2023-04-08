@@ -16,7 +16,7 @@
   "elements": [
     {
       "type": "image",
-      "name": "background",
+      "name": "background.png",
       "x": 0,
       "y": 0
     },
@@ -73,15 +73,15 @@
           "type": "text",
           "name": "effects",
           "styles": {
-            "x": 865,
-            "y": 121,
-            "xSize": 122,
-            "ySize": 96
+            "x": 137,
+            "y": 570,
+            "xSize": 115,
+            "ySize": 119
           }
         },
         {
           "type": "text",
-          "name": "requirements",
+          "name": "weaknesses",
           "styles": {
             "x": 281,
             "y": 570,
@@ -94,10 +94,10 @@
           "type": "text",
           "name": "bonusAbilities",
           "styles": {
-            "x": 137,
-            "y": 570,
-            "xSize": 115,
-            "ySize": 119
+            "x": 865,
+            "y": 121,
+            "xSize": 122,
+            "ySize": 96
           }
         },
         {
@@ -112,6 +112,167 @@
         }
       ],
       "subTypes": [
+      ]
+    },
+    {
+      "requirements": [
+        {
+          "name": "deck",
+          "values": [ "monster" ]
+        }
+      ],
+      "elements": [
+        {
+          "type": "text",
+          "name": "title",
+          "styles": {
+            "font": "belweb.ttf",
+            "x": 150,
+            "y": 130,
+            "xSize": 429,
+            "ySize": 87
+          }
+        },
+        {
+          "type": "text",
+          "name": "rules",
+          "styles": {
+            "x": 150,
+            "y": 840,
+            "xSize": 525,
+            "ySize": 155,
+            "maxFontSize": 100
+          }
+        },
+        {
+          "type": "text",
+          "name": "trigger",
+          "styles": {
+            "x": 115,
+            "y": 754,
+            "xSize": 475,
+            "ySize": 79,
+            "alignment": "middle",
+            "maxFontSize": 100
+          }
+        },
+        {
+          "type": "text",
+          "name": "improvement",
+          "styles": {
+            "x": 616,
+            "y": 96,
+            "xSize": 115,
+            "ySize": 115,
+            "alignment": "middle",
+            "rotate": 0
+          }
+        },
+        {
+          "type": "image",
+          "name": "background",
+          "draw": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "subTypes": [
+        {
+          "requirements": [
+            {
+              "name": "style",
+              "values": [ "Flesh" ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "frame",
+              "constant": "FleshFrame",
+              "draw": false
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "style",
+              "values": [ "Trash" ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "frame",
+              "constant": "TrashFrame",
+              "draw": false
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "style",
+              "values": [ "Metal" ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "frame",
+              "constant": "MetalFrame",
+              "draw": false
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "style",
+              "values": [ "Chemical" ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "frame",
+              "constant": "ChemicalFrame",
+              "draw": false
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "style",
+              "values": [ "Steam" ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "frame",
+              "constant": "SteamFrame",
+              "draw": false
+            }
+          ]
+        },
+        {
+          "requirements": [
+            {
+              "name": "style",
+              "values": [ "Electrical" ]
+            }
+          ],
+          "elements": [
+            {
+              "type": "image",
+              "name": "frame",
+              "constant": "ElectricalFrame",
+              "draw": false
+            }
+          ]
+        }
       ]
     },
     {
@@ -685,7 +846,14 @@
     "CostCircle": "CostCircle.png",
     "TypeCircle": "TypeCircle.png",
     "SizeCircle": "SizePlatform.png",
+    "FleshFrame": "FleshFrame.png",
+    "ElectricalFrame": "ElectricalFrame.png",
+    "SteamFrame": "SteamFrame.png",
+    "ChemicalFrame": "ChemicalFrame.png",
+    "MetalFrame": "MetalFrame.png",
+    "TrashFrame": "TrashFrame.png",
 
+    "x": "×",
     "A": {
       "imageFile": "hourglass.png",
       "yPadding": 0.25,
@@ -913,6 +1081,42 @@
       "xImgOffset": -0,
       "relativeSize": 1,
       "imageFile": "space.png"
+    },
+    "chemical": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "chemical.png"
+    },
+    "electrical": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "energy.png"
+    },
+    "flesh": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "flesh.png"
+    },
+    "steam": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "steam.png"
+    },
+    "trash": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "trash.png"
+    },
+    "metal": {
+      "yPadding": 0.25,
+      "xImgOffset": -0,
+      "relativeSize": 1,
+      "imageFile": "metal.png"
     }
   }
 }
